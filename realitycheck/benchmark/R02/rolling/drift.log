@@ -1,0 +1,3 @@
+{"stage": "drafting", "mode": "control", "reports": []}
+{"stage": "drafting", "mode": "updated", "reports": ["R02-D01", "R02-D02"]}
+{"stage": "compared", "control": "no_material_drift", "updated": "no_material_drift", "attributable": [], "also_in_control": []}

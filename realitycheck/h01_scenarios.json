@@ -1,0 +1,259 @@
+{
+  "borrower_id": "H01",
+  "borrower": "Crocs — hypothetical scenario",
+  "synthetic": true,
+  "source_mode": "hypothetical_real_company",
+  "label": "Crocs — hypothetical private-credit scenario",
+  "disclosure": "Company background is sourced. Financial figures, loan terms, reports and scenario events are fictional.",
+  "description": "Six-month scenario: a routine month, a shipping disruption, mitigation, a wholesale slowdown, and a recovery that arrives with a missed cash floor. Two simulated amendments are adopted; a third draft is left for the user.",
+  "original_terms": {
+    "facility_m": 150.0,
+    "fixed_rate": 8.5,
+    "minimum_unrestricted_cash_m": 35.0,
+    "leverage_max": 2.75
+  },
+  "presentation": {
+    "as_of": "2027-04-19"
+  },
+  "events": [
+    {
+      "id": "H01-D01",
+      "title": "October 2026 management accounts",
+      "event_date": "2026-10-31",
+      "available_at": "2026-11-18",
+      "review_date": "2026-11-18",
+      "source_kind": "scenario_report",
+      "report_type": "company_financial",
+      "allow_no_impact": true,
+      "presentation_summary": "A routine month on the origination case. Tests that an ordinary report stays in the history without a false detection.",
+      "sources": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Unaudited management accounts for October 2026, delivered November 18, 2026. Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast. Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost."
+        },
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. No shipment delays beyond normal variation were recorded. No wholesale orders were cancelled or reduced beyond ordinary adjustments. No dividends, new Debt or liens arose in the month. The cash report lists all deposit accounts as held by Loan Parties with no restriction."
+        }
+      ]
+    },
+    {
+      "id": "H01-D02",
+      "title": "Ocean shipping disruption on Asia to East Coast routings",
+      "event_date": "2026-12-09",
+      "available_at": "2026-12-14",
+      "review_date": "2026-12-14",
+      "source_kind": "scenario_report",
+      "report_type": "industry_and_company",
+      "presentation_summary": "An industry disruption, plus company evidence showing which routings and costs are actually exposed.",
+      "sources": [
+        {
+          "document_id": "HFM-2026-12-10",
+          "locator": "P1 — industry report",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Harborline Freight Monitor, a fictional industry publication, reported on December 10, 2026 that major carriers suspended canal transits on Asia to United States East Coast services and are routing around the Cape. It estimates added transit time of 18 to 26 days and spot container rates up 62% on those services. The report names no shipper and expects the disruption to last at least through the first quarter of 2027; that is a forecast."
+        },
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P2 — exposed volume and cost responsibility",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Operations note dated December 11, 2026. 38% of the Loan Parties' purchase volume for the preceding twelve months ships on the affected routings. Expected delivery delay on that volume is 24 days, taking lead time from about 55 days to about 79 days. Goods are bought FOB origin, so the Borrower bears the ocean freight. About 70% of the affected containers move at spot rates. No alternative routing had been booked as of this note."
+        },
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P3 — knowledge and notice",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. The head of supply chain first learned of the carrier suspensions on December 9, 2026. The Borrower delivered written notice to the Lender on December 14, 2026 stating the affected volume, the expected duration and the actions being taken. A 13-week cash forecast had not yet been delivered as of December 14."
+        }
+      ]
+    },
+    {
+      "id": "H01-D03",
+      "title": "Rerouting and freight surcharge update",
+      "event_date": "2027-01-15",
+      "available_at": "2027-01-19",
+      "review_date": "2027-01-19",
+      "source_kind": "scenario_report",
+      "report_type": "company_remediation",
+      "allow_no_impact": true,
+      "presentation_summary": "Mitigation evidence. Tests which earlier concerns are reduced and which remain.",
+      "revision_note": "Revised development case (September 20, 2026). The first version of this report did not restate the 38% exposure or evidence the forecast refresh that version 1.1 requires, so the model could not judge either. Both facts were added; the first analysis is kept in h01_attempts/.",
+      "sources": [
+        {
+          "document_id": "H01-OPS-2027-01-15",
+          "locator": "P1 — rerouting",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Operations update dated January 15, 2027. The affected routings carry 38% of the Loan Parties' purchase volume for the preceding twelve months. 60% of that affected volume has been rebooked through United States West Coast ports with rail to the distribution center, which cuts the delay on that portion from 24 days to 9 days. The remaining 40% of the affected volume, about 15.2% of purchase volume, still moves around the Cape with a 24-day delay. No further alternative capacity is available before April 2027."
+        },
+        {
+          "document_id": "H01-OPS-2027-01-15",
+          "locator": "P2 — cost recovery",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Incremental freight cost for the first quarter of 2027 is estimated at $6.8 million. Wholesale customers representing most of the affected volume accepted a freight surcharge from February 1, 2027 that recovers 45% of the incremental cost, leaving about $3.7 million unrecovered. The surcharge does not apply to direct-to-consumer sales."
+        },
+        {
+          "document_id": "H01-OPS-2027-01-15",
+          "locator": "P3 — forecasts delivered",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. The head of supply chain first learned of the disruption on December 9, 2026, and the 13-week cash forecast required after it was delivered on December 22, 2026. The first refreshed forecast required every two weeks under version 1.1 was delivered on January 8, 2027; the next is due January 22, 2027. The January 8 forecast has a low point of $48.9 million in February 2027."
+        }
+      ]
+    },
+    {
+      "id": "H01-D04",
+      "title": "Wholesale customers cut spring orders; inventory ages",
+      "event_date": "2027-02-17",
+      "available_at": "2027-02-22",
+      "review_date": "2027-02-22",
+      "source_kind": "scenario_report",
+      "report_type": "company_operating",
+      "presentation_summary": "Reduced orders, older inventory and a lower cash forecast arrive together.",
+      "sources": [
+        {
+          "document_id": "H01-SALES-2027-02-19",
+          "locator": "P1 — order reductions",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Sales note dated February 19, 2027. Two wholesale customers reduced confirmed spring 2027 orders by a combined $22.0 million in the fiscal quarter ending March 31, 2027, citing slower sell-through of late-arriving winter product. The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027. Direct-to-consumer sales for January were 3% above the prior year."
+        },
+        {
+          "document_id": "H01-INV-2027-01",
+          "locator": "P2 — January inventory report",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Inventory report for January 31, 2027, delivered February 18, 2027. Inventory at the lower of cost and net realizable value was $181.5 million. Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination, mostly winter product that arrived after its selling window. No write-down was recorded in January."
+        },
+        {
+          "document_id": "H01-FCST-2027-02-22",
+          "locator": "P3 — updated cash forecast",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Updated 13-week cash forecast delivered February 22, 2027. Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast. The plan proposes deferring $4.0 million of new distribution capacity spending; it has not been approved."
+        }
+      ]
+    },
+    {
+      "id": "H01-D05",
+      "title": "Direct sales recover; March month-end cash report",
+      "event_date": "2027-03-31",
+      "available_at": "2027-04-19",
+      "review_date": "2027-04-19",
+      "source_kind": "scenario_report",
+      "report_type": "company_financial",
+      "presentation_summary": "Good sales news arrives with a month-end cash report. Tests whether positive news is allowed to cancel a missed obligation.",
+      "sources": [
+        {
+          "document_id": "H01-MGMT-2027-03",
+          "locator": "P1 — sales",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Management accounts for March 2027, delivered April 16, 2027. Direct-to-consumer sales were 18% above March 2026, helped by spring product that arrived on the rerouted services. Wholesale shipments were 11% below plan."
+        },
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Cash report as of March 31, 2027, delivered April 16, 2027. Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end."
+        },
+        {
+          "document_id": "H01-MGMT-2027-03",
+          "locator": "P3 — collections and lender contact",
+          "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Wholesale receivables collected in 61 days in March, compared with 46 days at origination, as two customers paid late. As of April 19, 2027 the Lender had not given written notice of any failure to comply."
+        }
+      ],
+      "pending_proposal": {
+        "id": "H01-AM03-DRAFT",
+        "version": "1.3",
+        "parent_version": "1.2",
+        "trigger_event_id": "H01-D05",
+        "title": "Time-limited cash-floor relief with weekly collections reporting",
+        "decision_at": null,
+        "effective_at": null,
+        "status": "proposed",
+        "rationale": "Unsigned discussion draft for the user to review. The March 31, 2027 month-end was below the floor while direct sales improved and collections slowed. Under the scenario lender policy, relief is offered only with a stated end date and compensating protection. Good sales news does not cure the missed floor; the historical failure is not waived by this draft.",
+        "changes": [
+          {
+            "clause_id": "C01",
+            "before": "The Loan Parties shall not permit Unrestricted Cash to be less than $35.0 million as of the last day of any calendar month, beginning October 31, 2026. Unrestricted Cash means cash and cash equivalents held by the Loan Parties in deposit accounts subject to the Lender's control agreement, excluding (a) cash pledged or deposited to secure customs bonds, letters of credit or other obligations, (b) cash held by any entity that is not a Loan Party, and (c) cash in transit that has not been credited to such an account. Compliance is shown by the monthly cash report delivered under C03.",
+            "after": "The Loan Parties shall not permit Unrestricted Cash to be less than $35.0 million as of the last day of any calendar month, beginning October 31, 2026. Unrestricted Cash means cash and cash equivalents held by the Loan Parties in deposit accounts subject to the Lender's control agreement, excluding (a) cash pledged or deposited to secure customs bonds, letters of credit or other obligations, (b) cash held by any entity that is not a Loan Party, and (c) cash in transit that has not been credited to such an account. Compliance is shown by the monthly cash report delivered under C03. For the month-ends of April 30, May 31 and June 30, 2027 only, the amount is $30.0 million; it returns to $35.0 million from July 31, 2027."
+          },
+          {
+            "clause_id": "C03",
+            "before": "The Borrower shall deliver to the Lender (a) within 20 calendar days after each calendar month-end, unaudited management accounts and a cash report listing each deposit account, its balance, its holder and any restriction; and (b) within 45 calendar days after each fiscal quarter-end, quarterly financial statements and a Compliance Certificate signed by the chief financial officer showing the calculation of Net Leverage and of Unrestricted Cash at each month-end in the quarter. A deadline that falls on a day that is not a Business Day moves to the next Business Day.",
+            "after": "The Borrower shall deliver to the Lender (a) within 20 calendar days after each calendar month-end, unaudited management accounts and a cash report listing each deposit account, its balance, its holder and any restriction; and (b) within 45 calendar days after each fiscal quarter-end, quarterly financial statements and a Compliance Certificate signed by the chief financial officer showing the calculation of Net Leverage and of Unrestricted Cash at each month-end in the quarter. A deadline that falls on a day that is not a Business Day moves to the next Business Day. From the effective date of Amendment 3 until July 31, 2027, the Borrower shall also deliver each Monday a wholesale collections report listing each receivable more than 15 days past due, the customer and the expected payment date."
+          }
+        ],
+        "instrument_text": "Fictional amendment H01-AM03-DRAFT within the Crocs — hypothetical private-credit scenario. No real instrument exists. Time-limited cash-floor relief with weekly collections reporting. C01 is replaced as shown. C03 is replaced as shown. Unsigned discussion draft for the user to review. The March 31, 2027 month-end was below the floor while direct sales improved and collections slowed. Under the scenario lender policy, relief is offered only with a stated end date and compensating protection. Good sales news does not cure the missed floor; the historical failure is not waived by this draft.",
+        "conditions": [
+          "Would require signature by the fictional Lender and a stated effective date."
+        ],
+        "waiver_scope": "The March 31, 2027 failure under C01 is not waived by this draft.",
+        "not_pursued": {
+          "title": "Keep version 1.2 and send a notice of the failure",
+          "description": "Open alternative, not yet rejected: give written notice under C09, require a cure within 10 Business Days and keep the current terms. Neither path has been selected."
+        },
+        "clause_id": "C01",
+        "description": "Draft relief for three month-ends with weekly collections reporting. Not adopted.",
+        "draft_at": "2027-04-19"
+      }
+    }
+  ],
+  "amendments": [
+    {
+      "id": "H01-AM01",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "trigger_event_id": "H01-D02",
+      "title": "Routing visibility and recurring forecasts during a supply disruption",
+      "decision_at": "2026-12-22",
+      "effective_at": "2026-12-28",
+      "status": "adopted",
+      "rationale": "Simulated analyst decision. The disruption exposes supply and margin assumptions while no threshold is near. In line with the scenario lender policy, the response adds visibility before tightening any limit.",
+      "changes": [
+        {
+          "clause_id": "C04",
+          "before": "Within 20 calendar days after each calendar month-end the Borrower shall deliver an inventory report stating inventory at the lower of cost and net realizable value, aged in buckets of 0 to 90 days, 91 to 180 days and more than 180 days, separately identifying goods in transit and goods held at each distribution location, and stating write-downs recorded in the month.",
+          "after": "Within 20 calendar days after each calendar month-end the Borrower shall deliver an inventory report stating inventory at the lower of cost and net realizable value, aged in buckets of 0 to 90 days, 91 to 180 days and more than 180 days, separately identifying goods in transit and goods held at each distribution location, and stating write-downs recorded in the month. Beginning with the report for December 31, 2026, the inventory report shall also state purchase volume and goods in transit by ocean routing and by manufacturer, and the expected arrival date of goods delayed by more than 21 days."
+        },
+        {
+          "clause_id": "C06",
+          "before": "Within 10 Business Days after a Responsible Officer first has knowledge of a Supply Disruption or a Material Order Loss, or after any month-end at which Unrestricted Cash is less than $45.0 million, the Borrower shall deliver a 13-week cash forecast reconciled to the latest cash report, with a written plan addressing any forecast week in which Unrestricted Cash is below that amount.",
+          "after": "Within 10 Business Days after a Responsible Officer first has knowledge of a Supply Disruption or a Material Order Loss, or after any month-end at which Unrestricted Cash is less than $45.0 million, the Borrower shall deliver a 13-week cash forecast reconciled to the latest cash report, with a written plan addressing any forecast week in which Unrestricted Cash is below that amount. While a Supply Disruption notified under C05 continues, the Borrower shall deliver a refreshed 13-week cash forecast every two weeks, beginning January 8, 2027."
+        }
+      ],
+      "instrument_text": "Fictional amendment H01-AM01 within the Crocs — hypothetical private-credit scenario. No real instrument exists. Routing visibility and recurring forecasts during a supply disruption. C04 is replaced as shown. C06 is replaced as shown. Simulated analyst decision. The disruption exposes supply and margin assumptions while no threshold is near. In line with the scenario lender policy, the response adds visibility before tightening any limit.",
+      "conditions": [
+        "13-week cash forecast delivered December 22, 2026."
+      ],
+      "waiver_scope": "None. No failure had occurred.",
+      "not_pursued": {
+        "title": "Tighten the cash floor immediately",
+        "description": "Considered and not pursued: raising the Unrestricted Cash floor. Cash was well above it and the evidence concerned visibility, not a shortfall."
+      }
+    },
+    {
+      "id": "H01-AM02",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "trigger_event_id": "H01-D04",
+      "title": "Aged-inventory reporting, weekly cash reporting and a pause on expansion spending",
+      "decision_at": "2027-03-04",
+      "effective_at": "2027-03-08",
+      "status": "adopted",
+      "rationale": "Simulated analyst decision. Inventory older than 180 days passed the memo's review level and the forecast low fell below the forecast trigger while still above the floor. The response protects liquidity through spending discipline and faster reporting, without changing the floor.",
+      "changes": [
+        {
+          "clause_id": "C04",
+          "before": "Within 20 calendar days after each calendar month-end the Borrower shall deliver an inventory report stating inventory at the lower of cost and net realizable value, aged in buckets of 0 to 90 days, 91 to 180 days and more than 180 days, separately identifying goods in transit and goods held at each distribution location, and stating write-downs recorded in the month. Beginning with the report for December 31, 2026, the inventory report shall also state purchase volume and goods in transit by ocean routing and by manufacturer, and the expected arrival date of goods delayed by more than 21 days.",
+          "after": "Within 20 calendar days after each calendar month-end the Borrower shall deliver an inventory report stating inventory at the lower of cost and net realizable value, aged in buckets of 0 to 90 days, 91 to 180 days and more than 180 days, separately identifying goods in transit and goods held at each distribution location, and stating write-downs recorded in the month. Beginning with the report for December 31, 2026, the inventory report shall also state purchase volume and goods in transit by ocean routing and by manufacturer, and the expected arrival date of goods delayed by more than 21 days. Beginning with the report for February 28, 2027, the report shall state, for inventory older than 180 days, units, cost, net realizable value, planned sell-through channel and any reserve."
+        },
+        {
+          "clause_id": "C06",
+          "before": "Within 10 Business Days after a Responsible Officer first has knowledge of a Supply Disruption or a Material Order Loss, or after any month-end at which Unrestricted Cash is less than $45.0 million, the Borrower shall deliver a 13-week cash forecast reconciled to the latest cash report, with a written plan addressing any forecast week in which Unrestricted Cash is below that amount. While a Supply Disruption notified under C05 continues, the Borrower shall deliver a refreshed 13-week cash forecast every two weeks, beginning January 8, 2027.",
+          "after": "Within 10 Business Days after a Responsible Officer first has knowledge of a Supply Disruption or a Material Order Loss, or after any month-end at which Unrestricted Cash is less than $45.0 million, the Borrower shall deliver a 13-week cash forecast reconciled to the latest cash report, with a written plan addressing any forecast week in which Unrestricted Cash is below that amount. While a Supply Disruption notified under C05 continues, the Borrower shall deliver a refreshed 13-week cash forecast every two weeks, beginning January 8, 2027. While any forecast week shows Unrestricted Cash below $45.0 million, the Borrower shall deliver a cash report each Monday for the preceding week."
+        },
+        {
+          "clause_id": "C07",
+          "before": "No Loan Party shall pay a dividend or make a distribution to any person that is not a Loan Party unless, after giving effect to it, Unrestricted Cash is at least $50.0 million and Net Leverage does not exceed 2.25x. Expansion Capital Expenditure, meaning spending on new retail locations, new distribution capacity or new product tooling, shall not exceed $12.0 million in any fiscal year. Maintenance spending needed to operate existing facilities is not Expansion Capital Expenditure.",
+          "after": "No Loan Party shall pay a dividend or make a distribution to any person that is not a Loan Party unless, after giving effect to it, Unrestricted Cash is at least $50.0 million and Net Leverage does not exceed 2.25x. Expansion Capital Expenditure, meaning spending on new retail locations, new distribution capacity or new product tooling, shall not exceed $12.0 million in any fiscal year. Maintenance spending needed to operate existing facilities is not Expansion Capital Expenditure. From March 8, 2027, no Expansion Capital Expenditure shall be committed while month-end Unrestricted Cash is below $50.0 million."
+        }
+      ],
+      "instrument_text": "Fictional amendment H01-AM02 within the Crocs — hypothetical private-credit scenario. No real instrument exists. Aged-inventory reporting, weekly cash reporting and a pause on expansion spending. C04 is replaced as shown. C06 is replaced as shown. C07 is replaced as shown. Simulated analyst decision. Inventory older than 180 days passed the memo's review level and the forecast low fell below the forecast trigger while still above the floor. The response protects liquidity through spending discipline and faster reporting, without changing the floor.",
+      "conditions": [
+        "Borrower confirmed deferral of $4.0 million of new distribution capacity spending."
+      ],
+      "waiver_scope": "None. No failure had occurred.",
+      "not_pursued": {
+        "title": "Leave the package unchanged and monitor",
+        "description": "Considered and not pursued: relying on existing monthly reporting while the forecast low approached the floor."
+      }
+    }
+  ]
+}

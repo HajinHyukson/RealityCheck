@@ -1,0 +1,107 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "control",
+  "review_date": "2018-01-23",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:14:58.789953+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [],
+  "assessments_supplied": false,
+  "summary": "Only the First Lien Net Leverage Ratio covenant (C01) requires modification to reflect a maximum ratio as evidenced by the loan agreement; all other clauses remain appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates change needed to annual financial statement delivery timing; assumption R03-A04 remains supported."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No evidence indicates change needed to quarterly financial statement delivery timing."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicates change needed to monthly financial statement delivery timing."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence indicates change needed to notice of default or material adverse effect provisions; assumption R03-A05 remains supported."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence indicates change needed to indebtedness restrictions; contingent promissory notes already covered."
+    }
+  ],
+  "drift_judgment": "insufficient_evidence",
+  "drift_reasons": "Evidence shows the leverage ratio covenant is a maximum, not a minimum, altering risk coverage and thus constituting a material drift.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Only the First Lien Net Leverage Ratio covenant (C01) requires modification to reflect a maximum ratio as evidenced by the loan agreement; all other clauses remain appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "definition",
+        "direction": "other",
+        "change": "Change covenant from requiring First Lien Net Leverage Ratio not be less than the scheduled level (minimum) to requiring it not exceed the scheduled level (maximum).",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A06",
+          "R03-A07"
+        ],
+        "rationale": "Evidence shows the agreement includes a maintenance covenant for a maximum first lien net leverage ratio, contradicting the current minimum wording.",
+        "evidence": [
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0065",
+            "quote": "The Term Loan Credit Agreement includes a maintenance covenant that requires compliance a maximum first lien net leverage ratio."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence indicates change needed to annual financial statement delivery timing; assumption R03-A04 remains supported."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "No evidence indicates change needed to quarterly financial statement delivery timing."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence indicates change needed to monthly financial statement delivery timing."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence indicates change needed to notice of default or material adverse effect provisions; assumption R03-A05 remains supported."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No evidence indicates change needed to indebtedness restrictions; contingent promissory notes already covered."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence shows the leverage ratio covenant is a maximum, not a minimum, altering risk coverage and thus constituting a material drift."
+  },
+  "model_judgment": "material_drift",
+  "elapsed_seconds": 29.3
+}

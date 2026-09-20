@@ -1,0 +1,129 @@
+{
+  "borrower_id": "R02",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "control",
+  "review_date": "2021-09-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:04:21.976633+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [],
+  "assessments_supplied": false,
+  "summary": "Review of evidence through September 7, 2021 shows no new information that would tighten or loosen any existing financial covenants or reporting obligations; the current package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows the 4.25 leverage cap unchanged since origination; no trigger for adjustment."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Senior secured leverage cap of 3.75 remains supported by the credit agreement; no contrary evidence."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Liquidity minimum of $25 million is unchanged per P0049; no evidence of deterioration."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Financial statement delivery requirements remain consistent with SEC filing timelines; no evidence of need to alter frequency."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Compliance certificate obligation unchanged; no evidence indicating a need for modification."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Notice of default provision remains as originally drafted; no evidence of deficiency."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All covenants and reporting requirements are supported by the original credit agreement and subsequent quarterly filing; no post‑origination evidence suggests a material change in risk coverage or monitoring needs.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of evidence through September 7, 2021 shows no new information that would tighten or loosen any existing financial covenants or reporting obligations; the current package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows the 4.25 leverage cap unchanged since origination; no trigger for adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Senior secured leverage cap of 3.75 remains supported by the credit agreement; no contrary evidence.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Liquidity minimum of $25 million is unchanged per P0049; no evidence of deterioration.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery requirements remain consistent with SEC filing timelines; no evidence of need to alter frequency.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Compliance certificate obligation unchanged; no evidence indicating a need for modification.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice of default provision remains as originally drafted; no evidence of deficiency.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All covenants and reporting requirements are supported by the original credit agreement and subsequent quarterly filing; no post‑origination evidence suggests a material change in risk coverage or monitoring needs."
+  },
+  "elapsed_seconds": 14.6
+}

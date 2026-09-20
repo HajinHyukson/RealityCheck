@@ -1,0 +1,10 @@
+E1|Detect when underwriting thesis drifts from actual borrower risk.
+E2|Detect when credit thesis drifts from current risk profile.
+E3|Detect when underwritten risk profile drifts from current financials.
+E4|Detect when borrower's risk drivers drift from underwriting baseline.
+E5|Detect when underwriting thesis drifts from actual risk profile.
+E6|Detect when underwritten risk profile drifts from actual leverage.
+E7|Detect when the underwriting thesis drifts from actual leverage.
+E8|Detect when the underwriting thesis drifts from observed cash flows.
+E9|Detect when underwriting thesis drifts from current risk profile.
+E10|Detect when an investment thesis drifts from economic reality.

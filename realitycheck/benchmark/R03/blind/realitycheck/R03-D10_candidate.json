@@ -1,0 +1,94 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2020-05-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:36:33.844279+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08",
+    "R03-D09",
+    "R03-D10"
+  ],
+  "assessments_supplied": true,
+  "summary": "No changes needed to existing covenants; evidence shows timely financial reporting and no leverage concerns, but COVID-19 caused a material adverse effect, justifying a new quarterly MAE reporting requirement.",
+  "clauses": [
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Evidence of COVID‑19‑related closures shows business instability, warranting more frequent MAE monitoring.",
+      "change_type": "reporting_frequency",
+      "change": "Add requirement to provide quarterly updates on any material adverse effect developments and mitigation steps.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-05-07",
+          "locator": "P0045",
+          "quote": "27 veterinary wellness centers were scheduled to open in first quarter; all openings were postponed due to COVID-19",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2020-05-07",
+          "locator": "P0008",
+          "quote": "In early March as the pandemic accelerated, we experienced a steep decline in traffic and started closing wellness centers and clinics on March 14, 2020. We then made the strategic decision to temporarily close all of our clinics on March 20, 2020",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R03-A05"
+      ]
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "COVID‑19 caused a material adverse effect (wellness center closures) not addressed by the current package, justifying a new quarterly MAE reporting protection.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "No changes needed to existing covenants; evidence shows timely financial reporting and no leverage concerns, but COVID-19 caused a material adverse effect, justifying a new quarterly MAE reporting requirement.",
+    "clauses": [
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "change_type": "reporting_frequency",
+        "direction": "add_protection",
+        "change": "Add requirement to provide quarterly updates on any material adverse effect developments and mitigation steps.",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A05"
+        ],
+        "rationale": "Evidence of COVID‑19‑related closures shows business instability, warranting more frequent MAE monitoring.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-05-07",
+            "locator": "P0045",
+            "quote": "27 veterinary wellness centers were scheduled to open in first quarter; all openings were postponed due to COVID-19"
+          },
+          {
+            "document_id": "PETQ-PR-2020-05-07",
+            "locator": "P0008",
+            "quote": "In early March as the pandemic accelerated, we experienced a steep decline in traffic and started closing wellness centers and clinics on March 14, 2020. We then made the strategic decision to temporarily close all of our clinics on March 20, 2020"
+          }
+        ]
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "COVID‑19 caused a material adverse effect (wellness center closures) not addressed by the current package, justifying a new quarterly MAE reporting protection."
+  },
+  "elapsed_seconds": 42.3
+}

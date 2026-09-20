@@ -1,0 +1,126 @@
+{
+  "borrower_id": "R02",
+  "borrower": "RumbleOn, Inc.",
+  "sector": "Powersports retail",
+  "lender_role": "Oaktree Fund Administration, LLC as administrative agent and collateral agent",
+  "facility": "$280,000,000 initial term loans and $120,000,000 delayed draw term loans",
+  "version": "1.0",
+  "executed_at": "2021-08-31",
+  "effective_at": "2021-08-31",
+  "scope_note": "Scoped prototype: a bounded subset of the executed August 31, 2021 term loan credit agreement, copied verbatim by paragraph locator from the SEC-filed exhibit. It covers the term facility only; RumbleOn's floorplan and consumer financing are separate arrangements and are outside this packet.",
+  "missing_inputs": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA is defined over roughly fifty paragraphs with lender-approved adjustments; the company's public Adjusted EBITDA is not contractual EBITDA, so leverage ratios cannot be recalculated from public releases.",
+    "Amendments No. 1 through No. 4 (before August 2023) are not in this packet. Their effect, if any, on the extracted clauses between 2021 and August 2023 is unverified.",
+    "Amendments No. 6 and No. 7 were executed October 31, 2023 and February 5, 2024 but first became public on March 28, 2024; their terms are not extracted here.",
+    "The SEC-filed exhibit for Amendment No. 8 runs deleted and inserted language together (for example '4.755.50'), so its operative text is not extracted; the company's Form 10-Q description is used instead.",
+    "No Oaktree underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "missing_inputs_blind": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA is defined over roughly fifty paragraphs with lender-approved adjustments; the company's public Adjusted EBITDA is not contractual EBITDA, so leverage ratios cannot be recalculated from public releases.",
+    "No Oaktree underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "known_at": "2021-09-07",
+  "sec_accepted_at": "2021-09-07T10:13:41.000Z",
+  "source_mode": "public_sec_filings",
+  "content_status": "actual_public_disclosure",
+  "clauses": [
+    {
+      "id": "C01",
+      "title": "Maximum Consolidated Total Net Leverage Ratio",
+      "section": "Section 7.10(a)",
+      "clause": "Section 7.10 Financial Covenants.\n\n(a) Permit the Consolidated Total Net Leverage Ratio for any Test Period to be greater than 4.25 to 1.00 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date.",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "RMBL-CA-ORIGINAL",
+        "locators": [
+          "P1186",
+          "P1187"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm",
+        "sha256": "29a667f5602b3bae72a9b7c4ffc24b18e01c08d89e8280e118aaf165ae387b3f"
+      }
+    },
+    {
+      "id": "C02",
+      "title": "Maximum Consolidated Senior Secured Net Leverage Ratio",
+      "section": "Section 7.10(b)",
+      "clause": "(b) Permit the Consolidated Senior Secured Net Leverage Ratio for any Test Period to be greater than 3.75 to 1.00 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date.",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "RMBL-CA-ORIGINAL",
+        "locators": [
+          "P1188",
+          "P1188"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm",
+        "sha256": "29a667f5602b3bae72a9b7c4ffc24b18e01c08d89e8280e118aaf165ae387b3f"
+      }
+    },
+    {
+      "id": "C03",
+      "title": "Minimum Liquidity",
+      "section": "Section 7.10(c)",
+      "clause": "(c) Permit Liquidity for any Test Period to be less than $25,000,000 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date.",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "RMBL-CA-ORIGINAL",
+        "locators": [
+          "P1189",
+          "P1189"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm",
+        "sha256": "29a667f5602b3bae72a9b7c4ffc24b18e01c08d89e8280e118aaf165ae387b3f"
+      }
+    },
+    {
+      "id": "C04",
+      "title": "Annual and quarterly financial statements",
+      "section": "Section 6.01",
+      "clause": "Section 6.01 Financial Statements. Deliver to the Administrative Agent for prompt further distribution to each Lender:\n\n(a) as soon as available, but in any event within one hundred twenty (120) days after the end of each fiscal year of the Borrower (or such earlier date as may be required, including any extensions, by the SEC), (i) a consolidated balance sheet of the Borrower and its Subsidiaries as at the end of such fiscal year, and the related consolidated statements of income or operations, stockholders’ equity and cash flows for such fiscal year, setting forth in each case in comparative form the figures for the previous fiscal year, all in reasonable detail (it being understood and agreed that the Borrower shall include a statement in its annual reports on Form 10-K filed with the SEC for such period indicating whether it is in compliance with the applicable Financial Covenants for such period) and prepared in accordance with GAAP, audited and accompanied by a report and opinion of an independent registered public accounting firm of nationally recognized standing, which report and opinion shall be prepared in accordance with generally accepted auditing standards and shall not be subject to (other than with respect to, or resulting from, the regularly scheduled maturity of the Loans hereunder or any prospective or actual default under any Financial Covenant) any “going concern” or like qualification or exception or any qualification or exception as to the scope of such audit and (ii) management’s discussion and analysis, in reasonable detail and signed by a Responsible Officer of the Borrower, describing the operations and financial condition of the Loan Parties and their Subsidiaries for the fiscal year then ended;\n\n(b) as soon as available, but in any event, within sixty (60) days after the end of each of the first three (3) fiscal quarters of each fiscal year of the Borrower (or such earlier date as may be required, including any extensions, by the SEC), (i) a consolidated balance sheet of the Borrower and its Subsidiaries as at the end of such fiscal quarter, and the related consolidated statements of income or operations for such fiscal quarter and for the portion of the fiscal year then ended and consolidated statements of cash flows for the portion of the fiscal year then ended, setting forth in each case in comparative form the figures for the corresponding fiscal quarter of the previous fiscal year and the corresponding portion of the previous fiscal year, all in reasonable detail (it being understood and agreed that the Borrower shall include a statement in its quarterly reports on Form 10-Q filed with the SEC for such period indicating whether it is in compliance with the applicable Financial Covenants for such period) and certified by a Responsible Officer of the Borrower as fairly presenting in all material respects the financial condition, results of operations, stockholders’ equity and cash flows of the Borrower and its Subsidiaries in accordance with GAAP, subject only to normal year-end adjustments and the absence of footnotes and (ii) management’s discussion and analysis, in reasonable detail and signed by a Responsible Officer of the Borrower, describing the operations and financial condition of the Loan Parties and their Subsidiaries for the fiscal quarter then ended; provided, however, that in each case with respect to clauses (i) and (ii) above, with respect to the fiscal quarter ended September 30, 2021, the Borrower (x) shall only be required to use commercially reasonable efforts to deliver such consolidated balance sheet and management’s discussion and analysis and (y) may elect to provide such consolidated balance sheet and management’s discussion and analysis on a standalone basis solely with respect to the Borrower and its Subsidiaries (excluding the Target Companies).\n\n(c) simultaneously with the delivery of each set of consolidated financial statements referred to in Section 6.01(a) and (b) above the related consolidating financial statements reflecting the adjustments necessary to eliminate the accounts of Unrestricted Subsidiaries (if any) from such consolidated financial statements (such statements shall not be required to be audited and may be in footnote format).",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "RMBL-CA-ORIGINAL",
+        "locators": [
+          "P0955",
+          "P0958"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm",
+        "sha256": "29a667f5602b3bae72a9b7c4ffc24b18e01c08d89e8280e118aaf165ae387b3f"
+      }
+    },
+    {
+      "id": "C05",
+      "title": "Compliance Certificate",
+      "section": "Section 6.02(a)",
+      "clause": "Section 6.02 Certificates; Other Information. Deliver to the Administrative Agent for prompt further distribution to each Lender:\n\n(a) together with the delivery of the financial statements referred to in Section 6.01(a) and (b), a duly completed Compliance Certificate signed by a Responsible Officer of the Borrower;",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "RMBL-CA-ORIGINAL",
+        "locators": [
+          "P0959",
+          "P0960"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm",
+        "sha256": "29a667f5602b3bae72a9b7c4ffc24b18e01c08d89e8280e118aaf165ae387b3f"
+      }
+    },
+    {
+      "id": "C06",
+      "title": "Notice of Default",
+      "section": "Section 6.03(a)",
+      "clause": "Section 6.03 Notices. Promptly after a Responsible Officer obtains actual knowledge thereof, notify the Administrative Agent for prompt further distribution to each Lender:\n\n(a) of the occurrence of any Default, which notice shall specify the nature thereof, the period of existence thereof and what action the Borrower proposes to take with respect thereto;",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "RMBL-CA-ORIGINAL",
+        "locators": [
+          "P0969",
+          "P0970"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm",
+        "sha256": "29a667f5602b3bae72a9b7c4ffc24b18e01c08d89e8280e118aaf165ae387b3f"
+      }
+    }
+  ],
+  "definitions_and_conventions": "“Consolidated Senior Secured Net Leverage Ratio” means, with respect to any Test Period, the ratio of (a) Consolidated Total Net Debt (other than any portion of Consolidated Total Net Debt that is unsecured) as of the last day of such Test Period to (b) Consolidated EBITDA of the Borrower and its Restricted Subsidiaries for such Test Period.\n\n“Consolidated Total Debt” means, as of any date of determination, the aggregate principal amount of Indebtedness of the Borrower and its Restricted Subsidiaries outstanding on such date, determined on a consolidated basis in accordance with GAAP (but excluding the effects of any discounting of Indebtedness resulting from the application of purchase accounting in connection with the Transactions or any Permitted Acquisition), consisting of Indebtedness for borrowed money, Capitalized Lease Obligations and debt obligations evidenced by bonds, debentures, notes, loan agreements or other similar instruments; provided that Consolidated Total Debt shall not include (x) obligations under Swap Contracts entered into in the ordinary course of business and not for speculative purposes, (y) undrawn letters of credit and (z) Floor Plan Debt.\n\n“Consolidated Total Net Leverage Ratio” means, with respect to any Test Period, the ratio of (a) Consolidated Total Net Debt as of the last day of such Test Period to (b) Consolidated EBITDA of the Borrower and its Restricted Subsidiaries for such Test Period.\n\n“Floor Plan Debt” means all Indebtedness of the Borrower and its Restricted Subsidiaries incurred to finance Floor Plan Units.\n\n“Liquidity” means unrestricted cash and Cash Equivalents of the Borrower and the Restricted Subsidiaries, measured on a consolidated basis.\n\n“Test Period” means, at any date of determination, the most recently completed four consecutive fiscal quarters of the Borrower ending on or prior to such date for which financial statements have been or are required to be delivered pursuant to Section 6.01(a) or 6.01(b).",
+  "resolution_conventions": "Section 8.01 Events of Default. Any of the following events referred to in any of clauses (a) through (k) inclusive of this Section 8.01 shall constitute an “Event of Default”:\n\n(a) Non-Payment. Any Loan Party fails to pay (i) when and as required to be paid herein, any amount of principal of, or premium (including any Call Premium) on, any Loan or (ii) within five (5) Business Days after the same becomes due, any interest on any Loan or any other amount payable hereunder or with respect to any other Loan Document; or\n\n(b) Specific Covenants. The Borrower fails to perform or observe any term, covenant or agreement contained in any of (A) Section 6.01, Section 6.02(a), Section 6.02(d), Section 6.02(e) and Section 6.02(f) (after, in each case, a thirty (30) calendar day grace period, which may be exercised a total of once per fiscal quarter) and (B) Section 6.03(a) or Section 6.04 (solely with respect to the Borrower), Section 6.11, Section 6.12(c), Section 6.13, Section 6.15 or Article VII; or\n\n(c) Other Defaults. Any Loan Party fails to perform or observe any other covenant or agreement (not specified in Section 8.01(a) or (b) above) contained in any Loan Document on its part to be performed or observed, such failure continues for thirty (30) days; or"
+}

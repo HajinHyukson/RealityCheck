@@ -1,0 +1,39 @@
+{
+  "profile": [
+    "Reviewer note: every assumption here is reconstructed from public filings. None is Carlyle's actual underwriting thesis, which is not public. One of six reconstructed assumptions (R01-A01, operating cash flow sufficiency) was withheld because neither of its quotations verified.",
+    "Reviewer note: R01-A05 concerns the borrowing base of iRobot's bank revolving credit facility described in the Q1 2023 Form 10-Q. That is a separate facility from the Carlyle term loan reviewed here, so R01-A05 is weak context rather than a belief this package relies on.",
+    "Reviewer note: R01-A03 ('no additional debt financing beyond existing facilities') is anchored to a Form 10-Q sentence that pre-dates the term loan. Read it as 'liquidity needs will be met without further borrowing after this facility'."
+  ],
+  "events": {
+    "R01-D01": [
+      "Reviewer correction of a model error: the model marks R01-A03 (no additional debt needed) as contradicted because the company 'received $188.2 million ... from its new term loan'. That term loan is the Carlyle facility under review, drawn at closing in July 2023. It is not additional debt beyond the facility, so the contradicted status is not supported. The original model wording is preserved.",
+      "Reviewer scope correction: R01-A02 is conditional on the acquisition not closing. Progress toward closing makes the break-fee assumption less relevant; it does not weaken it. 'Compliant' on Section 6.01 is inferred from the public release date. The covenant requires delivery to the Administrative Agent, which a press release does not evidence."
+    ],
+    "R01-D02": [
+      "Reviewer scope correction: the release says Amazon 'will pay' a $94 million termination fee and that the company 'shall apply' $35 million to the term loan after advisor fees of about 20%. That is a stated intention on January 29, 2024, not evidence that the prepayment was made. 'Compliant' on the break-fee sweep is premature; 'triggered' is the supportable status. Once at least $24 million is prepaid, Section 7.07 lowers the Minimum Core Assets Test to an amount set in Schedule 7.07, which is not public."
+    ],
+    "R01-D03": [
+      "Reviewer note: all five covenant assessments for this report were withheld because their quotations did not verify at the cited paragraph, so this report shows assumption findings only. 'Liquidity is a top priority' is management emphasis, not evidence that liquidity needs are met; the supported status for R01-A03 is weakly grounded."
+    ],
+    "R01-D04": [
+      "Reviewer scope correction: $75 million is the termination fee net of financial advisor fees; the gross fee announced on January 29, 2024 was $94 million. The two figures are consistent. The model's observation that positive operating cash flow of $1.4 million depended on that one-time receipt is sound, yet it still marks R01-A03 supported; the same fact argues that underlying cash generation was negative. Three attributions and four covenant assessments were withheld for unverifiable quotations."
+    ],
+    "R01-D05": [
+      "Reviewer scope correction: the rationale tests core assets against $250 million. After the break-fee prepayment the applicable Minimum Core Assets Test amount is set by Schedule 7.07, which is not in the filed agreement, so the threshold in force is unknown. 'Insufficient evidence' is the right status, for that reason as well as the missing receivables figure. Six attributions and three covenant assessments were withheld for unverifiable quotations."
+    ],
+    "R01-D06": [
+      "Reviewer note on a missed signal: the release says $41.1 million of restricted cash was 'set aside for future repayment of its term loan, subject to limited rights for inventory purchases, of which $40.0 million was drawn down at the close of the third quarter'. The model treats inventory and liquidity as supported and does not flag that the company drew on cash reserved for loan repayment to buy inventory. Amendment No. 1, public March 12, 2025, required that same $40.0 million to be returned to the controlled account. The original model wording is preserved.",
+      "Reviewer scope correction: whether restricted cash counts toward Consolidated Core Assets depends on definitions and certificates that are not public. 'Compliant' on Section 6.01 is inferred from the public release date only."
+    ],
+    "R01-D07": [
+      "Reviewer note on a missed signal: this January 13, 2025 pre-announcement reports a fourth-quarter GAAP operating loss of about $59 million. The model marks R01-A03 (liquidity without further borrowing) as supported on the strength of the cash balance and flags only inventory (R01-A04). Two months later the company disclosed substantial doubt about its ability to continue as a going concern together with Amendment No. 1. On this report the attribution step did not connect the operating loss to liquidity risk. The original model wording is preserved."
+    ],
+    "R01-D08": [
+      "Reviewer scope correction: the summary says the going-concern disclosure is 'breaching the covenant', but the model's Section 6.01 assessment was withheld because its quotation did not verify, so no covenant finding on going concern stands for this report. Section 6.01(a) permits a going-concern exception that arises solely from a potential inability to satisfy a financial maintenance covenant, including the Minimum Core Assets Test. This release does not show whether the auditor's paragraph falls inside that carve-out. The company's later Form 8-K (June 5, 2025) states it would be in breach of the going-concern covenant but for the waiver.",
+      "Reviewer note on timing: this release itself says the company 'has amended its existing term loan', and the SEC accepted the filing disclosing Amendment No. 1 eight minutes later. The lender response was therefore public with this report. Nothing in this report supports an early-warning claim."
+    ],
+    "R01-D09": [
+      "Reviewer scope correction: the model reports the Minimum Core Assets Test as 'not triggered'. The company's Form 8-K says the lenders waived the covenant obligations for a limited period, extended by Amendment No. 2 to June 6, 2025. A time-limited waiver is not the same as the test ceasing to apply: the obligation resumes when the waiver ends, and the company's own later disclosure says it depends on further waivers to avoid an event of default. The $40 million the summary calls a repayment is the return of funds to the lenders' controlled account that Amendment No. 1 required; it is not a repayment of debt."
+    ]
+  }
+}

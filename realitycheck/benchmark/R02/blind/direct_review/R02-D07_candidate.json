@@ -1,0 +1,137 @@
+{
+  "borrower_id": "R02",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-08-08",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:07:06.109941+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03",
+    "R02-D04",
+    "R02-D05",
+    "R02-D06",
+    "R02-D07"
+  ],
+  "assessments_supplied": false,
+  "summary": "Based on evidence through August 2024, the borrower’s liquidity remains well above the current $25 million minimum, with the lowest observed liquidity of $73.6 million. No evidence suggests changes to leverage or reporting covenants. Therefore, the liquidity covenant (C03) is proposed to be loosened, while all other covenants are retained.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence of leverage ratio stress or breach; leverage covenant remains appropriate."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence of leverage ratio stress or breach; leverage covenant remains appropriate."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence of reporting delays or need to change frequency; current reporting requirements remain adequate."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence of compliance certificate delivery issues; current requirement remains fit for purpose."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence of default notice problems; existing notice clause remains sufficient."
+    }
+  ],
+  "drift_judgment": "insufficient_evidence",
+  "drift_reasons": "The proposed loosening of the liquidity covenant threshold constitutes a material change in risk coverage, as it adjusts a covenant threshold based on evidence of consistently strong liquidity.",
+  "warnings": [
+    "Proposed modify on 'C03' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through August 2024, the borrower’s liquidity remains well above the current $25 million minimum, with the lowest observed liquidity of $73.6 million. No evidence suggests changes to leverage or reporting covenants. Therefore, the liquidity covenant (C03) is proposed to be loosened, while all other covenants are retained.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of leverage ratio stress or breach; leverage covenant remains appropriate."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of leverage ratio stress or breach; leverage covenant remains appropriate."
+      },
+      {
+        "clause_id": "C03",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "loosen",
+        "change": "Lower minimum liquidity threshold (allow liquidity to fall below $25 million).",
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Liquidity consistently exceeds $25 M, lowest observed $73.6 M, indicating capacity to tolerate a lower minimum threshold.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0024",
+            "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of reporting delays or need to change frequency; current reporting requirements remain adequate."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of compliance certificate delivery issues; current requirement remains fit for purpose."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of default notice problems; existing notice clause remains sufficient."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "The proposed loosening of the liquidity covenant threshold constitutes a material change in risk coverage, as it adjusts a covenant threshold based on evidence of consistently strong liquidity."
+  },
+  "model_judgment": "material_drift",
+  "elapsed_seconds": 41.2
+}

@@ -1,0 +1,115 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-11-06",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:24:46.034240+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06"
+  ],
+  "assessments_supplied": true,
+  "summary": "Based on evidence through November 6, 2024, no substantive changes are warranted to the existing covenant package; all assumptions remain supported and the current protections remain appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows Amazon Break Fee exceeded $24M, so step‑up condition not met; existing mechanics already adjust for received amounts; no change needed."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Timely delivery of financial statements confirmed by quarterly press releases; no going‑concern issues identified; current reporting requirements remain adequate."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly compliance certificate delivery assumption supported by timely reporting evidence; no indication of delays or failures; retain."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon termination fee of $94M received, with $35M immediate repayment and remainder set aside, aligns with existing Break Fee sweep mechanics; no adjustment needed."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence of defaults or notice failures; the notice provision continues to function as intended; retain."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All available evidence through the review date supports the existing assumptions and shows no triggered conditions that would require tightening, loosening, or adding protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through November 6, 2024, no substantive changes are warranted to the existing covenant package; all assumptions remain supported and the current protections remain appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows Amazon Break Fee exceeded $24M, so step‑up condition not met; existing mechanics already adjust for received amounts; no change needed."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Timely delivery of financial statements confirmed by quarterly press releases; no going‑concern issues identified; current reporting requirements remain adequate."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly compliance certificate delivery assumption supported by timely reporting evidence; no indication of delays or failures; retain."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Amazon termination fee of $94M received, with $35M immediate repayment and remainder set aside, aligns with existing Break Fee sweep mechanics; no adjustment needed."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of defaults or notice failures; the notice provision continues to function as intended; retain."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All available evidence through the review date supports the existing assumptions and shows no triggered conditions that would require tightening, loosening, or adding protections."
+  },
+  "elapsed_seconds": 66.7
+}

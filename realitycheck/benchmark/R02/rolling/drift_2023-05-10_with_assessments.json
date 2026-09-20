@@ -1,0 +1,446 @@
+{
+  "control": {
+    "borrower_id": "R02",
+    "mode": "control",
+    "review_date": "2023-05-10",
+    "package_version": "1.0",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:42:08.932839+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "report_ids": [],
+    "summary": "Based on available evidence through May 10, 2023, the borrower’s leverage, liquidity, and reporting assumptions remain consistent with the original covenant package; no substantive tightening or loosening is warranted.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "Evidence shows the original leverage cap of 4.25x remains appropriate; no data indicates EBITDA will fall below needed level."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "The senior secured leverage limit of 3.75x aligns with the borrower’s projected EBITDA and asset base; no evidence suggests a change."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Liquidity covenant of $25 M aligns with the borrower’s stated cash preservation and ability to meet amortization; no evidence of impending shortfall."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Financial statement delivery requirements match the borrower’s obligation to provide timely compliance certificates; no evidence suggests need for altered frequency."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Compliance certificate obligation is consistent with the borrower’s reporting duty; no evidence indicates a change is needed."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Notice‑of‑default provision remains suitable; no evidence shows a need to modify timing or content."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "The evidence does not show deterioration in EBITDA, liquidity, or reporting ability; assumptions remain plausible and no new risks emerge that would justify tighter or looser covenants.",
+    "warnings": [],
+    "error": null,
+    "raw_response": {
+      "summary": "Based on available evidence through May 10, 2023, the borrower’s leverage, liquidity, and reporting assumptions remain consistent with the original covenant package; no substantive tightening or loosening is warranted.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01",
+            "R02-A07"
+          ],
+          "rationale": "Evidence shows the original leverage cap of 4.25x remains appropriate; no data indicates EBITDA will fall below needed level.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01",
+            "R02-A07"
+          ],
+          "rationale": "The senior secured leverage limit of 3.75x aligns with the borrower’s projected EBITDA and asset base; no evidence suggests a change.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02",
+            "R02-A03"
+          ],
+          "rationale": "Liquidity covenant of $25 M aligns with the borrower’s stated cash preservation and ability to meet amortization; no evidence of impending shortfall.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "Financial statement delivery requirements match the borrower’s obligation to provide timely compliance certificates; no evidence suggests need for altered frequency.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "Compliance certificate obligation is consistent with the borrower’s reporting duty; no evidence indicates a change is needed.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "Notice‑of‑default provision remains suitable; no evidence shows a need to modify timing or content.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "no_material_drift",
+      "drift_reasons": "The evidence does not show deterioration in EBITDA, liquidity, or reporting ability; assumptions remain plausible and no new risks emerge that would justify tighter or looser covenants."
+    }
+  },
+  "updated": {
+    "borrower_id": "R02",
+    "mode": "updated",
+    "review_date": "2023-05-10",
+    "package_version": "1.0",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:44:16.249363+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "report_ids": [
+      "R02-D01",
+      "R02-D02"
+    ],
+    "assessments_supplied": true,
+    "summary": "Evidence shows a 42.5% sequential drop in Adjusted EBITDA, weakening the earnings assumption, while liquidity remains strong. This suggests tightening leverage covenants and adding an EBITDA floor, but no change to reporting or default notices.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "rationale": "Adjusted EBITDA declined 42.5% sequentially, reducing capacity to meet the leverage ceiling.",
+        "change_type": "threshold",
+        "change": "lower the leverage ratio threshold (more restrictive)",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0046",
+            "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "modify",
+        "rationale": "Adjusted EBITDA declined 42.5% sequentially, reducing capacity to meet the leverage ceiling.",
+        "change_type": "threshold",
+        "change": "lower the leverage ratio threshold (more restrictive)",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0046",
+            "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Liquidity remains well above the $25 million minimum, as shown by $97.4 million total available liquidity."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change financial statement delivery requirements."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence suggests altering the compliance certificate obligation."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to modify the notice-of-default procedure."
+      },
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "rationale": "Sequential EBITDA decline indicates weakened earnings, supporting addition of an EBITDA maintenance covenant to protect leverage capacity.",
+        "change_type": "new_protection",
+        "change": "add a covenant requiring Consolidated EBITDA not to fall below a specified level (direction: maintain EBITDA)",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0046",
+            "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "The 42.5% sequential decline in Adjusted EBITDA weakens the earnings assumption, justifying tighter leverage ratio thresholds and a new EBITDA maintenance covenant, while liquidity and reporting obligations remain unchanged.",
+    "warnings": [],
+    "error": null,
+    "raw_response": {
+      "summary": "Evidence shows a 42.5% sequential drop in Adjusted EBITDA, weakening the earnings assumption, while liquidity remains strong. This suggests tightening leverage covenants and adding an EBITDA floor, but no change to reporting or default notices.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "modify",
+          "change_type": "threshold",
+          "change": "lower the leverage ratio threshold (more restrictive)",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "Adjusted EBITDA declined 42.5% sequentially, reducing capacity to meet the leverage ceiling.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-05-10",
+              "locator": "P0046",
+              "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%"
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "action": "modify",
+          "change_type": "threshold",
+          "change": "lower the leverage ratio threshold (more restrictive)",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "Adjusted EBITDA declined 42.5% sequentially, reducing capacity to meet the leverage ceiling.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-05-10",
+              "locator": "P0046",
+              "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%"
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02"
+          ],
+          "rationale": "Liquidity remains well above the $25 million minimum, as shown by $97.4 million total available liquidity.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "No evidence indicates a need to change financial statement delivery requirements.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "No evidence suggests altering the compliance certificate obligation.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence indicates a need to modify the notice-of-default procedure.",
+          "evidence": []
+        },
+        {
+          "clause_id": "NEW-1",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "add a covenant requiring Consolidated EBITDA not to fall below a specified level (direction: maintain EBITDA)",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "Sequential EBITDA decline indicates weakened earnings, supporting addition of an EBITDA maintenance covenant to protect leverage capacity.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-05-10",
+              "locator": "P0046",
+              "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%"
+            }
+          ]
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "The 42.5% sequential decline in Adjusted EBITDA weakens the earnings assumption, justifying tighter leverage ratio thresholds and a new EBITDA maintenance covenant, while liquidity and reporting obligations remain unchanged."
+    }
+  },
+  "comparison": {
+    "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+    "review_date": "2023-05-10",
+    "package_version": "1.0",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "report_ids": [
+      "R02-D01",
+      "R02-D02"
+    ],
+    "assessments_supplied": true,
+    "control_judgment": "no_material_drift",
+    "updated_judgment": "material_drift",
+    "evidence_attributable_changes": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "rationale": "Adjusted EBITDA declined 42.5% sequentially, reducing capacity to meet the leverage ceiling.",
+        "change_type": "threshold",
+        "change": "lower the leverage ratio threshold (more restrictive)",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0046",
+            "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "modify",
+        "rationale": "Adjusted EBITDA declined 42.5% sequentially, reducing capacity to meet the leverage ceiling.",
+        "change_type": "threshold",
+        "change": "lower the leverage ratio threshold (more restrictive)",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0046",
+            "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "rationale": "Sequential EBITDA decline indicates weakened earnings, supporting addition of an EBITDA maintenance covenant to protect leverage capacity.",
+        "change_type": "new_protection",
+        "change": "add a covenant requiring Consolidated EBITDA not to fall below a specified level (direction: maintain EBITDA)",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0046",
+            "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)%",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      }
+    ],
+    "changes_also_in_control": [],
+    "control_only_changes": [],
+    "retained": [
+      "C03",
+      "C04",
+      "C05",
+      "C06"
+    ],
+    "updated_summary": "Evidence shows a 42.5% sequential drop in Adjusted EBITDA, weakening the earnings assumption, while liquidity remains strong. This suggests tightening leverage covenants and adding an EBITDA floor, but no change to reporting or default notices.",
+    "updated_reasons": "The 42.5% sequential decline in Adjusted EBITDA weakens the earnings assumption, justifying tighter leverage ratio thresholds and a new EBITDA maintenance covenant, while liquidity and reporting obligations remain unchanged.",
+    "warnings": [],
+    "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured.",
+    "observed_response": {
+      "version": "1.1",
+      "title": "Amendment No. 5: leverage tests suspended and relaxed; equity raise and asset sales required",
+      "publicly_available_at": "2023-08-09T21:22:28.000Z",
+      "clauses_changed_by_lender": [
+        "C01",
+        "C02"
+      ],
+      "overlap_with_attributable": [
+        "C01",
+        "C02"
+      ],
+      "note": "The actual amendment is an observed response, shown for comparison only. Agreement with it is not the success measure, and it was not available to either candidate run."
+    }
+  }
+}

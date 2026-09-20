@@ -1,0 +1,83 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2024-08-08",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03",
+    "R02-D04",
+    "R02-D05",
+    "R02-D06",
+    "R02-D07"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Q1 2024 EBITDA $11.7M with non‑vehicle net debt $203.4M suggests leverage likely exceeds 4.25×, weakening assumption A01; tighten leverage permission.",
+      "change_type": "permission",
+      "change": "Change from permitting ratio >4.25 to imposing a maximum ratio of 4.25 (or lower).",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-05-08",
+          "locator": "P0050",
+          "quote": "Cash and Restricted Cash as of March 31, 2024 totaled approximately $63.4 million, and non-vehicle net debt was $203.4 million.",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2024-05-08",
+          "locator": "P0049",
+          "quote": "Adjusted EBITDA was $11.7 million, compared to $10.8 million or an improvement of 8.3%.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "C03",
+      "action": "modify",
+      "rationale": "Liquidity consistently exceeds $25M (e.g., $212.7M in Q1 2024), supporting assumption A02; tighten liquidity covenant to require minimum $25M.",
+      "change_type": "permission",
+      "change": "Change from permitting liquidity <$25M to requiring liquidity ≥$25M.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-05-08",
+          "locator": "P0051",
+          "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floor plan credit facilities at March 31, 2024, totaled approximately $212.7 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A02"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on Q1 2024 financials showing elevated leverage and ample liquidity, the leverage and liquidity covenants were tightened (C01, C03) while other covenants remained unchanged, constituting a material drift in the candidate package.",
+  "updated_reasons": "Tightened leverage and liquidity covenants based on evidence of high leverage and strong liquidity.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

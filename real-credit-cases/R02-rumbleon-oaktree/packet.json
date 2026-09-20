@@ -1,0 +1,137 @@
+{
+  "company": "RumbleOn, Inc.",
+  "facility": "Term loan credit agreement dated August 31, 2021 with Oaktree Fund Administration, LLC as administrative and collateral agent. Separate from RumbleOn's floorplan and consumer financing.",
+  "cik": 1596961,
+  "review_period": {
+    "from": "2021-08-31",
+    "to": "2024-08-31",
+    "note": "Initial replay covers the 2023 amendment through second-quarter 2024 reporting; later filings are outside model inputs."
+  },
+  "documents": [
+    {
+      "id": "RMBL-CA-ORIGINAL",
+      "type": "EX-10.1",
+      "title": "Term Loan Credit Agreement dated August 31, 2021 (original executed version)",
+      "role": "original_agreement",
+      "event_date": "2021-08-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879ex10-1_rumbleoninc.htm"
+    },
+    {
+      "id": "RMBL-10Q-2023Q2",
+      "type": "10-Q",
+      "title": "Quarterly report for the quarter ended June 30, 2023",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000018/rmbl-20230630.htm"
+    },
+    {
+      "id": "RMBL-CA-AMENDMENT-5",
+      "type": "EX-10.8",
+      "title": "Amendment No. 5 to Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2023-08-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000018/rmblexhibit108good.htm"
+    },
+    {
+      "id": "RMBL-CA-AMENDMENT-6",
+      "type": "EX-10",
+      "title": "Amendment No. 6 to Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2023-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000021/no6amendmentoaktree.htm"
+    },
+    {
+      "id": "RMBL-CA-AMENDMENT-7",
+      "type": "EX-10",
+      "title": "Amendment No. 7 to Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2024-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000021/oaktree-rumbleonxamendme.htm"
+    },
+    {
+      "id": "RMBL-CA-AMENDMENT-8",
+      "type": "EX-10",
+      "title": "Amendment No. 8 to Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2024-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000081/oaktree-rumbleonxamendme.htm"
+    },
+    {
+      "id": "RMBL-10Q-2021Q2",
+      "type": "10-Q",
+      "title": "Quarterly report for the quarter ended June 30, 2021",
+      "role": "origination_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021040350/f10q0621_rumbleoninc.htm"
+    },
+    {
+      "id": "RMBL-8K-ORIGINATION",
+      "type": "8-K",
+      "title": "Current report on closing of the RideNow combination and the Oaktree term loan",
+      "role": "origination",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000121390021046757/ea146879-8k_rumbleoninc.htm",
+      "event_date": "2021-08-31"
+    },
+    {
+      "id": "RMBL-PR-2023-03-16",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2022 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000005/rmbl-991earningrelease1231.htm"
+    },
+    {
+      "id": "RMBL-PR-2023-05-10",
+      "type": "EX-99.1",
+      "title": "First-quarter 2023 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000009/rmbl-991earningrelease3312.htm"
+    },
+    {
+      "id": "RMBL-PR-2023-08-09",
+      "type": "EX-99.1",
+      "title": "Second-quarter 2023 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000015/rmbl-991earningrelease6302.htm"
+    },
+    {
+      "id": "RMBL-PR-2023-11-07",
+      "type": "EX-99.1",
+      "title": "Third-quarter 2023 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000044/rmbl-991earningrelease9302.htm"
+    },
+    {
+      "id": "RMBL-PR-2024-03-14",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000007/a991earningsrelease2023q4.htm"
+    },
+    {
+      "id": "RMBL-PR-2024-05-08",
+      "type": "EX-99.1",
+      "title": "First-quarter 2024 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000049/a2024q1earningsrelease-ex9.htm"
+    },
+    {
+      "id": "RMBL-PR-2024-08-07",
+      "type": "EX-99.1",
+      "title": "Second-quarter 2024 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000077/a2024q2earningsrelease-ex9.htm"
+    },
+    {
+      "id": "RMBL-10K-2023",
+      "type": "10-K",
+      "title": "Annual report for 2023 (describes Amendments 6 and 7)",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000021/rmbl-20231231.htm"
+    },
+    {
+      "id": "RMBL-10Q-2024Q2",
+      "type": "10-Q",
+      "title": "Quarterly report for the quarter ended June 30, 2024 (describes Amendment 8)",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000081/rmbl-20240630.htm"
+    }
+  ]
+}

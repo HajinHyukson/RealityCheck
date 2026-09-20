@@ -1,0 +1,475 @@
+{
+  "id": "R01-D01",
+  "event": {
+    "id": "R01-D01",
+    "title": "Third-quarter 2023 results",
+    "event_date": "2023-11-07",
+    "available_at": "2023-11-07",
+    "review_date": "2023-11-07",
+    "sources": [
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0013",
+        "text": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0015",
+        "text": "•Revenue for the third quarter of 2023 was $186.2 million, compared with $278.2 million in the same period last year."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0016",
+        "text": "◦Geographically, third-quarter 2023 revenue declined 42% in the U.S, 35% in Japan and 1% in EMEA over the same period last year."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0017",
+        "text": "◦Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the third quarter of 2023 versus 76% from the same period last year."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0018",
+        "text": "◦We estimate that iRobot's third-quarter 2023 revenue from e-commerce, which spans the Company's own website and app, dedicated e-commerce websites and the online arms of traditional retailers, decreased approximately 27% from the same period last year and represented approximately 61% of third-quarter 2023 revenue. iRobot's direct-to-consumer (DTC) revenue of $37 million in the third quarter of 2023 decreased 8% from the prior-year third quarter."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0019",
+        "text": "•GAAP operating expenses for the third quarter of 2023 were $107.5 million, compared with GAAP operating expenses of $144.8 million in the same period last year. Third-quarter 2023 non-GAAP operating expenses were $90.1 million, compared with non-GAAP operating expenses of $112.8 million in the same period last year. The decrease in operating expenses is attributable to cost-reduction actions in August 2022 and February 2023, along with careful expense management and scaled back working media."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0020",
+        "text": "•GAAP operating loss for the third quarter of 2023 was ($59.5) million, compared with GAAP operating loss of ($68.4) million in the same period last year. Non-GAAP operating loss for the third quarter of 2023 was ($40.6) million, compared with non-GAAP operating loss of ($34.5) million in the same period last year. The Company's operating loss reflected the impact of decreased revenue and a lower gross margin, partially offset by the benefit of expense management. The decrease in gross margin of 2 percentage points in the third quarter of 2023, compared with the same period last year, was impacted by lower leverage on fixed costs and increased promotional activities, partially offset by improved channel mix. Sequentially compared with Q2 2023, gross margin increased 3 percentage points, reflecting improved product and channel mix and reduced rework costs despite lower leverage on fixed costs. We also benefitted from lower ocean freight costs from our new products."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0021",
+        "text": "•GAAP net loss per share for the third quarter of 2023 was ($2.86), compared with GAAP net loss per share of ($4.71) in the same period last year. Non-GAAP net loss per share was ($2.82) for the third quarter of 2023, compared with non-GAAP net loss per share of ($1.78) in the same period last year."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0022",
+        "text": "•During the third quarter, the Company received $188.2 million, net of debt issuance costs, from its new term loan that matures on July 24, 2026. The loan proceeds received will be used to fund the Company's on-going operations. As of September 30, 2023, the Company's cash and cash equivalents were $189.6 million, compared with $58.0 million as of July 1, 2023, and $117.9 million at the end of 2022."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0023",
+        "text": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022. Non-GAAP DII was 163 days, compared with 96 days at the end of 2022. iRobot plans to use its on-hand inventory to help fulfill anticipated fourth-quarter 2023 orders."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0025",
+        "text": "•During the third quarter of 2023, iRobot introduced multiple new products and digital technologies to markets worldwide."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0026",
+        "text": "◦On August 28, 2023, iRobot introduced the Roomba Combo® j5+ and Roomba Combo® i5+ robot vacuum and mops, giving customers more choice when it comes to an iRobot 2-in-1 floor cleaning solution."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0027",
+        "text": "◦On September 11, 2023, iRobot expanded its product lineup further with the introductions of the Roomba Combo® j9+ robot vacuum and mop and Roomba® j9+ robot vacuum. iRobot also introduced thoughtful iRobot OS features Dirt Detective and SmartScrub, our latest cleaning automation features."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0028",
+        "text": "•iRobot's expanded product lineup and digital features have received positive reviews and media coverage by Reviewed, Vacuum Wars, The Verge, Engadget, Gear Patrol, Digital Trends, TechRadar, Les Numériques, El Confidencial, Süddeutsche Zeitung, My Navi News and Business Insider Japan among many other media outlets worldwide."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0029",
+        "text": "•iRobot was listed as one of U.S. News and World Report's \"Best Companies to Work For.\""
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0030",
+        "text": "•iRobot products were featured in Amazon's Prime Big Deal Days event, which was held October 10-11, 2023. The Company's products received favorable Prime Big Deal Days related media coverage in outlets including TODAY, Good Morning America, CNN Underscored, Good Housekeeping, Frandroid, El Mundo, Stern and Mirror."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0031",
+        "text": "•The Company's community of engaged, connected customers who have opted-in to its digital communications grew 18% to 19.3 million, from the third quarter of 2022."
+      },
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0033",
+        "text": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders."
+      }
+    ]
+  },
+  "borrower_id": "R01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:32:40.854882+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "Q3 2023 results show iRobot took a new $200 million term loan, inventory days rose despite lower cash, and the Amazon deal progressed with an amendment and stockholder approval, weakening assumptions about break‑fee availability and no extra debt, while inventory‑management assumption is weakened; core‑assets test cannot be verified, reporting duty satisfied, and no covenants are triggered.",
+  "attributions": [
+    {
+      "id": "att-af0e0a1f-ed5a-40c2-938f-590535f59b76",
+      "target_type": "assumption",
+      "target_id": "R01-A02",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "The event discloses an Amazon merger amendment and stockholder approval, indicating the acquisition is likely to close, which reduces the chance of a break‑fee payment and weakens the assumption that the fee will be available if the deal fails.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0033",
+          "quote": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Amazon break‑fee availability",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-6cdb4ef2-a529-49bd-bb33-b62b7326c54e",
+      "target_type": "assumption",
+      "target_id": "R01-A03",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "contradicted",
+      "rationale": "The press release states the company received $188.2 million from a new term loan, showing it required additional debt beyond existing facilities, which directly contradicts the assumption that no extra debt would be needed.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0022",
+          "quote": "During the third quarter, the Company received $188.2 million, net of debt issuance costs, from its new term loan that matures on July 24, 2026. The loan proceeds received will be used to fund the Company's on-going operations.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "No additional debt needed",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-bb570272-6104-4ab0-a7bb-180292511495",
+      "target_type": "assumption",
+      "target_id": "R01-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "Inventory fell in absolute terms but days in inventory rose to 161 days (versus 95 days at year‑end 2022), indicating inventory is not aligned with the lower sales run‑rate and cash consumption may not be limited, weakening the inventory‑management assumption.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "quote": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Inventory level management",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-3e0babd6-80ae-4212-a5c3-95636a83dea7",
+      "target_type": "assumption",
+      "target_id": "R01-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "The announcement of Q3 results on November 7 shows the company delivered its quarterly financial statements on schedule, supporting the assumption of timely financial reporting and compliance certification.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0013",
+          "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Timely financial reporting and compliance certification",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R01-A02",
+      "target_title": "Amazon break‑fee availability",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A03",
+      "target_title": "No additional debt needed",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A04",
+      "target_title": "Inventory level management",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A05",
+      "target_title": "Adequate borrowing base collateral",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A06",
+      "target_title": "Timely financial reporting and compliance certification",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "insufficient_evidence",
+      "rationale": "The event provides cash and inventory figures but does not disclose receivables, which are required to calculate Consolidated Core Assets for the Minimum Core Assets Test.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "quote": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C02",
+      "status": "compliant",
+      "rationale": "The press release announcing Q3 results on November 7 indicates the company delivered its quarterly financial statements on time, satisfying the reporting duty under Section 6.01.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0013",
+          "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C03",
+      "status": "insufficient_evidence",
+      "rationale": "No monthly compliance certificate or related data is disclosed in the event, so compliance with the monthly deliverables required by Section 6.02(a) cannot be assessed.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0013",
+          "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C04",
+      "status": "not_triggered",
+      "rationale": "The event shows an Amazon merger amendment and stockholder approval, not termination; the break‑fee sweep only triggers if the acquisition is not consummated **and** the agreement is terminated.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0033",
+          "quote": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C05",
+      "status": "not_triggered",
+      "rationale": "The event contains no mention of any default or event of default, so the notice duty under Section 6.03(a) remains inactive.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0013",
+          "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    }
+  ],
+  "warnings": [],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "Q3 2023 results show iRobot took a new $200 million term loan, inventory days rose despite lower cash, and the Amazon deal progressed with an amendment and stockholder approval, weakening assumptions about break‑fee availability and no extra debt, while inventory‑management assumption is weakened; core‑assets test cannot be verified, reporting duty satisfied, and no covenants are triggered.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A02",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "The event discloses an Amazon merger amendment and stockholder approval, indicating the acquisition is likely to close, which reduces the chance of a break‑fee payment and weakens the assumption that the fee will be available if the deal fails.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0033",
+            "quote": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "contradicted",
+        "rationale": "The press release states the company received $188.2 million from a new term loan, showing it required additional debt beyond existing facilities, which directly contradicts the assumption that no extra debt would be needed.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0022",
+            "quote": "During the third quarter, the Company received $188.2 million, net of debt issuance costs, from its new term loan that matures on July 24, 2026. The loan proceeds received will be used to fund the Company's on-going operations."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Inventory fell in absolute terms but days in inventory rose to 161 days (versus 95 days at year‑end 2022), indicating inventory is not aligned with the lower sales run‑rate and cash consumption may not be limited, weakening the inventory‑management assumption.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0023",
+            "quote": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "The announcement of Q3 results on November 7 shows the company delivered its quarterly financial statements on schedule, supporting the assumption of timely financial reporting and compliance certification.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0013",
+            "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "insufficient_evidence",
+        "rationale": "The event provides cash and inventory figures but does not disclose receivables, which are required to calculate Consolidated Core Assets for the Minimum Core Assets Test.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0023",
+            "quote": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "status": "compliant",
+        "rationale": "The press release announcing Q3 results on November 7 indicates the company delivered its quarterly financial statements on time, satisfying the reporting duty under Section 6.01.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0013",
+            "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "status": "insufficient_evidence",
+        "rationale": "No monthly compliance certificate or related data is disclosed in the event, so compliance with the monthly deliverables required by Section 6.02(a) cannot be assessed.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0013",
+            "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "status": "not_triggered",
+        "rationale": "The event shows an Amazon merger amendment and stockholder approval, not termination; the break‑fee sweep only triggers if the acquisition is not consummated **and** the agreement is terminated.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0033",
+            "quote": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "status": "not_triggered",
+        "rationale": "The event contains no mention of any default or event of default, so the notice duty under Section 6.03(a) remains inactive.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0013",
+            "quote": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+          }
+        ]
+      }
+    ]
+  }
+}

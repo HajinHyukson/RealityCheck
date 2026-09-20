@@ -1,0 +1,50 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2018-03-13",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C02",
+      "action": "modify",
+      "rationale": "The company expects to need additional time to prepare historical and pro forma financial statements after the VIP acquisition, indicating potential difficulty meeting the 90‑day deadline.",
+      "change_type": "permission",
+      "change": "Extend the deadline for delivering annual financial statements and Compliance Certificate beyond the current 90‑day period after fiscal year end.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2018-03-13",
+          "locator": "P0109",
+          "quote": "The preparation process is ongoing and the Company expects to have this work completed within the allotted 75 day period following the close of the transaction.",
+          "verified": true
+        }
+      ],
+      "direction": "loosen",
+      "proposed_level": null,
+      "affected_assumptions": []
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Evidence indicates the borrower may need extra time to prepare annual financial statements post‑acquisition, justifying a loosened reporting deadline. No other covenant requires change.",
+  "updated_reasons": "Evidence of needed extra time for annual financial statements justifies a loosened reporting permission, altering permitted behavior and thus constituting material drift.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

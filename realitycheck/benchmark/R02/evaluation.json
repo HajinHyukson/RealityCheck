@@ -1,0 +1,777 @@
+{
+  "case": "R02",
+  "mode": "strict_blind_historical_replay",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "candidate_prompt_version": "0.3",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1",
+    "status": "Synthetic evaluation guidelines written for this demonstration. They are our modeling choice. They are not any real lender's policy, risk tolerance or practice, and must not be attributed to Carlyle, Oaktree, Ares or any other lender."
+  },
+  "locked_at": "2026-09-20T01:34:23+00:00",
+  "development_history": "Prompts and validation were adjusted after earlier rolling-replay outputs for this company were seen. This is a development history, not an unseen held-out case.",
+  "reference_disclosure": "Author-prepared by the project's AI coding assistant from the blind inputs only, for the user's review. Not an independent or expert credit review. The author had already seen rolling-mode model outputs and the actual amendment history for this company, so these judgments are not blind to either. Treat them as a disclosed, reviewable baseline, not validated ground truth.",
+  "rules": {
+    "fixed_before_results": "2026-09-19, before any strict blind output was opened.",
+    "system_signal": {
+      "escalate": "candidate judgment is material_drift AND at least one change survives evidence validation AND that change is absent from the origination-only control",
+      "information_request": "candidate judgment is insufficient_evidence",
+      "no_action": "candidate judgment is no_material_drift, or a drift claim with no validated change (recorded as insufficient_evidence by the validator and counted as information_request)",
+      "assumption_flag": "framework workflow only: an assumption newly marked weakened or contradicted at this checkpoint. Reported beside the candidate signal, never merged into it."
+    },
+    "scoring_against_reference": {
+      "warranted": "detected if the signal is escalate or information_request; missed if no_action. Escalations and information requests are reported separately.",
+      "unwarranted": "unnecessary escalation if the signal is escalate. An information request is reported but not counted as an unnecessary escalation.",
+      "unresolved": "not scored. The signal is reported."
+    },
+    "response_matching": {
+      "window": "a candidate change corresponds to an observed response if it touches one of the response's clause families at any checkpoint whose cutoff is before the response's public date",
+      "direction": "reported separately from correspondence. Touching the same clause in the opposite direction is recorded as 'same clause, opposite direction', not as agreement.",
+      "lead_time": "days from the first corresponding checkpoint cutoff to the response's execution date and, separately, to its public date. Reported only for assessable responses; responses with no corresponding change are listed as not anticipated, never dropped.",
+      "repeat_alerts": "consecutive checkpoints signalling the same clause family count as one episode"
+    },
+    "evaluator_correction": "2026-09-19, after the first comparison: direction was being matched by substring against a free-text description, so a candidate that tightened C01 was reported as agreeing with a lender who loosened C01 but tightened C03. Direction is now compared per clause, and every corresponding clause is listed. This corrects the implementation of the rule fixed beforehand; the rule, the locked model outputs and the reference judgments are unchanged."
+  },
+  "exclusions": [
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0346",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "On August 9, 2023, the Company and Oaktree Fund Administration, LLC executed Amendment No. 5 (as defined in Note 5) to the Term Loan Credit Agreement, which pro"
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0347",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Management has initiated plans that will allow the Company to remain in compliance with all revised covenants under Amendment No. 5. The Company has classified "
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0538",
+      "action": "removed",
+      "reason": "States covenant noncompliance and the amendment in the same passage. The two cannot be separated without editing the text, so the whole passage is withheld. Information gap: the first public statement of noncompliance appeared together with the lender response, so this replay cannot show advance detection of it.",
+      "preview": "At June 30, 2023, the Company was not in compliance with certain leverage ratio financial covenants under the Oaktree Credit Agreement. On August 9, 2023 (the \""
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0539",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "The elimination of the June 30, 2023 leverage ratio financial covenants was made effective as of June 30, 2023, and the Lenders agreed in Amendment No. 5 that n"
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0540",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Based on the amended terms of the Oaktree Credit Agreement, the Company believes that it will be in compliance with all covenants under the Oaktree Credit Agree"
+    },
+    {
+      "report_id": "R02-D07",
+      "document_id": "RMBL-10Q-2024Q2",
+      "locator": "P0392",
+      "action": "removed",
+      "reason": "States covenant noncompliance and the amendment in the same passage. The two cannot be separated without editing the text, so the whole passage is withheld. Information gap: the first public statement of noncompliance appeared together with the lender response, so this replay cannot show advance detection of it.",
+      "preview": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date. On August 6, 202"
+    },
+    {
+      "report_id": "R02-D07",
+      "document_id": "RMBL-10Q-2024Q2",
+      "locator": "P0393",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Amendment No. 8 was made effective as of June 30, 2024, and the lenders agreed in Amendment No. 8 that no event of default exists or arises from such financial "
+    },
+    {
+      "report_id": "R02-D07",
+      "document_id": "RMBL-10Q-2024Q2",
+      "locator": "P0394",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Based on the amended terms of the Credit Agreement, the Company believes that it will be in compliance with all covenants under the Credit Agreement, as amended"
+    }
+  ],
+  "workflows": {
+    "realitycheck": {
+      "stats": {
+        "checkpoints": 7,
+        "failed": 0,
+        "withheld_findings": 20,
+        "seconds": 962,
+        "warranted": 4,
+        "warranted_detected": 4,
+        "warranted_escalated": 4,
+        "unwarranted": 1,
+        "unnecessary_escalations": 1,
+        "unresolved": 2
+      },
+      "correspondence": [
+        {
+          "response": "R02-AM05",
+          "title": "Amendment No. 5: leverage tests suspended and relaxed; equity raise and asset sales required",
+          "executed": "2023-08-09",
+          "public": "2023-08-09",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [
+            "$100 million equity raise",
+            "asset sales with proceeds to repay the loan",
+            "warrants",
+            "additional interest"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports of March 16 and May 10, 2023 precede execution on August 9, 2023. The first public noncompliance statement appeared only with the response.",
+          "anticipated": true,
+          "first_checkpoint": "R02-D01",
+          "first_cutoff": "2023-03-16",
+          "candidate_direction": "tighten",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R02-D01",
+              "same_direction": false
+            },
+            {
+              "clause_id": "C02",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R02-D02",
+              "same_direction": false
+            }
+          ],
+          "direction_reading": "same clause, opposite direction",
+          "days_before_execution": 146,
+          "days_before_public": 146
+        },
+        {
+          "response": "R02-AM08",
+          "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+          "executed": "2024-08-06",
+          "public": "2024-08-08",
+          "lender_clause_families": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "lender_direction": "loosen C01 and C02; tighten C03 (minimum liquidity $25.0 million to $30.0 million)",
+          "lender_added": [
+            "compliance certificate on settlement of the convertible notes",
+            "one-time fee"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports from November 2023 to May 2024 precede execution on August 6, 2024. Amendments No. 6 and 7 fall in this window and are not extracted, so correspondence here is partial.",
+          "anticipated": true,
+          "first_checkpoint": "R02-D01",
+          "first_cutoff": "2023-03-16",
+          "candidate_direction": "tighten",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R02-D01",
+              "same_direction": false
+            },
+            {
+              "clause_id": "C02",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R02-D02",
+              "same_direction": false
+            }
+          ],
+          "direction_reading": "same clause, opposite direction",
+          "days_before_execution": 509,
+          "days_before_public": 511
+        }
+      ]
+    },
+    "direct_review": {
+      "stats": {
+        "checkpoints": 7,
+        "failed": 0,
+        "withheld_findings": 1,
+        "seconds": 233,
+        "warranted": 4,
+        "warranted_detected": 3,
+        "warranted_escalated": 3,
+        "unwarranted": 1,
+        "unnecessary_escalations": 0,
+        "unresolved": 2
+      },
+      "correspondence": [
+        {
+          "response": "R02-AM05",
+          "title": "Amendment No. 5: leverage tests suspended and relaxed; equity raise and asset sales required",
+          "executed": "2023-08-09",
+          "public": "2023-08-09",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [
+            "$100 million equity raise",
+            "asset sales with proceeds to repay the loan",
+            "warrants",
+            "additional interest"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports of March 16 and May 10, 2023 precede execution on August 9, 2023. The first public noncompliance statement appeared only with the response.",
+          "anticipated": false
+        },
+        {
+          "response": "R02-AM08",
+          "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+          "executed": "2024-08-06",
+          "public": "2024-08-08",
+          "lender_clause_families": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "lender_direction": "loosen C01 and C02; tighten C03 (minimum liquidity $25.0 million to $30.0 million)",
+          "lender_added": [
+            "compliance certificate on settlement of the convertible notes",
+            "one-time fee"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports from November 2023 to May 2024 precede execution on August 6, 2024. Amendments No. 6 and 7 fall in this window and are not extracted, so correspondence here is partial.",
+          "anticipated": true,
+          "first_checkpoint": "R02-D02",
+          "first_cutoff": "2023-05-10",
+          "candidate_direction": "tighten",
+          "per_clause": [
+            {
+              "clause_id": "C03",
+              "candidate": "tighten",
+              "lender": "tighten",
+              "checkpoint": "R02-D02",
+              "same_direction": true
+            },
+            {
+              "clause_id": "C01",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R02-D05",
+              "same_direction": false
+            },
+            {
+              "clause_id": "C02",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R02-D05",
+              "same_direction": false
+            }
+          ],
+          "direction_reading": "same direction on C03; opposite on C01, C02",
+          "days_before_execution": 454,
+          "days_before_public": 456
+        }
+      ]
+    }
+  },
+  "checkpoints": [
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D01",
+      "cutoff": "2023-03-16",
+      "title": "Fourth-quarter and full-year 2022 results",
+      "reference": "unresolved",
+      "signal": "escalate",
+      "new_assumption_flags": [
+        "R02-A01 weakened",
+        "R02-A06 weakened"
+      ],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (e.g., reduce from 4.25).",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-03-16",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA of $120.1 million",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D02",
+      "cutoff": "2023-05-10",
+      "title": "First-quarter 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Change the covenant from permitting the ratio to exceed 4.25 to requiring it to be ≤4.25.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-05-10",
+              "locator": "P0046",
+              "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Change the covenant from permitting the ratio to exceed 3.75 to requiring it to be ≤3.75.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-05-10",
+              "locator": "P0046",
+              "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D03",
+      "cutoff": "2023-08-09",
+      "title": "Second-quarter 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (make covenant more restrictive)",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-08-09",
+              "locator": "P0056",
+              "quote": "•Adjusted EBITDA of $55 million to $65 million, compared to $120 million in 2022..",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-1",
+          "change_type": "new_protection",
+          "direction": "add_protection",
+          "change": "Add a covenant requiring minimum operating cash flow (e.g., not less than $0 over a rolling period)",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-08-09",
+              "locator": "P0050",
+              "quote": "Cash Flow used in Operating Activities was $(6.3) million for the six months ended June 30, 2023.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": "First public noncompliance statement appears only alongside the lender response."
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D04",
+      "cutoff": "2023-11-07",
+      "title": "Third-quarter 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (i.e., require ratio ≤ X)",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-11-07",
+              "locator": "P0048",
+              "quote": "Cash and Restricted Cash as of September 30, 2023 was approximately $59.5 million, and total debt was $369.9 million.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "lower the maximum allowed Consolidated Senior Secured Net Leverage Ratio threshold (i.e., require ratio ≤ X)",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-11-07",
+              "locator": "P0048",
+              "quote": "Cash and Restricted Cash as of September 30, 2023 was approximately $59.5 million, and total debt was $369.9 million.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-1",
+          "change_type": "new_protection",
+          "direction": "add_protection",
+          "change": "add a covenant requiring minimum operating cash flow (or limiting negative cash flow)",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-11-07",
+              "locator": "P0050",
+              "quote": "Cash Flow used in Operating Activities was $19.3 million for the nine months ended September 30, 2023.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D05",
+      "cutoff": "2024-03-14",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Reduce the maximum allowed Consolidated Total Net Leverage Ratio threshold below the current 4.25x",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0055",
+              "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Reduce the maximum allowed Consolidated Senior Secured Net Leverage Ratio threshold below the current 3.75x",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0055",
+              "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D06",
+      "cutoff": "2024-05-08",
+      "title": "First-quarter 2024 results",
+      "reference": "unwarranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (make the covenant more restrictive)",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-05-08",
+              "locator": "P0049",
+              "quote": "Adjusted EBITDA was $11.7 million, compared to $10.8 million or an improvement of 8.3%.",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2024-05-08",
+              "locator": "P0050",
+              "quote": "Cash and Restricted Cash as of March 31, 2024 totaled approximately $63.4 million, and non-vehicle net debt was $203.4 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R02-D07",
+      "cutoff": "2024-08-08",
+      "title": "Second-quarter 2024 results",
+      "reference": "unresolved",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "permission",
+          "direction": "tighten",
+          "change": "Change from permitting ratio >4.25 to imposing a maximum ratio of 4.25 (or lower).",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-05-08",
+              "locator": "P0050",
+              "quote": "Cash and Restricted Cash as of March 31, 2024 totaled approximately $63.4 million, and non-vehicle net debt was $203.4 million.",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2024-05-08",
+              "locator": "P0049",
+              "quote": "Adjusted EBITDA was $11.7 million, compared to $10.8 million or an improvement of 8.3%.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "change_type": "permission",
+          "direction": "tighten",
+          "change": "Change from permitting liquidity <$25M to requiring liquidity ≥$25M.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-05-08",
+              "locator": "P0051",
+              "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floor plan credit facilities at March 31, 2024, totaled approximately $212.7 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": "First public noncompliance statement appears only alongside the lender response."
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D01",
+      "cutoff": "2023-03-16",
+      "title": "Fourth-quarter and full-year 2022 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D02",
+      "cutoff": "2023-05-10",
+      "title": "First-quarter 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C03",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Increase the minimum liquidity threshold",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-03-16",
+              "locator": "P0064",
+              "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million.",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2023-05-10",
+              "locator": "P0048",
+              "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D03",
+      "cutoff": "2023-08-09",
+      "title": "Second-quarter 2023 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": "First public noncompliance statement appears only alongside the lender response."
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D04",
+      "cutoff": "2023-11-07",
+      "title": "Third-quarter 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C03",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Increase the minimum liquidity threshold (require liquidity not less than a higher amount).",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2023-03-16",
+              "locator": "P0064",
+              "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million.",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2023-11-07",
+              "locator": "P0049",
+              "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floor plan credit facilities for inventory on hand at September 30, 2023, totaled approximately $73.6 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D05",
+      "cutoff": "2024-03-14",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio to reflect increased leverage.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA was $50.6 million, which compares to Adjusted EBITDA of $120.8 million in 2022.",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0055",
+              "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Lower the maximum allowed Consolidated Senior Secured Net Leverage Ratio to reflect increased leverage.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA was $50.6 million, which compares to Adjusted EBITDA of $120.8 million in 2022.",
+              "verified": true
+            },
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0055",
+              "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D06",
+      "cutoff": "2024-05-08",
+      "title": "First-quarter 2024 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R02-D07",
+      "cutoff": "2024-08-08",
+      "title": "Second-quarter 2024 results",
+      "reference": "unresolved",
+      "signal": "information_request",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": "material_drift",
+      "information_gap": "First public noncompliance statement appears only alongside the lender response."
+    }
+  ],
+  "interpretation_limits": [
+    "Two companies and 7 checkpoints for this one. Checkpoints within a company are correlated, not independent borrowers.",
+    "Reference judgments are author-prepared and were not blind to the actual history. No independent credit reviewer was available.",
+    "Both companies are development histories: prompts were changed after earlier outputs for them were seen.",
+    "One run per checkpoint. Repeat-run stability and unchanged-evidence controls are not measured.",
+    "Nemotron may know these companies' outcomes from pretraining. Instructions to ignore recalled knowledge do not remove that.",
+    "An actual amendment is an observed response, not a correct answer. Correspondence and reference agreement are separate measures."
+  ]
+}

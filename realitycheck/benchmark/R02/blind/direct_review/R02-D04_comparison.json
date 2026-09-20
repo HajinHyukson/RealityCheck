@@ -1,0 +1,59 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2023-11-07",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03",
+    "R02-D04"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C03",
+      "action": "modify",
+      "rationale": "Liquidity declined sharply, showing reduced buffer; evidence shows falling cash and availability.",
+      "change_type": "threshold",
+      "change": "Increase the minimum liquidity threshold (require liquidity not less than a higher amount).",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-03-16",
+          "locator": "P0064",
+          "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million.",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2023-11-07",
+          "locator": "P0049",
+          "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floor plan credit facilities for inventory on hand at September 30, 2023, totaled approximately $73.6 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": []
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Liquidity has fallen from $196.1 million at end‑2022 to $73.6 million at end‑Q3 2023, eroding the buffer. No other covenant shows a material shift. Therefore only the minimum liquidity covenant warrants tightening.",
+  "updated_reasons": "Evidence of declining liquidity justifies tightening the minimum liquidity covenant, altering risk coverage.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

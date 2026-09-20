@@ -1,0 +1,131 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2019-08-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:31:03.076197+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07"
+  ],
+  "assessments_supplied": true,
+  "summary": "Based on evidence through August 7, 2019, all existing covenants remain appropriate; no evidence of missed reporting, deteriorating leverage, or increased indebtedness risk warrants tightening, loosening, or adding protections.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Leverage ratio remains well below the declining threshold; no indication of approaching breach."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Annual statements for FY 2018 were released March 11, 2019, within the 90‑day window; assumption R03‑A04 is supported."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Q1 and Q2 2019 quarterly releases were issued within 45 days of quarter end; no reporting delays observed."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence of monthly reporting failures; the covenant remains adequate."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Assumption R03‑A05 is supported; stable operations show no defaults or material adverse effect triggering notices."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "VIP acquisition performed as expected (R03‑A06 supported); contingent note risk (R03‑A07) is already addressed in the indebtedness basket."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Evidence shows timely financial reporting, leverage comfortably within covenant limits, stable business performance, and no new indebtedness risks that would require tightening, loosening, or adding covenant protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through August 7, 2019, all existing covenants remain appropriate; no evidence of missed reporting, deteriorating leverage, or increased indebtedness risk warrants tightening, loosening, or adding protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Leverage ratio remains well below the declining threshold; no indication of approaching breach."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Annual statements for FY 2018 were released March 11, 2019, within the 90‑day window; assumption R03‑A04 is supported."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Q1 and Q2 2019 quarterly releases were issued within 45 days of quarter end; no reporting delays observed."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of monthly reporting failures; the covenant remains adequate."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Assumption R03‑A05 is supported; stable operations show no defaults or material adverse effect triggering notices."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "VIP acquisition performed as expected (R03‑A06 supported); contingent note risk (R03‑A07) is already addressed in the indebtedness basket."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Evidence shows timely financial reporting, leverage comfortably within covenant limits, stable business performance, and no new indebtedness risks that would require tightening, loosening, or adding covenant protections."
+  },
+  "elapsed_seconds": 43.9
+}

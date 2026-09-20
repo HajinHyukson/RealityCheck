@@ -1,0 +1,114 @@
+{
+  "warning": "Evaluator collection. Never supply this file, or anything derived from it, to an inference run.",
+  "borrower_id": "R01",
+  "observed_responses": [
+    {
+      "id": "R01-AM01",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "trigger_event_id": "R01-D08",
+      "title": "Amendment No. 1: covenant waiver to May 6, 2025",
+      "status": "observed_historical_response",
+      "decision_at": "2025-03-12",
+      "effective_at": "2025-03-11",
+      "publicly_available_at": "2025-03-12T07:24:44.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W01",
+          "title": "Amendment No. 1: covenant waiver to May 6, 2025 (company description)",
+          "section": "Form 8-K description",
+          "clause": "On March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 (“Amendment No. 1”) to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent (the “Agent”) and the lenders party thereto (the “Lenders”). Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the “Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. In connection with Amendment No. 1, the Company returned to a controlled account for the benefit of the Agent and the Lenders the $40.0 million that the Company elected to withdraw from such controlled account during the third quarter of 2024 for the purchase of inventory, and the Agent deferred payment of the related $4.0 million use fee until the end of the Amendment Period. Amendment No. 1 also requires the Company to provide more frequent supplemental financial reporting to the Agent. For information regarding risks and uncertainties related to the Credit Agreement and the Company’s covenant compliance thereunder, please see the Company’s Annual Report on Form 10-K for the year ended December 28, 2024.\n\nFees payable by the Company to the Lenders in connection with Amendment No. 1 include (1) $3.6 million (representing 2.0% of the aggregate principal amount of Term Loans outstanding), which will be paid in kind via an increase of the outstanding principal amount of the Term Loan and (2) issuing to the Lenders on the date of Amendment No. 1 warrants to purchase an aggregate of 1,840,503 shares of the Company’s common stock (equal to six percent of the Company’s outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of March 11, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-8K-AMENDMENT-1",
+            "locators": [
+              "P0051",
+              "P0052"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525052480/d937654d8k.htm",
+            "sha256": "79645f7a54bdf88e35f7c28bce58c0c6e6414b68f62bb7538ee0512e04670607"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1159167/000119312525052480/d937654dex101.htm (SEC-filed redline; not extracted into this packet). Company description, verbatim from its Form 8-K:\n\nOn March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 (“Amendment No. 1”) to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent (the “Agent”) and the lenders party thereto (the “Lenders”). Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the “Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. In connection with Amendment No. 1, the Company returned to a controlled account for the benefit of the Agent and the Lenders the $40.0 million that the Company elected to withdraw from such controlled account during the third quarter of 2024 for the purchase of inventory, and the Agent deferred payment of the related $4.0 million use fee until the end of the Amendment Period. Amendment No. 1 also requires the Company to provide more frequent supplemental financial reporting to the Agent. For information regarding risks and uncertainties related to the Credit Agreement and the Company’s covenant compliance thereunder, please see the Company’s Annual Report on Form 10-K for the year ended December 28, 2024.\n\nFees payable by the Company to the Lenders in connection with Amendment No. 1 include (1) $3.6 million (representing 2.0% of the aggregate principal amount of Term Loans outstanding), which will be paid in kind via an increase of the outstanding principal amount of the Term Loan and (2) issuing to the Lenders on the date of Amendment No. 1 warrants to purchase an aggregate of 1,840,503 shares of the Company’s common stock (equal to six percent of the Company’s outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of March 11, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 8-K: the going-concern condition for the fiscal 2024 audit report and the minimum core assets covenant, until May 6, 2025.",
+      "not_pursued": null
+    },
+    {
+      "id": "R01-AM02",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "trigger_event_id": "R01-D09",
+      "title": "Amendment No. 2: waiver extended to June 6, 2025",
+      "status": "observed_historical_response",
+      "decision_at": "2025-05-06",
+      "effective_at": "2025-04-30",
+      "publicly_available_at": "2025-05-06T16:27:44.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W02",
+          "title": "Amendment No. 2: waiver extended to June 6, 2025 (company description)",
+          "section": "Form 8-K description",
+          "clause": "As previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement (“Amendment No. 2”), which extended the Initial Amendment Period to June 6, 2025.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-8K-AMENDMENT-2",
+            "locators": [
+              "P0044"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/irbt-20250430.htm",
+            "sha256": "ba7e4caae66df565df529c128c5a99bb9e5d87940a8bededa7ed7e904e038ea9"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/ex101amendmentno2.htm (SEC-filed redline; not extracted into this packet). Company description, verbatim from its Form 8-K:\n\nAs previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement (“Amendment No. 2”), which extended the Initial Amendment Period to June 6, 2025.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 8-K: the same two covenant obligations, extended to June 6, 2025.",
+      "not_pursued": null
+    },
+    {
+      "id": "R01-AM03",
+      "version": "1.3",
+      "parent_version": "1.2",
+      "trigger_event_id": "R01-D10",
+      "title": "Amendment No. 3: waiver extended to August 14, 2025",
+      "status": "observed_historical_response",
+      "decision_at": "2025-06-05",
+      "effective_at": "2025-06-05",
+      "publicly_available_at": "2025-06-05T21:12:09.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W03",
+          "title": "Amendment No. 3: waiver extended to August 14, 2025 (company description)",
+          "section": "Form 8-K description",
+          "clause": "As previously announced, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended from time to time, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Waiver Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement, which extended the Initial Waiver Period to June 6, 2025. On June 5, 2025, the Company entered into Amendment No. 3 to the Credit Agreement (“Amendment No. 3”), which further extended the Initial Waiver Period to August 14, 2025.\n\nIn connection with Amendment No. 3 the Company (1) is required to make a prepayment of $4 million in cash currently held in a restricted cash account in favor of the Lenders, which will be entirely applied to reduce the outstanding principal amount of the Term Loan and (2) issued to the Lenders on the date of Amendment No. 3 warrants to purchase an aggregate of 1,556,323 shares of the Company’s common stock (equal to five percent of the Company’s outstanding common stock as of June 4, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of June 5, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-8K-AMENDMENT-3",
+            "locators": [
+              "P0054",
+              "P0055"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654d8k.htm",
+            "sha256": "976577e952ec226e909e2db09348fbdaf38c67198b6b56e3277d7550868716d6"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654dex101.htm (SEC-filed redline; not extracted into this packet). Company description, verbatim from its Form 8-K:\n\nAs previously announced, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended from time to time, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Waiver Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement, which extended the Initial Waiver Period to June 6, 2025. On June 5, 2025, the Company entered into Amendment No. 3 to the Credit Agreement (“Amendment No. 3”), which further extended the Initial Waiver Period to August 14, 2025.\n\nIn connection with Amendment No. 3 the Company (1) is required to make a prepayment of $4 million in cash currently held in a restricted cash account in favor of the Lenders, which will be entirely applied to reduce the outstanding principal amount of the Term Loan and (2) issued to the Lenders on the date of Amendment No. 3 warrants to purchase an aggregate of 1,556,323 shares of the Company’s common stock (equal to five percent of the Company’s outstanding common stock as of June 4, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of June 5, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 8-K: the same two covenant obligations, extended to August 14, 2025, with a $4 million prepayment and additional warrants.",
+      "not_pursued": null
+    }
+  ],
+  "dependence_notes": {
+    "R01-D09": "This report says the company returned $40 million to restricted cash in the first quarter of 2025. That return was required by the hidden Amendment No. 1. The fact is kept unedited; the cash trajectory after March 2025 reflects an amendment the model cannot see.",
+    "R01-D08": "Reported going-concern doubt is a company disclosure and is kept. The sentence saying the term loan had been amended is withheld."
+  }
+}

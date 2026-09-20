@@ -1,0 +1,135 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2020-08-06",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:20:55.839781+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08",
+    "R03-D09",
+    "R03-D10",
+    "R03-D11"
+  ],
+  "assessments_supplied": false,
+  "summary": "Review of all available evidence through the review date shows no developments that would require tightening, loosening, or adding any covenant protections. The existing package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No dated evidence shows the leverage ratio threshold or direction needs revision; the existing minimum‑ratio schedule remains consistent with the agreement and no amendment suggests a change."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Annual reporting deadline of 90 days continues to be met per quarterly/annual releases; no evidence of delay or need to alter frequency or content."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly reporting deadline of 45 days is satisfied by timely releases; no indication to modify timing or requirements."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Monthly statement requirement lacks evidence of non‑compliance or operational change; retain as is."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Three‑business‑day notice rule has no evidence of breach or need for adjustment; retain."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Indebtedness baskets, including the $75 million ABL limit and accordion feature, are already reflected; no new evidence justifies a change."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All covenants remain supported by available evidence; no dated information shows a need to tighten, loosen, or add protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of all available evidence through the review date shows no developments that would require tightening, loosening, or adding any covenant protections. The existing package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No dated evidence shows the leverage ratio threshold or direction needs revision; the existing minimum‑ratio schedule remains consistent with the agreement and no amendment suggests a change."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Annual reporting deadline of 90 days continues to be met per quarterly/annual releases; no evidence of delay or need to alter frequency or content."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Quarterly reporting deadline of 45 days is satisfied by timely releases; no indication to modify timing or requirements."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly statement requirement lacks evidence of non‑compliance or operational change; retain as is."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Three‑business‑day notice rule has no evidence of breach or need for adjustment; retain."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Indebtedness baskets, including the $75 million ABL limit and accordion feature, are already reflected; no new evidence justifies a change."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All covenants remain supported by available evidence; no dated information shows a need to tighten, loosen, or add protections."
+  },
+  "elapsed_seconds": 158.7
+}

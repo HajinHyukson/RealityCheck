@@ -1,0 +1,41 @@
+{
+  "case": "R01",
+  "mode": "strict_blind_historical_replay",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "attribution_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000
+  },
+  "candidate_prompt_version": "0.3",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1",
+    "status": "Synthetic evaluation guidelines written for this demonstration. They are our modeling choice. They are not any real lender's policy, risk tolerance or practice, and must not be attributed to Carlyle, Oaktree, Ares or any other lender.",
+    "objective": "Decide whether, knowing what is known at the review date, a lender would write materially different protections for this borrower. Detection is the purpose; the candidate package is a comparison instrument, not a recommended amendment.",
+    "drafting_rules": [
+      "Retain a clause unless dated evidence gives a reason to change it. An unchanged package is a valid result.",
+      "Every modified or added protection must cite dated evidence, name the affected assumption and state the reason.",
+      "Do not invent financial inputs, thresholds or facts. Where a number cannot be supported by the evidence, describe the direction and type of change and leave the level to be set.",
+      "Rewording a clause without changing scope, threshold, definition, reporting frequency, trigger, permission or cure period is not a substantive change and must be reported as retain.",
+      "A looser covenant never erases noncompliance under the operative agreement.",
+      "Inputs listed as missing are not public. Do not estimate them."
+    ],
+    "materiality": {
+      "material_drift": "Evidence-driven changes alter risk coverage, monitoring needs or permitted behavior: a new or tightened protection, a new reporting duty or frequency, a changed trigger, or a threshold moved for a stated evidence-based reason.",
+      "no_material_drift": "No substantive change is justified by evidence available at the review date, or only equivalent wording would change.",
+      "insufficient_evidence": "The evidence raises a question the available public inputs cannot resolve."
+    },
+    "change_types": [
+      "threshold",
+      "scope",
+      "definition",
+      "reporting_frequency",
+      "trigger",
+      "permission",
+      "cure_period",
+      "new_protection"
+    ]
+  },
+  "contractual_baseline": "original package v1.0 at every checkpoint",
+  "development_history": "Prompts and validation were adjusted after earlier rolling-replay outputs for this company were seen. This is a development history, not an unseen held-out case."
+}

@@ -1,0 +1,268 @@
+{
+  "id": "H01-D02",
+  "event": {
+    "id": "H01-D02",
+    "title": "Ocean shipping disruption on Asia to East Coast routings",
+    "event_date": "2026-12-09",
+    "available_at": "2026-12-14",
+    "review_date": "2026-12-14",
+    "sources": [
+      {
+        "document_id": "HFM-2026-12-10",
+        "locator": "P1 — industry report",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Harborline Freight Monitor, a fictional industry publication, reported on December 10, 2026 that major carriers suspended canal transits on Asia to United States East Coast services and are routing around the Cape. It estimates added transit time of 18 to 26 days and spot container rates up 62% on those services. The report names no shipper and expects the disruption to last at least through the first quarter of 2027; that is a forecast."
+      },
+      {
+        "document_id": "H01-OPS-2026-12-11",
+        "locator": "P2 — exposed volume and cost responsibility",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Operations note dated December 11, 2026. 38% of the Loan Parties' purchase volume for the preceding twelve months ships on the affected routings. Expected delivery delay on that volume is 24 days, taking lead time from about 55 days to about 79 days. Goods are bought FOB origin, so the Borrower bears the ocean freight. About 70% of the affected containers move at spot rates. No alternative routing had been booked as of this note."
+      },
+      {
+        "document_id": "H01-OPS-2026-12-11",
+        "locator": "P3 — knowledge and notice",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. The head of supply chain first learned of the carrier suspensions on December 9, 2026. The Borrower delivered written notice to the Lender on December 14, 2026 stating the affected volume, the expected duration and the actions being taken. A 13-week cash forecast had not yet been delivered as of December 14."
+      }
+    ]
+  },
+  "borrower_id": "H01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:26:46.112467+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "The Dec 9 ocean shipping disruption lengthened lead times to ~79 days for 38% of volume, contradicting the lead‑time stability assumption and weakening the freight‑recovery assumption. The borrower gave timely notice of the supply disruption, satisfying C05, but had not yet delivered the required 13‑week cash forecast by the Dec 14 observation point, leaving C06 compliance undetermined.",
+  "attributions": [
+    {
+      "id": "att-3ea919cf-544f-447e-b63c-55cebb6f13b4",
+      "target_type": "assumption",
+      "target_id": "H01-A01",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "contradicted",
+      "rationale": "Lead time for 38% of purchase volume rose from about 55 to about 79 days, exceeding the 70‑day threshold for >10% volume and showing no alternative routing.",
+      "evidence": [
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P2 — exposed volume and cost responsibility",
+          "quote": "38% of the Loan Parties' purchase volume for the preceding twelve months ships on the affected routings. Expected delivery delay on that volume is 24 days, taking lead time from about 55 days to about 79 days.",
+          "verified": true
+        },
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P2 — exposed volume and cost responsibility",
+          "quote": "No alternative routing had been booked as of this note.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Reassess lead time assumption; consider safety stock or alternative routings.",
+      "path": [],
+      "target_title": "Lead time stability",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-488a403a-8d8d-4069-8248-67cb7ad821b4",
+      "target_type": "assumption",
+      "target_id": "H01-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "Spot container rates rose 62% on affected services and about 70% of those containers move at spot rates, indicating a freight cost increase well above the 20% threshold with no documented recovery yet.",
+      "evidence": [
+        {
+          "document_id": "HFM-2026-12-10",
+          "locator": "P1 — industry report",
+          "quote": "spot container rates up 62% on those services.",
+          "verified": true
+        },
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P2 — exposed volume and cost responsibility",
+          "quote": "About 70% of the affected containers move at spot rates.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Monitor freight cost recovery and consider pricing adjustments.",
+      "path": [],
+      "target_title": "FOB terms and freight recovery",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "H01-A01",
+      "target_title": "Lead time stability",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A02",
+      "target_title": "Inventory and receivables turnover",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A03",
+      "target_title": "DTC offset",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A04",
+      "target_title": "FOB terms and freight recovery",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A05",
+      "target_title": "Cash floor",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A06",
+      "target_title": "Reporting timeliness",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A07",
+      "target_title": "Manufacturer diversification reduces lead‑time risk",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A08",
+      "target_title": "Distribution capacity supports inventory turnover",
+      "status": "unaddressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C05",
+      "status": "compliant",
+      "rationale": "Notice of the supply disruption was delivered on Dec 14, 2026, which is within five Business Days after the Responsible Officer first learned of the event on Dec 9, 2026, satisfying the notice deadline.",
+      "evidence": [
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P3 — knowledge and notice",
+          "quote": "The head of supply chain first learned of the carrier suspensions on December 9, 2026. The Borrower delivered written notice to the Lender on December 14, 2026 stating the affected volume, the expected duration and the actions being taken.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C06",
+      "status": "insufficient_evidence",
+      "rationale": "As of Dec 14, 2026 the 13‑week cash forecast required within ten Business Days of the Dec 9 supply‑disruption knowledge had not yet been delivered; the deadline had not passed, so compliance cannot be determined from the evidence.",
+      "evidence": [
+        {
+          "document_id": "H01-OPS-2026-12-11",
+          "locator": "P3 — knowledge and notice",
+          "quote": "A 13-week cash forecast had not yet been delivered as of December 14.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    }
+  ],
+  "warnings": [],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The Dec 9 ocean shipping disruption lengthened lead times to ~79 days for 38% of volume, contradicting the lead‑time stability assumption and weakening the freight‑recovery assumption. The borrower gave timely notice of the supply disruption, satisfying C05, but had not yet delivered the required 13‑week cash forecast by the Dec 14 observation point, leaving C06 compliance undetermined.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "contradicted",
+        "rationale": "Lead time for 38% of purchase volume rose from about 55 to about 79 days, exceeding the 70‑day threshold for >10% volume and showing no alternative routing.",
+        "evidence": [
+          {
+            "document_id": "H01-OPS-2026-12-11",
+            "locator": "P2 — exposed volume and cost responsibility",
+            "quote": "38% of the Loan Parties' purchase volume for the preceding twelve months ships on the affected routings. Expected delivery delay on that volume is 24 days, taking lead time from about 55 days to about 79 days."
+          },
+          {
+            "document_id": "H01-OPS-2026-12-11",
+            "locator": "P2 — exposed volume and cost responsibility",
+            "quote": "No alternative routing had been booked as of this note."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Reassess lead time assumption; consider safety stock or alternative routings.",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Spot container rates rose 62% on affected services and about 70% of those containers move at spot rates, indicating a freight cost increase well above the 20% threshold with no documented recovery yet.",
+        "evidence": [
+          {
+            "document_id": "HFM-2026-12-10",
+            "locator": "P1 — industry report",
+            "quote": "spot container rates up 62% on those services."
+          },
+          {
+            "document_id": "H01-OPS-2026-12-11",
+            "locator": "P2 — exposed volume and cost responsibility",
+            "quote": "About 70% of the affected containers move at spot rates."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Monitor freight cost recovery and consider pricing adjustments.",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C05",
+        "status": "compliant",
+        "rationale": "Notice of the supply disruption was delivered on Dec 14, 2026, which is within five Business Days after the Responsible Officer first learned of the event on Dec 9, 2026, satisfying the notice deadline.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-OPS-2026-12-11",
+            "locator": "P3 — knowledge and notice",
+            "quote": "The head of supply chain first learned of the carrier suspensions on December 9, 2026. The Borrower delivered written notice to the Lender on December 14, 2026 stating the affected volume, the expected duration and the actions being taken."
+          }
+        ]
+      },
+      {
+        "clause_id": "C06",
+        "status": "insufficient_evidence",
+        "rationale": "As of Dec 14, 2026 the 13‑week cash forecast required within ten Business Days of the Dec 9 supply‑disruption knowledge had not yet been delivered; the deadline had not passed, so compliance cannot be determined from the evidence.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-OPS-2026-12-11",
+            "locator": "P3 — knowledge and notice",
+            "quote": "A 13-week cash forecast had not yet been delivered as of December 14."
+          }
+        ]
+      }
+    ]
+  }
+}

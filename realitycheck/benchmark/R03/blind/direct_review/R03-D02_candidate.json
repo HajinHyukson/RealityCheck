@@ -1,0 +1,132 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2018-05-15",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:15:01.887623+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02"
+  ],
+  "assessments_supplied": false,
+  "summary": "Review of evidence through May 15 2018 shows no substantive changes needed to the existing covenant package. The financial leverage covenant remains as filed despite descriptive variance in the 8‑K, and all reporting, notice and indebtedness restrictions continue to reflect the original terms. No new protections are warranted.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows a description mismatch but provides no basis to alter the leverage ratio level or direction; retain as is."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No dated evidence indicates a need to change annual financial statement timing or content; retain."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No evidence suggests quarterly reporting frequency or content should change; retain."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicates monthly reporting requirements need adjustment; retain."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence shows notice period for defaults or material adverse effect should be altered; retain."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence indicates indebtedness baskets require modification; retain."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Available evidence through the review date does not justify any tightening, loosening, or addition of covenant protections; the current package remains appropriate.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of evidence through May 15 2018 shows no substantive changes needed to the existing covenant package. The financial leverage covenant remains as filed despite descriptive variance in the 8‑K, and all reporting, notice and indebtedness restrictions continue to reflect the original terms. No new protections are warranted.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows a description mismatch but provides no basis to alter the leverage ratio level or direction; retain as is.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No dated evidence indicates a need to change annual financial statement timing or content; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence suggests quarterly reporting frequency or content should change; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates monthly reporting requirements need adjustment; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence shows notice period for defaults or material adverse effect should be altered; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates indebtedness baskets require modification; retain.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Available evidence through the review date does not justify any tightening, loosening, or addition of covenant protections; the current package remains appropriate."
+  },
+  "elapsed_seconds": 23.8
+}

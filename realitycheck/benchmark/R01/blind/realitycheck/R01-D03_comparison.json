@@ -1,0 +1,56 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2024-02-26",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Evidence shows inventory days rose to 161 days, indicating misalignment and cash consumption not addressed by current package.",
+      "change_type": "new_protection",
+      "change": "Add a covenant limiting inventory days to ensure alignment with business run rates and reduce cash consumption.",
+      "evidence": [
+        {
+          "document_id": "IRBT-10Q-2023Q1",
+          "locator": "P0368",
+          "quote": "Inventory has consumed a significant amount of cash and the Company continues to manage its inventory level carefully.",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A04"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "updated_summary": "Based on evidence through February 26, 2024, the existing covenant package remains appropriate except for inventory alignment. The company's inventory days have increased to 161 days, consuming cash and deviating from run rates, which is not covered by current terms. Accordingly, a new inventory covenant is warranted, representing a material drift.",
+  "updated_reasons": "Evidence shows inventory days increased to 161 days, indicating misalignment and cash consumption; current package lacks inventory covenant, so new protection needed.",
+  "warnings": [
+    "NEW-1: 1 unverifiable citation(s) dropped."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

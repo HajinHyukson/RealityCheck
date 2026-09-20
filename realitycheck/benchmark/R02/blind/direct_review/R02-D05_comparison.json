@@ -1,0 +1,83 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2024-03-14",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03",
+    "R02-D04",
+    "R02-D05"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "EBITDA fell from $120.8m (2022) to $50.6m (2023) while non‑vehicle net debt rose to $242.9m, pushing leverage above the 4.25x limit; tightening the ratio threshold is needed.",
+      "change_type": "threshold",
+      "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio to reflect increased leverage.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0016",
+          "quote": "Adjusted EBITDA was $50.6 million, which compares to Adjusted EBITDA of $120.8 million in 2022.",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0055",
+          "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": []
+    },
+    {
+      "clause_id": "C02",
+      "action": "modify",
+      "rationale": "EBITDA fell from $120.8m (2022) to $50.6m (2023) while non‑vehicle net debt rose to $242.9m, pushing leverage above the 3.75x limit; tightening the ratio threshold is needed.",
+      "change_type": "threshold",
+      "change": "Lower the maximum allowed Consolidated Senior Secured Net Leverage Ratio to reflect increased leverage.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0016",
+          "quote": "Adjusted EBITDA was $50.6 million, which compares to Adjusted EBITDA of $120.8 million in 2022.",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0055",
+          "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": []
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on 2023‑2024 results, EBITDA fell sharply and net debt rose, pushing leverage ratios above the current covenant limits. This evidence justifies tightening the leverage thresholds; liquidity remains ample, and reporting and notice provisions need no change.",
+  "updated_reasons": "Evidence of sharply lower EBITDA and higher net debt indicates leverage ratios exceed current covenant limits, justifying tightened leverage thresholds; liquidity and reporting clauses show no need for change.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

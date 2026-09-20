@@ -1,0 +1,417 @@
+{
+  "id": "R02-D07",
+  "event": {
+    "id": "R02-D07",
+    "title": "Second-quarter 2024 results and Amendment No. 8",
+    "event_date": "2024-08-08",
+    "available_at": "2024-08-08",
+    "review_date": "2024-08-08",
+    "sources": [
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0005",
+        "text": "IRVING, Texas – August 7, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), the \"Company\" or \"RumbleOn\", today announced results for the second quarter ended June 30, 2024."
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0009",
+        "text": "•Selling, general & administrative expense (SG&A) was $71.4 million compared to $100.3 million. Adjusted SG&A(1) decreased 19.4% to $70.8 million, or 78.7% of gross profit (GP), from $87.8 million, or 82.5% of GP"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0012",
+        "text": "•Operating cash flows for the first half of 2024 totaled $29.2 million compared to $(5.6) million in 2023. Free Cash Flow(1) for the first half of 2024 was $28.2 million compared to $(11.6) million in the 2023 period"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0013",
+        "text": "•The Company reduced Non-Vehicle Net Debt by $33.8 million in the first half of 2024"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0015",
+        "text": "•Executed the initial phase of Vision 2026 strategy to run the best dealerships in America, which is expected to yield $30 million of annualized savings"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0016",
+        "text": "•In June, the Company opened RideNow Powersports Houston, a dedicated pre-owned vehicle dealership"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0017",
+        "text": "\"Our second quarter performance reflects the strength of our powersports dealership group as we continue to progress on our turnaround. It is a challenging time for the powersports industry, as we navigate a high interest environment, a cautious consumer, and inflated new major unit inventories. Despite these challenges, I'm proud of the way our team has responded. The team's efforts delivered positive free cash flow during the first half of 2024, and we expect to continue to deliver positive free cash flow in the back half of 2024. We remain laser focused on achieving our Vision 2026 goals and creating per-share value,\" stated Mike Kennedy, RumbleOn's CEO."
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0022",
+        "text": "| Revenue | $ | 336.8 | | | $ | 382.7 | | | | | (12.0) | %"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0054",
+        "text": "(1) Adjusted SG&A, EBITDA, Adjusted EBITDA, Free Cash Flow, and Non-Vehicle Net Debt are non-GAAP measures. Reconciliations of GAAP to non-GAAP financial measures are provided in accompanying financial schedules."
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0055",
+        "text": "(2) This quarter we updated our definition of Adjusted EBITDA to align with dealership industry."
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0070",
+        "text": "| Revenue | | | | |"
+      },
+      {
+        "document_id": "RMBL-PR-2024-08-07",
+        "locator": "P0086",
+        "text": "(1)Calculated as total powersports gross profit divided by total retail units sold."
+      },
+      {
+        "document_id": "RMBL-10Q-2024Q2",
+        "locator": "P0392",
+        "text": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date. On August 6, 2024, the Company, the Subsidiary Guarantors party thereto, Oaktree and the lenders party thereto executed Amendment No. 8 to the Credit Agreement (“Amendment No. 8”), pursuant to which, among other things: (i) the leverage ratios were revised and made less restrictive through December 31, 2024, (ii) the level of liquidity required by the minimum liquidity covenant was increased from $25.0 million to $30.0 million starting June 30, 2024 and continuing through the maturity of the term loan, and (iii) a compliance certificate is required to be submitted affirming compliance with the then effective leverage and liquidity tests upon any full or partial cash settlement of the convertible senior 6.75% promissory notes due January 1, 2025."
+      },
+      {
+        "document_id": "RMBL-10Q-2024Q2",
+        "locator": "P0393",
+        "text": "Amendment No. 8 was made effective as of June 30, 2024, and the lenders agreed in Amendment No. 8 that no event of default exists or arises from such financial covenants as of such date. The Company agreed to pay a one-time fee of 0.5% of the loan amount in cash, and the additional 0.5% of interest was extended through March 31, 2025."
+      },
+      {
+        "document_id": "RMBL-10Q-2024Q2",
+        "locator": "P0394",
+        "text": "Based on the amended terms of the Credit Agreement, the Company believes that it will be in compliance with all covenants under the Credit Agreement, as amended by Amendment No. 8, for the next one year period. As of June 30, 2024, the Company has classified obligations under the Credit Agreement as non-current liabilities."
+      }
+    ]
+  },
+  "borrower_id": "R02",
+  "package_version": "1.1",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:39:58.144013+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "RumbleOn's Q2 2024 press release and 10Q show the company was out of compliance with leverage ratio covenants as of June 30, 2024, while generating positive operating and free cash flow, delivering its quarterly report on time, and opening a RideNow Powersports Houston dealership. Liquidity and collateral positions are not disclosed, and no compliance certificate or default notice evidence is provided.",
+  "attributions": [
+    {
+      "id": "att-eeb8216d-b940-4f6c-a715-fa43ee86cb4b",
+      "target_type": "assumption",
+      "target_id": "R02-A01",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": null,
+      "rationale": "The 10Q states the company was not in compliance with leverage ratio covenants, indicating insufficient EBITDA to keep the ratio ≤4.25.",
+      "evidence": [
+        {
+          "document_id": "RMBL-10Q-2024Q2",
+          "locator": "P0392",
+          "quote": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Sufficient EBITDA to keep leverage ≤4.25",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-21c10f5a-282c-4dff-b04f-7fe1a3c6debe",
+      "target_type": "assumption",
+      "target_id": "R02-A05",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": null,
+      "rationale": "The Q2 results were announced on August 7, 2024, well within the 60‑day deadline for quarterly statements, showing timely financial reporting.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-08-07",
+          "locator": "P0005",
+          "quote": "IRVING, Texas – August 7, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), the \"Company\" or \"RumbleOn\", today announced results for the second quarter ended June 30, 2024.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Timely financial reporting and compliance certification",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R02-A01",
+      "target_title": "Sufficient EBITDA to keep leverage ≤4.25",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R02-A02",
+      "target_title": "Minimum liquidity of $25 M",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R02-A03",
+      "target_title": "Ability to make quarterly amortization payments",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R02-A05",
+      "target_title": "Timely financial reporting and compliance certification",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R02-A06",
+      "target_title": "Adequate collateral to support first‑priority lien",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R02-A07",
+      "target_title": "RideNow transaction completion and synergies",
+      "status": "unaddressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "noncompliant",
+      "rationale": "The 10Q discloses noncompliance with leverage ratio covenants as of June 30, 2024, indicating the Consolidated Total Net Leverage Ratio exceeded the permitted limit under C01.",
+      "evidence": [
+        {
+          "document_id": "RMBL-10Q-2024Q2",
+          "locator": "P0392",
+          "quote": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.1"
+    },
+    {
+      "clause_id": "C02",
+      "status": "noncompliant",
+      "rationale": "The same leverage‑ratio noncompliance disclosed in the 10Q also covers the Consolidated Senior Secured Net Leverage Ratio, violating C02.",
+      "evidence": [
+        {
+          "document_id": "RMBL-10Q-2024Q2",
+          "locator": "P0392",
+          "quote": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.1"
+    },
+    {
+      "clause_id": "C04",
+      "status": "compliant",
+      "rationale": "The Q2 results were announced on August 7, 2024, which is within the 60‑day filing deadline for quarterly statements, satisfying C04.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-08-07",
+          "locator": "P0005",
+          "quote": "IRVING, Texas – August 7, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), the \"Company\" or \"RumbleOn\", today announced results for the second quarter ended June 30, 2024.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.1"
+    }
+  ],
+  "warnings": [
+    "Attribution 2 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 3 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 5 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 6 withheld: evidence citation did not verify at its document and locator.",
+    "Covenant assessment 'C03' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C05' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C06' withheld: invalid clause, status or citation."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "RumbleOn's Q2 2024 press release and 10Q show the company was out of compliance with leverage ratio covenants as of June 30, 2024, while generating positive operating and free cash flow, delivering its quarterly report on time, and opening a RideNow Powersports Houston dealership. Liquidity and collateral positions are not disclosed, and no compliance certificate or default notice evidence is provided.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": null,
+        "rationale": "The 10Q states the company was not in compliance with leverage ratio covenants, indicating insufficient EBITDA to keep the ratio ≤4.25.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2024Q2",
+            "locator": "P0392",
+            "quote": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A02",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "No public figure for unrestricted cash or cash equivalents is provided to judge the $25 M liquidity floor.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "unrestricted cash and cash equivalents as of June 30, 2024"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": null,
+        "rationale": "Positive operating cash flow ($29.2 M) and free cash flow ($28.2 M) in H1 2024 suggest sufficient cash to meet the 0.25 % quarterly amortization.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-08-07",
+            "locator": "P0012",
+            "quote": "Operating cash flows for the first half of 2024 totaled $29.2 million compared to $(5.6) million in 2023. Free Cash Flow(1) for the first half of 2024 was $28.2 million compared to $(11.6) million in the 2023 period."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": null,
+        "rationale": "The Q2 results were announced on August 7, 2024, well within the 60‑day deadline for quarterly statements, showing timely financial reporting.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-08-07",
+            "locator": "P0005",
+            "quote": "IRVING, Texas – August 7, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), the \"Company\" or \"RumbleOn\", today announced results for the second quarter ended June 30, 2024."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "No information is given on any change to the asset base or lien status that would affect collateral adequacy.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "current collateral coverage or lien status"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A07",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": null,
+        "rationale": "Opening a RideNow Powersports Houston dealership in June 2024 shows progress on integrating the RideNow business and realizing expected synergies.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-08-07",
+            "locator": "P0016",
+            "quote": "In June, the Company opened RideNow Powersports Houston, a dedicated pre-owned vehicle dealership."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "noncompliant",
+        "rationale": "The 10Q discloses noncompliance with leverage ratio covenants as of June 30, 2024, indicating the Consolidated Total Net Leverage Ratio exceeded the permitted limit under C01.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2024Q2",
+            "locator": "P0392",
+            "quote": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "status": "noncompliant",
+        "rationale": "The same leverage‑ratio noncompliance disclosed in the 10Q also covers the Consolidated Senior Secured Net Leverage Ratio, violating C02.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2024Q2",
+            "locator": "P0392",
+            "quote": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "status": "insufficient_evidence",
+        "rationale": "No public data on unrestricted cash and cash equivalents are available to assess compliance with the $25 M minimum liquidity covenant.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "status": "compliant",
+        "rationale": "The Q2 results were announced on August 7, 2024, which is within the 60‑day filing deadline for quarterly statements, satisfying C04.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-08-07",
+            "locator": "P0005",
+            "quote": "IRVING, Texas – August 7, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), the \"Company\" or \"RumbleOn\", today announced results for the second quarter ended June 30, 2024."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "status": "insufficient_evidence",
+        "rationale": "The event does not show whether a compliance certificate was delivered together with the financial statements, so compliance with C05 cannot be determined.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "status": "insufficient_evidence",
+        "rationale": "No evidence of a required notice of default or a missed notice deadline is provided; the breach was later waived via Amendment No. 8.",
+        "evidence": []
+      }
+    ]
+  }
+}

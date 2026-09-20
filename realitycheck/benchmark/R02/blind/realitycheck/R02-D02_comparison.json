@@ -1,0 +1,72 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2023-05-10",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "EBITDA declined to $10.7 million in Q1 2023 from $18.7 million, weakening coverage and increasing leverage risk.",
+      "change_type": "threshold",
+      "change": "Change the covenant from permitting the ratio to exceed 4.25 to requiring it to be ≤4.25.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0046",
+          "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "C02",
+      "action": "modify",
+      "rationale": "EBITDA declined to $10.7 million in Q1 2023 from $18.7 million, weakening coverage and increasing leverage risk.",
+      "change_type": "threshold",
+      "change": "Change the covenant from permitting the ratio to exceed 3.75 to requiring it to be ≤3.75.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0046",
+          "quote": "Adjusted EBITDA was $10.7 million, compared to $18.7 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "EBITDA fell sharply in Q1 2023, indicating higher leverage risk and justifying tightening of the total and senior secured net leverage covenants. Liquidity remains ample, and reporting and default notice obligations show no concerns, so those clauses are retained.",
+  "updated_reasons": "EBITDA decline justifies tightening leverage covenants; liquidity sufficient; no changes needed for reporting, compliance, or notice clauses.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

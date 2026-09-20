@@ -1,0 +1,133 @@
+{
+  "borrower_id": "R02",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2023-08-09",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:04:49.475571+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03"
+  ],
+  "assessments_supplied": false,
+  "summary": "Based on evidence through August 9, 2023, the borrower’s liquidity remains comfortably above the $25 million minimum and leverage trends show no clear deterioration; thus no substantive covenant changes are warranted.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Leverage ratio trend shows declining debt and stable EBITDA, indicating no increased risk that would justify tightening the maximum leverage covenant."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Senior secured leverage similarly reflects reduced debt burden; no evidence of heightened risk requiring a change."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Liquidity remains well above the $25 million floor and shows only gradual decline, supporting retention of the current minimum liquidity covenant."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Financial statement delivery timelines have not changed; evidence shows regular reporting continues as required."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Compliance certificate obligation remains appropriate; no evidence of reporting issues or need for adjustment."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Notice of default provisions are unchanged and no events of default have been reported that would trigger a revision."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Evidence shows liquidity comfortably above threshold, leverage indicators improve or stable, and reporting obligations remain met; no new risks emerge that would require tighter or additional protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through August 9, 2023, the borrower’s liquidity remains comfortably above the $25 million minimum and leverage trends show no clear deterioration; thus no substantive covenant changes are warranted.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Leverage ratio trend shows declining debt and stable EBITDA, indicating no increased risk that would justify tightening the maximum leverage covenant.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Senior secured leverage similarly reflects reduced debt burden; no evidence of heightened risk requiring a change.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Liquidity remains well above the $25 million floor and shows only gradual decline, supporting retention of the current minimum liquidity covenant.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery timelines have not changed; evidence shows regular reporting continues as required.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Compliance certificate obligation remains appropriate; no evidence of reporting issues or need for adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice of default provisions are unchanged and no events of default have been reported that would trigger a revision.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Evidence shows liquidity comfortably above threshold, leverage indicators improve or stable, and reporting obligations remain met; no new risks emerge that would require tighter or additional protections."
+  },
+  "elapsed_seconds": 42.6
+}

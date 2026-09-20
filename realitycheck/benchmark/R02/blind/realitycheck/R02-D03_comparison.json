@@ -1,0 +1,74 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2023-08-09",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "EBITDA guidance of $55‑65 million is well below prior‑year $120 million, indicating weaker earnings that increase leverage ratio risk; thus the leverage threshold should be tightened.",
+      "change_type": "threshold",
+      "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (make covenant more restrictive)",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-08-09",
+          "locator": "P0056",
+          "quote": "•Adjusted EBITDA of $55 million to $65 million, compared to $120 million in 2022..",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Operating cash flow was negative $6.3 million for six months ended June 2023, raising doubt about ability to fund operations; add a covenant to require minimum operating cash flow.",
+      "change_type": "new_protection",
+      "change": "Add a covenant requiring minimum operating cash flow (e.g., not less than $0 over a rolling period)",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-08-09",
+          "locator": "P0050",
+          "quote": "Cash Flow used in Operating Activities was $(6.3) million for the six months ended June 30, 2023.",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A06"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on evidence through August 9 2023, the leverage ratio assumption is weakened by lower EBITDA guidance, justifying a tighter total net leverage covenant. Operating cash flow turned negative, supporting addition of a minimum operating cash flow covenant. Liquidity remains strong and no other covenant issues appear, so the remaining clauses are retained.",
+  "updated_reasons": "Weakened EBITDA outlook justifies tightening the total net leverage ratio threshold, and negative operating cash flow supports adding a minimum operating cash flow covenant; together these evidence‑driven changes alter risk coverage.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

@@ -1,0 +1,132 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2019-05-08",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:17:29.439477+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06"
+  ],
+  "assessments_supplied": false,
+  "summary": "Based on evidence of rising EBITDA and stable debt through early 2019, the leverage covenant could be loosened; all other covenants remain appropriate. This constitutes a material drift in risk coverage.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Evidence shows EBITDA growth and stable debt, indicating lower leverage; thus the lender could loosen the leverage threshold.",
+      "change_type": "threshold",
+      "change": "Increase the permitted First Lien Net Leverage Ratio threshold (loosen) reflecting improved EBITDA and stable debt levels.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-03-11",
+          "locator": "P0094",
+          "quote": "The Company’s long-term debt balance, which is largely comprised of its revolving credit facility and term loan, was $108.2 million as of December 31, 2018",
+          "verified": true
+        }
+      ],
+      "direction": "loosen",
+      "proposed_level": null,
+      "affected_assumptions": []
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change annual reporting or compliance certification requirements."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change quarterly reporting or compliance certification requirements."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change monthly reporting or compliance certification requirements."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change notice periods for defaults or material adverse effect disclosures."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the restrictions on indebtedness baskets or permitted refinancing definitions."
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Evidence shows EBITDA growth and stable/declining leverage, justifying a loosening of the First Lien Net Leverage Ratio threshold; no other covenants require change.",
+  "warnings": [
+    "C01: 1 unverifiable citation(s) dropped."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence of rising EBITDA and stable debt through early 2019, the leverage covenant could be loosened; all other covenants remain appropriate. This constitutes a material drift in risk coverage.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "loosen",
+        "change": "Increase the permitted First Lien Net Leverage Ratio threshold (loosen) reflecting improved EBITDA and stable debt levels.",
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows EBITDA growth and stable debt, indicating lower leverage; thus the lender could loosen the leverage threshold.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-03-11",
+            "locator": "P0087",
+            "quote": "Adjusted EBITDA increased 86% to $41.5 million for 2018, representing an adjusted EBITDA margin of 7.9%"
+          },
+          {
+            "document_id": "PETQ-PR-2019-03-11",
+            "locator": "P0094",
+            "quote": "The Company’s long-term debt balance, which is largely comprised of its revolving credit facility and term loan, was $108.2 million as of December 31, 2018"
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change annual reporting or compliance certification requirements."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change quarterly reporting or compliance certification requirements."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change monthly reporting or compliance certification requirements."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change notice periods for defaults or material adverse effect disclosures."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change the restrictions on indebtedness baskets or permitted refinancing definitions."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence shows EBITDA growth and stable/declining leverage, justifying a loosening of the First Lien Net Leverage Ratio threshold; no other covenants require change."
+  },
+  "elapsed_seconds": 51.2
+}

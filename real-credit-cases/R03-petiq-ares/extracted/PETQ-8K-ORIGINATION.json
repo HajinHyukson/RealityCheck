@@ -1,0 +1,646 @@
+[
+ {
+  "locator": "P0001",
+  "text": "8-K 1 petq-20180117x8k.htm 8-K"
+ },
+ {
+  "locator": "P0002",
+  "text": "PetIQ VIP Acquisition 8-k"
+ },
+ {
+  "locator": "P0003",
+  "text": "Lin"
+ },
+ {
+  "locator": "P0004",
+  "text": "UNITED STATES"
+ },
+ {
+  "locator": "P0005",
+  "text": "SECURITIES AND EXCHANGE COMMISSION"
+ },
+ {
+  "locator": "P0006",
+  "text": "Washington, D.C. 20549"
+ },
+ {
+  "locator": "P0007",
+  "text": "FORM 8-K"
+ },
+ {
+  "locator": "P0008",
+  "text": "CURRENT REPORT"
+ },
+ {
+  "locator": "P0009",
+  "text": "Pursuant to Section 13 or 15(d) of"
+ },
+ {
+  "locator": "P0010",
+  "text": "the Securities Exchange Act of 1934"
+ },
+ {
+  "locator": "P0011",
+  "text": "Date of Report (Date of earliest event reported): January 17, 2018"
+ },
+ {
+  "locator": "P0012",
+  "text": "PETIQ, INC."
+ },
+ {
+  "locator": "P0013",
+  "text": "(Exact name of registrant as specified in its charter)"
+ },
+ {
+  "locator": "P0014",
+  "text": "|"
+ },
+ {
+  "locator": "P0015",
+  "text": "Delaware"
+ },
+ {
+  "locator": "P0016",
+  "text": "(State or other jurisdiction"
+ },
+ {
+  "locator": "P0017",
+  "text": "of incorporation)"
+ },
+ {
+  "locator": "P0018",
+  "text": "|"
+ },
+ {
+  "locator": "P0019",
+  "text": "|"
+ },
+ {
+  "locator": "P0020",
+  "text": "001-38163"
+ },
+ {
+  "locator": "P0021",
+  "text": "(Commission"
+ },
+ {
+  "locator": "P0022",
+  "text": "File Number)"
+ },
+ {
+  "locator": "P0023",
+  "text": "|"
+ },
+ {
+  "locator": "P0024",
+  "text": "|"
+ },
+ {
+  "locator": "P0025",
+  "text": "35-2554312"
+ },
+ {
+  "locator": "P0026",
+  "text": "(I.R.S. Employer"
+ },
+ {
+  "locator": "P0027",
+  "text": "Identification No.)"
+ },
+ {
+  "locator": "P0028",
+  "text": "|"
+ },
+ {
+  "locator": "P0029",
+  "text": "500 E. Shore Drive, Suite 120"
+ },
+ {
+  "locator": "P0030",
+  "text": "Eagle, Idaho"
+ },
+ {
+  "locator": "P0031",
+  "text": "(Address of principal executive offices)"
+ },
+ {
+  "locator": "P0032",
+  "text": "|"
+ },
+ {
+  "locator": "P0033",
+  "text": "|"
+ },
+ {
+  "locator": "P0034",
+  "text": "83616"
+ },
+ {
+  "locator": "P0035",
+  "text": "(Zip Code)"
+ },
+ {
+  "locator": "P0036",
+  "text": "(208) 939-8900"
+ },
+ {
+  "locator": "P0037",
+  "text": "(Registrant’s telephone number, including area code)"
+ },
+ {
+  "locator": "P0038",
+  "text": "N/A"
+ },
+ {
+  "locator": "P0039",
+  "text": "(Former name or former address, if changed since last report)"
+ },
+ {
+  "locator": "P0040",
+  "text": "Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:"
+ },
+ {
+  "locator": "P0041",
+  "text": "☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)"
+ },
+ {
+  "locator": "P0042",
+  "text": "☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)"
+ },
+ {
+  "locator": "P0043",
+  "text": "☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))"
+ },
+ {
+  "locator": "P0044",
+  "text": "☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))"
+ },
+ {
+  "locator": "P0045",
+  "text": ""
+ },
+ {
+  "locator": "P0046",
+  "text": "☒ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act (17 CFR 230.405) or Rule 12b-2 of the Securities Exchange Act (17 CFR 240.12b-2)"
+ },
+ {
+  "locator": "P0047",
+  "text": "☒ Indicate by check mark if the registrant has elected not to use the extended transition period for complying with new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act (17 CFR 240.13(a)-1)"
+ },
+ {
+  "locator": "P0048",
+  "text": "Item 1.01 Entry into a Material Definitive Agreement"
+ },
+ {
+  "locator": "P0049",
+  "text": "Side Letter Agreement to Unit Purchase Agreement"
+ },
+ {
+  "locator": "P0050",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Form 8-K, PetIQ, Inc. (“PetIQ” or the “Company”) entered into that certain Side Letter Agreement, dated January 17, 2018, by and among PetIQ Holdings, LLC (“Holdings”), PetIQ, LLC, Community Veterinary Clinics, LLC (“VIP”), VIP Petcare Holdings, Inc. (“VIP Holdings”), Will Santana, Kenneth Pecoraro, and the Equity Support Holders (as defined below) in order to modify the Purchase Agreement (as defined below) (the “Letter Agreement”). The terms of the Letter Agreement are described in Item 2.01 below."
+ },
+ {
+  "locator": "P0051",
+  "text": "The description of the Letter Agreement set forth in Item 2.01 is hereby incorporated by reference into this Item 1.01 and is qualified in its entirety by reference to the Letter Agreement, a copy of which is filed as Exhibit 10.1 to this Current Report on Form 8-K and is incorporated by reference herein."
+ },
+ {
+  "locator": "P0052",
+  "text": "Revolving Credit Agreement"
+ },
+ {
+  "locator": "P0053",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Form 8-K, the Company’s operating subsidiary, PetIQ, LLC and its domestic subsidiaries amended and restated their existing revolving credit agreement (the “A&R Credit Agreement”) on January 17, 2018. The A&R Credit Agreement provides for a secured revolving credit facility of $50 million in the aggregate, at either LIBOR or Base (prime) interest rates plus an applicable margin."
+ },
+ {
+  "locator": "P0054",
+  "text": "As of January 17, 2018, PetIQ, LLC had $19.1 million outstanding under the A&R Credit Agreement. The interest rate on outstanding loans under the A&R Credit Agreement was 4.5%."
+ },
+ {
+  "locator": "P0055",
+  "text": "All obligations under the A&R Credit Agreement are unconditionally guaranteed by Holdings and each of its domestic wholly-owned subsidiaries and, subject to certain exceptions, each of its material current and future domestic wholly-owned subsidiaries. All obligations under the A&R Credit Agreement, and the guarantees of those obligations, are secured by substantially all of the assets of each borrower and guarantor under the A&R Credit Agreement, subject to certain exceptions."
+ },
+ {
+  "locator": "P0056",
+  "text": "The A&R Credit Agreement contains a number of covenants that, among other things, restrict our and our subsidiaries’ ability to (subject to certain exceptions): (i) make investments, loans or advances; (ii) incur additional indebtedness; (iii) create liens on assets; (iv) engage in mergers or consolidations and/or sell assets; (v) pay dividends and distributions or repurchase our equity interests; (vi) repay subordinated indebtedness; (vii) make certain acquisitions; and (viii) other restrictions typical for a credit agreement of this type."
+ },
+ {
+  "locator": "P0057",
+  "text": "The A&R Credit Agreement also contains certain customary affirmative covenants and events of default (including change of control). In addition, the A&R Credit Agreement includes maintenance covenants that require compliance with certain financial covenants, including a minimum fixed charge coverage ratio and a maximum first lien net leverage ratio. The availability of certain baskets and the ability to enter into certain transactions (including our ability to pay dividends) may also be subject to compliance with secured leverage ratios."
+ },
+ {
+  "locator": "P0058",
+  "text": "The description of the A&R Credit Agreement set forth above is qualified in its entirety by reference to the A&R Credit Agreement, a copy of which is filed as Exhibit 10.2 to this Current Report on Form 8-K and is incorporated by reference herein."
+ },
+ {
+  "locator": "P0059",
+  "text": "Term Credit Agreement"
+ },
+ {
+  "locator": "P0060",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Form 8-K, the Company’s operating subsidiary, PetIQ, LLC entered into a term loan credit agreement (the “Term Loan Credit Agreement”) on January 17, 2018. The Term Loan Credit Agreement provides for a secured term loan credit facility of $75 million in aggregate at either LIBOR or Base (prime) interest rates plus an applicable margin."
+ },
+ {
+  "locator": "P0061",
+  "text": "As of January 17, 2018, PetIQ, LLC had $75 million outstanding under the Term Loan Credit Agreement. The interest rate on outstanding loans under the Term Loan Credit Agreement was 6.8%."
+ },
+ {
+  "locator": "P0062",
+  "text": "All obligations under the Term Loan Credit Agreement are unconditionally guaranteed by Holdings and each of its domestic wholly-owned subsidiaries and, subject to certain exceptions, each of its material current and future domestic wholly-owned subsidiaries. All obligations under the Term Loan Credit Agreement, and the guarantees of those obligations, are secured by"
+ },
+ {
+  "locator": "P0063",
+  "text": "substantially all of the assets of PetIQ, LLC and each guarantor under the Term Loan Credit Agreement, subject to certain exceptions."
+ },
+ {
+  "locator": "P0064",
+  "text": "The Term Loan Credit Agreement contains a number of covenants that, among other things, restrict our and our subsidiaries’ ability to (subject to certain exceptions): (i) make investments, loans or advances; (ii) incur additional indebtedness; (iii) create liens on assets; (iv) engage in mergers or consolidations and/or sell assets; (v) pay dividends and distributions or repurchase our equity interests; (vi) repay subordinated indebtedness; (vii) make certain acquisitions; and (viii) other restrictions typical for a credit agreement of this type."
+ },
+ {
+  "locator": "P0065",
+  "text": "The Term Loan Credit Agreement also contains certain customary affirmative covenants and events of default (including change of control). In addition, the Term Loan Credit Agreement includes a maintenance covenant that requires compliance a maximum first lien net leverage ratio. The availability of certain baskets and the ability to enter into certain transactions (including our ability to pay dividends) may also be subject to compliance with secured leverage ratios."
+ },
+ {
+  "locator": "P0066",
+  "text": "The description of the Term Loan Credit Agreement set forth above is qualified in its entirety by reference to the Term Loan Credit Agreement, a copy of which is filed as Exhibit 10.3 to this Current Report on Form 8-K and is incorporated by reference herein."
+ },
+ {
+  "locator": "P0067",
+  "text": "Item 2.01 Completion of Acquisition or Disposition of Assets"
+ },
+ {
+  "locator": "P0068",
+  "text": "On January 17, 2018, PetIQ, Inc. announced that it had completed the acquisition of all of the outstanding membership units of VIP, resulting in VIP becoming an indirect wholly-owned subsidiary of the Company (the “Acquisition”). The Company completed the Acquisition pursuant to the previously disclosed Unit Purchase Agreement, dated as of January 5, 2018, by and among the Company, Holdings, PetIQ, LLC, VIP, VIP Holdings, Will Santana and Kenneth Pecoraro (the “Purchase Agreement”)."
+ },
+ {
+  "locator": "P0069",
+  "text": "The purchase price for the Acquisition consisted of (i) $100.0 million in cash, subject to adjustment for net working capital, (ii) 4,200,000 membership units of Holdings (the “LLC Units”) and 4,200,000 shares of Class B common stock, $0.001 par value per share, of the Company (the “Class B Issuance” and together with the LLC Units, the “Equity Consideration”) and (iii) promissory notes consisting of (A) a $10.0 million note payable 5 years and 6 months after the closing, which shall accrue interest quarterly in arrears at a rate of 6.75% per annum, (B) a $10.0 million note payable 5 years and 6 months after the closing if PetIQ and its consolidated subsidiaries have EBITDA of $40.0 million for the year ending December 31, 2018, which, if payable, shall accrue interest quarterly in arrears at a rate of 6.75% per annum beginning on the first anniversary of the closing, and (C) a $10.0 million note payable 5 years and 6 months after the closing if PetIQ and its consolidated subsidiaries have EBITDA of $50.0 million for the year ending December 31, 2019, which, if payable, shall accrue interest quarterly in arrears at a rate of 6.75% per annum beginning on the second anniversary of the closing; provided that such note shall also become payable if PetIQ and its consolidated subsidiaries have EBITDA of $50.0 million for the year ending December 31, 2018."
+ },
+ {
+  "locator": "P0070",
+  "text": "In connection with the completion of the Acquisition, the Company entered into the Letter Agreement, which modified the terms of the Purchase Agreement. The Letter Agreement provides that, at closing, (i) the Equity Consideration under the Purchase Agreement shall consist solely of (x) the issuance to VIP Holdings of 4,200,000 LLC Interests (as defined in the Purchase Agreement) and (y) the issuance to VIP Holdings of 133,333 shares of PetIQ Class B common stock (the “Initial Issuance”). Thereafter, the Company agreed that each month commencing February 15, 2018 and continuing on the 15th day of each month thereafter, as additional shares of PetIQ Class B common stock, $0.001 par value per share (“PetIQ Class B Shares”) become available for issuance, PetIQ will issue to VIP Holdings an additional number of PetIQ Class B Shares to the extent it is authorized to do so, up to but not exceeding, an aggregate issuance (including the Initial Issuance) of 4,200,000 PetIQ Class B Shares for no additional consideration."
+ },
+ {
+  "locator": "P0071",
+  "text": "If by April 30, 2018, PetIQ does not have sufficient number of authorized PetIQ Class B Shares to satisfy its obligation to issue an aggregate of 4,200,000 PetIQ Class B Shares to VIP Holdings, then PetIQ shall take such action so as to hold its 2018 annual meeting of the stockholders (the “Annual Meeting”) as promptly as practicable and will include as a matter to be voted on at the Annual Meeting, a stockholder proposal and Board recommendation to increase the number of authorized PetIQ Class B Shares in order to provide for the issuance of the remaining PetIQ Class B Shares to VIP Holdings (the “Issuance Proposal”)."
+ },
+ {
+  "locator": "P0072",
+  "text": "Pursuant to the terms of the Letter Agreement, certain beneficial owners, including, but not limited to McCord Christensen (CEO and Chairman of the Board), Scott Adcock (President of the Company), and the following members of the Board: Mark First, James Clarke, Gary Michael and Ronald Kennedy (and each of their respective affiliates owning equity interests"
+ },
+ {
+  "locator": "P0073",
+  "text": "in the Company, collectively, the “Equity Support Holders”) of PetIQ’s Class A common stock (“PetIQ Class A Shares”) and PetIQ Class B Shares agreed to vote their PetIQ Class A Shares and PetIQ Class B Shares at the Annual Meeting in support of the Issuance Proposal."
+ },
+ {
+  "locator": "P0074",
+  "text": "The Equity Consideration was issued to VIP Holdings pursuant to Section 4(a)(2) of the Securities Act of 1933, as amended (the “Securities Act”)."
+ },
+ {
+  "locator": "P0075",
+  "text": "The description of the Letter Agreement set forth in this Item 2.01 is qualified in its entirety by reference to the Letter Agreement, a copy of which is filed as Exhibit 10.1 to this Current Report on Form 8-K and is incorporated by reference herein."
+ },
+ {
+  "locator": "P0076",
+  "text": "On January 17, 2018, the Company issued a press release announcing the closing of the Acquisition. A copy of the press release is attached hereto as Exhibit 99.1."
+ },
+ {
+  "locator": "P0077",
+  "text": "Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant."
+ },
+ {
+  "locator": "P0078",
+  "text": "The information set forth in Item 1.01 with respect to the Revolving Credit Agreement and Term Credit Agreement is hereby incorporated by reference into this Item 2.03."
+ },
+ {
+  "locator": "P0079",
+  "text": "Item 3.02 Unregistered Sales of Equity Securities"
+ },
+ {
+  "locator": "P0080",
+  "text": "The information set forth in Item 2.01 is hereby incorporated by reference into this Item 3.02."
+ },
+ {
+  "locator": "P0081",
+  "text": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements for Certain Officers"
+ },
+ {
+  "locator": "P0082",
+  "text": "Upon closing of the Acquisition, the Company appointed Will Santana, age 45, as a member of the Board of Directors of PetIQ (the “Board”) and as Executive Vice President of PetIQ, LLC. Mr. Santana was appointed to the Board pursuant to the terms of the Purchase Agreement. Mr. Santana beneficially owned 50% of VIP and received his proportionate share of the consideration in connection with the Acquisition. Prior to joining PetIQ, Mr. Santana served as the Chief Executive Officer of VIP since founding the company in 1997. Mr. Santana has not been named to any committee of the Board of Directors."
+ },
+ {
+  "locator": "P0083",
+  "text": "In connection with his appointment as Executive Vice President, PetIQ, LLC has entered into an employment agreement, dated as of January 17, 2018 (the “Employment Agreement”), with Mr. Santana. Under the Employment Agreement, Mr. Santana will serve as Executive Vice President of PetIQ, LLC, reporting to PetIQ, LLC’s Chief Executive Officer, for a term commencing as of the closing of the Acquisition and ending on the third anniversary thereof, subject to automatic renewals for successive one-year periods unless either party gives 60 days’ notice of non-renewal. The Employment Agreement provides that Mr. Santana will receive an annual base salary of $400,000, will be eligible to receive discretionary annual bonuses, and will participate in standard employee benefit plans of PetIQ, LLC. In the event that Mr. Santana’s is terminated without “cause” (as defined in the Employment Agreement), Mr. Santana is entitled to receive continued payments of base salary for 12 months following his termination, subject to his timely execution and non-revocation of a release of claims. Mr. Santana is subject to customary restrictive covenants relating to confidentiality, non-disparagement, non-competition and non-solicitation of employees and customers."
+ },
+ {
+  "locator": "P0084",
+  "text": "The foregoing description of the terms of Mr. Santana’s employment is not complete and is qualified in its entirety by the full text of the Employment Agreement, which is attached hereto as Exhibit 10.4 and is incorporated by reference herein."
+ },
+ {
+  "locator": "P0085",
+  "text": "Item 9.01 Financial Statements and Exhibits."
+ },
+ {
+  "locator": "P0086",
+  "text": "|"
+ },
+ {
+  "locator": "P0087",
+  "text": "|"
+ },
+ {
+  "locator": "P0088",
+  "text": "(a)"
+ },
+ {
+  "locator": "P0089",
+  "text": "|"
+ },
+ {
+  "locator": "P0090",
+  "text": "|"
+ },
+ {
+  "locator": "P0091",
+  "text": "Financial Statements of Businesses Acquired."
+ },
+ {
+  "locator": "P0092",
+  "text": "Any additional financial statements required to be filed as an exhibit to this Current Report on Form 8-K will be filed by amendment within 71 days of the date on which this Current Report on Form 8-K was required to be filed with the Securities and Exchange Commission (the “SEC”)."
+ },
+ {
+  "locator": "P0093",
+  "text": "|"
+ },
+ {
+  "locator": "P0094",
+  "text": "|"
+ },
+ {
+  "locator": "P0095",
+  "text": "(b)"
+ },
+ {
+  "locator": "P0096",
+  "text": "|"
+ },
+ {
+  "locator": "P0097",
+  "text": "|"
+ },
+ {
+  "locator": "P0098",
+  "text": "Pro Forma Financial Information."
+ },
+ {
+  "locator": "P0099",
+  "text": "Any additional pro forma financial information required to be filed as an exhibit to this Current Report on Form 8-K will be filed by amendment within 71 days of the date on which this Current Report on Form 8-K was required to be filed with the SEC."
+ },
+ {
+  "locator": "P0100",
+  "text": "The information under Item 2.01 of this Current Report on Form 8-K, including Exhibit 99.1, is being furnished and shall not be deemed to be “filed,” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing."
+ },
+ {
+  "locator": "P0101",
+  "text": "|"
+ },
+ {
+  "locator": "P0102",
+  "text": "|"
+ },
+ {
+  "locator": "P0103",
+  "text": "|"
+ },
+ {
+  "locator": "P0104",
+  "text": "|"
+ },
+ {
+  "locator": "P0105",
+  "text": "(d)"
+ },
+ {
+  "locator": "P0106",
+  "text": "|"
+ },
+ {
+  "locator": "P0107",
+  "text": "Exhibits:"
+ },
+ {
+  "locator": "P0108",
+  "text": "|"
+ },
+ {
+  "locator": "P0109",
+  "text": "Exhibit No."
+ },
+ {
+  "locator": "P0110",
+  "text": "|"
+ },
+ {
+  "locator": "P0111",
+  "text": "|"
+ },
+ {
+  "locator": "P0112",
+  "text": "Description"
+ },
+ {
+  "locator": "P0113",
+  "text": "|"
+ },
+ {
+  "locator": "P0114",
+  "text": "10.1"
+ },
+ {
+  "locator": "P0115",
+  "text": "|"
+ },
+ {
+  "locator": "P0116",
+  "text": "|"
+ },
+ {
+  "locator": "P0117",
+  "text": "Letter Agreement, dated January 17, 2018, by and among PetIQ, Inc., PetIQ Holdings, LLC, PetIQ, LLC, Community Veterinary Clinics, LLC, VIP Petcare Holdings, Inc., Will Santana, Kenneth Pecoraro, and the Equity Support Holders party thereto"
+ },
+ {
+  "locator": "P0118",
+  "text": "|"
+ },
+ {
+  "locator": "P0119",
+  "text": "10.2"
+ },
+ {
+  "locator": "P0120",
+  "text": "|"
+ },
+ {
+  "locator": "P0121",
+  "text": "|"
+ },
+ {
+  "locator": "P0122",
+  "text": "A&R Credit Agreement, dated January 17, by and among PetIQ, LLC, the other Credit Parties thereto, and East West Bank and the other Lender parties thereto, and East West Bank, as Administrative Agent, L/C Issuer and Swingline Lender"
+ },
+ {
+  "locator": "P0123",
+  "text": "|"
+ },
+ {
+  "locator": "P0124",
+  "text": "10.3"
+ },
+ {
+  "locator": "P0125",
+  "text": "|"
+ },
+ {
+  "locator": "P0126",
+  "text": "|"
+ },
+ {
+  "locator": "P0127",
+  "text": "Term Loan Credit Agreement, dated January 17, by and among PetIQ, LLC, Ares Capital Corporation and the other Lenders party there, and Ares Capital Corporation, as Administrative Agent"
+ },
+ {
+  "locator": "P0128",
+  "text": "|"
+ },
+ {
+  "locator": "P0129",
+  "text": "10.4"
+ },
+ {
+  "locator": "P0130",
+  "text": "|"
+ },
+ {
+  "locator": "P0131",
+  "text": "|"
+ },
+ {
+  "locator": "P0132",
+  "text": "Employment Agreement, dated as of January 17, 2018, by and between PetIQ, LLC and Will Santana"
+ },
+ {
+  "locator": "P0133",
+  "text": "|"
+ },
+ {
+  "locator": "P0134",
+  "text": "99.1"
+ },
+ {
+  "locator": "P0135",
+  "text": "|"
+ },
+ {
+  "locator": "P0136",
+  "text": "|"
+ },
+ {
+  "locator": "P0137",
+  "text": "Press Release, dated January 17, 2018, announcing the Closing of the Acquisition"
+ },
+ {
+  "locator": "P0138",
+  "text": "|"
+ },
+ {
+  "locator": "P0139",
+  "text": "|"
+ },
+ {
+  "locator": "P0140",
+  "text": "|"
+ },
+ {
+  "locator": "P0141",
+  "text": "SIGNATURES"
+ },
+ {
+  "locator": "P0142",
+  "text": "Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized."
+ },
+ {
+  "locator": "P0143",
+  "text": "|"
+ },
+ {
+  "locator": "P0144",
+  "text": "|"
+ },
+ {
+  "locator": "P0145",
+  "text": "PETQ, INC."
+ },
+ {
+  "locator": "P0146",
+  "text": "|"
+ },
+ {
+  "locator": "P0147",
+  "text": "Dated: January 23, 2018"
+ },
+ {
+  "locator": "P0148",
+  "text": "|"
+ },
+ {
+  "locator": "P0149",
+  "text": "By"
+ },
+ {
+  "locator": "P0150",
+  "text": "|"
+ },
+ {
+  "locator": "P0151",
+  "text": "/s/ John Newland"
+ },
+ {
+  "locator": "P0152",
+  "text": "|"
+ },
+ {
+  "locator": "P0153",
+  "text": "|"
+ },
+ {
+  "locator": "P0154",
+  "text": "Name:"
+ },
+ {
+  "locator": "P0155",
+  "text": "|"
+ },
+ {
+  "locator": "P0156",
+  "text": "John Newland"
+ },
+ {
+  "locator": "P0157",
+  "text": "|"
+ },
+ {
+  "locator": "P0158",
+  "text": "|"
+ },
+ {
+  "locator": "P0159",
+  "text": "Title:"
+ },
+ {
+  "locator": "P0160",
+  "text": "|"
+ },
+ {
+  "locator": "P0161",
+  "text": "Chief Financial Officer"
+ }
+]

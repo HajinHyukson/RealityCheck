@@ -1,0 +1,141 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "control",
+  "review_date": "2018-01-23",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:13:33.800333+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [],
+  "assessments_supplied": false,
+  "summary": "Based on January 2018 evidence, the borrower's projected leverage is well below the covenant thresholds and the new debt fits existing baskets, so no substantive changes to the current covenant package are justified.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Projected net leverage of 1.6-1.8x for 2018 is far below the covenant's 4.0x threshold, indicating no need to tighten or loosen the ratio."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the annual financial statement delivery timing or content."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No evidence suggests a need to alter quarterly reporting requirements."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to modify monthly reporting obligations."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence shows a need to change default notice or material adverse effect reporting provisions."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "The $75 million new debt financed via East West Bank and Ares Capital aligns with the existing loan obligations basket, leaving no need to adjust indebtedness restrictions."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All evidence shows the borrower's projected leverage is well within covenant limits and the new debt fits existing baskets, providing no basis for tightening, loosening, or adding protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on January 2018 evidence, the borrower's projected leverage is well below the covenant thresholds and the new debt fits existing baskets, so no substantive changes to the current covenant package are justified.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Projected net leverage of 1.6-1.8x for 2018 is far below the covenant's 4.0x threshold, indicating no need to tighten or loosen the ratio.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0043",
+            "quote": "Pro-forma for the transaction, net leverage is expected to be approximately 1.6x to 1.8x for LTM Adjusted EBITDA for the calendar year ending December 31, 2018."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates a need to change the annual financial statement delivery timing or content.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence suggests a need to alter quarterly reporting requirements.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates a need to modify monthly reporting obligations.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence shows a need to change default notice or material adverse effect reporting provisions.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The $75 million new debt financed via East West Bank and Ares Capital aligns with the existing loan obligations basket, leaving no need to adjust indebtedness restrictions.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0043",
+            "quote": "PetIQ plans to finance the cash portion of this transaction with $25 million of existing cash on hand and $75 million of new debt with secured financing commitments from East West Bank and Ares Capital Management LLC."
+          }
+        ]
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All evidence shows the borrower's projected leverage is well within covenant limits and the new debt fits existing baskets, providing no basis for tightening, loosening, or adding protections."
+  },
+  "elapsed_seconds": 26.1
+}

@@ -1,0 +1,181 @@
+{
+  "borrower_id": "R02",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2023-03-16",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:07:05.756829+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01"
+  ],
+  "assessments_supplied": true,
+  "summary": "Evidence of elevated leverage (debt $635.2M vs EBITDA $120.1M) and weak operating cash flow (−$18.9M) justifies tightening the Total Net Leverage Ratio covenant and adding an operating cash flow covenant; other covenants remain unchanged.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Evidence shows total debt $635.2M and Adjusted EBITDA $120.1M, suggesting leverage may exceed the 4.25 covenant, indicating need to tighten the leverage threshold.",
+      "change_type": "threshold",
+      "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (e.g., reduce from 4.25).",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-03-16",
+          "locator": "P0016",
+          "quote": "Adjusted EBITDA of $120.1 million",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates the senior secured leverage covenant needs adjustment."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Liquidity of $196.1 million exceeds the $25 million minimum, supporting the current liquidity covenant."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence suggests a change to financial statement reporting requirements is needed."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence indicates the compliance certificate requirement should be altered."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence suggests a change to the notice of default provision is warranted."
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "The leverage covenant is tightened due to evidence of high debt relative to EBITDA, and a new operating cash flow covenant is added because operating cash flow was negative, indicating insufficient internal funds to support operations.",
+  "warnings": [
+    "C01: 1 unverifiable citation(s) dropped.",
+    "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence of elevated leverage (debt $635.2M vs EBITDA $120.1M) and weak operating cash flow (−$18.9M) justifies tightening the Total Net Leverage Ratio covenant and adding an operating cash flow covenant; other covenants remain unchanged.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "tighten",
+        "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (e.g., reduce from 4.25).",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ],
+        "rationale": "Evidence shows total debt $635.2M and Adjusted EBITDA $120.1M, suggesting leverage may exceed the 4.25 covenant, indicating need to tighten the leverage threshold.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0064",
+            "quote": "Total debt was $635.2 million."
+          },
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0016",
+            "quote": "Adjusted EBITDA of $120.1 million"
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates the senior secured leverage covenant needs adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Liquidity of $196.1 million exceeds the $25 million minimum, supporting the current liquidity covenant.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence suggests a change to financial statement reporting requirements is needed.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates the compliance certificate requirement should be altered.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence suggests a change to the notice of default provision is warranted.",
+        "evidence": []
+      },
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "change_type": "new_protection",
+        "direction": "add_protection",
+        "change": "Add a covenant requiring the borrower to maintain a minimum positive operating cash flow (level to be determined).",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A06"
+        ],
+        "rationale": "Operating cash flow was negative $18.9 million for the year ended December 31 2022, indicating insufficient cash generation to fund operations, supporting a new operating cash flow covenant.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0065",
+            "quote": "Cash Flow used in Operating Activities was $(18.9) million for the year ended December 31, 2022."
+          }
+        ]
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "The leverage covenant is tightened due to evidence of high debt relative to EBITDA, and a new operating cash flow covenant is added because operating cash flow was negative, indicating insufficient internal funds to support operations."
+  },
+  "elapsed_seconds": 38.7
+}

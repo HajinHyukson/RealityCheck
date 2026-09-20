@@ -1,0 +1,77 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2023-11-07",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Inventory days rose to 169, indicating higher cash consumption, and stockholder approval of the amended merger makes an Amazon break‑fee less likely, reducing repayment reliability.",
+      "change_type": "threshold",
+      "change": "Increase the Minimum Core Assets Test threshold or reduce the step‑down amounts to reflect weaker inventory and break‑fee assumptions.",
+      "evidence": [
+        {
+          "document_id": "IRBT-10Q-2023Q1",
+          "locator": "P0368",
+          "quote": "As of April 1, 2023, the inventory balance was $229.7 million, or 169 days, a reduction of $55.6 million, from the end of fiscal 2022.",
+          "verified": true
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0033",
+          "quote": "On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A02",
+        "R01-A04"
+      ]
+    },
+    {
+      "clause_id": "C04",
+      "action": "modify",
+      "rationale": "Stockholder approval of the amended merger agreement reduces the likelihood of an Amazon break‑fee, making the fee a less reliable repayment source; the sweep should be tightened to protect lenders.",
+      "change_type": "scope",
+      "change": "Restrict the company's option to use Amazon Break Fee for inventory purchases, requiring a larger portion to be applied to term loan repayment.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0033",
+          "quote": "On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A02"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C03",
+    "C05"
+  ],
+  "updated_summary": "Evidence shows rising inventory days and reduced likelihood of an Amazon break‑fee payment, justifying a tighter Minimum Core Assets Test and a stricter Amazon Break Fee sweep. Other covenants remain appropriate.",
+  "updated_reasons": "Tightening the Minimum Core Assets Test threshold and restricting the Amazon Break Fee sweep alter risk coverage and permitted behavior, constituting material drift.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

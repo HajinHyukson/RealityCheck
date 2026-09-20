@@ -1,0 +1,12 @@
+# Source register and design lineage
+
+Authoring date September 19, 2026. The local Synthetic-Covenant-Framework.md is the agreed design authority. Each new borrower has an independent agreement identifier; the earlier CedarBridge 30-clause library is supporting material, not one of these 30 agreements.
+
+| Reference | Historical source and locator | Applied structure and limitation |
+| --- | --- | --- |
+| M1 | [Artivion / Ares January 18 2024 agreement](https://www.sec.gov/Archives/edgar/data/784199/000095015724000061/ex10-1.htm), §6.7; restrictions §§6.1–6.8 | Maintenance leverage and negotiated permission structure. Borrower-specific amounts, ratios, exceptions and all prose here are synthetic; source industry is not a software pricing peer. |
+| M3 | [Evolent / Ares December 30 2019 agreement](https://www.sec.gov/Archives/edgar/data/1628908/000162890819000084/exhibit101passportcredit.htm), §8.01 and §9.12 | Reporting and permitted business scope. Selected deadlines and substantive borrower protections remain synthetic. |
+| M4 | [NN / Oaktree March 28 2025 sixth amendment](https://www.sec.gov/Archives/edgar/data/918541/000091854125000041/exhibit101termloansixthame.htm), amendment §2(c), restated §7.14(b) | Conditional 13-week cash reporting for liquidity profiles only. Original quarterly leverage/liquidity trigger is not copied; this portfolio's month-end trigger is an adapted design. |
+| OCC design principles | [Commercial Loans](https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/commercial-loans/pub-ch-commercial-loans.pdf), pp.14–15,20; [Leveraged Lending](https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/leveraged-lending/pub-ch-leveraged-lending.pdf), pp.15,59–60,62,64 | Cash repayment analysis, reporting and definition-sensitive headroom. No numerical private-credit covenant requirement is attributed to OCC. See the existing framework for dated regulatory source-status research. |
+
+These are historical operating-company loan sources, not complete current amendment chains. The source locators were checked in the preceding framework/library work; this generation introduces no new market-practice or law claim. Adapted structure applies to core financial/reporting restrictions and elected liquidity reporting. All S1–S3 sector provisions and all borrower names, facts, economics, events and contractual wording are entirely synthetic. The 30 contracts share no real borrower confidential data.

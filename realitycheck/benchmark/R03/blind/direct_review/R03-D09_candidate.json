@@ -1,0 +1,133 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2020-03-10",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:19:20.048998+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08",
+    "R03-D09"
+  ],
+  "assessments_supplied": false,
+  "summary": "No evidence up to March 10, 2020 indicates a need to tighten, loosen, or add any covenant protections; the existing package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Financial performance shows leverage within covenant bounds; no breach or trend suggesting adjustment of the leverage ratio floor."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Annual reporting requirements have been met consistently; no evidence of delayed or inadequate statements."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly reporting obligations have been satisfied; no signs of insufficient frequency or content."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Monthly reporting has been delivered as required; no evidence justifying a change in frequency or detail."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice provisions for defaults and material adverse effects have operated without issue; no triggering events suggest amendment."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Indebtedness restrictions align with observed borrowing activity; no violations or new debt types necessitate revision."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All covenants remain supported by available evidence; no material changes in risk coverage, monitoring needs, or permitted behavior are indicated.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "No evidence up to March 10, 2020 indicates a need to tighten, loosen, or add any covenant protections; the existing package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial performance shows leverage within covenant bounds; no breach or trend suggesting adjustment of the leverage ratio floor."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Annual reporting requirements have been met consistently; no evidence of delayed or inadequate statements."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Quarterly reporting obligations have been satisfied; no signs of insufficient frequency or content."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly reporting has been delivered as required; no evidence justifying a change in frequency or detail."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice provisions for defaults and material adverse effects have operated without issue; no triggering events suggest amendment."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Indebtedness restrictions align with observed borrowing activity; no violations or new debt types necessitate revision."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All covenants remain supported by available evidence; no material changes in risk coverage, monitoring needs, or permitted behavior are indicated."
+  },
+  "elapsed_seconds": 67.2
+}

@@ -1,0 +1,126 @@
+{
+  "borrower_id": "R03",
+  "borrower": "PetIQ, Inc.",
+  "sector": "Pet medication and veterinary wellness services",
+  "lender_role": "Ares Capital Corporation as administrative agent and lender",
+  "facility": "$75,000,000 secured term loan to PetIQ, LLC, financing the VIP Petcare acquisition",
+  "version": "1.0",
+  "executed_at": "2018-01-17",
+  "effective_at": "2018-01-17",
+  "scope_note": "Scoped prototype: a bounded subset of the executed January 17, 2018 term loan credit agreement, copied verbatim by paragraph locator from the SEC-filed exhibit. It covers the Ares term loan only; PetIQ's bank revolving credit facility is a separate arrangement and is outside this packet. The financial covenant's step table was filed as one table cell per paragraph and is reproduced in that order.",
+  "missing_inputs": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA carries lender-approved adjustments and is not the company's public Adjusted EBITDA, so the First Lien Net Leverage Ratio cannot be recalculated from public releases.",
+    "Section 7.13 as filed says the ratio shall not be permitted 'to be less than' the scheduled level, while the company's Form 8-K describes a maximum first lien net leverage ratio. The filed wording is kept verbatim and is not corrected.",
+    "The term loan was amended and restated on July 8, 2019 and amended again in 2020. Those instruments replaced or changed the terms extracted here; they are held in the evaluator collection and are not part of this clause subset.",
+    "No Ares underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "missing_inputs_blind": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA carries lender-approved adjustments and is not the company's public Adjusted EBITDA, so the First Lien Net Leverage Ratio cannot be recalculated from public releases.",
+    "Section 7.13 as filed says the ratio shall not be permitted 'to be less than' the scheduled level, while the company's Form 8-K describes a maximum first lien net leverage ratio. The filed wording is kept verbatim and is not corrected.",
+    "No Ares underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "known_at": "2018-01-23",
+  "sec_accepted_at": "2018-01-23T16:29:52.000Z",
+  "source_mode": "public_sec_filings",
+  "content_status": "actual_public_disclosure",
+  "clauses": [
+    {
+      "id": "C01",
+      "title": "Financial Covenant: First Lien Net Leverage Ratio by fiscal quarter",
+      "section": "Section 7.13",
+      "clause": "Section 7.13 Financial Covenant. The Credit Parties shall not permit the First Lien Net Leverage Ratio, determined as of the end of the applicable Fiscal Quarter, to be less than the ratio set forth below:\n\nFiscal Quarter Ending\n\nFirst Lien Net Leverage Ratio\n\nMarch 31, 2018\n\n4:00 to 1.00\n\nJune 30, 2018\n\n4:00 to 1.00\n\nSeptember 30, 2018\n\n4:00 to 1.00\n\nDecember 31, 2018\n\n4:00 to 1.00\n\nMarch 31, 2019\n\n3.75 to 1.00\n\nJune 30, 2019\n\n3.75 to 1.00\n\nSeptember 30, 2019\n\n3.50 to 1.00\n\nDecember 31, 2019\n\n3.50 to 1.00\n\nMarch 31, 2020\n\n3.25 to 1.00\n\nJune 30, 2020\n\n3.25 to 1.00\n\nSeptember 30, 2020\n\n3.00 to 1.00\n\nDecember 31, 2020\n\n3.00 to 1.00\n\nMarch 31, 2021\n\n3.00 to 1.00\n\nJune 30, 2021\n\n3.00 to 1.00\n\nSeptember 30, 2021\n\n3.00 to 1.00\n\nDecember 31, 2021\n\n3.00 to 1.00\n\nMarch 31, 2022\n\n3.00 to 1.00\n\nJune 30, 2022\n\n3.00 to 1.00\n\nSeptember 30, 2022\n\n3.00 to 1.00\n\nDecember 31, 2022 and each Fiscal Quarter ending thereafter\n\n3.00 to 1.00",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "PETQ-CA-ORIGINAL",
+        "locators": [
+          "P2186",
+          "P2272"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm",
+        "sha256": "b99a878083a0f1f68a790edca57baef0d770f114fb6dcf2b74e27515a59d08dc"
+      }
+    },
+    {
+      "id": "C02",
+      "title": "Annual financial statements and Compliance Certificate",
+      "section": "Section 6.04(a)",
+      "clause": "Section 6.04 Financial Statements, Certificates and Information. The Credit Parties will deliver to the Administrative Agent and, upon request, to the Lenders:\n\n(a) as soon as practicable, but in any event no later than ninety (90) days after the end of each Fiscal Year,\n\n(i) the consolidated and consolidating balance sheet of Parent, the Borrower and their Restricted Subsidiaries, as at the end of such Fiscal Year, and the related consolidated and consolidating statements of income or operations, cash flows and shareholders’ equity for such Fiscal Year, each setting forth in comparative form the figures for the previous Fiscal Year and all such consolidated and consolidating financial statements to be in reasonable detail, prepared in accordance with GAAP consistently applied and such consolidated and consolidating financial statements to be audited and accompanied by a report and opinion prepared in accordance with generally accepted auditing standards by independent certified public accountants reasonably satisfactory to the Administrative Agent and certified without qualification and without expression of uncertainty as to the ability of Parent, the Borrower and their Restricted Subsidiaries to continue as going concerns (other than a “going concern” qualification resulting from an upcoming maturity under this Agreement or ABL Credit Agreement occurring within one year from the time of such opinion is delivered or a breach of Section 7.13 hereunder), together with a copy of their accountants’ management letter (if any) for such Fiscal Year and\n\n(ii) a Compliance Certificate duly executed by a Financial Officer of the Borrower, which, among other things,\n\n(A) attaches and certifies to the foregoing consolidated and consolidating financial statements, accountants statements, management letters and a management discussion and analysis prepared in connection with such financial statements,\n\n(B) certifies that the information contained in such consolidated and consolidating financial statements fairly presents in all material respects the financial condition of Parent, the Borrower and their Restricted Subsidiaries on the dates indicated therein,\n\n(C) appends computations evidencing the First Lien Net Leverage Ratio and Excess Cash Flow, in each case, for the Reference Period ended as of the last day of such Fiscal Year and specifying whether the Credit Parties have complied with Section 7.13, and\n\n(D) states that such Financial Officer has reviewed this Agreement and the other Loan Documents and has no knowledge of any Default or Event of Default during such Fiscal Year, or if such Financial Officer has such knowledge, specifying each Default or Event of Default and the nature thereof;",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "PETQ-CA-ORIGINAL",
+        "locators": [
+          "P1955",
+          "P1963"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm",
+        "sha256": "b99a878083a0f1f68a790edca57baef0d770f114fb6dcf2b74e27515a59d08dc"
+      }
+    },
+    {
+      "id": "C03",
+      "title": "Quarterly financial statements and Compliance Certificate",
+      "section": "Section 6.04(b)",
+      "clause": "(b) as soon as practicable, but in any event no later than forty-five (45) days after the end of each of the first three Fiscal Quarters of each Fiscal Year\n\n(i) the consolidated and consolidating balance sheet of Parent, the Borrower and their Restricted Subsidiaries, as at the end of such Fiscal Quarter, and the related consolidated and consolidating statements of income or operations, cash flows and shareholders’ equity for such Fiscal Quarter and the portion of the Fiscal Year through the end of such Fiscal Quarter, each setting forth in comparative form the figures for the previous Fiscal Quarter of the previous Fiscal Year and the corresponding portion of the previous Fiscal Year and all such consolidated and consolidating financial statements to be in reasonable detail, prepared in accordance with GAAP consistently applied and\n\n(ii) a Compliance Certificate duly executed by a Financial Officer of the Borrower, which, among other things,\n\n(A) attaches and certifies to the foregoing consolidated and consolidating financial statements and a management discussion and analysis prepared in connection with such financial statements (subject to year-end adjustments and the absence of footnotes),\n\n(B) certifies that the information contained in such consolidated and consolidating financial statements fairly presents in all material respects the financial condition of Parent, the Borrower and their Restricted Subsidiaries on the dates indicated therein,\n\n(C) appends computations evidencing the First Lien Net Leverage Ratio for the Reference Period ended as of the last day of such Fiscal Quarter and specifying whether the Credit Parties have complied with Section 7.13, and\n\n(D) states that such Financial Officer has reviewed this Agreement and the other Loan Documents and has no knowledge of any Default or Event of Default during such Fiscal Quarter, or if such Financial Officer has such knowledge, specifying each Default or Event of Default and the nature thereof;",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "PETQ-CA-ORIGINAL",
+        "locators": [
+          "P1964",
+          "P1970"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm",
+        "sha256": "b99a878083a0f1f68a790edca57baef0d770f114fb6dcf2b74e27515a59d08dc"
+      }
+    },
+    {
+      "id": "C04",
+      "title": "Monthly financial statements and Compliance Certificate",
+      "section": "Section 6.04(c)",
+      "clause": "(c) as soon as practicable, but in any event no later than forty-five (45) days after the end of each of the first two Fiscal Months of each Fiscal Quarter\n\n(i) the unaudited monthly consolidated and consolidating financial statements of Parent, the Borrower and their Restricted Subsidiaries for such Fiscal Month, including the consolidating balance sheet of Parent, the Borrower and their Restricted Subsidiaries, as at the end of such Fiscal Month, the related consolidating statements of income or operations and cash flows for such Fiscal Month and for the portion of the Fiscal Year then ended, each setting forth in comparative form the figures for the corresponding Fiscal Month of the previous Fiscal Year and the corresponding portion of the previous Fiscal Year, each, prepared in accordance with GAAP consistently applied and\n\n(ii) a Compliance Certificate duly executed by a Financial Officer of the Borrower, which, among other things,\n\n(A) attaches and certifies to the foregoing consolidated financial statements and a management discussion and analysis prepared in connection with such financial statements (subject to year-end adjustments and the absence of footnotes),\n\n(B) certifies that the information contained in such financial statements fairly presents in all material respects the financial condition of Parent, the Borrower and their Restricted Subsidiaries on the date thereof (subject to year-end adjustments and the absence of footnotes), and\n\n(C) states that such Financial Officer has reviewed this Agreement and the other Loan Documents and has no knowledge of any Default or Event of Default during such Fiscal Month, or if such Financial Officer has such knowledge, specifying each Default or Event of Default and the nature thereof to the Administrative Agent’s reasonable satisfaction;",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "PETQ-CA-ORIGINAL",
+        "locators": [
+          "P1971",
+          "P1977"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm",
+        "sha256": "b99a878083a0f1f68a790edca57baef0d770f114fb6dcf2b74e27515a59d08dc"
+      }
+    },
+    {
+      "id": "C05",
+      "title": "Notices of default and material adverse effect",
+      "section": "Section 6.05",
+      "clause": "Section 6.05 Notices.\n\n(a) Defaults. The Credit Parties will promptly (but in any event within three (3) Business Days) notify the Administrative Agent and each Lender in writing following Senior Management obtaining knowledge of the occurrence of (i) any Default or Event of Default or (ii) any “default,” “event of default” or material breach under any Material Agreement or Pharmaceutical License or (iii) any termination or expiration of any Material Agreement or Pharmaceutical License.\n\n(b) Material Adverse Effect. The Credit Parties shall promptly (but in any event within three (3) Business Days following Senior Management obtaining knowledge thereof) disclose in writing to the Administrative Agent (for distribution to each Lender) any matter that has resulted or would reasonably be expected to result in a Material Adverse Effect, including (i) breach or non-performance of, or any default under, a Contractual Obligation of any Credit\n\nParty or any Restricted Subsidiary; (ii) any dispute, litigation, investigation, proceeding or suspension between any Credit Party or any Restricted Subsidiary and any Governmental Authority; or (iii) the commencement of, or any material development in, any litigation or proceeding affecting any Credit Party or any Restricted Subsidiary, including (A) with respect to any litigation disclosed on Schedule 5.07 and (B) pursuant to any applicable Environmental Laws.",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "PETQ-CA-ORIGINAL",
+        "locators": [
+          "P1986",
+          "P1990"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm",
+        "sha256": "b99a878083a0f1f68a790edca57baef0d770f114fb6dcf2b74e27515a59d08dc"
+      }
+    },
+    {
+      "id": "C06",
+      "title": "Restrictions on Indebtedness",
+      "section": "Section 7.02",
+      "clause": "Section 7.02 Restrictions on Indebtedness. None of the Credit Parties nor any of its Restricted Subsidiaries will incur, assume, guarantee or be or remain liable, contingently or otherwise, with respect to any Indebtedness other than:\n\n(a) Indebtedness secured by purchase money security interests and Capitalized Leases permitted by Section 7.03(a)(viii) and any Permitted Refinancing thereof; provided, that the aggregate amount of such Indebtedness described in this subclause (a) shall not exceed $8,000,000 plus any additional amounts permitted to be incurred pursuant to the definition of Permitted Refinancing;\n\n(b) Indebtedness of the Credit Parties consisting of the Obligations under the Loan Documents;\n\n(c) Indebtedness of the Credit Parties under the ABL Credit Agreement and any Permitted Refinancing thereof; provided, that the aggregate amount of such Indebtedness described in this subclause (c) shall not exceed $75,000,000 plus any additional amounts permitted to be incurred pursuant to the definition of Permitted Refinancing;\n\n(d) Indebtedness of any Credit Party outstanding as of the Closing Date and reflected on Schedule 7.02 hereto and any Permitted Refinancing thereof;\n\n(e) unsecured Subordinated Debt incurred after the Closing Date on terms and conditions acceptable to the Administrative Agent in its sole discretion, provided that (i) the maturity date of such Subordinated Debt shall be at least one hundred and eighty (180) days following the Maturity Date (after taking in account any extension thereof as of the date of incurrence of such Subordinated Debt) and (ii) the aggregate amount of such Subordinated Debt shall not exceed $10,000,000;\n\n(f) Indebtedness consisting of any Investment permitted by Sections 7.01(c), (d) or (e);\n\n(g) Guarantees by (i) any Credit Party of Indebtedness of any other Credit Party permitted by this Section 7.02 (other than Section 7.02(k)), (ii) any Restricted Subsidiary that is not a Credit Party of any Indebtedness of any Credit Party permitted by this Section 7.02 (other than Section 7.02(k)) and (iii) any Restricted Subsidiary that is not a Credit Party of any Indebtedness of any other Restricted Subsidiary that is also not a Credit Party permitted by this Section 7.02;\n\n(h) Indebtedness consisting of contingent liabilities under surety bonds and similar instruments incurred in the ordinary course of business;\n\n(i) Indebtedness in respect of netting services, automatic clearing house arrangements, treasury management services and similar arrangements in the ordinary course of business in each case in connection with deposit and securities account;\n\n(j) Indebtedness of the Mark and Chappell Entities constituting earn-out obligations under the Share Purchase Agreement dated June 21, 2013, by and among M&C USA, LLC and the Sellers (as defined therein), as in effect as of the date hereof;\n\n(k) (i) unsecured Indebtedness under the 2018 Contingent Promissory Note in an aggregate principal amount not to exceed $10,000,000, (ii) unsecured Indebtedness under the 2019 Contingent Promissory Note in an aggregate principal amount not to exceed $10,000,000, (iii) unsecured Indebtedness under the Guaranty Promissory Note in an aggregate principal amount not to exceed $10,000,000 and (iv) Guarantees of the Seller Notes pursuant to the Seller Note Guaranty;\n\n(l) (i) Permitted Pari Passu Refinancing Debt, Permitted Junior Refinancing Debt and Permitted Unsecured Refinancing Debt and (ii) any Permitted Refinancing thereof;\n\n(m) Indebtedness of the Credit Parties and their Restricted Subsidiaries consisting of Cash Management Obligations and Unsecured Cash Management Obligations;\n\n(n) Indebtedness of the Credit Parties and their Restricted Subsidiaries consisting of Hedge Obligations incurred in the ordinary course of business and on a non-speculative basis; and\n\n(o) other Indebtedness not to exceed $5,000,000 in the aggregate outstanding at any time.",
+      "thesis_ids": [],
+      "source": {
+        "document_id": "PETQ-CA-ORIGINAL",
+        "locators": [
+          "P2099",
+          "P2115"
+        ],
+        "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm",
+        "sha256": "b99a878083a0f1f68a790edca57baef0d770f114fb6dcf2b74e27515a59d08dc"
+      }
+    }
+  ],
+  "definitions_and_conventions": "“Consolidated EBITDA” means, with respect to Parent, the Borrower and their Restricted Subsidiaries (other than the Mark and Chappell Entities), on a consolidated basis, as of any date of determination for any period of determination, without duplication, an amount equal to:\n\n(a) Consolidated Net Income for such period; plus\n\n(b) the sum of, without duplication, of the following, in each case, to the extent deducted in the calculation of Consolidated Net Income for such period\n\n“First Lien Net Leverage Ratio” means the ratio, as of any date of determination, of\n\n(a) Total Indebtedness as of such date secured by a first-lien on property of Parent, the Borrower or their Restricted Subsidiaries (including, for the avoidance of doubt, the ABL Facility, any secured letters of credit and Indebtedness under this Agreement) minus Unrestricted Cash in an amount not to exceed $5,000,000 to\n\n(b) Consolidated EBITDA for the twelve-month period ended as of such date.\n\n“Reference Period” means, as of any date of determination, the period of twelve consecutive Fiscal Months ending on such date.",
+  "resolution_conventions": "Section 8.01 Events of Default. Any one or more of the following events shall constitute an event of default (each, an “Event of Default”) under this Agreement:\n\n(a) Non-Payment. Any Credit Party shall fail to pay (i) any principal of the Loans when the same shall become due and payable, whether at the stated date of maturity or any accelerated date of maturity or at any other date fixed for payment; or (ii) any interest on the Loans, the fees or other sums due hereunder or under any of the other Loan Documents, within three (3) Business Days (or with respect to the fees and other sums, five (5) Business Days) after the same shall become due and payable, whether at the stated date of maturity or any accelerated date of maturity or at any other date fixed for payment;\n\n(b) Specific Covenants. Any Credit Party shall fail to comply with any of its covenants contained in Section 6.05(a), Section 6.06(a) (with respect to Parent, the Borrower or any direct or indirect parent of Borrower), Section 6.20 or Article 7;\n\n(c) Other Defaults. Any Credit Party shall fail (or, to the extent applicable, fail to cause its Restricted Subsidiaries) to perform any term, covenant or agreement contained herein or in any of the other Loan Documents (other than those specified elsewhere in this Section 8.01) and such failure continues for thirty (30) days;"
+}

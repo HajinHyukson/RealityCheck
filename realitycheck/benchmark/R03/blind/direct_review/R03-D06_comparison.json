@@ -1,0 +1,57 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2019-05-08",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Evidence shows EBITDA growth and stable debt, indicating lower leverage; thus the lender could loosen the leverage threshold.",
+      "change_type": "threshold",
+      "change": "Increase the permitted First Lien Net Leverage Ratio threshold (loosen) reflecting improved EBITDA and stable debt levels.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-03-11",
+          "locator": "P0094",
+          "quote": "The Company’s long-term debt balance, which is largely comprised of its revolving credit facility and term loan, was $108.2 million as of December 31, 2018",
+          "verified": true
+        }
+      ],
+      "direction": "loosen",
+      "proposed_level": null,
+      "affected_assumptions": []
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on evidence of rising EBITDA and stable debt through early 2019, the leverage covenant could be loosened; all other covenants remain appropriate. This constitutes a material drift in risk coverage.",
+  "updated_reasons": "Evidence shows EBITDA growth and stable/declining leverage, justifying a loosening of the First Lien Net Leverage Ratio threshold; no other covenants require change.",
+  "warnings": [
+    "C01: 1 unverifiable citation(s) dropped."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

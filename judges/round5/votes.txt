@@ -1,0 +1,29 @@
+JUDGE: PNC Compound
+VOTE|YES
+FALLBACK|N/A
+FLIP|YES
+REASON|E5 already matches the round-4 precedent and the team's own "where the thesis drifts" language, but "drift" is symmetric enough that naming actual risk profile as the subject instead reads just as clearly to a lender audience, so I'd sign off on either as the panel's sentence.
+
+JUDGE: NVIDIA Nemotron
+VOTE|YES
+FALLBACK|N/A
+FLIP|YES
+REASON|I already accepted this exact static-subject-drifts-from-reality structure in the round-4 winner, and "actual risk profile" gives a concrete, Nemotron-classifiable object either way "drift" is ordered, so I'll take E5 and accept the subject-flipped variant as equally evaluable.
+
+JUDGE: LANXESS Xtract
+VOTE|YES
+FALLBACK|N/A
+FLIP|YES
+REASON|Either subject order preserves the same static-thesis-versus-observed-reality relationship and the same traceable, measurable nouns, so the evidentiary strength I care about doesn't change with grammatical direction.
+
+JUDGE: Seed Round VC
+VOTE|YES
+FALLBACK|N/A
+FLIP|NO
+REASON|E5 already matches the round-4 winner's subject placement and the team's own brief phrasing ("where the thesis drifts"), so keeping the static thesis as subject is the more repeatable, on-brand customer phrase, while the flipped variant repeats the reality-as-subject pattern the panel already rejected 4-1 in E4.
+
+JUDGE: PittCSC Organizer
+VOTE|YES
+FALLBACK|N/A
+FLIP|NO
+REASON|E5 already matches the round-4 precedent and the team's own brief phrasing "where the thesis drifts," so I'd keep that one house style rather than run two competing subject orders across the pitch, even though the flipped variant is grammatically defensible on its own.

@@ -1,0 +1,31 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2023-11-07",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "no_material_drift",
+  "evidence_attributable_changes": [],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "updated_summary": "Review of evidence through the November 7, 2023 press release shows no new developments affecting the Amazon Break Fee, prepayment triggers, or core asset levels that would require tightening, loosening, or adding covenants. The existing package remains appropriate.",
+  "updated_reasons": "Available evidence through the review date shows no new triggers, threshold breaches, or changes in borrower circumstances that would justify tightening, loosening, or adding any covenant protections.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

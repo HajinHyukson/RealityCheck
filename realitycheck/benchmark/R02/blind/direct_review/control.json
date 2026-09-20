@@ -1,0 +1,129 @@
+{
+  "borrower_id": "R02",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "control",
+  "review_date": "2021-09-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:03:31.059275+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [],
+  "assessments_supplied": false,
+  "summary": "Review of origination evidence shows existing leverage, liquidity, reporting, compliance and notice clauses align with credit agreement terms; no substantive changes warranted.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence from P0049 shows the covenant prohibits ratio >4.25; current clause matches this restriction."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Evidence from P0049 shows the covenant prohibits senior secured ratio >3.75; current clause matches this restriction."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Evidence from P0049 shows the covenant prohibits liquidity <$25M; current clause matches this restriction."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Evidence from P0040-P0051 details Section 6.01 financial statement requirements; current clause reflects same."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Evidence from P0040-P0051 Section 6.02(a) requires compliance certificate with financial statements; current clause matches."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Evidence from P0040-P0051 Section 6.03(a) requires notice of default; current clause matches."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All existing covenant thresholds, reporting, compliance and notice provisions are consistent with the origination credit agreement evidence; no new or tightened protections are required.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of origination evidence shows existing leverage, liquidity, reporting, compliance and notice clauses align with credit agreement terms; no substantive changes warranted.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence from P0049 shows the covenant prohibits ratio >4.25; current clause matches this restriction.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence from P0049 shows the covenant prohibits senior secured ratio >3.75; current clause matches this restriction.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence from P0049 shows the covenant prohibits liquidity <$25M; current clause matches this restriction.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence from P0040-P0051 details Section 6.01 financial statement requirements; current clause reflects same.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence from P0040-P0051 Section 6.02(a) requires compliance certificate with financial statements; current clause matches.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence from P0040-P0051 Section 6.03(a) requires notice of default; current clause matches.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All existing covenant thresholds, reporting, compliance and notice provisions are consistent with the origination credit agreement evidence; no new or tightened protections are required."
+  },
+  "elapsed_seconds": 23.5
+}

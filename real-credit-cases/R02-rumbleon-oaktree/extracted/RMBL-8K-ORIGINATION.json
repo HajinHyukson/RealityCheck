@@ -1,0 +1,530 @@
+[
+ {
+  "locator": "P0001",
+  "text": "UNITED STATES"
+ },
+ {
+  "locator": "P0002",
+  "text": "SECURITIES AND EXCHANGE COMMISSION"
+ },
+ {
+  "locator": "P0003",
+  "text": "WASHINGTON, D.C. 20549"
+ },
+ {
+  "locator": "P0004",
+  "text": "FORM 8-K"
+ },
+ {
+  "locator": "P0005",
+  "text": "CURRENT REPORT"
+ },
+ {
+  "locator": "P0006",
+  "text": "Pursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934"
+ },
+ {
+  "locator": "P0007",
+  "text": "Date of Report (Date of earliest event reported): August 31, 2021"
+ },
+ {
+  "locator": "P0008",
+  "text": "RumbleOn, Inc."
+ },
+ {
+  "locator": "P0009",
+  "text": "(Exact name of registrant as specified in its charter)"
+ },
+ {
+  "locator": "P0010",
+  "text": "| Nevada | | 001-38248 | | 46-3951329"
+ },
+ {
+  "locator": "P0011",
+  "text": "|"
+ },
+ {
+  "locator": "P0012",
+  "text": "(State or other jurisdiction"
+ },
+ {
+  "locator": "P0013",
+  "text": "of incorporation)"
+ },
+ {
+  "locator": "P0014",
+  "text": "| |"
+ },
+ {
+  "locator": "P0015",
+  "text": "(Commission"
+ },
+ {
+  "locator": "P0016",
+  "text": "File Number)"
+ },
+ {
+  "locator": "P0017",
+  "text": "| |"
+ },
+ {
+  "locator": "P0018",
+  "text": "(I.R.S. Employer"
+ },
+ {
+  "locator": "P0019",
+  "text": "Identification No.)"
+ },
+ {
+  "locator": "P0020",
+  "text": "| 901 W. Walnut Hill Lane | |"
+ },
+ {
+  "locator": "P0021",
+  "text": "| Irving, Texas | | 75038"
+ },
+ {
+  "locator": "P0022",
+  "text": "| (Address of principal executive offices) | | (Zip Code)"
+ },
+ {
+  "locator": "P0023",
+  "text": "Registrant’s telephone number, including area code: (214) 771-9952"
+ },
+ {
+  "locator": "P0024",
+  "text": "(Former name or former address, if changed since last report.)"
+ },
+ {
+  "locator": "P0025",
+  "text": "Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:"
+ },
+ {
+  "locator": "P0026",
+  "text": "| | ☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)"
+ },
+ {
+  "locator": "P0027",
+  "text": "| | ☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)"
+ },
+ {
+  "locator": "P0028",
+  "text": "| | ☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))"
+ },
+ {
+  "locator": "P0029",
+  "text": "| | ☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))"
+ },
+ {
+  "locator": "P0030",
+  "text": "Securities registered pursuant to Section 12(b) of the Act:"
+ },
+ {
+  "locator": "P0031",
+  "text": "| Title of each class | | Trading Symbol(s) | | Name of each exchange on which registered"
+ },
+ {
+  "locator": "P0032",
+  "text": "| Common Stock, $0.001 par value | | RMBL | | The Nasdaq Stock Market LLC"
+ },
+ {
+  "locator": "P0033",
+  "text": "Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter)."
+ },
+ {
+  "locator": "P0034",
+  "text": "Emerging growth company ☐"
+ },
+ {
+  "locator": "P0035",
+  "text": "If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐"
+ },
+ {
+  "locator": "P0036",
+  "text": "Item 1.01. Entry into Material Definitive Agreement."
+ },
+ {
+  "locator": "P0037",
+  "text": "The disclosure included in Item 2.01 of this Current Report on Form 8-K is incorporated herein by reference."
+ },
+ {
+  "locator": "P0038",
+  "text": "Item 2.01. Completion of Acquisition or Disposition of Assets."
+ },
+ {
+  "locator": "P0039",
+  "text": "RideNow Transaction"
+ },
+ {
+  "locator": "P0040",
+  "text": "On August 31, 2021 (the “Closing Date”), RumbleOn, Inc. (the “Company” or “RumbleOn”) completed its business combination with RideNow Powersports, the nation’s largest powersports retailer group (collectively, “RideNow”), creating the first omnichannel customer experience in powersports (the “RideNow Transaction”). Pursuant to the RideNow Agreement (as defined below), RideNow equity holders received cash in the aggregate amount of $400.4 million less any post-closing adjustments for net working capital and closing indebtedness, and 5,833,333 shares of RumbleOn’s Class B Common Stock. The cash consideration for the RideNow Transaction was funded with (i) approximately $130 million of proceeds received from the Company’s underwritten public offering of 5,053,029 shares of Class B Common Stock resulting in gross proceeds of approximately $167 million, which offering closed on August 31, 2021 (the “Public Offering”), and (ii) approximately $280 million pursuant to the Credit Agreement (defined below)."
+ },
+ {
+  "locator": "P0041",
+  "text": "As previously disclosed, on March 12, 2021, the Company entered into the Plan of Merger and Equity Purchase Agreement, as amended to date (as amended, the “RideNow Agreement”). Pursuant to the RideNow Agreement, on the Closing Date, (i) RO Merger Sub I, Inc. merged with and into C&W Motors, Inc., with C&W Motors, Inc. continuing as a surviving corporation, (ii) RO Merger Sub II, Inc. merged with and into Metro Motorcycle, Inc., with Metro Motorcycle, Inc. continuing as a surviving corporation, (iii) RO Merger Sub III, Inc. merged with and into Tucson Motorcycles, Inc., with Tucson Motorcycles, Inc. continuing as a surviving corporation, (iv) RO Merger Sub IV, Inc. merged with and into Tucson Motorsports, Inc., with Tucson Motorsports, Inc. continuing as a surviving corporation, in each case under the laws of the State of Arizona and each as a wholly-owned subsidiary of the Company, and (v) RO Merger Sub V, Inc. merged with and into CMG Powersports, Inc., under the laws of the State of Delaware, with CMG Powersports, Inc. surviving the merger as a wholly owned direct subsidiary of the Company. In addition, the Company acquired the outstanding equity interests of 21 entities that directly or indirectly operate the RideNow powersports dealerships."
+ },
+ {
+  "locator": "P0042",
+  "text": "The foregoing description of the RideNow Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Original Agreement, First Amendment, and Second Amendment which are included as Exhibit 2.1, Exhibit 2.2, and Exhibit 2.3, respectively, to this Current Report on Form 8-K and incorporated herein by reference."
+ },
+ {
+  "locator": "P0043",
+  "text": "Credit Agreement"
+ },
+ {
+  "locator": "P0044",
+  "text": "On the Closing Date, the Company entered into a new credit agreement (the “Credit Agreement”) among the Company, as borrower, the lenders party thereto, and Oaktree Fund Administration, LLC, as administrative agent and collateral agent (the “Administrative Agent”). The Credit Agreement provides for secured credit facilities in the form of a $280.0 million principal amount of initial term loans (the “Initial Term Loan Facility”) and a $120.0 million in aggregate principal amount of delayed draw term loans (the “Delayed Draw Term Loans Facility,” and together with the Initial Term Loan Facility, the “Credit Facility”). The proceeds from the Initial Term Loan Facility, together with cash on hand and the proceeds of the Public Offering, were used to (i) consummate the RideNow Transaction and (ii) pay fees, expenses and other items related to the consummation of the RideNow Transaction and the Public Offering. The proceeds from the Delayed Draw Term Loans Facility, if drawn, will be used to finance acquisitions permitted by the Credit Agreement and similar investments or “earn-outs” entered into in connection with acquisitions and to pay fees and expenses related thereto. Loans under the Delayed Draw Term Loans Facility are subject to customary conditions precedent for facilities of this type including the need to meet certain financial tests and become available six (6) months after the Closing Date and are unavailable to be drawn after the eighteen (18) month anniversary of the Closing Date."
+ },
+ {
+  "locator": "P0045",
+  "text": "Borrowings under the Credit Facility bear interest at a rate per annum equal, at the Company’s option, to either (a) the rate which appears on the Bloomberg Page BBAM1, or on such other substitute Bloomberg page that displays rates at which U.S. dollar deposits are offered by leading banks in the London interbank deposit market (with a floor of 1.00%), plus an applicable margin of 8.25% or (b) a fluctuating adjusted base rate in effect from time to time, plus an applicable margin of 7.25%. At the Company’s option, one percent (1.00%) of such interest may be payable in kind. The Credit Facility contains customary ARRC hardwired benchmark replacement language."
+ },
+ {
+  "locator": "P0046",
+  "text": "On the last business day of each calendar quarter, commencing with the first full fiscal quarter ending after the Closing Date (or with regard to the Delayed Draw Term Loans Facility, ending after the applicable funding dates), the Company is required to make amortization payments in an aggregate principal amount equal to 0.25% of the aggregate principal amount of the Initial Term Loan Facility (or with regard to the Delayed Draw Term Loans Facility funded on the applicable funding date). Borrowings under the Credit Facility mature five (5) years after the Closing Date."
+ },
+ {
+  "locator": "P0047",
+  "text": "1"
+ },
+ {
+  "locator": "P0048",
+  "text": "The Company is permitted to make voluntary prepayments of the loans and is obligated to make mandatory prepayments with regard to excess cash flow and out of the proceeds of certain asset sales and other recovery events and debt and certain equity issuances. Upon (i) an optional prepayment, (ii) a mandatory prepayment out of the proceeds of debt and certain equity issuances, or (iii) an acceleration of the loans following an Event of Default, the Borrower is required pay a premium in an aggregate amount equal to (x) if such repayment or acceleration occurs on or prior to the twelve (12) month anniversary of the Closing Date, an amount based on a discounted value of the remaining scheduled payments plus any accrued and unpaid interest and other amounts due thereon or (y) if such repayment or acceleration occurs after the twelve (12) month anniversary of the Closing Date, a fee in an amount equal to (1) if such repayment or acceleration occurs following such twelve (12) month anniversary of the Closing Date but on or prior to the twenty-four (24) month anniversary of the Closing Date, 2.00% of the principal of such repaid or accelerated amount or (2) if such repayment or acceleration occurs following the twenty-four month anniversary of the Closing Date but on or prior to the thirty-six (36) month anniversary of the Closing Date, 1.00% of the principal of such repaid or accelerated amount."
+ },
+ {
+  "locator": "P0049",
+  "text": "Under the terms of the Credit Agreement, beginning on the last day of the first full fiscal quarter following the Closing Date, the Company shall not permit: (i) its Consolidated Total Net Leverage Ratio to be greater than 4.25 to 1.00, (ii) its Consolidated Senior Secured Net Leverage Ratio to be greater than 3.75 to 1.00, or (iii) its Liquidity to be less than $25,000,000. The Consolidated Total Net Leverage Ratio under the Credit Agreement is defined as the ratio of (a) the Consolidated Total Net Debt (as defined in the Credit Agreement) as of the last day of the applicable Test Period (as defined in the Credit Agreement) to (b) Consolidated EBITDA (as defined in the Credit Agreement) for such Test Period. The Consolidated Senior Secured Net Leverage Ratio under the Credit Agreement is defined as the ratio of (a) Consolidated Total Net Debt (other than any portion of Consolidated Total Net Debt that is unsecured) as of the last day of the applicable Test Period to (b) Consolidated EBITDA for such Test Period. Liquidity for any Test Period is defined as unrestricted cash and cash equivalents of the Company and its restricted subsidiaries, measured on a consolidated basis. Consolidated EBITDA for purposes of these restrictive covenants includes incremental adjustments beyond those included in our EBITDA non-GAAP measure. Specifically, the Consolidated EBITDA definition includes certain integration and optimization expenses and costs along with the pro forma impact of EBITDA to be received from certain acquisition-related synergies and cost reductions, such amounts being limited to no more than 25% of Consolidated EBITDA."
+ },
+ {
+  "locator": "P0050",
+  "text": "Obligations under the Credit Agreement are secured by a first-priority lien on substantially all of the assets of the Company and its domestic wholly owned subsidiaries (the “Subsidiary Guarantors”) although certain assets of the Company and Subsidiary Guarantors are subject to a first-priority lien in favor of floor plan lenders, and such liens and priority are subject to certain other exceptions. The Subsidiary Guarantors also guarantee the obligations of the Company under the Credit Agreement. The liens under the Credit Agreement are in general parirus passu with the liens in favor of the Indenture Collateral Agent (as defined below). The Credit Agreement contains affirmative and negative covenants customary for facilities of its type, which, among other things, generally limit (with certain exceptions including those for permitted acquisitions): mergers, amalgamations or consolidations; the incurrence of additional indebtedness (including guarantees); the incurrence of additional liens; the sale, license, lease, transfer or other disposition of assets; certain investments; transactions with affiliates; payments of certain indebtedness; and other activities customarily restricted in such agreements."
+ },
+ {
+  "locator": "P0051",
+  "text": "The Credit Agreement contains customary events of default for facilities of this type. If an event of default under the Credit Agreement occurs and is continuing, the commitments to make available the Delayed Draw Term Loan Facility may be terminated and the principal amount outstanding under the Credit Agreement, together with all accrued and unpaid interest and other amounts owed thereunder, may be declared immediately due and payable."
+ },
+ {
+  "locator": "P0052",
+  "text": "The foregoing description of the Credit Agreement does not purport to be complete and is qualified in its entirety by the Credit Agreement, a copy of which is attached to this Current Report on Form 8-K as Exhibit 10.1, and incorporated herein by reference."
+ },
+ {
+  "locator": "P0053",
+  "text": "Supplemental Indenture"
+ },
+ {
+  "locator": "P0054",
+  "text": "The Company is a party to that certain Indenture (the “Indenture”) dated as of January 20, 2020 by and between the Company and Wilmington Trust, National Association (in such capacity, the “Trustee”) with regard to its 6.75% Convertible Senior Notes due 2025 (the “Notes”)."
+ },
+ {
+  "locator": "P0055",
+  "text": "2"
+ },
+ {
+  "locator": "P0056",
+  "text": "As a result of the Credit Facility and the grant of liens thereunder, the Company was required under the Indenture to provide liens to secure payments due under the Indenture and Notes that are equal and ratable (or senior) to those of the Administrative Agent. As such, the Company entered into a Supplemental Indenture (the “Supplemental Indenture”) naming Wilmington Trust, National Association as collateral agent for the Trustee and holders of the Notes (in such capacity, the “Indenture Collateral Agent”). The Supplemental Indenture appoints the Indenture Collateral Agent as collateral agent for the Trustee and the holders of the Notes and authorizes the Indenture Collateral Agent to enter into, and the Indenture Collateral Agent has entered into: (a) a Guaranty from the Subsidiary Guarantors in favor of the Indenture Collateral Agent in a form similar to that in favor of the Administrative Agent guaranteeing to the Indenture Collateral Agent the obligations of the Company under the Indenture and Notes (the “Indenture Guaranty”), (b) a Security Agreement from the Company and the Subsidiary Guarantors in favor of the Indenture Collateral Agent in a form similar to that in favor of the Administrative Agent securing the obligations of the Company under the Indenture and of the Subsidiary Guarantors under the Indenture Guaranty, and (c) a First Lien Intercreditor Agreement establishing the lien priority between the Administrative Agent and the Indenture Collateral Agent as to the collateral provided by the Company and the Subsidiary Guarantors and appointing the Administrative Agent as controlling collateral agent under certain circumstances with regard to the collateral and other creditors."
+ },
+ {
+  "locator": "P0057",
+  "text": "The foregoing description of the Supplemental Indenture does not purport to be complete and is qualified in its entirety by the Supplemental Indenture, a copy of which is attached to this Current Report on Form 8-K as Exhibit 10.2, and incorporated herein by reference."
+ },
+ {
+  "locator": "P0058",
+  "text": "Warrant"
+ },
+ {
+  "locator": "P0059",
+  "text": "As previously disclosed on March 15, 2021, the Company issued a warrant to purchase an aggregate of $40 million shares of Class B Common Stock (the “Warrant”) to Oaktree Capital Management, L.P. (“Oaktree”). On August 31, 2021, prior to the Closing, Oaktree assigned a pro rata portion of the Warrant to each lender under the Credit Agreement (or such lender’s affiliate) and the Company provided each such lender (or such lender’s affiliate) a new Warrant (the “Warrants”). In connection with the Public Offering, the exercise price of the Warrants was set at $33.00 per share and the aggregate number of shares of Class B Common Stock underlying the Warrants was set at 1,212,121 shares."
+ },
+ {
+  "locator": "P0060",
+  "text": "The foregoing description of the New Warrants does not purport to be complete and is qualified in its entirety by reference to the full text of the Form of Warrant, which is attached hereto as Exhibit 4.1, and incorporated herein by reference."
+ },
+ {
+  "locator": "P0061",
+  "text": "Item 2.03. Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant."
+ },
+ {
+  "locator": "P0062",
+  "text": "The disclosure included in Item 2.01 of this Current Report on Form 8-K is incorporated herein by reference."
+ },
+ {
+  "locator": "P0063",
+  "text": "Item 3.02. Unregistered Sales of Equity Securities."
+ },
+ {
+  "locator": "P0064",
+  "text": "The disclosure included in Item 2.01 of this Current Report on Form 8-K is incorporated herein by reference. The issuance of the shares of the Company’s Class B Common Stock and the Warrants (including the underlying Class B Common Stock) in Item 2.01 were not registered under the Securities Act of 1933, as amended (the “Securities Act”), in accordance with Section 4(a)(2) of Regulation D, Rule 506 thereunder, as transactions by an issuer not involving a public offering."
+ },
+ {
+  "locator": "P0065",
+  "text": "3"
+ },
+ {
+  "locator": "P0066",
+  "text": "Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers."
+ },
+ {
+  "locator": "P0067",
+  "text": "Appointment of Directors and Executive Officers"
+ },
+ {
+  "locator": "P0068",
+  "text": "Pursuant to the Bylaws Amendment (defined below), on August 31, 2021, the Board of Directors of the Company (the “Board”) increased the size of the Board from seven (7) to nine (9) and appointed William Coulter and Mark Tkach each as a director of the Company effective August 31, 2021."
+ },
+ {
+  "locator": "P0069",
+  "text": "Also, effective August 31, 2021, Mr. Coulter and Mr. Tkach were appointed executive officers of the Company."
+ },
+ {
+  "locator": "P0070",
+  "text": "William Coulter, 65, is the co-founder of RideNow. Mr. Coulter oversees RideNow’s financial and growth strategies and is an advisor to the group’s senior management. Mr. Coulter’s family has been in the automobile business in Phoenix since 1923 and Mr. Coulter has worked for auto dealerships for over 50 years and is an owner of several award-winning, Arizona-based auto dealerships in addition to RideNow. Mr. Coulter has partnered with Mark Tkach since 1989 and has subsequently grown the RideNow group to more than 40 stores in eight states to be recognized as the largest powersports dealer group in the United States. In addition to his professional achievements, Mr. Coulter is an active supporter of the Phoenix Children’s Hospital, the Leukemia Foundation, the American Heart Association, and the Phoenix Catholic Diocese."
+ },
+ {
+  "locator": "P0071",
+  "text": "Mark Tkach, 64, is the CEO and co-founder of RideNow. Mr. Tkach’s 40 years of experience in all aspects of powersports operations, including overseeing RideNow’s strategic growth and financial success since he first partnered with William Coulter in 1989. Under Mr. Tkach’s leadership, RideNow grew from a single dealership into the largest powersports group of companies in the United States. Mr. Tkach has received numerous awards throughout his years in the powersports business, having won numerous national sales contests with all powersports manufacturers. In addition to his professional achievements, Mr. Tkach has led “rides for charities” such as the Muscular Dystrophy Association and has also been recognized as a top fundraiser for the Pediatric Brain Tumor Foundation."
+ },
+ {
+  "locator": "P0072",
+  "text": "In connection with the RideNow Transaction, the Company entered into related party leases for 24 properties consisting of dealerships and offices. Each related party lease is with a wholly-owned subsidiary of the Company as the tenant and an entity controlled by Mr. Coulter and/or Mr. Tkach as the landlord. The initial aggregate base rent payment for all 24 leases is approximately $1.2 million per month, and each lease commenced a new 20-year term on September 1, 2021, with each lease containing annual 2% increases on base rent. The Audit Committee of the Board reviewed and approved these related party leases and deemed them to be at arms-length and at market rates."
+ },
+ {
+  "locator": "P0073",
+  "text": "4"
+ },
+ {
+  "locator": "P0074",
+  "text": "Employment Agreements"
+ },
+ {
+  "locator": "P0075",
+  "text": "On August 31, 2021, the Company entered into employment agreements with each of Marshall Chesrown, William Coulter, Mark Tkach, Peter Levy, and Beverley Rath (each an “Executive,” and collectively, the “Executives”) in connection with their service as executive officers of the Company (the “Employment Agreements” and each an “Employment Agreement”). The Employment Agreements for each Executive have a three year term and automatically renew each month unless the Company or Messrs. Chesrown, Coulter, Tkach, or Levy provides the other party written notice at least fifteen days prior to the applicable date of renewal or unless terminated earlier pursuant to the terms of the Employment Agreements. Ms. Rath’s employment agreement does not renew automatically."
+ },
+ {
+  "locator": "P0076",
+  "text": "In connection with their respective Employment Agreements, Messrs. Chesrown, Coulter, Tkach and Levy each receive an annual salary of $500,000; and Ms. Rath receives an annual salary of $220,000. Messrs. Chesrown, Coulter, Tkach and Levy are eligible for annual cash bonuses of up to 125% of their base salary, upon achievement of the performance metrics adopted by the Board or the Compensation Committee. Ms. Rath is eligible for annual cash bonuses of up to 100% of her base salary, upon achievement of the performance metrics adopted by the Board or the Compensation Committee. Additionally, the Executives are eligible to participate in the Company’s existing and future equity plans, benefits plan, policies, or arrangements maintained by the Company and made available to employees generally and for the benefits of executives."
+ },
+ {
+  "locator": "P0077",
+  "text": "The Company may terminate the Employment Agreements and each Executive’s employment at any time during the term for “Cause,” as such term is defined in each employment agreement. Also, the Company may terminate the Employment Agreements and each Executive’s employment without cause."
+ },
+ {
+  "locator": "P0078",
+  "text": "Each Executive may terminate his or her employment and the respective employment agreement for “Good Reason,” as such term is defined in each employment agreement. Also, each Executive may terminate his or her employment and the respective employment agreement for any reason or without reason; provided such employee provides the Company with at least thirty (30) days’ prior written notice."
+ },
+ {
+  "locator": "P0079",
+  "text": "Each Executive’s employment and the respective employment agreement will automatically terminate upon their death, as applicable. The Company may terminate the Employment Agreements and each Executive’s employment with the Company immediately upon a determination of “Disability,” as such term is defined in each employment agreement."
+ },
+ {
+  "locator": "P0080",
+  "text": "Upon termination of the applicable Employment Agreement due to the Executive’s death or disability, the Company shall pay, in the case of death, to the applicable employee’s estate, all “Accrued Obligations” and “Termination Compensation,” as such terms are defined in each employment agreement, as if the employee had been terminated by the Company without Cause, and in the case of disability, to the applicable employee, all Accrued Obligations and Termination Compensation as if the executive had been terminated by the Company without Cause, subject to reduction by the amount of any disability insurance proceeds paid to or on behalf of employee."
+ },
+ {
+  "locator": "P0081",
+  "text": "In the event the Executive’s employment is terminated by the Company for cause, the Company shall pay to the applicable employee Accrued Obligations."
+ },
+ {
+  "locator": "P0082",
+  "text": "In the event the Company terminates the Employment Agreements of the Executive without cause or if the Executive terminates his or her respective employment agreement and employment with the Company for Good Reason, the Company shall pay to such employee the Termination Compensation, as such term is defined in each employment agreement, as applicable."
+ },
+ {
+  "locator": "P0083",
+  "text": "In the event the Executive terminates his or her respective employment agreement and employment with the Company for any reason (other than Good Reason) during the term of his or her applicable employment agreement, the Company shall pay to such Executive Accrued Obligations, as applicable."
+ },
+ {
+  "locator": "P0084",
+  "text": "Pursuant to the individual employment agreements or individual equity award agreements, all equity benefits granted to the Executive shall vest immediately upon: (i) a “Change of Control,” as such term is defined in the applicable employment agreement, (ii) a termination of such employee’s employment by the Company without cause, (iii) a termination of employment by such employee for Good Reason or (iv) such employee’s death or disability."
+ },
+ {
+  "locator": "P0085",
+  "text": "The foregoing descriptions of the Employment Agreements of Messrs. Chesrown, Coulter, Tkach, and Levy and Ms. Rath, do not purport to be complete and are qualified in their entirety by the Employment Agreements of Messrs. Chesrown, Coulter, Tkach, and Levy and Ms. Rath, a copy of which are attached to this Current Report on Form 8-K as Exhibit 10.3, 10.4, 10.5, 10.6 and 10.7, respectively, and incorporated herein by reference."
+ },
+ {
+  "locator": "P0086",
+  "text": "5"
+ },
+ {
+  "locator": "P0087",
+  "text": "Item 5.03. Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year."
+ },
+ {
+  "locator": "P0088",
+  "text": "On August 31, 2021, the Board of the Company approved an amendment to the Amended Bylaws of the Company (the “Bylaws Amendment”). The Bylaws Amendment increased the maximum number of directors from seven (7) to nine (9) directors."
+ },
+ {
+  "locator": "P0089",
+  "text": "The foregoing description of the Bylaws Amendment does not purport to be complete and is qualified in its entirety by the Bylaws Amendment, a copy of which is attached to this Current Report on Form 8-K as Exhibit 3.1, and incorporated herein by reference."
+ },
+ {
+  "locator": "P0090",
+  "text": "Item 7.01. Regulation FD Disclosure."
+ },
+ {
+  "locator": "P0091",
+  "text": "On September 7, 2021, the Company posted supplemental pro forma combined company information with respect to historical financial results on its website at www.rumbleon.com. A copy of the supplemental pro forma information is furnished herewith as Exhibit 99.1."
+ },
+ {
+  "locator": "P0092",
+  "text": "The information contained in Item 7.01 of this Current Report on Form 8-K (including Exhibit 99.1) is being furnished to the U.S. Securities and Exchange Commission (the “SEC”) and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liabilities of that Section and shall not be deemed to be incorporated by reference into any filing under the Exchange Act or the Securities Act of 1933, as amended, except as shall be expressly set forth by specific reference in such a filing."
+ },
+ {
+  "locator": "P0093",
+  "text": "Item 8.01. Other Events."
+ },
+ {
+  "locator": "P0094",
+  "text": "On August 31, 2021, the Company issued a press release announcing the closing of the Public Offering and RideNow Transaction. The press release is attached to this Current Report on Form 8-K as Exhibit 99.2, and is incorporated herein by reference."
+ },
+ {
+  "locator": "P0095",
+  "text": "Item 9.01. Financial Statements and Exhibits."
+ },
+ {
+  "locator": "P0096",
+  "text": "(i) The audited combined financial statements of RideNow Group and Affiliates for the years ended December 31, 2020 and December 31, 2019, (ii) the audited combined financial statements of RideNow Group and Affiliates for the years ended December 31, 2019 and December 31, 2018, (iii) the unaudited condensed combined financial statements of RideNow Group and Affiliates for the three months ended March 31, 2021 and 2020, (iv) the unaudited condensed combined financial statements of RideNow Group and Affiliates for the three and six months ended June 30, 2021 and 2020, and (v) the unaudited pro forma condensed combined financial statements of the Company as of June 30, 2021 and for the six months ended June 30, 2021 and the twelve months ended December 31, 2020, are included as Exhibit 99.3, 99.4, 99.5, 99.6, and 99.7, respectively, and incorporated herein by reference."
+ },
+ {
+  "locator": "P0097",
+  "text": "The unaudited pro forma condensed combined financial statements are based on the Company’s historical consolidated financial statements and RideNow’s historical combined financial statements as adjusted to give effect to the Company’s business combination with RideNow. The unaudited pro forma condensed combined balance sheet as of June 30, 2021 gives effect to these transactions as if they occurred on June 30, 2021. The unaudited pro forma condensed combined statements of operations for the six months ended June 30, 2021 and the twelve months ended December 31, 2020, give effect to these transactions as if they occurred on January 1, 2020."
+ },
+ {
+  "locator": "P0098",
+  "text": "6"
+ },
+ {
+  "locator": "P0099",
+  "text": "(d) Exhibits"
+ },
+ {
+  "locator": "P0100",
+  "text": "| Exhibit No. | | Description"
+ },
+ {
+  "locator": "P0101",
+  "text": "| 2.1 | | Plan of Merger and Equity Purchase Agreement, dated March 21, 2021 (incorporated by reference to Exhibit 2.1 to the Company’s Current Report on Form 8-K filed with the SEC on March 15, 2021)."
+ },
+ {
+  "locator": "P0102",
+  "text": "| 2.2 | | Joinder and First Amendment to Plan of Merger and Equity Purchase Agreement, dated June 17, 2021 (incorporated by reference to Exhibit 2.2 to the Company’s Current Report on Form 8-K filed with the SEC on June 21, 2021)."
+ },
+ {
+  "locator": "P0103",
+  "text": "| 2.3 | | Second Amendment and Plan of Merger and Equity Purchase Agreement, dated July 20, 2021 (incorporated by reference to Exhibit 2.1 to the Company’s Current Report on Form 8-K filed with the SEC on July 27, 2021)."
+ },
+ {
+  "locator": "P0104",
+  "text": "| 3.1 | | Amendment to the Amended Bylaws of RumbleOn, Inc., dated August 31, 2021."
+ },
+ {
+  "locator": "P0105",
+  "text": "| 4.1 | | Form of Warrant."
+ },
+ {
+  "locator": "P0106",
+  "text": "| 10.1 | | Credit Agreement, dated August 31, 2021."
+ },
+ {
+  "locator": "P0107",
+  "text": "| 10.2 | | First Supplemental Indenture, dated August 31, 2021."
+ },
+ {
+  "locator": "P0108",
+  "text": "| 10.3 | | Executive Employment Agreement, dated August 31, 2021, between Marshall Chesrown and RumbleOn, Inc."
+ },
+ {
+  "locator": "P0109",
+  "text": "| 10.4 | | Executive Employment Agreement, dated August 31, 2021, between William Coulter and RumbleOn, Inc."
+ },
+ {
+  "locator": "P0110",
+  "text": "| 10.5 | | Executive Employment Agreement, dated August 31, 2021, between Mark Tkach and RumbleOn, Inc."
+ },
+ {
+  "locator": "P0111",
+  "text": "| 10.6 | |"
+ },
+ {
+  "locator": "P0112",
+  "text": "Executive Employment Agreement, dated August 31, 2021, between Peter Levy and RumbleOn, Inc."
+ },
+ {
+  "locator": "P0113",
+  "text": "| 10.7 | | Executive Employment Agreement, dated August 31, 2021, between Beverley Rath and RumbleOn, Inc."
+ },
+ {
+  "locator": "P0114",
+  "text": "| 23.1 | | Consent of Dixon Hughes Goodman LLP."
+ },
+ {
+  "locator": "P0115",
+  "text": "| 99.1 | | Supplemental Pro Forma Combined Company Information."
+ },
+ {
+  "locator": "P0116",
+  "text": "| 99.2 | | Press Release, dated August 31, 2021."
+ },
+ {
+  "locator": "P0117",
+  "text": "| 99.3 | | The audited combined financial statements of RideNow Group and Affiliates for the years ended December 31, 2020 and December 31, 2019."
+ },
+ {
+  "locator": "P0118",
+  "text": "| 99.4 | | The audited combined financial statements of RideNow Group and Affiliates for the years ended December 31, 2019 and December 31, 2018."
+ },
+ {
+  "locator": "P0119",
+  "text": "| 99.5 | | Unaudited condensed combined financial statements of RideNow Group and Affiliates for the three months ended March 31, 2021 and 2020."
+ },
+ {
+  "locator": "P0120",
+  "text": "| 99.6 | | Unaudited condensed combined financial statements of RideNow Group and Affiliates for the three and six months ended June 30, 2021 and 2020."
+ },
+ {
+  "locator": "P0121",
+  "text": "| 99.7 | | Unaudited pro forma condensed combined financial statements of RumbleOn, Inc. as of June 30, 2021 and for the six months ended June 30, 2021 and twelve months ended December 31, 2020."
+ },
+ {
+  "locator": "P0122",
+  "text": "| 104 | | Cover Page Interactive Data File (embedded within the Inline XBRL document)"
+ },
+ {
+  "locator": "P0123",
+  "text": "7"
+ },
+ {
+  "locator": "P0124",
+  "text": "SIGNATURES"
+ },
+ {
+  "locator": "P0125",
+  "text": "Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized."
+ },
+ {
+  "locator": "P0126",
+  "text": "| |"
+ },
+ {
+  "locator": "P0127",
+  "text": "RUMBLEON, INC."
+ },
+ {
+  "locator": "P0128",
+  "text": "| | |"
+ },
+ {
+  "locator": "P0129",
+  "text": "| Date: September 7, 2021 | By: | /s/ Marshall Chesrown"
+ },
+ {
+  "locator": "P0130",
+  "text": "| | | Marshall Chesrown"
+ },
+ {
+  "locator": "P0131",
+  "text": "| | | Chief Executive Officer"
+ },
+ {
+  "locator": "P0132",
+  "text": "8"
+ }
+]

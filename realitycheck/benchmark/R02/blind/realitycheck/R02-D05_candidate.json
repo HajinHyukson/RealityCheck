@@ -1,0 +1,209 @@
+{
+  "borrower_id": "R02",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-03-14",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:14:54.111216+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03",
+    "R02-D04",
+    "R02-D05"
+  ],
+  "assessments_supplied": true,
+  "summary": "Based on weakened EBITDA and elevated debt, the Total Net Leverage and Senior Secured Net Leverage covenants should be tightened. Liquidity remains ample, so the minimum liquidity covenant is unchanged. Reporting, compliance, and notice provisions show no deterioration and are retained. No new protections are warranted.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "EBITDA fell to $3.1M Q4 and $50.6M FY while non‑vehicle net debt remains $242.9M, indicating leverage ratio likely exceeds 4.25x; tightening the threshold is warranted.",
+      "change_type": "threshold",
+      "change": "Reduce the maximum allowed Consolidated Total Net Leverage Ratio threshold below the current 4.25x",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0016",
+          "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0055",
+          "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "C02",
+      "action": "modify",
+      "rationale": "EBITDA fell to $3.1M Q4 and $50.6M FY while non‑vehicle net debt remains $242.9M, indicating leverage ratio likely exceeds 3.75x; tightening the threshold is warranted.",
+      "change_type": "threshold",
+      "change": "Reduce the maximum allowed Consolidated Senior Secured Net Leverage Ratio threshold below the current 3.75x",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0016",
+          "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2024-03-14",
+          "locator": "P0055",
+          "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Total available liquidity of $212.6 million far exceeds the $25 million minimum, showing no need to adjust the liquidity covenant."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicates deficiencies in financial statement delivery; the company continues to provide required reports."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence shows issues with compliance certificate delivery; the obligation remains appropriate."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence of default notice problems; the notice requirement remains adequate."
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Weakened EBITDA and high debt levels indicate increased leverage risk, justifying tightening of leverage covenants; liquidity remains strong, so no change needed there.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on weakened EBITDA and elevated debt, the Total Net Leverage and Senior Secured Net Leverage covenants should be tightened. Liquidity remains ample, so the minimum liquidity covenant is unchanged. Reporting, compliance, and notice provisions show no deterioration and are retained. No new protections are warranted.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "tighten",
+        "change": "Reduce the maximum allowed Consolidated Total Net Leverage Ratio threshold below the current 4.25x",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ],
+        "rationale": "EBITDA fell to $3.1M Q4 and $50.6M FY while non‑vehicle net debt remains $242.9M, indicating leverage ratio likely exceeds 4.25x; tightening the threshold is warranted.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0016",
+            "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights"
+          },
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0055",
+            "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "tighten",
+        "change": "Reduce the maximum allowed Consolidated Senior Secured Net Leverage Ratio threshold below the current 3.75x",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ],
+        "rationale": "EBITDA fell to $3.1M Q4 and $50.6M FY while non‑vehicle net debt remains $242.9M, indicating leverage ratio likely exceeds 3.75x; tightening the threshold is warranted.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0016",
+            "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights"
+          },
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0055",
+            "quote": "Cash as of December 31, 2023, including restricted cash, was approximately $77.0 million, and non-vehicle net debt was $242.9 million."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Total available liquidity of $212.6 million far exceeds the $25 million minimum, showing no need to adjust the liquidity covenant.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0056",
+            "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under Powersports inventory financing credit facilities totaled approximately $212.6 million."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates deficiencies in financial statement delivery; the company continues to provide required reports.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence shows issues with compliance certificate delivery; the obligation remains appropriate.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of default notice problems; the notice requirement remains adequate.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Weakened EBITDA and high debt levels indicate increased leverage risk, justifying tightening of leverage covenants; liquidity remains strong, so no change needed there."
+  },
+  "elapsed_seconds": 104.5
+}

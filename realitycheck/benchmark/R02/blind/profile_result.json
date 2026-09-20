@@ -1,0 +1,307 @@
+{
+  "borrower_id": "R02",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:03:30.613086+00:00",
+  "profile": {
+    "borrower_id": "R02",
+    "version": "1.0",
+    "as_of": "2021-09-07",
+    "summary": "The analysis reconstructs six key assumptions underlying RumbleOn's credit protections: sufficient EBITDA (including RideNow synergies), liquidity above $25M via cash, lines of credit and retail loan monetization, availability of delayed draw funds if financial tests are met, limitation on additional indebtedness and asset sales, completion of the RideNow transaction for expected synergies, and adequate operating cash flow to fund operations for at least twelve months. These assumptions support the leverage, liquidity and reporting covenants in the Credit Agreement.",
+    "assumptions": [
+      {
+        "id": "R02-A01",
+        "title": "Sufficient EBITDA for Leverage Covenant",
+        "claim": "Consolidated EBITDA will be high enough relative to debt to keep the Total Net Leverage Ratio ≤ 4.25.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0049",
+            "quote": "the pro forma impact of EBITDA to be received from certain acquisition-related synergies and cost reductions",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A02",
+        "title": "Liquidity Above Minimum Threshold",
+        "claim": "Liquidity will remain greater than $25,000,000 as required by the covenant.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2021Q2",
+            "locator": "P0319",
+            "quote": "Our primary liquidity sources are available cash and cash equivalents, amounts available under lines of credit, monetization of our retail loan portfolio",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A03",
+        "title": "Delayed Draw Availability When Needed",
+        "claim": "The Company will meet the financial tests needed to draw the Delayed Draw Term Loans Facility if additional liquidity is required.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0044",
+            "quote": "become available six (6) months after the Closing Date and are unavailable to be drawn after the eighteen (18) month anniversary of the Closing Date.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A04",
+        "title": "Limited Additional Indebtedness and Asset Sales",
+        "claim": "The Company will not incur additional indebtedness or dispose of assets beyond the levels permitted by the Credit Agreement.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0050",
+            "quote": "generally limit (with certain exceptions including those for permitted acquisitions): mergers, amalgamations or consolidations; the incurrence of additional indebtedness (including guarantees);",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A05",
+        "title": "RideNow Transaction Completion and Synergies",
+        "claim": "The RideNow Transaction will close as expected, delivering the pro forma EBITDA benefits assumed in leverage calculations.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2021Q2",
+            "locator": "P0672",
+            "quote": "The Company expects to close the RideNow Transaction during the third quarter of 2021.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A06",
+        "title": "Adequate Operating Cash Flow",
+        "claim": "Operating cash flow will be sufficient to fund operations for at least the next twelve months.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2021Q2",
+            "locator": "P0319",
+            "quote": "Management believes that current working capital, results of operations, and existing financing arrangements are sufficient to fund operations for at least the next twelve months.",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R02-A05",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Completion of RideNow Transaction provides pro forma EBITDA synergies that support the assumption of sufficient EBITDA to meet leverage ratio."
+      },
+      {
+        "source": "R02-A06",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Sufficient operating cash flow adds to liquidity sources, supporting the assumption that liquidity will stay above the $25M minimum."
+      },
+      {
+        "source": "R02-A03",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Ability to draw delayed draw term loans provides an additional liquidity source, reinforcing the liquidity adequacy assumption."
+      },
+      {
+        "source": "R02-A04",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Limiting additional indebtedness and asset sales reduces debt burden, aiding the assumption that EBITDA will be sufficient to keep leverage ratios within limits."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Higher EBITDA improves debt service capacity, indirectly supporting liquidity maintenance."
+      }
+    ]
+  },
+  "source_hashes": {
+    "RMBL-8K-ORIGINATION": "46e8b6fc1187961847947770746c606d49166e1ebe12b7e5974bc3ba38bb305c",
+    "RMBL-10Q-2021Q2": "9d80d170bf918395eb38c1eaa5e7ad4e5ec975053f29047dae4e7ce2d38339e0",
+    "RMBL-CA-ORIGINAL": "5710c88774524cffa3843bf71ca751119ba1b781eda5cb7f60c1d8b1ac268254"
+  },
+  "raw_response": {
+    "summary": "The analysis reconstructs six key assumptions underlying RumbleOn's credit protections: sufficient EBITDA (including RideNow synergies), liquidity above $25M via cash, lines of credit and retail loan monetization, availability of delayed draw funds if financial tests are met, limitation on additional indebtedness and asset sales, completion of the RideNow transaction for expected synergies, and adequate operating cash flow to fund operations for at least twelve months. These assumptions support the leverage, liquidity and reporting covenants in the Credit Agreement.",
+    "assumptions": [
+      {
+        "id": "R02-A01",
+        "title": "Sufficient EBITDA for Leverage Covenant",
+        "claim": "Consolidated EBITDA will be high enough relative to debt to keep the Total Net Leverage Ratio ≤ 4.25.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0049",
+            "quote": "the pro forma impact of EBITDA to be received from certain acquisition-related synergies and cost reductions"
+          }
+        ]
+      },
+      {
+        "id": "R02-A02",
+        "title": "Liquidity Above Minimum Threshold",
+        "claim": "Liquidity will remain greater than $25,000,000 as required by the covenant.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2021Q2",
+            "locator": "P0319",
+            "quote": "Our primary liquidity sources are available cash and cash equivalents, amounts available under lines of credit, monetization of our retail loan portfolio"
+          }
+        ]
+      },
+      {
+        "id": "R02-A03",
+        "title": "Delayed Draw Availability When Needed",
+        "claim": "The Company will meet the financial tests needed to draw the Delayed Draw Term Loans Facility if additional liquidity is required.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0044",
+            "quote": "become available six (6) months after the Closing Date and are unavailable to be drawn after the eighteen (18) month anniversary of the Closing Date."
+          }
+        ]
+      },
+      {
+        "id": "R02-A04",
+        "title": "Limited Additional Indebtedness and Asset Sales",
+        "claim": "The Company will not incur additional indebtedness or dispose of assets beyond the levels permitted by the Credit Agreement.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0050",
+            "quote": "generally limit (with certain exceptions including those for permitted acquisitions): mergers, amalgamations or consolidations; the incurrence of additional indebtedness (including guarantees);"
+          }
+        ]
+      },
+      {
+        "id": "R02-A05",
+        "title": "RideNow Transaction Completion and Synergies",
+        "claim": "The RideNow Transaction will close as expected, delivering the pro forma EBITDA benefits assumed in leverage calculations.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2021Q2",
+            "locator": "P0672",
+            "quote": "The Company expects to close the RideNow Transaction during the third quarter of 2021."
+          }
+        ]
+      },
+      {
+        "id": "R02-A06",
+        "title": "Adequate Operating Cash Flow",
+        "claim": "Operating cash flow will be sufficient to fund operations for at least the next twelve months.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2021Q2",
+            "locator": "P0319",
+            "quote": "Management believes that current working capital, results of operations, and existing financing arrangements are sufficient to fund operations for at least the next twelve months."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R02-A05",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Completion of RideNow Transaction provides pro forma EBITDA synergies that support the assumption of sufficient EBITDA to meet leverage ratio."
+      },
+      {
+        "source": "R02-A06",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Sufficient operating cash flow adds to liquidity sources, supporting the assumption that liquidity will stay above the $25M minimum."
+      },
+      {
+        "source": "R02-A03",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Ability to draw delayed draw term loans provides an additional liquidity source, reinforcing the liquidity adequacy assumption."
+      },
+      {
+        "source": "R02-A04",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Limiting additional indebtedness and asset sales reduces debt burden, aiding the assumption that EBITDA will be sufficient to keep leverage ratios within limits."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Higher EBITDA improves debt service capacity, indirectly supporting liquidity maintenance."
+      }
+    ]
+  },
+  "warnings": [],
+  "error": null,
+  "elapsed_seconds": 51.4
+}

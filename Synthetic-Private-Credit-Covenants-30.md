@@ -1,0 +1,319 @@
+# 30 synthetic private-credit covenants
+
+Prepared September 19, 2026, for RealityCheck. Author: Codex. Library version 1.0.
+
+This is a **fictional clause library**, drafted from the agreed [Synthetic Covenant Framework](Synthetic-Covenant-Framework.md). It supplies 30 distinct covenants with interpretation records. It is not an executed agreement or a complete, validated borrower dataset. Names, amounts, dates, thresholds, baskets, and operative wording are synthetic. Historical agreements inform identified structures; no market-standard, OCC-approved, or practitioner-reviewed status is claimed.
+
+## How to use this library
+
+Use **PC01–PC21 as the protective CedarBridge core**. These split and elaborate the framework's seven core provisions into individually testable obligations. The customer notice, insurance limits, and subsidiary-accession duties are deliberate borrower-specific protections, not a universal minimum package. PC22–PC30 are optional clauses or alternative profiles; they are not automatically part of the core. Select a profile in an executed synthetic election schedule before generating events.
+
+| Profile | Clauses selected | Borrower-risk rationale |
+| --- | --- | --- |
+| CORE | PC01–PC21 | Profitable software/services cash-flow borrower; one leverage maintenance test, reporting, and controls on collateral and leakage. |
+| GOVERNANCE | Add PC22 and/or PC23 | Related-party leakage or permitted subordinated funding warrants additional controls. |
+| LIQUIDITY | Add PC24 and PC25 together | Stress cash needs warrant a cash floor and an earlier reporting trigger. |
+| MONTHLY | Add PC26 | A monthly closing process can support closer working-capital monitoring. |
+| INTEREST | Add PC27 | Cash interest coverage is a specifically identified risk. |
+| CASH-COVERAGE | Add PC28 instead of PC27 | Cash conversion and scheduled debt service matter more than EBITDA interest coverage. |
+| INVESTMENT | Add PC29 | An agreed annual investment envelope is necessary for the case. |
+| REVOLVER | Replace PC01 with PC30; modify PC09 as stated in PC30 | Separate revolver-based testing archetype, with no quarterly term-loan leverage maintenance test. This deliberately changes lender protection. |
+
+Begin with CORE or CORE + LIQUIDITY. Other combinations require a fresh financial calibration. In particular, PC27 and PC28 are alternatives, not cumulative requirements. A revenue-based or pre-profitability software borrower needs a separate template.
+
+## Shared agreement record and defined terms
+
+Each clause inherits this record. A clause-specific provision overrides it only where expressly stated.
+
+**Identity and dates.** Agreement ID `SYN-CB-2026-01`; version `1.0`; synthetic execution, effective, and initial known-at date `2026-12-31`; no amendment or superseded version. The governing version for a later assessment must reflect documents actually available by its review date. First quarterly measurement: March 31, 2027. All dates after the authoring date belong to a simulation. Actual receipt, review date, officer knowledge, and agent notice are event fields, not assumed dates.
+
+**Borrower and facility.** CedarBridge Workflow, Inc., a fictional Delaware corporation providing workflow software and related implementation services, owns CedarBridge Platform LLC and CedarBridge Services LLC, both fictional Delaware entities. The three form the consolidated Group and are the Loan Parties; both subsidiaries guarantee the loan. There are no unrestricted subsidiaries. The fictional agent is Harbor Point Credit Agency LLC, acting for the lenders. The $90 million senior secured term loan closes December 31, 2026, refinances $90 million of existing funded debt, amortizes by $1 million each December 31 from 2027 through 2030, and matures December 31, 2031, when the remaining $86 million is due. Security covers the Loan Parties' assets, subject to PC10. No revolver exists unless REVOLVER is elected. Calendar fiscal year and U.S. dollars apply throughout.
+
+**Opening calibration.** Trailing-four-quarter revenue is $80 million, Reported EBITDA $19 million, eligible restructuring costs $1 million, Covenant EBITDA $20 million, Debt $90 million, and Eligible Cash $10 million. Net Debt is $80 million and Total Net Leverage is 4.00x. Illustrative annual cash use is cash taxes $2 million, capital investment $3 million, positive working-capital investment $1 million, cash interest $9 million, and scheduled principal $1 million: $19m − $2m − $3m − $1m − $9m − $1m = $3m remaining cash. This is a calibration bridge, not a complete projection. The maturity balloon needs refinancing, sale proceeds, or accumulated cash beyond this bridge; compliance does not establish repayment at maturity.
+
+**Group scope.** Financial measures consolidate the Group and eliminate intercompany balances and transactions. Transaction restrictions bind each Loan Party and the Borrower must cause every controlled subsidiary to comply. Newly formed or acquired subsidiaries enter the Group immediately; PC21 governs their accession as Loan Parties. Control means the power to direct management through voting rights, contract, or otherwise. Affiliate means a person controlling, controlled by, or under common control with the relevant person; PC22 also expressly includes the sponsor, directors, and officers.
+
+**Debt.** Outstanding funded borrowings, finance-lease principal, capitalized PIK, unreimbursed letter-of-credit drawings, and amounts presently payable under funded guarantees, without counting the same consolidated obligation twice. Ordinary non-interest-bearing trade payables and operating-lease liabilities are excluded. PC09 separately restricts unfunded guarantees. Earnouts, seller financing, letters of credit, and other financing forms have no permission unless an amendment specifies their treatment. Opening permitted debt consists solely of the term loan; no other debt is grandfathered.
+
+**Eligible Cash.** Cash in U.S.-dollar accounts owned by a Loan Party at a U.S. bank, immediately available for debt service, and subject to no lien other than the agent's permitted security. Exclude restricted deposits, blocked operating cash unavailable for debt service, third-party funds, foreign subsidiary cash, and cash trapped by legal or contractual restrictions. Leverage cash netting is `min(Eligible Cash, $10m, Debt)`. Minimum-cash tests use Eligible Cash without the $10 million netting cap. For transaction-permission leverage calculations, also exclude unspent proceeds of the debt being incurred from cash netting.
+
+**Reported EBITDA and Covenant EBITDA.** Reported EBITDA is consolidated U.S. GAAP net income plus interest expense, income-tax expense, depreciation, and amortization, with a reconciliation to the statements. Let `R` be Reported EBITDA, `Q` documented cash restructuring expenses deducted in R, and `G` non-operating disposal gains included in R. Covenant EBITDA is `R + min(Q, 10% × max(R, 0)) − G`, for the four fiscal quarters ending at the measurement date. No projected synergies, ordinary recurring operating costs, stock-compensation adjustments, or other add-backs are permitted. An item is counted once only. Positive Net Debt with zero or negative Covenant EBITDA fails a leverage test; if Net Debt is zero, define leverage as zero for this synthetic library. Do not divide by zero or treat a negative denominator as favorable leverage.
+
+**Software accounting.** Research and development is expensed except qualifying application-development costs capitalized under the agreed GAAP policy. Capitalized development is amortized straight-line over three years when placed in service; stock compensation remains an expense. Neither is an additional contractual add-back. Cash capitalized development counts as Capital Investment. Any accounting-policy change must be disclosed and covenant calculations reconciled to the closing-date policy; no change in accounting automatically changes a covenant definition.
+
+**Pro Forma Total Net Leverage.** Recalculate Debt, cash used or received, and consolidated Covenant EBITDA immediately after giving effect to the proposed transaction and its related transactions. Use the most recent ended fiscal quarter's trailing-four-quarter earnings. Include only verified historical target earnings for that same period, applying these definitions; remove disposed earnings, eliminate intercompany items, and avoid counting already consolidated earnings twice. Forecast savings are excluded. No target earnings are assumed if supporting records are unavailable. Missing necessary records make permission unestablished.
+
+**Capital Investment and working capital.** Capital Investment is cash spent on property, equipment, and capitalized software development, counted once; it excludes acquisition consideration separately governed by PC12 and expenditures already expensed in Reported EBITDA. Operating working capital is trade receivables plus prepaid operating expenses less trade payables and accrued operating expenses, excluding cash, Debt, interest, and taxes. Positive Working-Capital Investment is the greater of zero and the increase in that balance over the test period; releases supply no uplift in PC28.
+
+**Timing and delivery.** Business Day excludes Saturdays, Sundays, and observed U.S. federal holidays; New York time applies. Exclude the triggering day when counting. Calendar-day delivery deadlines falling on a non-Business Day roll forward to the next Business Day; measurement dates never roll. Delivery is complete when the agent's designated reporting portal records receipt by 5 p.m. New York time; later receipts count on the next Business Day. A Responsible Officer is the Borrower's CEO, CFO, or general counsel. A knowledge trigger uses the earliest actual knowledge of any such officer, supported by evidence. Quarterly reporting includes the fourth quarter.
+
+**Permissions and baskets.** Unless a clause says otherwise, consent means prior written agent approval authorized by lenders holding more than 50% of funded principal. Changes to principal, interest, or maturity need all affected lenders' approval. A no-continuing-Default condition applies only where the individual clause expressly imposes it. Default includes unresolved noncompliance during a remediation period. An annual basket resets on January 1; no carryforward, borrowing from future years, intra-year replenishment, or reclassification is permitted. An outstanding-principal basket frees capacity only when that principal is actually repaid. Apply related transactions together; do not split transactions or double-spend capacity. Absence of a consent document is not assumed consent.
+
+**Material collateral.** An asset needed to operate the core platform or other assets with aggregate fair value exceeding $500,000. This definition applies to PC10 and PC18; it does not introduce a size exemption into other collateral or guarantee duties.
+
+**Resolution schedule.** `F` = financial minimum/maximum: failure at its measurement time constitutes an Event of Default without extra numerical grace or automatic equity cure. `R` = reporting/access: a missed obligation is noncompliance when due, becoming an Event of Default if still unremedied at the close of ten Business Days after written agent notice. `A` = affirmative preservation: remediable noncompliance becomes an Event of Default if still unremedied at the close of 30 calendar days after written agent notice, with the delivery rollover rule; an irremediable failure is immediate. `X` = prohibited action: execution without required permission is an immediate Event of Default; a proposal alone is not. No optional rider grants an equity cure. A later waiver or amendment needs its own operative scope, authority, effective date, and known-at date. Preserve the original result and separately record its resolution. This library grants no automatic enforcement action or acceleration; those require separately specified remedy terms and authorized review.
+
+**Thesis relationships.** The synthetic underwriting memo is approved December 31, 2026. A1: Atlas supplies 35% of revenue under a firm two-year commitment without termination for convenience. A2: earnings predominantly reflect repeatable operating activity and documented adjustments. A3: cash conversion and investment requirements leave adequate resources for debt service. A4: the existing software business, people, IP, and assets preserve enterprise value. A5: controlled leverage and leakage preserve repayment capacity. These assumptions are analyst beliefs, not additional covenants. Each clause identifies its relationship below.
+
+**Evaluation fields.** Record separately: applicability; evidence sufficiency; computed/interpretive result; contractual resolution; and thesis assessment. Use `inactive`, `not_yet_due`, and `insufficient_evidence` where appropriate. Do not label an inactive covenant as passed. Compare full-precision amounts and ratios; show dollars to the nearest dollar and ratios to two decimals only for display. Store source document ID and paragraph/table-cell locator for every factual input. Keep expected results and future evidence out of model inputs.
+
+## Clause library
+
+### PC01 — Maximum total net leverage
+
+**Selection / type:** CORE; financial maintenance; Borrower for the term lenders.
+
+**Clause.** The Borrower shall not permit Total Net Leverage to exceed 5.00:1.00 as of any fiscal quarter-end, beginning March 31, 2027. Total Net Leverage equals Debt less permitted cash netting, divided by Covenant EBITDA for the four fiscal quarters then ended. The test applies regardless of borrowing activity and does not step down automatically. A ratio equal to 5.00:1.00 complies.
+
+**Interpretation record.** Inputs: quarter-end Debt and Eligible Cash, same-period EBITDA bridge. Operator: `<=`; limit 5.00x; resolution F. Evidence: PC04 certificate, debt ledger, bank restrictions and balances, and earnings reconciliation. At $80m Net Debt, the EBITDA boundary is $16m, permitting a 20% decline from $20m at unchanged Net Debt. Relationship: A2/A5; passing does not prove future cash generation. Provenance: adapted M1 §6.7 and framework C01; threshold and definitions are synthetic.
+
+### PC02 — Quarterly financial statements
+
+**Selection / type:** CORE; affirmative reporting; Borrower to agent for the term lenders.
+
+**Clause.** Within 45 calendar days after each fiscal quarter-end, beginning March 31, 2027, the Borrower shall deliver consolidated management balance sheets, income statements, and cash-flow statements for the quarter and fiscal year to date, with prior-year comparatives and a CFO certification of fair presentation subject to normal year-end adjustments. The fourth-quarter packet remains due independently of the annual audit. The packet shall identify changes in accounting policy and reconcile affected covenant inputs to the agreed basis.
+
+**Interpretation record.** Test complete receipt against the rolled deadline; partial submission does not satisfy missing components. Resolution R. Evidence: statements, officer certification, portal timestamps, and policy reconciliation. This establishes reporting compliance, not a ratio result. Relationship: A2/A3/A5. Provenance: framework C02; entirely synthetic wording and deadline.
+
+### PC03 — Annual audited financial statements
+
+**Selection / type:** CORE; affirmative reporting; Borrower to agent for the term lenders.
+
+**Clause.** Within 90 calendar days after each fiscal year-end, beginning December 31, 2027, the Borrower shall deliver consolidated annual financial statements audited by an independent accounting firm, together with the auditor's report and any management letter received by the Borrower. Any qualification, scope limitation, or going-concern paragraph shall be identified in a CFO cover memorandum with management's response. Delivery of a report containing such language does not, by that fact alone, breach this covenant.
+
+**Interpretation record.** Operator: complete receipt by deadline; no minimum audit opinion is imposed. Resolution R. Evidence: audit report, management-letter receipt record, cover memorandum, portal receipt. A withheld report or omitted received management letter is a separate delivery issue. Relationship: A2/A3; an adverse opinion warrants interpretation beyond the delivery test. Provenance: framework C02; entirely synthetic opinion treatment and timing.
+
+### PC04 — Compliance certificate and reconciliations
+
+**Selection / type:** CORE; affirmative reporting; Borrower to agent for the term lenders.
+
+**Clause.** Within 45 calendar days after each fiscal quarter-end, the Borrower shall deliver a CFO-signed certificate calculating every elected quarter-end financial covenant and identifying applicable thresholds and versions. Attach Debt, Eligible Cash, and Covenant EBITDA reconciliations, adjustment support, and annual and outstanding basket-usage schedules. The officer shall disclose known noncompliance and describe any claimed cure, waiver, or amendment, attaching its operative document. Label inactive tests as inactive. Identification of a failed test does not itself make the certificate undelivered.
+
+**Interpretation record.** First period March 31, 2027. Completeness, accuracy, signature, and deadline are tested separately from underlying financial compliance. Resolution R for this reporting obligation; financial failures use their own schedule. Evidence: certificate and attachments plus portal receipt. A management EBITDA label cannot override the defined calculation. Relationship: A2/A5. Provenance: framework C02 and definition checklist; entirely synthetic elaboration.
+
+### PC05 — Annual budget and liquidity forecast
+
+**Selection / type:** CORE; affirmative reporting; Borrower to agent for the term lenders.
+
+**Clause.** Within 30 calendar days after each fiscal year begins, starting January 1, 2027, the Borrower shall deliver a board-approved annual budget showing monthly revenue, Reported EBITDA, Capital Investment, working capital, Debt, cash interest, scheduled principal, and cash balances, together with quarterly projected covenant calculations and principal forecast assumptions. Include a maturity funding plan whenever final maturity falls within the next 18 months. Forecast delivery does not convert budget targets into financial covenants.
+
+**Interpretation record.** Annual completeness and receipt test; resolution R. Evidence: approved budget, board approval date, forecast assumptions, portal receipt. A forecast shortfall can merit review while actual tests pass. Relationship: A3/A5. Provenance: framework C02 and repayment-model requirements; entirely synthetic detail.
+
+### PC06 — Books, records, and lender inspection
+
+**Selection / type:** CORE; affirmative access; Loan Parties for agent and term lenders.
+
+**Clause.** The Loan Parties shall maintain books supporting consolidated reporting and covenant calculations. On at least five Business Days' written notice, they shall permit the agent and its advisers to inspect relevant records during ordinary business hours and discuss them with management. Absent a continuing Default, borrower-paid inspections are limited to two per fiscal year. During a continuing Default that numerical limit does not apply. Legally privileged material may be withheld if a privilege description and any nonprivileged factual substitutes are supplied; privilege does not excuse delivery of otherwise required financial records.
+
+**Interpretation record.** Event: valid inspection request identifying records, date, and attendees. A scheduling request before the notice period ends is not a refusal. Resolution R. Evidence: request, notice timestamp, access response, inspection log, privilege description. Relationship: A2–A5. Provenance: entirely synthetic monitoring control informed by the framework.
+
+### PC07 — Notice of contractual noncompliance
+
+**Selection / type:** CORE; affirmative event reporting; Borrower to agent for the term lenders.
+
+**Clause.** Within five Business Days after a Responsible Officer obtains actual knowledge of noncompliance with an elected covenant, the Borrower shall give written notice identifying the obligation, relevant facts and dates, affected entities and periods, and any proposed remediation. The notice obligation arises while a remediation period remains open and is not deferred until an Event of Default or the next compliance certificate. A proposed transaction that has not occurred does not alone establish noncompliance.
+
+**Interpretation record.** Count from the earliest proved officer-knowledge date. Resolution A, matching the framework's remediable preservation/notice convention. Evidence: underlying event, officer communication, agent receipt. Assess the underlying obligation independently. Relationship: A2–A5. Provenance: framework C07; entirely synthetic standalone wording.
+
+### PC08 — Material-customer termination or nonrenewal notice
+
+**Selection / type:** CORE; affirmative event reporting; Borrower to agent for the term lenders.
+
+**Clause.** Within five Business Days after a Responsible Officer learns that the Group received a customer's written termination or nonrenewal notice, the Borrower shall deliver that notice and an exposure summary to the agent if that customer and its controlled affiliates generated at least 20% of consolidated revenue in the preceding fiscal year. The summary shall state the effective termination date, affected contracts, outstanding receivables, and identified mitigation. A contractual right to terminate, without an actual termination or nonrenewal notice, does not activate this covenant.
+
+**Interpretation record.** Customer affiliates are grouped using control at notice receipt; attribute their preceding-year revenue once. Equality at 20% triggers. Resolution A. Evidence: actual customer notice, receipt and officer-knowledge dates, preceding-year revenue ledger, borrower notification. Relationship: A1/A3. A new cancellation right may contradict A1 while this clause remains untriggered. Provenance: framework C07; entirely synthetic aggregation detail.
+
+### PC09 — Additional debt and guarantees
+
+**Selection / type:** CORE; negative incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall incur Debt or guarantee another person's obligations except the term facility and its Loan Party guarantees, and finance leases with aggregate principal outstanding not exceeding $2 million. Each new finance lease requires no continuing Default and Pro Forma Total Net Leverage not exceeding 4.50x. Lease liens must satisfy PC10. Ordinary trade payables excluded from Debt remain permitted. Unfunded third-party guarantees, seller notes, earnouts, and other financing arrangements require prior written consent and an amendment defining their covenant treatment before entry.
+
+**Interpretation record.** $2m is an outstanding stock, not an annual allowance; actual principal repayments release capacity. Consolidate existing and proposed leases; count lease principal in leverage. Resolution X. Evidence: financing documents, guarantee exposure, debt ledger, pro forma certificate, consent if relevant. Relationship: A5. At the opening position a $2m lease yields $82m Net Debt / $20m EBITDA = 4.10x. Provenance: framework C03; entirely synthetic terms. REVOLVER expressly adds its facility permission.
+
+### PC10 — Limitation on liens
+
+**Selection / type:** CORE; negative continuous/incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall create or permit a lien on its assets except the agent's security, ordinary-course statutory liens for amounts not overdue or contested in good faith with adequate GAAP reserves and no enforceable sale of material collateral pending, and finance-lease liens securing Debt permitted by PC09 solely on the assets financed by that lease. No other opening lien is grandfathered. A permitted Debt obligation does not independently authorize a lien over unrelated assets.
+
+**Interpretation record.** No independent dollar basket. Resolution X for a lien voluntarily granted without permission; A for a remediable statutory lien that ceases to qualify. Evidence: lien searches, instruments, financed-asset schedule, tax/claim status, contest and reserve records. Relationship: A4/A5. Provenance: framework C03; entirely synthetic elaboration.
+
+### PC11 — Cash dividends and other restricted payments
+
+**Selection / type:** CORE; negative incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall make a cash dividend, equity repurchase, or other distribution to an equity holder outside the Loan Party group except cash dividends not exceeding $1 million in aggregate per fiscal year, provided no Default continues, Pro Forma Total Net Leverage is no greater than 4.25x, and Eligible Cash immediately after payment is at least $8 million. All three conditions apply to each dividend. Distributions between Loan Parties are permitted without using the annual basket if they do not impair the agent's security.
+
+**Interpretation record.** Annual flow, no carryforward or replenishment; the $1m permission covers cash dividends only, not repurchases. Resolution X. Evidence: payment records, cumulative dividend ledger, pro forma Debt/cash and earnings, default status. At opening, a $1m dividend gives $81m / $20m = 4.05x and $9m cash. Relationship: A3/A5. Provenance: framework C04; entirely synthetic elaboration.
+
+### PC12 — Permitted acquisitions
+
+**Selection / type:** CORE; negative incurrence; Group for the term lenders.
+
+**Clause.** The Group may acquire a workflow-software or reasonably related implementation-services business only if total acquisition consideration, including cash price, assumed liabilities constituting Debt, and transaction fees, does not exceed $5 million in aggregate in that fiscal year; no Default continues; Pro Forma Total Net Leverage does not exceed 4.50x; and post-closing Eligible Cash is at least $8 million. Deferred or contingent consideration requires separate prior consent under PC09. The acquired business shall enter the Group at closing, with collateral and guarantees provided under PC20–PC21. Other acquisitions require prior written consent.
+
+**Interpretation record.** Annual flow with no carryforward or replenishment; related closings aggregate. Prove business relatedness and all conditions. PC09 still controls assumed or acquisition financing Debt. Resolution X. Evidence: purchase agreement, consideration and funding schedules, historical target earnings, pro forma certificate, accession documents. The $5m basket is a ceiling, not proof that a $5m cash acquisition is affordable from $10m opening cash. Relationship: A3–A5. Provenance: framework C05; entirely synthetic detail.
+
+### PC13 — Investments and advances
+
+**Selection / type:** CORE; negative incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall make an investment, capital contribution, loan, or advance except cash in bank deposit accounts, ordinary-course trade receivables, transfers among Loan Parties subject to the existing security, and acquisitions expressly permitted by PC12. All other investments require prior written consent. Transfers to a subsidiary that has not yet become a Loan Party do not qualify as permitted intercompany investments. An acquisition permitted under PC12 is counted in that acquisition basket once and receives no separate investment allowance.
+
+**Interpretation record.** No general dollar or employee-loan basket. Test each executed transfer against its exception; the PC12 no-Default condition continues to apply to acquisitions. This clause does not suspend ordinary deposits or trade receivables during a Default. Resolution X. Evidence: ownership chart, investment instrument, bank transfer, receivable support, accession date or consent. Relationship: A3/A5. Provenance: framework C05; entirely synthetic exceptions.
+
+### PC14 — Asset disposals
+
+**Selection / type:** CORE; negative incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall sell, assign, or dispose of assets except ordinary-course nonexclusive customer licenses permitted by PC15; transfers between Loan Parties preserving the agent's security; and cash sales at fair value of obsolete equipment with aggregate fair value not exceeding $500,000 per fiscal year. The obsolete-equipment exception excludes core product IP, accounts receivable, and assets required to maintain contracted service capacity. Pay disposal proceeds directly to a Loan Party account; thereafter they may fund ordinary operating expenses, other uses independently permitted by these covenants, or term-loan repayment. This clause imposes no separate proceeds sweep or retention period. Other disposals require prior written consent.
+
+**Interpretation record.** Annual flow measured by fair value, not net book value; no recycling of used capacity. Resolution X. Evidence: asset list, valuation support, sale contract, service-capacity explanation, cash receipt and use. A gain remains subject to the EBITDA disposal-gain exclusion. Relationship: A3/A4/A5. Provenance: framework C06; entirely synthetic operational detail.
+
+### PC15 — Core product intellectual property
+
+**Selection / type:** CORE; negative continuous/incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall transfer ownership of, exclusively license, or grant a security interest in Core Product IP to a person outside the Loan Party group without prior written consent, except the agent's security. Core Product IP means source code, patents, registered and unregistered marks, and proprietary operating documentation necessary to deliver the Group's workflow platform. Ordinary-course nonexclusive licenses for customer use, which convey no ownership or exclusive commercialization right, are permitted. A transfer to an affiliate outside the Loan Party group remains restricted.
+
+**Interpretation record.** No dollar materiality basket. Resolution X. Evidence: executed IP instrument, rights granted, product-dependency evidence, ownership and Loan Party status. Apply substance, not the document's title. Relationship: A4/A5. Provenance: framework C06; entirely synthetic definition and license boundary.
+
+### PC16 — Permitted business activities
+
+**Selection / type:** CORE; negative continuous; Group for the term lenders.
+
+**Clause.** The Borrower shall cause the Group to conduct only its workflow-software business and reasonably related implementation, integration, support, and training services. Entry into another line of business requires prior written consent. Relatedness shall be evaluated from the products, customer needs, technical capabilities, and operating resources involved; a business does not qualify solely because it is described as technology-enabled. A change in the revenue mix within permitted activities or in a customer's cancellation rights does not by itself violate this covenant.
+
+**Interpretation record.** Semantic activity test; no recurring-revenue percentage is imposed. Resolution X upon entry into a prohibited business. Evidence: actual operations, customer offers, revenue segmentation, management materials, consent. A proposed expansion is not an executed one. Relationship: A1/A4; thesis changes may occur within permitted activities. Provenance: adapted M3 §9.12 and framework C06; operative boundaries are synthetic.
+
+### PC17 — Existence and fundamental changes
+
+**Selection / type:** CORE; affirmative preservation/negative transaction; Group for the term lenders.
+
+**Clause.** The Borrower shall preserve its legal existence and cause each operating subsidiary to remain duly existing. No Group member may merge, dissolve, or change its jurisdiction of organization without prior written consent, except a merger of a subsidiary into the Borrower or another Loan Party where the Borrower survives any merger involving it, all obligations and assets remain with a Loan Party, and the agent's security and guarantees remain effective without interruption. No change is permitted while a Default continues.
+
+**Interpretation record.** Resolution X for an unauthorized voluntary reorganization; A for remediable administrative loss of good standing that has not terminated existence. Evidence: formation and status records, merger documents, survivor identity, counsel's collateral confirmation. No monetary basket. Relationship: A4/A5. Provenance: framework C07; entirely synthetic merger exception.
+
+### PC18 — Payment of taxes
+
+**Selection / type:** CORE; affirmative continuous; Group for the term lenders.
+
+**Clause.** Each Group member shall pay taxes, assessments, and governmental charges when due, except an amount contested in good faith through appropriate proceedings while adequate GAAP reserves are maintained and collection is stayed so that no Material Collateral is subject to an enforceable sale. The Borrower shall retain evidence supporting every contested amount included in reporting.
+
+**Interpretation record.** All exception conditions must hold; contest alone is insufficient. Resolution A. Evidence: tax assessment, payment due date, filings, reserves, collection stay, collateral exposure. No general de minimis nonpayment allowance. Relationship: A3/A4. Provenance: framework C07; entirely synthetic materiality and contest detail.
+
+### PC19 — Maintenance of insurance
+
+**Selection / type:** CORE; affirmative continuous; Loan Parties for the term lenders.
+
+**Clause.** The Loan Parties shall maintain property insurance at replacement value for tangible assets constituting Material Collateral, commercial general liability insurance of at least $2 million per occurrence and $4 million aggregate, and technology errors-and-omissions and cyber coverage of at least $5 million aggregate per policy year. Deductibles shall not exceed $250,000 per claim without prior written consent. The agent shall be named loss payee for insured collateral and additional insured under liability policies where that status is available. Deliver certificates at closing and within five Business Days after each renewal. For the A resolution schedule, a coverage lapse is remediable by restoring the required coverage; preserve the historical lapse and disclose it under PC07, including any known uninsured loss.
+
+**Interpretation record.** Coverage is continuous; a renewal certificate does not prove there was no coverage gap. Resolution A for deficient insurance; R for certificate delivery. Evidence: policies, exclusions, endorsements, effective dates, premium status, certificates. These limits are invented protective choices requiring insurance/practitioner calibration. Relationship: A3/A4. Provenance: framework C07; entirely synthetic amounts and mechanics.
+
+### PC20 — Collateral preservation and further assurances
+
+**Selection / type:** CORE; affirmative continuous/event; Loan Parties for the term lenders.
+
+**Clause.** The Loan Parties shall preserve the agent's security over their assets, subject only to PC10. The closing security agreements, UCC financing statements, applicable IP filings, and deposit-account control agreements are required satisfied closing conditions, with no assumed deferred deliverables. After acquisition of an asset not already covered by effective security, automatically deliver the Borrower- or Loan-Party-executed instruments needed for security within 15 Business Days of acquisition, and complete all additional signatures, filings, or control arrangements necessary to perfect within 30 calendar days of acquisition. No agent request is required to start either clock. Neither interval authorizes an otherwise prohibited transfer or competing lien.
+
+**Interpretation record.** Borrower execution/delivery and completed perfection are separate milestones. Resolution A for post-closing duties; do not assume the loan closes before its specified closing conditions are satisfied. Evidence: asset ownership, executed security documents, actual filing receipts, control agreements, acquisition dates. Cash subject to a third-party restriction may fail Eligible Cash independently of remediation. Relationship: A4/A5. Provenance: framework C07; entirely synthetic accession timing.
+
+### PC21 — Additional subsidiary guarantees
+
+**Selection / type:** CORE; affirmative event; Borrower for the term lenders.
+
+**Clause.** Within ten Business Days after forming or acquiring a domestic subsidiary, the Borrower shall cause it to execute a term-loan guarantee and security accession and deliver ownership and authorization records. Complete perfection over its existing assets and the acquired equity within 30 calendar days after formation or control acquisition; that date starts the clock even where the subsidiary itself did not acquire new assets. Later asset acquisitions follow PC20. The Borrower shall not form or acquire a foreign subsidiary or designate a subsidiary unrestricted without prior written consent and an amendment defining its reporting, guarantee, and collateral treatment. All subsidiary results consolidate from control acquisition, whether accession has been completed or not.
+
+**Interpretation record.** Trigger: actual formation/control acquisition; no asset-size exemption. Resolution A. Evidence: closing documents, ownership chart, guarantee signatures, filings, dates. An incomplete accession is not permission to exclude subsidiary losses. Relationship: A4/A5. Provenance: framework C05/C07; entirely synthetic standalone duty.
+
+### PC22 — Transactions with affiliates
+
+**Selection / type:** GOVERNANCE optional; negative incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall transact with a sponsor, director, officer, or other affiliate outside the Loan Party group unless the terms are no less favorable to the Group than reasonably available from an unrelated person. A transaction or related series exceeding $250,000 of aggregate consideration in a fiscal year also requires prior approval by disinterested directors and a written comparability memorandum. Ordinary employee compensation approved in the annual budget and dividends permitted by PC11 are exempt from this clause. This clause supplies no independent permission for Debt, investments, distributions, or IP transfers.
+
+**Interpretation record.** Affiliate means control, common control, or an identified sponsor/director/officer relationship; control is power to direct management. $250,000 is a documentation threshold, not a safe harbor from fair terms. Resolution X. Evidence: relationship, contracts, comparables, board approval, other applicable permissions. Relationship: A3/A5. Provenance: entirely synthetic governance rider; no direct source-clause claim.
+
+### PC23 — Payments on subordinated debt
+
+**Selection / type:** GOVERNANCE optional; negative incurrence; Group for the term lenders.
+
+**Clause.** No Group member shall prepay, redeem, repurchase, or voluntarily defease subordinated Debt without prior written consent. Scheduled cash interest or principal may be paid only if the Debt was separately permitted under PC09, the executed subordination agreement expressly permits that payment, no payment-blockage notice is effective, and no Default continues. No amendment accelerating payment, increasing cash interest, or weakening subordination may be executed without prior written consent. There is no dollar basket for voluntary prepayments.
+
+**Interpretation record.** Subordinated Debt means Debt contractually junior in payment to the term facility. Opening balance is zero; this rider creates no debt capacity. No payment/event means no incurrence test is triggered. Resolution X. Evidence: PC09 permission, debt and subordination documents, payment/blockage dates, proposed amendment. Relationship: A3/A5. Provenance: entirely synthetic governance rider; no direct source-clause claim.
+
+### PC24 — Minimum month-end Eligible Cash
+
+**Selection / type:** LIQUIDITY optional; financial maintenance; Borrower for the term lenders.
+
+**Clause.** If LIQUIDITY is elected at closing, the Borrower shall maintain Eligible Cash of at least $5 million as of the last calendar day of each month, beginning January 31, 2027. Apply the Eligible Cash definition without the leverage-netting cap. Undrawn credit commitments, sponsor funding intentions, and restricted cash do not satisfy the minimum. The minimum is tested only at month-end; PC25 separately governs the associated forecast trigger.
+
+**Interpretation record.** Operator `>=`; equality passes; resolution F. Evidence: bank balances, ownership, restrictions, access and liens at month-end. Design rationale: $3m assumed near-term net stress cash need plus $2m reserve; the opening $10m provides $5m cash headroom. Intramonth cash pressure may merit review without a month-end failure. Relationship: A3. Provenance: framework R01; entirely synthetic threshold and measurement.
+
+### PC25 — Triggered 13-week cash-flow forecast
+
+**Selection / type:** LIQUIDITY optional; affirmative conditional reporting; Borrower to agent for the term lenders.
+
+**Clause.** If LIQUIDITY is elected, whenever Eligible Cash is at or below $8 million at a month-end, beginning January 31, 2027, the Borrower shall deliver, within five Business Days after that month-end, one cash-flow forecast covering the 91 calendar days immediately following the measurement date, divided into thirteen consecutive seven-day periods. Show opening cash, receipts, payroll, taxes, investment, interest, principal, and closing cash by period, with principal assumptions. This clause requires no intervening weekly updates; a later triggering month-end creates a new delivery obligation.
+
+**Interpretation record.** Activation operator `<=`; not a second cash minimum. Resolution R. Evidence: month-end cash qualification, forecast coverage, portal receipt. $8m is a synthetic reporting level above the $5m floor. Relationship: A3. Provenance: adapted M4 §7.14(b), via framework R01; trigger amounts, monthly frequency, and forecast window are synthetic and differ from the source.
+
+### PC26 — Monthly management reporting
+
+**Selection / type:** MONTHLY optional; affirmative reporting; Borrower to agent for the term lenders.
+
+**Clause.** If MONTHLY is elected, within 30 calendar days after each month-end, beginning January 31, 2027, the Borrower shall deliver a management balance sheet, income statement, cash-flow statement, aged trade receivables, cash-and-Debt schedule, and budget-versus-actual explanation for the month and year to date. Identify receipts more than 90 calendar days past their contractual due date. Monthly reports do not replace PC02 or PC04 unless one submission meets every required component and the earlier applicable deadline.
+
+**Interpretation record.** Operator: complete receipt by rolled deadline; resolution R. The ageing threshold requests disclosure; it does not impose a delinquency maximum or change Eligible Cash. Evidence: reports, invoice due dates, ledger, receipt timestamp. Relationship: A2/A3. Provenance: entirely synthetic reporting rider; no direct source-clause claim.
+
+### PC27 — Minimum cash-interest coverage
+
+**Selection / type:** INTEREST optional, mutually exclusive with PC28; financial maintenance; Borrower for the term lenders.
+
+**Clause.** If INTEREST is elected, the Borrower shall maintain Cash-Interest Coverage of at least 1.75x at each quarter-end beginning December 31, 2027, after a full year under the facility. The ratio is Covenant EBITDA divided by Cash Interest for the same trailing four quarters. Cash Interest includes contractual interest paid or payable in cash for that period, including amounts unpaid when due, commitment fees, and net interest-hedging settlements, without double counting; it excludes noncash financing-cost amortization and PIK capitalized into Debt. Floor aggregate Cash Interest at zero after these adjustments. If Cash Interest is zero, the test passes only if Covenant EBITDA is nonnegative; otherwise it fails.
+
+**Interpretation record.** Operator `>=`; resolution F. Evidence: EBITDA bridge, lender statements, cash/accrued interest ledger, hedge settlements. The illustrative annual calibration assumes all $9m interest is cash and gives 20/9 = 2.22x; with interest constant, the EBITDA boundary is $15.75m, a 21.25% decline. It is not an observed opening-period test. Relationship: A2/A3; this is not a principal-repayment test. Provenance: entirely synthetic optional ratio, not a sourced market level.
+
+### PC28 — Minimum cash debt-service coverage
+
+**Selection / type:** CASH-COVERAGE optional, mutually exclusive with PC27; financial maintenance; Borrower for the term lenders.
+
+**Clause.** If CASH-COVERAGE is elected, the Borrower shall maintain Cash Debt-Service Coverage of at least 1.10x at each quarter-end beginning December 31, 2027, after a full year under the facility. The numerator is trailing-four-quarter Reported EBITDA less cash income taxes paid, Capital Investment, and Positive Working-Capital Investment, with no double deduction. The denominator is Cash Interest as defined in PC27 plus principal scheduled to fall due in that period, including finance-lease principal. Voluntary prepayments and the final term-loan maturity balloon are excluded from this periodic test. If the denominator is zero, the test passes only if the numerator is nonnegative; otherwise it fails.
+
+**Interpretation record.** PC27's Cash Interest definition applies without electing its covenant. Operator `>=`; resolution F. Evidence: statements, investment and working-capital bridges, interest and scheduled principal ledgers. Illustrative annual numerator 19−2−3−1 = $13m; denominator 9+1 = $10m; ratio 1.30x. With other items fixed, Reported EBITDA reaches the 1.10x boundary at $17m, a 10.53% decline. The balloon exclusion makes separate refinancing analysis essential. Relationship: A3/A5. Provenance: entirely synthetic cash-flow rider informed by the framework's cash bridge.
+
+### PC29 — Annual capital-investment limit
+
+**Selection / type:** INVESTMENT optional; negative incurrence; Group for the term lenders.
+
+**Clause.** If INVESTMENT is elected, the Group shall not pay Capital Investment exceeding $4 million in aggregate in a fiscal year, beginning 2027, without prior written consent. Include cash capitalized software-development expenditure, equipment purchases, and capitalized implementation infrastructure once each. There is no carryforward, carryback, insurance-proceeds exception, or netting of asset-sale proceeds. Acquisition consideration permitted by PC12 and expenses already deducted in Reported EBITDA are excluded under the shared Capital Investment definition. Budget approval alone is not lender consent to exceed the cap.
+
+**Interpretation record.** Annual cash-spend flow; operator `<=`; breach occurs at the payment that exceeds capacity. Resolution X. Evidence: cash disbursements, capitalization register, accounting policy, cumulative annual schedule, consent. Calibration: $3m planned spend plus $1m contingency, or 33.33% additional capacity; this is a synthetic design allowance. Relationship: A3/A4; constraining necessary maintenance may itself undermine the thesis. Provenance: entirely synthetic optional limit.
+
+### PC30 — Springing revolver leverage covenant
+
+**Selection / type:** REVOLVER alternative replacing PC01; conditional financial maintenance; Borrower for revolver lenders only.
+
+**Clause.** If REVOLVER is elected at closing, a $10 million senior secured revolving facility is added, initially undrawn, maturing December 31, 2031, with no letters of credit, swingline loans, or scheduled amortization. The commitment remains $10 million unless a written amendment defines a changed amount, effective date, and resulting test mechanics. PC09 permits drawings under that facility; drawn principal is Debt and its security is agent security under PC10. PC01 is omitted. At a quarter-end beginning March 31, 2027, if drawn revolving principal exceeds 35% of the $10 million commitment, Total Net Leverage shall not exceed 5.00x. Test utilization before applying cash netting.
+
+**Interpretation record.** Utilization operator `>`; leverage operator `<=`. Exactly $3.5m drawn against $10m does not activate; $3.6m does. Use all Group Debt, including the revolver, and the PC01/shared leverage definitions without electing PC01. Resolution F applies only to the revolver financial covenant. A PC30 failure is a shared Default for PC07 notice and any express no-Default transaction condition, but creates no term-loan Event of Default or acceleration solely by cross-default. Other selected duties and guarantees benefit both lender classes, overriding their term-only labels. Specifically, PC09 permits Loan Party guarantees of both facilities, and PC21 requires each accession guarantee to cover both facilities. A shared amendment, waiver, or consent requires separately more than 50% of funded term principal and more than 50% of revolving commitments, including undrawn commitments; changing or waiving PC30 alone requires the latter class only. Changes to principal, interest, maturity, or commitments require all affected lenders' approval. Facility pricing, availability conditions, and remedies must be completed in a scenario-specific facility schedule before generating draw events. Relationship: A3/A5. Provenance: entirely synthetic variation implementing framework §7; no assertion that any cited agreement uses this exact test.
+
+## Provenance register
+
+| Reference | Historical document and locator | Use and limitation |
+| --- | --- | --- |
+| Framework | [Synthetic Covenant Framework](Synthetic-Covenant-Framework.md), §§3–10; authored September 19, 2026 | Direct design authority for the fictional borrower, calibration, core permissions, definitions, and evaluation boundaries. References to framework C01–C07/R01 are not references to the new PC IDs. |
+| M1 | [Artivion / Ares credit agreement, January 18, 2024](https://www.sec.gov/Archives/edgar/data/784199/000095015724000061/ex10-1.htm), §6.7 and defined leverage terms | Quarterly leverage-covenant structure for PC01. The source's ratios, borrower industry, and adjustment provisions are not copied. |
+| M3 | [Evolent Health / Ares credit agreement, December 30, 2019](https://www.sec.gov/Archives/edgar/data/1628908/000162890819000084/exhibit101passportcredit.htm), §9.12 | Permitted-business restriction as a structural reference for PC16. No numerical software-market comparability is asserted. |
+| M4 | [NN / Oaktree sixth amendment, March 28, 2025](https://www.sec.gov/Archives/edgar/data/918541/000091854125000041/exhibit101termloansixthame.htm), §7.14(b); [2021 agreement](https://www.sec.gov/Archives/edgar/data/918541/000119312521089609/d162543dex103.htm) | Conditional 13-week forecast structure for PC25. The monthly cash-only trigger and delivery mechanics here are different synthetic choices. |
+
+The source documents concern operating-company secured facilities. They are historical reference versions, not confirmed current obligations or a complete amendment history. Source review date: September 19, 2026. No source prose is reproduced verbatim. Unless marked adapted above, the clause is an entirely synthetic implementation of this project's framework, with no implied external clause locator.
+
+## Delivery and review status
+
+The separate [evaluator notes](Synthetic-Private-Credit-Covenants-30-Evaluator.md) contain development probes and expected distinctions. They must not be included in an inference prompt. A JSON companion provides the same clause text and interpretation fields for import; its shared context remains part of every record.
+
+Completed at this stage: 30 authored clauses; shared definitions, timing and resolution conventions; explicit profile selection; threshold calibration; separation of contract and thesis; separate AI drafting review and selected arithmetic/calendar checks. These checks do not validate a complete loan package.
+
+Before labeling a future release a validated synthetic dataset, generate and reconcile complete financial statements, cash movements, loan/security schedules, dated agreements and elections, evidence spans, and operative waivers or amendments for each case. Set actual review/receipt/knowledge dates and independently adjudicate every answer. Practitioner market-comparability review and empirical model evaluation remain outstanding.

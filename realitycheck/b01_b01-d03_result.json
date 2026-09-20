@@ -1,0 +1,175 @@
+{
+  "id": "B01-D03",
+  "event": {
+    "id": "B01-D03",
+    "title": "Smaller repeat outage escapes the amended notice process",
+    "event_date": "2027-09-07",
+    "available_at": "2027-09-10",
+    "review_date": "2027-09-10",
+    "sources": [
+      {
+        "document_id": "B01-DEMO-D03-INGEST",
+        "locator": "P1 — automatically synchronized incident ledger",
+        "text": "Synthetic company-database update synchronized for analyst review at 10:00 a.m. New York time on September 10, 2027. Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure. The outage was unplanned and did not fall within an announced maintenance window."
+      },
+      {
+        "document_id": "B01-DEMO-D03-INGEST",
+        "locator": "P2 — complete portal and dispatch reconciliation",
+        "text": "The reporting administrator reconciled the full designated lender-portal receipt log and FluxRail's notice-dispatch register through 10:00 a.m. September 10. Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081. The incident-routing configuration still used a greater-than-four-hour duration and 10% affected-revenue threshold on September 7. No written lender default or reporting-cure notice has been delivered for FR-2027-094 as of this review, and no waiver of its notice obligation appears in the signed-instrument register."
+      },
+      {
+        "document_id": "B01-DEMO-D03-INGEST",
+        "locator": "P3 — restored service and unresolved cause",
+        "text": "Processing resumed at noon September 7 with no lost, corrupted, or improperly approved records identified by reconciliation. No customer has delivered a written termination or nonrenewal notice. The engineering team is investigating a possible recurrence of the August queue-lock defect; causal identity is not yet established. The September root-cause report and recurrence tests are still in preparation. FluxRail retains configuration-library ownership, administrative control, and export rights. This update does not contain a new financial covenant calculation or evidence of changed debt, cash, or trailing-four-quarter earnings."
+      }
+    ]
+  },
+  "borrower_id": "B01",
+  "package_version": "1.2",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-19T21:06:18.376877+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "The September 7 workflow outage affected 7% of revenue and revealed a missed critical incident notice under S2, weakening the assumption that renewals depend on reliable workflow execution. No other assumptions or covenants are materially impacted.",
+  "attributions": [
+    {
+      "id": "att-cea10bf1-2ced-427f-af33-91ee41dcd5d5",
+      "target_type": "assumption",
+      "target_id": "B01-A01",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "The outage showed unreliable workflow execution affecting 7% of revenue, weakening the dependence of renewals on reliable connector execution.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P1 — automatically synchronized incident ledger",
+          "quote": "Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "B01-A01",
+      "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "B01-A02",
+      "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A03",
+      "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A04",
+      "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A05",
+      "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A06",
+      "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+      "status": "unaddressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "S2",
+      "status": "noncompliant",
+      "rationale": "Officer learned of incident affecting >5% revenue at 9:20 a.m. Sept 7; notice due by end of business Sept 9. No notice sent as of Sept 10 review, missing the two‑Business‑Day deadline.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P1 — automatically synchronized incident ledger",
+          "quote": "The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure.",
+          "verified": true
+        },
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P2 — complete portal and dispatch reconciliation",
+          "quote": "Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.2"
+    }
+  ],
+  "warnings": [
+    "Reviewer scope clarification: version 1.2 applies to incidents over two consecutive hours affecting at least 5% of prior-year revenue, compared with over four hours and at least 10% originally. The three-hour, 7% event qualifies; the model wording greater than 5% is imprecise at the boundary. S2 notice was due September 9 at 5 p.m. This is reporting noncompliance; no written lender cure notice is evidenced, so a category-R Event of Default is not established. The root-cause report is not yet due. Financial covenants remain unassessed without new financial inputs, and C08 leadership knowledge is not established by the technology-officer evidence. The model blanket no-other-impact statement is therefore not a general compliance finding."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The September 7 workflow outage affected 7% of revenue and revealed a missed critical incident notice under S2, weakening the assumption that renewals depend on reliable workflow execution. No other assumptions or covenants are materially impacted.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "B01-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "The outage showed unreliable workflow execution affecting 7% of revenue, weakening the dependence of renewals on reliable connector execution.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D03-INGEST",
+            "locator": "P1 — automatically synchronized incident ledger",
+            "quote": "Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "S2",
+        "status": "noncompliant",
+        "rationale": "Officer learned of incident affecting >5% revenue at 9:20 a.m. Sept 7; notice due by end of business Sept 9. No notice sent as of Sept 10 review, missing the two‑Business‑Day deadline.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D03-INGEST",
+            "locator": "P1 — automatically synchronized incident ledger",
+            "quote": "The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure."
+          },
+          {
+            "document_id": "B01-DEMO-D03-INGEST",
+            "locator": "P2 — complete portal and dispatch reconciliation",
+            "quote": "Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081."
+          }
+        ]
+      }
+    ]
+  },
+  "review_notes": [
+    "Reviewer scope clarification: version 1.2 applies to incidents over two consecutive hours affecting at least 5% of prior-year revenue, compared with over four hours and at least 10% originally. The three-hour, 7% event qualifies; the model wording greater than 5% is imprecise at the boundary. S2 notice was due September 9 at 5 p.m. This is reporting noncompliance; no written lender cure notice is evidenced, so a category-R Event of Default is not established. The root-cause report is not yet due. Financial covenants remain unassessed without new financial inputs, and C08 leadership knowledge is not established by the technology-officer evidence. The model blanket no-other-impact statement is therefore not a general compliance finding."
+  ]
+}

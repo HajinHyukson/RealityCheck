@@ -1,0 +1,421 @@
+{
+  "id": "H01-D05",
+  "event": {
+    "id": "H01-D05",
+    "title": "Direct sales recover; March month-end cash report",
+    "event_date": "2027-03-31",
+    "available_at": "2027-04-19",
+    "review_date": "2027-04-19",
+    "sources": [
+      {
+        "document_id": "H01-MGMT-2027-03",
+        "locator": "P1 — sales",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Management accounts for March 2027, delivered April 16, 2027. Direct-to-consumer sales were 18% above March 2026, helped by spring product that arrived on the rerouted services. Wholesale shipments were 11% below plan."
+      },
+      {
+        "document_id": "H01-CASH-2027-03",
+        "locator": "P2 — month-end cash report",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Cash report as of March 31, 2027, delivered April 16, 2027. Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end."
+      },
+      {
+        "document_id": "H01-MGMT-2027-03",
+        "locator": "P3 — collections and lender contact",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Wholesale receivables collected in 61 days in March, compared with 46 days at origination, as two customers paid late. As of April 19, 2027 the Lender had not given written notice of any failure to comply."
+      }
+    ]
+  },
+  "borrower_id": "H01",
+  "package_version": "1.2",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:32:53.292102+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 16000,
+    "response_format": "json_object"
+  },
+  "summary": "March 2027 cash fell to $33.6 million, breaching the $35 million minimum cash covenant; receivables slowed to 61 days, weakening the turnover assumption; DTC sales rose 18% while wholesale fell 11%, supporting the DTC offset assumption; monthly reports were delivered on time, satisfying reporting timeliness; the cash shortfall triggers forecast and expansion‑spending restrictions, but no forecast or CAPEX evidence was provided.",
+  "attributions": [
+    {
+      "id": "att-42455580-61fd-4c9e-9e9b-eca0c3ef92c9",
+      "target_type": "assumption",
+      "target_id": "H01-A05",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "contradicted",
+      "rationale": "Unrestricted Cash at March 31 2027 was $33.6 million, below the $50 million forecast floor and the $45 million trigger, contradicting the assumption that cash stays above $50 million.",
+      "evidence": [
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Revise cash floor assumption to reflect observed unrestricted cash below $45 million.",
+      "path": [],
+      "target_title": "Cash floor",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-c8ef6261-983c-4eac-b16f-dbf4f17ab39d",
+      "target_type": "assumption",
+      "target_id": "H01-A02",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "Wholesale receivables collection slowed to 61 days in March 2027, exceeding the 55‑day review criterion and weakening the assumption that receivables collect in about 46 days.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2027-03",
+          "locator": "P3 — collections and lender contact",
+          "quote": "Wholesale receivables collected in 61 days in March, compared with 46 days at origination, as two customers paid late.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Adjust receivables turnover assumption to reflect slower collection.",
+      "path": [],
+      "target_title": "Inventory and receivables turnover",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-efd3a6e7-c262-41f1-a7ed-e8c5d9d36b33",
+      "target_type": "assumption",
+      "target_id": "H01-A03",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Direct‑to‑consumer sales rose 18% year‑over‑year while wholesale shipments fell 11% versus plan, showing DTC offsetting wholesale weakness as assumed.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2027-03",
+          "locator": "P1 — sales",
+          "quote": "Direct-to-consumer sales were 18% above March 2026, helped by spring product that arrived on the rerouted services. Wholesale shipments were 11% below plan.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "No adjustment needed; assumption holds.",
+      "path": [],
+      "target_title": "DTC offset",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-e0f89f3d-ba3e-4b9b-8a8b-2296149350e2",
+      "target_type": "assumption",
+      "target_id": "H01-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Management accounts and cash report for March 2027 were delivered April 16, 2027, within 20 calendar days after month‑end, meeting the reporting timeliness assumption.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2027-03",
+          "locator": "P1 — sales",
+          "quote": "Management accounts for March 2027, delivered April 16, 2027.",
+          "verified": true
+        },
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "quote": "Cash report as of March 31, 2027, delivered April 16, 2027.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "No adjustment needed; reporting timeliness assumption holds.",
+      "path": [],
+      "target_title": "Reporting timeliness",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "H01-A01",
+      "target_title": "Lead time stability",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A02",
+      "target_title": "Inventory and receivables turnover",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A03",
+      "target_title": "DTC offset",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A04",
+      "target_title": "FOB terms and freight recovery",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A05",
+      "target_title": "Cash floor",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A06",
+      "target_title": "Reporting timeliness",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A07",
+      "target_title": "Manufacturer diversification reduces lead‑time risk",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A08",
+      "target_title": "Distribution capacity supports inventory turnover",
+      "status": "unaddressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "noncompliant",
+      "rationale": "Unrestricted Cash at March 31 2027 was $33.6 million, below the $35.0 million minimum required, breaching the cash covenant.",
+      "evidence": [
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.2",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C03",
+      "status": "compliant",
+      "rationale": "Management accounts and cash report for March 2027 were delivered April 16, 2027, which is within 20 calendar days after month‑end (deadline April 20, 2027), satisfying the reporting duty.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2027-03",
+          "locator": "P1 — sales",
+          "quote": "Management accounts for March 2027, delivered April 16, 2027.",
+          "verified": true
+        },
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "quote": "Cash report as of March 31, 2027, delivered April 16, 2027.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.2",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C06",
+      "status": "insufficient_evidence",
+      "rationale": "Unrestricted Cash fell below $45 million at March 31 2027, triggering a duty to deliver a 13‑week cash forecast within 10 Business Days (deadline April 14, 2027); no forecast was evidenced in the event.",
+      "evidence": [
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.2",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C07",
+      "status": "insufficient_evidence",
+      "rationale": "Unrestricted Cash was below $50 million at March 31 2027, activating the restriction that no Expansion CAPEX may be committed while cash remains under $50 million; the event provides no evidence of any Expansion CAPEX commitment or violation.",
+      "evidence": [
+        {
+          "document_id": "H01-CASH-2027-03",
+          "locator": "P2 — month-end cash report",
+          "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.2",
+      "already_assessed_in": null
+    }
+  ],
+  "warnings": [
+    "An earlier attempt at a 10000-token budget returned no usable JSON (finish reason: length); this result used 16000 tokens.",
+    "An earlier attempt at a 16000-token budget returned no usable JSON (finish reason: length); this result used 16000 tokens."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "March 2027 cash fell to $33.6 million, breaching the $35 million minimum cash covenant; receivables slowed to 61 days, weakening the turnover assumption; DTC sales rose 18% while wholesale fell 11%, supporting the DTC offset assumption; monthly reports were delivered on time, satisfying reporting timeliness; the cash shortfall triggers forecast and expansion‑spending restrictions, but no forecast or CAPEX evidence was provided.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "contradicted",
+        "rationale": "Unrestricted Cash at March 31 2027 was $33.6 million, below the $50 million forecast floor and the $45 million trigger, contradicting the assumption that cash stays above $50 million.",
+        "evidence": [
+          {
+            "document_id": "H01-CASH-2027-03",
+            "locator": "P2 — month-end cash report",
+            "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Revise cash floor assumption to reflect observed unrestricted cash below $45 million.",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A02",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Wholesale receivables collection slowed to 61 days in March 2027, exceeding the 55‑day review criterion and weakening the assumption that receivables collect in about 46 days.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2027-03",
+            "locator": "P3 — collections and lender contact",
+            "quote": "Wholesale receivables collected in 61 days in March, compared with 46 days at origination, as two customers paid late."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Adjust receivables turnover assumption to reflect slower collection.",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Direct‑to‑consumer sales rose 18% year‑over‑year while wholesale shipments fell 11% versus plan, showing DTC offsetting wholesale weakness as assumed.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2027-03",
+            "locator": "P1 — sales",
+            "quote": "Direct-to-consumer sales were 18% above March 2026, helped by spring product that arrived on the rerouted services. Wholesale shipments were 11% below plan."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "No adjustment needed; assumption holds.",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Management accounts and cash report for March 2027 were delivered April 16, 2027, within 20 calendar days after month‑end, meeting the reporting timeliness assumption.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2027-03",
+            "locator": "P1 — sales",
+            "quote": "Management accounts for March 2027, delivered April 16, 2027."
+          },
+          {
+            "document_id": "H01-CASH-2027-03",
+            "locator": "P2 — month-end cash report",
+            "quote": "Cash report as of March 31, 2027, delivered April 16, 2027."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "No adjustment needed; reporting timeliness assumption holds.",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "noncompliant",
+        "rationale": "Unrestricted Cash at March 31 2027 was $33.6 million, below the $35.0 million minimum required, breaching the cash covenant.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-CASH-2027-03",
+            "locator": "P2 — month-end cash report",
+            "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "status": "compliant",
+        "rationale": "Management accounts and cash report for March 2027 were delivered April 16, 2027, which is within 20 calendar days after month‑end (deadline April 20, 2027), satisfying the reporting duty.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2027-03",
+            "locator": "P1 — sales",
+            "quote": "Management accounts for March 2027, delivered April 16, 2027."
+          },
+          {
+            "document_id": "H01-CASH-2027-03",
+            "locator": "P2 — month-end cash report",
+            "quote": "Cash report as of March 31, 2027, delivered April 16, 2027."
+          }
+        ]
+      },
+      {
+        "clause_id": "C06",
+        "status": "insufficient_evidence",
+        "rationale": "Unrestricted Cash fell below $45 million at March 31 2027, triggering a duty to deliver a 13‑week cash forecast within 10 Business Days (deadline April 14, 2027); no forecast was evidenced in the event.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-CASH-2027-03",
+            "locator": "P2 — month-end cash report",
+            "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end."
+          }
+        ]
+      },
+      {
+        "clause_id": "C07",
+        "status": "insufficient_evidence",
+        "rationale": "Unrestricted Cash was below $50 million at March 31 2027, activating the restriction that no Expansion CAPEX may be committed while cash remains under $50 million; the event provides no evidence of any Expansion CAPEX commitment or violation.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-CASH-2027-03",
+            "locator": "P2 — month-end cash report",
+            "quote": "Bank balances across all listed accounts totaled $39.8 million. Of that, $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party. No cash was in transit at month-end."
+          }
+        ]
+      }
+    ]
+  }
+}

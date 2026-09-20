@@ -1,0 +1,364 @@
+{
+  "id": "R01-D07",
+  "event": {
+    "id": "R01-D07",
+    "title": "Preliminary fourth-quarter 2024 results",
+    "event_date": "2025-01-13",
+    "available_at": "2025-01-13",
+    "review_date": "2025-01-13",
+    "sources": [
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0012",
+        "text": "BEDFORD, Mass., January 13, 2025 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0013",
+        "text": "Based on preliminary financial results, iRobot expects to report fourth-quarter revenue of approximately $171 million, GAAP operating loss of approximately ($59) million and non-GAAP operating loss of approximately ($47) million. The Company expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024, exceeding its internal forecast and continuing to improve its use of operating cash. These preliminary financial results have not been audited and are subject to adjustment based on iRobot’s completion of year-end financial close processes."
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0014",
+        "text": "“Our preliminary results reflect higher-than-anticipated seasonal promotional spending to stimulate sell-through prior to our 2025 new product launches,” said Gary Cohen, iRobot CEO. “Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments as part of our transition to a new product development paradigm with our contract manufacturers. Both had an impact on our gross margin and operating loss performance in the fourth quarter.”"
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0015",
+        "text": "“We have fundamentally changed the way we innovate, develop and build our robots, which is central to our strategy for improving financial performance and generating long-term shareholder value,” Cohen said. “We exceeded our 2024 operating expense restructuring targets while we are investing in areas that are expected to drive growth. We remain on schedule with our product launches planned for 2025 that are designed to excite consumers with feature-rich robots and improve the consumer product experience.”"
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0016",
+        "text": "For the full year 2025, iRobot currently expects to return to year-over-year top-line growth as it introduces new and revitalized products. The Company expects the second half of 2025 will be stronger than the first half of the year as its product lineup ramps up. The Company expects first-quarter 2025 results will continue to reflect a transitional period for its product line. With the benefit of lower product costs and reduced development timelines, iRobot expects enhanced"
+      }
+    ]
+  },
+  "borrower_id": "R01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:45:08.675215+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "Preliminary Q4 2024 results show $134M cash and improved operating cash use, supporting assumptions of no added debt and timely reporting, while an $8M inventory write‑off weakens the inventory‑management assumption. No direct evidence affects the Amazon break‑fee, borrowing base, or covenant compliance.",
+  "attributions": [
+    {
+      "id": "att-83167e42-0732-4fe6-b029-c91c672f8a2c",
+      "target_type": "assumption",
+      "target_id": "R01-A03",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "The company reports $134M cash and improving operating cash use, indicating liquidity needs can be met without additional debt.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0013",
+          "quote": "expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024, exceeding its internal forecast and continuing to improve its use of operating cash.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "No additional debt needed",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-163e3998-a879-432a-b7ea-2cc5b7ccd588",
+      "target_type": "assumption",
+      "target_id": "R01-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "An $8M write‑off of excess component inventory indicates inventory is not aligned with run rates, increasing cash consumption.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0014",
+          "quote": "recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Inventory level management",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-f80c9128-5bb1-400f-9a58-42ea93bcd491",
+      "target_type": "assumption",
+      "target_id": "R01-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Preliminary results released on Jan 13, 2025 show the company is meeting its reporting timelines.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0012",
+          "quote": "BEDFORD, Mass., January 13, 2025 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its preliminary financial results for the fourth quarter ended December 28, 2024.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Timely financial reporting and compliance certification",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R01-A02",
+      "target_title": "Amazon break‑fee availability",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A03",
+      "target_title": "No additional debt needed",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A04",
+      "target_title": "Inventory level management",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A05",
+      "target_title": "Adequate borrowing base collateral",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A06",
+      "target_title": "Timely financial reporting and compliance certification",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "insufficient_evidence",
+      "rationale": "Event provides cash $134M but no receivables or inventory data needed to calculate Consolidated Core Assets for the Minimum Core Assets Test.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0013",
+          "quote": "expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C02",
+      "status": "insufficient_evidence",
+      "rationale": "No evidence shows delivery of required quarterly or annual financial statements or compliance certificates within contractual deadlines.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0012",
+          "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C03",
+      "status": "insufficient_evidence",
+      "rationale": "Event does not provide monthly unaudited balance sheets or Compliance Certificate required ten Business Days after month‑end.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0012",
+          "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C04",
+      "status": "insufficient_evidence",
+      "rationale": "No mention of Amazon Acquisition termination or receipt of any break fee that would trigger the mandatory prepayment sweep.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0012",
+          "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C05",
+      "status": "insufficient_evidence",
+      "rationale": "Event contains no indication of a Default or Event of Default, nor any notice thereof to the Administrative Agent.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0012",
+          "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    }
+  ],
+  "warnings": [],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "Preliminary Q4 2024 results show $134M cash and improved operating cash use, supporting assumptions of no added debt and timely reporting, while an $8M inventory write‑off weakens the inventory‑management assumption. No direct evidence affects the Amazon break‑fee, borrowing base, or covenant compliance.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "The company reports $134M cash and improving operating cash use, indicating liquidity needs can be met without additional debt.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0013",
+            "quote": "expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024, exceeding its internal forecast and continuing to improve its use of operating cash."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "An $8M write‑off of excess component inventory indicates inventory is not aligned with run rates, increasing cash consumption.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0014",
+            "quote": "recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory"
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Preliminary results released on Jan 13, 2025 show the company is meeting its reporting timelines.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0012",
+            "quote": "BEDFORD, Mass., January 13, 2025 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "insufficient_evidence",
+        "rationale": "Event provides cash $134M but no receivables or inventory data needed to calculate Consolidated Core Assets for the Minimum Core Assets Test.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0013",
+            "quote": "expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024"
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "status": "insufficient_evidence",
+        "rationale": "No evidence shows delivery of required quarterly or annual financial statements or compliance certificates within contractual deadlines.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0012",
+            "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "status": "insufficient_evidence",
+        "rationale": "Event does not provide monthly unaudited balance sheets or Compliance Certificate required ten Business Days after month‑end.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0012",
+            "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "status": "insufficient_evidence",
+        "rationale": "No mention of Amazon Acquisition termination or receipt of any break fee that would trigger the mandatory prepayment sweep.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0012",
+            "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "status": "insufficient_evidence",
+        "rationale": "Event contains no indication of a Default or Event of Default, nor any notice thereof to the Administrative Agent.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0012",
+            "quote": "today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{"stage": "analyzing", "report": "2027-09-14-industry-analysis.json", "event_id": "B01-E-413fb6455851"}
+{"stage": "completed", "report": "2027-09-14-industry-analysis.json", "package_version": "1.2", "error": null, "attributions": 6, "covenants": [["C01", "not_triggered"], ["C02", "not_triggered"], ["C03", "not_triggered"], ["C04", "not_triggered"], ["C05", "not_triggered"], ["C06", "not_triggered"], ["C07", "not_triggered"], ["C08", "not_triggered"], ["S1", "not_triggered"], ["S2", "not_triggered"], ["S3", "not_triggered"]]}
+{"stage": "analyzing", "report": "2027-09-15-august-management-accounts.json", "event_id": "B01-E-14a01a449aed"}
+{"stage": "completed", "report": "2027-09-15-august-management-accounts.json", "package_version": "1.2", "error": null, "attributions": 2, "covenants": [["C01", "compliant"], ["C02", "insufficient_evidence"], ["C03", "compliant"], ["C04", "compliant"], ["C05", "compliant"], ["C06", "compliant"], ["C07", "insufficient_evidence"], ["C08", "insufficient_evidence"], ["S1", "insufficient_evidence"], ["S2", "insufficient_evidence"], ["S3", "insufficient_evidence"]]}
+{"stage": "analyzing", "report": "2027-09-17-incident-remediation-report.json", "event_id": "B01-E-b3683dfc84bb"}
+{"stage": "completed", "report": "2027-09-17-incident-remediation-report.json", "package_version": "1.2", "error": null, "attributions": 1, "covenants": [["S2", "noncompliant"]]}
+{"stage": "done", "copy": "C:\\Users\\gkwls\\AppData\\Local\\Temp\\b01_record_8s1qpy9c\\b01_copy.sqlite"}

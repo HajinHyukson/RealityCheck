@@ -1,0 +1,165 @@
+{
+  "borrower_id": "R02",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2023-08-09",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:10:38.314944+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03"
+  ],
+  "assessments_supplied": true,
+  "summary": "Based on evidence through August 9 2023, the leverage ratio assumption is weakened by lower EBITDA guidance, justifying a tighter total net leverage covenant. Operating cash flow turned negative, supporting addition of a minimum operating cash flow covenant. Liquidity remains strong and no other covenant issues appear, so the remaining clauses are retained.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "EBITDA guidance of $55‑65 million is well below prior‑year $120 million, indicating weaker earnings that increase leverage ratio risk; thus the leverage threshold should be tightened.",
+      "change_type": "threshold",
+      "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (make covenant more restrictive)",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-08-09",
+          "locator": "P0056",
+          "quote": "•Adjusted EBITDA of $55 million to $65 million, compared to $120 million in 2022..",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A01"
+      ]
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicating a change to the senior secured leverage ratio is needed."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Total Available Liquidity of $89.7 million comfortably exceeds the $25 million minimum, indicating no liquidity stress; retain current liquidity covenant."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence of reporting issues; retain current financial statement delivery requirements."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence concerning compliance certificates; retain current requirement."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence of default notice issues; retain current notice requirement."
+    },
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Operating cash flow was negative $6.3 million for six months ended June 2023, raising doubt about ability to fund operations; add a covenant to require minimum operating cash flow.",
+      "change_type": "new_protection",
+      "change": "Add a covenant requiring minimum operating cash flow (e.g., not less than $0 over a rolling period)",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-08-09",
+          "locator": "P0050",
+          "quote": "Cash Flow used in Operating Activities was $(6.3) million for the six months ended June 30, 2023.",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R02-A06"
+      ]
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Weakened EBITDA outlook justifies tightening the total net leverage ratio threshold, and negative operating cash flow supports adding a minimum operating cash flow covenant; together these evidence‑driven changes alter risk coverage.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through August 9 2023, the leverage ratio assumption is weakened by lower EBITDA guidance, justifying a tighter total net leverage covenant. Operating cash flow turned negative, supporting addition of a minimum operating cash flow covenant. Liquidity remains strong and no other covenant issues appear, so the remaining clauses are retained.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "tighten",
+        "change": "Lower the maximum allowed Consolidated Total Net Leverage Ratio threshold (make covenant more restrictive)",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ],
+        "rationale": "EBITDA guidance of $55‑65 million is well below prior‑year $120 million, indicating weaker earnings that increase leverage ratio risk; thus the leverage threshold should be tightened.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-08-09",
+            "locator": "P0056",
+            "quote": "•Adjusted EBITDA of $55 million to $65 million, compared to $120 million in 2022.."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence indicating a change to the senior secured leverage ratio is needed."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Total Available Liquidity of $89.7 million comfortably exceeds the $25 million minimum, indicating no liquidity stress; retain current liquidity covenant."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence of reporting issues; retain current financial statement delivery requirements."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence concerning compliance certificates; retain current requirement."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No evidence of default notice issues; retain current notice requirement."
+      },
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "change_type": "new_protection",
+        "direction": "add_protection",
+        "change": "Add a covenant requiring minimum operating cash flow (e.g., not less than $0 over a rolling period)",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A06"
+        ],
+        "rationale": "Operating cash flow was negative $6.3 million for six months ended June 2023, raising doubt about ability to fund operations; add a covenant to require minimum operating cash flow.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-08-09",
+            "locator": "P0050",
+            "quote": "Cash Flow used in Operating Activities was $(6.3) million for the six months ended June 30, 2023."
+          }
+        ]
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Weakened EBITDA outlook justifies tightening the total net leverage ratio threshold, and negative operating cash flow supports adding a minimum operating cash flow covenant; together these evidence‑driven changes alter risk coverage."
+  },
+  "elapsed_seconds": 47.6
+}

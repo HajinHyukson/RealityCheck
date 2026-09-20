@@ -1,0 +1,281 @@
+{
+  "id": "B01-E-e6d930a8dfcb",
+  "title": "August 2027 management accounts",
+  "event_date": "2027-08-31",
+  "available_at": "2027-09-15",
+  "review_date": "2027-09-15",
+  "sources": [
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P1 — results and cash",
+      "text": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027. Year-to-date revenue was $66.9 million, against $66.2 million in the origination base case. Subscription billing remained invoiced annually in advance. Receivables were collected in 43 days on average, compared with 42 days at origination. Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million. Funded term debt was $78.0 million; the next scheduled principal installment is due December 31, 2027."
+    },
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P2 — management leverage calculation",
+      "text": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum. This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor. The next quarterly test date is September 30, 2027."
+    },
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P3 — transactions and limits of this report",
+      "text": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027. The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+    }
+  ],
+  "source_kind": "database_update",
+  "package_version": "1.2",
+  "status": "completed",
+  "analysis": {
+    "id": "B01-E-e6d930a8dfcb",
+    "event": {
+      "id": "B01-E-e6d930a8dfcb",
+      "title": "August 2027 management accounts",
+      "event_date": "2027-08-31",
+      "available_at": "2027-09-15",
+      "review_date": "2027-09-15",
+      "sources": [
+        {
+          "document_id": "B01-MGMT-2027-08",
+          "locator": "P1 — results and cash",
+          "text": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027. Year-to-date revenue was $66.9 million, against $66.2 million in the origination base case. Subscription billing remained invoiced annually in advance. Receivables were collected in 43 days on average, compared with 42 days at origination. Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million. Funded term debt was $78.0 million; the next scheduled principal installment is due December 31, 2027."
+        },
+        {
+          "document_id": "B01-MGMT-2027-08",
+          "locator": "P2 — management leverage calculation",
+          "text": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum. This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor. The next quarterly test date is September 30, 2027."
+        },
+        {
+          "document_id": "B01-MGMT-2027-08",
+          "locator": "P3 — transactions and limits of this report",
+          "text": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027. The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+        }
+      ]
+    },
+    "borrower_id": "B01",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:25:15.303106+00:00",
+    "model_options": {
+      "enable_thinking": true,
+      "max_tokens": 10000,
+      "response_format": "json_object"
+    },
+    "summary": "The August 2027 management accounts show receivable collection slowed to 43 days (vs 42) while subscription billing remained annual in advance; leverage calculated at 3.09x remains well below the 4.05x ceiling; no dividends, acquisitions, asset sales, new liens or additional debt occurred in the month. These observations do not materially affect the assumptions on cash conversion, working capital, or leverage headroom, and provide insufficient evidence to assess covenant compliance due to missing quarterly test dates and certifications.",
+    "attributions": [
+      {
+        "id": "att-4419256d-d37e-4709-b8b1-13f101650c7c",
+        "target_type": "assumption",
+        "target_id": "B01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "supported",
+        "rationale": "Receivable days increased to 43 (1 day) and subscription billing remained annual in advance; the change is not material per the review criterion requiring material lengthening or shift away from advance invoicing.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination.",
+            "verified": true
+          },
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Subscription billing remained invoiced annually in advance.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-890cc23c-be23-4e8e-89a2-66fa85170fe5",
+        "target_type": "assumption",
+        "target_id": "B01-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "supported",
+        "rationale": "Receivable days rose to 43 (1 day) indicating slight instability; the variance is small and not materially affecting working capital absorption.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "working"
+      },
+      {
+        "id": "att-5521518e-5d1d-47e3-9eef-6053c0841120",
+        "target_type": "assumption",
+        "target_id": "B01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "supported",
+        "rationale": "Management-calculated leverage of 3.09x is well below the 4.05x maximum, indicating adequate earnings headroom; cash and restricted cash unchanged, showing no erosion of transaction protections.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P2 — management leverage calculation",
+            "quote": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum.",
+            "verified": true
+          },
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      }
+    ],
+    "coverage": [
+      {
+        "assumption_id": "B01-A01",
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A02",
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A03",
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A04",
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A05",
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A06",
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "status": "unaddressed"
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [],
+    "warnings": [],
+    "error": null,
+    "decisions": {},
+    "raw_response": {
+      "summary": "The August 2027 management accounts show receivable collection slowed to 43 days (vs 42) while subscription billing remained annual in advance; leverage calculated at 3.09x remains well below the 4.05x ceiling; no dividends, acquisitions, asset sales, new liens or additional debt occurred in the month. These observations do not materially affect the assumptions on cash conversion, working capital, or leverage headroom, and provide insufficient evidence to assess covenant compliance due to missing quarterly test dates and certifications.",
+      "attributions": [
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A03",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "neutral",
+          "proposed_status": "supported",
+          "rationale": "Receivable days increased to 43 (1 day) and subscription billing remained annual in advance; the change is not material per the review criterion requiring material lengthening or shift away from advance invoicing.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination."
+            },
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Subscription billing remained invoiced annually in advance."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "monitor",
+          "proposed_adjustment": null,
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A05",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "neutral",
+          "proposed_status": "supported",
+          "rationale": "Receivable days rose to 43 (1 day) indicating slight instability; the variance is small and not materially affecting working capital absorption.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "monitor",
+          "proposed_adjustment": null,
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A04",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "neutral",
+          "proposed_status": "supported",
+          "rationale": "Management-calculated leverage of 3.09x is well below the 4.05x maximum, indicating adequate earnings headroom; cash and restricted cash unchanged, showing no erosion of transaction protections.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P2 — management leverage calculation",
+              "quote": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum."
+            },
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "monitor",
+          "proposed_adjustment": null,
+          "path": []
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": []
+    }
+  },
+  "decision": {
+    "action": "pending"
+  },
+  "received_at": "2026-09-20T01:25:15+00:00",
+  "analyzed_at": "2026-09-20T01:26:50+00:00",
+  "recorded_replay": {
+    "library_file": "2027-09-15-august-management-accounts.json",
+    "recorded_on_copy": true,
+    "note": "Genuine hosted Nemotron analysis recorded on a copy of the FluxRail database, with the library reports introduced in date order."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "borrower_id": "R02",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2023-03-16",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:03:54.598064+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01"
+  ],
+  "assessments_supplied": false,
+  "summary": "No dated evidence from the origination, 2021 Q2 filing, or the March 16 2023 press release indicates a breach or a need to tighten, loosen, or add any covenant; the existing package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows liquidity and earnings but no calculable leverage ratio; no indication the 4.25x limit is inappropriate."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Same reasoning as C01; no data suggest the 3.75x senior secured limit requires adjustment."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Press release shows cash of $58.6 m and total liquidity $196.1 m, well above the $25 m minimum."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "The March 16 2023 press release confirms the company delivered its financial results; no reporting deficiency is evident."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence of missing or defective compliance certificates; the obligation to provide them remains unchanged."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No indication of any default or failure to give notice; the notice‑of‑default clause is still fit for purpose."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All available evidence (origination terms, 2021 Q2 filing, and March 16 2023 results) shows the borrower remains comfortably within existing leverage, liquidity, and reporting requirements; no substantive change is warranted.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "No dated evidence from the origination, 2021 Q2 filing, or the March 16 2023 press release indicates a breach or a need to tighten, loosen, or add any covenant; the existing package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows liquidity and earnings but no calculable leverage ratio; no indication the 4.25x limit is inappropriate.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Same reasoning as C01; no data suggest the 3.75x senior secured limit requires adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "direction": null,
+        "change_type": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Press release shows cash of $58.6 m and total liquidity $196.1 m, well above the $25 m minimum.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0064",
+            "quote": "Cash as of December 31, 2022, including restricted cash, was approximately $58.6 million, and total available liquidity ... $196.1 million."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The March 16 2023 press release confirms the company delivered its financial results; no reporting deficiency is evident.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0009",
+            "quote": "RumbleOn, Inc. (NASDAQ: RMBL) … today announced operational and financial results for the three months and full year ended December 31, 2022."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of missing or defective compliance certificates; the obligation to provide them remains unchanged.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No indication of any default or failure to give notice; the notice‑of‑default clause is still fit for purpose.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All available evidence (origination terms, 2021 Q2 filing, and March 16 2023 results) shows the borrower remains comfortably within existing leverage, liquidity, and reporting requirements; no substantive change is warranted."
+  },
+  "elapsed_seconds": 16.5
+}

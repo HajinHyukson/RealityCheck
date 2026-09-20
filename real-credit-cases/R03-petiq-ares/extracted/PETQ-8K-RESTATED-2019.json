@@ -1,0 +1,490 @@
+[
+ {
+  "locator": "P0001",
+  "text": "8-K 1 d774928d8k.htm 8-K"
+ },
+ {
+  "locator": "P0002",
+  "text": "8-K"
+ },
+ {
+  "locator": "P0003",
+  "text": "UNITED STATES"
+ },
+ {
+  "locator": "P0004",
+  "text": "SECURITIES AND EXCHANGE COMMISSION"
+ },
+ {
+  "locator": "P0005",
+  "text": "Washington, D.C. 20549"
+ },
+ {
+  "locator": "P0006",
+  "text": "FORM 8-K"
+ },
+ {
+  "locator": "P0007",
+  "text": "CURRENT REPORT"
+ },
+ {
+  "locator": "P0008",
+  "text": "Pursuant to Section 13 or 15(d)"
+ },
+ {
+  "locator": "P0009",
+  "text": "of the Securities Exchange Act of 1934"
+ },
+ {
+  "locator": "P0010",
+  "text": "Date of Report (Date of earliest event reported): July 7, 2019"
+ },
+ {
+  "locator": "P0011",
+  "text": "PETIQ, INC."
+ },
+ {
+  "locator": "P0012",
+  "text": "(Exact name of registrant as specified in its charter)"
+ },
+ {
+  "locator": "P0013",
+  "text": "| | | | |"
+ },
+ {
+  "locator": "P0014",
+  "text": "| Delaware | | 001-38163 | | 35-2554312"
+ },
+ {
+  "locator": "P0015",
+  "text": "|"
+ },
+ {
+  "locator": "P0016",
+  "text": "(State or other jurisdiction"
+ },
+ {
+  "locator": "P0017",
+  "text": "of incorporation)"
+ },
+ {
+  "locator": "P0018",
+  "text": "| |"
+ },
+ {
+  "locator": "P0019",
+  "text": "(Commission"
+ },
+ {
+  "locator": "P0020",
+  "text": "File Number)"
+ },
+ {
+  "locator": "P0021",
+  "text": "| |"
+ },
+ {
+  "locator": "P0022",
+  "text": "(I.R.S. Employer"
+ },
+ {
+  "locator": "P0023",
+  "text": "Identification No.)"
+ },
+ {
+  "locator": "P0024",
+  "text": "| |"
+ },
+ {
+  "locator": "P0025",
+  "text": "|"
+ },
+ {
+  "locator": "P0026",
+  "text": "923 S. Bridgeway Pl."
+ },
+ {
+  "locator": "P0027",
+  "text": "Eagle, Idaho"
+ },
+ {
+  "locator": "P0028",
+  "text": "| | 83616"
+ },
+ {
+  "locator": "P0029",
+  "text": "| (Address of principal executive offices) | | (Zip Code)"
+ },
+ {
+  "locator": "P0030",
+  "text": "(208) 939-8900"
+ },
+ {
+  "locator": "P0031",
+  "text": "(Registrant’s telephone number, including area code)"
+ },
+ {
+  "locator": "P0032",
+  "text": "N/A"
+ },
+ {
+  "locator": "P0033",
+  "text": "(Former name or former address, if changed since last report)"
+ },
+ {
+  "locator": "P0034",
+  "text": "Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:"
+ },
+ {
+  "locator": "P0035",
+  "text": "| ☐ |"
+ },
+ {
+  "locator": "P0036",
+  "text": "Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)"
+ },
+ {
+  "locator": "P0037",
+  "text": "| ☐ |"
+ },
+ {
+  "locator": "P0038",
+  "text": "Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)"
+ },
+ {
+  "locator": "P0039",
+  "text": "| ☐ |"
+ },
+ {
+  "locator": "P0040",
+  "text": "Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))"
+ },
+ {
+  "locator": "P0041",
+  "text": "| ☐ |"
+ },
+ {
+  "locator": "P0042",
+  "text": "Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))"
+ },
+ {
+  "locator": "P0043",
+  "text": "| ☒ |"
+ },
+ {
+  "locator": "P0044",
+  "text": "Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act (17 CFR 230.405) or Rule 12b-2 of the Securities Exchange Act (17 CFR 240.12b-2)"
+ },
+ {
+  "locator": "P0045",
+  "text": "| ☒ |"
+ },
+ {
+  "locator": "P0046",
+  "text": "Indicate by check mark if the registrant has elected not to use the extended transition period for complying with new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act (17 CFR 240.13(a)-1)"
+ },
+ {
+  "locator": "P0047",
+  "text": "Securities registered pursuant to Section 12(b) of the Act:"
+ },
+ {
+  "locator": "P0048",
+  "text": "| | | | |"
+ },
+ {
+  "locator": "P0049",
+  "text": "|"
+ },
+ {
+  "locator": "P0050",
+  "text": "Title of Each Class"
+ },
+ {
+  "locator": "P0051",
+  "text": "| |"
+ },
+ {
+  "locator": "P0052",
+  "text": "Trading"
+ },
+ {
+  "locator": "P0053",
+  "text": "Symbol"
+ },
+ {
+  "locator": "P0054",
+  "text": "| |"
+ },
+ {
+  "locator": "P0055",
+  "text": "Name of Exchange on"
+ },
+ {
+  "locator": "P0056",
+  "text": "Which Registered"
+ },
+ {
+  "locator": "P0057",
+  "text": "| Class A common stock, par value $0.001 per share | | PETQ | | NASDAQ"
+ },
+ {
+  "locator": "P0058",
+  "text": "Item 1.01. Entry into a Material Definitive Agreement"
+ },
+ {
+  "locator": "P0059",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Current Report on Form"
+ },
+ {
+  "locator": "P0060",
+  "text": "8-K, on July 7, 2019, PetIQ, LLC (“Buyer”), the operating subsidiary of PetIQ, Inc. (“PetIQ” or the “Company”) entered into that certain First Amendment to Purchase and Sale Agreement by and among Buyer, L. Perrigo Company (“Seller”), Perrigo Company plc (“Seller Parent”) and PetIQ to amend the Purchase and Sale Agreement, dated May 8, 2019, by and among Buyer, Seller, Seller Parent and PetIQ (the “Amendment Agreement”). The Amendment Agreement provides, among other things, that Buyer will acquire an additional 10-acre parcel of land as part of the assets related to Perrigo’s animal health business (the “Business”)."
+ },
+ {
+  "locator": "P0061",
+  "text": "The foregoing description of the Amendment Agreement is a summary only and is qualified in its entirety by reference to the full text of the Amendment Agreement, which is attached hereto as Exhibit 10.1 and incorporated by reference herein."
+ },
+ {
+  "locator": "P0062",
+  "text": "Revolving Credit Agreement Amendment"
+ },
+ {
+  "locator": "P0063",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Current Report on Form"
+ },
+ {
+  "locator": "P0064",
+  "text": "8-K, Buyer and its domestic subsidiaries amended their existing revolving credit agreement on July 8, 2019 (the “Credit Agreement Amendment”) to increase the size of the revolving facility to $110 million with an accordion feature allowing an additional increase up to $125 million and extend the maturity date of the revolving facility to July 8, 2024. In addition, the Credit Agreement Amendment reduces the interest rate on Eurodollar rate loans and modifies certain financial covenants, including eliminating the maximum first lien net coverage ratio."
+ },
+ {
+  "locator": "P0065",
+  "text": "The foregoing description of the Credit Agreement Amendment is a summary only and is qualified in its entirety by reference to the full text of the Amendment Agreement, which is attached hereto as Exhibit 10.2 and incorporated by reference herein."
+ },
+ {
+  "locator": "P0066",
+  "text": "Term Loan Agreement"
+ },
+ {
+  "locator": "P0067",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Current Report on Form"
+ },
+ {
+  "locator": "P0068",
+  "text": "8-K, Buyer and its domestic subsidiaries entered into an amended and restated term loan credit agreement on July 8, 2019 (the “A&R Term Loan Credit Agreement”) with a secured term loan facility of $220 million maturing on July 8, 2025, the proceeds of which were used to refinance the existing term loan facility and consummate the Acquisition."
+ },
+ {
+  "locator": "P0069",
+  "text": "All obligations under the A&R Term Loan Credit Agreement are unconditionally guaranteed by PetIQ Holdings, LLC and each of its domestic wholly-owned subsidiaries and, subject to certain exceptions, each of its material current and future domestic wholly-owned subsidiaries. All obligations under the A&R Term Loan Credit Agreement, and the guarantees of those obligations, are secured by substantially all of the assets of Buyer and each guarantor under the A&R Term Loan Credit Agreement, subject to certain exceptions."
+ },
+ {
+  "locator": "P0070",
+  "text": "The A&R Term Loan Credit Agreement contains a number of covenants that, among other things, restrict our and our subsidiaries’ ability to (subject to certain exceptions): (i) make investments, loans or advances; (ii) incur additional indebtedness; (iii) create liens on assets; (iv) engage in mergers or consolidations and/or sell assets; (v) pay dividends and distributions or repurchase our equity interests; (vi) repay subordinated indebtedness; (vii) make certain acquisitions; and (viii) other restrictions typical for a credit agreement of this type."
+ },
+ {
+  "locator": "P0071",
+  "text": "The A&R Term Loan Credit Agreement also contains certain customary affirmative covenants and events of default (including change of control). In addition, the A&R Term Loan Credit Agreement includes a maintenance covenant that requires compliance a maximum first lien net leverage ratio. The availability of certain baskets and the ability to enter into certain transactions (including our ability to pay dividends) may also be subject to compliance with secured leverage ratios."
+ },
+ {
+  "locator": "P0072",
+  "text": "The foregoing description of the A&R Term Loan Credit Agreement is a summary only and is qualified in its entirety by reference to the full text of the Term Loan Credit Agreement, which is attached hereto as Exhibit 10.3 and incorporated by reference herein."
+ },
+ {
+  "locator": "P0073",
+  "text": "Transition Services Agreement"
+ },
+ {
+  "locator": "P0074",
+  "text": "In connection with the closing of the Acquisition (as defined below) described in Item 2.01 of this Current Report on Form"
+ },
+ {
+  "locator": "P0075",
+  "text": "8-K, on July 8, 2019, Buyer and Seller also entered into a Transition Services Agreement (the “Transition Services Agreement”) pursuant to which Seller will provide to Buyer, certain transition services following the closing of the Acquisition. The transition services include, without limitation, customer transition services, human resources services,"
+ },
+ {
+  "locator": "P0076",
+  "text": "information technology and systems infrastructure services, finance services, marketing services, commercial operations services and certain knowledge transfer services. Generally, the Transition Services Agreement provides that the services being provided by Seller will last from the closing date up to a period of 6 months from the closing date, with certain services expiring earlier. The Transition Services Agreement also provides that the fees for the services are to be capped at a set price per month."
+ },
+ {
+  "locator": "P0077",
+  "text": "The foregoing description of the Transition Services Agreement is a summary only and is qualified in its entirety by reference to the full text of the Transition Services Agreement Agreement, which is attached hereto as Exhibit 10.4 and incorporated by reference herein."
+ },
+ {
+  "locator": "P0078",
+  "text": "Item 2.01. Completion of Acquisition or Disposition of Assets"
+ },
+ {
+  "locator": "P0079",
+  "text": "On July 8, 2019, PetIQ announced that it had completed the previously announced acquisition of all of the outstanding capital stock of Sergeant’s Pet Care Products, Inc., including any assets related to the Business, from L. Perrigo Company, resulting in the Business becoming an indirect wholly-owned subsidiary of the Company (the “Acquisition”). The purchase price for the Acquisition is $185 million in cash, subject to customary adjustments for net working capital, closing indebtedness and transaction expenses."
+ },
+ {
+  "locator": "P0080",
+  "text": "On July 8, 2019, the Company issued a press release announcing the closing of the Acquisition. A copy of the press release is attached hereto as Exhibit 99.1."
+ },
+ {
+  "locator": "P0081",
+  "text": "Item 5.02. Departure of Directors of Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements for Certain Officers"
+ },
+ {
+  "locator": "P0082",
+  "text": "On July 8, 2019, in connection with the closing of the Acquisition, the Company announced that Michael Smith, 42, had been appointed to the role of Executive Vice President, Products. Prior to joining the Company, Mr. Smith served in various leadership roles within the Pet and Personal Care categories for Walmart, Inc., since January 2015, most recently as Senior Buying Manager – Pets from February 2017 until May 2019. He previously worked as a Director for Colgate Palmolive October 2013 to January 2015. Prior to that, he served in various roles with Walmart, Procter & Gamble and Energizer. Mr. Smith earned a Bachelor of Science in Business Administration from the University of Arkansas."
+ },
+ {
+  "locator": "P0083",
+  "text": "In connection with his appointment to the role of Executive Vice President, Products, on May 28, 2019, the Company entered into an Employment and Non-Competition Agreement with Mr. Smith (the “Employment Agreement”), which provides for an annual base salary of $400,000 and a term of 12 months, which term will automatically extend for successive 12-month periods absent notice of termination. Mr. Smith’s target bonus is 75% of his base salary. In addition, Mr. Smith received a $500,000 cash signing bonus. In the event Mr. Smith’s employment is terminated by the Company without “Cause” (as defined in the Employment Agreement), he will be entitled to receive an amount equal to her then-current annual base salary for a period of 12 months. The Employment Agreement contains restrictive covenants relating to non-competition, confidential information and non-solicitation, including Mr. Smith’s agreement that, during the time of his employment and for 12 months hereafter, he will not provide services similar to those that he provided the Company to any competitor."
+ },
+ {
+  "locator": "P0084",
+  "text": "In addition, on May 28, 2019, Mr. Smith received equity awards consisting of (i) options to purchase 100,000 shares of Class A common stock of the Company vesting in equal installments on each of the first four anniversaries of the grant date and (ii) 15,508 restricted stock units vesting in equal installments on each of the first four anniversaries of the grant date. The equity awards were issued pursuant to the Company’s 2017 Omnibus Incentive Plan, as amended, and the respective award agreements."
+ },
+ {
+  "locator": "P0085",
+  "text": "The foregoing description of the Employment Agreement is a summary only and is qualified in its entirety by reference to the full text of the Employment Agreement, which is attached hereto as Exhibit 10.5 and incorporated by reference herein."
+ },
+ {
+  "locator": "P0086",
+  "text": "Item 9.01 Financial Statements and Exhibits."
+ },
+ {
+  "locator": "P0087",
+  "text": "| | (a) |"
+ },
+ {
+  "locator": "P0088",
+  "text": "Financial Statements of Business Acquired"
+ },
+ {
+  "locator": "P0089",
+  "text": "Any financial statements required to be filed as an exhibit to this Current Report on Form 8-K will be filed by amendment within 71 days of the date on which this Current Report on Form 8-K was required to be filed with the Securities and Exchange Commission (the “SEC”)."
+ },
+ {
+  "locator": "P0090",
+  "text": "| | (b) |"
+ },
+ {
+  "locator": "P0091",
+  "text": "Pro Forma Financial Information"
+ },
+ {
+  "locator": "P0092",
+  "text": "Any pro forma financial information required to be filed as an exhibit to this Current Report on Form 8-K will be filed by amendment within 71 days of the date on which this Current Report on Form 8-K was required to be filed with the SEC."
+ },
+ {
+  "locator": "P0093",
+  "text": "| | (d) |"
+ },
+ {
+  "locator": "P0094",
+  "text": "Exhibits:"
+ },
+ {
+  "locator": "P0095",
+  "text": "| | |"
+ },
+ {
+  "locator": "P0096",
+  "text": "|"
+ },
+ {
+  "locator": "P0097",
+  "text": "Exhibit No."
+ },
+ {
+  "locator": "P0098",
+  "text": "| |"
+ },
+ {
+  "locator": "P0099",
+  "text": "Description"
+ },
+ {
+  "locator": "P0100",
+  "text": "| |"
+ },
+ {
+  "locator": "P0101",
+  "text": "| 10.1 | | First Amendment to Purchase and Sale Agreement, dated July 7, 2019, by and among PetIQ, LLC, L. Perrigo Company, Perrigo Company plc and PetIQ, Inc."
+ },
+ {
+  "locator": "P0102",
+  "text": "| |"
+ },
+ {
+  "locator": "P0103",
+  "text": "| 10.2 | | Third Amendment to Amended and Restated Revolving Credit Agreement, dated July 8, 2019, by and among PetIQ, LLC, East West Bank, as a lender and as the administrative agent, the lenders party thereto and the other credit parties party thereto"
+ },
+ {
+  "locator": "P0104",
+  "text": "| |"
+ },
+ {
+  "locator": "P0105",
+  "text": "| 10.3 | | Amended and Restated Term Loan Credit Agreement, dated July 8, 2019, by and among PetIQ, LLC, the guarantors party thereto, Ares Capital Corporation, as a lender and as the administrative agent, and the other lenders party thereto"
+ },
+ {
+  "locator": "P0106",
+  "text": "| |"
+ },
+ {
+  "locator": "P0107",
+  "text": "| 10.4 | | Transition Services Agreement, dated July 8, 2019, by and between PetIQ, LLC and L. Perrigo Company"
+ },
+ {
+  "locator": "P0108",
+  "text": "| |"
+ },
+ {
+  "locator": "P0109",
+  "text": "| 10.5* | | Employment and Non-Competition Agreement, dated May 28, 2019, between PetIQ, LLC and Michael Smith"
+ },
+ {
+  "locator": "P0110",
+  "text": "| |"
+ },
+ {
+  "locator": "P0111",
+  "text": "| 99.1 | | Press Release, dated July 8, 2019"
+ },
+ {
+  "locator": "P0112",
+  "text": "| * |"
+ },
+ {
+  "locator": "P0113",
+  "text": "Management compensatory agreement"
+ },
+ {
+  "locator": "P0114",
+  "text": "SIGNATURES"
+ },
+ {
+  "locator": "P0115",
+  "text": "Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized."
+ },
+ {
+  "locator": "P0116",
+  "text": "| | | | | | |"
+ },
+ {
+  "locator": "P0117",
+  "text": "| | | | | PETQ, INC."
+ },
+ {
+  "locator": "P0118",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0119",
+  "text": "| Dated: July 9, 2019 | | | | By | |"
+ },
+ {
+  "locator": "P0120",
+  "text": "/s/ John Newland"
+ },
+ {
+  "locator": "P0121",
+  "text": "| | | | | Name: | | John Newland"
+ },
+ {
+  "locator": "P0122",
+  "text": "| | | | | Title: | | Chief Financial Officer"
+ }
+]

@@ -1,0 +1,64 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2020-05-07",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08",
+    "R03-D09",
+    "R03-D10"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "insufficient_evidence",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Evidence of COVID‑19‑related closures shows business instability, warranting more frequent MAE monitoring.",
+      "change_type": "reporting_frequency",
+      "change": "Add requirement to provide quarterly updates on any material adverse effect developments and mitigation steps.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-05-07",
+          "locator": "P0045",
+          "quote": "27 veterinary wellness centers were scheduled to open in first quarter; all openings were postponed due to COVID-19",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2020-05-07",
+          "locator": "P0008",
+          "quote": "In early March as the pandemic accelerated, we experienced a steep decline in traffic and started closing wellness centers and clinics on March 14, 2020. We then made the strategic decision to temporarily close all of our clinics on March 20, 2020",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R03-A05"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [],
+  "updated_summary": "No changes needed to existing covenants; evidence shows timely financial reporting and no leverage concerns, but COVID-19 caused a material adverse effect, justifying a new quarterly MAE reporting requirement.",
+  "updated_reasons": "COVID‑19 caused a material adverse effect (wellness center closures) not addressed by the current package, justifying a new quarterly MAE reporting protection.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

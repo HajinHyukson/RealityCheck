@@ -1,0 +1,124 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-01-29",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:14:46.437048+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02"
+  ],
+  "assessments_supplied": true,
+  "summary": "No changes to existing covenants are warranted; a new inventory covenant is added to address weakened inventory assumption evidenced by increased days in inventory.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Current Minimum Core Assets Test already reflects Amazon break fee terms; no new evidence requires modification."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statement delivery remains timely; no evidence of deterioration."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly deliverables and compliance certification continue as required; no issues identified."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon Break Fee sweep provisions align with confirmed termination fee payment and usage."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice of default clause remains adequate; no evidence of changed default risk."
+    },
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Inventory days rose to 161-163, indicating misalignment with run rates and higher cash consumption, justifying a new inventory limit.",
+      "change_type": "new_protection",
+      "change": "Add a maximum inventory covenant to limit inventory levels (e.g., inventory days or amount).",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A04"
+      ]
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Added a new inventory covenant to address weakened inventory assumption, which alters risk coverage and constitutes a substantive change.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "No changes to existing covenants are warranted; a new inventory covenant is added to address weakened inventory assumption evidenced by increased days in inventory.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "Current Minimum Core Assets Test already reflects Amazon break fee terms; no new evidence requires modification."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "Financial statement delivery remains timely; no evidence of deterioration."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Monthly deliverables and compliance certification continue as required; no issues identified."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Amazon Break Fee sweep provisions align with confirmed termination fee payment and usage."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Notice of default clause remains adequate; no evidence of changed default risk."
+      },
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "change_type": "new_protection",
+        "direction": "add_protection",
+        "change": "Add a maximum inventory covenant to limit inventory levels (e.g., inventory days or amount).",
+        "affected_assumptions": [
+          "R01-A04"
+        ],
+        "rationale": "Inventory days rose to 161-163, indicating misalignment with run rates and higher cash consumption, justifying a new inventory limit.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0023",
+            "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022."
+          }
+        ]
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Added a new inventory covenant to address weakened inventory assumption, which alters risk coverage and constitutes a substantive change."
+  },
+  "elapsed_seconds": 33.0
+}

@@ -1,0 +1,38 @@
+{
+  "borrower_id": "R03",
+  "borrower": "PetIQ, Inc.",
+  "sector": "Pet medication and veterinary wellness services",
+  "lender_role": "Ares Capital Corporation as administrative agent and lender",
+  "facility": "$75,000,000 secured term loan to PetIQ, LLC, financing the VIP Petcare acquisition",
+  "agreement_document": "PETQ-CA-ORIGINAL",
+  "version": "1.0",
+  "executed_at": "2018-01-17",
+  "effective_at": "2018-01-17",
+  "scope_note": "Scoped prototype: a bounded subset of the executed January 17, 2018 term loan credit agreement, copied verbatim by paragraph locator from the SEC-filed exhibit. It covers the Ares term loan only; PetIQ's bank revolving credit facility is a separate arrangement and is outside this packet. The financial covenant's step table was filed as one table cell per paragraph and is reproduced in that order.",
+  "clauses": [
+    {"id": "C01", "title": "Financial Covenant: First Lien Net Leverage Ratio by fiscal quarter", "section": "Section 7.13", "from": "P2186", "to": "P2272"},
+    {"id": "C02", "title": "Annual financial statements and Compliance Certificate", "section": "Section 6.04(a)", "from": "P1955", "to": "P1963"},
+    {"id": "C03", "title": "Quarterly financial statements and Compliance Certificate", "section": "Section 6.04(b)", "from": "P1964", "to": "P1970"},
+    {"id": "C04", "title": "Monthly financial statements and Compliance Certificate", "section": "Section 6.04(c)", "from": "P1971", "to": "P1977"},
+    {"id": "C05", "title": "Notices of default and material adverse effect", "section": "Section 6.05", "from": "P1986", "to": "P1990"},
+    {"id": "C06", "title": "Restrictions on Indebtedness", "section": "Section 7.02", "from": "P2099", "to": "P2115"}
+  ],
+  "definitions": ["P1277", "P1278", "P1279", "P1388", "P1389", "P1390", "P1585"],
+  "resolution": [{"from": "P2275", "to": "P2279"}],
+  "origination_sources": [
+    {"document_id": "PETQ-8K-ORIGINATION", "locators": ["P0060", "P0062", "P0064", "P0065", "P0068", "P0069"]},
+    {"document_id": "PETQ-PR-2018-01-08", "locators": ["P0010", "P0011", "P0022", "P0028", "P0034", "P0042", "P0043", "P0076"]}
+  ],
+  "origination_note": "Only documents SEC-accepted on or before 2018-01-23 are origination evidence. The January 8, 2018 announcement gives the company's own expectations for the combination; it is not lender underwriting.",
+  "missing_inputs": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA carries lender-approved adjustments and is not the company's public Adjusted EBITDA, so the First Lien Net Leverage Ratio cannot be recalculated from public releases.",
+    "Section 7.13 as filed says the ratio shall not be permitted 'to be less than' the scheduled level, while the company's Form 8-K describes a maximum first lien net leverage ratio. The filed wording is kept verbatim and is not corrected.",
+    "The term loan was amended and restated on July 8, 2019 and amended again in 2020. Those instruments replaced or changed the terms extracted here; they are held in the evaluator collection and are not part of this clause subset.",
+    "No Ares underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "missing_inputs_blind": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA carries lender-approved adjustments and is not the company's public Adjusted EBITDA, so the First Lien Net Leverage Ratio cannot be recalculated from public releases.",
+    "Section 7.13 as filed says the ratio shall not be permitted 'to be less than' the scheduled level, while the company's Form 8-K describes a maximum first lien net leverage ratio. The filed wording is kept verbatim and is not corrected.",
+    "No Ares underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ]
+}

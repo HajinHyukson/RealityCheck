@@ -1,0 +1,550 @@
+{
+  "id": "B01-E-14a01a449aed",
+  "title": "August 2027 management accounts",
+  "event_date": "2027-08-31",
+  "available_at": "2027-09-15",
+  "review_date": "2027-09-15",
+  "sources": [
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P1 — results and cash",
+      "text": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027. Year-to-date revenue was $66.9 million, against $66.2 million in the origination base case. Subscription billing remained invoiced annually in advance. Receivables were collected in 43 days on average, compared with 42 days at origination. Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million. Funded term debt was $78.0 million; the next scheduled principal installment is due December 31, 2027."
+    },
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P2 — management leverage calculation",
+      "text": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum. This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor. The next quarterly test date is September 30, 2027."
+    },
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P3 — transactions and limits of this report",
+      "text": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027. The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+    }
+  ],
+  "source_kind": "database_update",
+  "package_version": "1.2",
+  "status": "completed",
+  "analysis": {
+    "id": "B01-E-14a01a449aed",
+    "event": {
+      "id": "B01-E-14a01a449aed",
+      "title": "August 2027 management accounts",
+      "event_date": "2027-08-31",
+      "available_at": "2027-09-15",
+      "review_date": "2027-09-15",
+      "sources": [
+        {
+          "document_id": "B01-MGMT-2027-08",
+          "locator": "P1 — results and cash",
+          "text": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027. Year-to-date revenue was $66.9 million, against $66.2 million in the origination base case. Subscription billing remained invoiced annually in advance. Receivables were collected in 43 days on average, compared with 42 days at origination. Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million. Funded term debt was $78.0 million; the next scheduled principal installment is due December 31, 2027."
+        },
+        {
+          "document_id": "B01-MGMT-2027-08",
+          "locator": "P2 — management leverage calculation",
+          "text": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum. This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor. The next quarterly test date is September 30, 2027."
+        },
+        {
+          "document_id": "B01-MGMT-2027-08",
+          "locator": "P3 — transactions and limits of this report",
+          "text": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027. The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+        }
+      ]
+    },
+    "borrower_id": "B01",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:20:17.912907+00:00",
+    "model_options": {
+      "enable_thinking": true,
+      "max_tokens": 10000,
+      "response_format": "json_object"
+    },
+    "summary": "The August 2027 management accounts show receivable collection slowed to 43 days (vs 42), weakening cash conversion and working capital assumptions, while leverage remains well below the covenant limit and no new debt, liens, dividends, or acquisitions occurred, supporting leverage and restriction covenants. No evidence on connector reliability, incidents, or template efficiency.",
+    "attributions": [
+      {
+        "id": "att-1d842e03-a887-4b89-86a8-e15567fe2a62",
+        "target_type": "assumption",
+        "target_id": "B01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Receivables collected in 43 days vs 42 days at origination indicates slightly slower cash conversion, weakening the assumption that 42-day collection supports positive annual operating cash generation.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-7a6dc0c0-9dad-4178-89ea-a7189cad7d53",
+        "target_type": "assumption",
+        "target_id": "B01-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Receivables collected in 43 days vs 42 days at origination shows less stable collection, weakening the assumption that stable 42-day collection supports consistent working capital absorption.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "working"
+      }
+    ],
+    "coverage": [
+      {
+        "assumption_id": "B01-A01",
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A02",
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A03",
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A04",
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A05",
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A06",
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "status": "unaddressed"
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "compliant",
+        "rationale": "Calculated Total Net Leverage of 3.09x is below the 4.05x maximum, indicating compliance with the leverage covenant.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P2 — management leverage calculation",
+            "quote": "Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C02",
+        "status": "insufficient_evidence",
+        "rationale": "The event provides monthly management accounts, not the required quarterly financial statements and officer-signed covenant certificate needed to assess reporting compliance.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P1 — results and cash",
+            "quote": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027.",
+            "verified": true
+          },
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P2 — management leverage calculation",
+            "quote": "This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C03",
+        "status": "compliant",
+        "rationale": "No new liens or additional debt occurred in August 2027, consistent with the prohibition on extra debt/liens under C03.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C04",
+        "status": "compliant",
+        "rationale": "No dividends were paid in August 2027, keeping distributions within the $1.0m annual limit.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C05",
+        "status": "compliant",
+        "rationale": "No acquisitions occurred in August 2027, staying within the permitted acquisition limit.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C06",
+        "status": "compliant",
+        "rationale": "No asset sales occurred in August 2027, remaining within the permitted limit for asset disposals.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C07",
+        "status": "insufficient_evidence",
+        "rationale": "The event does not provide information on insurance coverage, collateral guarantees, or related covenant obligations.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C08",
+        "status": "insufficient_evidence",
+        "rationale": "The event contains no evidence of customer termination or nonrenewal notices or lender notifications required by C08.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "S1",
+        "status": "insufficient_evidence",
+        "rationale": "The event provides no data on connector compatibility, supported production connectors, or related notices required by S1.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "S2",
+        "status": "insufficient_evidence",
+        "rationale": "The event does not address workflow incidents, incident reporting, or root-cause report obligations under S2.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "S3",
+        "status": "insufficient_evidence",
+        "rationale": "The event offers no information on configuration library custody, transfers, or export rights required by S3.",
+        "evidence": [
+          {
+            "document_id": "B01-MGMT-2027-08",
+            "locator": "P3 — transactions and limits of this report",
+            "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      }
+    ],
+    "warnings": [
+      "Attribution 3 withheld: invalid suggested_action."
+    ],
+    "error": null,
+    "decisions": {},
+    "raw_response": {
+      "summary": "The August 2027 management accounts show receivable collection slowed to 43 days (vs 42), weakening cash conversion and working capital assumptions, while leverage remains well below the covenant limit and no new debt, liens, dividends, or acquisitions occurred, supporting leverage and restriction covenants. No evidence on connector reliability, incidents, or template efficiency.",
+      "attributions": [
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A03",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": "weakened",
+          "rationale": "Receivables collected in 43 days vs 42 days at origination indicates slightly slower cash conversion, weakening the assumption that 42-day collection supports positive annual operating cash generation.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "review_assumption",
+          "proposed_adjustment": null,
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A05",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": "weakened",
+          "rationale": "Receivables collected in 43 days vs 42 days at origination shows less stable collection, weakening the assumption that stable 42-day collection supports consistent working capital absorption.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Receivables were collected in 43 days on average, compared with 42 days at origination."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "review_assumption",
+          "proposed_adjustment": null,
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A04",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "beneficial",
+          "proposed_status": "supported",
+          "rationale": "Leverage of 3.09x is well below the 4.05x maximum and cash of $15.2m with unchanged restricted cash indicates adequate earnings headroom and preserved cash/collateral value.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P2 — management leverage calculation",
+              "quote": "Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum."
+            },
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": null,
+          "proposed_adjustment": null,
+          "path": []
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [
+        {
+          "clause_id": "C01",
+          "status": "compliant",
+          "rationale": "Calculated Total Net Leverage of 3.09x is below the 4.05x maximum, indicating compliance with the leverage covenant.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P2 — management leverage calculation",
+              "quote": "Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum."
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "status": "insufficient_evidence",
+          "rationale": "The event provides monthly management accounts, not the required quarterly financial statements and officer-signed covenant certificate needed to assess reporting compliance.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P1 — results and cash",
+              "quote": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027."
+            },
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P2 — management leverage calculation",
+              "quote": "This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor."
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "status": "compliant",
+          "rationale": "No new liens or additional debt occurred in August 2027, consistent with the prohibition on extra debt/liens under C03.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C04",
+          "status": "compliant",
+          "rationale": "No dividends were paid in August 2027, keeping distributions within the $1.0m annual limit.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C05",
+          "status": "compliant",
+          "rationale": "No acquisitions occurred in August 2027, staying within the permitted acquisition limit.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C06",
+          "status": "compliant",
+          "rationale": "No asset sales occurred in August 2027, remaining within the permitted limit for asset disposals.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C07",
+          "status": "insufficient_evidence",
+          "rationale": "The event does not provide information on insurance coverage, collateral guarantees, or related covenant obligations.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+            }
+          ]
+        },
+        {
+          "clause_id": "C08",
+          "status": "insufficient_evidence",
+          "rationale": "The event contains no evidence of customer termination or nonrenewal notices or lender notifications required by C08.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+            }
+          ]
+        },
+        {
+          "clause_id": "S1",
+          "status": "insufficient_evidence",
+          "rationale": "The event provides no data on connector compatibility, supported production connectors, or related notices required by S1.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+            }
+          ]
+        },
+        {
+          "clause_id": "S2",
+          "status": "insufficient_evidence",
+          "rationale": "The event does not address workflow incidents, incident reporting, or root-cause report obligations under S2.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+            }
+          ]
+        },
+        {
+          "clause_id": "S3",
+          "status": "insufficient_evidence",
+          "rationale": "The event offers no information on configuration library custody, transfers, or export rights required by S3.",
+          "evidence": [
+            {
+              "document_id": "B01-MGMT-2027-08",
+              "locator": "P3 — transactions and limits of this report",
+              "quote": "The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "decision": {
+    "action": "pending"
+  },
+  "received_at": "2026-09-20T01:20:17+00:00",
+  "analyzed_at": "2026-09-20T01:21:56+00:00",
+  "recorded_replay": {
+    "library_file": "2027-09-15-august-management-accounts.json",
+    "recorded_on_copy": true,
+    "note": "Genuine hosted Nemotron analysis recorded on a copy of the FluxRail database, with the library reports introduced in date order."
+  }
+}

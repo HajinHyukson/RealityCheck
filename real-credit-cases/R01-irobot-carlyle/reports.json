@@ -1,0 +1,212 @@
+{
+  "borrower_id": "R01",
+  "borrower": "iRobot Corporation",
+  "description": "Historical public-filing replay, July 2023 to June 2025. Reports are SEC-filed company disclosures revealed in the order and on the dates the SEC accepted them. Lender responses are the actual amendments as the company described them. Later events, including the December 2025 Chapter 11 filing, are outside this packet.",
+  "original_terms": {
+    "facility_m": 200,
+    "sofr_margin_pct": 9.0,
+    "minimum_core_assets_m": 250
+  },
+  "presentation": {
+    "as_of": "2025-06-06"
+  },
+  "reports": [
+    {
+      "title": "Third-quarter 2023 results",
+      "summary": "First quarterly results after the facility closed; the Amazon acquisition is still pending.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2023-11-07"
+        }
+      ]
+    },
+    {
+      "title": "Amazon acquisition terminated; restructuring announced",
+      "event_date": "2024-01-29",
+      "summary": "The pending acquisition ends. The agreement anticipated this outcome and directs part of the termination fee to the term loan.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2024-01-29"
+        }
+      ]
+    },
+    {
+      "title": "Fourth-quarter and full-year 2023 results",
+      "summary": "First full results after the acquisition ended, with the company's 2024 expectations.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2024-02-26"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2024 results",
+      "summary": "Restructuring progress and early-2024 operating results.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2024-05-07"
+        }
+      ]
+    },
+    {
+      "title": "Second-quarter 2024 results",
+      "summary": "Mid-year results and updated full-year outlook.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2024-08-06"
+        }
+      ]
+    },
+    {
+      "title": "Third-quarter 2024 results",
+      "summary": "Mixed evidence: margins improve while results trail the company's earlier expectations.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2024-11-06"
+        }
+      ]
+    },
+    {
+      "title": "Preliminary fourth-quarter 2024 results",
+      "summary": "Pre-announcement two months before the first amendment became public.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2025-01-13"
+        }
+      ]
+    },
+    {
+      "title": "Fourth-quarter and full-year 2024 results",
+      "summary": "Full-year results. The SEC accepted this filing eight minutes before the filing that disclosed Amendment No. 1, so it cannot support an early-warning claim.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2025-03-12"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2025 results and Amendment No. 2",
+      "summary": "Quarterly results disclosed in the same filing as the first waiver extension.",
+      "documents": [
+        {
+          "id": "IRBT-PR-2025-05-06"
+        },
+        {
+          "id": "IRBT-8K-AMENDMENT-2",
+          "locators": [
+            "P0044"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amendment No. 3 and updated risk disclosure",
+      "event_date": "2025-06-05",
+      "summary": "Second waiver extension with a required prepayment and additional warrants.",
+      "documents": [
+        {
+          "id": "IRBT-8K-AMENDMENT-3",
+          "locators": [
+            "P0054",
+            "P0055",
+            "P0066",
+            "P0067",
+            "P0068",
+            "P0069",
+            "P0070"
+          ]
+        }
+      ]
+    }
+  ],
+  "observed_responses": [
+    {
+      "id": "AM01",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "clause_id": "W01",
+      "title": "Amendment No. 1: covenant waiver to May 6, 2025",
+      "executed_at": "2025-03-11",
+      "disclosed_with": "Fourth-quarter and full-year 2024 results",
+      "described_in": "IRBT-8K-AMENDMENT-1",
+      "locators": [
+        "P0051",
+        "P0052"
+      ],
+      "instrument": "IRBT-CA-AMENDMENT-1",
+      "waiver_scope": "Per the company's Form 8-K: the going-concern condition for the fiscal 2024 audit report and the minimum core assets covenant, until May 6, 2025."
+    },
+    {
+      "id": "AM02",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "clause_id": "W02",
+      "title": "Amendment No. 2: waiver extended to June 6, 2025",
+      "executed_at": "2025-04-30",
+      "disclosed_with": "First-quarter 2025 results and Amendment No. 2",
+      "described_in": "IRBT-8K-AMENDMENT-2",
+      "locators": [
+        "P0044"
+      ],
+      "instrument": "IRBT-CA-AMENDMENT-2",
+      "waiver_scope": "Per the company's Form 8-K: the same two covenant obligations, extended to June 6, 2025."
+    },
+    {
+      "id": "AM03",
+      "version": "1.3",
+      "parent_version": "1.2",
+      "clause_id": "W03",
+      "title": "Amendment No. 3: waiver extended to August 14, 2025",
+      "executed_at": "2025-06-05",
+      "disclosed_with": "Amendment No. 3 and updated risk disclosure",
+      "described_in": "IRBT-8K-AMENDMENT-3",
+      "locators": [
+        "P0054",
+        "P0055"
+      ],
+      "instrument": "IRBT-CA-AMENDMENT-3",
+      "waiver_scope": "Per the company's Form 8-K: the same two covenant obligations, extended to August 14, 2025, with a $4 million prepayment and additional warrants."
+    }
+  ],
+  "blind_exclusions": {
+    "documents": [
+      "IRBT-8K-AMENDMENT-2",
+      "IRBT-8K-AMENDMENT-3"
+    ],
+    "passages": [
+      {
+        "document_id": "IRBT-PR-2025-03-12",
+        "locator": "P0091",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      },
+      {
+        "document_id": "IRBT-PR-2025-05-06",
+        "locator": "P0047",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      }
+    ],
+    "kept_despite_screen": [
+      {
+        "document_id": "IRBT-PR-2023-11-07",
+        "locator": "P0033",
+        "reason": "Describes the origination facility and the amendment of the Amazon merger agreement. Neither is a post-origination lender response."
+      }
+    ],
+    "unsuitable_checkpoints": [
+      {
+        "report_id": "R01-D10",
+        "reason": "The only source for this checkpoint is the Form 8-K announcing Amendment No. 3. It is itself the lender response, so there is nothing eligible to replay."
+      }
+    ],
+    "dependence_notes": [
+      {
+        "report_id": "R01-D09",
+        "note": "This report says the company returned $40 million to restricted cash in the first quarter of 2025. That return was required by the hidden Amendment No. 1. The fact is kept unedited; the cash trajectory after March 2025 reflects an amendment the model cannot see."
+      },
+      {
+        "report_id": "R01-D08",
+        "note": "Reported going-concern doubt is a company disclosure and is kept. The sentence saying the term loan had been amended is withheld."
+      }
+    ]
+  }
+}

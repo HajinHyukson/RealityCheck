@@ -1,0 +1,25 @@
+{"stage": "saved", "file": "profile_result.json", "engine": "nemotron", "error": null, "seconds": 85.5}
+{"stage": "saved", "file": "control.json", "engine": "nemotron", "error": null, "seconds": 29.3}
+{"stage": "saved", "file": "R03-D01_attribution.json", "engine": "nemotron", "error": null, "seconds": 113.4}
+{"stage": "saved", "file": "R03-D01_candidate.json", "engine": "nemotron", "error": null, "seconds": 52.9}
+{"stage": "saved", "file": "R03-D02_attribution.json", "engine": "nemotron", "error": null, "seconds": 91.6}
+{"stage": "saved", "file": "R03-D02_candidate.json", "engine": "nemotron", "error": null, "seconds": 26.5}
+{"stage": "saved", "file": "R03-D03_attribution.json", "engine": "nemotron", "error": null, "seconds": 52.4}
+{"stage": "saved", "file": "R03-D03_candidate.json", "engine": "nemotron", "error": null, "seconds": 33.7}
+{"stage": "saved", "file": "R03-D04_attribution.json", "engine": "nemotron", "error": null, "seconds": 70.2}
+{"stage": "saved", "file": "R03-D04_candidate.json", "engine": "nemotron", "error": null, "seconds": 70.0}
+{"stage": "saved", "file": "R03-D05_attribution.json", "engine": "nemotron", "error": null, "seconds": 45.5}
+{"stage": "saved", "file": "R03-D05_candidate.json", "engine": "nemotron", "error": null, "seconds": 55.1}
+{"stage": "saved", "file": "R03-D06_attribution.json", "engine": "nemotron", "error": null, "seconds": 87.0}
+{"stage": "saved", "file": "R03-D06_candidate.json", "engine": "nemotron", "error": null, "seconds": 49.0}
+{"stage": "saved", "file": "R03-D07_attribution.json", "engine": "nemotron", "error": null, "seconds": 187.5}
+{"stage": "saved", "file": "R03-D07_candidate.json", "engine": "nemotron", "error": null, "seconds": 43.9}
+{"stage": "saved", "file": "R03-D08_attribution.json", "engine": "nemotron", "error": null, "seconds": 80.5}
+{"stage": "saved", "file": "R03-D08_candidate.json", "engine": "nemotron", "error": null, "seconds": 59.4}
+{"stage": "saved", "file": "R03-D09_attribution.json", "engine": "nemotron", "error": null, "seconds": 51.7}
+{"stage": "saved", "file": "R03-D09_candidate.json", "engine": "nemotron", "error": null, "seconds": 33.1}
+{"stage": "saved", "file": "R03-D10_attribution.json", "engine": "nemotron", "error": null, "seconds": 62.0}
+{"stage": "saved", "file": "R03-D10_candidate.json", "engine": "nemotron", "error": null, "seconds": 42.3}
+{"stage": "saved", "file": "R03-D11_attribution.json", "engine": "nemotron", "error": null, "seconds": 55.9}
+{"stage": "saved", "file": "R03-D11_candidate.json", "engine": "nemotron", "error": null, "seconds": 35.9}
+{"stage": "workflow_complete", "workflow": "realitycheck", "checkpoints": 11}

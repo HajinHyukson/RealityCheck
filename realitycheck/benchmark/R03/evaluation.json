@@ -1,0 +1,671 @@
+{
+  "case": "R03",
+  "mode": "strict_blind_historical_replay",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "candidate_prompt_version": "0.3",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1",
+    "status": "Synthetic evaluation guidelines written for this demonstration. They are our modeling choice. They are not any real lender's policy, risk tolerance or practice, and must not be attributed to Carlyle, Oaktree, Ares or any other lender."
+  },
+  "locked_at": "2026-09-20T02:39:46+00:00",
+  "development_history": "Unseen history. No model run of any kind touched this company before the prompts, guidelines, blind inputs, exclusion decisions, reference judgments and scoring rules were frozen. A retried failure re-runs the same frozen configuration.",
+  "reference_disclosure": "Author-prepared by the project's AI coding assistant from the blind inputs only, for the user's review. Not an independent or expert credit review. The author had read the actual amendment descriptions while building the evaluator collection, so these judgments are not blind to the lender's history. Unlike the first two histories, no model output for this company existed when they were written.",
+  "rules": {
+    "fixed_before_results": "2026-09-19, before any strict blind output was opened.",
+    "system_signal": {
+      "escalate": "candidate judgment is material_drift AND at least one change survives evidence validation AND that change is absent from the origination-only control",
+      "information_request": "candidate judgment is insufficient_evidence",
+      "no_action": "candidate judgment is no_material_drift, or a drift claim with no validated change (recorded as insufficient_evidence by the validator and counted as information_request)",
+      "assumption_flag": "framework workflow only: an assumption newly marked weakened or contradicted at this checkpoint. Reported beside the candidate signal, never merged into it."
+    },
+    "scoring_against_reference": {
+      "warranted": "detected if the signal is escalate or information_request; missed if no_action. Escalations and information requests are reported separately.",
+      "unwarranted": "unnecessary escalation if the signal is escalate. An information request is reported but not counted as an unnecessary escalation.",
+      "unresolved": "not scored. The signal is reported."
+    },
+    "response_matching": {
+      "window": "a candidate change corresponds to an observed response if it touches one of the response's clause families at any checkpoint whose cutoff is before the response's public date",
+      "direction": "reported separately from correspondence. Touching the same clause in the opposite direction is recorded as 'same clause, opposite direction', not as agreement.",
+      "lead_time": "days from the first corresponding checkpoint cutoff to the response's execution date and, separately, to its public date. Reported only for assessable responses; responses with no corresponding change are listed as not anticipated, never dropped.",
+      "repeat_alerts": "consecutive checkpoints signalling the same clause family count as one episode"
+    },
+    "evaluator_correction": "2026-09-19, after the first comparison: direction was being matched by substring against a free-text description, so a candidate that tightened C01 was reported as agreeing with a lender who loosened C01 but tightened C03. Direction is now compared per clause, and every corresponding clause is listed. This corrects the implementation of the rule fixed beforehand; the rule, the locked model outputs and the reference judgments are unchanged.",
+    "applied_to_unseen_history": "These rules were fixed on the two development histories and are applied unchanged to PetIQ. Nothing in them was adjusted for this company."
+  },
+  "exclusions": [
+    {
+      "report_id": "R03-D03",
+      "document_id": "PETQ-PR-2018-08-14",
+      "locator": "P0098",
+      "action": "kept despite screen",
+      "reason": "Concerns the amendment of the separate bank revolving credit facility, not the Ares term loan under review. It is not a response by this lender.",
+      "preview": "The Company increased liquidity on a pro forma basis to $63 million, an increase of $51 million since March 31, 2018. This was accomplished by generating operat"
+    },
+    {
+      "report_id": "R03-D03",
+      "document_id": "PETQ-PR-2018-08-14",
+      "locator": "P0099",
+      "action": "kept despite screen",
+      "reason": "Concerns the amendment of the separate bank revolving credit facility, not the Ares term loan under review. It is not a response by this lender.",
+      "preview": "As of June 30, 2018, the Company had cash and cash equivalents of $11.7 million, compared to $37.9 million at December 31, 2017. The Company’s long-term debt ba"
+    },
+    {
+      "report_id": "R03-D06",
+      "document_id": "PETQ-PR-2019-05-08",
+      "locator": "P0062",
+      "action": "removed",
+      "reason": "Announces the agreement to acquire Perrigo Animal Health and states that $145 million of new term loan financing was committed by Ares. A financing commitment is a lender decision and is withheld. It cannot be separated from the announcement sentence without editing the text, so the whole passage is withheld. The pending acquisition remains visible in this report through the chief executive's comment, the stand-alone outlook, the combined 2020 outlook and the pro forma leverage footnote.",
+      "preview": "The Company also announced today in a separate press release that it has entered into a definitive agreement to acquire Perrigo Animal Health, a division of Per"
+    },
+    {
+      "report_id": "R03-D07",
+      "document_id": "PETQ-PR-2019-08-07",
+      "locator": "P0096",
+      "action": "removed",
+      "reason": "States that the Perrigo Animal Health acquisition was financed with $145 million of new term loan financing from Ares, which is the hidden amended and restated facility. The financing cannot be separated from the acquisition-closing sentence without editing the text, so the whole passage is withheld. The pending acquisition remains visible from the May 8, 2019 report.",
+      "preview": "On July 8, 2019, the Company completed the acquisition of Perrigo Animal Health for total consideration of $185 million. The transaction was financed through a "
+    }
+  ],
+  "workflows": {
+    "realitycheck": {
+      "stats": {
+        "checkpoints": 11,
+        "failed": 0,
+        "withheld_findings": 9,
+        "seconds": 1400,
+        "warranted": 4,
+        "warranted_detected": 1,
+        "warranted_escalated": 1,
+        "unwarranted": 5,
+        "unnecessary_escalations": 1,
+        "unresolved": 2
+      },
+      "correspondence": [
+        {
+          "response": "R03-AR19",
+          "title": "Amended and restated term loan: $220 million facility for the Perrigo Animal Health acquisition",
+          "executed": "2019-07-08",
+          "public": "2019-07-09",
+          "lender_clause_families": [
+            "C01"
+          ],
+          "lender_direction": "loosen C01: the restated leverage schedule starts at 6.25x where the original stood at 3.50x; the facility was upsized from $75 million to $220 million",
+          "lender_added": [
+            "$220 million restated facility maturing July 2025"
+          ],
+          "assessable": true,
+          "assessability_note": "Six reports precede execution on July 8, 2019, and the May 8, 2019 report announces the acquisition it financed. The restatement replaced the whole agreement; only the leverage schedule was checked against the filed text.",
+          "anticipated": true,
+          "first_checkpoint": "R03-D04",
+          "first_cutoff": "2018-11-13",
+          "candidate_direction": "loosen",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "loosen",
+              "lender": "loosen",
+              "checkpoint": "R03-D04",
+              "same_direction": true
+            }
+          ],
+          "direction_reading": "same clause, same direction",
+          "days_before_execution": 237,
+          "days_before_public": 238
+        },
+        {
+          "response": "R03-AM02",
+          "title": "Second Amendment: convertible notes permitted; margin increased",
+          "executed": "2020-05-14",
+          "public": "2020-05-14",
+          "lender_clause_families": [
+            "C06"
+          ],
+          "lender_direction": "loosen C06: convertible senior notes, capped calls and an intercompany note permitted; margin increased",
+          "lender_added": [
+            "margin increased to the Eurodollar Rate plus 5.00% with a 1.00% floor"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports through May 7, 2020 precede execution on May 14, 2020.",
+          "anticipated": false
+        },
+        {
+          "response": "R03-AM03",
+          "title": "Third Amendment: EBITDA add-back and permitted debt for terminating the CAP IM agreements",
+          "executed": "2020-07-09",
+          "public": "2020-08-07",
+          "lender_clause_families": [
+            "C01",
+            "C06"
+          ],
+          "lender_direction": "loosen C01 through a Consolidated EBITDA add-back of up to $19 million; loosen C06 by permitting up to $19 million of unsecured debt for terminating the CAP IM agreements",
+          "lender_added": [],
+          "assessable": true,
+          "assessability_note": "Reports through May 7, 2020 precede execution on July 9, 2020. None mentions the CAP IM termination, so the specific reason for this amendment was not public beforehand.",
+          "anticipated": true,
+          "first_checkpoint": "R03-D04",
+          "first_cutoff": "2018-11-13",
+          "candidate_direction": "loosen",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "loosen",
+              "lender": "loosen",
+              "checkpoint": "R03-D04",
+              "same_direction": true
+            }
+          ],
+          "direction_reading": "same clause, same direction",
+          "days_before_execution": 604,
+          "days_before_public": 633
+        },
+        {
+          "response": "R03-AM04",
+          "title": "Fourth Amendment: up to $14.5 million of headquarters construction debt permitted",
+          "executed": "2020-07-28",
+          "public": "2020-08-03",
+          "lender_clause_families": [
+            "C06"
+          ],
+          "lender_direction": "loosen C06: up to $14.5 million of headquarters construction debt permitted",
+          "lender_added": [],
+          "assessable": true,
+          "assessability_note": "Reports through May 7, 2020 precede execution on July 28, 2020. None mentions headquarters construction financing.",
+          "anticipated": false
+        }
+      ]
+    },
+    "direct_review": {
+      "stats": {
+        "checkpoints": 11,
+        "failed": 0,
+        "withheld_findings": 1,
+        "seconds": 575,
+        "warranted": 4,
+        "warranted_detected": 1,
+        "warranted_escalated": 1,
+        "unwarranted": 5,
+        "unnecessary_escalations": 2,
+        "unresolved": 2
+      },
+      "correspondence": [
+        {
+          "response": "R03-AR19",
+          "title": "Amended and restated term loan: $220 million facility for the Perrigo Animal Health acquisition",
+          "executed": "2019-07-08",
+          "public": "2019-07-09",
+          "lender_clause_families": [
+            "C01"
+          ],
+          "lender_direction": "loosen C01: the restated leverage schedule starts at 6.25x where the original stood at 3.50x; the facility was upsized from $75 million to $220 million",
+          "lender_added": [
+            "$220 million restated facility maturing July 2025"
+          ],
+          "assessable": true,
+          "assessability_note": "Six reports precede execution on July 8, 2019, and the May 8, 2019 report announces the acquisition it financed. The restatement replaced the whole agreement; only the leverage schedule was checked against the filed text.",
+          "anticipated": true,
+          "first_checkpoint": "R03-D03",
+          "first_cutoff": "2018-08-14",
+          "candidate_direction": "loosen",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "loosen",
+              "lender": "loosen",
+              "checkpoint": "R03-D03",
+              "same_direction": true
+            }
+          ],
+          "direction_reading": "same clause, same direction",
+          "days_before_execution": 328,
+          "days_before_public": 329
+        },
+        {
+          "response": "R03-AM02",
+          "title": "Second Amendment: convertible notes permitted; margin increased",
+          "executed": "2020-05-14",
+          "public": "2020-05-14",
+          "lender_clause_families": [
+            "C06"
+          ],
+          "lender_direction": "loosen C06: convertible senior notes, capped calls and an intercompany note permitted; margin increased",
+          "lender_added": [
+            "margin increased to the Eurodollar Rate plus 5.00% with a 1.00% floor"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports through May 7, 2020 precede execution on May 14, 2020.",
+          "anticipated": false
+        },
+        {
+          "response": "R03-AM03",
+          "title": "Third Amendment: EBITDA add-back and permitted debt for terminating the CAP IM agreements",
+          "executed": "2020-07-09",
+          "public": "2020-08-07",
+          "lender_clause_families": [
+            "C01",
+            "C06"
+          ],
+          "lender_direction": "loosen C01 through a Consolidated EBITDA add-back of up to $19 million; loosen C06 by permitting up to $19 million of unsecured debt for terminating the CAP IM agreements",
+          "lender_added": [],
+          "assessable": true,
+          "assessability_note": "Reports through May 7, 2020 precede execution on July 9, 2020. None mentions the CAP IM termination, so the specific reason for this amendment was not public beforehand.",
+          "anticipated": true,
+          "first_checkpoint": "R03-D03",
+          "first_cutoff": "2018-08-14",
+          "candidate_direction": "loosen",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "loosen",
+              "lender": "loosen",
+              "checkpoint": "R03-D03",
+              "same_direction": true
+            }
+          ],
+          "direction_reading": "same clause, same direction",
+          "days_before_execution": 695,
+          "days_before_public": 724
+        },
+        {
+          "response": "R03-AM04",
+          "title": "Fourth Amendment: up to $14.5 million of headquarters construction debt permitted",
+          "executed": "2020-07-28",
+          "public": "2020-08-03",
+          "lender_clause_families": [
+            "C06"
+          ],
+          "lender_direction": "loosen C06: up to $14.5 million of headquarters construction debt permitted",
+          "lender_added": [],
+          "assessable": true,
+          "assessability_note": "Reports through May 7, 2020 precede execution on July 28, 2020. None mentions headquarters construction financing.",
+          "anticipated": false
+        }
+      ]
+    }
+  },
+  "checkpoints": [
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D01",
+      "cutoff": "2018-03-13",
+      "title": "Fourth-quarter and full-year 2017 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D02",
+      "cutoff": "2018-05-15",
+      "title": "First-quarter 2018 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D03",
+      "cutoff": "2018-08-14",
+      "title": "Second-quarter 2018 results",
+      "reference": "unwarranted",
+      "signal": "information_request",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": "material_drift",
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D04",
+      "cutoff": "2018-11-13",
+      "title": "Third-quarter 2018 results",
+      "reference": "unwarranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "loosen",
+          "change": "Lower the minimum First Lien Net Leverage Ratio floor (make the covenant less restrictive)",
+          "evidence": [
+            {
+              "document_id": "PETQ-PR-2018-08-14",
+              "locator": "P0090",
+              "quote": "Adjusted EBITDA of $40 million to $45 million, an increase of 79% to 102% year-over-year*",
+              "verified": true
+            },
+            {
+              "document_id": "PETQ-PR-2018-11-13",
+              "locator": "P0076",
+              "quote": "Consolidated net sales of approximately $515 million, an increase of approximately 93% year-over-year",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D05",
+      "cutoff": "2019-03-11",
+      "title": "Fourth-quarter and full-year 2018 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D06",
+      "cutoff": "2019-05-08",
+      "title": "First-quarter 2019 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D07",
+      "cutoff": "2019-08-07",
+      "title": "Second-quarter 2019 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D08",
+      "cutoff": "2019-11-07",
+      "title": "Third-quarter 2019 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D09",
+      "cutoff": "2020-03-10",
+      "title": "Fourth-quarter and full-year 2019 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D10",
+      "cutoff": "2020-05-07",
+      "title": "First-quarter 2020 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [
+        "R03-A05 weakened"
+      ],
+      "attributable_changes": [
+        {
+          "clause_id": "NEW-1",
+          "change_type": "reporting_frequency",
+          "direction": "add_protection",
+          "change": "Add requirement to provide quarterly updates on any material adverse effect developments and mitigation steps.",
+          "evidence": [
+            {
+              "document_id": "PETQ-PR-2020-05-07",
+              "locator": "P0045",
+              "quote": "27 veterinary wellness centers were scheduled to open in first quarter; all openings were postponed due to COVID-19",
+              "verified": true
+            },
+            {
+              "document_id": "PETQ-PR-2020-05-07",
+              "locator": "P0008",
+              "quote": "In early March as the pandemic accelerated, we experienced a steep decline in traffic and started closing wellness centers and clinics on March 14, 2020. We then made the strategic decision to temporarily close all of our clinics on March 20, 2020",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R03-D11",
+      "cutoff": "2020-08-06",
+      "title": "Second-quarter 2020 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D01",
+      "cutoff": "2018-03-13",
+      "title": "Fourth-quarter and full-year 2017 results",
+      "reference": "unwarranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C02",
+          "change_type": "permission",
+          "direction": "loosen",
+          "change": "Extend the deadline for delivering annual financial statements and Compliance Certificate beyond the current 90‑day period after fiscal year end.",
+          "evidence": [
+            {
+              "document_id": "PETQ-PR-2018-03-13",
+              "locator": "P0109",
+              "quote": "The preparation process is ongoing and the Company expects to have this work completed within the allotted 75 day period following the close of the transaction.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D02",
+      "cutoff": "2018-05-15",
+      "title": "First-quarter 2018 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D03",
+      "cutoff": "2018-08-14",
+      "title": "Second-quarter 2018 results",
+      "reference": "unwarranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "loosen",
+          "change": "Lower the required minimum First Lien Net Leverage Ratio floor to reflect observed lower leverage.",
+          "evidence": [
+            {
+              "document_id": "PETQ-PR-2018-08-14",
+              "locator": "P0075",
+              "quote": "For the first six months of 2018 adjusted EBITDA was $21.4 million, compared to $13.4 million for the same period in the prior year.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D04",
+      "cutoff": "2018-11-13",
+      "title": "Third-quarter 2018 results",
+      "reference": "unwarranted",
+      "signal": "information_request",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": "material_drift",
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D05",
+      "cutoff": "2019-03-11",
+      "title": "Fourth-quarter and full-year 2018 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D06",
+      "cutoff": "2019-05-08",
+      "title": "First-quarter 2019 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "loosen",
+          "change": "Increase the permitted First Lien Net Leverage Ratio threshold (loosen) reflecting improved EBITDA and stable debt levels.",
+          "evidence": [
+            {
+              "document_id": "PETQ-PR-2019-03-11",
+              "locator": "P0094",
+              "quote": "The Company’s long-term debt balance, which is largely comprised of its revolving credit facility and term loan, was $108.2 million as of December 31, 2018",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D07",
+      "cutoff": "2019-08-07",
+      "title": "Second-quarter 2019 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D08",
+      "cutoff": "2019-11-07",
+      "title": "Third-quarter 2019 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D09",
+      "cutoff": "2020-03-10",
+      "title": "Fourth-quarter and full-year 2019 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D10",
+      "cutoff": "2020-05-07",
+      "title": "First-quarter 2020 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R03-D11",
+      "cutoff": "2020-08-06",
+      "title": "Second-quarter 2020 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    }
+  ],
+  "interpretation_limits": [
+    "A small feasibility study: 11 checkpoints for this company. Checkpoints within a company are correlated, not independent borrowers.",
+    "Reference judgments are author-prepared and were not blind to the actual history. No independent credit reviewer was available.",
+    "This is the unseen history: prompts, guidelines, exclusions, reference judgments and scoring rules were frozen before any model run touched it.",
+    "One run per checkpoint. Repeat-run stability and unchanged-evidence controls are not measured.",
+    "Nemotron may know these companies' outcomes from pretraining. Instructions to ignore recalled knowledge do not remove that.",
+    "An actual amendment is an observed response, not a correct answer. Correspondence and reference agreement are separate measures."
+  ]
+}

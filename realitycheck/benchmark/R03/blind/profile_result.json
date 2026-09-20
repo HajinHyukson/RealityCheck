@@ -1,0 +1,306 @@
+{
+  "borrower_id": "R03",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:13:33.256029+00:00",
+  "profile": {
+    "borrower_id": "R03",
+    "version": "1.0",
+    "as_of": "2018-01-23",
+    "summary": "The lender’s protections rely on assumptions that PetIQ will generate enough EBITDA from the VIP acquisition to keep leverage within limits, maintain liquidity to service debt, avoid extra borrowing, deliver timely reports, avoid material adverse events, close the acquisition successfully, and meet EBITDA thresholds for contingent notes.",
+    "assumptions": [
+      {
+        "id": "R03-A04",
+        "title": "Timely financial reporting and compliance certificates",
+        "claim": "As a NASDAQ-listed company, PetIQ will continue to deliver required financial statements and compliance certificates within the agreed periods.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0010",
+            "quote": "PetIQ, Inc. (“PetIQ” or the “Company”) (NASDAQ: PETQ), a leading pet medication and wellness company",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R03-A05",
+        "title": "No material adverse effect disrupting operations",
+        "claim": "The business will remain stable, with strengthened retail partnerships and industry growth, so no material adverse effect will trigger notice obligations.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0034",
+            "quote": "PetIQ’s acquisition of VIP is expected to further strengthen the Company’s existing partnerships with leading U.S. retailers",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R03-A06",
+        "title": "Successful closing and performance of the VIP acquisition",
+        "claim": "The acquisition of VIP will close as expected and the acquired business will perform in line with pro‑forma EBITDA and net sales projections.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0010",
+            "quote": "is expected to close by the end of January 2018, subject to customary closing conditions.",
+            "verified": true
+          },
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0068",
+            "quote": "PetIQ, Inc. announced that it had completed the acquisition of all of the outstanding membership units of VIP",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R03-A07",
+        "title": "EBITDA thresholds for contingent notes will be met or manageable",
+        "claim": "PetIQ expects to achieve the EBITDA levels ($40 m for 2018, $50 m for 2019) that trigger the contingent promissory notes, or will have the capacity to pay them if they become due.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0069",
+            "quote": "if PetIQ and its consolidated subsidiaries have EBITDA of $40.0 million for the year ending December 31, 2018",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R03-A05",
+        "target": "R03-A06",
+        "type": "influences",
+        "rationale": "Absence of a material adverse effect and strong retail prospects support the expectation that the acquisition will close and perform as planned."
+      }
+    ]
+  },
+  "source_hashes": {
+    "PETQ-8K-ORIGINATION": "61663e7c567b4254ae5960928be348819bd0aa6a44eaf50bb71cacfc38c4ef81",
+    "PETQ-PR-2018-01-08": "35835388b0c92a31264737056d4996f89c47a82be52f6c64f1bea0313b86a289",
+    "PETQ-CA-ORIGINAL": "def1aa2c75ddcd49db3f9713846a519a2b8e8a0e4ab01b113f6261bd5b4d8334"
+  },
+  "raw_response": {
+    "summary": "The lender’s protections rely on assumptions that PetIQ will generate enough EBITDA from the VIP acquisition to keep leverage within limits, maintain liquidity to service debt, avoid extra borrowing, deliver timely reports, avoid material adverse events, close the acquisition successfully, and meet EBITDA thresholds for contingent notes.",
+    "assumptions": [
+      {
+        "id": "R03-A01",
+        "title": "Sufficient EBITDA to maintain leverage ratio",
+        "claim": "The combined business will generate enough EBITDA to keep the First Lien Net Leverage Ratio at or below the covenant maximum (4.0x through 2018, stepping down thereafter).",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0042",
+            "quote": "Pro-forma for the transaction, net leverage is expected to be approximately 1.6x to 1.8x for LTM Adjusted EBITDA for the calendar year ending December 31, 2018."
+          },
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0065",
+            "quote": "The Term Loan Credit Agreement includes a maintenance covenant that requires compliance a maximum first lien net leverage ratio."
+          }
+        ]
+      },
+      {
+        "id": "R03-A02",
+        "title": "Adequate liquidity to service debt",
+        "claim": "PetIQ will have sufficient cash and operating cash flow to meet interest and principal payments on the $75 million term loan and any contingent promissory notes.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0042",
+            "quote": "PetIQ plans to finance the cash portion of this transaction with $25 million of existing cash on hand and $75 million of new debt with secured financing commitments from East West Bank and Ares Capital Management LLC."
+          },
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0076",
+            "quote": "PetIQ expects incremental annual interest expense of $5.3 million associated with the financing of the transaction."
+          }
+        ]
+      },
+      {
+        "id": "R03-A03",
+        "title": "No additional indebtedness beyond permitted baskets",
+        "claim": "PetIQ will not incur indebtedness outside the contractually permitted baskets, relying on its ability to restrict new debt.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C06"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0064",
+            "quote": "restrict our and our subsidiaries’ ability to incur additional indebtedness"
+          }
+        ]
+      },
+      {
+        "id": "R03-A04",
+        "title": "Timely financial reporting and compliance certificates",
+        "claim": "As a NASDAQ-listed company, PetIQ will continue to deliver required financial statements and compliance certificates within the agreed periods.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0010",
+            "quote": "PetIQ, Inc. (“PetIQ” or the “Company”) (NASDAQ: PETQ), a leading pet medication and wellness company"
+          }
+        ]
+      },
+      {
+        "id": "R03-A05",
+        "title": "No material adverse effect disrupting operations",
+        "claim": "The business will remain stable, with strengthened retail partnerships and industry growth, so no material adverse effect will trigger notice obligations.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0034",
+            "quote": "PetIQ’s acquisition of VIP is expected to further strengthen the Company’s existing partnerships with leading U.S. retailers"
+          },
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0028",
+            "quote": "the veterinary services industry, which is expected to expand at a 6% CAGR through 2021"
+          }
+        ]
+      },
+      {
+        "id": "R03-A06",
+        "title": "Successful closing and performance of the VIP acquisition",
+        "claim": "The acquisition of VIP will close as expected and the acquired business will perform in line with pro‑forma EBITDA and net sales projections.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0010",
+            "quote": "is expected to close by the end of January 2018, subject to customary closing conditions."
+          },
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0068",
+            "quote": "PetIQ, Inc. announced that it had completed the acquisition of all of the outstanding membership units of VIP"
+          }
+        ]
+      },
+      {
+        "id": "R03-A07",
+        "title": "EBITDA thresholds for contingent notes will be met or manageable",
+        "claim": "PetIQ expects to achieve the EBITDA levels ($40 m for 2018, $50 m for 2019) that trigger the contingent promissory notes, or will have the capacity to pay them if they become due.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0069",
+            "quote": "if PetIQ and its consolidated subsidiaries have EBITDA of $40.0 million for the year ending December 31, 2018"
+          },
+          {
+            "document_id": "PETQ-PR-2018-01-08",
+            "locator": "P0042",
+            "quote": "Of the $30 million in promissory notes payable to the Seller, $20 million is payable contingent upon the achievement of certain performance-based financial targets over the next two calendar years."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R03-A06",
+        "target": "R03-A01",
+        "type": "influences",
+        "rationale": "If the VIP acquisition closes and performs as expected, the added EBITDA will keep the leverage ratio below the covenant maximum."
+      },
+      {
+        "source": "R03-A07",
+        "target": "R03-A01",
+        "type": "influences",
+        "rationale": "Meeting the EBITDA thresholds for contingent notes ensures any extra debt does not push the leverage ratio above the covenant limit."
+      },
+      {
+        "source": "R03-A02",
+        "target": "R03-A01",
+        "type": "influences",
+        "rationale": "Sufficient liquidity and cash flow enable debt service, preventing missed payments that would increase leverage."
+      },
+      {
+        "source": "R03-A03",
+        "target": "R03-A01",
+        "type": "influences",
+        "rationale": "Restricting additional indebtedness stops leverage from rising beyond the covenant threshold due to new borrowing."
+      },
+      {
+        "source": "R03-A05",
+        "target": "R03-A06",
+        "type": "influences",
+        "rationale": "Absence of a material adverse effect and strong retail prospects support the expectation that the acquisition will close and perform as planned."
+      }
+    ]
+  },
+  "warnings": [
+    "R03-A01: 2 unverifiable citation(s) dropped; 0 verified.",
+    "Assumption 'R03-A01' withheld: invalid ID, clause, claim or source quote.",
+    "R03-A02: 2 unverifiable citation(s) dropped; 0 verified.",
+    "Assumption 'R03-A02' withheld: invalid ID, clause, claim or source quote.",
+    "R03-A03: 1 unverifiable citation(s) dropped; 0 verified.",
+    "Assumption 'R03-A03' withheld: invalid ID, clause, claim or source quote.",
+    "R03-A05: 1 unverifiable citation(s) dropped; 1 verified.",
+    "R03-A07: 1 unverifiable citation(s) dropped; 1 verified.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale."
+  ],
+  "error": null,
+  "elapsed_seconds": 85.5
+}

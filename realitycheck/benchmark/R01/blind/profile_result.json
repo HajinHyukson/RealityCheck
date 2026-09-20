@@ -1,0 +1,333 @@
+{
+    "borrower_id":  "R01",
+    "engine":  "nemotron",
+    "model":  "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at":  "2026-09-20T00:30:47.742150+00:00",
+    "profile":  {
+                    "borrower_id":  "R01",
+                    "version":  "1.0",
+                    "as_of":  "2023-07-25",
+                    "summary":  "iRobot\u0027s lenders rely on assumptions about the company\u0027s cash flow generation, Amazon-related break‑fee proceeds, inventory and receivables management, avoidance of extra debt, and timely financial reporting to support the Term Loan\u0027s covenants and collateral protections.",
+                    "assumptions":  [
+                                        {
+                                            "id":  "R01-A02",
+                                            "title":  "Amazon break‑fee availability",
+                                            "claim":  "If the Amazon acquisition does not close, Amazon will pay the break fee (or a portion thereof) that can be used to repay the Term Loan and support core assets.",
+                                            "basis":  "inferred",
+                                            "source_assumption_id":  null,
+                                            "baseline_status":  "reconstructed_public",
+                                            "covenant_ids":  [
+                                                                 "C04",
+                                                                 "C01"
+                                                             ],
+                                            "evidence":  [
+                                                             {
+                                                                 "document_id":  "IRBT-8K-ORIGINATION",
+                                                                 "locator":  "P0055",
+                                                                 "quote":  "The MOIC Amount is calculated as a multiple of the principal bring repaid, prepaid or accelerated that ranges between 1.30x and 1.75x",
+                                                                 "verified":  true
+                                                             },
+                                                             {
+                                                                 "document_id":  "IRBT-8K-ORIGINATION",
+                                                                 "locator":  "P0056",
+                                                                 "quote":  "up to $35,000,000 of such termination fee (or amount in lieu of such termination fee) will be used immediately to repay the Term Loan",
+                                                                 "verified":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "R01-A03",
+                                            "title":  "No additional debt needed",
+                                            "claim":  "The Company anticipates meeting its liquidity needs without requiring additional debt financing beyond existing facilities.",
+                                            "basis":  "inferred",
+                                            "source_assumption_id":  null,
+                                            "baseline_status":  "reconstructed_public",
+                                            "covenant_ids":  [
+                                                                 "C05",
+                                                                 "C02"
+                                                             ],
+                                            "evidence":  [
+                                                             {
+                                                                 "document_id":  "IRBT-10Q-2023Q1",
+                                                                 "locator":  "P0369",
+                                                                 "quote":  "there can be no assurance that it will be able to obtain additional debt financing",
+                                                                 "verified":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "R01-A04",
+                                            "title":  "Inventory level management",
+                                            "claim":  "The Company will continue to manage inventory so that it aligns with current business run rates, limiting cash consumption.",
+                                            "basis":  "inferred",
+                                            "source_assumption_id":  null,
+                                            "baseline_status":  "reconstructed_public",
+                                            "covenant_ids":  [
+                                                                 "C04",
+                                                                 "C01",
+                                                                 "C03"
+                                                             ],
+                                            "evidence":  [
+                                                             {
+                                                                 "document_id":  "IRBT-10Q-2023Q1",
+                                                                 "locator":  "P0368",
+                                                                 "quote":  "Inventory has consumed a significant amount of cash and the Company continues to manage its inventory level carefully",
+                                                                 "verified":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "R01-A05",
+                                            "title":  "Adequate borrowing base collateral",
+                                            "claim":  "Eligible receivables and inventory will remain sufficient to support the borrowing base of the revolving credit facility.",
+                                            "basis":  "inferred",
+                                            "source_assumption_id":  null,
+                                            "baseline_status":  "reconstructed_public",
+                                            "covenant_ids":  [
+                                                                 "C02",
+                                                                 "C03",
+                                                                 "C05"
+                                                             ],
+                                            "evidence":  [
+                                                             {
+                                                                 "document_id":  "IRBT-10Q-2023Q1",
+                                                                 "locator":  "P0541",
+                                                                 "quote":  "upon the satisfaction of certain conditions, up to 30% of eligible in-transit inventory",
+                                                                 "verified":  true
+                                                             }
+                                                         ]
+                                        },
+                                        {
+                                            "id":  "R01-A06",
+                                            "title":  "Timely financial reporting and compliance certification",
+                                            "claim":  "The Company will be able to deliver required financial statements, compliance certificates and notices on schedule.",
+                                            "basis":  "inferred",
+                                            "source_assumption_id":  null,
+                                            "baseline_status":  "reconstructed_public",
+                                            "covenant_ids":  [
+                                                                 "C02",
+                                                                 "C03",
+                                                                 "C05"
+                                                             ],
+                                            "evidence":  [
+                                                             {
+                                                                 "document_id":  "IRBT-CA-ORIGINAL",
+                                                                 "locator":  "Section 6.01",
+                                                                 "quote":  "Deliver to the Administrative Agent for prompt distribution by the Administrative Agent to each Lender: (a) Annual Financial Statements.",
+                                                                 "verified":  true
+                                                             },
+                                                             {
+                                                                 "document_id":  "IRBT-CA-ORIGINAL",
+                                                                 "locator":  "Section 6.02(a)",
+                                                                 "quote":  "a Compliance Certificate signed by the Chief Financial Officer or other Responsible Officer of the Borrower showing in reasonable detail the calculation of the Consolidated Core Assets",
+                                                                 "verified":  true
+                                                             }
+                                                         ]
+                                        }
+                                    ],
+                    "relationships":  [
+                                          {
+                                              "source":  "R01-A03",
+                                              "target":  "R01-A06",
+                                              "type":  "influences",
+                                              "rationale":  "Avoiding additional indebtedness lowers reporting complexity and default risk, supporting timely compliance with financial reporting obligations."
+                                          }
+                                      ]
+                },
+    "source_hashes":  {
+                          "IRBT-8K-ORIGINATION":  "ab78d9f1bea82558f69b2525f41fbd80f7e3b31f67cdd4e3df2fd2407a730d0c",
+                          "IRBT-10Q-2023Q1":  "8efd404383ebb636f3080df707be1691433d4841b3b12b69c4a563cef3308392",
+                          "IRBT-CA-ORIGINAL":  "5d38c2c88b38e0613f2f65481eee348139efce441bbf2c5d55b111757adfab3e"
+                      },
+    "raw_response":  {
+                         "summary":  "iRobot\u0027s lenders rely on assumptions about the company\u0027s cash flow generation, Amazon-related break‑fee proceeds, inventory and receivables management, avoidance of extra debt, and timely financial reporting to support the Term Loan\u0027s covenants and collateral protections.",
+                         "assumptions":  [
+                                             {
+                                                 "id":  "R01-A01",
+                                                 "title":  "Operating cash flow sufficiency",
+                                                 "claim":  "The Company expects its operating cash flow to be adequate to maintain working capital and core assets above the levels required by the Minimum Core Assets Test.",
+                                                 "basis":  "inferred",
+                                                 "source_assumption_id":  null,
+                                                 "covenant_ids":  [
+                                                                      "Section 7.07",
+                                                                      "Section 6.02(a)",
+                                                                      "Section 6.01"
+                                                                  ],
+                                                 "evidence":  [
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0829",
+                                                                      "quote":  "We believe our existing cash balance, expected future operating cash flows and our credit facility will be sufficient"
+                                                                  },
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0369",
+                                                                      "quote":  "Management has considered and assessed its ability to continue as a going concern for the one year from the date that the unaudited consolidated financial statements are issued"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "id":  "R01-A02",
+                                                 "title":  "Amazon break‑fee availability",
+                                                 "claim":  "If the Amazon acquisition does not close, Amazon will pay the break fee (or a portion thereof) that can be used to repay the Term Loan and support core assets.",
+                                                 "basis":  "inferred",
+                                                 "source_assumption_id":  null,
+                                                 "covenant_ids":  [
+                                                                      "Section 2.05(b)(iv)",
+                                                                      "Section 2.09(a)",
+                                                                      "Section 7.07"
+                                                                  ],
+                                                 "evidence":  [
+                                                                  {
+                                                                      "document_id":  "IRBT-8K-ORIGINATION",
+                                                                      "locator":  "P0055",
+                                                                      "quote":  "The MOIC Amount is calculated as a multiple of the principal bring repaid, prepaid or accelerated that ranges between 1.30x and 1.75x"
+                                                                  },
+                                                                  {
+                                                                      "document_id":  "IRBT-8K-ORIGINATION",
+                                                                      "locator":  "P0056",
+                                                                      "quote":  "up to $35,000,000 of such termination fee (or amount in lieu of such termination fee) will be used immediately to repay the Term Loan"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "id":  "R01-A03",
+                                                 "title":  "No additional debt needed",
+                                                 "claim":  "The Company anticipates meeting its liquidity needs without requiring additional debt financing beyond existing facilities.",
+                                                 "basis":  "inferred",
+                                                 "source_assumption_id":  null,
+                                                 "covenant_ids":  [
+                                                                      "Section 2.05(a)",
+                                                                      "Section 6.03(a)",
+                                                                      "Section 6.01"
+                                                                  ],
+                                                 "evidence":  [
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0829",
+                                                                      "quote":  "We believe our existing cash balance, expected future operating cash flows and our credit facility will be sufficient"
+                                                                  },
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0369",
+                                                                      "quote":  "there can be no assurance that it will be able to obtain additional debt financing"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "id":  "R01-A04",
+                                                 "title":  "Inventory level management",
+                                                 "claim":  "The Company will continue to manage inventory so that it aligns with current business run rates, limiting cash consumption.",
+                                                 "basis":  "inferred",
+                                                 "source_assumption_id":  null,
+                                                 "covenant_ids":  [
+                                                                      "Section 2.05(b)(iv)",
+                                                                      "Section 7.07",
+                                                                      "Section 6.02(a)"
+                                                                  ],
+                                                 "evidence":  [
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0368",
+                                                                      "quote":  "Inventory has consumed a significant amount of cash and the Company continues to manage its inventory level carefully"
+                                                                  },
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0631",
+                                                                      "quote":  "We continue to carefully manage our inventory to a level that aligns with current run rates of the business"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "id":  "R01-A05",
+                                                 "title":  "Adequate borrowing base collateral",
+                                                 "claim":  "Eligible receivables and inventory will remain sufficient to support the borrowing base of the revolving credit facility.",
+                                                 "basis":  "inferred",
+                                                 "source_assumption_id":  null,
+                                                 "covenant_ids":  [
+                                                                      "Section 6.01",
+                                                                      "Section 6.02(a)",
+                                                                      "Section 6.03(a)"
+                                                                  ],
+                                                 "evidence":  [
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0541",
+                                                                      "quote":  "the borrowing base for the revolving facility equal to the total of 80% of eligible receivables, 50% of eligible inventory"
+                                                                  },
+                                                                  {
+                                                                      "document_id":  "IRBT-10Q-2023Q1",
+                                                                      "locator":  "P0541",
+                                                                      "quote":  "upon the satisfaction of certain conditions, up to 30% of eligible in-transit inventory"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "id":  "R01-A06",
+                                                 "title":  "Timely financial reporting and compliance certification",
+                                                 "claim":  "The Company will be able to deliver required financial statements, compliance certificates and notices on schedule.",
+                                                 "basis":  "inferred",
+                                                 "source_assumption_id":  null,
+                                                 "covenant_ids":  [
+                                                                      "Section 6.01",
+                                                                      "Section 6.02(a)",
+                                                                      "Section 6.03(a)"
+                                                                  ],
+                                                 "evidence":  [
+                                                                  {
+                                                                      "document_id":  "IRBT-CA-ORIGINAL",
+                                                                      "locator":  "Section 6.01",
+                                                                      "quote":  "Deliver to the Administrative Agent for prompt distribution by the Administrative Agent to each Lender: (a) Annual Financial Statements."
+                                                                  },
+                                                                  {
+                                                                      "document_id":  "IRBT-CA-ORIGINAL",
+                                                                      "locator":  "Section 6.02(a)",
+                                                                      "quote":  "a Compliance Certificate signed by the Chief Financial Officer or other Responsible Officer of the Borrower showing in reasonable detail the calculation of the Consolidated Core Assets"
+                                                                  }
+                                                              ]
+                                             }
+                                         ],
+                         "relationships":  [
+                                               {
+                                                   "source":  "R01-A02",
+                                                   "target":  "R01-A01",
+                                                   "type":  "influences",
+                                                   "rationale":  "Receipt of the Amazon break fee can be used to repay the Term Loan and increase cash/core assets, reducing risk of breaching the Minimum Core Assets Test."
+                                               },
+                                               {
+                                                   "source":  "R01-A01",
+                                                   "target":  "R01-A05",
+                                                   "type":  "influences",
+                                                   "rationale":  "Sustained operating cash flow supports collections and inventory turnover, maintaining eligible receivables and inventory needed for the borrowing base."
+                                               },
+                                               {
+                                                   "source":  "R01-A04",
+                                                   "target":  "R01-A01",
+                                                   "type":  "influences",
+                                                   "rationale":  "Controlling inventory levels helps preserve cash and core assets, keeping them above the covenant threshold."
+                                               },
+                                               {
+                                                   "source":  "R01-A03",
+                                                   "target":  "R01-A06",
+                                                   "type":  "influences",
+                                                   "rationale":  "Avoiding additional indebtedness lowers reporting complexity and default risk, supporting timely compliance with financial reporting obligations."
+                                               }
+                                           ]
+                     },
+    "warnings":  [
+                     "R01-A01: 2 unverifiable citation(s) dropped; 0 verified.",
+                     "Assumption \u0027R01-A01\u0027 withheld: invalid ID, clause, claim or source quote.",
+                     "R01-A02: links outside the extracted clause subset dropped: [\u0027Section 2.09(a)\u0027].",
+                     "R01-A03: links outside the extracted clause subset dropped: [\u0027Section 2.05(a)\u0027].",
+                     "R01-A03: 1 unverifiable citation(s) dropped; 1 verified.",
+                     "R01-A04: 1 unverifiable citation(s) dropped; 1 verified.",
+                     "R01-A05: 1 unverifiable citation(s) dropped; 1 verified.",
+                     "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+                     "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+                     "Relationship withheld: unknown endpoints, invalid type or missing rationale."
+                 ],
+    "error":  null,
+    "revalidated_at":  "2026-09-20T00:32:27.382039+00:00",
+    "validation_source":  "Recorded genuine NVIDIA response; no new inference call",
+    "blind_provenance":  "Reused from the origination-only run of September 19, 2026. Inputs were origination evidence and blind-safe missing-input notes only; no amendment information was present."
+}

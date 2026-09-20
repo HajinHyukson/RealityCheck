@@ -1,0 +1,117 @@
+{
+  "borrower_id": "R01",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-02-26",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:04:52.019415+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03"
+  ],
+  "assessments_supplied": false,
+  "summary": "Based on evidence through the review date, no substantive changes are warranted to the existing covenant package; all clauses are retained as they already address the Amazon Break Fee termination and related provisions, and no new risks emerge that require tighter or additional protections.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows Amazon termination fee of $94M exceeds the $24M threshold; the existing step‑up/down mechanics already accommodate this outcome, so no adjustment to the Minimum Core Assets Test is needed."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Post‑review announcements of operational restructuring and leadership changes do not alter the required financial statement delivery or going‑concern exception provisions."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No new information affects the monthly delivery of unaudited balance sheets and Compliance Certificates; the existing frequency and content remain appropriate."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "The $94M termination fee aligns with the contracted Break Fee sweep ($35M immediate repayment, remainder for inventory under set conditions); no amendment to the sweep mechanics is warranted."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Default notice provisions continue to function as intended; no evidence of missed notices or need to modify timing or cure periods."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "No dated evidence after the review date indicates a need to tighten, loosen, or add any covenant; the existing package already reflects the Amazon Break Fee termination and related terms.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through the review date, no substantive changes are warranted to the existing covenant package; all clauses are retained as they already address the Amazon Break Fee termination and related provisions, and no new risks emerge that require tighter or additional protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows Amazon termination fee of $94M exceeds the $24M threshold; the existing step‑up/down mechanics already accommodate this outcome, so no adjustment to the Minimum Core Assets Test is needed.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Post‑review announcements of operational restructuring and leadership changes do not alter the required financial statement delivery or going‑concern exception provisions.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No new information affects the monthly delivery of unaudited balance sheets and Compliance Certificates; the existing frequency and content remain appropriate.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The $94M termination fee aligns with the contracted Break Fee sweep ($35M immediate repayment, remainder for inventory under set conditions); no amendment to the sweep mechanics is warranted.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Default notice provisions continue to function as intended; no evidence of missed notices or need to modify timing or cure periods.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "No dated evidence after the review date indicates a need to tighten, loosen, or add any covenant; the existing package already reflects the Amazon Break Fee termination and related terms."
+  },
+  "elapsed_seconds": 29.7
+}

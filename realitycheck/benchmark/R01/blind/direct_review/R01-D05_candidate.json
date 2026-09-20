@@ -1,0 +1,119 @@
+{
+  "borrower_id": "R01",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-08-06",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:05:59.994033+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05"
+  ],
+  "assessments_supplied": false,
+  "summary": "Evidence through the August 6, 2024 press release shows no new developments that would require tightening, loosening, or adding protections; the existing covenants already capture the Amazon Break Fee terms and financial reporting obligations.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "The Minimum Core Assets Test already incorporates Amazon Break Fee step‑up/step‑down mechanics; no evidence suggests a need to alter thresholds or triggers."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statement delivery and going‑concern exceptions remain unchanged; recent results do not impose new reporting duties."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly deliverables and Compliance Certificate requirements are unchanged by the latest disclosures."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "The Amazon Break Fee sweep provisions already reflect the $94 million termination fee and its allocation; no new evidence calls for modification."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Default notice procedures remain adequate; no evidence indicates a need to adjust timing or cure periods."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All observed events (merger termination, break‑fee receipt, inventory/cash changes) are already addressed by the existing covenant package; no new risk coverage, monitoring needs, or behavioral permissions emerge.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence through the August 6, 2024 press release shows no new developments that would require tightening, loosening, or adding protections; the existing covenants already capture the Amazon Break Fee terms and financial reporting obligations.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The Minimum Core Assets Test already incorporates Amazon Break Fee step‑up/step‑down mechanics; no evidence suggests a need to alter thresholds or triggers.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery and going‑concern exceptions remain unchanged; recent results do not impose new reporting duties.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly deliverables and Compliance Certificate requirements are unchanged by the latest disclosures.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The Amazon Break Fee sweep provisions already reflect the $94 million termination fee and its allocation; no new evidence calls for modification.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Default notice procedures remain adequate; no evidence indicates a need to adjust timing or cure periods.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All observed events (merger termination, break‑fee receipt, inventory/cash changes) are already addressed by the existing covenant package; no new risk coverage, monitoring needs, or behavioral permissions emerge."
+  },
+  "elapsed_seconds": 15.3
+}

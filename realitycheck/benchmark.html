@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Historical benchmark · RealityCheck</title>
+<style>
+:root{color-scheme:dark;--bg:#111716;--surface:#17201e;--raised:#1c2724;--line:#2d3a35;--muted:#a0afa7;--ink:#edf3ef;--teal:#96cfb8;--teal-dark:#244e3e;--red:#ef8b83;--red-bg:#392725;--amber:#e5c07b;--mono:"Cascadia Code","SFMono-Regular",Consolas,monospace;--sans:"Geist","Segoe UI Variable","Segoe UI",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5}
+a{color:var(--teal);text-decoration:none}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+h1,h2,h3,p{margin:0}h1{font-size:32px;letter-spacing:-1px;line-height:1.2;font-weight:600}h2{font-size:20px;letter-spacing:-.4px;font-weight:600}h3{font-size:13px;font-weight:600}p{color:var(--muted)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}.eyebrow{text-transform:uppercase;letter-spacing:1.5px;font-size:10px;font-weight:600;color:var(--muted)}.small{font-size:12px}.muted{color:var(--muted)}
+main{max-width:1180px;margin:0 auto;padding:40px 16px 72px}header{margin-bottom:24px}header p{max-width:78ch;margin-top:10px}
+.notice{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:14px 16px;margin-bottom:20px}.notice strong{color:var(--ink)}
+.case{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:22px;margin-bottom:24px}
+.case-head{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-start;margin-bottom:16px}
+.btn{border:1px solid var(--teal-dark);background:#1d332a;color:var(--teal);border-radius:9px;padding:8px 14px;font-weight:600}.btn:hover{border-color:var(--teal)}.btn[aria-pressed=true]{background:var(--red-bg);border-color:#624039;color:var(--red)}
+.pill{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.pill.escalate{color:var(--red);border-color:#624039;background:var(--red-bg)}.pill.info{color:var(--amber);border-color:#5c4d2a;background:#2e2819}.pill.none{color:var(--muted)}.pill.failed{color:var(--red)}
+.pill.warranted{color:var(--teal);border-color:var(--teal-dark)}.pill.actual{color:#c4a7e7;border-color:#4a3d63;background:#262033}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-bottom:18px}
+.stat{border:1px solid var(--line);border-radius:10px;padding:12px;background:var(--raised)}.stat .v{font-size:22px;font-weight:600}.stat .l{font-size:11px;color:var(--muted)}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:860px}th,td{text-align:left;vertical-align:top;padding:10px 12px;border-top:1px solid var(--line);font-size:13px}
+th{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);font-weight:600;border-top:0}
+td.actual,th.actual{background:#1b1825}.hidden-lane td.actual>*{visibility:hidden}.hidden-lane td.actual::before{content:"hidden until revealed";color:#5d5470;font-size:11px;font-style:italic}
+.change{margin-top:6px;padding:6px 8px;border-left:2px solid var(--line);font-size:12px}.change q{color:var(--muted);font-style:italic}
+details{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}summary{cursor:pointer;font-weight:600}ul{margin:8px 0 0;padding-left:18px;color:var(--muted)}li{margin-bottom:4px}
+.error{color:var(--red)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="eyebrow"><a href="/companies">RealityCheck</a> · benchmark</div>
+  <h1>Strict blind historical replay</h1>
+  <p>Real companies, public SEC filings. Nemotron starts from the original credit agreement and receives each later report on the date the SEC accepted it. Every actual amendment, waiver and description of one is withheld, even once public. Outputs were locked before the actual history was opened for comparison.</p>
+</header>
+<div class="notice small"><strong>Read this first.</strong> These are recorded runs, not live inference. Reconstructed assumptions and candidate credit agreements are hypothetical. An actual amendment is what the lender did, not a correct answer. Reference judgments are author-prepared, not an independent credit review. The demo company, FluxRail, is fictional and is not part of this benchmark.</div>
+<div id="cases" aria-live="polite"><p>Loading benchmark records…</p></div>
+</main>
+<script>
+'use strict';
+// Standardize presentation wording without rewriting saved records or API fields.
+const displayText = value => String(value ?? '')
+ .replace(/\b(?:covenant\s+packages?|(?:loan|credit)\s+packages?|packages?)\b/gi, term => {
+  const replacement = /^covenant\s/i.test(term) ? 'covenants' : /s$/i.test(term) ? 'credit agreements' : 'credit agreement';
+  return term === term.toUpperCase() ? replacement.toUpperCase() : /^[A-Z]/.test(term) ? replacement[0].toUpperCase()+replacement.slice(1) : replacement;
+ });
+const esc = v => displayText(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const arr = v => Array.isArray(v) ? v : [];
+const dateLabel = v => v ? new Date(String(v).slice(0,10) + 'T00:00:00').toLocaleDateString('en-US', {year:'numeric', month:'short', day:'numeric'}) : '—';
+const signalLabel = {escalate:'Credit agreement review', information_request:'Information request', no_action:'No action', failed:'Run failed'};
+const signalClass = {escalate:'escalate', information_request:'info', no_action:'none', failed:'failed'};
+function cell(row){
+  if(!row) return '<span class="muted small">not run</span>';
+  const changes = arr(row.attributable_changes).map(c => `<div class="change"><strong>${esc(c.clause_id)}</strong> · ${esc(c.direction)} · ${esc(String(c.change_type).replace(/_/g,' '))}<br>${esc(c.change)}${arr(c.evidence).slice(0,1).map(e=>`<br><q>“${esc(e.quote)}”</q> <span class="muted mono">${esc(e.document_id)} ${esc(e.locator)}</span>`).join('')}</div>`).join('');
+  const flags = arr(row.new_assumption_flags).length ? `<div class="small muted" style="margin-top:6px">Assumption flags: ${esc(row.new_assumption_flags.join(', '))}</div>` : '';
+  const overridden = row.model_judgment_overridden ? `<div class="small muted" style="margin-top:6px">Model claimed ${esc(row.model_judgment_overridden.replace(/_/g,' '))}; no change survived validation.</div>` : '';
+  return `<span class="pill ${signalClass[row.signal]}">${esc(signalLabel[row.signal]||row.signal)}</span>${changes}${flags}${overridden}`;
+}
+function render(record){
+  if(!record.evaluation) return `<section class="case"><div class="case-head"><div><div class="eyebrow mono">${esc(record.case)}</div><h2>${esc(record.name)}</h2></div><span class="pill">${esc(record.status)}</span></div><p>${esc(record.detail)}</p></section>`;
+  const ev = record.evaluation, by = {};
+  ev.checkpoints.forEach(r => { (by[r.checkpoint] = by[r.checkpoint] || {meta:r})[r.workflow] = r; });
+  const responses = arr(ev.workflows.realitycheck.correspondence);
+  // An actual response is shown on the row of the last checkpoint at or before the date it became public.
+  const ids = Object.keys(by);
+  const rows = ids.map((id, i) => { const g = by[id], next = ids[i+1] ? by[ids[i+1]].meta.cutoff : '9999';
+    const actual = responses.filter(r => r.public >= g.meta.cutoff && r.public < next);
+    return `<tr><td><div class="mono small">${esc(dateLabel(g.meta.cutoff))}</div>${esc(g.meta.title)}${g.meta.information_gap?`<div class="small muted" style="margin-top:4px">Information gap: ${esc(g.meta.information_gap)}</div>`:''}</td>
+      <td><span class="pill ${g.meta.reference==='warranted'?'warranted':''}">${esc(g.meta.reference)}</span></td>
+      <td>${cell(g.realitycheck)}</td><td>${cell(g.direct_review)}</td>
+      <td class="actual">${actual.map(r=>`<div><span class="pill actual">Actual · public ${esc(dateLabel(r.public))}</span><div class="small" style="margin-top:4px">${esc(r.title)}</div><div class="small muted">Executed ${esc(dateLabel(r.executed))} · lender direction: ${esc(r.lender_direction)}${arr(r.lender_added).length?' · added: '+esc(r.lender_added.join('; ')):''}</div></div>`).join('') || '<span class="muted small">no lender response disclosed</span>'}</td></tr>`; }).join('');
+  const stat = (w, label) => { const s = ev.workflows[w].stats, c = ev.workflows[w].correspondence;
+    return `<div class="stat"><div class="l">${esc(label)}</div><div class="v mono">${s.warranted_detected}/${s.warranted}</div><div class="l">warranted reviews detected (${s.warranted_escalated} as credit agreement review)</div>
+      <div class="l" style="margin-top:6px">Unnecessary escalations ${s.unnecessary_escalations}/${s.unwarranted} · unresolved checkpoints ${s.unresolved} · failed runs ${s.failed}/${s.checkpoints} · findings withheld by validation ${s.withheld_findings} · model time ${Math.round(s.seconds/60)} min</div>
+      <div class="l" style="margin-top:6px">Actual responses with a corresponding earlier change ${c.filter(x=>x.anticipated).length}/${c.length}</div></div>`; };
+  const corr = w => arr(ev.workflows[w].correspondence).map(r => `<li><strong>${esc(r.title)}</strong> (public ${esc(dateLabel(r.public))}): ${r.anticipated ? `first corresponding change at ${esc(r.first_checkpoint)} on ${esc(dateLabel(r.first_cutoff))}, ${esc(r.days_before_execution)} days before execution and ${esc(r.days_before_public)} before it became public. ${esc(r.direction_reading)} (candidate: ${esc(r.candidate_direction)}; lender: ${esc(r.lender_direction)}).` : 'no corresponding change before it became public.'} ${r.assessable?'':'<em>Not assessable:</em> '}${esc(r.assessability_note)}</li>`).join('');
+  return `<section class="case hidden-lane" data-case="${esc(ev.case)}">
+    <div class="case-head"><div><div class="eyebrow mono">${esc(ev.case)} · ${esc(ev.model)} · candidate prompt v${esc(ev.candidate_prompt_version)} · locked ${esc(dateLabel(ev.locked_at))}</div><h2>${esc(record.name)}</h2></div>
+    <button class="btn" aria-pressed="false" data-reveal>Reveal actual lender history</button></div>
+    <div class="stats">${stat('realitycheck','RealityCheck: assumption framework, then candidate credit agreement')}${stat('direct_review','Comparator: same model and evidence, no framework')}</div>
+    <div class="scroll"><table><thead><tr><th>Checkpoint</th><th>Reference judgment</th><th>RealityCheck</th><th>Direct review</th><th class="actual">Actual lender history</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <details data-after-reveal hidden><summary>Correspondence with the actual responses</summary><h3 style="margin-top:10px">RealityCheck</h3><ul>${corr('realitycheck')}</ul><h3 style="margin-top:10px">Direct review</h3><ul>${corr('direct_review')}</ul></details>
+    <details><summary>Passages withheld from the model (${arr(ev.exclusions).length})</summary><ul>${arr(ev.exclusions).map(x=>`<li><span class="mono">${esc(x.report_id)} ${esc(x.document_id||'')} ${esc(x.locator||'')}</span> · ${esc(x.action)} · ${esc(x.reason)}</li>`).join('')}</ul></details>
+    <details><summary>Limits on what this shows</summary><ul>${arr(ev.interpretation_limits).map(x=>`<li>${esc(x)}</li>`).join('')}<li>${esc(ev.development_history)}</li><li>${esc(ev.reference_disclosure)}</li><li>Evaluation guidelines ${esc(ev.guidelines.id)} v${esc(ev.guidelines.version)}: ${esc(ev.guidelines.status)}</li></ul></details>
+  </section>`;
+}
+async function load(){
+  const box = document.getElementById('cases');
+  try{
+    const response = await fetch('/api/benchmark'); if(!response.ok) throw new Error('The server returned ' + response.status);
+    const {cases} = await response.json();
+    box.innerHTML = cases.map(render).join('') || '<p>No benchmark cases are prepared.</p>';
+  }catch(error){ box.innerHTML = `<p class="error">Unable to load the benchmark. ${esc(error.message)}</p>`; }
+}
+document.addEventListener('click', event => { const b = event.target.closest('[data-reveal]'); if(!b) return;
+  const section = b.closest('.case'), hidden = section.classList.toggle('hidden-lane');
+  b.setAttribute('aria-pressed', String(!hidden)); b.textContent = hidden ? 'Reveal actual lender history' : 'Hide actual lender history';
+  section.querySelector('[data-after-reveal]').hidden = hidden; });
+load();
+</script>
+</body>
+</html>

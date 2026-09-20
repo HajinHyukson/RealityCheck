@@ -1,0 +1,358 @@
+{
+  "borrower_id": "R02",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:30:48.075942+00:00",
+  "profile": {
+    "borrower_id": "R02",
+    "version": "1.0",
+    "as_of": "2021-09-07",
+    "summary": "The lender’s protections assume RumbleOn will generate enough EBITDA to stay under leverage limits, maintain at least $25 M liquidity, meet quarterly amortization, retain access to the delayed‑draw facility, deliver timely financial statements and compliance certificates, preserve sufficient collateral, and realize the expected synergies from the RideNow transaction.",
+    "assumptions": [
+      {
+        "id": "R02-A01",
+        "title": "Sufficient EBITDA to keep leverage ≤4.25",
+        "claim": "The company will generate Consolidated EBITDA high enough to keep its Consolidated Total Net Leverage Ratio at or below 4.25 to 1.00.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0049",
+            "quote": "its Consolidated Total Net Leverage Ratio to be greater than 4.25 to 1.00",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A02",
+        "title": "Minimum liquidity of $25 M",
+        "claim": "The company will maintain unrestricted cash and cash equivalents of at least $25,000,000 at all times.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0049",
+            "quote": "its Liquidity to be less than $25,000,000",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A03",
+        "title": "Ability to make quarterly amortization payments",
+        "claim": "The company will have sufficient cash to make the required 0.25% quarterly amortization payments on the Initial Term Loan Facility.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C04",
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0046",
+            "quote": "the Company is required to make amortization payments in an aggregate principal amount equal to 0.25% of the aggregate principal amount of the Initial Term Loan Facility",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A05",
+        "title": "Timely financial reporting and compliance certification",
+        "claim": "The company will deliver its financial statements and compliance certificates to the administrative agent within the required periods.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C04",
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "as soon as available, but in any event within one hundred twenty (120) days after the end of each fiscal year of the Borrower",
+            "verified": true
+          },
+          {
+            "document_id": "RMBL-CA-ORIGINAL",
+            "locator": "Section 6.02(a)",
+            "quote": "a duly completed Compliance Certificate signed by a Responsible Officer of the Borrower",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A06",
+        "title": "Adequate collateral to support first‑priority lien",
+        "claim": "The company’s assets will remain sufficient to support the first‑priority lien on substantially all of its assets and those of its subsidiary guarantors.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C04",
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0050",
+            "quote": "Obligations under the Credit Agreement are secured by a first-priority lien on substantially all of the assets of the Company and its domestic wholly owned subsidiaries",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "R02-A07",
+        "title": "RideNow transaction completion and synergies",
+        "claim": "The RideNow transaction will be completed and the expected synergies will contribute to EBITDA, supporting covenant compliance.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0040",
+            "quote": "completed its business combination with RideNow Powersports, the nation’s largest powersports retailer group",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R02-A07",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Expected synergies from the RideNow transaction increase Consolidated EBITDA, helping the company stay below the leverage ceiling."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Strong EBITDA improves cash flow, enabling the company to keep unrestricted cash above the liquidity threshold."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A03",
+        "type": "influences",
+        "rationale": "EBITDA‑derived cash flow funds the 0.25% quarterly amortization of the Initial Term Loan."
+      },
+      {
+        "source": "R02-A06",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Maintaining a first‑priority lien on assets preserves access to credit, which underpins operations and EBITDA."
+      },
+      {
+        "source": "R02-A05",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Regular financial statements and compliance certificates provide the lender with visibility into EBITDA, allowing early detection of leverage breaches."
+      }
+    ]
+  },
+  "source_hashes": {
+    "RMBL-8K-ORIGINATION": "46e8b6fc1187961847947770746c606d49166e1ebe12b7e5974bc3ba38bb305c",
+    "RMBL-10Q-2021Q2": "9d80d170bf918395eb38c1eaa5e7ad4e5ec975053f29047dae4e7ce2d38339e0",
+    "RMBL-CA-ORIGINAL": "5710c88774524cffa3843bf71ca751119ba1b781eda5cb7f60c1d8b1ac268254"
+  },
+  "raw_response": {
+    "summary": "The lender’s protections assume RumbleOn will generate enough EBITDA to stay under leverage limits, maintain at least $25 M liquidity, meet quarterly amortization, retain access to the delayed‑draw facility, deliver timely financial statements and compliance certificates, preserve sufficient collateral, and realize the expected synergies from the RideNow transaction.",
+    "assumptions": [
+      {
+        "id": "R02-A01",
+        "title": "Sufficient EBITDA to keep leverage ≤4.25",
+        "claim": "The company will generate Consolidated EBITDA high enough to keep its Consolidated Total Net Leverage Ratio at or below 4.25 to 1.00.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "Section 7.10(a)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0049",
+            "quote": "its Consolidated Total Net Leverage Ratio to be greater than 4.25 to 1.00"
+          }
+        ]
+      },
+      {
+        "id": "R02-A02",
+        "title": "Minimum liquidity of $25 M",
+        "claim": "The company will maintain unrestricted cash and cash equivalents of at least $25,000,000 at all times.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "Section 7.10(c)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0049",
+            "quote": "its Liquidity to be less than $25,000,000"
+          }
+        ]
+      },
+      {
+        "id": "R02-A03",
+        "title": "Ability to make quarterly amortization payments",
+        "claim": "The company will have sufficient cash to make the required 0.25% quarterly amortization payments on the Initial Term Loan Facility.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "Section 6.01",
+          "Section 6.02(a)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0046",
+            "quote": "the Company is required to make amortization payments in an aggregate principal amount equal to 0.25% of the aggregate principal amount of the Initial Term Loan Facility"
+          }
+        ]
+      },
+      {
+        "id": "R02-A04",
+        "title": "Availability of delayed‑draw facility",
+        "claim": "The Delayed Draw Term Loans Facility will remain available for permitted acquisitions provided the company meets the requisite financial tests.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "Section 7.10(a)",
+          "Section 7.10(b)",
+          "Section 7.10(c)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0044",
+            "quote": "Loans under the Delayed Draw Term Loans Facility are subject to customary conditions precedent including the need to meet certain financial tests"
+          }
+        ]
+      },
+      {
+        "id": "R02-A05",
+        "title": "Timely financial reporting and compliance certification",
+        "claim": "The company will deliver its financial statements and compliance certificates to the administrative agent within the required periods.",
+        "basis": "inferred",
+        "source_assignment_id": null,
+        "covenant_ids": [
+          "Section 6.01",
+          "Section 6.02(a)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "as soon as available, but in any event within one hundred twenty (120) days after the end of each fiscal year of the Borrower"
+          },
+          {
+            "document_id": "RMBL-CA-ORIGINAL",
+            "locator": "Section 6.02(a)",
+            "quote": "a duly completed Compliance Certificate signed by a Responsible Officer of the Borrower"
+          }
+        ]
+      },
+      {
+        "id": "R02-A06",
+        "title": "Adequate collateral to support first‑priority lien",
+        "claim": "The company’s assets will remain sufficient to support the first‑priority lien on substantially all of its assets and those of its subsidiary guarantors.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "Section 6.01",
+          "Section 6.02(a)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0050",
+            "quote": "Obligations under the Credit Agreement are secured by a first-priority lien on substantially all of the assets of the Company and its domestic wholly owned subsidiaries"
+          }
+        ]
+      },
+      {
+        "id": "R02-A07",
+        "title": "RideNow transaction completion and synergies",
+        "claim": "The RideNow transaction will be completed and the expected synergies will contribute to EBITDA, supporting covenant compliance.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "Section 7.10(a)",
+          "Section 7.10(b)",
+          "Section 7.10(c)"
+        ],
+        "evidence": [
+          {
+            "document_id": "RMBL-8K-ORIGINATION",
+            "locator": "P0040",
+            "quote": "completed its business combination with RideNow Powersports, the nation’s largest powersports retailer group"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R02-A07",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Expected synergies from the RideNow transaction increase Consolidated EBITDA, helping the company stay below the leverage ceiling."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A02",
+        "type": "influences",
+        "rationale": "Strong EBITDA improves cash flow, enabling the company to keep unrestricted cash above the liquidity threshold."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A03",
+        "type": "influences",
+        "rationale": "EBITDA‑derived cash flow funds the 0.25% quarterly amortization of the Initial Term Loan."
+      },
+      {
+        "source": "R02-A01",
+        "target": "R02-A04",
+        "type": "influences",
+        "rationale": "The delayed‑draw facility’s availability hinges on satisfying the financial tests tied to leverage and liquidity."
+      },
+      {
+        "source": "R02-A06",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Maintaining a first‑priority lien on assets preserves access to credit, which underpins operations and EBITDA."
+      },
+      {
+        "source": "R02-A05",
+        "target": "R02-A01",
+        "type": "influences",
+        "rationale": "Regular financial statements and compliance certificates provide the lender with visibility into EBITDA, allowing early detection of leverage breaches."
+      }
+    ]
+  },
+  "warnings": [
+    "R02-A04: 1 unverifiable citation(s) dropped; 0 verified.",
+    "Assumption 'R02-A04' withheld: invalid ID, clause, claim or source quote.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale."
+  ],
+  "error": null,
+  "revalidated_at": "2026-09-20T00:32:27.612945+00:00",
+  "validation_source": "Recorded genuine NVIDIA response; no new inference call"
+}

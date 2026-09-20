@@ -1,0 +1,17 @@
+{"stage": "saved", "file": "profile_result.json", "engine": "nemotron", "error": null, "seconds": 51.4}
+{"stage": "saved", "file": "control.json", "engine": "nemotron", "error": null, "seconds": 14.6}
+{"stage": "saved", "file": "R02-D01_attribution.json", "engine": "nemotron", "error": null, "seconds": 149.1}
+{"stage": "saved", "file": "R02-D01_candidate.json", "engine": "nemotron", "error": null, "seconds": 38.7}
+{"stage": "saved", "file": "R02-D02_attribution.json", "engine": "nemotron", "error": null, "seconds": 54.2}
+{"stage": "saved", "file": "R02-D02_candidate.json", "engine": "nemotron", "error": null, "seconds": 58.3}
+{"stage": "saved", "file": "R02-D03_attribution.json", "engine": "nemotron", "error": null, "seconds": 61.3}
+{"stage": "saved", "file": "R02-D03_candidate.json", "engine": "nemotron", "error": null, "seconds": 47.6}
+{"stage": "saved", "file": "R02-D04_attribution.json", "engine": "nemotron", "error": null, "seconds": 50.6}
+{"stage": "saved", "file": "R02-D04_candidate.json", "engine": "nemotron", "error": null, "seconds": 92.5}
+{"stage": "saved", "file": "R02-D05_attribution.json", "engine": "nemotron", "error": null, "seconds": 65.1}
+{"stage": "saved", "file": "R02-D05_candidate.json", "engine": "nemotron", "error": null, "seconds": 104.5}
+{"stage": "saved", "file": "R02-D06_attribution.json", "engine": "nemotron", "error": null, "seconds": 87.4}
+{"stage": "saved", "file": "R02-D06_candidate.json", "engine": "nemotron", "error": null, "seconds": 37.7}
+{"stage": "saved", "file": "R02-D07_attribution.json", "engine": "unavailable", "error": "JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)", "seconds": 70.1}
+{"stage": "saved", "file": "R02-D07_candidate.json", "engine": "nemotron", "error": null, "seconds": 73.0}
+{"stage": "workflow_complete", "workflow": "realitycheck", "checkpoints": 7}

@@ -1,0 +1,386 @@
+{
+  "id": "R03-D11",
+  "event": {
+    "id": "R03-D11",
+    "title": "Second-quarter 2020 results",
+    "event_date": "2020-08-06",
+    "available_at": "2020-08-06",
+    "review_date": "2020-08-06",
+    "sources": [
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0003",
+        "text": "Consolidated Net Sales Increased 21.0% Year-Over-Year to $267.0 Million, Despite Services Segment Closures Related to COVID-19"
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0008",
+        "text": "EAGLE, Idaho – August 6, 2020 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three and six months ended June 30, 2020."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0009",
+        "text": "“We are very proud of our record quarterly sales which are a testament to the strength of our team and the diversification of our business model. Growth in our Products segment fueled our quarterly results as the community clinics and wellness centers in our Services segment were temporarily closed during the quarter due to COVID-19,” commented Cord Christensen, PetIQ’s Chairman and Chief Executive Officer. “All of our manufacturing and distribution facilities remained fully operational throughout the quarter and enabled us to deliver better than 99% fill rates across our customer base. Our team demonstrated incredible perseverance and agility to identify solutions in a challenging operating environment. In the Services segment we implemented new safety, sanitation and support protocols and are now aggressively executing against our re-opening plan, which we expect to position us with 95% of our community clinics and wellness centers back in operation by the end of the third quarter of 2020. We are pleased that in the locations we have re-opened to-date pet counts and average ticket per pet are quickly returning to pre-COVID levels. Looking ahead, we believe we remain well positioned for continued growth across both of our business segments as the humanization of pets continues to grow, representing a strong tailwind for our business of providing affordable and convenient access to veterinarian services, prescriptions, and OTC medications.”"
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0028",
+        "text": "Net sales increased 21.0% to $267.0 million for the second quarter of 2020, compared to $220.6 million for the same period in the prior year. Product segment sales were $264.3 million and Services segment revenues were $2.7 million in the second quarter of 2020. The increase in consolidated net sales primarily reflects growth in existing retail partners and sales contribution from the Perrigo Animal Health acquisition, with an emphasis on the Company’s prescription drug program at e-commerce partners due to evolving consumer shopping habits as a result of stay-at-home orders associated with COVID-19. Management estimates that the Services segment would have contributed approximately a total of $29 million in net revenues if Services locations had remained open and performed at budget in the second quarter."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0030",
+        "text": "Second quarter 2020 gross profit was $42.2 million, an increase of 20.9% compared to $34.9 million in the prior year period. Gross margin was consistent with prior year period 15.8%. Adjusted gross profit was $47.3 million and adjusted gross margin was 17.7% for the second quarter 2020, which reflects the addition of costs associated with the temporary Services segment closures and non-same store loss contribution. Management estimates that the Services segment would have contributed an additional 210 basis points to gross margin if Services locations had remained open and performed at budget in the second quarter."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0031",
+        "text": "Net loss was $2.0 million for the second quarter of 2020 compared to net income of $5.9 million in the prior year period. The second quarter of 2020 net loss was primarily due to $8.9 million of integration expenses; $4.4 million from COVID-19 impacts related to the temporary closure of more than 3,600 community clinics and 99 wellness centers in the Services segment, including direct labor costs as the Company continued to pay employees and $2/hour incentive to frontline manufacturing and distribution workforce in the Products segment; $3.7 million of incremental interest expense; and $2.7 million of additional net non-same store loss contribution."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0032",
+        "text": "Adjusted net income was $17.1 million, an increase of 8.2% compared to $15.8 million of adjusted net income in the prior year period."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0033",
+        "text": "Second quarter adjusted EBITDA increased 35.9% to $28.3 million compared to $20.8 million in the prior year period. Adjusted EBITDA margin increased 110 basis points to 10.6% compared to 9.5% in the prior year period."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0034",
+        "text": "Adjusted gross profit, adjusted net income and adjusted EBITDA are non-GAAP financial measures. The Company believes these non-GAAP financial measures provide investors with additional insight into the way management views reportable segment operations in light of changes in the Company’s operations, including the increase of manufacturing operations as a result of the Perrigo Animal Health Acquisition in the Products segment and the growth of the Company’s wellness centers, host partners, and regions within the Services segment. See “Non-GAAP Measures” for a definition of these measures and the financial tables that accompany this release for a reconciliation to the most comparable GAAP measure."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0039",
+        "text": "For the second quarter of 2020, Product segment net sales increased 35.8% to $264.3 million. Product adjusted EBITDA increased 98% to $41.9 million. This compares to Product segment sales and adjusted EBITDA of $194.6 million and $21.1 million, respectively, for the second quarter of 2019."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0041",
+        "text": "All manufacturing and distribution facilities are fully operational and have maintained production and fill rates in excess of 99% since the onset of COVID-19. The Company paid an additional $2 per hour to its manufacturing and distribution work force in the quarter and implemented safety, sanitation and support protocols in all facilities to minimize exposure and protect team members from COVID-19."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0044",
+        "text": "For the second quarter of 2020, Services segment net revenues were $2.7 million compared to $26.0 million in the same period last year. Services adjusted EBITDA of $1.1 million compared to $6.8 million in the second quarter of 2019. Management estimates that the Services segment would have contributed an additional $26 million of net revenue and approximately $5.0 million of adjusted EBITDA if the Services locations had remained open and performed at budget in the second quarter. Based on these management estimates, the Services segment net revenues and adjusted EBITDA for the second quarter of 2020 would have been approximately $29.0 million and $6.0 million, respectively."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0048",
+        "text": "As of June 30, 2020, the Company had cash and cash equivalents of $117.0 million. The Company’s long-term debt balance, which is largely comprised of its revolving credit facility, term loan and convertible debt issued in the quarter, was $357.8 million as of June 30, 2020. After giving effect for the July 31, 2020 closing of the Company’s $95 million acquisition of Capstar®, the Company had total liquidity of approximately $102 million, and an additional$15 million available via an accordion feature of the credit agreement for a total of $117 million."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0050",
+        "text": "Working capital increased $145.5 million for the year-to-date period ended June 30, 2020 versus year end, primarily due $123 million in net proceeds from the convertible note offering, as well as positive operating cash flows, offset by growth in working capital assets and paydowns on the Company’s ABL."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0054",
+        "text": "As previously announced, the Company’s annual guidance provided on March 10, 2020 remains suspended due to the uncertainty surrounding the impact and duration from the COVID-19 pandemic on its Services segment."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0056",
+        "text": "Based on these factors, the Company is providing third quarter 2020 guidance of:"
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0061",
+        "text": "The Company continues to expect full year 2021 incremental EBITDA contribution from Capstar® of greater than $20 million. Long-term, the Company remains confident in achieving its strategic and financial objectives."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0063",
+        "text": "*The Company does not provide guidance for the most directly comparable GAAP measure, net income, and similarly cannot provide a reconciliation between its forecasted adjusted EBITDA and net income metrics without unreasonable effort due to the unavailability of reliable estimates for certain items. These items are not within the Company’s control and may vary greatly between periods and could significantly impact future financial results."
+      },
+      {
+        "document_id": "PETQ-PR-2020-08-06",
+        "locator": "P0067",
+        "text": "In addition, the call will be broadcast live over the Internet hosted at the “Investors” section of the Company's website at www.PetIQ.com. A telephonic playback will be available through August 27, 2020. North American listeners may dial 844-512-2921 and international listeners may dial 412-317-6671 the passcode is 10010263."
+      }
+    ]
+  },
+  "borrower_id": "R03",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:37:16.123560+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "Q2 2020 results show timely reporting, a COVID‑19‑related material adverse effect from clinic closures, and insufficient data to confirm leverage ratio or contingent‑note EBITDA thresholds.",
+  "attributions": [
+    {
+      "id": "att-370bd41f-4635-4133-a58f-20554b4439cf",
+      "target_type": "assumption",
+      "target_id": "R03-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Press release dated Aug 6 2020 shows Q2 2020 results released within the 45‑day window after quarter end, indicating timely financial reporting.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-08-06",
+          "locator": "P0008",
+          "quote": "EAGLE, Idaho – August 6, 2020 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three and six months ended June 30, 2020.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Timely financial reporting and compliance certificates",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-69126d7b-1503-414d-8194-5ac51e7594b8",
+      "target_type": "assumption",
+      "target_id": "R03-A05",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "Release discloses temporary closure of >3,600 community clinics and 99 wellness centers due to COVID‑19, constituting a material adverse effect that contradicts the assumption of no such effect.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-08-06",
+          "locator": "P0031",
+          "quote": "The second quarter of 2020 net loss was primarily due to $8.9 million of integration expenses; $4.4 million from COVID-19 impacts related to the temporary closure of more than 3,600 community clinics and 99 wellness centers in the Services segment, including direct labor costs as the Company continued to pay employees and $2/hour incentive to frontline manufacturing and distribution workforce in the Products segment; $3.7 million of incremental interest expense; and $2.7 million of additional net non-same store loss contribution.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "No material adverse effect disrupting operations",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-ac0d7f5d-56a7-46de-82e4-cc61e867ff80",
+      "target_type": "assumption",
+      "target_id": "R03-A07",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "unclear",
+      "proposed_status": "insufficient_evidence",
+      "rationale": "Release provides Q2 adjusted EBITDA of $28.3 m but does not disclose lender‑defined Consolidated EBITDA or twelve‑month figure needed to assess the $50 m contingent‑note threshold.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-08-06",
+          "locator": "P0033",
+          "quote": "Second quarter adjusted EBITDA increased 35.9% to $28.3 million compared to $20.8 million in the prior year period.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [
+        "lender‑approved Consolidated EBITDA for the twelve‑month period"
+      ],
+      "suggested_action": "request_information",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "EBITDA thresholds for contingent notes will be met or manageable",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R03-A04",
+      "target_title": "Timely financial reporting and compliance certificates",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R03-A05",
+      "target_title": "No material adverse effect disrupting operations",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R03-A06",
+      "target_title": "Successful closing and performance of the VIP acquisition",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R03-A07",
+      "target_title": "EBITDA thresholds for contingent notes will be met or manageable",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "insufficient_evidence",
+      "rationale": "Event shows cash $117.0 m and long‑term debt $357.8 m as of June 30 2020 but does not provide first‑lien indebtedness or Consolidated EBITDA for the twelve‑month period, so the First Lien Net Leverage Ratio cannot be calculated.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-08-06",
+          "locator": "P0048",
+          "quote": "As of June 30, 2020, the Company had cash and cash equivalents of $117.0 million. The Company’s long-term debt balance, which is largely comprised of its revolving credit facility, term loan and convertible debt issued in the quarter, was $357.8 million as of June 30, 2020.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C03",
+      "status": "insufficient_evidence",
+      "rationale": "Press release shows Q2 2020 results released within 45 days after June 30, but no evidence that the required Compliance Certificate was delivered with the statements.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-08-06",
+          "locator": "P0008",
+          "quote": "EAGLE, Idaho – August 6, 2020 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three and six months ended June 30, 2020.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C05",
+      "status": "triggered",
+      "rationale": "Disclosure of COVID‑19‑related clinic closures constitutes a material adverse effect, triggering the notice obligation under Section 6.05(b); no evidence yet of notice to the Administrative Agent, so the deadline has not been missed.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2020-08-06",
+          "locator": "P0031",
+          "quote": "The second quarter of 2020 net loss was primarily due to $8.9 million of integration expenses; $4.4 million from COVID-19 impacts related to the temporary closure of more than 3,600 community clinics and 99 wellness centers in the Services segment, including direct labor costs as the Company continued to pay employees and $2/hour incentive to frontline manufacturing and distribution workforce in the Products segment; $3.7 million of incremental interest expense; and $2.7 million of additional net non-same store loss contribution.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    }
+  ],
+  "warnings": [],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "Q2 2020 results show timely reporting, a COVID‑19‑related material adverse effect from clinic closures, and insufficient data to confirm leverage ratio or contingent‑note EBITDA thresholds.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R03-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Press release dated Aug 6 2020 shows Q2 2020 results released within the 45‑day window after quarter end, indicating timely financial reporting.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-08-06",
+            "locator": "P0008",
+            "quote": "EAGLE, Idaho – August 6, 2020 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three and six months ended June 30, 2020."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R03-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Release discloses temporary closure of >3,600 community clinics and 99 wellness centers due to COVID‑19, constituting a material adverse effect that contradicts the assumption of no such effect.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-08-06",
+            "locator": "P0031",
+            "quote": "The second quarter of 2020 net loss was primarily due to $8.9 million of integration expenses; $4.4 million from COVID-19 impacts related to the temporary closure of more than 3,600 community clinics and 99 wellness centers in the Services segment, including direct labor costs as the Company continued to pay employees and $2/hour incentive to frontline manufacturing and distribution workforce in the Products segment; $3.7 million of incremental interest expense; and $2.7 million of additional net non-same store loss contribution."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R03-A07",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "unclear",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "Release provides Q2 adjusted EBITDA of $28.3 m but does not disclose lender‑defined Consolidated EBITDA or twelve‑month figure needed to assess the $50 m contingent‑note threshold.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-08-06",
+            "locator": "P0033",
+            "quote": "Second quarter adjusted EBITDA increased 35.9% to $28.3 million compared to $20.8 million in the prior year period."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "lender‑approved Consolidated EBITDA for the twelve‑month period"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "insufficient_evidence",
+        "rationale": "Event shows cash $117.0 m and long‑term debt $357.8 m as of June 30 2020 but does not provide first‑lien indebtedness or Consolidated EBITDA for the twelve‑month period, so the First Lien Net Leverage Ratio cannot be calculated.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-08-06",
+            "locator": "P0048",
+            "quote": "As of June 30, 2020, the Company had cash and cash equivalents of $117.0 million. The Company’s long-term debt balance, which is largely comprised of its revolving credit facility, term loan and convertible debt issued in the quarter, was $357.8 million as of June 30, 2020."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "status": "insufficient_evidence",
+        "rationale": "Press release shows Q2 2020 results released within 45 days after June 30, but no evidence that the required Compliance Certificate was delivered with the statements.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-08-06",
+            "locator": "P0008",
+            "quote": "EAGLE, Idaho – August 6, 2020 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three and six months ended June 30, 2020."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "status": "triggered",
+        "rationale": "Disclosure of COVID‑19‑related clinic closures constitutes a material adverse effect, triggering the notice obligation under Section 6.05(b); no evidence yet of notice to the Administrative Agent, so the deadline has not been missed.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2020-08-06",
+            "locator": "P0031",
+            "quote": "The second quarter of 2020 net loss was primarily due to $8.9 million of integration expenses; $4.4 million from COVID-19 impacts related to the temporary closure of more than 3,600 community clinics and 99 wellness centers in the Services segment, including direct labor costs as the Company continued to pay employees and $2/hour incentive to frontline manufacturing and distribution workforce in the Products segment; $3.7 million of incremental interest expense; and $2.7 million of additional net non-same store loss contribution."
+          }
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 55.9
+}

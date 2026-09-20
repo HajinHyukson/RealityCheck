@@ -1,0 +1,14 @@
+JUDGE: NVIDIA Nemotron
+C0|7|Exposure and drift are concrete, but it omits classification or labels, Nemotron's actual role.
+C1|8|Holdings versus label promise is concrete and benchmarkable, with a mild stakes framing that isn't overclaiming.
+C2|8|Exposure drifting from stated identity is precise, evaluable, and mirrors the pipeline's compare-and-measure design.
+C3|9|Economic identity and label investors bought hits classification, ground truth, and stakes in one clean line.
+C4|5|Portfolio exposure is strong, but thesis sold on is subjective and hard for any eval to confirm.
+C5|8|Exposure drifting from stated identity is concrete and benchmarkable, matches the pipeline's own vocabulary well.
+C6|6|Classified identity and filings sound precise, but filings are the model's input, not independent ground truth.
+C7|8|Labeled exposure versus actual holdings names two of the panel's favorite concepts in one testable claim.
+C8|9|Economic identity drifting from its label is tight, precise, and maps directly onto a classification eval.
+C9|8|ETF label versus actual holdings is plain, concrete, and fits the ETF wedge without any jargon.
+C10|6|Economic identity is strong, but investment thesis reintroduces the subjective, hard-to-benchmark language I'd flag elsewhere.
+ACCEPT|C7|It fuses the panel's two highest-scoring concepts, labeled and exposure, into one concrete, benchmarkable claim without leaning on subjective thesis language only the VC favored.
+OBJECT|C6|Comparing a fund's classified identity to its own filings is circular, since filings are Nemotron's input text, not the independent ground truth the eval actually checks against.

@@ -1,0 +1,6 @@
+{
+  "retried_after_later_checkpoints": [
+    "realitycheck/R01-D03_attribution.json"
+  ],
+  "effect": "A file listed here failed on the first pass and was retried after later checkpoints had already been drafted. If it is an attribution, candidates at later checkpoints did not receive its assumption assessments. Outputs were not regenerated to hide this."
+}

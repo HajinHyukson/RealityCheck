@@ -1,0 +1,64 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2018-11-13",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "insufficient_evidence",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Evidence shows 2018 EBITDA guidance of $40‑45 million and rising net sales, indicating the leverage ratio may fall below the current floor, risking breach; thus the floor should be loosened.",
+      "change_type": "threshold",
+      "change": "Lower the minimum First Lien Net Leverage Ratio floor (make the covenant less restrictive)",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2018-08-14",
+          "locator": "P0090",
+          "quote": "Adjusted EBITDA of $40 million to $45 million, an increase of 79% to 102% year-over-year*",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2018-11-13",
+          "locator": "P0076",
+          "quote": "Consolidated net sales of approximately $515 million, an increase of approximately 93% year-over-year",
+          "verified": true
+        }
+      ],
+      "direction": "loosen",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R03-A07"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on evidence through November 13 2018, the only substantive change justified is to loosen the First Lien Net Leverage Ratio floor in C01 due to strong EBITDA performance; all other covenants remain appropriate as-is.",
+  "updated_reasons": "Evidence of robust EBITDA and net sales growth indicates the First Lien Net Leverage Ratio floor may be too high, justifying a loosening of that threshold, which alters permitted behavior and risk coverage.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

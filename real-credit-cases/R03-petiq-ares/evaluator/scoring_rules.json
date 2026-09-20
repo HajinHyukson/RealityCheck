@@ -1,0 +1,85 @@
+{
+  "warning": "Evaluator collection. Never supply this file to an inference run.",
+  "rules": {
+    "fixed_before_results": "2026-09-19, before any strict blind output was opened.",
+    "system_signal": {
+      "escalate": "candidate judgment is material_drift AND at least one change survives evidence validation AND that change is absent from the origination-only control",
+      "information_request": "candidate judgment is insufficient_evidence",
+      "no_action": "candidate judgment is no_material_drift, or a drift claim with no validated change (recorded as insufficient_evidence by the validator and counted as information_request)",
+      "assumption_flag": "framework workflow only: an assumption newly marked weakened or contradicted at this checkpoint. Reported beside the candidate signal, never merged into it."
+    },
+    "scoring_against_reference": {
+      "warranted": "detected if the signal is escalate or information_request; missed if no_action. Escalations and information requests are reported separately.",
+      "unwarranted": "unnecessary escalation if the signal is escalate. An information request is reported but not counted as an unnecessary escalation.",
+      "unresolved": "not scored. The signal is reported."
+    },
+    "response_matching": {
+      "window": "a candidate change corresponds to an observed response if it touches one of the response's clause families at any checkpoint whose cutoff is before the response's public date",
+      "direction": "reported separately from correspondence. Touching the same clause in the opposite direction is recorded as 'same clause, opposite direction', not as agreement.",
+      "lead_time": "days from the first corresponding checkpoint cutoff to the response's execution date and, separately, to its public date. Reported only for assessable responses; responses with no corresponding change are listed as not anticipated, never dropped.",
+      "repeat_alerts": "consecutive checkpoints signalling the same clause family count as one episode"
+    },
+    "evaluator_correction": "2026-09-19, after the first comparison: direction was being matched by substring against a free-text description, so a candidate that tightened C01 was reported as agreeing with a lender who loosened C01 but tightened C03. Direction is now compared per clause, and every corresponding clause is listed. This corrects the implementation of the rule fixed beforehand; the rule, the locked model outputs and the reference judgments are unchanged.",
+    "applied_to_unseen_history": "These rules were fixed on the two development histories and are applied unchanged to PetIQ. Nothing in them was adjusted for this company."
+  },
+  "responses": [
+    {
+      "id": "R03-AR19",
+      "clause_families": [
+        "C01"
+      ],
+      "lender_direction": "loosen C01: the restated leverage schedule starts at 6.25x where the original stood at 3.50x; the facility was upsized from $75 million to $220 million",
+      "lender_direction_by_clause": {
+        "C01": "loosen"
+      },
+      "lender_added": [
+        "$220 million restated facility maturing July 2025"
+      ],
+      "assessable": true,
+      "assessability_note": "Six reports precede execution on July 8, 2019, and the May 8, 2019 report announces the acquisition it financed. The restatement replaced the whole agreement; only the leverage schedule was checked against the filed text."
+    },
+    {
+      "id": "R03-AM02",
+      "clause_families": [
+        "C06"
+      ],
+      "lender_direction": "loosen C06: convertible senior notes, capped calls and an intercompany note permitted; margin increased",
+      "lender_direction_by_clause": {
+        "C06": "loosen"
+      },
+      "lender_added": [
+        "margin increased to the Eurodollar Rate plus 5.00% with a 1.00% floor"
+      ],
+      "assessable": true,
+      "assessability_note": "Reports through May 7, 2020 precede execution on May 14, 2020."
+    },
+    {
+      "id": "R03-AM03",
+      "clause_families": [
+        "C01",
+        "C06"
+      ],
+      "lender_direction": "loosen C01 through a Consolidated EBITDA add-back of up to $19 million; loosen C06 by permitting up to $19 million of unsecured debt for terminating the CAP IM agreements",
+      "lender_direction_by_clause": {
+        "C01": "loosen",
+        "C06": "loosen"
+      },
+      "lender_added": [],
+      "assessable": true,
+      "assessability_note": "Reports through May 7, 2020 precede execution on July 9, 2020. None mentions the CAP IM termination, so the specific reason for this amendment was not public beforehand."
+    },
+    {
+      "id": "R03-AM04",
+      "clause_families": [
+        "C06"
+      ],
+      "lender_direction": "loosen C06: up to $14.5 million of headquarters construction debt permitted",
+      "lender_direction_by_clause": {
+        "C06": "loosen"
+      },
+      "lender_added": [],
+      "assessable": true,
+      "assessability_note": "Reports through May 7, 2020 precede execution on July 28, 2020. None mentions headquarters construction financing."
+    }
+  ]
+}

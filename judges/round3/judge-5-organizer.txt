@@ -1,0 +1,14 @@
+JUDGE: PittCSC Organizer
+C0|8|Clean and honest but "unnoticed" is an unprovable claim the 60 second demo cannot actually show.
+C1|8|Concrete fund, label, holdings language, honest match, "promises" is a small flourish but stays clear.
+C2|6|Exposure and identity are mismatched categories here, pairing feels awkward and slightly abstract on first read.
+C3|8|Bridges identity and label in one honest sentence, vivid "investors bought" phrase, strong compromise line.
+C4|7|Vivid but wordy, "silently" and "sold on" add flourish that risks reading like marketing copy.
+C5|6|"Real exposure" versus "stated identity" is an awkward pairing, reads like generic fintech copy.
+C6|4|Reverses the actual pipeline since filings feed the classification rather than checking it, mechanism mismatch.
+C7|9|Most literal match to the demo's two bars, plain English, honest, easy to remember at a booth.
+C8|8|Short and punchy, ties identity directly to label, matches the Nemotron classification concept cleanly.
+C9|9|Names the ETF wedge directly, plain honest phrasing, matches label versus actual holdings exactly.
+C10|8|Ties identity to thesis well and stays honest, though thesis is more abstract than label or exposure.
+ACCEPT|C3|It uses both identity and label, the two words NVIDIA and PNC each anchored on, while keeping drift central for the rest of the panel.
+OBJECT|C6|It implies the system checks a classification against filings, but Nemotron derives the classification from filings, reversing the real pipeline.

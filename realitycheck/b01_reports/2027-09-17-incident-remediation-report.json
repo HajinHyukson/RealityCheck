@@ -1,0 +1,33 @@
+{
+  "borrower_id": "B01",
+  "report_type": "company_remediation",
+  "publisher": "FluxRail Workflow, Inc. (fictional)",
+  "synthetic": true,
+  "title": "Root-cause report and notice-routing remediation for incident FR-2027-094",
+  "library_summary": "A mitigation report. Tests whether recovery evidence is credited without erasing the earlier missed notice.",
+  "event_date": "2027-09-16",
+  "available_at": "2027-09-17",
+  "review_date": "2027-09-17",
+  "sources": [
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P1 — root cause and corrective action",
+      "text": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered."
+    },
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P2 — recurrence testing",
+      "text": "Recurrence testing ran from September 12 to September 15 under production-equivalent load across all queue partitions and reproduced no stall. The responsible technology officer concluded on September 15 that no material unresolved risk of recurrence remains, and recorded the basis for that conclusion in the incident ledger."
+    },
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P3 — late notice and routing change",
+      "text": "The Lender notice for this incident was due by 5 p.m. on September 9, 2027 and was delivered at 10:40 a.m. on September 11. The delay arose because the escalation rule sent the alert to a retired shared mailbox. Since September 13 the incident ledger has generated the Lender notice automatically when an incident crosses the reporting threshold, with a second approver as backup. The late notice itself is not cured by this change."
+    },
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P4 — customers",
+      "text": "As of September 16, 2027 no affected customer had delivered a written termination or nonrenewal notice, and none had requested service credits. FluxRail has not surveyed the affected customers about renewal intentions."
+    }
+  ]
+}

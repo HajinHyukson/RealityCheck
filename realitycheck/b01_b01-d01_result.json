@@ -1,0 +1,275 @@
+{
+  "id": "B01-D01",
+  "event": {
+    "id": "B01-D01",
+    "title": "Compatibility bridge withdrawn; migration deadline passes",
+    "event_date": "2027-07-12",
+    "available_at": "2027-07-13",
+    "review_date": "2027-07-13",
+    "sources": [
+      {
+        "document_id": "B01-DEMO-D01-OPS",
+        "locator": "P1 — interface release and affected revenue",
+        "text": "Synthetic operating evidence, compiled July 13, 2027. HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups. The vendor continued to make its published endpoint and migration documentation available to FluxRail. The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+      },
+      {
+        "document_id": "B01-DEMO-D01-OPS",
+        "locator": "P2 — bridge withdrawal and release status",
+        "text": "The compatibility bridge described in the June 16 management note passed staging tests. A July 5 production security test subsequently showed that it bypassed a required token-expiry control; FluxRail quarantined the bridge that day and did not offer it as a secure workaround thereafter. The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available. The same status remained open at 9:00 a.m. on July 13. The lender's complete consent and waiver register through July 13 contains no extension or waiver of the interface-remediation deadline."
+      },
+      {
+        "document_id": "B01-DEMO-D01-OPS",
+        "locator": "P3 — continuing service and evidence limits",
+        "text": "The old authentication endpoint continued operating during the vendor's transition window. FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours. Customers have not delivered written termination or nonrenewal notices. Subscription fees and terms remain unchanged, and FluxRail retains administrative and export control over the configuration library. No later connector deployment, lender decision, current-quarter debt register, bank balance, or trailing-four-quarter EBITDA bridge is contained in this evidence package."
+      }
+    ]
+  },
+  "borrower_id": "B01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-19T21:02:40.798273+00:00",
+  "summary": "The event reveals a breaking authentication endpoint change for HelioForge, used by 18% of revenue, with the compatibility bridge quarantined and no workaround deployed as of July 12. This weakens the renewal‑reliability (A01) and connector‑support‑continuity (A06) assumptions, triggers S1 noncompliance (missed 30‑day fix deadline), triggers C08 notice duty (knowledge of noncompliance, notice period not yet elapsed), and leaves S2 not triggered (no >4‑hour outage).",
+  "attributions": [
+    {
+      "id": "att-1b68a1a3-acd5-483f-b0b3-67c6b806aa88",
+      "target_type": "assumption",
+      "target_id": "B01-A01",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "The event shows a breaking identity‑platform change affecting 18% of revenue, with the compatibility bridge quarantined and no workaround deployed, indicating weakened reliable workflow execution needed for renewals.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P2 — bridge withdrawal and release status",
+          "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Consider revising assumption to reflect heightened connector‑change risk.",
+      "path": [],
+      "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-0d621206-6ef1-41b7-8765-fb2d6bf7d6cd",
+      "target_type": "assumption",
+      "target_id": "B01-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "The event shows a breaking authentication endpoint used by 18% of revenue, with the compatibility bridge quarantined and no workaround, exposing risk to connector support continuity that could cause ≥10% revenue outages.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P1 — interface release and affected revenue",
+          "quote": "The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Consider revising assumption to reflect increased risk of connector‑change outages.",
+      "path": [],
+      "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "working"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "B01-A01",
+      "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "B01-A02",
+      "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A03",
+      "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A04",
+      "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A05",
+      "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "B01-A06",
+      "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "S1",
+      "status": "noncompliant",
+      "rationale": "The vendor published a breaking interface change on June 10, 2027 affecting 18% of revenue; the Borrower had 30 calendar days (to July 10) to deploy a compatible connector or provide a documented secure workaround, but as of July 12 (and July 13) neither was done, missing the duty.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P1 — interface release and affected revenue",
+          "quote": "HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups.",
+          "verified": true
+        },
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P2 — bridge withdrawal and release status",
+          "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "S2",
+      "status": "not_triggered",
+      "rationale": "The incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours, so the duty to record, notify, and report is not activated.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P3 — continuing service and evidence limits",
+          "quote": "FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C08",
+      "status": "triggered",
+      "rationale": "The CFO first received the consolidated failure report at 10:00 a.m. on July 13, 2027, giving knowledge of the S1 noncompliance; notice must be given within five Business Days (deadline July 20), which has not yet elapsed as of the review date.",
+      "evidence": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P1 — interface release and affected revenue",
+          "quote": "The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    }
+  ],
+  "warnings": [
+    "Reviewer calendar correction: Nemotron cites July 10 as the S1 deadline. July 10, 2027 is Saturday, so the agreement rolls the administrative-performance deadline to Monday July 12 at 5 p.m. The missing performance recorded after that time and on July 13 still establishes S1 noncompliance. The original model wording is preserved."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The event reveals a breaking authentication endpoint change for HelioForge, used by 18% of revenue, with the compatibility bridge quarantined and no workaround deployed as of July 12. This weakens the renewal‑reliability (A01) and connector‑support‑continuity (A06) assumptions, triggers S1 noncompliance (missed 30‑day fix deadline), triggers C08 notice duty (knowledge of noncompliance, notice period not yet elapsed), and leaves S2 not triggered (no >4‑hour outage).",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "B01-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "The event shows a breaking identity‑platform change affecting 18% of revenue, with the compatibility bridge quarantined and no workaround deployed, indicating weakened reliable workflow execution needed for renewals.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P2 — bridge withdrawal and release status",
+            "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Consider revising assumption to reflect heightened connector‑change risk.",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "B01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "The event shows a breaking authentication endpoint used by 18% of revenue, with the compatibility bridge quarantined and no workaround, exposing risk to connector support continuity that could cause ≥10% revenue outages.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P1 — interface release and affected revenue",
+            "quote": "The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Consider revising assumption to reflect increased risk of connector‑change outages.",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "S1",
+        "status": "noncompliant",
+        "rationale": "The vendor published a breaking interface change on June 10, 2027 affecting 18% of revenue; the Borrower had 30 calendar days (to July 10) to deploy a compatible connector or provide a documented secure workaround, but as of July 12 (and July 13) neither was done, missing the duty.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P1 — interface release and affected revenue",
+            "quote": "HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups."
+          },
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P2 — bridge withdrawal and release status",
+            "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available."
+          }
+        ]
+      },
+      {
+        "clause_id": "S2",
+        "status": "not_triggered",
+        "rationale": "The incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours, so the duty to record, notify, and report is not activated.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P3 — continuing service and evidence limits",
+            "quote": "FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours."
+          }
+        ]
+      },
+      {
+        "clause_id": "C08",
+        "status": "triggered",
+        "rationale": "The CFO first received the consolidated failure report at 10:00 a.m. on July 13, 2027, giving knowledge of the S1 noncompliance; notice must be given within five Business Days (deadline July 20), which has not yet elapsed as of the review date.",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P1 — interface release and affected revenue",
+            "quote": "The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+          }
+        ]
+      }
+    ]
+  },
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "review_notes": [
+    "Reviewer calendar correction: Nemotron cites July 10 as the S1 deadline. July 10, 2027 is Saturday, so the agreement rolls the administrative-performance deadline to Monday July 12 at 5 p.m. The missing performance recorded after that time and on July 13 still establishes S1 noncompliance. The original model wording is preserved."
+  ]
+}

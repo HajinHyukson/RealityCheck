@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Credit agreements · RealityCheck</title>
+<style>
+:root{color-scheme:light;--bg:#fff;--surface:#fff;--raised:#edf3f9;--line:#d7e1ee;--muted:#5e7089;--ink:#173b67;--accent:#244f84;--warn:#89602e;--warn-bg:#faf5ed;--mono:'Cascadia Code',Consolas,monospace;--sans:'Segoe UI Variable','Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.6 var(--sans)}button,input{font:inherit}button,a,input{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{opacity:.55;cursor:wait}a{color:inherit;text-decoration:none}button,a{touch-action:manipulation}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid #3a6697;outline-offset:4px}h1,h2,h3,p{margin:0}h1{font-size:32px;letter-spacing:-1px;line-height:1.25;font-weight:550}h2{font-size:22px;letter-spacing:-.5px;font-weight:550}h3{font-size:18px;letter-spacing:-.3px;font-weight:550;line-height:1.4}p{color:var(--muted)}svg{display:block}[hidden]{display:none!important}.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}.eyebrow{text-transform:uppercase;letter-spacing:1.6px;font-size:10px;font-weight:600;color:var(--muted)}
+main{max-width:1180px;margin:0 auto;padding:30px 32px 40px}.brand{display:flex;align-items:center;gap:9px;font-size:13px;font-weight:600;letter-spacing:-.2px}.brand svg{width:22px;height:22px}.page-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:24px;border-bottom:1px solid var(--line)}.page-top>span{font-size:11px;color:var(--muted)}.page-heading{margin:32px 0 26px}.page-heading p{margin-top:8px;max-width:70ch}
+.upload-portal{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:46px;border:1px solid var(--line);border-radius:10px;background:#f8fafc;padding:28px 30px}.upload-intro{padding:4px 0}.upload-intro>.eyebrow{margin-bottom:8px}.upload-intro p{font-size:13px;margin-top:12px;max-width:36ch}.upload-process{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted);margin-top:25px}.upload-process svg{width:16px;height:16px;flex-shrink:0}.upload-fields{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:16px}.field{min-width:0}.field label{display:block;font-size:12px;font-weight:600;margin-bottom:6px}.optional{color:var(--muted);font-weight:400;font-size:11px}input[type=text],input[type=date]{width:100%;min-width:0;background:white;color:var(--ink);border:1px solid #c5d3e4;border-radius:5px;padding:9px 10px;min-height:42px}input::placeholder{color:#798aa0}.file-zone{position:relative;display:flex;gap:14px;align-items:center;border:1px dashed #a8bdd5;border-radius:6px;padding:18px;background:white;margin-top:16px;cursor:pointer}.file-zone:hover{border-color:var(--accent);background:#f5f8fc}.file-zone:focus-within{outline:2px solid #3a6697;outline-offset:4px}.file-zone svg{width:26px;height:26px;flex-shrink:0;color:#446c98}.file-zone strong{display:block;font-size:13px;font-weight:550}.file-zone span{font-size:11px;color:var(--muted);display:block}.file-zone input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}.file-zone input:disabled{cursor:wait}.file-list{font-size:11px;color:var(--muted);margin-top:8px;overflow-wrap:anywhere}.upload-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:16px}.upload-actions>span{font-size:11px;color:var(--muted);max-width:28ch}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--line);background:white;color:var(--accent);padding:9px 14px;border-radius:5px;font-size:12px;font-weight:550;white-space:nowrap;transition:background-color .16s,border-color .16s}.btn:hover:not(:disabled){background:var(--raised);border-color:#a8bdd5}.btn:active:not(:disabled){transform:translateY(1px)}.btn.primary{background:var(--accent);color:white;border-color:var(--accent)}.btn.primary:hover:not(:disabled){background:#173b67}.btn svg{width:15px;height:15px}.upload-message{font-size:12px;margin-top:12px}.error{color:var(--warn)}
+.list-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:32px 0 16px}.list-heading h2{font-size:17px}.list-heading span{font-size:11px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{position:relative;border:1px solid var(--line);border-radius:8px;background:white;min-width:0;overflow-wrap:anywhere}.card-link,.card-content{display:flex;flex-direction:column;gap:16px;padding:22px;height:100%;border-radius:8px}.card-link{transition:background-color .16s}.card:has(.card-link):hover{border-color:#9cb3cf}.card-link:hover{background:#fafcfe}.card-link:focus-visible{outline-offset:3px}.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}.card-top>div{min-width:0}.card-top h3{margin-top:5px}.card-top p{font-size:12px;margin-top:5px}.pill{display:inline-flex;align-items:center;gap:6px;flex-shrink:0;font-size:10px;line-height:1.5;padding:3px 7px;border-radius:4px;border:1px solid var(--line);color:var(--muted);max-width:150px}.pill.real{color:var(--accent);background:var(--raised);border-color:#c5d3e4}.pill.alert{color:var(--warn);border-color:#dfcdae;background:var(--warn-bg)}.card-code{font-size:9px;letter-spacing:.5px;color:var(--muted)}.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;border-top:1px solid var(--line);padding-top:16px;margin-top:auto}.fact-value{font-size:20px;font-weight:500;line-height:1.4}.fact-value small{font-size:12px;color:var(--muted)}.fact-label{font-size:10px;color:var(--muted);margin-top:4px;line-height:1.5}.latest{font-size:11px;color:var(--muted);line-height:1.7}.latest strong{color:var(--ink);font-weight:500}.card-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:23px}.open-label{display:flex;align-items:center;gap:7px;font-size:11px;color:var(--accent);margin-left:auto}.open-label svg{width:14px;height:14px}.card.is-processing{background:var(--raised);border-color:#c1d1e4}.card.is-processing .card-content{min-height:265px}.processing-detail{font-size:13px;color:var(--ink)}.processing-note{font-size:11px;max-width:54ch}.processing-footer{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:8px;margin-top:auto;padding-top:14px;border-top:1px solid #cbd9e9}.status-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#4b729e;flex-shrink:0}.card.is-failed{background:var(--warn-bg);border-color:#dfcdae}.card.is-failed .card-content{min-height:265px}.retry-row{display:flex;align-items:center;gap:12px;margin-top:auto}.retry-row>span{font-size:10px;color:var(--muted)}.load-error{display:flex;align-items:center;justify-content:space-between;gap:20px;border:1px solid #dfcdae;background:var(--warn-bg);padding:12px 16px;margin-bottom:16px;border-radius:5px}.load-error p{font-size:12px;color:var(--warn)}.empty{padding:28px 0;color:var(--muted);font-size:13px}.skeleton{height:225px;border-radius:8px;border:1px solid var(--line);background:linear-gradient(#f0f4f8 0 0) 22px 25px/45% 16px no-repeat,linear-gradient(#f0f4f8 0 0) 22px 60px/75% 10px no-repeat,linear-gradient(#f0f4f8 0 0) 22px 127px/65% 42px no-repeat}.note{border-top:1px solid var(--line);margin-top:30px;padding-top:18px;display:flex;justify-content:space-between;gap:25px;font-size:10px;color:var(--muted)}.note p{max-width:90ch}.note a{text-decoration:underline;text-underline-offset:3px}.note>a{flex-shrink:0}
+@media(max-width:800px){main{padding:24px}.upload-portal{grid-template-columns:1fr;gap:22px;padding:24px}.upload-intro p{max-width:62ch}.upload-process{margin-top:12px}.grid{grid-template-columns:1fr}.note{flex-direction:column;gap:10px}.page-heading{margin-top:26px}.page-top>span{display:none}}
+@media(max-width:480px){main{padding:20px 16px 30px}h1{font-size:28px}.page-heading p{font-size:13px}.upload-portal{padding:20px}.upload-portal h2{font-size:21px}.upload-fields{grid-template-columns:1fr;gap:12px}.upload-actions{align-items:stretch;flex-direction:column;gap:10px}.upload-actions>span{max-width:none;order:1}.upload-actions .btn{width:100%;min-height:42px}.card-link,.card-content{padding:18px}.card-top{gap:10px}.pill{max-width:115px;font-size:9px}.facts{gap:10px}.load-error{align-items:flex-start;flex-direction:column;gap:10px}.list-heading{margin-top:26px}}
+select{font:inherit;color:var(--ink);background:white;border:1px solid #c5d3e4;border-radius:4px;padding:6px 8px;min-width:0}select:focus-visible{outline:2px solid #3a6697;outline-offset:3px}.document-types{display:grid;gap:8px;margin-top:12px}.document-row{display:grid;grid-template-columns:minmax(0,1fr) 145px auto;align-items:center;gap:10px;font-size:11px}.document-row>span{overflow-wrap:anywhere}.document-row select{font-size:11px;width:100%;min-height:34px}.document-row .btn{font-size:11px;padding:6px 9px;min-height:34px}.document-types>p{font-size:10px;color:var(--muted);margin-bottom:3px}.processing-footer svg{width:15px;height:15px;flex-shrink:0}@media(max-width:480px){.document-row{grid-template-columns:minmax(0,1fr) auto;gap:6px 10px;padding-bottom:9px;border-bottom:1px solid var(--line)}.document-row>span{grid-column:1/-1}}
+.card{display:flex;flex-direction:column}.card-link,.card-content{flex:1;height:auto}.btn.small{font-size:11px;padding:5px 10px}.card-actions{display:flex;justify-content:flex-end;gap:8px;padding:8px 22px;border-top:1px solid var(--line)}.is-failed .card-actions{border-color:#dfcdae}.btn.danger{color:#9b2c2c;font-size:11px;padding:5px 10px}.btn.danger:hover:not(:disabled){background:#fbf0ef;border-color:#dcb4b0}.btn.danger.solid{background:#9b2c2c;border-color:#9b2c2c;color:white;font-size:12px;padding:9px 14px}.btn.danger.solid:hover:not(:disabled){background:#7f2323;border-color:#7f2323}
+dialog{border:1px solid var(--line);border-radius:8px;padding:24px;width:min(440px,calc(100vw - 32px));color:var(--ink);box-shadow:0 18px 50px rgba(23,59,103,.18)}dialog::backdrop{background:rgba(23,59,103,.32)}dialog h2{font-size:18px}dialog p{font-size:13px;margin-top:10px;overflow-wrap:anywhere}.dialog-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}@media(max-width:480px){.card-actions{padding:8px 18px}.dialog-actions{flex-direction:column-reverse}.dialog-actions .btn{min-height:42px}}
+</style>
+</head>
+<body>
+<main>
+<nav class="page-top" aria-label="Main navigation"><a class="brand" href="/" aria-label="RealityCheck home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="m7 12 3 3 7-7"/></svg>RealityCheck</a><span>Evidence behind every credit decision</span></nav>
+<header class="page-heading"><h1>Credit agreements</h1><p>Open a company workspace to explore its agreements, evidence, and underwriting assumptions.</p></header>
+<section class="upload-portal" aria-labelledby="upload-title">
+ <div class="upload-intro"><div class="eyebrow">Start a company workspace</div><h2 id="upload-title">Add New Credit Agreement</h2><p>Upload a credit agreement. Memos and 10-K filings are optional supporting documents. Nemotron reads the evidence and builds the initial credit assessment.</p><div class="upload-process"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M10 3v4m0 6v4M3 10h4m6 0h4"/><circle cx="10" cy="10" r="3"/></svg>Your workspace opens when analysis is ready.</div></div>
+ <form id="upload-form">
+  <fieldset id="upload-fields" style="border:0;padding:0;margin:0;min-width:0">
+   <div class="upload-fields"><div class="field"><label for="company-name">Company name</label><input id="company-name" name="name" type="text" placeholder="Company or borrower name" maxlength="160" required autocomplete="organization"></div><div class="field"><label for="agreement-date">Agreement date <span class="optional">(optional)</span></label><input id="agreement-date" name="effective_at" type="date"></div></div>
+   <label class="file-zone" for="agreement-files"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 3h10l5 5v17H7Z"/><path d="M17 3v6h5M14 21V12m-4 4 4-4 4 4"/></svg><div><strong id="file-picker-title">Add files</strong><span>Choose documents or drop them here</span><span id="file-help">PDF, images, TXT or Markdown · 20 MB total</span></div><input id="agreement-files" type="file" multiple required accept=".pdf,.png,.jpg,.jpeg,.webp,.tif,.tiff,.txt,.md" aria-label="Credit agreement documents" aria-describedby="file-help file-selection"></label>
+   <p id="file-selection" class="file-list" role="status">Up to 10 files · 12 MB per file · PDFs up to 300 pages</p>
+   <p class="file-list">Up to 20 pages needing OCR per PDF · 600,000 extracted characters across all documents</p>
+   <div id="document-types" class="document-types" hidden></div>
+   <div class="upload-actions"><span>Documents stay with this company’s workspace.</span><button id="upload-submit" class="btn primary" type="submit">Upload &amp; analyze<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></button></div>
+  </fieldset>
+  <p id="upload-error" class="upload-message error" role="alert" hidden></p><p id="upload-status" class="upload-message" role="status" hidden></p>
+ </form>
+</section>
+<section aria-labelledby="agreements-title">
+ <div class="list-heading"><h2 id="agreements-title">Company workspaces</h2><span id="agreement-count">Loading agreements</span></div>
+ <div id="load-error" class="load-error" role="alert" hidden><p id="load-error-text"></p><button id="refresh-retry" class="btn" type="button">Retry refresh</button></div>
+ <div id="loading" class="grid" aria-label="Loading credit agreements"><div class="skeleton"></div><div class="skeleton"></div></div>
+ <div class="grid" id="grid"></div><p id="empty" class="empty" hidden>No credit agreements yet. Upload your first agreement above to get started.</p>
+ <p id="list-status" role="status" class="upload-message" hidden></p>
+</section>
+<footer class="note"><p>Uploaded scenarios use sourced company background with fictional loan terms, figures, reports, and events. <a href="/benchmark">View historical benchmark</a></p><a href="/legacy">Original CedarBridge packet demo</a></footer>
+</main>
+<dialog id="delete-dialog" aria-labelledby="delete-title"><h2 id="delete-title">Delete this credit agreement?</h2><p id="delete-text"></p><p id="delete-error" class="error" role="alert" hidden></p><div class="dialog-actions"><button id="delete-cancel" class="btn" type="button" autofocus>Cancel</button><button id="delete-confirm" class="btn danger solid" type="button">Delete permanently</button></div></dialog>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const displayText = value => String(value ?? '').replace(/\b(?:covenant\s+packages?|(?:loan|credit)\s+packages?|packages?)\b/gi, term => {
+ const replacement = /^covenant\s/i.test(term) ? 'covenants' : /s$/i.test(term) ? 'credit agreements' : 'credit agreement';
+ return term === term.toUpperCase() ? replacement.toUpperCase() : /^[A-Z]/.test(term) ? replacement[0].toUpperCase()+replacement.slice(1) : replacement;
+});
+const esc = value => displayText(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dateLabel = value => { const date = new Date(String(value || '').slice(0,10)+'T12:00:00'); return Number.isNaN(date.valueOf()) ? 'Date unavailable' : date.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'}); };
+const arrow = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg>';
+const companies = new Map(), cards = new Map(), deleted = new Set();
+let pollTimer, refreshPromise, uploading = false, selectedFiles=[], fileRoles=[];
+const statusOf = company => company.ready && (!company.status || company.status === 'ready') ? 'ready' : company.status === 'failed' ? 'failed' : company.status === 'processing' ? 'processing' : 'queued';
+const isPending = company => ['queued','processing'].includes(statusOf(company));
+function message(id, text){ $(id).textContent=text; $(id).hidden=!text; }
+async function request(url, body, method='POST'){
+ const response = await fetch(url,body === undefined ? {cache:'no-store',signal:AbortSignal.timeout(15000)} : {method,headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+ const data = await response.json().catch(() => ({}));
+ if(!response.ok) throw new Error(typeof data.error === 'string' ? data.error : data.error?.message || 'The server returned '+response.status+'. Please retry.');
+ return data;
+}
+function renderCard(company, prepend=false){
+ const id=String(company.id), signature=JSON.stringify(company), status=statusOf(company), previous=companies.get(id);
+ if(deleted.has(id))return;   // a refresh that was already in flight must not bring the card back
+ companies.set(id,company);
+ let card=cards.get(id);
+ if(!card){ card=document.createElement('article');card.dataset.companyId=id;cards.set(id,card);prepend ? $('grid').prepend(card) : $('grid').append(card); }
+ if(card.dataset.signature===signature)return;
+ const focused=card.contains(document.activeElement), focusSelector=document.activeElement?.matches('[data-retry]')?'[data-retry]':'.card-link';
+ card.dataset.signature=signature;card.className='card'+(status==='ready'?'':status==='failed'?' is-failed':' is-processing');card.setAttribute('aria-busy',String(isPending(company)));
+ const b=company.borrower||{}, real=b.source_mode==='public_sec_filings', hypothetical=b.source_mode==='hypothetical_real_company', uploaded=b.source_mode==='uploaded_agreement'||b.source_mode==='uploaded_documents'||/^u[0-9a-f]{12}$/i.test(id), name=(uploaded?b.name||b.label:b.label||b.name)||id;
+ const actions=uploaded&&!isPending(company)?`<div class="card-actions"><button class="btn small" data-copy="${esc(id)}" type="button" aria-label="Copy ${esc(name)}">Copy credit agreement</button><button class="btn danger" data-delete="${esc(id)}" type="button" aria-label="Delete ${esc(name)}">Delete</button></div>`:'';
+ const title=`<div><div class="card-code mono">${esc(id)}</div><h3>${esc(name)}</h3>${b.sector?`<p>${esc(b.sector)}</p>`:''}</div>`;
+ if(status==='ready'){
+  const mode=real?'Public SEC filings':hypothetical?'Hypothetical scenario':uploaded?'Uploaded agreement':'Fictional company';
+  card.innerHTML=`<a class="card-link" href="/${encodeURIComponent(id.toLowerCase())}"><div class="card-top">${title}<span class="pill ${real||uploaded?'real':''}">${mode}</span></div><div class="latest">${company.latest?`Latest report · <strong>${esc(company.latest.title)}</strong><br>${esc(dateLabel(company.latest.available_at))}`:'Initial agreement · ready to explore'}</div><div class="facts"><div><div class="fact-value mono">v${esc(company.current_version??'1.0')}</div><div class="fact-label">Current agreement</div></div><div><div class="fact-value mono">${esc(company.events??0)}</div><div class="fact-label">Reports analyzed</div></div><div><div class="fact-value mono">${esc(company.exposed??0)}<small> / ${esc(company.assumptions??0)}</small></div><div class="fact-label">Assumptions under pressure</div></div></div><div class="card-foot">${company.pending?`<span class="pill alert">${esc(company.pending)} awaiting review</span>`:''}<span class="open-label">Open workspace ${arrow}</span></div></a>${actions}`;
+ }else if(status==='failed'){
+  card.innerHTML=`<div class="card-content"><div class="card-top">${title}<span class="pill alert">Analysis failed</span></div><p class="processing-detail error">${esc(company.error||'The analysis could not be completed. Please retry.')}</p><p class="processing-note">Your documents are saved. Retry the analysis to prepare this workspace.</p><div class="retry-row"><button class="btn" data-retry="${esc(id)}" type="button">Retry analysis</button><span>Uses the saved documents</span></div><p class="retry-error error" role="alert" hidden></p></div>${actions}`;
+ }else{
+  const stage=company.stage ? displayText(company.stage).replace(/_/g,' ') : status==='queued'?'Waiting for Nemotron to begin.':'Nemotron is reading the documents and building the assessment.';
+  card.innerHTML=`<div class="card-content"><div class="card-top">${title}<span class="pill real"><i class="status-dot" aria-hidden="true"></i>${status==='queued'?'Queued':'Processing'}</span></div><p class="processing-detail">${esc(stage)}</p><p class="processing-note">This workspace will become available when the agreement and underwriting assumptions are ready.</p><div class="processing-footer">${arrow}Analysis in progress · updates automatically</div></div>`;
+ }
+ if(focused){const target=card.querySelector(focusSelector);if(target)target.focus({preventScroll:true});else{card.tabIndex=-1;card.focus({preventScroll:true});}}
+ if(previous && statusOf(previous)!==status && (status==='ready'||status==='failed'))message('list-status',`${name}: ${status==='ready'?'workspace ready to open.':'analysis failed. Retry is available.'}`);
+}
+function updateCount(){
+ const rows=[...companies.values()], pending=rows.filter(isPending).length;
+ $('agreement-count').textContent=`${rows.length} ${rows.length===1?'agreement':'agreements'}${pending?' · '+pending+' processing':''}`;
+ $('empty').hidden=rows.length>0;
+}
+function schedulePoll(){clearTimeout(pollTimer);if([...companies.values()].some(isPending)||!$('load-error').hidden)pollTimer=setTimeout(load,2000);}
+async function load(){
+ if(refreshPromise)return refreshPromise;
+ refreshPromise=(async()=>{
+  try{
+   const data=await request('/api/companies');
+   if(!Array.isArray(data.companies))throw new Error('The server returned an unreadable company list.');
+   data.companies.forEach(company=>renderCard(company));$('load-error').hidden=true;updateCount();
+  }catch(error){$('load-error-text').textContent='Could not refresh agreements. '+error.message;$('load-error').hidden=false;$('agreement-count').textContent=companies.size?`${companies.size} saved agreements`:'Unable to load agreements';}
+  finally{$('loading').hidden=true;refreshPromise=null;schedulePoll();}
+ })();
+ return refreshPromise;
+}
+const fileInput=$('agreement-files');
+function fileError(files){
+ const invalid=files.find(file=>! /\.(pdf|png|jpe?g|webp|tiff?|txt|md)$/i.test(file.name));
+ return files.length>10?'Choose up to 10 files.':invalid?'Unsupported file: '+invalid.name+'. Choose a PDF, image, TXT or Markdown file.':files.some(file=>!file.size)?'One of the selected documents is empty. Choose a nonempty file.':files.some(file=>file.size>12*1048576)?'Each file must be 12 MB or smaller.':files.reduce((total,file)=>total+file.size,0)>20*1048576?'The selected documents exceed 20 MB. Choose fewer or smaller files.':'';
+}
+function renderFiles(){
+ const files=selectedFiles, selection=new DataTransfer();files.forEach(file=>selection.items.add(file));fileInput.files=selection.files;
+ $('file-picker-title').textContent=files.length?'Add more files':'Add files';
+ $('file-selection').textContent=files.length?`${files.length} ${files.length===1?'file':'files'} selected · ${(files.reduce((total,file)=>total+file.size,0)/1048576).toFixed(1)} MB`:'Up to 10 files · 12 MB per file · PDFs up to 300 pages';
+ $('document-types').hidden=!files.length;
+ $('document-types').innerHTML=files.length?'<p>Confirm each document type. Memos and 10-Ks become origination evidence.</p>'+files.map((file,index)=>`<div class="document-row"><span>${esc(file.name)}</span><select data-file-index="${index}" aria-label="Document type for ${esc(file.name)}">${[['agreement','Credit agreement'],['memo','Memo'],['10k','10-K']].map(([value,label])=>`<option value="${value}" ${fileRoles[index]===value?'selected':''}>${label}</option>`).join('')}</select><button class="btn" type="button" data-delete-file="${index}" aria-label="Delete ${esc(file.name)}">Delete</button></div>`).join(''):'';
+}
+fileInput.addEventListener('change',()=>{
+ const incoming=[...fileInput.files], combined=selectedFiles.slice(), roles=fileRoles.slice();
+ incoming.forEach(file=>{
+  if(combined.some(saved=>saved.name===file.name&&saved.size===file.size&&saved.lastModified===file.lastModified))return;
+  combined.push(file);roles.push(/memo/i.test(file.name)?'memo':/10[-_ ]?k/i.test(file.name)?'10k':'agreement');
+ });
+ const error=fileError(combined);
+ if(!error){selectedFiles=combined;fileRoles=roles;}
+ if(incoming.length)message('upload-error',error?'Files were not added. '+error+' Your previous selection is unchanged.':'');
+ renderFiles();
+});
+$('document-types').addEventListener('change',event=>{if(event.target.matches('select'))fileRoles[Number(event.target.dataset.fileIndex)]=event.target.value;});
+$('document-types').addEventListener('click',event=>{
+ const button=event.target.closest('[data-delete-file]');if(!button||uploading)return;
+ const index=Number(button.dataset.deleteFile);selectedFiles.splice(index,1);fileRoles.splice(index,1);message('upload-error','');renderFiles();
+ ($('document-types').querySelector(`[data-delete-file="${Math.min(index,selectedFiles.length-1)}"]`)||fileInput).focus();
+});
+function readFile(file){return new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve({filename:file.name,b64:String(reader.result).split(',')[1]});reader.onerror=()=>reject(new Error('Could not read '+file.name+'. Please select the file again.'));reader.readAsDataURL(file);});}
+$('upload-form').addEventListener('submit',async event=>{
+ event.preventDefault();if(uploading)return;message('upload-error','');message('upload-status','');
+ const name=$('company-name').value.trim(),files=[...fileInput.files], effective=$('agreement-date').value;
+ const error=!name?'Enter a company name.':!files.length?'Choose at least one document.':fileError(files);
+ if(error){message('upload-error',error);return;}
+ uploading=true;$('upload-fields').disabled=true;$('upload-submit').textContent='Uploading…';message('upload-status','Uploading documents. Keep this page open until the company appears below.');
+ try{
+  const body={name,files:await Promise.all(files.map(async(file,index)=>({...await readFile(file),role:fileRoles[index]||'agreement'})))};if(effective)body.effective_at=effective;
+  const company=await request('/api/companies',body);
+  if(!company.id)throw new Error('The server did not return a company record. Refresh the list before trying again.');
+  renderCard(company,true);updateCount();schedulePoll();$('upload-form').reset();selectedFiles=[];fileRoles=[];renderFiles();message('upload-status',`${name} was added. Nemotron analysis is queued; its card will update automatically.`);
+ }catch(error){message('upload-status','');message('upload-error',error.message);}
+ finally{uploading=false;$('upload-fields').disabled=false;$('upload-submit').innerHTML='Upload &amp; analyze'+arrow;}
+});
+$('refresh-retry').addEventListener('click',async()=>{$('refresh-retry').disabled=true;try{await load();}finally{$('refresh-retry').disabled=false;}});
+$('grid').addEventListener('click',async event=>{
+ const button=event.target.closest('[data-retry]');if(!button)return;
+ const id=button.dataset.retry,card=cards.get(id),error=card.querySelector('.retry-error');button.disabled=true;button.textContent='Retrying…';error.hidden=true;
+ try{const company=await request('/api/companies/'+encodeURIComponent(id)+'/retry',{});renderCard(company);updateCount();schedulePoll();message('list-status',`${company.borrower?.name||id}: analysis queued again.`);}
+ catch(failure){error.textContent=failure.message;error.hidden=false;button.disabled=false;button.textContent='Retry analysis';}
+});
+let deleting=null;
+$('grid').addEventListener('click',async event=>{
+ // Demo aid: duplicates a prepared workspace so the same onboarding can be rehearsed again without another Nemotron run.
+ const copy=event.target.closest('[data-copy]');if(!copy||copy.disabled)return;
+ copy.disabled=true;copy.textContent='Copying…';
+ try{const made=await request('/api/companies/'+encodeURIComponent(copy.dataset.copy)+'/copy',{});message('list-status',`${made.borrower?.name||made.id} was created as a copy.`);await load();}
+ catch(error){message('list-status',error.message);}
+ finally{copy.disabled=false;copy.textContent='Copy credit agreement';}
+});
+$('grid').addEventListener('click',event=>{
+ const button=event.target.closest('[data-delete]');if(!button)return;
+ deleting=button.dataset.delete;
+ $('delete-text').textContent=`${companies.get(deleting)?.borrower?.name||deleting} (${deleting}) will be removed with its uploaded documents, extracted clauses, assumptions and report history. This cannot be undone.`;
+ message('delete-error','');$('delete-confirm').disabled=false;$('delete-confirm').textContent='Delete permanently';$('delete-dialog').showModal();
+});
+$('delete-cancel').addEventListener('click',()=>$('delete-dialog').close());
+$('delete-confirm').addEventListener('click',async()=>{
+ const id=deleting,name=companies.get(id)?.borrower?.name||id;$('delete-confirm').disabled=true;$('delete-confirm').textContent='Deleting…';
+ try{await request('/api/companies/'+encodeURIComponent(id),{},'DELETE');deleted.add(id);cards.get(id)?.remove();cards.delete(id);companies.delete(id);updateCount();$('delete-dialog').close();message('list-status',`${name} was deleted.`);}
+ catch(error){message('delete-error',error.message);$('delete-confirm').disabled=false;$('delete-confirm').textContent='Delete permanently';}
+});
+load();
+</script>
+</body>
+</html>

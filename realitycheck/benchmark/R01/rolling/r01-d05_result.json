@@ -1,0 +1,577 @@
+{
+  "id": "R01-D05",
+  "event": {
+    "id": "R01-D05",
+    "title": "Second-quarter 2024 results",
+    "event_date": "2024-08-06",
+    "available_at": "2024-08-06",
+    "review_date": "2024-08-06",
+    "sources": [
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0013",
+        "text": "Company Executing on “iRobot Elevate” Strategy to Focus on Branding, Innovation and Operating Performance"
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0016",
+        "text": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0017",
+        "text": "“We are executing iRobot Elevate, a strategy focused on five pillars of financial performance, customer-centricity, bringing innovative products to market in an entirely new and more profitable way, continuing our operational and organization improvements, and developing and retaining our best talent,” said Gary Cohen, iRobot CEO. “We are elevating everything we do at iRobot to improve our performance and generate long-term shareholder value."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0018",
+        "text": "“In the second quarter, we made significant progress, specifically in lowering the Company’s cost structure through aggressive restructuring efforts. As part of our iRobot Elevate strategy, we strengthened our balance sheet, narrowed our operating loss, decreased headcount, and substantially reduced inventory. Without a non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to our new product development paradigm with our contract manufacturers, we would have met our Q2 improvement targets for gross margin, operating loss, and net loss per share."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0019",
+        "text": "“On the top line, second-quarter revenue came in at the low end of our outlook and was affected by a more challenging consumer spending environment, heightened competition in our market segment and greater-than-expected foreign currency impact. The impact of these headwinds is reflected in our updated revenue outlook for the full year."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0020",
+        "text": "“In July, we announced our most advanced product, the Roomba Combo 10 Max robot + AutoWash Dock. It represents an important milestone in our product innovation roadmap. Our talented team is focused on bringing innovative products to market to refresh our entire product line and enable iRobot to be significantly more competitive. In 2025, we plan to launch significant technological enhancements and new products across the price points we serve."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0021",
+        "text": "“Looking ahead, I am confident we can capitalize on our iconic brand with a renewed consumer-centric emphasis and a sharply focused innovation and product roadmap to advance our growth initiatives and deliver long-term shareholder value.”"
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0022",
+        "text": "Second Quarter 2024 Financial Results (in millions, except per share amounts and percentages)"
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0082",
+        "text": "1) In Q2'24, GAAP and Non-GAAP gross margin were negatively impacted by an $18.4 million non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to our new product development paradigm with our contract manufacturers (the “Manufacturing Transition Charge”), which reduced GAAP and non-GAAP gross margin by 11.1 percentage points."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0083",
+        "text": "2) In Q2'24, GAAP and Non-GAAP operating loss were negatively impacted by the Manufacturing Transition Charge."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0084",
+        "text": "3) In Q2'24, GAAP and Non-GAAP net loss per share were negatively impacted by the Manufacturing Transition Charge, which reduced GAAP and non-GAAP net loss per share by $0.63."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0086",
+        "text": "•As of June 29, 2024, the Company’s cash and cash equivalents totaled $108.5 million, compared with $118.4 million as of first quarter 2024. The Company also had an additional $40.5 million restricted cash set aside for future repayment of its term loan, subject to limited rights for the purchase of inventory in the third quarters of fiscal 2024 and 2025."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0087",
+        "text": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million, representing a 41% reduction from the second quarter of 2023."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0088",
+        "text": "•During the second quarter, the Company sold 1.1 million shares under its at-the-market (ATM) offering program for total net proceeds of $12.3 million. At quarter end, the Company had $81.1 million remaining under its $100 million ATM offering program."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0089",
+        "text": "•As of June 29, 2024, iRobot has reduced its total headcount by 35% since year-end 2023."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0090",
+        "text": "•In the second quarter of 2024, revenue declined 35.6% in the U.S., 34.7% in Japan and 21.6% in EMEA over the prior-year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 28% over the prior-year period."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0091",
+        "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 76% of total robot sales in the second quarter of 2024 versus 84% from the same period last year, reflecting the introduction of the Roomba Combo Essential, which provides the iRobot 2-in-1 cleaning experience at a lower price point."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0093",
+        "text": "•The recently introduced Roomba Essential successfully reached full distribution coverage, launching in 14,000 stores across all three regions. In Japan, Roomba Essential was number one in units sold in May and June in the robot vacuum cleaner market, according to GfK."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0094",
+        "text": "•iRobot introduced its most advanced robot vacuum and mop, the Roomba Combo 10 Max Robot + AutoWash Dock. The newly designed 2-in-1 Roomba Combo 10 Max brings independent cleaning to a new level with iRobot’s first multifunction AutoWash Dock and added intelligence."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0095",
+        "text": "•The Roomba Combo 10 Max received favorable launch coverage in the US and EMEA, including in The Verge, Mashable, Reviewed, PCMag, ZDNet, Frandroid, El Espanol and T3."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0096",
+        "text": "•For the 10th consecutive year, Roomba was a featured product in Amazon’s Prime Day event, which was held on July 16-17. The Company’s products received Prime Day related media coverage in outlets including CNET, CNN Underscored, Engadget, Real Simple, USA Today and Forbes Vetted."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0097",
+        "text": "•The Roomba j9 series and Roomba Essential series continued to receive favorable media coverage, reviews and awards, including in GQ, Men’s Health, Reviewed and Insider."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0099",
+        "text": "iRobot is providing GAAP and non-GAAP financial expectations for the third quarter ending September 28, 2024. Due to the aforementioned Manufacturing Transition Charge, persistent foreign currency headwinds, and consumer market softness, the Company also is updating the full-year 2024 outlook it provided on May 7, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0103",
+        "text": "| Revenue | $217 - $223 million | | — | | $217 - $223 million"
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0110",
+        "text": "| Revenue | $765 - $800 million | | — | | $765 - $800 million"
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0114",
+        "text": "*The Company revised these three FY2024 metrics primarily to reflect the impact of the Manufacturing Transition Charge."
+      },
+      {
+        "document_id": "IRBT-PR-2024-08-06",
+        "locator": "P0115",
+        "text": "As previously noted, the Company expects to generate modest positive cash flow from operations during the second half of the year."
+      }
+    ]
+  },
+  "borrower_id": "R01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:40:51.215291+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "The Q2 2024 press release shows iRobot reduced inventory by 41%, raised $12.3M via ATM equity offering, and announced results on time, indicating no new debt draw and continued inventory management. No information on Amazon break fee, receivables, monthly compliance certificates, or defaults emerged.",
+  "attributions": [
+    {
+      "id": "att-9f81aa4b-4b7b-4c52-a1f1-713bdf677222",
+      "target_type": "assumption",
+      "target_id": "R01-A03",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "The Company sold 1.1M shares under its ATM offering for $12.3M net proceeds, showing it met liquidity needs without new debt.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0088",
+          "quote": "During the second quarter, the Company sold 1.1 million shares under its at-the-market (ATM) offering program for total net proceeds of $12.3 million.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "No additional debt needed",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-992fd4ce-8bc4-4031-b8c8-3949f872edd6",
+      "target_type": "assumption",
+      "target_id": "R01-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Inventory fell to $101.4M, a 41% reduction from Q2 2023, indicating active inventory management aligned with run rates.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0087",
+          "quote": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million, representing a 41% reduction from the second quarter of 2023.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Inventory level management",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-0b5287fd-7543-4aed-8c03-311f2d1e5711",
+      "target_type": "assumption",
+      "target_id": "R01-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Results for Q2 ended June 29, 2024 were announced on August 6, 2024, demonstrating timely financial reporting.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0016",
+          "quote": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Timely financial reporting and compliance certification",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-9bd7c412-ccef-4032-9799-354a2dac8c4a",
+      "target_type": "covenant",
+      "target_id": "C02",
+      "relation_type": "covenant_input",
+      "risk_direction": "beneficial",
+      "proposed_status": null,
+      "rationale": "The Q2 results were announced on August 6, 2024, for the quarter ended June 29, 2024, indicating timely delivery of quarterly financial statements.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0016",
+          "quote": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Annual, quarterly and budget financial statements; going-concern condition",
+      "verified": true,
+      "target_version": "1.0",
+      "applicability": "selected"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R01-A02",
+      "target_title": "Amazon break‑fee availability",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A03",
+      "target_title": "No additional debt needed",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A04",
+      "target_title": "Inventory level management",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A05",
+      "target_title": "Adequate borrowing base collateral",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A06",
+      "target_title": "Timely financial reporting and compliance certification",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "insufficient_evidence",
+      "rationale": "Consolidated Core Assets cannot be determined without receivables; cash ($108.5M) and inventory ($101.4M) alone are insufficient to test the $250M Minimum Core Assets Test.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0086",
+          "quote": "•As of June 29, 2024, the Company’s cash and cash equivalents totaled $108.5 million",
+          "verified": true
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0087",
+          "quote": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    },
+    {
+      "clause_id": "C02",
+      "status": "compliant",
+      "rationale": "Quarterly financial statements for Q2 2024 were delivered on August 6, 2024, within the required timeframe, satisfying the reporting duty.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0016",
+          "quote": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0"
+    }
+  ],
+  "warnings": [
+    "Attribution 4 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 5 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 6 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 8 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 9 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 10 withheld: evidence citation did not verify at its document and locator.",
+    "Covenant assessment 'C03' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C04' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C05' withheld: invalid clause, status or citation."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The Q2 2024 press release shows iRobot reduced inventory by 41%, raised $12.3M via ATM equity offering, and announced results on time, indicating no new debt draw and continued inventory management. No information on Amazon break fee, receivables, monthly compliance certificates, or defaults emerged.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "The Company sold 1.1M shares under its ATM offering for $12.3M net proceeds, showing it met liquidity needs without new debt.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0088",
+            "quote": "During the second quarter, the Company sold 1.1 million shares under its at-the-market (ATM) offering program for total net proceeds of $12.3 million."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Inventory fell to $101.4M, a 41% reduction from Q2 2023, indicating active inventory management aligned with run rates.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0087",
+            "quote": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million, representing a 41% reduction from the second quarter of 2023."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Results for Q2 ended June 29, 2024 were announced on August 6, 2024, demonstrating timely financial reporting.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0016",
+            "quote": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A02",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "No evidence regarding Amazon break‑fee receipt or the status of the Amazon acquisition is provided in the event.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "Amazon break‑fee amount received"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A05",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event provides inventory data but no receivables figures needed to assess borrowing base collateral sufficiency.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "Eligible receivables balance"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C01",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "Consolidated Core Assets cannot be calculated without receivables data; cash and inventory alone are insufficient to test the Minimum Core Assets covenant.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "Accounts receivable balance"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C02",
+        "relation_type": "covenant_input",
+        "risk_direction": "beneficial",
+        "proposed_status": null,
+        "rationale": "The Q2 results were announced on August 6, 2024, for the quarter ended June 29, 2024, indicating timely delivery of quarterly financial statements.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0016",
+            "quote": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C03",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "No monthly compliance certificates or monthly financial deliverables are evidenced for the period up to June 2024.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "Monthly Compliance Certificates for fiscal months ending July 2023 – June 2024"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C04",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "The event contains no information on Amazon break‑fee receipt or termination of the Amazon Acquisition Agreement, needed to assess the Break Fee Sweep covenant.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "Amazon Break Fee receipt status"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C05",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "No default or event of default is mentioned, so there is no basis to evaluate the notice‑of‑default obligation.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [
+          "Occurrence of any Default or Event of Default"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "insufficient_evidence",
+        "rationale": "Consolidated Core Assets cannot be determined without receivables; cash ($108.5M) and inventory ($101.4M) alone are insufficient to test the $250M Minimum Core Assets Test.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0086",
+            "quote": "•As of June 29, 2024, the Company’s cash and cash equivalents totaled $108.5 million"
+          },
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0087",
+            "quote": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million"
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "status": "compliant",
+        "rationale": "Quarterly financial statements for Q2 2024 were delivered on August 6, 2024, within the required timeframe, satisfying the reporting duty.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2024-08-06",
+            "locator": "P0016",
+            "quote": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024."
+          }
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "status": "insufficient_evidence",
+        "rationale": "No monthly compliance certificates or monthly financial deliverables are provided for the period covering August 2023 through June 2024.",
+        "evidence": [],
+        "counterevidence": []
+      },
+      {
+        "clause_id": "C04",
+        "status": "insufficient_evidence",
+        "rationale": "The event does not state whether the Amazon Acquisition was terminated or whether any break fee was received, required to evaluate the Break Fee Sweep covenant.",
+        "evidence": [],
+        "counterevidence": []
+      },
+      {
+        "clause_id": "C05",
+        "status": "insufficient_evidence",
+        "rationale": "No default or event of default is mentioned, so there is no basis to assess the notice‑of‑default obligation.",
+        "evidence": [],
+        "counterevidence": []
+      }
+    ]
+  }
+}

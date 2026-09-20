@@ -1,0 +1,127 @@
+{
+  "borrower_id": "R01",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2025-03-12",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:07:39.932511+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06",
+    "R01-D07",
+    "R01-D08"
+  ],
+  "assessments_supplied": false,
+  "summary": "Review of iRobot's covenants against evidence through March 12, 2025 shows no need to alter the Minimum Core Assets Test, financial statement, monthly deliverables, Amazon Break Fee sweep, or Default notice clauses. However, emerging going‑concern doubt justifies adding a protection requiring management’s going‑concern assessment with each Compliance Certificate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence indicates the $250M core assets threshold or its step-down/up triggers require adjustment; Amazon Break Fee payments already governed."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "The going‑concern exception prohibition stays fit; added protection addresses emerging going‑concern doubt without altering existing covenant."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly financial statements and Compliance Certificate continue to meet monitoring needs; no evidence shows inadequacy."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon Break Fee sweep terms align with the $94M termination fee received and its allocated use; no evidence suggests revision."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice of Default provisions remain adequate; no evidence indicates need to change timing or content."
+    }
+  ],
+  "drift_judgment": "insufficient_evidence",
+  "drift_reasons": "Evidence of substantial doubt about the Company’s ability to continue as a going concern for at least 12 months justifies adding a new protection (management going‑concern assessment with each Compliance Certificate), altering risk coverage and monitoring needs.",
+  "warnings": [
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of iRobot's covenants against evidence through March 12, 2025 shows no need to alter the Minimum Core Assets Test, financial statement, monthly deliverables, Amazon Break Fee sweep, or Default notice clauses. However, emerging going‑concern doubt justifies adding a protection requiring management’s going‑concern assessment with each Compliance Certificate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates the $250M core assets threshold or its step-down/up triggers require adjustment; Amazon Break Fee payments already governed."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The going‑concern exception prohibition stays fit; added protection addresses emerging going‑concern doubt without altering existing covenant."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly financial statements and Compliance Certificate continue to meet monitoring needs; no evidence shows inadequacy."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Amazon Break Fee sweep terms align with the $94M termination fee received and its allocated use; no evidence suggests revision."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice of Default provisions remain adequate; no evidence indicates need to change timing or content."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence of substantial doubt about the Company’s ability to continue as a going concern for at least 12 months justifies adding a new protection (management going‑concern assessment with each Compliance Certificate), altering risk coverage and monitoring needs.",
+    "evidence": [
+      {
+        "document_id": "IRBT-PR-2025-03-12",
+        "locator": "P0088",
+        "quote": "there is substantial doubt about the Company’s ability to continue as a going concern for a period of at least 12 months from the date of the issuance of its"
+      }
+    ]
+  },
+  "model_judgment": "material_drift",
+  "elapsed_seconds": 54.8
+}

@@ -1,0 +1,123 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2025-05-06",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:30:21.875756+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06",
+    "R01-D07",
+    "R01-D08",
+    "R01-D09"
+  ],
+  "assessments_supplied": true,
+  "summary": "Review of the current covenant package (C01-C05) against evidence through May 6 2025 shows no dated evidence requiring tightening, loosening, or addition of protections; all clauses remain appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence that the $250M core assets threshold or break‑fee step‑up/down mechanics need adjustment; break fee received exceeds $24M, covenant functions as intended."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statements continue to be delivered on time; no evidence of going‑concern exceptions beyond those already permitted; covenant remains adequate."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly compliance certificates are being delivered as required; no evidence of missed or defective filings."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon break‑fee sweep has been executed per the agreement (initial $35M repayment, restricted cash for future use); no evidence of need to modify the sweep mechanics."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No default or event of default notices have been issued; the notice provision continues to operate as intended."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All clauses retained; weakened assumptions A03 (potential need for additional debt) and A04 (inventory misalignment) are already covered by the existing negative covenant on additional indebtedness and the Minimum Core Assets Test (which includes inventory), so no new protection is required.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of the current covenant package (C01-C05) against evidence through May 6 2025 shows no dated evidence requiring tightening, loosening, or addition of protections; all clauses remain appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence that the $250M core assets threshold or break‑fee step‑up/down mechanics need adjustment; break fee received exceeds $24M, covenant functions as intended.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statements continue to be delivered on time; no evidence of going‑concern exceptions beyond those already permitted; covenant remains adequate.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly compliance certificates are being delivered as required; no evidence of missed or defective filings.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Amazon break‑fee sweep has been executed per the agreement (initial $35M repayment, restricted cash for future use); no evidence of need to modify the sweep mechanics.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No default or event of default notices have been issued; the notice provision continues to operate as intended.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All clauses retained; weakened assumptions A03 (potential need for additional debt) and A04 (inventory misalignment) are already covered by the existing negative covenant on additional indebtedness and the Minimum Core Assets Test (which includes inventory), so no new protection is required."
+  },
+  "elapsed_seconds": 77.9
+}

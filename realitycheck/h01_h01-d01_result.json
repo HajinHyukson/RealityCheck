@@ -1,0 +1,659 @@
+{
+  "id": "H01-D01",
+  "event": {
+    "id": "H01-D01",
+    "title": "October 2026 management accounts",
+    "event_date": "2026-10-31",
+    "available_at": "2026-11-18",
+    "review_date": "2026-11-18",
+    "sources": [
+      {
+        "document_id": "H01-MGMT-2026-10",
+        "locator": "P1 — cash and working capital",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Unaudited management accounts for October 2026, delivered November 18, 2026. Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast. Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost."
+      },
+      {
+        "document_id": "H01-MGMT-2026-10",
+        "locator": "P2 — operations",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. No shipment delays beyond normal variation were recorded. No wholesale orders were cancelled or reduced beyond ordinary adjustments. No dividends, new Debt or liens arose in the month. The cash report lists all deposit accounts as held by Loan Parties with no restriction."
+      }
+    ]
+  },
+  "borrower_id": "H01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:25:40.117866+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "October 2026 management shows unrestricted cash $61.2m, inventory turning ~121 days, receivables 46 days, old inventory 5.8%, no supply disruption or material order loss, and timely reporting. All tested assumptions are supported except freight data, which lacks evidence. Covenants C01, C03, C04, C07, C08 are compliant; C05 and C06 not triggered; C02 and C09 lack quarter‑end data.",
+  "attributions": [
+    {
+      "id": "att-8e3030ee-3af0-471e-8f6c-113f0e1a952e",
+      "target_type": "assumption",
+      "target_id": "H01-A01",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "No shipment delays beyond normal variation were recorded, indicating lead times remain within the 55‑day expectation.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No shipment delays beyond normal variation were recorded.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "none",
+      "path": [],
+      "target_title": "Lead time stability",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-e3bd4801-f764-4af7-835b-10141132c0c0",
+      "target_type": "assumption",
+      "target_id": "H01-A02",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Inventory turns about 121 days, receivables collect in 46 days, and inventory older than 180 days is 5.8%, all within the assumed ranges.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "none",
+      "path": [],
+      "target_title": "Inventory and receivables turnover",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-2e5e3cda-40f4-4251-bbdc-57a463ea9356",
+      "target_type": "assumption",
+      "target_id": "H01-A03",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "No wholesale orders were cancelled or reduced beyond ordinary adjustments, so no material order loss that would test the DTC offset.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No wholesale orders were cancelled or reduced beyond ordinary adjustments.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "none",
+      "path": [],
+      "target_title": "DTC offset",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-e91da8b5-067f-477f-8439-4eca4e72ee44",
+      "target_type": "assumption",
+      "target_id": "H01-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "unclear",
+      "proposed_status": "insufficient_evidence",
+      "rationale": "The event provides no data on freight cost per pair or any documented recovery, so the assumption cannot be confirmed or weakened.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No shipment delays beyond normal variation were recorded.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [
+        "Freight cost per pair for at least two consecutive months and any recovery actions taken."
+      ],
+      "suggested_action": "request_information",
+      "proposed_adjustment": "obtain freight cost trend data",
+      "path": [],
+      "target_title": "FOB terms and freight recovery",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-86b5f64b-7473-496f-9065-5191b3bfd63b",
+      "target_type": "assumption",
+      "target_id": "H01-A05",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Unrestricted Cash was $61.2 million at month‑end, well above the $50 million forecast floor and the $35 million covenant floor.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "none",
+      "path": [],
+      "target_title": "Cash floor",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-afa9db93-ce4f-436c-9505-a513638b9e9c",
+      "target_type": "assumption",
+      "target_id": "H01-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Management accounts were delivered on November 18, 2026, within 20 calendar days of the October 31 month‑end, meeting the timeliness requirement.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Unaudited management accounts for October 2026, delivered November 18, 2026.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "none",
+      "path": [],
+      "target_title": "Reporting timeliness",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "approved_synthetic"
+    },
+    {
+      "id": "att-394f8108-007b-4747-a670-01203d5206ad",
+      "target_type": "assumption",
+      "target_id": "H01-A08",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Inventory turns about 121 days and old inventory is only 5.8%, indicating sufficient distribution capacity to support the turnover assumption.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "none",
+      "path": [],
+      "target_title": "Distribution capacity supports inventory turnover",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "working"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "H01-A01",
+      "target_title": "Lead time stability",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A02",
+      "target_title": "Inventory and receivables turnover",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A03",
+      "target_title": "DTC offset",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A04",
+      "target_title": "FOB terms and freight recovery",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A05",
+      "target_title": "Cash floor",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A06",
+      "target_title": "Reporting timeliness",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "H01-A07",
+      "target_title": "Manufacturer diversification reduces lead‑time risk",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "H01-A08",
+      "target_title": "Distribution capacity supports inventory turnover",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C01",
+      "status": "compliant",
+      "rationale": "Unrestricted Cash was $61.2 million at October 31, above the $35.0 million minimum, and the monthly cash report was delivered with the management accounts on November 18.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast.",
+          "verified": true
+        },
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "The cash report lists all deposit accounts as held by Loan Parties with no restriction.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C03",
+      "status": "compliant",
+      "rationale": "Management accounts and cash report were delivered on November 18, 2026, within 20 calendar days of the October 31 month‑end.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Unaudited management accounts for October 2026, delivered November 18, 2026.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C04",
+      "status": "compliant",
+      "rationale": "Inventory report details (amount, turnover, aging) were included in the October 2026 management accounts delivered within 20 days of month‑end.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C05",
+      "status": "not_triggered",
+      "rationale": "No supply disruption (>21‑day delay for ≥10% volume) or material order loss (≥$15 m cancellations) occurred in October 2026.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No shipment delays beyond normal variation were recorded. No wholesale orders were cancelled or reduced beyond ordinary adjustments.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C06",
+      "status": "not_triggered",
+      "rationale": "Unrestricted Cash remained above $45.0 million and no supply disruption or material order loss occurred, so no cash‑forecast trigger arose.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P1 — cash and working capital",
+          "quote": "Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast.",
+          "verified": true
+        },
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No shipment delays beyond normal variation were recorded. No wholesale orders were cancelled or reduced beyond ordinary adjustments.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C07",
+      "status": "compliant",
+      "rationale": "No dividends, distributions, or expansion capital expenditures were reported; the borrower remained within the restricted‑payment limits.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No dividends, new Debt or liens arose in the month.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C08",
+      "status": "compliant",
+      "rationale": "No new debt or liens were incurred in October 2026, satisfying the additional‑debt restriction.",
+      "evidence": [
+        {
+          "document_id": "H01-MGMT-2026-10",
+          "locator": "P2 — operations",
+          "quote": "No dividends, new Debt or liens arose in the month.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    }
+  ],
+  "warnings": [
+    "Covenant assessment 'C02' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C09' withheld: invalid clause, status or citation."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "October 2026 management shows unrestricted cash $61.2m, inventory turning ~121 days, receivables 46 days, old inventory 5.8%, no supply disruption or material order loss, and timely reporting. All tested assumptions are supported except freight data, which lacks evidence. Covenants C01, C03, C04, C07, C08 are compliant; C05 and C06 not triggered; C02 and C09 lack quarter‑end data.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "No shipment delays beyond normal variation were recorded, indicating lead times remain within the 55‑day expectation.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No shipment delays beyond normal variation were recorded."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "none",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A02",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Inventory turns about 121 days, receivables collect in 46 days, and inventory older than 180 days is 5.8%, all within the assumed ranges.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "none",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "No wholesale orders were cancelled or reduced beyond ordinary adjustments, so no material order loss that would test the DTC offset.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No wholesale orders were cancelled or reduced beyond ordinary adjustments."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "none",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "unclear",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event provides no data on freight cost per pair or any documented recovery, so the assumption cannot be confirmed or weakened.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No shipment delays beyond normal variation were recorded."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Freight cost per pair for at least two consecutive months and any recovery actions taken."
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "obtain freight cost trend data",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Unrestricted Cash was $61.2 million at month‑end, well above the $50 million forecast floor and the $35 million covenant floor.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "none",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Management accounts were delivered on November 18, 2026, within 20 calendar days of the October 31 month‑end, meeting the timeliness requirement.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Unaudited management accounts for October 2026, delivered November 18, 2026."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "none",
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "H01-A08",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Inventory turns about 121 days and old inventory is only 5.8%, indicating sufficient distribution capacity to support the turnover assumption.",
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "none",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "compliant",
+        "rationale": "Unrestricted Cash was $61.2 million at October 31, above the $35.0 million minimum, and the monthly cash report was delivered with the management accounts on November 18.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast."
+          },
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "The cash report lists all deposit accounts as held by Loan Parties with no restriction."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "status": "insufficient_evidence",
+        "rationale": "Net leverage is tested only at fiscal quarter‑ends; no quarter‑end data (e.g., December 31, 2026) is provided in this event.",
+        "already_assessed_in": null,
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "status": "compliant",
+        "rationale": "Management accounts and cash report were delivered on November 18, 2026, within 20 calendar days of the October 31 month‑end.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Unaudited management accounts for October 2026, delivered November 18, 2026."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "status": "compliant",
+        "rationale": "Inventory report details (amount, turnover, aging) were included in the October 2026 management accounts delivered within 20 days of month‑end.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Inventory was $168.0 million, turning in about 121 days. Wholesale receivables collected in 46 days. Inventory older than 180 days was 5.8% of inventory at cost."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "status": "not_triggered",
+        "rationale": "No supply disruption (>21‑day delay for ≥10% volume) or material order loss (≥$15 m cancellations) occurred in October 2026.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No shipment delays beyond normal variation were recorded. No wholesale orders were cancelled or reduced beyond ordinary adjustments."
+          }
+        ]
+      },
+      {
+        "clause_id": "C06",
+        "status": "not_triggered",
+        "rationale": "Unrestricted Cash remained above $45.0 million and no supply disruption or material order loss occurred, so no cash‑forecast trigger arose.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P1 — cash and working capital",
+            "quote": "Unrestricted Cash was $61.2 million at October 31, against $61.0 million in the base forecast."
+          },
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No shipment delays beyond normal variation were recorded. No wholesale orders were cancelled or reduced beyond ordinary adjustments."
+          }
+        ]
+      },
+      {
+        "clause_id": "C07",
+        "status": "compliant",
+        "rationale": "No dividends, distributions, or expansion capital expenditures were reported; the borrower remained within the restricted‑payment limits.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No dividends, new Debt or liens arose in the month."
+          }
+        ]
+      },
+      {
+        "clause_id": "C08",
+        "status": "compliant",
+        "rationale": "No new debt or liens were incurred in October 2026, satisfying the additional‑debt restriction.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "H01-MGMT-2026-10",
+            "locator": "P2 — operations",
+            "quote": "No dividends, new Debt or liens arose in the month."
+          }
+        ]
+      },
+      {
+        "clause_id": "C09",
+        "status": "insufficient_evidence",
+        "rationale": "The event contains no information about amendments, waivers, or defaults, so compliance with C09 cannot be assessed from this evidence.",
+        "already_assessed_in": null,
+        "evidence": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "number": "01",
+    "document_id": "DUO-BACKGROUND-01",
+    "title": "Duolingo Company Background",
+    "filename": "01 memo - Duolingo Company Background.pdf",
+    "source_mode": "real_background_digest",
+    "available_at": "2026-02-27",
+    "pages": 1,
+    "sha256": "0d8344a106412a4dafb0e8770c0e728446d70450f5246f90a2acd22074f7018d",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/duol-20251231.htm"
+  },
+  {
+    "number": "01",
+    "document_id": "DUO-SEC-2025",
+    "title": "Duolingo Inc FY2025 Form 10-K",
+    "filename": "sources/01 Duolingo FY2025 Form 10-K.pdf",
+    "source_mode": "real_public_filing",
+    "available_at": "2026-02-27",
+    "pages": 123,
+    "sha256": "becb131400e01f8663dd5f09a5655ad9a27c8d38bb4d693e170609089da453c1",
+    "source_url": "https://investors.duolingo.com/static-files/f19d76fb-dee4-4f13-96ae-138ebfd0f2d3"
+  },
+  {
+    "number": "02",
+    "document_id": "DUO-CA-2026-10-01",
+    "title": "Original Credit Agreement",
+    "filename": "02 Credit Agreement - Original Credit Agreement.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 3,
+    "sha256": "11dc8cc3564aead111e906c6778503778cfccab075314c9b19f2bdb93d0df6f5",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "03",
+    "document_id": "DUO-MEMO-2026-10-01",
+    "title": "Underwriting Memo",
+    "filename": "03 memo - Underwriting Memo.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 2,
+    "sha256": "29da8ec6f1eaddf1697eddfdede89b7c4c2f8fe07b33b739b665eb589945d781",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "04",
+    "document_id": "DUO-MODEL-2026-10-01",
+    "title": "Opening Financial and Operating Model",
+    "filename": "04 memo - Opening Financial and Operating Model.xlsx",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": "",
+    "sha256": "338ed7dd4a5a94aadc913a523c308e3fda08d5992511733d13148fb9029954f8",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "04",
+    "document_id": "DUO-MODEL-2026-10-01",
+    "title": "Opening Financial and Operating Schedules",
+    "filename": "04 memo - Opening Financial and Operating Schedules.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 4,
+    "sha256": "e8a1bc96adcf606de84eb2f52f40fb87c07ee6de1ceb31a84c240a917b38e1f2",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "05",
+    "document_id": "DUO-POLICY-2026-10-01",
+    "title": "Lender Review Guidelines",
+    "filename": "05 memo - Lender Review Guidelines.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 2,
+    "sha256": "3f6677ec544c98dded6864c10d38d30e5affb696bc69afd6d133a140f716de85",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "06",
+    "document_id": "DUO-MGMT-2026-10",
+    "title": "October Routine Management Report",
+    "filename": "06 Reports - October Routine Management Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-11-18",
+    "pages": 2,
+    "sha256": "b7c9305757f1a7e300c37eb5fe048ace1932fbac0d5e4f3adb2a1bb828624d1b",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "07",
+    "document_id": "DUO-INDUSTRY-2026-12-07",
+    "title": "External Learning Subscription Report",
+    "filename": "07 Reports - External Learning Subscription Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-12-07",
+    "pages": 1,
+    "sha256": "0f004ca9ae603cd16eeee4921f4e2a33600ba961b647307216690b3aaccf7e1c",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "08",
+    "document_id": "DUO-MGMT-2026-12",
+    "title": "December Company Impact and Cash Report",
+    "filename": "08 Reports - December Company Impact and Cash Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-01-19",
+    "pages": 3,
+    "sha256": "b38723e70fdbb665b7029f6bb1540087325a5b50ff338751d32467795096955d",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "09",
+    "document_id": "DUO-MGMT-2027-01",
+    "title": "January Mitigation and Updated Forecast",
+    "filename": "09 Reports - January Mitigation and Updated Forecast.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-12",
+    "pages": 2,
+    "sha256": "51348607156367d5755e2f345f58e01ffdef91cda9e6b769101b6d0f3f38a0f1",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "10",
+    "document_id": "DUO-10",
+    "title": "Processor Settlement Timing Notice",
+    "filename": "10 Reports - Processor Settlement Timing Notice.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-19",
+    "pages": 1,
+    "sha256": "1da3489c9261fb3aaf8ec3421c2bc963c611e64e3ee4ccc5fb9673074d5bc6e7",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "11",
+    "document_id": "DUO-11",
+    "title": "Treasury Forecast and Settlement Receivables",
+    "filename": "11 Reports - Treasury Forecast and Settlement Receivables.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-26",
+    "pages": 2,
+    "sha256": "e475b58f51dc8fb3821bb723d73e5f6b69e588c495b7ddbde682c089a246d94d",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "12",
+    "document_id": "DUO-12",
+    "title": "March Cash Results and Settlement Follow-up",
+    "filename": "12 Reports - March Cash Results and Settlement Follow-up.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-04-01",
+    "pages": 1,
+    "sha256": "1517770768804a2e9f327c70aabccd325eea550a004551287745fdf8eff65b57",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "13",
+    "document_id": "DUO-13",
+    "title": "Service Shutdown and Missed Interest Payment",
+    "filename": "13 Reports - Service Shutdown and Missed Interest Payment.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-05-11",
+    "pages": 5,
+    "sha256": "5d960f45504c6db27e29662e186febf10d7158f45f30064d19490c102241fe54",
+    "source_url": "Authored synthetic scenario"
+  }
+]

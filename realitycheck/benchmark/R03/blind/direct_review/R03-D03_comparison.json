@@ -1,0 +1,54 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2018-08-14",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Debt rose to $126.9m while six‑month adjusted EBITDA was $21.4m, yielding leverage under the current 4.0x floor; loosening avoids inadvertent breach.",
+      "change_type": "threshold",
+      "change": "Lower the required minimum First Lien Net Leverage Ratio floor to reflect observed lower leverage.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2018-08-14",
+          "locator": "P0075",
+          "quote": "For the first six months of 2018 adjusted EBITDA was $21.4 million, compared to $13.4 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "direction": "loosen",
+      "proposed_level": null,
+      "affected_assumptions": []
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Evidence shows the company's leverage is below the current First Lien Net Leverage Ratio floor, suggesting the threshold is too high. A loosening of the ratio floor is justified; all other covenants remain appropriate and no new protections are needed.",
+  "updated_reasons": "Evidence justifies a threshold loosening for the First Lien Net Leverage Ratio floor, which is a substantive change affecting risk coverage.",
+  "warnings": [
+    "C01: 1 unverifiable citation(s) dropped."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

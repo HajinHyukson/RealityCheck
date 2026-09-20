@@ -1,0 +1,758 @@
+[
+ {
+  "locator": "P0001",
+  "text": "8-K 1 tmb-20200728x8k.htm 8-K"
+ },
+ {
+  "locator": "P0002",
+  "text": "Lin"
+ },
+ {
+  "locator": "P0003",
+  "text": "UNITED STATES"
+ },
+ {
+  "locator": "P0004",
+  "text": "SECURITIES AND EXCHANGE COMMISSION"
+ },
+ {
+  "locator": "P0005",
+  "text": "Washington, D.C. 20549"
+ },
+ {
+  "locator": "P0006",
+  "text": "​"
+ },
+ {
+  "locator": "P0007",
+  "text": "FORM 8-K"
+ },
+ {
+  "locator": "P0008",
+  "text": "​"
+ },
+ {
+  "locator": "P0009",
+  "text": "CURRENT REPORT"
+ },
+ {
+  "locator": "P0010",
+  "text": "​"
+ },
+ {
+  "locator": "P0011",
+  "text": "Pursuant to Section 13 or 15(d) of"
+ },
+ {
+  "locator": "P0012",
+  "text": "the Securities Exchange Act of 1934"
+ },
+ {
+  "locator": "P0013",
+  "text": "​"
+ },
+ {
+  "locator": "P0014",
+  "text": "Date of Report (Date of earliest event reported): July 28, 2020"
+ },
+ {
+  "locator": "P0015",
+  "text": "​"
+ },
+ {
+  "locator": "P0016",
+  "text": "PETIQ, INC."
+ },
+ {
+  "locator": "P0017",
+  "text": "(Exact name of registrant as specified in its charter)"
+ },
+ {
+  "locator": "P0018",
+  "text": "​"
+ },
+ {
+  "locator": "P0019",
+  "text": "|"
+ },
+ {
+  "locator": "P0020",
+  "text": "​"
+ },
+ {
+  "locator": "P0021",
+  "text": "​"
+ },
+ {
+  "locator": "P0022",
+  "text": "|"
+ },
+ {
+  "locator": "P0023",
+  "text": "​"
+ },
+ {
+  "locator": "P0024",
+  "text": "​"
+ },
+ {
+  "locator": "P0025",
+  "text": "|"
+ },
+ {
+  "locator": "P0026",
+  "text": "​"
+ },
+ {
+  "locator": "P0027",
+  "text": "​"
+ },
+ {
+  "locator": "P0028",
+  "text": "|"
+ },
+ {
+  "locator": "P0029",
+  "text": "​"
+ },
+ {
+  "locator": "P0030",
+  "text": "​"
+ },
+ {
+  "locator": "P0031",
+  "text": "|"
+ },
+ {
+  "locator": "P0032",
+  "text": "​"
+ },
+ {
+  "locator": "P0033",
+  "text": "​"
+ },
+ {
+  "locator": "P0034",
+  "text": "|"
+ },
+ {
+  "locator": "P0035",
+  "text": "Delaware"
+ },
+ {
+  "locator": "P0036",
+  "text": "(State or other jurisdiction"
+ },
+ {
+  "locator": "P0037",
+  "text": "of incorporation)"
+ },
+ {
+  "locator": "P0038",
+  "text": "|"
+ },
+ {
+  "locator": "P0039",
+  "text": "​"
+ },
+ {
+  "locator": "P0040",
+  "text": "|"
+ },
+ {
+  "locator": "P0041",
+  "text": "001-38163"
+ },
+ {
+  "locator": "P0042",
+  "text": "(Commission"
+ },
+ {
+  "locator": "P0043",
+  "text": "File Number)"
+ },
+ {
+  "locator": "P0044",
+  "text": "|"
+ },
+ {
+  "locator": "P0045",
+  "text": "​"
+ },
+ {
+  "locator": "P0046",
+  "text": "|"
+ },
+ {
+  "locator": "P0047",
+  "text": "35-2554312"
+ },
+ {
+  "locator": "P0048",
+  "text": "(I.R.S. Employer"
+ },
+ {
+  "locator": "P0049",
+  "text": "Identification No.)"
+ },
+ {
+  "locator": "P0050",
+  "text": "​"
+ },
+ {
+  "locator": "P0051",
+  "text": "​"
+ },
+ {
+  "locator": "P0052",
+  "text": "|"
+ },
+ {
+  "locator": "P0053",
+  "text": "​"
+ },
+ {
+  "locator": "P0054",
+  "text": "(Address of principal executive offices)"
+ },
+ {
+  "locator": "P0055",
+  "text": "​"
+ },
+ {
+  "locator": "P0056",
+  "text": "​"
+ },
+ {
+  "locator": "P0057",
+  "text": "|"
+ },
+ {
+  "locator": "P0058",
+  "text": "​"
+ },
+ {
+  "locator": "P0059",
+  "text": "​"
+ },
+ {
+  "locator": "P0060",
+  "text": "|"
+ },
+ {
+  "locator": "P0061",
+  "text": "​"
+ },
+ {
+  "locator": "P0062",
+  "text": "​"
+ },
+ {
+  "locator": "P0063",
+  "text": "|"
+ },
+ {
+  "locator": "P0064",
+  "text": "923 S. Bridgeway Pl"
+ },
+ {
+  "locator": "P0065",
+  "text": "Eagle, Idaho"
+ },
+ {
+  "locator": "P0066",
+  "text": "(Address of principal executive offices)"
+ },
+ {
+  "locator": "P0067",
+  "text": "|"
+ },
+ {
+  "locator": "P0068",
+  "text": "​"
+ },
+ {
+  "locator": "P0069",
+  "text": "|"
+ },
+ {
+  "locator": "P0070",
+  "text": "83616"
+ },
+ {
+  "locator": "P0071",
+  "text": "(Zip Code)"
+ },
+ {
+  "locator": "P0072",
+  "text": "​"
+ },
+ {
+  "locator": "P0073",
+  "text": "(208) 939-8900"
+ },
+ {
+  "locator": "P0074",
+  "text": "(Registrant’s telephone number, including area code)"
+ },
+ {
+  "locator": "P0075",
+  "text": "​"
+ },
+ {
+  "locator": "P0076",
+  "text": "N/A"
+ },
+ {
+  "locator": "P0077",
+  "text": "(Former name or former address, if changed since last report)"
+ },
+ {
+  "locator": "P0078",
+  "text": "​"
+ },
+ {
+  "locator": "P0079",
+  "text": "Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:"
+ },
+ {
+  "locator": "P0080",
+  "text": "​"
+ },
+ {
+  "locator": "P0081",
+  "text": "◻ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)"
+ },
+ {
+  "locator": "P0082",
+  "text": "​"
+ },
+ {
+  "locator": "P0083",
+  "text": "◻ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)"
+ },
+ {
+  "locator": "P0084",
+  "text": "​"
+ },
+ {
+  "locator": "P0085",
+  "text": "◻ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))"
+ },
+ {
+  "locator": "P0086",
+  "text": "​"
+ },
+ {
+  "locator": "P0087",
+  "text": "◻ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))"
+ },
+ {
+  "locator": "P0088",
+  "text": "​"
+ },
+ {
+  "locator": "P0089",
+  "text": "|"
+ },
+ {
+  "locator": "P0090",
+  "text": "Title of Each Class"
+ },
+ {
+  "locator": "P0091",
+  "text": "|"
+ },
+ {
+  "locator": "P0092",
+  "text": "Trading Symbol"
+ },
+ {
+  "locator": "P0093",
+  "text": "|"
+ },
+ {
+  "locator": "P0094",
+  "text": "Name of Exchange on Which Registered"
+ },
+ {
+  "locator": "P0095",
+  "text": "|"
+ },
+ {
+  "locator": "P0096",
+  "text": "Class A common stock, par value $0.001 per share"
+ },
+ {
+  "locator": "P0097",
+  "text": "|"
+ },
+ {
+  "locator": "P0098",
+  "text": "PETQ"
+ },
+ {
+  "locator": "P0099",
+  "text": "|"
+ },
+ {
+  "locator": "P0100",
+  "text": "Nasdaq Global Select"
+ },
+ {
+  "locator": "P0101",
+  "text": "​"
+ },
+ {
+  "locator": "P0102",
+  "text": "⌧ Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act (17 CFR 230.405) or Rule 12b-2 of the Securities Exchange Act (17 CFR 240.12b-2)"
+ },
+ {
+  "locator": "P0103",
+  "text": "​"
+ },
+ {
+  "locator": "P0104",
+  "text": "⌧ Indicate by check mark if the registrant has elected not to use the extended transition period for complying with new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act (17 CFR 240.13(a)-1)"
+ },
+ {
+  "locator": "P0105",
+  "text": "Securities registered pursuant to Section 12(b) of the Act:"
+ },
+ {
+  "locator": "P0106",
+  "text": "|"
+ },
+ {
+  "locator": "P0107",
+  "text": "​"
+ },
+ {
+  "locator": "P0108",
+  "text": "|"
+ },
+ {
+  "locator": "P0109",
+  "text": "​"
+ },
+ {
+  "locator": "P0110",
+  "text": "|"
+ },
+ {
+  "locator": "P0111",
+  "text": "​"
+ },
+ {
+  "locator": "P0112",
+  "text": "​"
+ },
+ {
+  "locator": "P0113",
+  "text": "Item 1.01. Entry into a Material Definitive Agreement"
+ },
+ {
+  "locator": "P0114",
+  "text": "​"
+ },
+ {
+  "locator": "P0115",
+  "text": "In connection with the closing of the previously announced acquisition (the “Acquisition) by PetIQ, LLC (“Buyer”), the operating subsidiary of PetIQ, Inc. (“Company”), of the U.S. rights to Capstar ® and CapAction ® and related assets (the “Assets”) from Elanco, US Inc. (the “Seller”), as described in Item 2.01 of this Current Report on Form 8-K, on July 28, 2020, Buyer entered into an amendment to its existing revolving credit agreement (the “Credit Agreement Amendment”) to allow for the completion of the Acquisition as well as the incurrence of up to $14.5 million of additional indebtedness relating to the construction of the Company’s new headquarters. In addition, on July 28, 2020, Buyer entered into an amendment to its term loan credit agreement (the “Term Loan Agreement Amendment”) to allow for the incurrence of up to $14.5 million of additional indebtedness relating to the construction of the Company’s new headquarters. The foregoing descriptions of the Credit Agreement Amendment and the Term Loan Agreement Amendment are summaries only and are qualified in their entirety by reference to the full text of the Credit Agreement Amendment and the Term Loan Agreement Amendment, which are attached hereto as Exhibits 10.1 and 10.2, respectively, and incorporated by reference herein."
+ },
+ {
+  "locator": "P0116",
+  "text": "Item 2.01. Completion of Acquisition or Disposition of Assets"
+ },
+ {
+  "locator": "P0117",
+  "text": "On July 31, 2020, the Company completed the Acquisition. The purchase price for the Acquisition was $95 million in cash, plus the cost of certain outstanding finished goods inventory in saleable condition. Following closing, the Seller will manufacture and supply the Assets and provide certain technology transfer services to Buyer over a 24-month period pursuant to a manufacturing and supply agreement."
+ },
+ {
+  "locator": "P0118",
+  "text": "Item 7.01 Regulation FD"
+ },
+ {
+  "locator": "P0119",
+  "text": "On August 3, 2020, the Company issued a press release announcing the closing of the Acquisition, which is included as Exhibit 99.1 to this Current Report on Form 8-K."
+ },
+ {
+  "locator": "P0120",
+  "text": "​"
+ },
+ {
+  "locator": "P0121",
+  "text": "The information furnished under Item 7.01 of this Current Report on Form 8-K, including Exhibit 99.1, is being furnished and shall not be deemed to be “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference in any filing under the Securities Act of 1933, as, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing."
+ },
+ {
+  "locator": "P0122",
+  "text": "Item 9.01 Financial Statements and Exhibits."
+ },
+ {
+  "locator": "P0123",
+  "text": "|"
+ },
+ {
+  "locator": "P0124",
+  "text": "​"
+ },
+ {
+  "locator": "P0125",
+  "text": "|"
+ },
+ {
+  "locator": "P0126",
+  "text": "|"
+ },
+ {
+  "locator": "P0127",
+  "text": "|"
+ },
+ {
+  "locator": "P0128",
+  "text": "|"
+ },
+ {
+  "locator": "P0129",
+  "text": "(d)"
+ },
+ {
+  "locator": "P0130",
+  "text": "|"
+ },
+ {
+  "locator": "P0131",
+  "text": "Exhibits:"
+ },
+ {
+  "locator": "P0132",
+  "text": "|"
+ },
+ {
+  "locator": "P0133",
+  "text": "​"
+ },
+ {
+  "locator": "P0134",
+  "text": "|"
+ },
+ {
+  "locator": "P0135",
+  "text": "​"
+ },
+ {
+  "locator": "P0136",
+  "text": "|"
+ },
+ {
+  "locator": "P0137",
+  "text": "​"
+ },
+ {
+  "locator": "P0138",
+  "text": "| | |"
+ },
+ {
+  "locator": "P0139",
+  "text": "|"
+ },
+ {
+  "locator": "P0140",
+  "text": "Exhibit No."
+ },
+ {
+  "locator": "P0141",
+  "text": "|"
+ },
+ {
+  "locator": "P0142",
+  "text": "|"
+ },
+ {
+  "locator": "P0143",
+  "text": "Description"
+ },
+ {
+  "locator": "P0144",
+  "text": "|"
+ },
+ {
+  "locator": "P0145",
+  "text": "10.1"
+ },
+ {
+  "locator": "P0146",
+  "text": "|"
+ },
+ {
+  "locator": "P0147",
+  "text": "Fourth Amendment to Term Loan Credit Agreement, dated July 28, 2020, by and among PetIQ, LLC, the guarantors party thereto, Ares Capital Corporation and the other lenders party thereto and Ares Capital Corporation, as administrative agent."
+ },
+ {
+  "locator": "P0148",
+  "text": "|"
+ },
+ {
+  "locator": "P0149",
+  "text": "10.2"
+ },
+ {
+  "locator": "P0150",
+  "text": "|"
+ },
+ {
+  "locator": "P0151",
+  "text": "Six Amendment to Amended and Restated Credit Agreement, dated July 28, 2020, by and among PetIQ, LLC, and the other credit parties thereto, the lenders party thereto and East West Bank, as administrative agent."
+ },
+ {
+  "locator": "P0152",
+  "text": "|"
+ },
+ {
+  "locator": "P0153",
+  "text": "99.1"
+ },
+ {
+  "locator": "P0154",
+  "text": "|"
+ },
+ {
+  "locator": "P0155",
+  "text": "Press release dated August 3, 2020."
+ },
+ {
+  "locator": "P0156",
+  "text": "​"
+ },
+ {
+  "locator": "P0157",
+  "text": "​"
+ },
+ {
+  "locator": "P0158",
+  "text": "|"
+ },
+ {
+  "locator": "P0159",
+  "text": "​"
+ },
+ {
+  "locator": "P0160",
+  "text": "|"
+ },
+ {
+  "locator": "P0161",
+  "text": "​"
+ },
+ {
+  "locator": "P0162",
+  "text": "|"
+ },
+ {
+  "locator": "P0163",
+  "text": "​"
+ },
+ {
+  "locator": "P0164",
+  "text": "SIGNATURES"
+ },
+ {
+  "locator": "P0165",
+  "text": "Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized."
+ },
+ {
+  "locator": "P0166",
+  "text": "|"
+ },
+ {
+  "locator": "P0167",
+  "text": "|"
+ },
+ {
+  "locator": "P0168",
+  "text": "|"
+ },
+ {
+  "locator": "P0169",
+  "text": "|"
+ },
+ {
+  "locator": "P0170",
+  "text": "|"
+ },
+ {
+  "locator": "P0171",
+  "text": "PETIQ, INC."
+ },
+ {
+  "locator": "P0172",
+  "text": "​"
+ },
+ {
+  "locator": "P0173",
+  "text": "|"
+ },
+ {
+  "locator": "P0174",
+  "text": "Dated: August 3, 2020"
+ },
+ {
+  "locator": "P0175",
+  "text": "|"
+ },
+ {
+  "locator": "P0176",
+  "text": "By"
+ },
+ {
+  "locator": "P0177",
+  "text": "|"
+ },
+ {
+  "locator": "P0178",
+  "text": "/s/ John Newland"
+ },
+ {
+  "locator": "P0179",
+  "text": "|"
+ },
+ {
+  "locator": "P0180",
+  "text": "|"
+ },
+ {
+  "locator": "P0181",
+  "text": "Name:"
+ },
+ {
+  "locator": "P0182",
+  "text": "|"
+ },
+ {
+  "locator": "P0183",
+  "text": "John Newland"
+ },
+ {
+  "locator": "P0184",
+  "text": "|"
+ },
+ {
+  "locator": "P0185",
+  "text": "|"
+ },
+ {
+  "locator": "P0186",
+  "text": "Title:"
+ },
+ {
+  "locator": "P0187",
+  "text": "|"
+ },
+ {
+  "locator": "P0188",
+  "text": "Chief Financial Officer"
+ },
+ {
+  "locator": "P0189",
+  "text": "​"
+ }
+]

@@ -1,0 +1,21 @@
+JUDGE: NVIDIA Nemotron
+1|S3|10|Names both pipeline stages directly, identity classification and the drift metric, making it trivially benchmarkable.
+2|S17|9|Uses exposure and drift, the project's own quantified output, describing a measurable system state rather than a feeling.
+3|S15|9|Labels points straight at classifier output, letting a judge imagine checking labels against reported revenue segments.
+4|S13|8|Pairs a concrete finance term with a quantifiable verb, though shifts is less specific than the project's named drift metric.
+5|S5|8|Frames drift as a mismatch between stated intent and measured exposure, mirroring the actual label-versus-reality eval design.
+6|S19|7|Representations nods to filings language and stale implies a time-based metric, decent but a step removed from labels.
+7|S10|6|Plain and testable, comparing holdings over time, but doesn't signal classification or identity work under the hood.
+8|S20|6|Concrete asset-level framing, but fits is vague about what standard the asset is measured against.
+9|S7|5|Gestures at reclassification but something different is too unspecific to promise a concrete evaluable comparison.
+10|S6|5|Models is ambiguous between financial models and the ML model, muddying what's actually being measured.
+11|S11|4|Outgrows its model is a vague metaphor that doesn't map to any specific classification or measurement step.
+12|S16|4|Breaks the model overclaims causality and reuses the ambiguous model framing without a clear benchmark hook.
+13|S8|4|Assumptions and relevance are soft, subjective terms with no obvious way to test or benchmark.
+14|S14|3|Cliche phrasing about yesterday's assumptions reads as marketing copy rather than a system description.
+15|S2|3|Philosophical framing about assumptions versus reality gives no hint of a concrete, evaluable model task.
+16|S1|3|Sentimental beneath you phrasing centers feeling over mechanism, with nothing a benchmark could confirm.
+17|S12|2|Meaning changes over time is abstract to the point of being unfalsifiable by any eval.
+18|S18|2|Underlying story is narrative marketing language, the opposite of a testable system claim.
+19|S4|2|Thesis breaks overclaims a subjective investment judgment call the system can't actually verify.
+20|S9|1|Invalidates the original thesis is the strongest overclaim of the set, promising certainty no eval could support.

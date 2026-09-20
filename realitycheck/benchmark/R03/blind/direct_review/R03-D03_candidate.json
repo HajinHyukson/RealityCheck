@@ -1,0 +1,129 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2018-08-14",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:15:25.691211+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03"
+  ],
+  "assessments_supplied": false,
+  "summary": "Evidence shows the company's leverage is below the current First Lien Net Leverage Ratio floor, suggesting the threshold is too high. A loosening of the ratio floor is justified; all other covenants remain appropriate and no new protections are needed.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Debt rose to $126.9m while six‑month adjusted EBITDA was $21.4m, yielding leverage under the current 4.0x floor; loosening avoids inadvertent breach.",
+      "change_type": "threshold",
+      "change": "Lower the required minimum First Lien Net Leverage Ratio floor to reflect observed lower leverage.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2018-08-14",
+          "locator": "P0075",
+          "quote": "For the first six months of 2018 adjusted EBITDA was $21.4 million, compared to $13.4 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "direction": "loosen",
+      "proposed_level": null,
+      "affected_assumptions": []
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change annual statement delivery timing or content."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly statement and compliance certificate requirements remain supported by available evidence."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Monthly statement obligations show no evidence of deficiency or need for adjustment."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice provisions for defaults and material adverse effect are unchanged by the evidence."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Indebtedness restrictions adequately reflect the observed borrowing and no evidence suggests a revision."
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Evidence justifies a threshold loosening for the First Lien Net Leverage Ratio floor, which is a substantive change affecting risk coverage.",
+  "warnings": [
+    "C01: 1 unverifiable citation(s) dropped."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence shows the company's leverage is below the current First Lien Net Leverage Ratio floor, suggesting the threshold is too high. A loosening of the ratio floor is justified; all other covenants remain appropriate and no new protections are needed.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "loosen",
+        "change": "Lower the required minimum First Lien Net Leverage Ratio floor to reflect observed lower leverage.",
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Debt rose to $126.9m while six‑month adjusted EBITDA was $21.4m, yielding leverage under the current 4.0x floor; loosening avoids inadvertent breach.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2018-05-15",
+            "locator": "P0053",
+            "quote": "The Company’s long-term debt balance was $126.9 million as of March 31, 2018, compared to $17.2 million at December 31, 2017."
+          },
+          {
+            "document_id": "PETQ-PR-2018-08-14",
+            "locator": "P0075",
+            "quote": "For the first six months of 2018 adjusted EBITDA was $21.4 million, compared to $13.4 million for the same period in the prior year."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change annual statement delivery timing or content."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Quarterly statement and compliance certificate requirements remain supported by available evidence."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Monthly statement obligations show no evidence of deficiency or need for adjustment."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Notice provisions for defaults and material adverse effect are unchanged by the evidence."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Indebtedness restrictions adequately reflect the observed borrowing and no evidence suggests a revision."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence justifies a threshold loosening for the First Lien Net Leverage Ratio floor, which is a substantive change affecting risk coverage."
+  },
+  "elapsed_seconds": 49.0
+}

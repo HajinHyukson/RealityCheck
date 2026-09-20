@@ -1,0 +1,5 @@
+{"stage": "drafting", "mode": "control", "reports": []}
+{"stage": "drafting", "mode": "updated", "reports": ["R02-D01", "R02-D02", "R02-D03", "R02-D04", "R02-D05"]}
+{"stage": "compared", "control": "insufficient_evidence", "updated": "no_material_drift", "attributable": [], "also_in_control": []}
+{"stage": "drafting", "mode": "updated", "reports": ["R02-D01", "R02-D02", "R02-D03", "R02-D04", "R02-D05"]}
+{"stage": "compared", "control": "insufficient_evidence", "updated": "material_drift", "attributable": [["C04", "reporting_frequency"]], "also_in_control": []}

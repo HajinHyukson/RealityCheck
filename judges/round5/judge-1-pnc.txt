@@ -1,0 +1,13 @@
+JUDGE: PNC Compound
+E1|7|Solid, direct, but "borrower risk" is slightly generic vs a named metric.
+E2|6|"Credit thesis" reads fintech-native but "risk profile" alone feels less crisp than E5/E9.
+E3|6|"Underwritten risk profile" is clunky phrasing; "financials" is vague, not a named driver.
+E4|4|Reverses word order vs the accepted pattern: moving reality named first, static baseline second.
+E5|9|Mirrors the ETF winner almost exactly; "actual" plus concrete "risk profile" anchors it well.
+E6|8|"Actual leverage" is a real, checkable metric; slightly narrower scope than risk profile.
+E7|7|Same strength as E6 but the filler "the" costs a word for no gain.
+E8|7|"Observed cash flows" ties directly to the demo's thesis language; "the" is still filler.
+E9|9|Near-twin of E5; "current" is fine but "actual" tests stronger per prior panel precedent.
+E10|5|Generalizes cleanly to the framework slide, but "economic reality" is the kind of abstract noun the panel already penalized.
+ACCEPT|E5|Detect when underwriting thesis drifts from actual risk profile keeps the exact winning static-baseline-then-actual-reality structure while anchoring thesis to a concrete, lender-checkable metric.
+OBJECT|E10|I'd block E10 as the panel's single sentence: it drops every credit-specific anchor (borrower, leverage, cash flow) for an abstract "economic reality" noun the panel has already penalized elsewhere.

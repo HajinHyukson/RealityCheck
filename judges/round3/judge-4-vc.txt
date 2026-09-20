@@ -1,0 +1,14 @@
+JUDGE: Seed Round VC
+C0|8|Solid, safe baseline, but "drifts unnoticed" doubles the project's own name and stays fairly abstract.
+C1|9|Concrete, plain English, keeps "label" language investors search for, generalizes past ETFs without overclaiming.
+C2|8|Clean generalization across asset classes, but "stated identity" feels slightly abstract for a homepage line.
+C3|8|Nicely fuses identity and label language, though "the label investors bought" reads a touch clunky.
+C4|6|Vivid, but "sold on" edges into accusing issuers of a sales pitch, a legal and tone risk.
+C5|9|Real-vs-stated framing mirrors the actual mechanism exactly, personal, safe, and generalizes cleanly beyond ETFs.
+C6|6|Ties nicely to filings-based classification, but narrows the pitch to a compliance check, not economic drift.
+C7|9|Concrete and safe, clearly names the label-versus-holdings gap without implying fault or intent.
+C8|9|Short, sharp, fuses identity and label cleanly, though it drops the exposure language some judges favored.
+C9|8|Maximally clear and ETF-literal, easy for any judge to grasp, but reads as one feature, not a platform.
+C10|5|Logically confused: an asset's identity can't coherently "drift from" a subjective investment thesis.
+ACCEPT|C5|It fuses the panel's favorite keywords, exposure and identity, into a safe real-versus-stated frame every judge can read as both clear and platform-scale.
+OBJECT|C4|"Sold on" implies the fund or issuer deceived investors, an accusation the product can't back up and a legal liability none of the five judges should accept.

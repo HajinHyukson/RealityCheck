@@ -1,0 +1,14 @@
+JUDGE: PNC Compound
+C0|8|Concrete and memorable, "unnoticed" adds risk awareness, but stays a bit abstract about what actually changed.
+C1|8|Clear fund-and-label framing, plain language, easy to grasp in a single hearing.
+C2|7|Solid but "stated identity" pairs two abstract nouns, slightly less concrete than the label-based lines.
+C3|8|Strong synthesis of identity and label with "investors bought" giving real personal stake, if a bit long.
+C4|8|Vivid "sold on" phrasing ties exposure to thesis nicely but leans slightly sales-pitchy for a risk tool.
+C5|8|Personal "your fund's real exposure" is direct and relatable, reads like something a business would actually use.
+C6|4|Reads like an internal QA log about filings and classification, not a user-facing benefit statement.
+C7|9|Very concrete, plain English, "actually holds" nails the core insight without any jargon.
+C8|8|Clean and tight, ties economic identity to label without overexplaining, easy to say in a pitch.
+C9|9|Simplest and most concrete line here, matches the ETF-wedge story exactly, zero jargon, instantly clear.
+C10|7|Identity-plus-thesis combo works but narrows the audience to individual investor theses over business use.
+ACCEPT|C9|It needs no explanation, matches the ETF-wedge entry point the team already chose, and no judge is likely to object to it as too jargon-heavy or too salesy.
+OBJECT|C6|It describes an internal classification step, not a benefit to a person or business, which is exactly the chatbot-wrapper-adjacent vagueness I score down.

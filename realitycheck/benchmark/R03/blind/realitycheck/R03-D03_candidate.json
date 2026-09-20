@@ -1,0 +1,109 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2018-08-14",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:21:04.979685+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03"
+  ],
+  "assessments_supplied": true,
+  "summary": "Evidence shows the loan agreement includes a maximum first‑lien net leverage ratio covenant, whereas the current package imposes a floor. Tightening C01 to a ceiling is warranted; all other clauses remain supported by timely reporting and stable performance.",
+  "clauses": [
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "The March 13, 2018 press release of FY 2017 results within 90 days supports timely annual reporting (assumption R03-A04)."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly releases on May 15 (Q1) and Aug 14 (Q2) meet the 45‑day deadline, supporting timely quarterly reporting."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence of monthly reporting issues; assumption R03-A04 remains supported."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence of default or material adverse effect; Q2 results show growth, supporting assumption R03-A05."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "EBITDA guidance indicates the contingent notes will likely be paid, with no breach of indebtedness restrictions; assumption R03-A07 supported."
+    }
+  ],
+  "drift_judgment": "insufficient_evidence",
+  "drift_reasons": "The change to impose a maximum leverage ratio ceiling tightens C01, altering risk coverage and monitoring needs, which constitutes material drift under the guidelines.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence shows the loan agreement includes a maximum first‑lien net leverage ratio covenant, whereas the current package imposes a floor. Tightening C01 to a ceiling is warranted; all other clauses remain supported by timely reporting and stable performance.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "definition",
+        "direction": "tighten",
+        "change": "Change the First Lien Net Leverage Ratio covenant from a floor (ratio shall not be less than) to a ceiling (ratio shall not be greater than) for each fiscal quarter.",
+        "affected_assumptions": [
+          "R03-A07"
+        ],
+        "rationale": "The 8‑K origination states the agreement includes a maintenance covenant requiring compliance with a maximum first‑lien net leverage ratio, indicating the current floor is incorrect and should be tightened to a ceiling.",
+        "evidence": [
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0065",
+            "quote": "The Term Loan Credit Agreement includes a maintenance covenant that requires compliance a maximum first lien net leverage ratio."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "The March 13, 2018 press release of FY 2017 results within 90 days supports timely annual reporting (assumption R03-A04)."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Quarterly releases on May 15 (Q1) and Aug 14 (Q2) meet the 45‑day deadline, supporting timely quarterly reporting."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence of monthly reporting issues; assumption R03-A04 remains supported."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence of default or material adverse effect; Q2 results show growth, supporting assumption R03-A05."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "EBITDA guidance indicates the contingent notes will likely be paid, with no breach of indebtedness restrictions; assumption R03-A07 supported."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "The change to impose a maximum leverage ratio ceiling tightens C01, altering risk coverage and monitoring needs, which constitutes material drift under the guidelines."
+  },
+  "model_judgment": "material_drift",
+  "elapsed_seconds": 33.7
+}

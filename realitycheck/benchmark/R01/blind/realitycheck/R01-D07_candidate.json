@@ -1,0 +1,120 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2025-01-13",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:27:05.667178+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06",
+    "R01-D07"
+  ],
+  "assessments_supplied": true,
+  "summary": "At the review date, only the Minimum Core Assets Test (C01) requires tightening to buffer against inventory overstatement risk shown by an $8M write-off of excess component inventory in Q4 2024. All other clauses (C02‑C05) are retained as no new evidence justifies change. This constitutes a material drift.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Evidence shows $8M write-off of excess component inventory in Q4 2024, indicating inventory management challenges that could overstate core assets and increase cash consumption.",
+      "change_type": "threshold",
+      "change": "Increase the Minimum Core Assets Test threshold to provide a buffer against potential inventory overstatement.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0014",
+          "quote": "Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A04"
+      ]
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence of financial statement delivery issues; assumption A06 supported."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly reporting already includes inventory via balance sheets; no new evidence requiring change."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon break fee has been received and used as per existing sweep; no evidence of need to alter."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence of default notice issues; assumption unchanged."
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "The tightened threshold for C01 addresses inventory overstatement risk evidenced by a Q4 2024 $8M write-off, altering risk coverage and thus constituting material drift.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "At the review date, only the Minimum Core Assets Test (C01) requires tightening to buffer against inventory overstatement risk shown by an $8M write-off of excess component inventory in Q4 2024. All other clauses (C02‑C05) are retained as no new evidence justifies change. This constitutes a material drift.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "tighten",
+        "change": "Increase the Minimum Core Assets Test threshold to provide a buffer against potential inventory overstatement.",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R01-A04"
+        ],
+        "rationale": "Evidence shows $8M write-off of excess component inventory in Q4 2024, indicating inventory management challenges that could overstate core assets and increase cash consumption.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0014",
+            "quote": "Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments"
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence of financial statement delivery issues; assumption A06 supported."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Monthly reporting already includes inventory via balance sheets; no new evidence requiring change."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Amazon break fee has been received and used as per existing sweep; no evidence of need to alter."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence of default notice issues; assumption unchanged."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "The tightened threshold for C01 addresses inventory overstatement risk evidenced by a Q4 2024 $8M write-off, altering risk coverage and thus constituting material drift."
+  },
+  "elapsed_seconds": 30.8
+}

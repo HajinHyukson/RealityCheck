@@ -1,0 +1,136 @@
+{
+  "id": "R01-D07",
+  "event": {
+    "id": "R01-D07",
+    "title": "Preliminary fourth-quarter 2024 results",
+    "event_date": "2025-01-13",
+    "available_at": "2025-01-13",
+    "review_date": "2025-01-13",
+    "sources": [
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0012",
+        "text": "BEDFORD, Mass., January 13, 2025 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0013",
+        "text": "Based on preliminary financial results, iRobot expects to report fourth-quarter revenue of approximately $171 million, GAAP operating loss of approximately ($59) million and non-GAAP operating loss of approximately ($47) million. The Company expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024, exceeding its internal forecast and continuing to improve its use of operating cash. These preliminary financial results have not been audited and are subject to adjustment based on iRobot’s completion of year-end financial close processes."
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0014",
+        "text": "“Our preliminary results reflect higher-than-anticipated seasonal promotional spending to stimulate sell-through prior to our 2025 new product launches,” said Gary Cohen, iRobot CEO. “Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments as part of our transition to a new product development paradigm with our contract manufacturers. Both had an impact on our gross margin and operating loss performance in the fourth quarter.”"
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0015",
+        "text": "“We have fundamentally changed the way we innovate, develop and build our robots, which is central to our strategy for improving financial performance and generating long-term shareholder value,” Cohen said. “We exceeded our 2024 operating expense restructuring targets while we are investing in areas that are expected to drive growth. We remain on schedule with our product launches planned for 2025 that are designed to excite consumers with feature-rich robots and improve the consumer product experience.”"
+      },
+      {
+        "document_id": "IRBT-PR-2025-01-13",
+        "locator": "P0016",
+        "text": "For the full year 2025, iRobot currently expects to return to year-over-year top-line growth as it introduces new and revitalized products. The Company expects the second half of 2025 will be stronger than the first half of the year as its product lineup ramps up. The Company expects first-quarter 2025 results will continue to reflect a transitional period for its product line. With the benefit of lower product costs and reduced development timelines, iRobot expects enhanced"
+      }
+    ]
+  },
+  "borrower_id": "R01",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:25:52.733977+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "The preliminary Q4 2024 results reveal an $8 million write‑off of excess component inventory, signaling inventory‑management stress that weakens the assumption that iRobot will keep inventory aligned with business run rates to limit cash consumption. No new evidence affects the Amazon break‑fee, debt‑avoidance, collateral, or reporting assumptions, and no covenant breach is evident from the release. A review of the inventory assumption is warranted.",
+  "attributions": [
+    {
+      "id": "att-6f2aa662-d3d7-46f5-a5a4-522e0ded5eb0",
+      "target_type": "assumption",
+      "target_id": "R01-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "The Q4 2024 preliminary results show an $8 million write-off of excess component inventory, indicating inventory management challenges that could increase cash consumption, weakening the assumption that inventory will be aligned with business run rates to limit cash use.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0014",
+          "quote": "Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments as part of our transition to a new product development paradigm with our contract manufacturers. Both had an impact on our gross margin and operating loss performance in the fourth quarter.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "Reassess inventory level management assumption to reflect potential excess inventory write-offs and their impact on cash consumption.",
+      "path": [],
+      "target_title": "Inventory level management",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R01-A02",
+      "target_title": "Amazon break‑fee availability",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A03",
+      "target_title": "No additional debt needed",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A04",
+      "target_title": "Inventory level management",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R01-A05",
+      "target_title": "Adequate borrowing base collateral",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R01-A06",
+      "target_title": "Timely financial reporting and compliance certification",
+      "status": "unaddressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [],
+  "warnings": [],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The preliminary Q4 2024 results reveal an $8 million write‑off of excess component inventory, signaling inventory‑management stress that weakens the assumption that iRobot will keep inventory aligned with business run rates to limit cash consumption. No new evidence affects the Amazon break‑fee, debt‑avoidance, collateral, or reporting assumptions, and no covenant breach is evident from the release. A review of the inventory assumption is warranted.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R01-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "The Q4 2024 preliminary results show an $8 million write-off of excess component inventory, indicating inventory management challenges that could increase cash consumption, weakening the assumption that inventory will be aligned with business run rates to limit cash use.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2025-01-13",
+            "locator": "P0014",
+            "quote": "Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments as part of our transition to a new product development paradigm with our contract manufacturers. Both had an impact on our gross margin and operating loss performance in the fourth quarter."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Reassess inventory level management assumption to reflect potential excess inventory write-offs and their impact on cash consumption.",
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": []
+  },
+  "elapsed_seconds": 72.9
+}

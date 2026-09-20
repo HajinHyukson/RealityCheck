@@ -1,0 +1,43 @@
+{
+  "label": "Crocs — hypothetical private-credit scenario",
+  "disclosure": "Company background is sourced. Financial figures, loan terms, reports and scenario events are fictional.",
+  "currency": "USD",
+  "scale": "millions",
+  "perimeter": "Fictional Loan Parties only. Not Crocs, Inc. consolidated reporting.",
+  "twelve_months_ended": "2026-09-30",
+  "income": {
+    "revenue_m": 1040.0,
+    "wholesale_m": 572.0,
+    "direct_to_consumer_m": 468.0,
+    "cost_of_goods_m": 499.2,
+    "gross_margin_pct": 52.0,
+    "covenant_ebitda_m": 78.0
+  },
+  "balance_sheet": {
+    "unrestricted_cash_m": 64.0,
+    "inventory_m": 164.0,
+    "wholesale_receivables_m": 72.1,
+    "term_debt_m": 150.0
+  },
+  "metrics": {
+    "net_debt_m": 125.0,
+    "net_leverage_x": 1.6,
+    "inventory_days": 120,
+    "wholesale_collection_days": 46,
+    "inventory_over_180_days_pct": 5.5
+  },
+  "base_monthly_unrestricted_cash_forecast_m": {
+    "2026-10": 61.0,
+    "2026-11": 58.5,
+    "2026-12": 56.0,
+    "2027-01": 54.0,
+    "2027-02": 52.0,
+    "2027-03": 55.5,
+    "2027-04": 59.0
+  },
+  "conventions": [
+    "All figures are invented and internally reconciled by build_h01.py.",
+    "Net debt nets at most $25.0 million of Unrestricted Cash.",
+    "Forecasts are origination forecasts, not later observations."
+  ]
+}

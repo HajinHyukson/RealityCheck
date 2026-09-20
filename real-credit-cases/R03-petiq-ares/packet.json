@@ -1,0 +1,175 @@
+{
+  "company": "PetIQ, Inc.",
+  "facility": "$75 million secured term loan dated January 17, 2018 with Ares Capital Corporation as administrative agent, amended and restated July 8, 2019. Separate from PetIQ's bank revolving facility.",
+  "cik": 1668673,
+  "review_period": {
+    "from": "2018-01-17",
+    "to": "2020-12-31",
+    "note": "Focused replay of the 2019 restatement and the 2020 definition and permission amendments."
+  },
+  "documents": [
+    {
+      "id": "PETQ-8K-ORIGINATION",
+      "type": "8-K",
+      "title": "Current report on the VIP acquisition financing",
+      "role": "origination",
+      "event_date": "2018-01-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117x8k.htm"
+    },
+    {
+      "id": "PETQ-CA-ORIGINAL",
+      "type": "EX-10.3",
+      "title": "Term Loan Credit Agreement dated January 17, 2018 (original executed version)",
+      "role": "original_agreement",
+      "event_date": "2018-01-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000198/petq-20180117ex10352fc3d.htm"
+    },
+    {
+      "id": "PETQ-CA-RESTATED-2019",
+      "type": "EX-10.3",
+      "title": "Amended and Restated Term Loan Credit Agreement dated July 8, 2019",
+      "role": "amendment",
+      "event_date": "2019-07-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000119312519190937/d774928dex103.htm"
+    },
+    {
+      "id": "PETQ-CA-AMENDMENT-2",
+      "type": "EX-10.1",
+      "title": "Second Amendment to Amended and Restated Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2020-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000110465920061208/tm2019702d1_ex10-1.htm"
+    },
+    {
+      "id": "PETQ-CA-AMENDMENT-3",
+      "type": "EX-10.2",
+      "title": "Third Amendment to Amended and Restated Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2020-07-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020009975/petq-20200630ex1025031cb.htm"
+    },
+    {
+      "id": "PETQ-CA-AMENDMENT-4",
+      "type": "EX-10.1",
+      "title": "Fourth Amendment to Amended and Restated Term Loan Credit Agreement",
+      "role": "amendment",
+      "event_date": "2020-07-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020009026/tmb-20200728xex10d1.htm"
+    },
+    {
+      "id": "PETQ-10Q-2020Q2",
+      "type": "10-Q",
+      "title": "Quarterly report for the quarter ended June 30, 2020",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020009975/petq-20200630x10q.htm"
+    },
+    {
+      "id": "PETQ-PR-2018-03-13",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2017 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018001991/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2018-05-15",
+      "type": "EX-99.1",
+      "title": "First-quarter 2018 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018004822/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2018-08-14",
+      "type": "EX-99.1",
+      "title": "Second-quarter 2018 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018007075/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2018-11-13",
+      "type": "EX-99.1",
+      "title": "Third-quarter 2018 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018009273/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2019-03-11",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2018 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837019001769/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2019-05-08",
+      "type": "EX-99.1",
+      "title": "First-quarter 2019 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837019004463/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2019-08-07",
+      "type": "EX-99.1",
+      "title": "Second-quarter 2019 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837019007456/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2019-11-07",
+      "type": "EX-99.1",
+      "title": "Third-quarter 2019 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837019010384/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2020-03-10",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2019 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020002316/ex-99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2020-05-07",
+      "type": "EX-99.1",
+      "title": "First-quarter 2020 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020005710/tmb-20200507xex99d1.htm"
+    },
+    {
+      "id": "PETQ-PR-2020-08-06",
+      "type": "EX-99.1",
+      "title": "Second-quarter 2020 results",
+      "role": "report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020009678/tmb-20200806xex99d1.htm"
+    },
+    {
+      "id": "PETQ-8K-RESTATED-2019",
+      "type": "8-K",
+      "title": "Current report on the amended and restated term loan and the Perrigo Animal Health acquisition",
+      "role": "observed_response",
+      "event_date": "2019-07-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000119312519190937/d774928d8k.htm"
+    },
+    {
+      "id": "PETQ-8K-AMENDMENT-2",
+      "type": "8-K",
+      "title": "Current report on the Second Amendment",
+      "role": "observed_response",
+      "event_date": "2020-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000110465920061208/tm2019702-1_8k.htm"
+    },
+    {
+      "id": "PETQ-8K-AMENDMENT-4",
+      "type": "8-K",
+      "title": "Current report on the Fourth Amendment",
+      "role": "observed_response",
+      "event_date": "2020-07-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837020009026/tmb-20200728x8k.htm"
+    },
+    {
+      "id": "PETQ-PR-2018-01-08",
+      "type": "EX-99.1",
+      "title": "Announcement of the VIP Petcare acquisition and preliminary 2017 results",
+      "role": "origination_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668673/000155837018000047/ex-99d1.htm"
+    }
+  ]
+}

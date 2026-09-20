@@ -1,0 +1,1870 @@
+[
+ {
+  "locator": "P0001",
+  "text": "EX-99.1 2 ex991q22024pressrelease.htm EX-99.1"
+ },
+ {
+  "locator": "P0002",
+  "text": "Document"
+ },
+ {
+  "locator": "P0003",
+  "text": "EX-99.1"
+ },
+ {
+  "locator": "P0004",
+  "text": "| | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0005",
+  "text": "| Contacts: | | | |"
+ },
+ {
+  "locator": "P0006",
+  "text": "| Karian Wong | | | | Charlie Vaida"
+ },
+ {
+  "locator": "P0007",
+  "text": "| Investor Relations | | | | Media Relations"
+ },
+ {
+  "locator": "P0008",
+  "text": "| iRobot Corp. | | | | iRobot Corp."
+ },
+ {
+  "locator": "P0009",
+  "text": "| (781) 430-3003 | | | | (781) 430-3182"
+ },
+ {
+  "locator": "P0010",
+  "text": "| investorrelations@irobot.com | | | cvaida@irobot.com"
+ },
+ {
+  "locator": "P0011",
+  "text": "| | | | |"
+ },
+ {
+  "locator": "P0012",
+  "text": "iRobot Reports Second-Quarter 2024 Financial Results"
+ },
+ {
+  "locator": "P0013",
+  "text": "Company Executing on “iRobot Elevate” Strategy to Focus on Branding, Innovation and Operating Performance"
+ },
+ {
+  "locator": "P0014",
+  "text": "Delivers on Plan to Lower Cost Structure and Refresh Product Line"
+ },
+ {
+  "locator": "P0015",
+  "text": "Introduces Q3 2024 Outlook and Revises Fiscal Year 2024 Expectations"
+ },
+ {
+  "locator": "P0016",
+  "text": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024."
+ },
+ {
+  "locator": "P0017",
+  "text": "“We are executing iRobot Elevate, a strategy focused on five pillars of financial performance, customer-centricity, bringing innovative products to market in an entirely new and more profitable way, continuing our operational and organization improvements, and developing and retaining our best talent,” said Gary Cohen, iRobot CEO. “We are elevating everything we do at iRobot to improve our performance and generate long-term shareholder value."
+ },
+ {
+  "locator": "P0018",
+  "text": "“In the second quarter, we made significant progress, specifically in lowering the Company’s cost structure through aggressive restructuring efforts. As part of our iRobot Elevate strategy, we strengthened our balance sheet, narrowed our operating loss, decreased headcount, and substantially reduced inventory. Without a non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to our new product development paradigm with our contract manufacturers, we would have met our Q2 improvement targets for gross margin, operating loss, and net loss per share."
+ },
+ {
+  "locator": "P0019",
+  "text": "“On the top line, second-quarter revenue came in at the low end of our outlook and was affected by a more challenging consumer spending environment, heightened competition in our market segment and greater-than-expected foreign currency impact. The impact of these headwinds is reflected in our updated revenue outlook for the full year."
+ },
+ {
+  "locator": "P0020",
+  "text": "“In July, we announced our most advanced product, the Roomba Combo 10 Max robot + AutoWash Dock. It represents an important milestone in our product innovation roadmap. Our talented team is focused on bringing innovative products to market to refresh our entire product line and enable iRobot to be significantly more competitive. In 2025, we plan to launch significant technological enhancements and new products across the price points we serve."
+ },
+ {
+  "locator": "P0021",
+  "text": "“Looking ahead, I am confident we can capitalize on our iconic brand with a renewed consumer-centric emphasis and a sharply focused innovation and product roadmap to advance our growth initiatives and deliver long-term shareholder value.”"
+ },
+ {
+  "locator": "P0022",
+  "text": "Second Quarter 2024 Financial Results (in millions, except per share amounts and percentages)"
+ },
+ {
+  "locator": "P0023",
+  "text": "| | | | | | | | |"
+ },
+ {
+  "locator": "P0024",
+  "text": "| |"
+ },
+ {
+  "locator": "P0025",
+  "text": "Q2 2024"
+ },
+ {
+  "locator": "P0026",
+  "text": "|"
+ },
+ {
+  "locator": "P0027",
+  "text": "Q2 2023"
+ },
+ {
+  "locator": "P0028",
+  "text": "|"
+ },
+ {
+  "locator": "P0029",
+  "text": "Revenue"
+ },
+ {
+  "locator": "P0030",
+  "text": "|"
+ },
+ {
+  "locator": "P0031",
+  "text": "$166.4"
+ },
+ {
+  "locator": "P0032",
+  "text": "|"
+ },
+ {
+  "locator": "P0033",
+  "text": "$236.6"
+ },
+ {
+  "locator": "P0034",
+  "text": "|"
+ },
+ {
+  "locator": "P0035",
+  "text": "GAAP Gross Margin¹"
+ },
+ {
+  "locator": "P0036",
+  "text": "|"
+ },
+ {
+  "locator": "P0037",
+  "text": "16.5%"
+ },
+ {
+  "locator": "P0038",
+  "text": "|"
+ },
+ {
+  "locator": "P0039",
+  "text": "22.6%"
+ },
+ {
+  "locator": "P0040",
+  "text": "|"
+ },
+ {
+  "locator": "P0041",
+  "text": "Non-GAAP Gross Margin¹"
+ },
+ {
+  "locator": "P0042",
+  "text": "|"
+ },
+ {
+  "locator": "P0043",
+  "text": "16.7%"
+ },
+ {
+  "locator": "P0044",
+  "text": "|"
+ },
+ {
+  "locator": "P0045",
+  "text": "23.2%"
+ },
+ {
+  "locator": "P0046",
+  "text": "|"
+ },
+ {
+  "locator": "P0047",
+  "text": "GAAP Operating Expenses"
+ },
+ {
+  "locator": "P0048",
+  "text": "|"
+ },
+ {
+  "locator": "P0049",
+  "text": "$88.5"
+ },
+ {
+  "locator": "P0050",
+  "text": "|"
+ },
+ {
+  "locator": "P0051",
+  "text": "$124.6"
+ },
+ {
+  "locator": "P0052",
+  "text": "|"
+ },
+ {
+  "locator": "P0053",
+  "text": "Non-GAAP Operating Expenses"
+ },
+ {
+  "locator": "P0054",
+  "text": "|"
+ },
+ {
+  "locator": "P0055",
+  "text": "$75.9"
+ },
+ {
+  "locator": "P0056",
+  "text": "|"
+ },
+ {
+  "locator": "P0057",
+  "text": "$105.4"
+ },
+ {
+  "locator": "P0058",
+  "text": "|"
+ },
+ {
+  "locator": "P0059",
+  "text": "GAAP Operating Loss²"
+ },
+ {
+  "locator": "P0060",
+  "text": "|"
+ },
+ {
+  "locator": "P0061",
+  "text": "($61.1)"
+ },
+ {
+  "locator": "P0062",
+  "text": "|"
+ },
+ {
+  "locator": "P0063",
+  "text": "($71.1)"
+ },
+ {
+  "locator": "P0064",
+  "text": "|"
+ },
+ {
+  "locator": "P0065",
+  "text": "Non-GAAP Operating Loss²"
+ },
+ {
+  "locator": "P0066",
+  "text": "|"
+ },
+ {
+  "locator": "P0067",
+  "text": "($48.2)"
+ },
+ {
+  "locator": "P0068",
+  "text": "|"
+ },
+ {
+  "locator": "P0069",
+  "text": "($50.5)"
+ },
+ {
+  "locator": "P0070",
+  "text": "|"
+ },
+ {
+  "locator": "P0071",
+  "text": "GAAP Net Loss Per Share³"
+ },
+ {
+  "locator": "P0072",
+  "text": "|"
+ },
+ {
+  "locator": "P0073",
+  "text": "($2.41)"
+ },
+ {
+  "locator": "P0074",
+  "text": "|"
+ },
+ {
+  "locator": "P0075",
+  "text": "($2.93)"
+ },
+ {
+  "locator": "P0076",
+  "text": "|"
+ },
+ {
+  "locator": "P0077",
+  "text": "Non-GAAP Net Loss Per Share³"
+ },
+ {
+  "locator": "P0078",
+  "text": "|"
+ },
+ {
+  "locator": "P0079",
+  "text": "($1.96)"
+ },
+ {
+  "locator": "P0080",
+  "text": "|"
+ },
+ {
+  "locator": "P0081",
+  "text": "($1.42)"
+ },
+ {
+  "locator": "P0082",
+  "text": "1) In Q2'24, GAAP and Non-GAAP gross margin were negatively impacted by an $18.4 million non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to our new product development paradigm with our contract manufacturers (the “Manufacturing Transition Charge”), which reduced GAAP and non-GAAP gross margin by 11.1 percentage points."
+ },
+ {
+  "locator": "P0083",
+  "text": "2) In Q2'24, GAAP and Non-GAAP operating loss were negatively impacted by the Manufacturing Transition Charge."
+ },
+ {
+  "locator": "P0084",
+  "text": "3) In Q2'24, GAAP and Non-GAAP net loss per share were negatively impacted by the Manufacturing Transition Charge, which reduced GAAP and non-GAAP net loss per share by $0.63."
+ },
+ {
+  "locator": "P0085",
+  "text": "Balance Sheet and Operational Highlights"
+ },
+ {
+  "locator": "P0086",
+  "text": "•As of June 29, 2024, the Company’s cash and cash equivalents totaled $108.5 million, compared with $118.4 million as of first quarter 2024. The Company also had an additional $40.5 million restricted cash set aside for future repayment of its term loan, subject to limited rights for the purchase of inventory in the third quarters of fiscal 2024 and 2025."
+ },
+ {
+  "locator": "P0087",
+  "text": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million, representing a 41% reduction from the second quarter of 2023."
+ },
+ {
+  "locator": "P0088",
+  "text": "•During the second quarter, the Company sold 1.1 million shares under its at-the-market (ATM) offering program for total net proceeds of $12.3 million. At quarter end, the Company had $81.1 million remaining under its $100 million ATM offering program."
+ },
+ {
+  "locator": "P0089",
+  "text": "•As of June 29, 2024, iRobot has reduced its total headcount by 35% since year-end 2023."
+ },
+ {
+  "locator": "P0090",
+  "text": "•In the second quarter of 2024, revenue declined 35.6% in the U.S., 34.7% in Japan and 21.6% in EMEA over the prior-year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 28% over the prior-year period."
+ },
+ {
+  "locator": "P0091",
+  "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 76% of total robot sales in the second quarter of 2024 versus 84% from the same period last year, reflecting the introduction of the Roomba Combo Essential, which provides the iRobot 2-in-1 cleaning experience at a lower price point."
+ },
+ {
+  "locator": "P0092",
+  "text": "Marketing Highlights"
+ },
+ {
+  "locator": "P0093",
+  "text": "•The recently introduced Roomba Essential successfully reached full distribution coverage, launching in 14,000 stores across all three regions. In Japan, Roomba Essential was number one in units sold in May and June in the robot vacuum cleaner market, according to GfK."
+ },
+ {
+  "locator": "P0094",
+  "text": "•iRobot introduced its most advanced robot vacuum and mop, the Roomba Combo 10 Max Robot + AutoWash Dock. The newly designed 2-in-1 Roomba Combo 10 Max brings independent cleaning to a new level with iRobot’s first multifunction AutoWash Dock and added intelligence."
+ },
+ {
+  "locator": "P0095",
+  "text": "•The Roomba Combo 10 Max received favorable launch coverage in the US and EMEA, including in The Verge, Mashable, Reviewed, PCMag, ZDNet, Frandroid, El Espanol and T3."
+ },
+ {
+  "locator": "P0096",
+  "text": "•For the 10th consecutive year, Roomba was a featured product in Amazon’s Prime Day event, which was held on July 16-17. The Company’s products received Prime Day related media coverage in outlets including CNET, CNN Underscored, Engadget, Real Simple, USA Today and Forbes Vetted."
+ },
+ {
+  "locator": "P0097",
+  "text": "•The Roomba j9 series and Roomba Essential series continued to receive favorable media coverage, reviews and awards, including in GQ, Men’s Health, Reviewed and Insider."
+ },
+ {
+  "locator": "P0098",
+  "text": "Third Quarter and Full Year 2024 Outlook"
+ },
+ {
+  "locator": "P0099",
+  "text": "iRobot is providing GAAP and non-GAAP financial expectations for the third quarter ending September 28, 2024. Due to the aforementioned Manufacturing Transition Charge, persistent foreign currency headwinds, and consumer market softness, the Company also is updating the full-year 2024 outlook it provided on May 7, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+ },
+ {
+  "locator": "P0100",
+  "text": "Third Quarter 2024:"
+ },
+ {
+  "locator": "P0101",
+  "text": "| | | | | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0102",
+  "text": "| Metric | GAAP | | Adjustments | | Non-GAAP"
+ },
+ {
+  "locator": "P0103",
+  "text": "| Revenue | $217 - $223 million | | — | | $217 - $223 million"
+ },
+ {
+  "locator": "P0104",
+  "text": "| Gross Margin | 33% to 34% | | ~0% | | 33% to 34%"
+ },
+ {
+  "locator": "P0105",
+  "text": "| Operating (Loss) Income | ($2) - $1 million | | ~$9 million | | $7 – $10 million"
+ },
+ {
+  "locator": "P0106",
+  "text": "| Net Loss Per Share | ($0.40) – ($0.30) | | ~$0.29 | | ($0.11) – ($0.01)"
+ },
+ {
+  "locator": "P0107",
+  "text": "Fiscal Year 2024:"
+ },
+ {
+  "locator": "P0108",
+  "text": "| | | | | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0109",
+  "text": "| Metric | GAAP | | Adjustments | | Non-GAAP"
+ },
+ {
+  "locator": "P0110",
+  "text": "| Revenue | $765 - $800 million | | — | | $765 - $800 million"
+ },
+ {
+  "locator": "P0111",
+  "text": "| Gross Margin* | 27% to 28% | | ~1% | | 28% to 29%"
+ },
+ {
+  "locator": "P0112",
+  "text": "| Operating Loss* | ($56) – ($42) million | | ~($23) million | | ($79) – ($65) million"
+ },
+ {
+  "locator": "P0113",
+  "text": "| Net Loss Per Share* | ($3.01) – ($2.55) | | ~($0.76) | | ($3.77) – ($3.31)"
+ },
+ {
+  "locator": "P0114",
+  "text": "*The Company revised these three FY2024 metrics primarily to reflect the impact of the Manufacturing Transition Charge."
+ },
+ {
+  "locator": "P0115",
+  "text": "As previously noted, the Company expects to generate modest positive cash flow from operations during the second half of the year."
+ },
+ {
+  "locator": "P0116",
+  "text": "Second-Quarter 2024 Results Conference Call"
+ },
+ {
+  "locator": "P0117",
+  "text": "On August 7, the Company will host a live conference call and webcast to review its financial results and discuss its outlook. The conference call details are as follows:"
+ },
+ {
+  "locator": "P0118",
+  "text": "| | | | | | | | |"
+ },
+ {
+  "locator": "P0119",
+  "text": "| | Date: | Wednesday, August 7, 2024"
+ },
+ {
+  "locator": "P0120",
+  "text": "| | Time: | 8:30 a.m. ET"
+ },
+ {
+  "locator": "P0121",
+  "text": "| | Call-In Number: | 800-343-5172 (Alternate: 203-518-9856)"
+ },
+ {
+  "locator": "P0122",
+  "text": "| | Conference ID: | IRBTQ224"
+ },
+ {
+  "locator": "P0123",
+  "text": "A live webcast of the conference call will be accessible on the event section of the Company's website at https://investor.irobot.com/financial-information/quarterly-results. An archived version of the broadcast will be available on the same website shortly after the conclusion of the live event."
+ },
+ {
+  "locator": "P0124",
+  "text": "About iRobot Corp. iRobot is a global consumer robot company that designs and builds thoughtful robots and intelligent home innovations that make life better. iRobot introduced the first Roomba robot vacuum in 2002. Today, iRobot is a global enterprise that has sold more than 50 million robots worldwide. iRobot’s product portfolio features technologies and advanced concepts in cleaning, mapping and navigation. Working from this portfolio, iRobot engineers are building robots and smart home devices to help consumers make their homes easier to maintain and healthier places to live. For more information about iRobot, please visit www.irobot.com."
+ },
+ {
+  "locator": "P0125",
+  "text": "Cautionary Statement Regarding Forward-Looking Statements"
+ },
+ {
+  "locator": "P0126",
+  "text": "This communication contains “forward-looking statements” within the meaning of the federal securities laws, including Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, which relate to, among other things: the Company’s expectations regarding future financial performance, including with respect to third quarter and fiscal year 2024 revenue, gross margin, operating (loss) income and net (loss) income per share, as well as cash flow from operations during the last two quarters of the fiscal year; executing on the Company’s iRobot Elevate strategy; the impact of foreign currency, consumer spending environment and competition on the Company’s outlook; the Company’s plans for launching products and technological enhancements and the anticipated impact thereof; and the Company’s business plans and strategies and the anticipated impact thereof. These forward-looking statements are based on the Company’s current expectations, estimates and projections about its business and industry, all of which are subject to change. In this context, forward-looking statements often address expected future business and financial performance and financial condition, and often contain words such as “expect,” “anticipate,” “intend,” “plan,” “believe,” “could,” “seek,” “see,” “will,” “may,” “would,” “might,” “potentially,” “estimate,” “continue,” “expect,” “target,” similar expressions or the negatives of these words or other comparable terminology that convey uncertainty of future events or outcomes. All forward-looking statements by their nature address matters that involve risks and uncertainties, many of which are beyond our control, and are not guarantees of future results, such as statements about the consummation of the proposed transaction and the anticipated benefits thereof. These and other forward-looking statements are not guarantees of future results and are subject to risks, uncertainties and assumptions that could cause actual results to differ materially from those expressed in any forward-looking statements. Accordingly, there are or will be important factors that could cause actual results to differ materially from those indicated in such statements and, therefore, you should not place undue reliance on any such statements and caution must be"
+ },
+ {
+  "locator": "P0127",
+  "text": "exercised in relying on forward-looking statements. Important risk factors that may cause such a difference include, but are not limited to: (i) the Company’s ability to obtain capital when desired on favorable terms, if at all; (ii) the Company’s ability to realize the benefits of its operational restructuring; (iii) the impact of the COVID-19 pandemic and various global conflicts on the Company’s business and general economic conditions; (iv) the Company’s ability to implement its business strategy; (v) the risk that disruptions from the operational restructuring will harm the Company’s business, including current plans and operations; (vi) the ability of the Company to retain and hire key personnel, including successfully navigating its leadership transition; (vii) legislative, regulatory and economic developments affecting the Company’s business; (viii) general economic and market developments and conditions; (ix) the evolving legal, regulatory and tax regimes under which the Company operates; (x) potential business uncertainty, including changes to existing business relationships that could affect the Company’s financial performance; (xi) unpredictability and severity of catastrophic events, including, but not limited to, acts of terrorism or outbreak of war or hostilities; (xii) current supply chain challenges including the Red Sea conflict; (xiii) the financial strength of our customers and retailers; (xiv) the impact of tariffs on goods imported into the United States; and (xv) competition, as well as the Company’s response to any of the aforementioned factors. Additional risks and uncertainties that could cause actual outcomes and results to differ materially from those contemplated by the forward-looking statements are included under the caption “Risk Factors” in the Company’s most recent annual and quarterly reports filed with the SEC and any subsequent reports on Form 10-K, Form 10-Q or Form 8-K filed from time to time and available at www.sec.gov. While the list of factors presented here is considered representative, no such list should be considered to be a complete statement of all potential risks and uncertainties. Unlisted factors may present significant additional obstacles to the realization of forward-looking statements. Consequences of material differences in results as compared with those anticipated in the forward-looking statements could include, among other things, business disruption, operational problems, financial loss, legal liability and similar risks, any of which could have a material adverse effect on the Company’s financial condition, results of operations, or liquidity. The forward-looking statements included herein are made only as of the date hereof. The Company does not assume any obligation to publicly provide revisions or updates to any forward-looking statements, whether as a result of new information, future developments or otherwise, should circumstances change, except as otherwise required by securities and other applicable laws."
+ },
+ {
+  "locator": "P0128",
+  "text": "| | | | | | | | | | | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0129",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0130",
+  "text": "| Consolidated Statements of Operations"
+ },
+ {
+  "locator": "P0131",
+  "text": "| (in thousands, except per share amounts)"
+ },
+ {
+  "locator": "P0132",
+  "text": "| (unaudited)"
+ },
+ {
+  "locator": "P0133",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0134",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0135",
+  "text": "| | For the three months ended | | For the six months ended"
+ },
+ {
+  "locator": "P0136",
+  "text": "| | June 29, 2024 | | July 1, 2023 | | June 29, 2024 | | July 1, 2023"
+ },
+ {
+  "locator": "P0137",
+  "text": "| Revenue | $ | 166,361 | | | $ | 236,568 | | | $ | 316,375 | | | $ | 396,860 |"
+ },
+ {
+  "locator": "P0138",
+  "text": "| Cost of revenue: | | | | | | |"
+ },
+ {
+  "locator": "P0139",
+  "text": "| Cost of product revenue | 138,895 | | | 182,775 | | | 252,808 | | | 306,044 |"
+ },
+ {
+  "locator": "P0140",
+  "text": "| Amortization of acquired intangible assets | — | | | 290 | | | — | | | 572 |"
+ },
+ {
+  "locator": "P0141",
+  "text": "| Total cost of revenue | 138,895 | | | 183,065 | | | 252,808 | | | 306,616 |"
+ },
+ {
+  "locator": "P0142",
+  "text": "| Gross profit | 27,466 | | | 53,503 | | | 63,567 | | | 90,244 |"
+ },
+ {
+  "locator": "P0143",
+  "text": "| Operating expenses: | | | | | | |"
+ },
+ {
+  "locator": "P0144",
+  "text": "| Research and development | 23,230 | | | 37,971 | | | 57,108 | | | 79,240 |"
+ },
+ {
+  "locator": "P0145",
+  "text": "| Selling and marketing | 39,980 | | | 55,596 | | | 69,696 | | | 98,072 |"
+ },
+ {
+  "locator": "P0146",
+  "text": "| General and administrative | 16,926 | | | 26,537 | | | (36,785) | | | 56,846 |"
+ },
+ {
+  "locator": "P0147",
+  "text": "| Restructuring and other | 8,230 | | | 4,278 | | | 22,377 | | | 8,084 |"
+ },
+ {
+  "locator": "P0148",
+  "text": "| Amortization of acquired intangible assets | 168 | | | 177 | | | 339 | | | 355 |"
+ },
+ {
+  "locator": "P0149",
+  "text": "| Total operating expenses | 88,534 | | | 124,559 | | | 112,735 | | | 242,597 |"
+ },
+ {
+  "locator": "P0150",
+  "text": "| Operating loss | (61,068) | | | (71,056) | | | (49,168) | | | (152,353) |"
+ },
+ {
+  "locator": "P0151",
+  "text": "| Other expense, net | (8,849) | | | (4,027) | | | (12,034) | | | (5,104) |"
+ },
+ {
+  "locator": "P0152",
+  "text": "| Loss before income taxes | (69,917) | | | (75,083) | | | (61,202) | | | (157,457) |"
+ },
+ {
+  "locator": "P0153",
+  "text": "| Income tax expense | 729 | | | 5,717 | | | 837 | | | 4,455 |"
+ },
+ {
+  "locator": "P0154",
+  "text": "| Net loss | $ | (70,646) | | | $ | (80,800) | | | $ | (62,039) | | | $ | (161,912) |"
+ },
+ {
+  "locator": "P0155",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0156",
+  "text": "| Net loss per share: | | | | | | |"
+ },
+ {
+  "locator": "P0157",
+  "text": "| Basic | $ | (2.41) | | | $ | (2.93) | | | $ | (2.16) | | | $ | (5.88) |"
+ },
+ {
+  "locator": "P0158",
+  "text": "| Diluted | $ | (2.41) | | | $ | (2.93) | | | $ | (2.16) | | | $ | (5.88) |"
+ },
+ {
+  "locator": "P0159",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0160",
+  "text": "| Number of shares used in per share calculations: | | | | | | |"
+ },
+ {
+  "locator": "P0161",
+  "text": "| Basic | 29,309 | | | 27,619 | | | 28,740 | | | 27,543 |"
+ },
+ {
+  "locator": "P0162",
+  "text": "| Diluted | 29,309 | | | 27,619 | | | 28,740 | | | 27,543 |"
+ },
+ {
+  "locator": "P0163",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0164",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0165",
+  "text": "| Stock-based compensation included in above figures: | | | | | | |"
+ },
+ {
+  "locator": "P0166",
+  "text": "| Cost of revenue | $ | 270 | | | $ | 801 | | | $ | 1,099 | | | $ | 1,387 |"
+ },
+ {
+  "locator": "P0167",
+  "text": "| Research and development | 802 | | | 2,737 | | | 3,699 | | | 5,383 |"
+ },
+ {
+  "locator": "P0168",
+  "text": "| Selling and marketing | 1,163 | | | 1,371 | | | 2,500 | | | 2,837 |"
+ },
+ {
+  "locator": "P0169",
+  "text": "| General and administrative | 2,275 | | | 3,664 | | | 5,160 | | | 6,898 |"
+ },
+ {
+  "locator": "P0170",
+  "text": "| Total | $ | 4,510 | | | $ | 8,573 | | | $ | 12,458 | | | $ | 16,505 |"
+ },
+ {
+  "locator": "P0171",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0172",
+  "text": "| | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0173",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0174",
+  "text": "| Condensed Consolidated Balance Sheets"
+ },
+ {
+  "locator": "P0175",
+  "text": "| (unaudited, in thousands)"
+ },
+ {
+  "locator": "P0176",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0177",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0178",
+  "text": "| | June 29, 2024 | | December 30, 2023"
+ },
+ {
+  "locator": "P0179",
+  "text": "| Assets | | |"
+ },
+ {
+  "locator": "P0180",
+  "text": "| Cash and cash equivalents | $ | 108,513 | | | $ | 185,121 |"
+ },
+ {
+  "locator": "P0181",
+  "text": "| Restricted cash | 40,543 | | | — |"
+ },
+ {
+  "locator": "P0182",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0183",
+  "text": "| Accounts receivable, net | 68,132 | | | 79,387 |"
+ },
+ {
+  "locator": "P0184",
+  "text": "| Inventory | 101,365 | | | 152,469 |"
+ },
+ {
+  "locator": "P0185",
+  "text": "| Other current assets | 21,559 | | | 48,513 |"
+ },
+ {
+  "locator": "P0186",
+  "text": "| Total current assets | 340,112 | | | 465,490 |"
+ },
+ {
+  "locator": "P0187",
+  "text": "| Property and equipment, net | 29,461 | | | 40,395 |"
+ },
+ {
+  "locator": "P0188",
+  "text": "| Operating lease right-of-use assets | 15,930 | | | 19,642 |"
+ },
+ {
+  "locator": "P0189",
+  "text": "| Deferred tax assets | 9,273 | | | 8,512 |"
+ },
+ {
+  "locator": "P0190",
+  "text": "| Goodwill | 169,384 | | | 175,105 |"
+ },
+ {
+  "locator": "P0191",
+  "text": "| Intangible assets, net | 4,404 | | | 5,044 |"
+ },
+ {
+  "locator": "P0192",
+  "text": "| Other assets | 17,375 | | | 19,510 |"
+ },
+ {
+  "locator": "P0193",
+  "text": "| Total assets | $ | 585,939 | | | $ | 733,698 |"
+ },
+ {
+  "locator": "P0194",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0195",
+  "text": "| Liabilities and stockholders' equity | | |"
+ },
+ {
+  "locator": "P0196",
+  "text": "| Accounts payable | $ | 113,557 | | | $ | 178,318 |"
+ },
+ {
+  "locator": "P0197",
+  "text": "| Accrued expenses | 96,935 | | | 97,999 |"
+ },
+ {
+  "locator": "P0198",
+  "text": "| Deferred revenue and customer advances | 11,152 | | | 10,830 |"
+ },
+ {
+  "locator": "P0199",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0200",
+  "text": "| Total current liabilities | 221,644 | | | 287,147 |"
+ },
+ {
+  "locator": "P0201",
+  "text": "| Term loan | 172,421 | | | 201,501 |"
+ },
+ {
+  "locator": "P0202",
+  "text": "| Operating lease liabilities | 24,036 | | | 27,609 |"
+ },
+ {
+  "locator": "P0203",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0204",
+  "text": "| Other long-term liabilities | 18,762 | | | 20,954 |"
+ },
+ {
+  "locator": "P0205",
+  "text": "| Total long-term liabilities | 215,219 | | | 250,064 |"
+ },
+ {
+  "locator": "P0206",
+  "text": "| Total liabilities | 436,863 | | | 537,211 |"
+ },
+ {
+  "locator": "P0207",
+  "text": "| Stockholders' equity | 149,076 | | | 196,487 |"
+ },
+ {
+  "locator": "P0208",
+  "text": "| Total liabilities and stockholders' equity | $ | 585,939 | | | $ | 733,698 |"
+ },
+ {
+  "locator": "P0209",
+  "text": "| | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0210",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0211",
+  "text": "| Consolidated Statements of Cash Flows"
+ },
+ {
+  "locator": "P0212",
+  "text": "| (unaudited, in thousands)"
+ },
+ {
+  "locator": "P0213",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0214",
+  "text": "| | For the six months ended"
+ },
+ {
+  "locator": "P0215",
+  "text": "| | June 29, 2024 | | July 1, 2023"
+ },
+ {
+  "locator": "P0216",
+  "text": "| Cash flows from operating activities: | | |"
+ },
+ {
+  "locator": "P0217",
+  "text": "| Net loss | $ | (62,039) | | | $ | (161,912) |"
+ },
+ {
+  "locator": "P0218",
+  "text": "| Adjustments to reconcile net loss to net cash used in operating activities: | | |"
+ },
+ {
+  "locator": "P0219",
+  "text": "| Depreciation and amortization | 11,116 | | | 14,843 |"
+ },
+ {
+  "locator": "P0220",
+  "text": "| Loss on equity investment | 375 | | | 3,152 |"
+ },
+ {
+  "locator": "P0221",
+  "text": "| Stock-based compensation | 12,458 | | | 16,505 |"
+ },
+ {
+  "locator": "P0222",
+  "text": "| Provision for inventory excess and obsolescence | 11,715 | | | 641 |"
+ },
+ {
+  "locator": "P0223",
+  "text": "| Change in fair value of term loan | 4,746 | | | — |"
+ },
+ {
+  "locator": "P0224",
+  "text": "| Debt issuance costs expensed under fair value option | 477 | | | — |"
+ },
+ {
+  "locator": "P0225",
+  "text": "| Deferred income taxes, net | (1,682) | | | 1,999 |"
+ },
+ {
+  "locator": "P0226",
+  "text": "| Other | (3,858) | | | (3,085) |"
+ },
+ {
+  "locator": "P0227",
+  "text": "| Changes in operating assets and liabilities — (use) source | | |"
+ },
+ {
+  "locator": "P0228",
+  "text": "| Accounts receivable | 9,240 | | | (6,114) |"
+ },
+ {
+  "locator": "P0229",
+  "text": "| Inventory | 35,848 | | | 109,249 |"
+ },
+ {
+  "locator": "P0230",
+  "text": "| Other assets | 26,117 | | | 13,204 |"
+ },
+ {
+  "locator": "P0231",
+  "text": "| Accounts payable | (63,875) | | | (44,149) |"
+ },
+ {
+  "locator": "P0232",
+  "text": "| Accrued expenses and other liabilities | (871) | | | (2,444) |"
+ },
+ {
+  "locator": "P0233",
+  "text": "| Net cash used in operating activities | (20,233) | | | (58,111) |"
+ },
+ {
+  "locator": "P0234",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0235",
+  "text": "| Cash flows from investing activities: | | |"
+ },
+ {
+  "locator": "P0236",
+  "text": "| Additions of property and equipment | (118) | | | (2,514) |"
+ },
+ {
+  "locator": "P0237",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0238",
+  "text": "| Purchase of investments | (46) | | | (158) |"
+ },
+ {
+  "locator": "P0239",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0240",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0241",
+  "text": "| Net cash used in investing activities | (164) | | | (2,672) |"
+ },
+ {
+  "locator": "P0242",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0243",
+  "text": "| Cash flows from financing activities: | | |"
+ },
+ {
+  "locator": "P0244",
+  "text": "| Proceeds from employee stock plans | — | | | 9 |"
+ },
+ {
+  "locator": "P0245",
+  "text": "| Income tax withholding payment associated with restricted stock vesting | (463) | | | (1,819) |"
+ },
+ {
+  "locator": "P0246",
+  "text": "| Proceeds from issuance of common stock, net of issuance costs | 17,942 | | | — |"
+ },
+ {
+  "locator": "P0247",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0248",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0249",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0250",
+  "text": "| Repayment of term loan | (34,947) | | | — |"
+ },
+ {
+  "locator": "P0251",
+  "text": "| Payment of debt issuance costs | (477) | | | — |"
+ },
+ {
+  "locator": "P0252",
+  "text": "| Net cash used in by financing activities | (17,945) | | | (1,810) |"
+ },
+ {
+  "locator": "P0253",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0254",
+  "text": "| Effect of exchange rate changes on cash, cash equivalents and restricted cash | 853 | | | 2,598 |"
+ },
+ {
+  "locator": "P0255",
+  "text": "| Net decrease in cash, cash equivalents and restricted cash | (37,489) | | | (59,995) |"
+ },
+ {
+  "locator": "P0256",
+  "text": "| Cash, cash equivalents and restricted cash, at beginning of period | 187,887 | | | 117,949 |"
+ },
+ {
+  "locator": "P0257",
+  "text": "| Cash, cash equivalents and restricted cash, at end of period | $ | 150,398 | | | $ | 57,954 |"
+ },
+ {
+  "locator": "P0258",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0259",
+  "text": "| Cash, cash equivalents and restricted cash, at end of period: | | |"
+ },
+ {
+  "locator": "P0260",
+  "text": "| Cash and cash equivalents | $ | 108,513 | | | $ | 57,954 |"
+ },
+ {
+  "locator": "P0261",
+  "text": "| Restricted cash | 40,543 | | | — |"
+ },
+ {
+  "locator": "P0262",
+  "text": "| Restricted cash, non-current (included in other assets) | 1,342 | | | — |"
+ },
+ {
+  "locator": "P0263",
+  "text": "| Cash, cash equivalents and restricted cash, at end of period | $ | 150,398 | | | $ | 57,954 |"
+ },
+ {
+  "locator": "P0264",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0265",
+  "text": "| | | | | | | | | | | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0266",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0267",
+  "text": "| Supplemental Information"
+ },
+ {
+  "locator": "P0268",
+  "text": "| (unaudited)"
+ },
+ {
+  "locator": "P0269",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0270",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0271",
+  "text": "| | For the three months ended | | For the six months ended"
+ },
+ {
+  "locator": "P0272",
+  "text": "| | June 29, 2024 | | July 1, 2023 | | June 29, 2024 | | July 1, 2023"
+ },
+ {
+  "locator": "P0273",
+  "text": "| Revenue by Geography: * | | | | | | |"
+ },
+ {
+  "locator": "P0274",
+  "text": "| Domestic | $ | 84,364 | | | $ | 130,958 | | | $ | 153,260 | | | $ | 202,944 |"
+ },
+ {
+  "locator": "P0275",
+  "text": "| International | 81,997 | | | 105,610 | | | 163,115 | | | 193,916 |"
+ },
+ {
+  "locator": "P0276",
+  "text": "| Total | $ | 166,361 | | | $ | 236,568 | | | $ | 316,375 | | | $ | 396,860 |"
+ },
+ {
+  "locator": "P0277",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0278",
+  "text": "| Robot Units Shipped * | | | | | | |"
+ },
+ {
+  "locator": "P0279",
+  "text": "| Solo and other | 300 | | | 672 | | | 567 | | | 1,044 |"
+ },
+ {
+  "locator": "P0280",
+  "text": "| 2-in-1 | 274 | | | 159 | | | 463 | | | 222 |"
+ },
+ {
+  "locator": "P0281",
+  "text": "| Total | 574 | | | 831 | | | 1,030 | | | 1,266 |"
+ },
+ {
+  "locator": "P0282",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0283",
+  "text": "| Revenue by Product Category ** | | | | | | |"
+ },
+ {
+  "locator": "P0284",
+  "text": "| Solo and other | $ | 90 | | | $ | 188 | | | $ | 184 | | | $ | 323 |"
+ },
+ {
+  "locator": "P0285",
+  "text": "| 2-in-1 | 76 | | | 49 | | | 132 | | | 74 |"
+ },
+ {
+  "locator": "P0286",
+  "text": "| Total | $ | 166 | | | $ | 237 | | | $ | 316 | | | $ | 397 |"
+ },
+ {
+  "locator": "P0287",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0288",
+  "text": "| Average gross selling prices for robot units | $ | 330 | | | $ | 347 | | | $ | 337 | | | $ | 366 |"
+ },
+ {
+  "locator": "P0289",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0290",
+  "text": "| Headcount | 726 | | | 1,139 | | | | |"
+ },
+ {
+  "locator": "P0291",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0292",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0293",
+  "text": "| * in thousands | | | | | | |"
+ },
+ {
+  "locator": "P0294",
+  "text": "| ** in millions | | | | | | |"
+ },
+ {
+  "locator": "P0295",
+  "text": "|"
+ },
+ {
+  "locator": "P0296",
+  "text": "|"
+ },
+ {
+  "locator": "P0297",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0298",
+  "text": "| Certain numbers may not total due to rounding | | | | | | |"
+ },
+ {
+  "locator": "P0299",
+  "text": "iRobot Corporation"
+ },
+ {
+  "locator": "P0300",
+  "text": "Explanation of Non-GAAP Measures"
+ },
+ {
+  "locator": "P0301",
+  "text": "In addition to disclosing financial results in accordance with U.S. GAAP, this earnings release contains references to the non-GAAP financial measures described below. We use non-GAAP measures to internally evaluate and analyze financial results. We believe these non-GAAP financial measures provide investors with useful supplemental information about the financial performance of our business, enable comparison of financial results between periods where certain items may vary independent of business performance, and enable comparison of our financial results with other public companies, many of which present similar non-GAAP financial measures."
+ },
+ {
+  "locator": "P0302",
+  "text": "Our non-GAAP financial measures reflect adjustments based on the following items. These non-GAAP financial measures should not be considered a substitute for, or superior to, financial measures calculated in accordance with GAAP, and the financial results calculated in accordance with GAAP and reconciliations from these results should be carefully evaluated."
+ },
+ {
+  "locator": "P0303",
+  "text": "Amortization of acquired intangible assets: Amortization of acquired intangible assets consists of amortization of intangible assets including completed technology, customer relationships, and reacquired distribution rights acquired in connection with business combinations as well as any non-cash impairment charges associated with intangible assets in connection with our past acquisitions. Amortization charges for our acquisition-related intangible assets are inconsistent in size and are significantly impacted by the timing and valuation of our acquisitions. We exclude these charges from our non-GAAP measures to facilitate an evaluation of our current operating performance and comparisons to our past operating performance."
+ },
+ {
+  "locator": "P0304",
+  "text": "Net Merger, Acquisition and Divestiture (Income) Expense: Net merger, acquisition and divestiture (income) expense primarily consists of transaction fees, professional fees, and transition and integration costs directly associated with mergers, acquisitions and divestitures, including with respect to the iRobot-Amazon Merger. It also includes business combination adjustments including adjustments after the measurement period has ended. During the first quarter of fiscal 2024, the adjustment included the one-time net termination fee received as a result of the termination of the iRobot-Amazon Merger. The occurrence and amount of these costs will vary depending on the timing and size of these transactions. We exclude these charges from our non-GAAP measures to facilitate an evaluation of our current operating performance and comparisons to our past operating performance."
+ },
+ {
+  "locator": "P0305",
+  "text": "Stock-Based Compensation: Stock-based compensation is a non-cash charge relating to stock-based awards. We exclude this expense as it is a non-cash expense, and we assess our internal operations excluding this expense and believe it facilitates comparisons to the performance of other companies."
+ },
+ {
+  "locator": "P0306",
+  "text": "Restructuring and Other: Restructuring charges are related to one-time actions associated with realigning resources, enhancing operational productivity and efficiency, or improving our cost structure in support of our strategy. Such actions are not reflective of ongoing operations and include costs primarily associated with severance and related costs, charges related to paused work unrelated to our core business, costs associated with the Chief Executive Officer transition and other non-recurring costs directly associated with resource realignments tied to strategic initiatives or changes in business conditions. We exclude these items from our non-GAAP measures when evaluating our recent and prospective business performance as such items vary significantly based on the magnitude of the action and do not reflect anticipated future operating costs. In addition, these charges do not necessarily provide meaningful insight into the fundamentals of current or past operations of our business."
+ },
+ {
+  "locator": "P0307",
+  "text": "Gain/Loss on Strategic Investments: Gain/loss on strategic investments includes fair value adjustments, realized gains and losses on the sales of these investments and losses on the impairment of these investments. We exclude these items from our non-GAAP measures because we do not believe they correlate to the performance of our core business and may vary in size based on market conditions and events. We believe"
+ },
+ {
+  "locator": "P0308",
+  "text": "that the exclusion of these gains or losses provides investors with a supplemental view of our operational performance."
+ },
+ {
+  "locator": "P0309",
+  "text": "Debt issuance costs: Debt issuance costs include various incremental fees and commissions paid to third parties in connection with the issuance of debt."
+ },
+ {
+  "locator": "P0310",
+  "text": "Income tax adjustments: Income tax adjustments include the tax effect of the non-GAAP adjustments, calculated using the appropriate statutory tax rate for each adjustment. We regularly assess the need to record valuation allowance based on the non-GAAP profitability and other factors. We also exclude certain tax items, including the impact from stock-based compensation windfalls/shortfalls, which are not reflective of income tax expense incurred as a result of current period earnings. We believe disclosure of the income tax provision before the effect of such tax items is important to permit investors’ consistent earnings comparison between periods."
+ },
+ {
+  "locator": "P0311",
+  "text": "| | | | | | | | | | | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0312",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0313",
+  "text": "| Supplemental Reconciliation of GAAP Actuals to Non-GAAP Actuals"
+ },
+ {
+  "locator": "P0314",
+  "text": "| (in thousands, except per share amounts)"
+ },
+ {
+  "locator": "P0315",
+  "text": "| (unaudited)"
+ },
+ {
+  "locator": "P0316",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0317",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0318",
+  "text": "| | For the three months ended | | For the six months ended"
+ },
+ {
+  "locator": "P0319",
+  "text": "| | June 29, 2024 | | July 1, 2023 | | June 29, 2024 | | July 1, 2023"
+ },
+ {
+  "locator": "P0320",
+  "text": "| GAAP Revenue | $ | 166,361 | | | $ | 236,568 | | | $ | 316,375 | | | $ | 396,860 |"
+ },
+ {
+  "locator": "P0321",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0322",
+  "text": "| GAAP Gross Profit | $ | 27,466 | | | $ | 53,503 | | | $ | 63,567 | | | $ | 90,244 |"
+ },
+ {
+  "locator": "P0323",
+  "text": "| Amortization of acquired intangible assets | — | | | 290 | | | — | | | 572 |"
+ },
+ {
+  "locator": "P0324",
+  "text": "| Stock-based compensation | 270 | | | 801 | | | 1,099 | | | 1,387 |"
+ },
+ {
+  "locator": "P0325",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0326",
+  "text": "| Net merger, acquisition and divestiture expense | — | | | 289 | | | — | | | 610 |"
+ },
+ {
+  "locator": "P0327",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0328",
+  "text": "| Non-GAAP Gross Profit | $ | 27,736 | | | $ | 54,883 | | | $ | 64,666 | | | $ | 92,813 |"
+ },
+ {
+  "locator": "P0329",
+  "text": "| GAAP Gross Margin | 16.5 | % | | 22.6 | % | | 20.1 | % | | 22.7 | %"
+ },
+ {
+  "locator": "P0330",
+  "text": "| Non-GAAP Gross Margin | 16.7 | % | | 23.2 | % | | 20.4 | % | | 23.4 | %"
+ },
+ {
+  "locator": "P0331",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0332",
+  "text": "| GAAP Operating Expenses | $ | 88,534 | | | $ | 124,559 | | | $ | 112,735 | | | $ | 242,597 |"
+ },
+ {
+  "locator": "P0333",
+  "text": "| Amortization of acquired intangible assets | (168) | | | (177) | | | (339) | | | (355) |"
+ },
+ {
+  "locator": "P0334",
+  "text": "| Stock-based compensation | (4,240) | | | (7,772) | | | (11,359) | | | (15,118) |"
+ },
+ {
+  "locator": "P0335",
+  "text": "| Net merger, acquisition and divestiture income (expense) | 43 | | | (6,964) | | | 74,159 | | | (13,427) |"
+ },
+ {
+  "locator": "P0336",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0337",
+  "text": "| Restructuring and other | (8,230) | | | (4,278) | | | (22,377) | | | (8,084) |"
+ },
+ {
+  "locator": "P0338",
+  "text": "| Non-GAAP Operating Expenses* | $ | 75,939 | | | $ | 105,368 | | | $ | 152,819 | | | $ | 205,613 |"
+ },
+ {
+  "locator": "P0339",
+  "text": "| GAAP Operating Expenses as a % of GAAP Revenue | 53.2 | % | | 52.7 | % | | 35.6 | % | | 61.1 | %"
+ },
+ {
+  "locator": "P0340",
+  "text": "| Non-GAAP Operating Expenses as a % of Non-GAAP Revenue* | 45.6 | % | | 44.5 | % | | 48.3 | % | | 51.8 | %"
+ },
+ {
+  "locator": "P0341",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0342",
+  "text": "| GAAP Operating Loss | $ | (61,068) | | | $ | (71,056) | | | $ | (49,168) | | | $ | (152,353) |"
+ },
+ {
+  "locator": "P0343",
+  "text": "| Amortization of acquired intangible assets | 168 | | | 467 | | | 339 | | | 927 |"
+ },
+ {
+  "locator": "P0344",
+  "text": "| Stock-based compensation | 4,510 | | | 8,573 | | | 12,458 | | | 16,505 |"
+ },
+ {
+  "locator": "P0345",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0346",
+  "text": "| Net merger, acquisition and divestiture (income) expense | (43) | | | 7,253 | | | (74,159) | | | 14,037 |"
+ },
+ {
+  "locator": "P0347",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0348",
+  "text": "| Restructuring and other | 8,230 | | | 4,278 | | | 22,377 | | | 8,084 |"
+ },
+ {
+  "locator": "P0349",
+  "text": "| Non-GAAP Operating Loss* | $ | (48,203) | | | $ | (50,485) | | | $ | (88,153) | | | $ | (112,800) |"
+ },
+ {
+  "locator": "P0350",
+  "text": "| GAAP Operating Margin | (36.7) | % | | (30.0) | % | | (15.5) | % | | (38.4) | %"
+ },
+ {
+  "locator": "P0351",
+  "text": "| Non-GAAP Operating Margin* | (29.0) | % | | (21.3) | % | | (27.9) | % | | (28.4) | %"
+ },
+ {
+  "locator": "P0352",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0353",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0354",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0355",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0356",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0357",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0358",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0359",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0360",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0361",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0362",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0363",
+  "text": "| | | | | | | | | | | | | | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0364",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0365",
+  "text": "| Supplemental Reconciliation of GAAP Actuals to Non-GAAP Actuals continued"
+ },
+ {
+  "locator": "P0366",
+  "text": "| (in thousands, except per share amounts)"
+ },
+ {
+  "locator": "P0367",
+  "text": "| (unaudited)"
+ },
+ {
+  "locator": "P0368",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0369",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0370",
+  "text": "| | For the three months ended | | For the six months ended"
+ },
+ {
+  "locator": "P0371",
+  "text": "| | June 29, 2024 | | July 1, 2023 | | June 29, 2024 | | July 1, 2023"
+ },
+ {
+  "locator": "P0372",
+  "text": "|"
+ },
+ {
+  "locator": "P0373",
+  "text": "GAAP Income Tax Expense"
+ },
+ {
+  "locator": "P0374",
+  "text": "| $ | 729 | | | $ | 5,717 | | | $ | 837 | | | $ | 4,455 |"
+ },
+ {
+  "locator": "P0375",
+  "text": "| Tax effect of non-GAAP adjustments | 416 | | | (15,215) | | | 1,017 | | | (31,481) |"
+ },
+ {
+  "locator": "P0376",
+  "text": "| Other tax adjustments | (416) | | | (2,529) | | | (608) | | | (2,511) |"
+ },
+ {
+  "locator": "P0377",
+  "text": "| Non-GAAP Income Tax Expense (Benefit) | $ | 729 | | | $ | (12,027) | | | $ | 1,246 | | | $ | (29,537) |"
+ },
+ {
+  "locator": "P0378",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0379",
+  "text": "| GAAP Net Loss | $ | (70,646) | | | $ | (80,800) | | | $ | (62,039) | | | $ | (161,912) |"
+ },
+ {
+  "locator": "P0380",
+  "text": "| Amortization of acquired intangible assets | 168 | | | 467 | | | 339 | | | 927 |"
+ },
+ {
+  "locator": "P0381",
+  "text": "| Stock-based compensation | 4,510 | | | 8,573 | | | 12,458 | | | 16,505 |"
+ },
+ {
+  "locator": "P0382",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0383",
+  "text": "| Net merger, acquisition and divestiture (income) expense | (43) | | | 7,253 | | | (74,159) | | | 14,037 |"
+ },
+ {
+  "locator": "P0384",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0385",
+  "text": "| Restructuring and other | 8,230 | | | 4,278 | | | 22,377 | | | 8,084 |"
+ },
+ {
+  "locator": "P0386",
+  "text": "| Loss on strategic investments | — | | | 3,152 | | | 375 | | | 3,152 |"
+ },
+ {
+  "locator": "P0387",
+  "text": "| Debt issuance costs | 238 | | | — | | | 477 | | | — |"
+ },
+ {
+  "locator": "P0388",
+  "text": "| Income tax effect | — | | | 17,744 | | | (409) | | | 33,992 |"
+ },
+ {
+  "locator": "P0389",
+  "text": "| Non-GAAP Net Loss* | $ | (57,543) | | | $ | (39,333) | | | $ | (100,581) | | | $ | (85,215) |"
+ },
+ {
+  "locator": "P0390",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0391",
+  "text": "| GAAP Net Loss Per Diluted Share | $ | (2.41) | | | $ | (2.93) | | | $ | (2.16) | | | $ | (5.88) |"
+ },
+ {
+  "locator": "P0392",
+  "text": "| Amortization of acquired intangible assets | 0.01 | | | 0.02 | | | 0.01 | | | 0.04 |"
+ },
+ {
+  "locator": "P0393",
+  "text": "| Stock-based compensation | 0.15 | | | 0.31 | | | 0.43 | | | 0.60 |"
+ },
+ {
+  "locator": "P0394",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0395",
+  "text": "| Net merger, acquisition and divestiture (income) expense | — | | | 0.26 | | | (2.58) | | | 0.51 |"
+ },
+ {
+  "locator": "P0396",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0397",
+  "text": "| Restructuring and other | 0.28 | | | 0.16 | | | 0.78 | | | 0.30 |"
+ },
+ {
+  "locator": "P0398",
+  "text": "| Loss on strategic investments | — | | | 0.12 | | | 0.01 | | | 0.11 |"
+ },
+ {
+  "locator": "P0399",
+  "text": "| Debt issuance costs | 0.01 | | | — | | | 0.02 | | | — |"
+ },
+ {
+  "locator": "P0400",
+  "text": "| Income tax effect | — | | | 0.64 | | | (0.01) | | | 1.23 |"
+ },
+ {
+  "locator": "P0401",
+  "text": "| Non-GAAP Net Loss Per Diluted Share* | $ | (1.96) | | | $ | (1.42) | | | $ | (3.50) | | | $ | (3.09) |"
+ },
+ {
+  "locator": "P0402",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0403",
+  "text": "| Number of shares used in diluted per share calculation | 29,309 | | | 27,619 | | | 28,740 | | | 27,543 |"
+ },
+ {
+  "locator": "P0404",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0405",
+  "text": "| Supplemental Information | | | | | | |"
+ },
+ {
+  "locator": "P0406",
+  "text": "| Days sales outstanding | 37 | | | 28 | | | | |"
+ },
+ {
+  "locator": "P0407",
+  "text": "| GAAP Days in inventory | 67 | | | 85 | | | | |"
+ },
+ {
+  "locator": "P0408",
+  "text": "|"
+ },
+ {
+  "locator": "P0409",
+  "text": "Non-GAAP Days in inventory(1)"
+ },
+ {
+  "locator": "P0410",
+  "text": "| 67 | | | 86 | | | | |"
+ },
+ {
+  "locator": "P0411",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0412",
+  "text": "|"
+ },
+ {
+  "locator": "P0413",
+  "text": "* Beginning in the fourth quarter of fiscal 2023, we updated our calculation of non-GAAP financial measures to no longer exclude \"IP litigation expense, net.\" The metrics for each period are presented in accordance with this updated methodology; as a result, the second quarter and first half of 2023 differ from those previously presented by the amount of IP litigation expense, net recorded in such period."
+ },
+ {
+  "locator": "P0414",
+  "text": "| | | | | | | |"
+ },
+ {
+  "locator": "P0415",
+  "text": "|"
+ },
+ {
+  "locator": "P0416",
+  "text": "(1) Non-GAAP Days in inventory is calculated as inventory divided by (Revenue minus Non-GAAP Gross Profit), multiplied by 91 days."
+ },
+ {
+  "locator": "P0417",
+  "text": "| | | | | | | | | | | |"
+ },
+ {
+  "locator": "P0418",
+  "text": "| iRobot Corporation"
+ },
+ {
+  "locator": "P0419",
+  "text": "| Supplemental Reconciliation of Third Quarter and Full Year 2024 GAAP to Non-GAAP Guidance"
+ },
+ {
+  "locator": "P0420",
+  "text": "| (unaudited)"
+ },
+ {
+  "locator": "P0421",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0422",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0423",
+  "text": "| | Q3-24 | | FY-24"
+ },
+ {
+  "locator": "P0424",
+  "text": "| GAAP Gross Profit | $72 - $76 million | | $210 - $227 million"
+ },
+ {
+  "locator": "P0425",
+  "text": "| Stock-based compensation | ~$0 million | | ~$2 million"
+ },
+ {
+  "locator": "P0426",
+  "text": "| Total adjustments | ~$0 million | | ~$2 million"
+ },
+ {
+  "locator": "P0427",
+  "text": "| Non-GAAP Gross Profit | $72 - $76 million | | $212 - $229 million"
+ },
+ {
+  "locator": "P0428",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0429",
+  "text": "| | Q3-24 | | FY-24"
+ },
+ {
+  "locator": "P0430",
+  "text": "| GAAP Gross Margin | 33% - 34% | | 27% - 28%"
+ },
+ {
+  "locator": "P0431",
+  "text": "| Stock-based compensation | ~0% | | ~1%"
+ },
+ {
+  "locator": "P0432",
+  "text": "| Total adjustments | ~0% | | ~1%"
+ },
+ {
+  "locator": "P0433",
+  "text": "| Non-GAAP Gross Margin | 33% - 34% | | 28% - 29%"
+ },
+ {
+  "locator": "P0434",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0435",
+  "text": "| | Q3-24 | | FY-24"
+ },
+ {
+  "locator": "P0436",
+  "text": "| GAAP Operating Expenses | $74 million | | $267 - $271 million"
+ },
+ {
+  "locator": "P0437",
+  "text": "| Amortization of acquired intangible assets | ~($0) million | | ~($1) million"
+ },
+ {
+  "locator": "P0438",
+  "text": "| Stock-based compensation | ~($7) million | | ~($25) million"
+ },
+ {
+  "locator": "P0439",
+  "text": "| Net merger, acquisition and divestiture income (expense) | - | | ~$74 million"
+ },
+ {
+  "locator": "P0440",
+  "text": "| Restructuring and other | ~($1) million | | ~($24) million"
+ },
+ {
+  "locator": "P0441",
+  "text": "| Total adjustments | ~($8) million | | ~$24 million"
+ },
+ {
+  "locator": "P0442",
+  "text": "| Non-GAAP Operating Expenses | $66 million | | $291 - $295 million"
+ },
+ {
+  "locator": "P0443",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0444",
+  "text": "| | Q3-24 | | FY-24"
+ },
+ {
+  "locator": "P0445",
+  "text": "| GAAP Operating Income (Loss) | ($2) - $1 million | | ($56) - ($42) million"
+ },
+ {
+  "locator": "P0446",
+  "text": "| Amortization of acquired intangible assets | ~$0 million | | ~$1 million"
+ },
+ {
+  "locator": "P0447",
+  "text": "| Stock-based compensation | ~$7 million | | ~$27 million"
+ },
+ {
+  "locator": "P0448",
+  "text": "| Net merger, acquisition and divestiture expense (income) | - | | ~($74) million"
+ },
+ {
+  "locator": "P0449",
+  "text": "| Restructuring and other | ~$1 million | | ~$24 million"
+ },
+ {
+  "locator": "P0450",
+  "text": "| Total adjustments | ~$9 million | | ~($23) million"
+ },
+ {
+  "locator": "P0451",
+  "text": "| Non-GAAP Operating Income (Loss) | $7 - $10 million | | ($79) - ($65) million"
+ },
+ {
+  "locator": "P0452",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0453",
+  "text": "| | Q3-24 | | FY-24"
+ },
+ {
+  "locator": "P0454",
+  "text": "| GAAP Net Loss Per Share | ($0.40) - ($0.30) | | ($3.01) - ($2.55)"
+ },
+ {
+  "locator": "P0455",
+  "text": "| Amortization of acquired intangible assets | ~$0.01 | | ~$0.02"
+ },
+ {
+  "locator": "P0456",
+  "text": "| Stock-based compensation | ~$0.23 | | ~$0.91"
+ },
+ {
+  "locator": "P0457",
+  "text": "| Net merger, acquisition and divestiture expense (income) | - | | ~($2.52)"
+ },
+ {
+  "locator": "P0458",
+  "text": "| Restructuring and other | ~$0.05 | | ~$0.82"
+ },
+ {
+  "locator": "P0459",
+  "text": "| Loss on strategic investments | - | | ~$0.01"
+ },
+ {
+  "locator": "P0460",
+  "text": "| Income tax effect | ~$0 | | ~$0"
+ },
+ {
+  "locator": "P0461",
+  "text": "| Total adjustments | ~$0.29 | | ~($0.76)"
+ },
+ {
+  "locator": "P0462",
+  "text": "| Non-GAAP Net Loss Per Share | ($0.11) - ($0.01) | | ($3.77) - ($3.31)"
+ },
+ {
+  "locator": "P0463",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0464",
+  "text": "| Number of shares used in per share calculations* | ~30.1 million | | ~29.5 million"
+ },
+ {
+  "locator": "P0465",
+  "text": "| | | |"
+ },
+ {
+  "locator": "P0466",
+  "text": "| * Number of shares does not include any additional issuances under our ATM"
+ },
+ {
+  "locator": "P0467",
+  "text": "| Certain numbers may not total due to rounding"
+ }
+]

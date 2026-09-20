@@ -1,0 +1,15 @@
+{
+  "borrower_id": "R01",
+  "engine": "unavailable",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:23:09.918065+00:00",
+  "profile": null,
+  "source_hashes": {
+    "IRBT-8K-ORIGINATION": "ab78d9f1bea82558f69b2525f41fbd80f7e3b31f67cdd4e3df2fd2407a730d0c",
+    "IRBT-10Q-2023Q1": "8efd404383ebb636f3080df707be1691433d4841b3b12b69c4a563cef3308392",
+    "IRBT-CA-ORIGINAL": "5d38c2c88b38e0613f2f65481eee348139efce441bbf2c5d55b111757adfab3e"
+  },
+  "raw_response": null,
+  "warnings": [],
+  "error": "TimeoutError: The read operation timed out"
+}

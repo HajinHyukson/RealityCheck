@@ -1,0 +1,28 @@
+{
+  "borrower_id": "B01",
+  "report_type": "industry_analysis",
+  "publisher": "Northgate Research (fictional)",
+  "synthetic": true,
+  "title": "Industry analysis: platform vendors are shortening deprecation windows",
+  "library_summary": "An external industry report that never names FluxRail. Tests whether an industry trend is kept separate from borrower facts and covenant findings.",
+  "event_date": "2027-09-13",
+  "available_at": "2027-09-14",
+  "review_date": "2027-09-14",
+  "sources": [
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P1 — vendor deprecation windows",
+      "text": "Synthetic industry report published September 13, 2027 by Northgate Research, a fictional analyst firm. It does not name or assess FluxRail. Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change. Northgate expects notice periods to keep shortening through 2028; this is an analyst forecast, not an observed result."
+    },
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P2 — buyer survey",
+      "text": "In a July 2027 survey of 140 mid-sized manufacturers that use regulated-approval workflow software, 31% said they would open a competitive review at their next renewal after two workflow outages within twelve months, and 9% said they would do so after one. These are stated intentions. Northgate did not measure actual renewal outcomes, and the survey did not identify respondents' software vendors."
+    },
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P3 — mitigating practices and limits",
+      "text": "Workflow vendors that ran automated connector regression tests against platform pre-release environments reported fewer customer-facing integration incidents than those that did not, although Northgate notes the comparison is not controlled for vendor size. The report draws on public vendor notices and the survey only. It contains no information about any individual software company's connectors, customers, contracts or lenders."
+    }
+  ]
+}

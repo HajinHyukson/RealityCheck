@@ -1,0 +1,22 @@
+JUDGE: Seed Round VC
+1|Detect|10|Names the literal problem, drift detection is a proven fundable category, implies always-on monitoring a CIO would pay for.
+2|Reconcile|9|Reconciliation is an established enterprise finance category with recurring subscription spend and a clear budget line.
+3|Monitor|9|Implies an ongoing paid relationship, but risks reading as a commodity dashboard rather than a defensible product.
+4|Stress-test|9|Regulator-driven category banks already budget for, rigorous connotation, safe claim that avoids overpromising outcomes.
+5|Audit|8|Continuous audit is a recognized paid category with authority and recurring engagement, slightly back-office in flavor.
+6|Flag|7|Concrete recurring workflow action a compliance team would search for, though it reads more like a feature than a platform.
+7|Diagnose|7|Medical framing implies periodic checkup and ongoing relationship, resonates in fintech without overclaiming a fix.
+8|Reassess|6|Signals recurring re-evaluation, but sounds like an advisory service rather than a category-defining product.
+9|Validate|6|Safe and precise, but reads as a one-time checkpoint unless explicitly framed as continuous.
+10|Interrogate|6|Memorable and edgy for a data product, but doesn't map to an existing buyer category or budget line.
+11|Realign|5|Implies a helpful corrective nudge without claiming to execute trades, decent but vague as a category name.
+12|Trace|5|Useful forensic root-cause feature, but feels like a supporting capability rather than the headline product.
+13|Reclassify|5|Sharp and on-thesis for ETF labels, but implies authority to reclassify that only regulators or issuers actually hold.
+14|Challenge|4|Provocative and active, but sounds like a consulting engagement, not a recurring SaaS product a PM buys.
+15|Surface|4|Overused SaaS buzzword that undersells differentiation and blends into every insights dashboard pitch.
+16|Uncover|3|One-time discovery framing signals a report, not the recurring relationship investors want to see.
+17|Reveal|3|Passive and report-like, exactly the one-time-output verb that undercuts a recurring revenue story.
+18|Expose|3|Reads as journalism or whistleblowing, an adversarial tone mismatched to enterprise risk software buyers.
+19|Update|2|Generic and feature-sized, doesn't imply insight or defensibility, sounds like a changelog not a company.
+20|Correct|2|Overclaims: a startup can't actually correct another firm's classification, inviting liability and disbelief.
+21|Prevent|1|Biggest overclaim, no risk product can guarantee prevention of drift or loss, invites regulatory and legal skepticism.

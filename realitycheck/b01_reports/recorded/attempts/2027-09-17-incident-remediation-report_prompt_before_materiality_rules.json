@@ -1,0 +1,217 @@
+{
+  "id": "B01-E-b3683dfc84bb",
+  "title": "Root-cause report and notice-routing remediation for incident FR-2027-094",
+  "event_date": "2027-09-16",
+  "available_at": "2027-09-17",
+  "review_date": "2027-09-17",
+  "sources": [
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P1 — root cause and corrective action",
+      "text": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered."
+    },
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P2 — recurrence testing",
+      "text": "Recurrence testing ran from September 12 to September 15 under production-equivalent load across all queue partitions and reproduced no stall. The responsible technology officer concluded on September 15 that no material unresolved risk of recurrence remains, and recorded the basis for that conclusion in the incident ledger."
+    },
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P3 — late notice and routing change",
+      "text": "The Lender notice for this incident was due by 5 p.m. on September 9, 2027 and was delivered at 10:40 a.m. on September 11. The delay arose because the escalation rule sent the alert to a retired shared mailbox. Since September 13 the incident ledger has generated the Lender notice automatically when an incident crosses the reporting threshold, with a second approver as backup. The late notice itself is not cured by this change."
+    },
+    {
+      "document_id": "B01-RCA-FR-2027-094",
+      "locator": "P4 — customers",
+      "text": "As of September 16, 2027 no affected customer had delivered a written termination or nonrenewal notice, and none had requested service credits. FluxRail has not surveyed the affected customers about renewal intentions."
+    }
+  ],
+  "source_kind": "database_update",
+  "package_version": "1.2",
+  "status": "completed",
+  "analysis": {
+    "id": "B01-E-b3683dfc84bb",
+    "event": {
+      "id": "B01-E-b3683dfc84bb",
+      "title": "Root-cause report and notice-routing remediation for incident FR-2027-094",
+      "event_date": "2027-09-16",
+      "available_at": "2027-09-17",
+      "review_date": "2027-09-17",
+      "sources": [
+        {
+          "document_id": "B01-RCA-FR-2027-094",
+          "locator": "P1 — root cause and corrective action",
+          "text": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered."
+        },
+        {
+          "document_id": "B01-RCA-FR-2027-094",
+          "locator": "P2 — recurrence testing",
+          "text": "Recurrence testing ran from September 12 to September 15 under production-equivalent load across all queue partitions and reproduced no stall. The responsible technology officer concluded on September 15 that no material unresolved risk of recurrence remains, and recorded the basis for that conclusion in the incident ledger."
+        },
+        {
+          "document_id": "B01-RCA-FR-2027-094",
+          "locator": "P3 — late notice and routing change",
+          "text": "The Lender notice for this incident was due by 5 p.m. on September 9, 2027 and was delivered at 10:40 a.m. on September 11. The delay arose because the escalation rule sent the alert to a retired shared mailbox. Since September 13 the incident ledger has generated the Lender notice automatically when an incident crosses the reporting threshold, with a second approver as backup. The late notice itself is not cured by this change."
+        },
+        {
+          "document_id": "B01-RCA-FR-2027-094",
+          "locator": "P4 — customers",
+          "text": "As of September 16, 2027 no affected customer had delivered a written termination or nonrenewal notice, and none had requested service credits. FluxRail has not surveyed the affected customers about renewal intentions."
+        }
+      ]
+    },
+    "borrower_id": "B01",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:21:56.891808+00:00",
+    "model_options": {
+      "enable_thinking": true,
+      "max_tokens": 10000,
+      "response_format": "json_object"
+    },
+    "summary": "The September 7, 2027 workflow incident lasted three hours and affected 7% of revenue, revealing a gap in reliable workflow execution that weakens the renewal‑dependence assumption (A01). Although the outage was below the 10% threshold, it does not disprove the connector‑support continuity assumption (A06). The incident triggered S2 reporting duties: the root‑cause report was timely, but the required lender notice was delivered late (Sept 11 vs. Sept 9 deadline), constituting a noncompliant missed notice under S2. No other covenants or assumptions are materially affected.",
+    "attributions": [
+      {
+        "id": "att-a41fc7c6-bf87-432e-888f-b94fd52b33f0",
+        "target_type": "assumption",
+        "target_id": "B01-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "The incident shows a workflow outage lasting three hours affecting 7% of revenue, indicating imperfect reliable workflow execution, which weakens the assumption that renewals depend on reliable workflow execution.",
+        "evidence": [
+          {
+            "document_id": "B01-RCA-FR-2027-094",
+            "locator": "P1 — root cause and corrective action",
+            "quote": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": "Consider adjusting renewal probability or monitoring connector reliability more closely.",
+        "path": [],
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      }
+    ],
+    "coverage": [
+      {
+        "assumption_id": "B01-A01",
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A02",
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A03",
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A04",
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A05",
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A06",
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "status": "unaddressed"
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "S2",
+        "status": "noncompliant",
+        "rationale": "The incident affected 7% of revenue (>5% threshold) and lasted >2 hours, triggering S2 notice duty. The Lender notice was due by 5 p.m. on September 9, 2027 per P3 but was delivered at 10:40 a.m. on September 11, missing the deadline. Root-cause report was timely (delivered Sept 16 within 15 days of Sept 7 restoration).",
+        "evidence": [
+          {
+            "document_id": "B01-RCA-FR-2027-094",
+            "locator": "P1 — root cause and corrective action",
+            "quote": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered.",
+            "verified": true
+          },
+          {
+            "document_id": "B01-RCA-FR-2027-094",
+            "locator": "P3 — late notice and routing change",
+            "quote": "The Lender notice for this incident was due by 5 p.m. on September 9, 2027 and was delivered at 10:40 a.m. on September 11. The delay arose because the escalation rule sent the alert to a retired shared mailbox. Since September 13 the incident ledger has generated the Lender notice automatically when an incident crosses the reporting threshold, with a second approver as backup. The late notice itself is not cured by this change.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      }
+    ],
+    "warnings": [],
+    "error": null,
+    "decisions": {},
+    "raw_response": {
+      "summary": "The September 7, 2027 workflow incident lasted three hours and affected 7% of revenue, revealing a gap in reliable workflow execution that weakens the renewal‑dependence assumption (A01). Although the outage was below the 10% threshold, it does not disprove the connector‑support continuity assumption (A06). The incident triggered S2 reporting duties: the root‑cause report was timely, but the required lender notice was delivered late (Sept 11 vs. Sept 9 deadline), constituting a noncompliant missed notice under S2. No other covenants or assumptions are materially affected.",
+      "attributions": [
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A01",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": "weakened",
+          "rationale": "The incident shows a workflow outage lasting three hours affecting 7% of revenue, indicating imperfect reliable workflow execution, which weakens the assumption that renewals depend on reliable workflow execution.",
+          "evidence": [
+            {
+              "document_id": "B01-RCA-FR-2027-094",
+              "locator": "P1 — root cause and corrective action",
+              "quote": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "review_assumption",
+          "proposed_adjustment": "Consider adjusting renewal probability or monitoring connector reliability more closely.",
+          "path": []
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [
+        {
+          "clause_id": "S2",
+          "status": "noncompliant",
+          "rationale": "The incident affected 7% of revenue (>5% threshold) and lasted >2 hours, triggering S2 notice duty. The Lender notice was due by 5 p.m. on September 9, 2027 per P3 but was delivered at 10:40 a.m. on September 11, missing the deadline. Root-cause report was timely (delivered Sept 16 within 15 days of Sept 7 restoration).",
+          "evidence": [
+            {
+              "document_id": "B01-RCA-FR-2027-094",
+              "locator": "P1 — root cause and corrective action",
+              "quote": "Synthetic root-cause report for incident FR-2027-094, delivered to the Lender on September 16, 2027, nine calendar days after service was restored at noon on September 7. The incident lasted three hours and affected customer groups representing 7% of fiscal 2026 revenue. The cause was a queue-partition setting introduced in the September 4 release, which stalled regulated approval workflows for one partition. The setting was reverted on September 7 and a permanent fix was released on September 12. No approval data was lost or altered."
+            },
+            {
+              "document_id": "B01-RCA-FR-2027-094",
+              "locator": "P3 — late notice and routing change",
+              "quote": "The Lender notice for this incident was due by 5 p.m. on September 9, 2027 and was delivered at 10:40 a.m. on September 11. The delay arose because the escalation rule sent the alert to a retired shared mailbox. Since September 13 the incident ledger has generated the Lender notice automatically when an incident crosses the reporting threshold, with a second approver as backup. The late notice itself is not cured by this change."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "decision": {
+    "action": "pending"
+  },
+  "received_at": "2026-09-20T01:21:56+00:00",
+  "analyzed_at": "2026-09-20T01:24:01+00:00",
+  "recorded_replay": {
+    "library_file": "2027-09-17-incident-remediation-report.json",
+    "recorded_on_copy": true,
+    "note": "Genuine hosted Nemotron analysis recorded on a copy of the FluxRail database, with the library reports introduced in date order."
+  }
+}

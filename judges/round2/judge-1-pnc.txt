@@ -1,0 +1,21 @@
+JUDGE: PNC Compound
+1|S15|10|Directly names the ETF-label mismatch in plain language, no jargon, and matches the pitch's core story exactly.
+2|S10|9|Simplest possible phrasing, instantly understood by any investor, and highly memorable in a 60-second pitch.
+3|S1|9|Vivid "beneath you" image makes an abstract risk feel personal and concrete without overclaiming anything.
+4|S17|9|Ties straight to the product's own "drift" branding using clear, concrete portfolio-management vocabulary.
+5|S5|8|Professional exposure-vs-intent framing signals a clear institutional user and a real, testable mismatch.
+6|S13|8|Concrete "exposure" term plus "quietly shifts" evokes hidden risk, fitting a judge focused on failure modes.
+7|S4|8|"Investment thesis breaks" is familiar finance-pro vocabulary, punchy and credible for a hackathon demo.
+8|S19|6|Technically accurate to the product's "representations" framing but jargon-heavy and less gripping to hear aloud.
+9|S3|6|Echoes the Nemotron "economic identity" concept well, but "financial identities" reads unusually on first hearing.
+10|S16|6|Nice nod to the small-business audience PNC cares about, but "the model" stays vague about what broke.
+11|S9|5|Accurate but wordier and more academic-sounding than the punchier alternatives.
+12|S14|5|Reads as a generic corporate tagline that could describe almost any SaaS product, not distinctly financial.
+13|S6|5|Abstract "models" leaves unclear whose models are meant, weakening the concrete user story.
+14|S20|4|"No longer fits" is vague about what it's supposed to fit, losing concreteness.
+15|S8|4|Sounds like a generic data-quality pitch rather than one grounded in a specific financial problem.
+16|S2|4|"Assumptions vs reality" is broad enough to fit any analytics tool, not specifically an ETF or portfolio problem.
+17|S12|3|"Investment meaning changes" is abstract and doesn't point to a concrete, checkable fact.
+18|S18|3|"Underlying story" is a vague metaphor that undersells the deterministic, checkable nature of the tool.
+19|S11|2|Awkward phrasing ("outgrows its model") slows down a 60-second pitch and confuses rather than clarifies.
+20|S7|2|"Something different" is the vaguest possible description, giving no concrete sense of the problem or benefit.

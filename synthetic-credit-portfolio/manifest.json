@@ -1,0 +1,877 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "borrower_count": 30,
+  "companies": [
+    {
+      "id": "B01",
+      "name": "FluxRail Workflow, Inc.",
+      "sector": "Workflow orchestration software",
+      "directory": "B01-fluxrail-workflow-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Enterprise connector compatibility",
+        "Critical workflow incident reporting",
+        "Configuration library custody"
+      ]
+    },
+    {
+      "id": "B02",
+      "name": "Clinivanta Admin Systems, Inc.",
+      "sector": "Healthcare administrative software",
+      "directory": "B02-clinivanta-admin-systems-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Payer-rule implementation register",
+        "Protected-data access attestation",
+        "Material payer rejection notice"
+      ]
+    },
+    {
+      "id": "B03",
+      "name": "PayMantle Services, LLC",
+      "sector": "Payroll and employment-tax software",
+      "directory": "B03-paymantle-services-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Client-fund segregation and remittance",
+        "Jurisdiction filing-calendar control",
+        "Payroll engine release protection"
+      ]
+    },
+    {
+      "id": "B04",
+      "name": "RouteTrellis Logistics, Inc.",
+      "sector": "Logistics routing software",
+      "directory": "B04-routetrellis-logistics-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Core map-feed continuity",
+        "Routing-solver release gate",
+        "Telematics adapter exception report"
+      ]
+    },
+    {
+      "id": "B05",
+      "name": "Estimark Build Systems, LLC",
+      "sector": "Construction estimating software",
+      "directory": "B05-estimark-build-systems-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Cost-library provenance",
+        "Bid-activity reporting",
+        "Core taxonomy transfer restriction"
+      ]
+    },
+    {
+      "id": "B06",
+      "name": "SableHarbor Cybersecurity, Inc.",
+      "sector": "Managed identity cybersecurity software",
+      "directory": "B06-sableharbor-cybersecurity-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Privileged production access control",
+        "Customer security-incident notice",
+        "Cryptographic root-authority restriction"
+      ]
+    },
+    {
+      "id": "B07",
+      "name": "RegistrarSpring Education Systems, Inc.",
+      "sector": "Education administration software",
+      "directory": "B07-registrarspring-education-systems-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "State reporting schema readiness",
+        "Student-record export continuity",
+        "Academic-year implementation capacity report"
+      ]
+    },
+    {
+      "id": "B08",
+      "name": "GridLumen Analytics, LLC",
+      "sector": "Energy analytics software",
+      "directory": "B08-gridlumen-analytics-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Meter-feed completeness reporting",
+        "Emissions-factor governance",
+        "Forecast-model repository control"
+      ]
+    },
+    {
+      "id": "B09",
+      "name": "Evidentary Legal Systems, Inc.",
+      "sector": "Legal e-discovery software",
+      "directory": "B09-evidentary-legal-systems-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Collection chain-of-custody manifests",
+        "Privileged review-room controls",
+        "Legal-hold release and deletion control"
+      ]
+    },
+    {
+      "id": "B10",
+      "name": "Maintenara Industrial Software, Inc.",
+      "sector": "Industrial maintenance software",
+      "directory": "B10-maintenara-industrial-software-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Critical-asset alert continuity",
+        "Plant-connector release control",
+        "Industrial implementation backlog report"
+      ]
+    },
+    {
+      "id": "B11",
+      "name": "Meridian Forge Staffing, Inc.",
+      "sector": "Skilled industrial staffing",
+      "directory": "B11-meridian-forge-staffing-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Monthly Payroll and Tax Status Report",
+        "Credential and Site-Access Control",
+        "Prohibition on Factoring Assigned Receivables"
+      ]
+    },
+    {
+      "id": "B12",
+      "name": "Harborline Claims Administration, LLC",
+      "sector": "Property claims administration",
+      "directory": "B12-harborline-claims-administration-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Segregation of Client Claim Funds",
+        "Quarterly Claim-File Control Certificate",
+        "Catastrophe Staffing Continuity"
+      ]
+    },
+    {
+      "id": "B13",
+      "name": "AlderPeak Accounting Services, Inc.",
+      "sector": "Outsourced accounting services",
+      "directory": "B13-alderpeak-accounting-services-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Client Ledger Access Administration",
+        "Quarterly Close-Delivery Report",
+        "No Custody of Client Disbursement Funds"
+      ]
+    },
+    {
+      "id": "B14",
+      "name": "Northstar Managed Networks, LLC",
+      "sector": "Managed IT infrastructure services",
+      "directory": "B14-northstar-managed-networks-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Privileged Access and Credential Rotation",
+        "Service Availability and Incident Report",
+        "Customer Administrative Credential Transfer Prohibition"
+      ]
+    },
+    {
+      "id": "B15",
+      "name": "Calibrant Laboratory Support, Inc.",
+      "sector": "Nonclinical laboratory support services",
+      "directory": "B15-calibrant-laboratory-support-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Calibration Record Exception Report",
+        "Customer Sample Chain of Custody",
+        "No Unauthorized Use or Disposal of Customer Materials"
+      ]
+    },
+    {
+      "id": "B16",
+      "name": "Everstead Facility Services, LLC",
+      "sector": "Multi-site facilities services",
+      "directory": "B16-everstead-facility-services-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Life-Safety Work Order Reporting",
+        "Qualified Technician and Subcontractor Control",
+        "No Diversion of Customer-Controlled Materials"
+      ]
+    },
+    {
+      "id": "B17",
+      "name": "LinguaSpan Localization, Inc.",
+      "sector": "Translation and software localization",
+      "directory": "B17-linguaspan-localization-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Linguist Qualification and Assignment Control",
+        "Quarterly Quality and Rework Report",
+        "Restricted Use of External Language Models"
+      ]
+    },
+    {
+      "id": "B18",
+      "name": "SupplyCrest Procurement Services, LLC",
+      "sector": "Procurement outsourcing",
+      "directory": "B18-supplycrest-procurement-services-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Delegated Purchasing Authority Report",
+        "Supplier Conflict and Selection Control",
+        "Prohibition on Undisclosed Supplier Consideration"
+      ]
+    },
+    {
+      "id": "B19",
+      "name": "VerityLane Compliance Advisors, Inc.",
+      "sector": "Corporate compliance consulting",
+      "directory": "B19-veritylane-compliance-advisors-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Engagement Scope and Independent Review",
+        "Quarterly Conflict and Client Escalation Report",
+        "No Unauthorized Client Certification or Filing"
+      ]
+    },
+    {
+      "id": "B20",
+      "name": "Ironwood Field Inspection, LLC",
+      "sector": "Infrastructure field inspection",
+      "directory": "B20-ironwood-field-inspection-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Field Evidence Exception Report",
+        "Inspector Qualification and Equipment Calibration",
+        "Prohibition on Undisclosed Report Alteration"
+      ]
+    },
+    {
+      "id": "B21",
+      "name": "PermitAxis Municipal Systems, Inc.",
+      "sector": "municipal permitting workflow software",
+      "directory": "B21-permitaxis-municipal-systems-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Municipal implementation register",
+        "Permitting-platform continuity test",
+        "Municipal data custody restriction"
+      ]
+    },
+    {
+      "id": "B22",
+      "name": "PolicyHarbor Administration Software, Inc.",
+      "sector": "insurance policy administration software",
+      "directory": "B22-policyharbor-administration-software-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Carrier conversion controls",
+        "Premium-file incident reporting",
+        "Carrier configuration and source-code restriction"
+      ]
+    },
+    {
+      "id": "B23",
+      "name": "FranchiseTable Systems LLC",
+      "sector": "restaurant franchise operations software",
+      "directory": "B23-franchisetable-systems-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Systemwide sales-feed reconciliation",
+        "Royalty-rule change control",
+        "Core brand-contract assignment restriction"
+      ]
+    },
+    {
+      "id": "B24",
+      "name": "FreightLedger Audit Services, Inc.",
+      "sector": "freight audit and payment services",
+      "directory": "B24-freightledger-audit-services-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Client payment-fund segregation",
+        "Invoice-exception aging report",
+        "Carrier-payment file validation"
+      ]
+    },
+    {
+      "id": "B25",
+      "name": "ArchiveShield Records Services LLC",
+      "sector": "document destruction and records management services",
+      "directory": "B25-archiveshield-records-services-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Chain-of-custody exception log",
+        "Authorized destruction release",
+        "Records-custody subcontract restriction"
+      ]
+    },
+    {
+      "id": "B26",
+      "name": "ReturnCircuit Commerce Software, Inc.",
+      "sector": "ecommerce returns management software",
+      "directory": "B26-returncircuit-commerce-software-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 11,
+      "specialized_titles": [
+        "Merchant refund-rule deployment control",
+        "Refund-funding exposure report",
+        "Returns-data commercialization restriction"
+      ]
+    },
+    {
+      "id": "B27",
+      "name": "MeterCivic Billing Systems LLC",
+      "sector": "utility customer billing software",
+      "directory": "B27-metercivic-billing-systems-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Utility rate-table deployment approval",
+        "Meter-read exception reporting",
+        "Billing-engine custody restriction"
+      ]
+    },
+    {
+      "id": "B28",
+      "name": "MemberSpring Platform, Inc.",
+      "sector": "membership management software",
+      "directory": "B28-memberspring-platform-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Association dues-rule certification",
+        "Association payment-fund report",
+        "Member-directory data restriction"
+      ]
+    },
+    {
+      "id": "B29",
+      "name": "SignalQuarry Data Licensing, Inc.",
+      "sector": "commercial data licensing and analytics",
+      "directory": "B29-signalquarry-data-licensing-inc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Material source-rights register",
+        "Dataset permitted-use controls",
+        "Core dataset ownership restriction"
+      ]
+    },
+    {
+      "id": "B30",
+      "name": "ClearVoice Contact Services LLC",
+      "sector": "technology-enabled contact-center outsourcing",
+      "directory": "B30-clearvoice-contact-services-llc",
+      "origination_files": [
+        "credit-agreement.md",
+        "contract-record.json",
+        "underwriting-memo.md",
+        "origination-financial-model.json"
+      ],
+      "origination_available_at": "2026-12-31",
+      "future_evidence": [
+        {
+          "file": "future-evidence/2027-06-01-q1-financials.json",
+          "available_at": "2027-06-01"
+        },
+        {
+          "file": "future-evidence/2027-06-16-operating-event.md",
+          "available_at": "2027-06-16"
+        }
+      ],
+      "clause_count": 12,
+      "specialized_titles": [
+        "Client service-level credit report",
+        "Privileged client-system access control",
+        "Material client-contract transfer restriction"
+      ]
+    }
+  ]
+}

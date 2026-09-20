@@ -1,0 +1,125 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "control",
+  "review_date": "2023-07-25",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:03:29.717398+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [],
+  "assessments_supplied": false,
+  "summary": "Based on evidence available through the July 24, 2023 origination and the Q1 2023 10‑Q, no dated information justifies tightening, loosening, or adding any covenant. The existing package remains appropriate, resulting in no material drift.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence shows core assets falling below $250M or that break fee terms have changed; the covenant remains appropriate."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Management’s going‑concern assessment indicates sufficient liquidity for 12 months; no audit exception reported, so the no‑going‑concern requirement stays fit."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly delivery schedule and compliance certificate requirements match the origination terms; no evidence of needed alteration."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon Break Fee sweep provisions are unchanged; no new evidence alters the trigger or application of the fee."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice of default provisions remain adequate; no evidence suggests a need to modify timing or content."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "No evidence shows a change in financial condition, break‑fee terms, or reporting obligations that would require a tighter or looser covenant; all assumptions remain supported.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence available through the July 24, 2023 origination and the Q1 2023 10‑Q, no dated information justifies tightening, loosening, or adding any covenant. The existing package remains appropriate, resulting in no material drift.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R01-A02",
+          "R01-A03",
+          "R01-A04",
+          "R01-A05",
+          "R01-A06"
+        ],
+        "rationale": "No evidence shows core assets falling below $250M or that break fee terms have changed; the covenant remains appropriate.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R01-A06"
+        ],
+        "rationale": "Management’s going‑concern assessment indicates sufficient liquidity for 12 months; no audit exception reported, so the no‑going‑concern requirement stays fit.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R01-A06"
+        ],
+        "rationale": "Monthly delivery schedule and compliance certificate requirements match the origination terms; no evidence of needed alteration.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R01-A02"
+        ],
+        "rationale": "Amazon Break Fee sweep provisions are unchanged; no new evidence alters the trigger or application of the fee.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice of default provisions remain adequate; no evidence suggests a need to modify timing or content.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "No evidence shows a change in financial condition, break‑fee terms, or reporting obligations that would require a tighter or looser covenant; all assumptions remain supported."
+  },
+  "elapsed_seconds": 26.2
+}

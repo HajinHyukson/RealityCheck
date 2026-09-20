@@ -1,0 +1,70 @@
+{
+  "case": "R02-rumbleon-oaktree",
+  "screen": "amend|waiv|forbear|lenders? (have |has )?agreed|covenant relief|not in compliance|noncompliance|event of default",
+  "entries": [
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0346",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "On August 9, 2023, the Company and Oaktree Fund Administration, LLC executed Amendment No. 5 (as defined in Note 5) to the Term Loan Credit Agreement, which pro"
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0347",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Management has initiated plans that will allow the Company to remain in compliance with all revised covenants under Amendment No. 5. The Company has classified "
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0538",
+      "action": "removed",
+      "reason": "States covenant noncompliance and the amendment in the same passage. The two cannot be separated without editing the text, so the whole passage is withheld. Information gap: the first public statement of noncompliance appeared together with the lender response, so this replay cannot show advance detection of it.",
+      "preview": "At June 30, 2023, the Company was not in compliance with certain leverage ratio financial covenants under the Oaktree Credit Agreement. On August 9, 2023 (the \""
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0539",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "The elimination of the June 30, 2023 leverage ratio financial covenants was made effective as of June 30, 2023, and the Lenders agreed in Amendment No. 5 that n"
+    },
+    {
+      "report_id": "R02-D03",
+      "document_id": "RMBL-10Q-2023Q2",
+      "locator": "P0540",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Based on the amended terms of the Oaktree Credit Agreement, the Company believes that it will be in compliance with all covenants under the Oaktree Credit Agree"
+    },
+    {
+      "report_id": "R02-D07",
+      "document_id": "RMBL-10Q-2024Q2",
+      "locator": "P0392",
+      "action": "removed",
+      "reason": "States covenant noncompliance and the amendment in the same passage. The two cannot be separated without editing the text, so the whole passage is withheld. Information gap: the first public statement of noncompliance appeared together with the lender response, so this replay cannot show advance detection of it.",
+      "preview": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date. On August 6, 202"
+    },
+    {
+      "report_id": "R02-D07",
+      "document_id": "RMBL-10Q-2024Q2",
+      "locator": "P0393",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Amendment No. 8 was made effective as of June 30, 2024, and the lenders agreed in Amendment No. 8 that no event of default exists or arises from such financial "
+    },
+    {
+      "report_id": "R02-D07",
+      "document_id": "RMBL-10Q-2024Q2",
+      "locator": "P0394",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "Based on the amended terms of the Credit Agreement, the Company believes that it will be in compliance with all covenants under the Credit Agreement, as amended"
+    }
+  ]
+}

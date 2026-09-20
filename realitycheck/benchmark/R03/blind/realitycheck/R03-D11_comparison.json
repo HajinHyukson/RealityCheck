@@ -1,0 +1,45 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2020-08-06",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08",
+    "R03-D09",
+    "R03-D10",
+    "R03-D11"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "insufficient_evidence",
+  "updated_judgment": "no_material_drift",
+  "evidence_attributable_changes": [],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on evidence through August 6 2020, all assumptions regarding timely reporting, VIP acquisition performance, and absence of material adverse effect remain valid or insufficient to warrant changes; thus the existing covenant package is retained without modification.",
+  "updated_reasons": "No dated evidence justifies tightening, loosening, or adding protections; all assumptions either supported, weakened but already addressed, or insufficient to drive change.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

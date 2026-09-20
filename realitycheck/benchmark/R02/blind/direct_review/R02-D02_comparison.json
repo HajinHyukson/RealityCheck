@@ -1,0 +1,57 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2023-05-10",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C03",
+      "action": "modify",
+      "rationale": "Liquidity declined sharply from $196.1 million to $97.4 million, signaling higher cash‑flow risk.",
+      "change_type": "threshold",
+      "change": "Increase the minimum liquidity threshold",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-03-16",
+          "locator": "P0064",
+          "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million.",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0048",
+          "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": []
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Liquidity fell from $196.1 million at end‑2022 to $97.4 million in Q1 2023, indicating tighter cash conditions; therefore the minimum liquidity covenant should be tightened. No clear evidence justifies changes to leverage or reporting covenants.",
+  "updated_reasons": "Evidence shows a significant decline in liquidity from $196.1 million to $97.4 million, justifying a tightened minimum liquidity covenant; no evidence supports changes to leverage or reporting provisions.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

@@ -1,0 +1,113 @@
+{
+  "borrower_id": "R01",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "control",
+  "review_date": "2023-07-25",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:03:30.156544+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [],
+  "assessments_supplied": false,
+  "summary": "Based on the origination 8-K and Q1 2023 10-Q, no new information suggests the existing covenants are inadequate; all clauses are retained, resulting in no material drift.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence shows Consolidated Core Assets approaching the $250 M threshold; cash and inventory remain sufficient."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Management’s going‑concern assessment does not indicate an audit exception; the covenant already bars such opinions."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No evidence of issues with monthly financial delivery or compliance certification."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon Break Fee sweep provisions are already reflected in the agreement; no new evidence warrants change."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence of default‑notice problems or need to alter the notice requirement."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Available evidence (origination 8‑K and Q1 2023 10‑Q) does not show any deterioration that would require tightening, loosening, or adding covenant protections; the existing package remains appropriate.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on the origination 8-K and Q1 2023 10-Q, no new information suggests the existing covenants are inadequate; all clauses are retained, resulting in no material drift.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence shows Consolidated Core Assets approaching the $250 M threshold; cash and inventory remain sufficient.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Management’s going‑concern assessment does not indicate an audit exception; the covenant already bars such opinions.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of issues with monthly financial delivery or compliance certification.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Amazon Break Fee sweep provisions are already reflected in the agreement; no new evidence warrants change.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of default‑notice problems or need to alter the notice requirement.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Available evidence (origination 8‑K and Q1 2023 10‑Q) does not show any deterioration that would require tightening, loosening, or adding covenant protections; the existing package remains appropriate."
+  },
+  "elapsed_seconds": 19.4
+}

@@ -1,0 +1,230 @@
+{
+  "borrower_id": "R03",
+  "borrower": "PetIQ, Inc.",
+  "description": "Historical public-filing replay, March 2018 to August 2020, against the January 2018 Ares term loan. Reports are SEC-filed earnings releases revealed on the dates the SEC accepted them. This history is the project's unseen case: no model run touched it before the prompts, guidelines and scoring rules were frozen.",
+  "original_terms": {
+    "facility_m": 75,
+    "max_first_lien_net_leverage_at_close": 4.0
+  },
+  "presentation": {
+    "as_of": "2020-08-07"
+  },
+  "reports": [
+    {
+      "title": "Fourth-quarter and full-year 2017 results",
+      "summary": "First results after the VIP Petcare acquisition closed.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2018-03-13"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2018 results",
+      "summary": "First quarter including VIP.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2018-05-15"
+        }
+      ]
+    },
+    {
+      "title": "Second-quarter 2018 results",
+      "summary": "Mid-year results.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2018-08-14"
+        }
+      ]
+    },
+    {
+      "title": "Third-quarter 2018 results",
+      "summary": "Results ahead of the first covenant step-down.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2018-11-13"
+        }
+      ]
+    },
+    {
+      "title": "Fourth-quarter and full-year 2018 results",
+      "summary": "First full year with VIP.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2019-03-11"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2019 results",
+      "summary": "Results for the quarter the covenant steps to 3.75x.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2019-05-08"
+        }
+      ]
+    },
+    {
+      "title": "Second-quarter 2019 results",
+      "summary": "First results after July 2019.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2019-08-07"
+        }
+      ]
+    },
+    {
+      "title": "Third-quarter 2019 results",
+      "summary": "Results for the quarter the original covenant steps to 3.50x.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2019-11-07"
+        }
+      ]
+    },
+    {
+      "title": "Fourth-quarter and full-year 2019 results",
+      "summary": "Year-end results.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2020-03-10"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2020 results",
+      "summary": "First results during the pandemic.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2020-05-07"
+        }
+      ]
+    },
+    {
+      "title": "Second-quarter 2020 results",
+      "summary": "Results for the quarter including clinic closures.",
+      "documents": [
+        {
+          "id": "PETQ-PR-2020-08-06"
+        }
+      ]
+    }
+  ],
+  "observed_responses": [
+    {
+      "id": "AR19",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "clause_id": "W19",
+      "title": "Amended and restated term loan: $220 million facility for the Perrigo Animal Health acquisition",
+      "executed_at": "2019-07-08",
+      "disclosed_with": null,
+      "described_in": "PETQ-8K-RESTATED-2019",
+      "locators": [
+        "P0068",
+        "P0069",
+        "P0070",
+        "P0071"
+      ],
+      "instrument": "PETQ-CA-RESTATED-2019",
+      "waiver_scope": "None. A refinancing and upsizing in connection with an acquisition."
+    },
+    {
+      "id": "AM02",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "clause_id": "W02",
+      "title": "Second Amendment: convertible notes permitted; margin increased",
+      "executed_at": "2020-05-14",
+      "disclosed_with": null,
+      "described_in": "PETQ-8K-AMENDMENT-2",
+      "locators": [
+        "P0038"
+      ],
+      "instrument": "PETQ-CA-AMENDMENT-2",
+      "waiver_scope": "None. Permissions for a convertible note issue, with a higher margin."
+    },
+    {
+      "id": "AM03",
+      "version": "1.3",
+      "parent_version": "1.2",
+      "clause_id": "W03",
+      "title": "Third Amendment: EBITDA add-back and permitted debt for terminating the CAP IM agreements",
+      "executed_at": "2020-07-09",
+      "disclosed_with": null,
+      "described_in": "PETQ-CA-AMENDMENT-3",
+      "locators": [
+        "P0026",
+        "P0033"
+      ],
+      "instrument": "PETQ-CA-AMENDMENT-3",
+      "waiver_scope": "None. A definition change and a debt permission tied to ending a supply and license arrangement."
+    },
+    {
+      "id": "AM04",
+      "version": "1.4",
+      "parent_version": "1.3",
+      "clause_id": "W04",
+      "title": "Fourth Amendment: up to $14.5 million of headquarters construction debt permitted",
+      "executed_at": "2020-07-28",
+      "disclosed_with": null,
+      "described_in": "PETQ-8K-AMENDMENT-4",
+      "locators": [
+        "P0115"
+      ],
+      "instrument": "PETQ-CA-AMENDMENT-4",
+      "waiver_scope": "None. A debt permission."
+    }
+  ],
+  "blind_exclusions": {
+    "documents": [],
+    "passages": [
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0096",
+        "reason": "States that the Perrigo Animal Health acquisition was financed with $145 million of new term loan financing from Ares, which is the hidden amended and restated facility. The financing cannot be separated from the acquisition-closing sentence without editing the text, so the whole passage is withheld. The pending acquisition remains visible from the May 8, 2019 report."
+      },
+      {
+        "document_id": "PETQ-PR-2019-05-08",
+        "locator": "P0062",
+        "reason": "Announces the agreement to acquire Perrigo Animal Health and states that $145 million of new term loan financing was committed by Ares. A financing commitment is a lender decision and is withheld. It cannot be separated from the announcement sentence without editing the text, so the whole passage is withheld. The pending acquisition remains visible in this report through the chief executive's comment, the stand-alone outlook, the combined 2020 outlook and the pro forma leverage footnote."
+      }
+    ],
+    "kept_despite_screen": [
+      {
+        "document_id": "PETQ-PR-2018-08-14",
+        "locator": "P0098",
+        "reason": "Concerns the amendment of the separate bank revolving credit facility, not the Ares term loan under review. It is not a response by this lender."
+      },
+      {
+        "document_id": "PETQ-PR-2018-08-14",
+        "locator": "P0099",
+        "reason": "Concerns the amendment of the separate bank revolving credit facility, not the Ares term loan under review. It is not a response by this lender."
+      }
+    ],
+    "unsuitable_checkpoints": [],
+    "dependence_notes": [
+      {
+        "report_id": "R03-D07",
+        "note": "The estimated net debt of $262 million after the Perrigo acquisition reflects the hidden amended and restated term loan. The figure is kept unedited; the model is not told how the acquisition was financed."
+      },
+      {
+        "report_id": "R03-D08",
+        "note": "Debt balances from this report onward reflect the hidden July 2019 amended and restated facility, not the original $75 million term loan."
+      },
+      {
+        "report_id": "R03-D09",
+        "note": "Debt balances reflect the hidden July 2019 amended and restated facility."
+      },
+      {
+        "report_id": "R03-D10",
+        "note": "Debt balances reflect the hidden July 2019 amended and restated facility. The revolver draw described is on the separate bank facility."
+      },
+      {
+        "report_id": "R03-D11",
+        "note": "The convertible debt issued in the quarter was permitted by the hidden Second Amendment. The issuance is a company financing fact and is kept; the permission is withheld."
+      }
+    ],
+    "screen_note": "The keyword screen was written for waiver and amendment language. This history's lender responses are a refinancing, a note-issue permission, a definition change and a debt permission, so every passage mentioning the term loan, the lender, refinancing, convertible notes, indebtedness or headquarters was also read by hand on September 19, 2026 before these decisions were recorded."
+  }
+}

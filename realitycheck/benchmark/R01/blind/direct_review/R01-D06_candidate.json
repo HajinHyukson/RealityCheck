@@ -1,0 +1,120 @@
+{
+  "borrower_id": "R01",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-11-06",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:06:15.324604+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06"
+  ],
+  "assessments_supplied": false,
+  "summary": "Based on evidence through November 6, 2024, no new information justifies tightening, loosening, or adding protections to the existing covenant package. All clauses remain appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence shows the $250M Core Assets threshold or its step‑up/down mechanics are inappropriate given the Amazon termination and fee receipt."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statement delivery and going‑concern language remain consistent with observed reporting; no signs of deterioration requiring change."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly compliance certificates continue to be delivered as required; no evidence of missed or deficient reporting."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Amazon Break Fee sweep provisions already govern the $94 M termination fee received; no new facts warrant alteration."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No default or event of default has been reported; notice provisions remain adequate."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "No dated evidence indicates a need to alter risk coverage, monitoring needs, or permitted behavior; the existing package remains consistent with observed developments.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through November 6, 2024, no new information justifies tightening, loosening, or adding protections to the existing covenant package. All clauses remain appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence shows the $250M Core Assets threshold or its step‑up/down mechanics are inappropriate given the Amazon termination and fee receipt.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery and going‑concern language remain consistent with observed reporting; no signs of deterioration requiring change.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly compliance certificates continue to be delivered as required; no evidence of missed or deficient reporting.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Amazon Break Fee sweep provisions already govern the $94 M termination fee received; no new facts warrant alteration.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No default or event of default has been reported; notice provisions remain adequate.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "No dated evidence indicates a need to alter risk coverage, monitoring needs, or permitted behavior; the existing package remains consistent with observed developments."
+  },
+  "elapsed_seconds": 18.6
+}

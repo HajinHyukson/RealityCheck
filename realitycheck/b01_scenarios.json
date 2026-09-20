@@ -1,0 +1,185 @@
+{
+  "borrower_id": "B01",
+  "borrower": "FluxRail Workflow, Inc.",
+  "synthetic": true,
+  "scenario_set": "B01 package history demonstration",
+  "description": "Three authored future evidence events, two fictional executed amendments, and one unresolved detection. This is an additional demonstration sequence following the package's June 16, 2027 operating evidence. It is not an observed borrower history or a legal instrument for a real borrower.",
+  "baseline_agreement_id": "B01-CA-2026-01",
+  "baseline_version": "1.0",
+  "baseline_effective_at": "2026-12-31",
+  "fixed_interest_rate_pct": 9.25,
+  "events": [
+    {
+      "id": "B01-D01",
+      "title": "Compatibility bridge withdrawn; migration deadline passes",
+      "event_date": "2027-07-12",
+      "available_at": "2027-07-13",
+      "review_date": "2027-07-13",
+      "source_kind": "demo",
+      "presentation_summary": "A vendor interface migration loses its secure workaround. The contractual remediation deadline passes before a compatible production connector is ready.",
+      "sources": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P1 — interface release and affected revenue",
+          "text": "Synthetic operating evidence, compiled July 13, 2027. HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups. The vendor continued to make its published endpoint and migration documentation available to FluxRail. The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+        },
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P2 — bridge withdrawal and release status",
+          "text": "The compatibility bridge described in the June 16 management note passed staging tests. A July 5 production security test subsequently showed that it bypassed a required token-expiry control; FluxRail quarantined the bridge that day and did not offer it as a secure workaround thereafter. The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available. The same status remained open at 9:00 a.m. on July 13. The lender's complete consent and waiver register through July 13 contains no extension or waiver of the interface-remediation deadline."
+        },
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P3 — continuing service and evidence limits",
+          "text": "The old authentication endpoint continued operating during the vendor's transition window. FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours. Customers have not delivered written termination or nonrenewal notices. Subscription fees and terms remain unchanged, and FluxRail retains administrative and export control over the configuration library. No later connector deployment, lender decision, current-quarter debt register, bank balance, or trailing-four-quarter EBITDA bridge is contained in this evidence package."
+        }
+      ]
+    },
+    {
+      "id": "B01-D02",
+      "title": "Six-hour regulated-workflow outage despite compatible connectors",
+      "event_date": "2027-08-09",
+      "available_at": "2027-08-10",
+      "review_date": "2027-08-10",
+      "source_kind": "demo",
+      "presentation_summary": "An operating incident exposes renewal reliability despite the first remediation. The current incident-reporting threshold is crossed; the initial lender notice is timely.",
+      "sources": [
+        {
+          "document_id": "B01-DEMO-D02-INCIDENT",
+          "locator": "P1 — monitoring and officer knowledge",
+          "text": "Synthetic incident record FR-2027-081, available August 10, 2027. Production monitoring shows that a queue-lock defect prevented customers from completing regulated approval workflows continuously from 8:30 a.m. until 2:30 p.m. New York time on August 9. The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once. The six-hour interruption was unplanned, and no advance maintenance notice had been issued."
+        },
+        {
+          "document_id": "B01-DEMO-D02-INCIDENT",
+          "locator": "P2 — lender delivery and follow-up",
+          "text": "The designated lender reporting portal records receipt of the initial incident notice at 11:00 a.m. New York time on August 10. The notice includes the incident duration, affected workflows, known exposure, officer knowledge time, and mitigation. A root-cause report has been commissioned but has not yet been delivered as of the August 10 review. Preliminary triage identifies a runtime queue-lock defect, rather than an incompatible vendor endpoint; the production connectors and validated migration bridge remain supported."
+        },
+        {
+          "document_id": "B01-DEMO-D02-INCIDENT",
+          "locator": "P3 — restoration and counterevidence",
+          "text": "The service team restored processing at 2:30 p.m. on August 9 and cleared the affected approval queue. Audit reconciliation found no lost, altered, or incorrectly approved records. No written customer termination or nonrenewal notice has been received. These observations do not establish whether renewal behavior or implementation support costs will change. The incident evidence contains no new quarter-end debt, eligible cash, or trailing-four-quarter EBITDA data."
+        }
+      ]
+    },
+    {
+      "id": "B01-D03",
+      "title": "Smaller repeat outage escapes the amended notice process",
+      "event_date": "2027-09-07",
+      "available_at": "2027-09-10",
+      "review_date": "2027-09-10",
+      "source_kind": "demo",
+      "presentation_summary": "A three-hour incident affecting 7% of prior-year revenue crosses the amended threshold. The notice deadline has passed, and a decision on further package changes remains open.",
+      "sources": [
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P1 — automatically synchronized incident ledger",
+          "text": "Synthetic company-database update synchronized for analyst review at 10:00 a.m. New York time on September 10, 2027. Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure. The outage was unplanned and did not fall within an announced maintenance window."
+        },
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P2 — complete portal and dispatch reconciliation",
+          "text": "The reporting administrator reconciled the full designated lender-portal receipt log and FluxRail's notice-dispatch register through 10:00 a.m. September 10. Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081. The incident-routing configuration still used a greater-than-four-hour duration and 10% affected-revenue threshold on September 7. No written lender default or reporting-cure notice has been delivered for FR-2027-094 as of this review, and no waiver of its notice obligation appears in the signed-instrument register."
+        },
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P3 — restored service and unresolved cause",
+          "text": "Processing resumed at noon September 7 with no lost, corrupted, or improperly approved records identified by reconciliation. No customer has delivered a written termination or nonrenewal notice. The engineering team is investigating a possible recurrence of the August queue-lock defect; causal identity is not yet established. The September root-cause report and recurrence tests are still in preparation. FluxRail retains configuration-library ownership, administrative control, and export rights. This update does not contain a new financial covenant calculation or evidence of changed debt, cash, or trailing-four-quarter earnings."
+        }
+      ],
+      "pending_proposal": {
+        "id": "B01-AM03-DRAFT",
+        "version": "1.3",
+        "parent_version": "1.2",
+        "trigger_event_id": "B01-D03",
+        "title": "Consider automated lender alerts and independent reporting controls",
+        "clause_id": "S2",
+        "description": "Draft discussion only: require an incident-to-lender alert control, a verified reporting-threshold register tied to the effective agreement version, and an independently tested escalation process. The user may request information, retain the existing terms, or negotiate a further amendment. No revision, waiver, consent, or new interest rate has been adopted.",
+        "draft_at": "2027-09-10",
+        "decision_at": null,
+        "effective_at": null,
+        "status": "proposed",
+        "rationale": "The smaller September incident was not routed for notice because the internal configuration retained superseded thresholds. The proposed control links reporting rules to the effective agreement and verifies actual lender delivery, while preserving the existing duration and revenue thresholds.",
+        "changes": [
+          {
+            "clause_id": "S2",
+            "before": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default.",
+            "after": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default. Beginning on the effective date expressly identified in an executed instrument adopting this additional paragraph, the Borrower shall maintain a reporting-threshold register identifying the effective agreement version, incident-duration threshold, affected-revenue threshold, responsible officer and designated lender portal. Within five Business Days after that effective date, the Borrower shall reconcile its incident-routing configuration to the register, independently test the complete notice-delivery process, and deliver the results to the Lender. Thereafter, the Borrower shall reconcile the register promptly upon each effective amendment and test the process monthly. Upon learning that an incident meets the operative notice threshold, the responsible technology officer shall cause the incident system to generate a notice draft and alert a designated primary reporting officer and backup. A human reporting officer shall verify affected revenue and submit the notice to the designated lender portal within the existing two-Business-Day deadline. The Borrower shall retain and reconcile the actual portal receipt; a generated alert, draft, internal database update or unsuccessful transmission is not lender delivery. If automated routing fails, the responsible officer shall use a manual notice process without extending the deadline. Failure of these additional administrative duties uses resolution category R. This additional paragraph does not extend or reset an existing incident deadline, waive historical noncompliance, change an Event of Default grace period, or authorize an automatic amendment.",
+            "summary": "Proposed controls: agreement-version threshold register, tested incident routing, named reporting owner and backup, and verified lender receipt. Existing 2-hour/5% thresholds remain."
+          }
+        ],
+        "instrument_text": "Unsigned synthetic discussion draft B01-AM03-DRAFT, prepared September 10, 2027. This is not an executed amendment, consent or waiver and has no effective date. If the user chooses to negotiate and adopt this proposal, a written instrument must identify the execution and effective dates and be signed by the simulated Borrower and sole Lender. The proposed S2 replacement adds tested reporting controls without resetting the September 9 notice deadline or suppressing its history. Whether to request further information, retain version 1.2, or adopt revised terms remains an open user decision. Until execution and satisfaction of stated conditions, version 1.2 remains operative. No change to interest, leverage, elected financial tests, remedies or other provisions is proposed.",
+        "conditions": [
+          "Open decision: user reviews the evidence, model attribution and proposed terms.",
+          "A final written instrument must identify the effective date and be executed by the simulated Borrower and sole Lender before any package change is applied.",
+          "The initial control reconciliation and independent delivery test would be due five Business Days after the adopted effective date; no date or completion is assumed now."
+        ],
+        "waiver_scope": "None. No waiver is proposed for the missed September incident notice; its history and current resolution must be assessed separately.",
+        "not_pursued": {
+          "title": "Retain version 1.2 and address the reporting failure operationally",
+          "description": "Open alternative, not yet rejected: request the missing notice and root-cause evidence, correct the routing configuration, and retain the current covenant terms. Neither path has been selected."
+        }
+      }
+    }
+  ],
+  "amendments": [
+    {
+      "id": "B01-AM01",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "trigger_event_id": "B01-D01",
+      "title": "Earlier connector remediation and verified workarounds",
+      "decision_at": "2027-07-19",
+      "effective_at": "2027-07-20",
+      "status": "adopted",
+      "rationale": "The parties retain the facility economics and strengthen the operational protection for reliable integrations after the July compatibility failure. Earlier delivery and production security validation reduce reliance on an unproven staging bridge.",
+      "changes": [
+        {
+          "clause_id": "S1",
+          "before": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. Within 30 calendar days after a vendor publishes a generally available breaking interface change, the Borrower shall either deploy a compatible connector or provide affected customers a documented, secure workaround. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. The Borrower shall deliver a quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, and open workarounds.",
+          "after": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. For a generally available breaking interface change published by a vendor on or after July 20, 2027, the Borrower shall, within 15 calendar days after publication, either deploy a compatible connector or provide affected customers a documented, secure workaround. Changes published before July 20, 2027 remain subject to the original 30-calendar-day deadline; this amendment does not reset an elapsed deadline. A workaround counts only after production-equivalent compatibility and security tests are documented and approved by an employee independent of its implementation; staging compatibility alone is insufficient. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. Within two Business Days after a responsible technology officer learns that a qualifying connector or workaround is unsupported or fails those tests, the Borrower shall notify the Lender with affected revenue, the known defect and a remediation plan. The Borrower shall continue to deliver the quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, open workarounds and the required validation records. Failure of the connector and remediation duties retains resolution category A; a missed notice or schedule uses resolution category R.",
+          "summary": "Future vendor changes: 30 to 15 calendar days; independently approved security tests; two-Business-Day exception notice."
+        }
+      ],
+      "instrument_text": "Fictional signed instrument B01-AM01. For this simulation, FluxRail Workflow, Inc. and Granite Elm Credit LLC are represented as having executed this written amendment on July 19, 2027, effective July 20, 2027. No real signature is represented. The parties replace S1 with the complete replacement text recorded in this instrument and change no other operative term. The July 19 release record establishes deployment at 2:00 p.m. New York time of a compatible connector, supported by completed production-equivalent compatibility and security tests. The lender portal records receipt of the CFO's July 14 noncompliance notice at 11:00 a.m. The parties confirm the conditions listed here were satisfied on July 19. Only the S1 failure arising from the June 10 interface change and continuing after the rolled July 12 deadline until the documented July 19 restoration is waived. The original deadline, historical noncompliance, underlying evidence and any losses remain recorded; the waiver does not state that performance was timely. The amendment is prospective, grants no future deadline waiver, and does not waive another clause or an unknown failure. The fixed interest rate remains 9.25%, C01 remains 4.05x, the elected optional financial family remains none, and all other agreement provisions remain in effect.",
+      "conditions": [
+        "Compatible connector deployed July 19, 2027 at 2:00 p.m. New York time, with completed production-equivalent compatibility and security tests.",
+        "Lender receipt of the CFO's historical-failure notice and the validation records confirmed in the simulated July 19 instrument.",
+        "Fictional written execution by Borrower and sole Lender on July 19; prospective effect July 20."
+      ],
+      "waiver_scope": "S1 only: failure to deploy a compatible connector or provide a documented secure workaround for the June 10, 2027 vendor change after the July 12 deadline through the July 19 restoration. Historical noncompliance remains visible; no category-A Event of Default is asserted without the contractual lender notice and cure analysis.",
+      "not_pursued": {
+        "title": "Retain the original connector protection",
+        "description": "Considered alternative only: retain the original 30-day S1 deadline without the added independent validation and exception-reporting duties. This alternative was not adopted and is shown as a dimmed branch."
+      }
+    },
+    {
+      "id": "B01-AM02",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "trigger_event_id": "B01-D02",
+      "title": "Broader incident visibility and recurrence follow-up",
+      "decision_at": "2027-08-20",
+      "effective_at": "2027-08-23",
+      "status": "adopted",
+      "rationale": "The August six-hour outage exposes customer-reliability risk even though the lender received timely notice. The parties broaden visibility to smaller interruptions and require follow-up while material recurrence risks remain unresolved.",
+      "changes": [
+        {
+          "clause_id": "S2",
+          "before": "From closing, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than four consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 10% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by four hours.",
+          "after": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default.",
+          "summary": "New incidents: more than 4 to more than 2 hours; affected revenue 10% to 5%; recurrence-risk notice and weekly follow-up."
+        }
+      ],
+      "instrument_text": "Fictional signed instrument B01-AM02. For this simulation, FluxRail Workflow, Inc. and Granite Elm Credit LLC are represented as having executed this written amendment on August 20, 2027, effective August 23, 2027. No real signature is represented. The parties replace S2 with the complete replacement text recorded in this instrument. S1 as amended by B01-AM01 remains operative. The lender portal records receipt on August 12 at 3:00 p.m. New York time of the August 9 incident's root-cause report, including duration, affected workflows, data-integrity reconciliation, corrective action and recurrence testing. The August 10 initial notice and August 12 report remain assessed against the S2 version then applicable. No historical failure is waived or asserted by this amendment. The newly broadened thresholds apply only to incidents beginning on or after August 23. The fixed interest rate remains 9.25%, C01 remains 4.05x, the elected optional financial family remains none, and all other agreement provisions remain in effect.",
+      "conditions": [
+        "Lender receipt on August 12, 2027 at 3:00 p.m. of the August 9 root-cause report and supporting recurrence-test records.",
+        "Fictional written execution by Borrower and sole Lender on August 20; prospective effect August 23."
+      ],
+      "waiver_scope": "None. The August 9 incident and its notices remain assessed under the previous S2. The new thresholds do not create a retrospective failure.",
+      "not_pursued": {
+        "title": "Retain the original incident thresholds",
+        "description": "Considered alternative only: retain the greater-than-four-hour duration and 10% affected-revenue threshold. This alternative was not adopted and is shown as a dimmed branch."
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-09-20T02:13:24+00:00",
+  "statement": "Written before the first model call for this company. No profile, attribution, candidate or comparator output for PetIQ existed at this time.",
+  "files": {
+    "realitycheck/b01_model.py": "2cea67c1183461593c04ce6eac53ee32d1f99a32a395b45f3b0756bbeb1d3262",
+    "realitycheck/drift.py": "4abc3dd7e06ef4d268c223f98d22c3ea150684266438be1d897c4fee2a854006",
+    "realitycheck/attribution.py": "ab7185f7830b1466e180879e6130d5a096a3ef77e39eda8fbdc0690b984be729",
+    "realitycheck/benchmark_blind.py": "ae5403d5e9d2bb682e5ec2be2cec813d04eb5b5d41cc1161424e7ea8f880d146",
+    "realitycheck/benchmark_evaluate.py": "ad56a6dc450cfddaeb0667109733ea5be297d50510da78f66468185dac719853",
+    "realitycheck/lender_guidelines.json": "95b75e6bb6c6730aa88b6e395af8ec42d73de0625a6dd35588ba00c8c3f1aa68",
+    "real-credit-cases/R03-petiq-ares/blind/inputs.json": "7acae22a1b0de53398406853d6ff02215b01a499f7eea8b01e1e47edd0359be9",
+    "real-credit-cases/R03-petiq-ares/blind/exclusion_log.json": "682bd201d2ae0dba2a9a2e6c56ae3e3e68f1c888184ee6fa63322df9c6f0d0b3",
+    "real-credit-cases/R03-petiq-ares/model_inputs/contract-record.json": "e1a71b6bbc4c2f0967e06ead5021fcf5b0773618e5ab858e51408d4331c96195",
+    "real-credit-cases/R03-petiq-ares/model_inputs/origination-sources.json": "8ee26290d68973452476b14a5dd0f43c27b6ede55d34187a1c8eb9553ff8ba3d",
+    "real-credit-cases/R03-petiq-ares/evaluator/reference_judgments.json": "d54f4cd9e86712a2cd4d21c64e3e7f34ec41d0d88cb62ee5f0beef8bb76be78a",
+    "real-credit-cases/R03-petiq-ares/evaluator/scoring_rules.json": "7111e17a8120fc60abbb2b37f7bd27aa172d51379600e70bce43b00b64008b5b",
+    "real-credit-cases/R03-petiq-ares/evaluator/observed_responses.json": "0850f63fce3bacf65e5ab334de3e45f1b26aa5aaa35cc9487c7cb0a9f05f41fa"
+  }
+}

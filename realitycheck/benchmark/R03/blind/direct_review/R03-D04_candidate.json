@@ -1,0 +1,108 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2018-11-13",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:16:14.710869+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04"
+  ],
+  "assessments_supplied": false,
+  "summary": "Based on evidence through November 13, 2018, the First Lien Net Leverage Ratio covenant appears misstated as a minimum when the agreement requires a maximum, warranting a tightening change; all other covenants remain supported by current evidence.",
+  "clauses": [
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the annual financial statement delivery timing or content."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the quarterly financial statement delivery timing or content."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the monthly financial statement delivery timing or content."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the notice periods for defaults or material adverse effect."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "No evidence indicates a need to change the indebtedness baskets; the revolver increase to $75m remains within existing limits."
+    }
+  ],
+  "drift_judgment": "insufficient_evidence",
+  "drift_reasons": "The evidence from the Form 8-K shows the loan agreement includes a maintenance covenant requiring compliance a maximum first lien net leverage ratio, whereas the current clause imposes a minimum. This misstatement represents a substantive tightening needed to align the covenant with its intended purpose.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through November 13, 2018, the First Lien Net Leverage Ratio covenant appears misstated as a minimum when the agreement requires a maximum, warranting a tightening change; all other covenants remain supported by current evidence.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "change_type": "definition",
+        "direction": "tighten",
+        "change": "Change the covenant from a minimum First Lien Net Leverage Ratio (ratio shall not be less than) to a maximum First Lien Net Leverage Ratio (ratio shall not exceed) the scheduled levels.",
+        "affected_assumptions": [],
+        "rationale": "Evidence shows the agreement includes a maintenance covenant requiring compliance a maximum first lien net leverage ratio, indicating the current wording is incorrect.",
+        "evidence": [
+          {
+            "document_id": "PETQ-8K-ORIGINATION",
+            "locator": "P0065",
+            "quote": "The Term Loan Credit Agreement includes a maintenance covenant that requires compliance a maximum first lien net leverage ratio."
+          }
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change the annual financial statement delivery timing or content."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change the quarterly financial statement delivery timing or content."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change the monthly financial statement delivery timing or content."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change the notice periods for defaults or material adverse effect."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No evidence indicates a need to change the indebtedness baskets; the revolver increase to $75m remains within existing limits."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "The evidence from the Form 8-K shows the loan agreement includes a maintenance covenant requiring compliance a maximum first lien net leverage ratio, whereas the current clause imposes a minimum. This misstatement represents a substantive tightening needed to align the covenant with its intended purpose."
+  },
+  "model_judgment": "material_drift",
+  "elapsed_seconds": 42.9
+}

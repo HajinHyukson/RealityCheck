@@ -1,0 +1,28 @@
+{
+  "borrower_id": "B01",
+  "report_type": "company_financial",
+  "publisher": "FluxRail Workflow, Inc. (fictional)",
+  "synthetic": true,
+  "title": "August 2027 management accounts",
+  "library_summary": "A routine monthly financial update broadly on the origination base case. Tests that an ordinary report stays in the history without a false detection.",
+  "event_date": "2027-08-31",
+  "available_at": "2027-09-15",
+  "review_date": "2027-09-15",
+  "sources": [
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P1 — results and cash",
+      "text": "Synthetic unaudited management accounts for August 2027, delivered September 15, 2027. Year-to-date revenue was $66.9 million, against $66.2 million in the origination base case. Subscription billing remained invoiced annually in advance. Receivables were collected in 43 days on average, compared with 42 days at origination. Cash was $15.2 million at August 31, and restricted cash was unchanged at $1.5 million. Funded term debt was $78.0 million; the next scheduled principal installment is due December 31, 2027."
+    },
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P2 — management leverage calculation",
+      "text": "Management calculates trailing-four-quarter Covenant EBITDA of $22.0 million through June 30, 2027 with no restructuring adjustment, and Total Net Leverage of 3.09x on net debt of $68.0 million after netting $10.0 million of Eligible Cash, against the 4.05x maximum. This is a management calculation in monthly accounts. It is not a Compliance Certificate and has not been reviewed by the auditor. The next quarterly test date is September 30, 2027."
+    },
+    {
+      "document_id": "B01-MGMT-2027-08",
+      "locator": "P3 — transactions and limits of this report",
+      "text": "No dividends, acquisitions, asset sales, new liens or additional debt occurred in August 2027. The accounts do not address the September 7 workflow incident, customer renewals, connector status or any reporting duty under the specialized operating covenants."
+    }
+  ]
+}

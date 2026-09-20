@@ -1,0 +1,21 @@
+JUDGE: LANXESS Xtract
+1|S17|10|Portfolio exposure and unnoticed drift imply a real signal buried in volume, exactly this judge's core value.
+2|S15|9|Financial labels ties directly to the fund-label-versus-reality concept, concrete and precise.
+3|S13|9|Quietly shifts signals a hidden pattern found in noise, with concrete economic exposure language.
+4|S3|9|Uses the project's own vocabulary, financial identities and drift, precisely and without overclaiming.
+5|S5|8|Exposure versus intent is concrete and captures bought-versus-is without asserting more than evidence shows.
+6|S10|7|Plain and concrete, echoes the ETF pitch directly, but lacks any buried-signal flavor.
+7|S20|7|Concrete asset language, fits softly implies label mismatch, but reads as generic.
+8|S19|6|Representations nods to filing language, though stale is a vaguer claim than drift.
+9|S7|6|Concrete but blunt, misses the text-extraction and traceability nuance the judge rewards.
+10|S1|6|Evocative but generic, could describe any portfolio tool, no filing or evidence tie.
+11|S18|5|Story is soft and vague, though underlying hints at digging beneath the surface.
+12|S9|4|Invalidates overclaims certainty a citation-based system should not assert outright.
+13|S4|4|Thesis breaks is dramatic and individual-investor voiced, overclaiming a definitive rupture.
+14|S2|4|Assumptions versus reality is abstract enough to describe any generic BI product.
+15|S8|3|Assumptions lose relevance is vague with weak tie to cited evidence.
+16|S14|3|Yesterday's assumptions is generic corporate phrasing disconnected from filings or drift.
+17|S12|3|Investment meaning changes is the vaguest of the assumption-style options.
+18|S16|2|Model is ambiguous between ML model and business model, and breaks mildly overclaims.
+19|S11|2|Outgrows its model is an awkward, unclear metaphor with no obvious signal claim.
+20|S6|1|Models becoming outdated reads as forecasting jargon, weakest fit to fund holdings.

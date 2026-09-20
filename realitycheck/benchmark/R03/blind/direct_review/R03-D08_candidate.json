@@ -1,0 +1,138 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2019-11-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:18:49.927339+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08"
+  ],
+  "assessments_supplied": false,
+  "summary": "Evidence through 2019-11-07 shows no breach or pressure on existing covenants; all clauses remain appropriate and no material drift is detected.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence of leverage ratio stress or covenant breach; the scheduled minimum ratio remains suitable."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Annual reporting and compliance certificate requirements have not shown delays or inadequacy."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly reporting obligations continue to be met; no evidence justifies a change."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Monthly reporting and compliance certificate obligations remain appropriate based on available evidence."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice periods for defaults and material adverse effect have not been challenged; retain as is."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "New indebtedness from acquisitions fits within existing baskets; no evidence of exceeded limits."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Evidence shows revenue growth and some debt incurrences, but none indicate covenant breach, insufficient coverage, or need to tighten/loosen any term; the current package remains adequate.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence through 2019-11-07 shows no breach or pressure on existing covenants; all clauses remain appropriate and no material drift is detected.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of leverage ratio stress or covenant breach; the scheduled minimum ratio remains suitable.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Annual reporting and compliance certificate requirements have not shown delays or inadequacy.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Quarterly reporting obligations continue to be met; no evidence justifies a change.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly reporting and compliance certificate obligations remain appropriate based on available evidence.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice periods for defaults and material adverse effect have not been challenged; retain as is.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "New indebtedness from acquisitions fits within existing baskets; no evidence of exceeded limits.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Evidence shows revenue growth and some debt incurrences, but none indicate covenant breach, insufficient coverage, or need to tighten/loosen any term; the current package remains adequate."
+  },
+  "elapsed_seconds": 30.1
+}

@@ -1,0 +1,64 @@
+{
+  "income_statement": {
+    "revenue_m": 51.337500000000006,
+    "cash_operating_expenses_m": 36.64750000000001,
+    "reported_ebitda_m": 14.689999999999998,
+    "depreciation_and_amortization_m": 1.75,
+    "cash_interest_paid_m": 4.638698630136986,
+    "pretax_income_m": 8.301301369863012,
+    "income_tax_expense_and_cash_paid_m": 2.075325342465753,
+    "net_income_m": 6.225976027397259
+  },
+  "closing_balance_sheet": {
+    "cash_or_unfunded_deficit_m": 23.500976027397257,
+    "restricted_cash_m": 2,
+    "trade_receivables_m": 26.560171232876712,
+    "other_operating_current_assets_m": 22.699379756468794,
+    "fixed_and_capitalized_software_assets_net_m": 56.5,
+    "historical_goodwill_m": 247.24999999999997,
+    "total_assets_m": 378.51052701674274,
+    "trade_payables_m": 11.1,
+    "operating_accruals_m": 7.4,
+    "restricted_funds_obligation_m": 0,
+    "funded_term_debt_m": 215,
+    "total_liabilities_m": 233.5,
+    "equity_m": 145.01052701674274,
+    "balance_check_m": 0.0
+  },
+  "cash_flow": {
+    "opening_cash_m": 18.0,
+    "operating_cash_after_interest_tax_and_working_capital_m": 7.350976027397259,
+    "capital_investment_m": 1.85,
+    "working_capital_investment_m": 0.625,
+    "scheduled_principal_paid_m": 0,
+    "shareholder_contribution_m": 0.0,
+    "shareholder_distribution_m": 0.0,
+    "net_cash_change_m": 5.500976027397259,
+    "closing_cash_or_unfunded_deficit_m": 23.500976027397257
+  },
+  "ebitda_reconciliation": {
+    "reported_ebitda_m": 14.689999999999998,
+    "documented_restructuring_m": 0,
+    "cap_m": 0.7344999999999999,
+    "permitted_adjustment_m": 0.0,
+    "covenant_ebitda_m": 14.689999999999998
+  },
+  "metrics": {
+    "eligible_cash_m": 23.500976027397257,
+    "net_debt_m": 200,
+    "leverage_x": 3.648636322174587,
+    "interest_coverage_x": null,
+    "cash_coverage_x": null,
+    "unfunded_cash_need_m": 0,
+    "coverage_applicability": "Not yet due: optional coverage tests first apply December 31, 2027. No annualized quarter proxy is substituted."
+  },
+  "ttm_ebitda_reconciliation": {
+    "reported_ebitda_m": 53.69,
+    "documented_restructuring_m": 1.125,
+    "permitted_adjustment_m": 1.125,
+    "covenant_ebitda_m": 54.815
+  },
+  "period": "2027-01-01 through 2027-03-31; balance sheet at March 31",
+  "available_at": "2027-06-01",
+  "receipt_status": "Underlying statements available June 1; submission compliance is not assumed"
+}

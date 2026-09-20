@@ -1,0 +1,13 @@
+JUDGE: PittCSC Organizer
+E1|7|Concrete and correct causality; "actual borrower risk" reads slightly clunkier than the on-screen "risk profile" term.
+E2|8|"Credit thesis" is clean, concrete, correct causality; generalizes decently across credit contexts.
+E3|6|Drops "thesis" entirely, reads as pure data drift; "current financials" is vaguer than risk profile.
+E4|3|Reverses causality: casts risk drivers, the moving reality, as the subject drifting from the static baseline.
+E5|9|Mirrors the demo's exact on-screen "expected vs observed risk profile" language; clean causality, concrete, no overclaim.
+E6|5|Mismatched granularity: broad "risk profile" baseline paired with a narrow "leverage" endpoint feels inconsistent.
+E7|6|Correct causality and concrete, but "leverage" alone undersells the broader risk-profile drift shown on screen.
+E8|8|"Observed" nicely signals citation-grounded evidence, but "cash flows" narrows scope versus the full risk profile.
+E9|9|Near-identical to E5, matches on-screen risk-profile language; "current" reads slightly weaker than "actual" for observed truth.
+E10|6|Best generalization for the closing slide, but "economic reality" is more abstract than the concrete risk profile.
+ACCEPT|E5|It echoes the demo's own on-screen "expected vs observed risk profile" language with clean causality and no overclaim.
+OBJECT|E4|"Risk drivers drift from underwriting baseline" makes the moving reality the grammatical subject, reversing the required static-baseline-vs-moving-reality causality.

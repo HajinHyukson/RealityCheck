@@ -1,0 +1,22 @@
+JUDGE: LANXESS Xtract
+1|Trace|10|Directly names provenance, matching the system's core value of citing exact filing passages behind every drift finding.
+2|Surface|9|Implies extracting a specific signal from unreadable volume without asserting more than the evidence shows.
+3|Audit|9|Signals rigorous, evidence-based verification against source documents, exactly the traceability an industrial analytics lead expects.
+4|Reconcile|8|Financial term for matching stated label against actual evidence, a precise fit for measuring fund drift.
+5|Flag|8|Modest, alert-style claim triggered by evidence in bulk text, credible for a 24-hour extraction prototype.
+6|Detect|8|Implies pattern recognition across a large corpus grounded in data rather than unsupported opinion.
+7|Uncover|7|Suggests hidden signal found in noise, though slightly more dramatic than the evidence it can show.
+8|Interrogate|7|Evokes deep querying of dense filings for answers, though an unusual and less polished headline verb.
+9|Diagnose|6|Implies analytical conclusion from evidence but underweights the visible citation trail that matters most.
+10|Reclassify|6|Names the actual output well but risks sounding like the system claims classification authority, not just evidence.
+11|Reveal|5|Leans dramatic and assertion-heavy, less clearly tied to a documented evidence trail.
+12|Reassess|5|Vague re-evaluation term that does not clearly imply mining a large corpus for a specific finding.
+13|Monitor|4|Suggests passive ongoing tracking rather than delivering a sharp, sourced insight from filings.
+14|Challenge|4|Confrontational tone risks sounding like an opinion rather than a cited, evidence-backed finding.
+15|Validate|4|Implies confirming correctness, which sits awkwardly against a headline about drift and discrepancy.
+16|Expose|3|Journalistic and accusatory, overclaims certainty without emphasizing the underlying citation trail.
+17|Update|3|Mundane and undersells the insight-extraction angle central to this track.
+18|Realign|3|Implies the system takes corrective action on the fund itself, well beyond a 24-hour prototype's scope.
+19|Correct|2|Overclaims by asserting a fix rather than presenting sourced evidence for a human to judge.
+20|Stress-test|2|Implies scenario-based robustness testing the described text-extraction system does not actually perform.
+21|Prevent|1|Claims a causal, forward-looking capability the system cannot deliver, the clearest overclaim on the list.

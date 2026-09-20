@@ -1,0 +1,207 @@
+{
+  "borrower_id": "R02",
+  "borrower": "RumbleOn, Inc.",
+  "description": "Historical public-filing replay, March 2023 to August 2024, against the August 2021 Oaktree term loan. Reports are SEC-filed company disclosures revealed on the dates the SEC accepted them. Lender responses are the actual amendments: Amendment No. 5 from its clean SEC-filed text, Amendment No. 8 from the company's Form 10-Q description.",
+  "original_terms": {
+    "facility_m": 400,
+    "sofr_margin_pct": 8.25,
+    "max_total_net_leverage": 4.25,
+    "max_senior_secured_net_leverage": 3.75,
+    "minimum_liquidity_m": 25
+  },
+  "presentation": {
+    "as_of": "2024-08-08"
+  },
+  "reports": [
+    {
+      "title": "Fourth-quarter and full-year 2022 results",
+      "summary": "First report in the replay window, five months before the first amendment in this packet.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2023-03-16"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2023 results",
+      "summary": "Quarterly results three months before covenant noncompliance was disclosed.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2023-05-10"
+        }
+      ]
+    },
+    {
+      "title": "Second-quarter 2023 results and Amendment No. 5",
+      "summary": "Earnings release in the morning; the Form 10-Q that evening disclosed June 30 leverage noncompliance and Amendment No. 5.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2023-08-09"
+        },
+        {
+          "id": "RMBL-10Q-2023Q2",
+          "locators": [
+            "P0346",
+            "P0347",
+            "P0538",
+            "P0539",
+            "P0540"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Third-quarter 2023 results",
+      "summary": "First results under the amended covenants; leverage tests are suspended for this quarter.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2023-11-07"
+        }
+      ]
+    },
+    {
+      "title": "Fourth-quarter and full-year 2023 results",
+      "summary": "Year-end results; the first test period under the relaxed 5.50x limits.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2024-03-14"
+        }
+      ]
+    },
+    {
+      "title": "First-quarter 2024 results",
+      "summary": "Results for the period tested at 5.00x.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2024-05-08"
+        }
+      ]
+    },
+    {
+      "title": "Second-quarter 2024 results and Amendment No. 8",
+      "summary": "Results one day before the Form 10-Q disclosed June 30, 2024 noncompliance and Amendment No. 8. Asks whether reported compliance reflects better operations or looser limits.",
+      "documents": [
+        {
+          "id": "RMBL-PR-2024-08-07"
+        },
+        {
+          "id": "RMBL-10Q-2024Q2",
+          "locators": [
+            "P0392",
+            "P0393",
+            "P0394"
+          ]
+        }
+      ]
+    }
+  ],
+  "observed_responses": [
+    {
+      "id": "AM05",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "clause_id": "W05",
+      "title": "Amendment No. 5: leverage tests suspended and relaxed; equity raise and asset sales required",
+      "executed_at": "2023-08-09",
+      "disclosed_with": "Second-quarter 2023 results and Amendment No. 5",
+      "described_in": "RMBL-10Q-2023Q2",
+      "locators": [
+        "P0538",
+        "P0539"
+      ],
+      "instrument": "RMBL-CA-AMENDMENT-5",
+      "replace_clauses": [
+        {
+          "clause_id": "C01",
+          "document_id": "RMBL-CA-AMENDMENT-5",
+          "from": "P2862",
+          "to": "P2870"
+        },
+        {
+          "clause_id": "C02",
+          "document_id": "RMBL-CA-AMENDMENT-5",
+          "from": "P2871",
+          "to": "P2876"
+        }
+      ],
+      "waiver_scope": "Per Amendment No. 5: leverage covenants not tested for the periods ending June 30 and September 30, 2023, with no default arising from June 30, 2023 noncompliance."
+    },
+    {
+      "id": "AM08",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "clause_id": "W08",
+      "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+      "executed_at": "2024-08-06",
+      "disclosed_with": "Second-quarter 2024 results and Amendment No. 8",
+      "described_in": "RMBL-10Q-2024Q2",
+      "locators": [
+        "P0392",
+        "P0393"
+      ],
+      "instrument": "RMBL-CA-AMENDMENT-8",
+      "waiver_scope": "Per the company's Form 10-Q: made effective as of June 30, 2024, with lenders agreeing no event of default arises from the financial covenants as of that date."
+    }
+  ],
+  "blind_exclusions": {
+    "documents": [],
+    "passages": [
+      {
+        "document_id": "RMBL-10Q-2023Q2",
+        "locator": "P0346",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      },
+      {
+        "document_id": "RMBL-10Q-2023Q2",
+        "locator": "P0347",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      },
+      {
+        "document_id": "RMBL-10Q-2023Q2",
+        "locator": "P0538",
+        "reason": "States covenant noncompliance and the amendment in the same passage. The two cannot be separated without editing the text, so the whole passage is withheld. Information gap: the first public statement of noncompliance appeared together with the lender response, so this replay cannot show advance detection of it."
+      },
+      {
+        "document_id": "RMBL-10Q-2023Q2",
+        "locator": "P0539",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      },
+      {
+        "document_id": "RMBL-10Q-2023Q2",
+        "locator": "P0540",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      },
+      {
+        "document_id": "RMBL-10Q-2024Q2",
+        "locator": "P0392",
+        "reason": "States covenant noncompliance and the amendment in the same passage. The two cannot be separated without editing the text, so the whole passage is withheld. Information gap: the first public statement of noncompliance appeared together with the lender response, so this replay cannot show advance detection of it."
+      },
+      {
+        "document_id": "RMBL-10Q-2024Q2",
+        "locator": "P0393",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      },
+      {
+        "document_id": "RMBL-10Q-2024Q2",
+        "locator": "P0394",
+        "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public."
+      }
+    ],
+    "kept_despite_screen": [],
+    "unsuitable_checkpoints": [],
+    "dependence_notes": [
+      {
+        "report_id": "R02-D04",
+        "note": "The sale-leaseback debt repayment reported here was among the asset monetization steps the hidden Amendment No. 5 required. The fact is kept unedited; it reflects an amendment the model cannot see."
+      },
+      {
+        "report_id": "R02-D05",
+        "note": "The $100 million rights offering and debt paydown reported here were required by the hidden Amendment No. 5. Reported leverage, liquidity and debt after August 2023 reflect that amendment and are not outcomes of any RealityCheck proposal."
+      },
+      {
+        "report_id": "R02-D06",
+        "note": "Proceeds from the consumer loan portfolio sale reflect a step the hidden Amendment No. 5 required."
+      }
+    ]
+  }
+}

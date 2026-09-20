@@ -1,0 +1,20 @@
+{"stage": "saved", "file": "control.json", "engine": "nemotron", "error": null, "seconds": 26.2}
+{"stage": "saved", "file": "R01-D01_attribution.json", "engine": "nemotron", "error": null, "seconds": 237.0}
+{"stage": "saved", "file": "R01-D01_candidate.json", "engine": "nemotron", "error": null, "seconds": 48.0}
+{"stage": "saved", "file": "R01-D02_attribution.json", "engine": "nemotron", "error": null, "seconds": 365.5}
+{"stage": "saved", "file": "R01-D02_candidate.json", "engine": "nemotron", "error": null, "seconds": 33.0}
+{"stage": "saved", "file": "R01-D03_attribution.json", "engine": "unavailable", "error": "JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)", "seconds": 120.3}
+{"stage": "saved", "file": "R01-D03_candidate.json", "engine": "nemotron", "error": null, "seconds": 46.4}
+{"stage": "saved", "file": "R01-D04_attribution.json", "engine": "nemotron", "error": null, "seconds": 222.7}
+{"stage": "saved", "file": "R01-D04_candidate.json", "engine": "nemotron", "error": null, "seconds": 27.2}
+{"stage": "saved", "file": "R01-D05_attribution.json", "engine": "nemotron", "error": null, "seconds": 61.8}
+{"stage": "saved", "file": "R01-D05_candidate.json", "engine": "nemotron", "error": null, "seconds": 44.1}
+{"stage": "saved", "file": "R01-D06_attribution.json", "engine": "nemotron", "error": null, "seconds": 44.0}
+{"stage": "saved", "file": "R01-D06_candidate.json", "engine": "nemotron", "error": null, "seconds": 66.7}
+{"stage": "saved", "file": "R01-D07_attribution.json", "engine": "nemotron", "error": null, "seconds": 72.9}
+{"stage": "saved", "file": "R01-D07_candidate.json", "engine": "nemotron", "error": null, "seconds": 30.8}
+{"stage": "saved", "file": "R01-D08_attribution.json", "engine": "nemotron", "error": null, "seconds": 66.8}
+{"stage": "saved", "file": "R01-D08_candidate.json", "engine": "nemotron", "error": null, "seconds": 42.1}
+{"stage": "saved", "file": "R01-D09_attribution.json", "engine": "nemotron", "error": null, "seconds": 56.4}
+{"stage": "saved", "file": "R01-D09_candidate.json", "engine": "nemotron", "error": null, "seconds": 77.9}
+{"stage": "workflow_complete", "workflow": "realitycheck", "checkpoints": 9}

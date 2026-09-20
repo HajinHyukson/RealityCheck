@@ -1,0 +1,39 @@
+{
+  "label": "Crocs — hypothetical private-credit scenario",
+  "disclosure": "Company background is sourced. Financial figures, loan terms, reports and scenario events are fictional.",
+  "note": "Verbatim passages from Crocs, Inc.'s FY2025 Form 10-K describing how the real business sources and distributes footwear. They are background only. They say nothing about the fictional facility, and no financial statement figure from the filing is used in this scenario.",
+  "passages": [
+    {
+      "document_id": "CROX-10K-FY2025",
+      "locator": "P0380",
+      "text": "•Vietnam for the Crocs Brand. We have additional third-party manufacturers in China, Indonesia, India, and Mexico, among other countries. During the years ended December 31, 2025, 2024, and 2023, approximately 45%, 51%, and 56%, respectively, of our Crocs Brand production was in Vietnam. Our largest third-party manufacturer for the Crocs Brand, with the majority of operations in Vietnam, produced approximately 45%, 50%, and 47% of our production during the years ended December 31, 2025, 2024, and 2023, respectively, and our second largest third-party manufacturer for the Crocs Brand, primarily operating in both Vietnam and China, produced approximately 28%, 25%, and 26% of our production during the years ended December 31, 2025, 2024, and 2023, respectively.",
+      "content_status": "real_sourced_business_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+      "sec_accepted_at": "2026-02-12T20:03:37.000Z"
+    },
+    {
+      "document_id": "CROX-10K-FY2025",
+      "locator": "P0381",
+      "text": "•Vietnam for the HEYDUDE Brand. We have additional third-party manufacturers in China, Cambodia, Indonesia, and India. During the years ended December 31, 2025, 2024 and 2023, approximately 44%, 20%, and 5%, respectively, of our HEYDUDE Brand production was in Vietnam. Prior to 2025, the majority of our HEYDUDE Brand production was in China.",
+      "content_status": "real_sourced_business_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+      "sec_accepted_at": "2026-02-12T20:03:37.000Z"
+    },
+    {
+      "document_id": "CROX-10K-FY2025",
+      "locator": "P0382",
+      "text": "We believe any potential concentration risk is mitigated by the fact that the manufacturing capabilities required to produce our footwear are broadly available for both brands. Nonetheless, see the risk factors under “Risks Related to our Supply Chain — We depend solely on third-party manufacturers located outside of the U.S.” and “Risks Related to International Operations —Government actions and regulations, such as export restrictions, tariffs, and other trade protection measures, could adversely affect our business” included in Item 1A. Risk Factors of this Annual Report on Form 10-K for more information on risks associated with sourcing.",
+      "content_status": "real_sourced_business_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+      "sec_accepted_at": "2026-02-12T20:03:37.000Z"
+    },
+    {
+      "document_id": "CROX-10K-FY2025",
+      "locator": "P0384",
+      "text": "We strive to enhance our distribution and logistics network to further streamline our supply chain, increase our speed to market, and lower operating costs. As of December 31, 2025, we principally stored our finished goods inventory in company-operated warehouses and distribution and logistics facilities located in the U.S. and the Netherlands. We also utilized third-party operated distribution centers located in the United States, Japan, China, Australia, South Korea, Singapore, India, Brazil, Canada, the Netherlands, and the United Kingdom. As of December 31, 2025, our company-operated warehouse and distribution facilities provided us with 2.9 million square feet, and our third-party operated distribution facilities provided us with 1.0 million square feet, with additional area available based on inventory levels. Additionally, certain customers pick up orders directly from our third-party manufacturers or from the port of entry.",
+      "content_status": "real_sourced_business_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+      "sec_accepted_at": "2026-02-12T20:03:37.000Z"
+    }
+  ]
+}

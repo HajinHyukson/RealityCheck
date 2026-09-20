@@ -1,0 +1,106 @@
+{
+  "borrower_id": "R01",
+  "borrower": "iRobot Corporation",
+  "sector": "Consumer robotics",
+  "lender_role": "TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent",
+  "facility": "$200,000,000 senior secured term loan",
+  "agreement_document": "IRBT-CA-ORIGINAL",
+  "version": "1.0",
+  "executed_at": "2023-07-24",
+  "effective_at": "2023-07-24",
+  "scope_note": "Scoped prototype: a bounded subset of the executed agreement, copied verbatim by paragraph locator from the SEC-filed exhibit. It is not the complete agreement and not a conformed copy containing later amendments. Section 2.05(b)(v) (Alternative Account, about 16,000 characters) is outside the subset; the company's own Form 8-K description of it remains in the origination evidence (IRBT-8K-ORIGINATION P0056).",
+  "clauses": [
+    {
+      "id": "C01",
+      "title": "Minimum Core Assets Test",
+      "section": "Section 7.07",
+      "from": "P1787",
+      "to": "P1794"
+    },
+    {
+      "id": "C02",
+      "title": "Annual, quarterly and budget financial statements; going-concern condition",
+      "section": "Section 6.01",
+      "from": "P1590",
+      "to": "P1595"
+    },
+    {
+      "id": "C03",
+      "title": "Monthly financial deliverables and Compliance Certificate",
+      "section": "Section 6.02(a)",
+      "from": "P1596",
+      "to": "P1599"
+    },
+    {
+      "id": "C04",
+      "title": "Mandatory prepayment: Amazon Break Fee sweep",
+      "section": "Section 2.05(b)(iv)",
+      "from": "P1294",
+      "to": "P1315"
+    },
+    {
+      "id": "C05",
+      "title": "Notice of Default or Event of Default",
+      "section": "Section 6.03(a)",
+      "from": "P1608",
+      "to": "P1609"
+    }
+  ],
+  "definitions": [
+    "P0584",
+    "P0722",
+    "P0724",
+    "P0961"
+  ],
+  "resolution": [
+    {
+      "from": "P1837",
+      "to": "P1840"
+    },
+    {
+      "from": "P1853",
+      "to": "P1856"
+    }
+  ],
+  "missing_inputs": [
+    "Schedule 7.07 (Minimum Core Assets Test step-down amounts) is referenced by Section 7.07 but is not contained in the SEC-filed exhibit. Adjusted test amounts other than $250,000,000 and the $350,000,000 step-up cannot be determined from this packet.",
+    "Monthly Compliance Certificates and Consolidated Core Assets calculations are delivered privately to the agent and are not public. Compliance with the Minimum Core Assets Test cannot be calculated from public filings.",
+    "No Carlyle underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "origination_sources": [
+    {
+      "document_id": "IRBT-8K-ORIGINATION",
+      "locators": [
+        "P0053",
+        "P0055",
+        "P0056",
+        "P0058",
+        "P0060",
+        "P0061"
+      ]
+    },
+    {
+      "document_id": "IRBT-10Q-2023Q1",
+      "locators": [
+        "P0361",
+        "P0366",
+        "P0368",
+        "P0369",
+        "P0541",
+        "P0594",
+        "P0609",
+        "P0631",
+        "P0759",
+        "P0827",
+        "P0829",
+        "P0832"
+      ]
+    }
+  ],
+  "origination_note": "Only documents SEC-accepted on or before 2023-07-25 are origination evidence. The 10-Q predates the facility and describes the borrower; it is not lender underwriting.",
+  "missing_inputs_blind": [
+    "Schedule 7.07 (Minimum Core Assets Test step-down amounts) is referenced by Section 7.07 but is not contained in the SEC-filed exhibit. Adjusted test amounts other than $250,000,000 and the $350,000,000 step-up cannot be determined from this packet.",
+    "Monthly Compliance Certificates and Consolidated Core Assets calculations are delivered privately to the agent and are not public. Compliance with the Minimum Core Assets Test cannot be calculated from public filings.",
+    "No Carlyle underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ]
+}

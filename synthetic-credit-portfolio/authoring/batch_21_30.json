@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "B21",
+    "name": "PermitAxis Municipal Systems, Inc.",
+    "sector": "municipal permitting workflow software",
+    "description": "PermitAxis licenses cloud permitting, inspection scheduling, and fee-collection workflow software to U.S. municipalities under annual subscriptions. Long implementation cycles and public-sector budget approvals make delayed go-lives and nonappropriation decisions its distinctive operating risks.",
+    "sponsor": "Granite Harbor Equity Partners",
+    "lender": "Northfield Direct Credit LLC",
+    "subsidiaries": [
+      "PermitAxis Implementation Services LLC",
+      "CivicLedger Hosting, Inc."
+    ],
+    "revenue_m": 76,
+    "ebitda_m": 17,
+    "adjustment_m": 0.7,
+    "ebitda_cap_pct": 10,
+    "da_m": 2.6,
+    "debt_m": 68,
+    "cash_m": 8,
+    "restricted_cash_m": 2,
+    "cash_netting_cap_m": 8,
+    "annual_rate_pct": 9.25,
+    "amortization_pct": 2,
+    "term_years": 5,
+    "capex_m": 3,
+    "working_capital_investment_m": 1.2,
+    "max_leverage": 4.35,
+    "optional_type": "liquidity",
+    "optional_threshold": 4,
+    "liquidity_trigger_m": 6,
+    "lease_basket_m": 1.5,
+    "dividend_basket_m": 0.8,
+    "dividend_max_leverage": 3.75,
+    "transaction_cash_floor_m": 5,
+    "acquisition_basket_m": 3,
+    "acquisition_max_leverage": 4,
+    "asset_sale_basket_m": 0.4,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 15,
+    "base_revenue_growth_pct": 8,
+    "base_ebitda_growth_pct": 10,
+    "moderate_ebitda_drop_pct": 14,
+    "severe_ebitda_drop_pct": 36,
+    "receivable_days": 64,
+    "annual_revenue_recurring_pct": 78,
+    "model_note": "Historical assets are led by capitalized software and acquired customer intangibles, while annual municipal billings create a contract-liability offset to receivables.",
+    "credit_rationale": "The $60 million opening net debt balance equals 3.39x Covenant EBITDA, and the 4.35x maintenance limit permits roughly a 22% EBITDA decline at constant net debt. A $4 million liquidity floor and $6 million forecast trigger preserve visibility because municipal acceptance delays can defer milestone collections even when subscriptions remain contracted. The $5 million transaction floor protects payroll, hosting, and implementation needs, while modest dividend and acquisition baskets keep cash inside the group. The central vulnerability is that a delayed go-live can combine deferred implementation receipts with heightened support costs; recurring subscription revenue does not eliminate this timing exposure. The adjustment is a documented office-consolidation cash charge and remains comfortably inside its cap.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Municipal implementation register",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly reporting package a municipal implementation register listing every customer project whose contracted production date falls within the next two quarters or was missed during the reported quarter. The register must state the contracted date, current forecast date, acceptance condition, billed and unbilled status, and management's reason for any delay exceeding 30 calendar days. Projects may be aggregated only if each represents less than 2% of prior-year revenue. Failure to deliver a complete register is remediable for 10 Business Days after lender notice before an Event of Default occurs.",
+        "evidence": "Quarterly officer-certified implementation register, underlying customer statement of work, acceptance record, and billing ledger.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A1",
+          "A3"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Permitting-platform continuity test",
+        "clause": "The Borrower shall maintain a documented disaster-recovery environment for the production permitting platform and, no later than May 31 of each fiscal year, complete a restoration test using a representative municipal tenant. The test must demonstrate recovery of permit records, inspection schedules, fee transactions, and audit logs within eight hours and must be certified by the chief technology officer. A summary of results, exceptions, and corrective actions is due within 10 Business Days after testing. Failure to perform the test or correct a material test exception is an operating failure remediable for 30 calendar days after lender notice before an Event of Default occurs.",
+        "evidence": "Dated recovery-test script, system timestamps, exception log, and chief technology officer certification.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A2",
+          "A4"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Municipal data custody restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may sell, assign, or grant an exclusive commercial license in identifiable permit, inspection, applicant, or municipal payment data obtained under a customer agreement, except that ordinary-course processing by a service provider is permitted if the loan party remains contractually responsible, retains access, and requires return or deletion at termination. Nonexclusive use of deidentified aggregate statistics to improve the platform is permitted only where the governing municipal contract allows it. Any prohibited transfer or exclusive license constitutes an Event of Default immediately upon execution, without a remediation period; an unsigned proposal or negotiation does not breach this covenant.",
+        "evidence": "Executed data license or transfer agreement, applicable municipal customer contract, and service-provider data-processing terms.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A2"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Municipal implementations convert to production subscriptions without a sustained backlog of delayed acceptances.",
+        "evidence": "The approved memorandum's implementation pipeline paragraph cites the December 2026 project register and signed acceptance milestones.",
+        "review_trigger": "Any contracted production date delayed more than 30 calendar days or two consecutive quarters of rising delayed projects.",
+        "covenant_links": [
+          "C02",
+          "S1"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A2",
+        "statement": "The hosted permitting platform remains recoverable and customer data remains under contractually compliant custody.",
+        "evidence": "The approved memorandum's technology-controls paragraph cites the 2026 recovery test and standard municipal data addendum.",
+        "review_trigger": "A failed or missed recovery test, material data loss, or proposed exclusive transfer of municipal data.",
+        "covenant_links": [
+          "C06",
+          "C08",
+          "S2",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A3",
+        "statement": "Eligible cash and milestone collections provide adequate liquidity through ordinary implementation timing variability.",
+        "evidence": "The approved memorandum's liquidity paragraph cites the opening cash ledger and contracted billing schedule.",
+        "review_trigger": "Month-end Eligible Cash at or below the forecast trigger or a material acceptance-related collection delay.",
+        "covenant_links": [
+          "C09",
+          "S1"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Opening leverage leaves sufficient capacity for a moderate earnings decline while debt service remains manageable.",
+        "evidence": "The approved memorandum's capitalization paragraph reconciles opening Debt, Eligible Cash, Covenant EBITDA, interest, and scheduled amortization.",
+        "review_trigger": "Quarterly leverage above the underwritten opening level or forecast cash generation insufficient for scheduled debt service.",
+        "covenant_links": [
+          "C01",
+          "C02"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "2027 Disaster-Recovery Test Status Memorandum",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "Technology operations recorded on June 15, 2027 that the annual representative-tenant restoration test required by May 31 had not been performed; no test script or system result exists for the 2027 cycle."
+        },
+        {
+          "id": "P2",
+          "text": "Management stated on June 15, 2027 that a test window is reserved for July 2 after a hosting upgrade and that production service has remained available, but it supplied no completed 2027 recovery evidence."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A2"
+      ],
+      "evaluated_clause_ids": [
+        "S2"
+      ],
+      "expected_applicability": "S2 is applicable because its May 31 annual performance deadline passed after closing.",
+      "expected_evidence_sufficiency": "Sufficient to establish that the required 2027 test was not performed by the deadline; the planned July test does not alter that fact.",
+      "expected_contract_result": "S2 has an actual remediable operating failure, but the passages do not show lender notice and therefore do not establish an Event of Default as of review.",
+      "expected_resolution": "A; a 30-calendar-day remediation period begins only after lender notice, and no notice is evidenced.",
+      "expected_thesis_assessment": "A2 is weakened because the current recovery capability lacks the required annual validation; continued uptime is relevant context but does not prove recoverability.",
+      "expected_credit_implication": "Adverse monitoring signal with uncertain operational severity pending completion and results of the delayed test.",
+      "rationale": "The missed performance deadline is shown by a contemporaneous internal record, while management's future plan is contextual rather than cure evidence. The case tests separation of an operating breach from an Event of Default that requires notice and an expired remediation period. It does not imply a financial covenant failure."
+    }
+  },
+  {
+    "id": "B22",
+    "name": "PolicyHarbor Administration Software, Inc.",
+    "sector": "insurance policy administration software",
+    "description": "PolicyHarbor licenses policy administration, billing, and claims-intake software to regional property and casualty insurers and earns recurring hosting and support fees. Carrier conversion errors and mishandling of premium-related files can create concentrated remediation and renewal risk.",
+    "sponsor": "Silver Fir Capital Group",
+    "lender": "Meridian Crest Lending LLC",
+    "subsidiaries": [
+      "PolicyHarbor Cloud Services LLC",
+      "UnderwritePath Solutions, Inc."
+    ],
+    "revenue_m": 122,
+    "ebitda_m": 31,
+    "adjustment_m": 1,
+    "ebitda_cap_pct": 5,
+    "da_m": 4.6,
+    "debt_m": 120,
+    "cash_m": 12,
+    "restricted_cash_m": 3,
+    "cash_netting_cap_m": 12,
+    "annual_rate_pct": 9.25,
+    "amortization_pct": 2,
+    "term_years": 6,
+    "capex_m": 4.8,
+    "working_capital_investment_m": 1.5,
+    "max_leverage": 4.45,
+    "optional_type": "interest",
+    "optional_threshold": 2.6,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 2,
+    "dividend_basket_m": 1.5,
+    "dividend_max_leverage": 3.9,
+    "transaction_cash_floor_m": 8,
+    "acquisition_basket_m": 6,
+    "acquisition_max_leverage": 4.1,
+    "asset_sale_basket_m": 0.6,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 15,
+    "base_revenue_growth_pct": 7,
+    "base_ebitda_growth_pct": 9,
+    "moderate_ebitda_drop_pct": 13,
+    "severe_ebitda_drop_pct": 34,
+    "receivable_days": 52,
+    "annual_revenue_recurring_pct": 84,
+    "model_note": "Historical intangible assets primarily reflect acquired software and carrier relationships, with annual support prepayments partly funding receivables.",
+    "credit_rationale": "Opening net debt of $108 million is 3.38x Covenant EBITDA, while the 4.45x maintenance limit provides approximately 24% EBITDA decline capacity. The 2.60x interest-coverage minimum supplements leverage because a carrier migration can require costly remediation before subscription revenue resets. Opening interest coverage is about 2.88x using the fixed cash rate and opening debt, leaving a measured but credible cushion. Cash floors on transactions protect conversion staffing and cloud costs, and acquisition capacity is limited to adjacent software targets. The principal underwriting vulnerability is execution failure during carrier data conversion, which may damage renewal confidence before it appears in historical revenue. The adjustment represents documented duplicate facilities costs from a completed consolidation.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Carrier conversion controls",
+        "clause": "For each carrier conversion covering policies that generated at least 5% of prior-year revenue, the Borrower shall maintain a written conversion plan identifying reconciliation totals, exception ownership, parallel-run dates, and executive acceptance criteria. No production cutover may occur unless the chief operating officer certifies that premium, policy, billing, and open-claim record counts reconcile within the customer's written tolerance or the customer has signed an exception approval. The certification and reconciliation summary must be delivered with the next quarterly package. A cutover without the required certification or approval is remediable for 30 calendar days after lender notice before an Event of Default occurs.",
+        "evidence": "Conversion plan, pre-cutover reconciliation, customer exception approval if applicable, and chief operating officer certification.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1",
+          "A4"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Premium-file incident reporting",
+        "clause": "The Borrower shall notify the Lender within five Business Days after a responsible officer learns that a production defect caused a carrier premium, refund, commission, or cancellation file to be transmitted with a material population of inaccurate records. The notice must identify the affected carrier, file date, record population, containment action, customer communications, and estimated correction timetable; it need not quantify financial loss before support exists. A corrected file does not eliminate the original notice obligation. Failure to provide the complete notice is remediable for 10 Business Days after lender notice before an Event of Default occurs, and the clause imposes no independent numerical performance threshold.",
+        "evidence": "Incident ticket, affected production file manifest, officer knowledge record, customer notice, and lender portal receipt.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A2"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Carrier configuration and source-code restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may transfer ownership of the core policy-administration source code or any carrier-specific rating, billing, or claims configuration repository outside the loan-party group. Ordinary nonexclusive customer licenses, escrow deposits that release only upon customary insolvency or prolonged support failure, and access granted to vetted implementation contractors are permitted if ownership remains with a loan party and access terminates with the engagement. A prohibited sale, assignment, or present release outside those exceptions constitutes an Event of Default immediately upon execution or release, as applicable, without a remediation period. A draft transfer agreement alone does not violate this covenant.",
+        "evidence": "Executed IP instrument, source-code escrow agreement, contractor access terms, and repository ownership schedule.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Large carrier migrations can be completed without material data-reconciliation failures that impair renewals.",
+        "evidence": "The approved memorandum's implementation paragraph cites completed 2025 and 2026 conversion acceptance packages.",
+        "review_trigger": "A production cutover lacking signed reconciliation support or a carrier rejection of converted records.",
+        "covenant_links": [
+          "S1",
+          "C08"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Policy and premium file processing remains controlled, and any material production defect becomes visible promptly.",
+        "evidence": "The approved memorandum's operations paragraph cites the incident taxonomy and carrier communication procedure.",
+        "review_trigger": "A material inaccurate production file, delayed carrier notice, or release of protected source code.",
+        "covenant_links": [
+          "S2",
+          "S3"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A3",
+        "statement": "Recurring hosting and support receipts support fixed cash interest through ordinary renewal variability.",
+        "evidence": "The approved memorandum's debt-service paragraph cites the contract billing schedule and opening interest calculation.",
+        "review_trigger": "TTM interest coverage approaches the covenant minimum or a major customer gives termination or nonrenewal notice.",
+        "covenant_links": [
+          "C09",
+          "C08"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Leverage can absorb a moderate earnings setback without relying on additional EBITDA adjustments.",
+        "evidence": "The approved memorandum's capitalization paragraph reconciles Debt, Eligible Cash, reported EBITDA, and the documented adjustment.",
+        "review_trigger": "Covenant EBITDA declines below the moderate-downside case or net debt rises outside the approved forecast.",
+        "covenant_links": [
+          "C01",
+          "C02"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "NorthLake Carrier Conversion Acceptance Package",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "NorthLake Mutual and PolicyHarbor executed production acceptance on June 15, 2027 after premium, policy, billing, and open-claim counts reconciled within NorthLake's written tolerance; the chief operating officer signed the cutover certification the same day."
+        },
+        {
+          "id": "P2",
+          "text": "Management reported that 0.3% of archived correspondence images require post-cutover re-indexing, an item NorthLake expressly excluded from production acceptance criteria and approved for completion by June 30."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A1"
+      ],
+      "evaluated_clause_ids": [
+        "S1"
+      ],
+      "expected_applicability": "S1 applies because the NorthLake conversion exceeded the 5% prior-year revenue threshold.",
+      "expected_evidence_sufficiency": "Sufficient to show both customer acceptance and the required officer certification; the approved image exception is also documented.",
+      "expected_contract_result": "Compliant with S1 because reconciliation was within the customer's written tolerance and the remaining item was expressly approved outside acceptance criteria.",
+      "expected_resolution": "No remediation or default resolution is required.",
+      "expected_thesis_assessment": "A1 is supported by a completed large-carrier conversion with documented acceptance; the limited re-indexing task does not contradict the assumption.",
+      "expected_credit_implication": "Benign to modestly favorable evidence regarding conversion execution, with routine follow-up on the approved task.",
+      "rationale": "The executed acceptance and certification satisfy the operative condition. The contextual passage prevents an evaluator from treating every post-cutover task as a failure when the customer expressly excluded and approved it. No financial conclusion is drawn from the operational evidence."
+    }
+  },
+  {
+    "id": "B23",
+    "name": "FranchiseTable Systems LLC",
+    "sector": "restaurant franchise operations software",
+    "description": "FranchiseTable sells subscription software for franchisee reporting, royalty calculation, menu rollout, and store-level operating dashboards to restaurant franchisors. Brand concentration and errors in systemwide sales feeds can disrupt royalty reporting and threaten renewals.",
+    "sponsor": "Oak Meridian Partners",
+    "lender": "Blue Summit Private Lending LLC",
+    "subsidiaries": [
+      "FranchiseTable Data Services, Inc.",
+      "MenuPulse Software LLC"
+    ],
+    "revenue_m": 58,
+    "ebitda_m": 10,
+    "adjustment_m": 0,
+    "ebitda_cap_pct": 0,
+    "da_m": 1.8,
+    "debt_m": 34,
+    "cash_m": 6,
+    "restricted_cash_m": 1,
+    "cash_netting_cap_m": 6,
+    "annual_rate_pct": 10,
+    "amortization_pct": 3,
+    "term_years": 4,
+    "capex_m": 1.8,
+    "working_capital_investment_m": 0.8,
+    "max_leverage": 3.55,
+    "optional_type": "none",
+    "optional_threshold": null,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 1,
+    "dividend_basket_m": 0.5,
+    "dividend_max_leverage": 3.1,
+    "transaction_cash_floor_m": 4,
+    "acquisition_basket_m": 2,
+    "acquisition_max_leverage": 3.3,
+    "asset_sale_basket_m": 0.25,
+    "report_days": 30,
+    "customer_notice_threshold_pct": 20,
+    "base_revenue_growth_pct": 6,
+    "base_ebitda_growth_pct": 8,
+    "moderate_ebitda_drop_pct": 15,
+    "severe_ebitda_drop_pct": 40,
+    "receivable_days": 38,
+    "annual_revenue_recurring_pct": 81,
+    "model_note": "Historical assets contain modest capitalized development and customer-list intangibles, while monthly franchisor invoicing keeps working capital comparatively light.",
+    "credit_rationale": "Opening net leverage is 2.80x on $28 million of net debt and $10 million of Covenant EBITDA. The 3.55x maintenance ceiling allows about a 21% EBITDA decline, appropriate for a smaller company with meaningful brand concentration and no add-back flexibility. No optional financial covenant is added because scheduled amortization, the $4 million transaction floor, and tighter incurrence tests already preserve cash without layering a redundant metric. The short reporting deadline supports early review of franchisor feed quality and renewals. The main vulnerability is a data-feed failure or contract change at a major restaurant brand that weakens subscription value and royalty-reporting trust before historical earnings fully reflect churn.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Systemwide sales-feed reconciliation",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall include in each quarterly package a reconciliation report for every restaurant brand representing at least 10% of prior-year revenue. The report must compare expected active locations, locations submitting sales feeds, rejected records, resubmissions, and unresolved gaps as of quarter-end, with a management explanation for any gap lasting more than five Business Days. A location temporarily closed under the franchisor's records may be excluded if identified. Failure to deliver a complete reconciliation report is remediable for 10 Business Days after lender notice before an Event of Default occurs; the report creates no minimum feed-success ratio.",
+        "evidence": "Quarterly sales-feed reconciliation, franchisor active-location file, rejection log, and management exception narrative.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Royalty-rule change control",
+        "clause": "For each restaurant brand representing at least 10% of prior-year revenue, the Borrower shall maintain documented approval and test evidence before deploying a production change to royalty rates, excluded sales categories, promotional adjustments, or reporting calendars. Approval must identify the franchisor-authorized rule, effective date, test population, expected output, and responsible release manager. Emergency correction of an existing calculation error may be deployed first if written franchisor confirmation and completed regression testing follow within five Business Days. An unauthorized or untested production rule change is an operating failure remediable for 30 calendar days after lender notice before an Event of Default occurs.",
+        "evidence": "Franchisor rule authorization, change ticket, regression-test output, deployment record, and emergency confirmation where applicable.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Core brand-contract assignment restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may assign, novate, or transfer to a non-Loan-Party affiliate a customer agreement with a restaurant brand that generated at least 10% of prior-year revenue without prior written lender consent. An acquisition-integration transfer may use the ordinary intercompany exception only after the receiving entity has become a Loan Party under C07, including its ten-Business-Day guarantee/accession requirement; the separate 30-calendar-day perfection deadline remains applicable. C05 and C06 must also be satisfied. Ordinary subcontracting that does not release the Loan Party from performance is permitted. A prohibited executed assignment is an immediate Event of Default; a customer's unilateral internal reorganization is not a Borrower transfer.",
+        "evidence": "Executed assignment or novation, customer consent, affiliate ownership record, and guaranty and collateral joinder if the exception is used.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A2",
+          "A4"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Royalty and systemwide sales calculations remain accurate for the largest restaurant brands.",
+        "evidence": "The approved memorandum's product-control paragraph cites 2026 brand reconciliations and release approvals.",
+        "review_trigger": "A persistent feed gap or production royalty-rule change lacking documented authorization and testing.",
+        "covenant_links": [
+          "S1",
+          "S2"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Major franchisor relationships remain within the loan-party group and generate reliable recurring subscription receipts.",
+        "evidence": "The approved memorandum's customer paragraph cites executed brand agreements and the legal-entity contract schedule.",
+        "review_trigger": "A major-brand assignment, termination or nonrenewal notice, or a material unresolved location-feed gap.",
+        "covenant_links": [
+          "C08",
+          "S1",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A3",
+        "statement": "The company can fund product investment, working capital, and scheduled debt service from operating cash flow.",
+        "evidence": "The approved memorandum's cash-flow paragraph reconciles EBITDA to capital investment, working-capital use, interest, and amortization.",
+        "review_trigger": "Cash generation falls below scheduled debt service or capitalized development materially exceeds plan.",
+        "covenant_links": [
+          "C01",
+          "C02"
+        ],
+        "protection": "analyst_judgment"
+      },
+      {
+        "id": "A4",
+        "statement": "Moderate opening leverage offsets the volatility created by customer concentration.",
+        "evidence": "The approved memorandum's capitalization paragraph cites opening net debt, unadjusted Covenant EBITDA, and downside sensitivity.",
+        "review_trigger": "Net leverage exceeds the opening level or a major-brand contract moves outside the collateral group.",
+        "covenant_links": [
+          "C01",
+          "S3"
+        ],
+        "protection": "direct"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "Proposed HearthGrill Contract Novation",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "A June 15, 2027 unsigned draft proposes novating the HearthGrill customer agreement, which generated 12% of 2026 revenue, from FranchiseTable Systems LLC to a newly contemplated sponsor affiliate that is not a loan party."
+        },
+        {
+          "id": "P2",
+          "text": "The general counsel stated on June 15 that no party has signed the draft, no customer consent has been requested, and management will seek lender review before deciding whether to proceed."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A2",
+        "A4"
+      ],
+      "evaluated_clause_ids": [
+        "S3"
+      ],
+      "expected_applicability": "S3 governs an assignment or novation of the HearthGrill agreement because the customer exceeds the 10% threshold.",
+      "expected_evidence_sufficiency": "Sufficient to show a proposal and its terms, but insufficient to show execution of a novation or transfer.",
+      "expected_contract_result": "No breach as of review because S3 prohibits an executed transfer and the document is expressly unsigned.",
+      "expected_resolution": "X would apply immediately if the prohibited novation were executed; no resolution is currently required.",
+      "expected_thesis_assessment": "A2 and A4 require review because management is considering moving a concentrated contract outside the loan-party group, but neither is yet contradicted by an executed action.",
+      "expected_credit_implication": "Potentially adverse governance and collateral signal; current contractual impact is limited to monitoring the proposal.",
+      "rationale": "The event deliberately separates proposed from executed activity. The draft identifies all facts needed to assess the clause's scope, while the rebuttal confirms that the operative execution trigger has not occurred. No default or financial-test result should be inferred."
+    }
+  },
+  {
+    "id": "B24",
+    "name": "FreightLedger Audit Services, Inc.",
+    "sector": "freight audit and payment services",
+    "description": "FreightLedger validates carrier invoices, identifies billing exceptions, and administers approved freight payments for large shippers under transaction and subscription fees. Segregation of client payment funds and backlog growth in unresolved invoice exceptions are its distinctive operating risks.",
+    "sponsor": "Ironwood Bay Holdings",
+    "lender": "Crown Valley Credit Partners LLC",
+    "subsidiaries": [
+      "FreightLedger Payment Services LLC",
+      "InvoiceProof Analytics, Inc."
+    ],
+    "revenue_m": 145,
+    "ebitda_m": 27,
+    "adjustment_m": 1.2,
+    "ebitda_cap_pct": 10,
+    "da_m": 4.5,
+    "debt_m": 95,
+    "cash_m": 14,
+    "restricted_cash_m": 8,
+    "cash_netting_cap_m": 10,
+    "annual_rate_pct": 8.75,
+    "amortization_pct": 2,
+    "term_years": 5,
+    "capex_m": 4.2,
+    "working_capital_investment_m": 3.5,
+    "max_leverage": 4,
+    "optional_type": "liquidity",
+    "optional_threshold": 7,
+    "liquidity_trigger_m": 10,
+    "lease_basket_m": 2,
+    "dividend_basket_m": 1.2,
+    "dividend_max_leverage": 3.45,
+    "transaction_cash_floor_m": 9,
+    "acquisition_basket_m": 5,
+    "acquisition_max_leverage": 3.7,
+    "asset_sale_basket_m": 0.5,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 10,
+    "base_revenue_growth_pct": 9,
+    "base_ebitda_growth_pct": 11,
+    "moderate_ebitda_drop_pct": 16,
+    "severe_ebitda_drop_pct": 38,
+    "receivable_days": 46,
+    "annual_revenue_recurring_pct": 67,
+    "model_note": "Historical assets include capitalized audit-platform development and customer relationships, while client payment funds remain restricted and outside operating working capital.",
+    "credit_rationale": "Opening net debt is $85 million after the contractual cash-netting cap, producing 3.01x leverage on $28.2 million of Covenant EBITDA. The 4.00x ceiling permits about a 25% EBITDA decline. A $7 million liquidity floor and $10 million forecast trigger address the timing exposure created by payroll and operating costs during slower customer collections; $8 million of client-controlled funds is restricted and never treated as eligible cash. Transaction permissions require $9 million of post-closing Eligible Cash. The key vulnerability is operational: a growing invoice-exception backlog can delay approvals and fee recognition, while any commingling of payment funds could impair customer trust and create restitution demands. The adjustment is a documented cash cost from consolidating duplicate processing teams.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Client payment-fund segregation",
+        "clause": "The Borrower shall hold all cash received from a shipper solely for payment to carriers in accounts titled for the relevant client-fund program, separate from operating accounts, and shall not include that cash in Eligible Cash or use it for payroll, debt service, investment, or another client's obligations. Bank fees directly attributable to the applicable program may be paid from the account only if the client agreement permits them. Execution of any withdrawal or transfer for a prohibited purpose constitutes an Event of Default immediately when made, without a remediation period. An erroneous bank posting reversed before any loan party directs or uses the funds is not a prohibited transfer.",
+        "evidence": "Bank account titles, daily account ledger, client-fund agreement, transfer authorization, and operating-cash reconciliation.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A1",
+          "A3"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Invoice-exception aging report",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package an invoice-exception aging report showing, by customer, the count and billed value of unresolved carrier invoices aged 0–15, 16–30, 31–60, and more than 60 calendar days from intake. The report must identify each customer representing at least 10% of prior-year revenue and explain any category that increased for two consecutive quarters. Customer-directed payment holds must be separately labeled and not removed from the report. Failure to deliver the complete report is remediable for 10 Business Days after lender notice before an Event of Default occurs.",
+        "evidence": "Quarterly exception-aging export, customer master file, intake timestamps, and management variance explanation.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A2",
+          "A4"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Carrier-payment file validation",
+        "clause": "Before releasing any carrier-payment batch exceeding $2 million, the Borrower shall complete dual approval that reconciles the batch total to customer-funded available balances and identifies duplicate invoice numbers, changed bank instructions, and payments lacking customer authorization. One approver must be independent of batch preparation. A batch may proceed with documented customer-authorized partial funding if payments are reduced to the available amount. Release without the required reconciliation and independent approval is an operating failure remediable for 30 calendar days after lender notice; remediation must include a completed investigation, recovery efforts for misdirected funds, and control correction before an Event of Default occurs.",
+        "evidence": "Payment-batch manifest, funding reconciliation, duplicate and bank-change checks, and two dated approvals.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Client payment funds remain segregated from operating cash and are released only through controlled payment batches.",
+        "evidence": "The approved memorandum's funds-flow paragraph cites titled bank accounts, sample reconciliations, and dual-approval records.",
+        "review_trigger": "Any operating use of client funds or a material payment batch lacking reconciliation and independent approval.",
+        "covenant_links": [
+          "S1",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Invoice exceptions are resolved promptly enough to preserve customer confidence and transaction-fee conversion.",
+        "evidence": "The approved memorandum's operations paragraph cites the December 2026 exception-aging export and resolution workflow.",
+        "review_trigger": "Two consecutive quarterly increases in aged exceptions or a material customer dispute over payment accuracy.",
+        "covenant_links": [
+          "S2",
+          "S3"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A3",
+        "statement": "Operating liquidity is adequate without relying on restricted client payment balances.",
+        "evidence": "The approved memorandum's liquidity paragraph separately reconciles Eligible Cash and client-controlled bank balances.",
+        "review_trigger": "Eligible Cash reaches the forecast trigger or any restricted balance appears in cash netting.",
+        "covenant_links": [
+          "C01",
+          "C09",
+          "S1"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Leverage headroom can absorb ordinary customer-volume and processing-cost variability.",
+        "evidence": "The approved memorandum's capitalization paragraph cites opening net debt, Covenant EBITDA, and constant-debt downside capacity.",
+        "review_trigger": "Quarterly leverage rises above the opening level or the exception backlog indicates sustained margin pressure.",
+        "covenant_links": [
+          "C01",
+          "S2"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "Client-Fund Account Reconciliation Exception",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "The June 15, 2027 treasury reconciliation shows a $0.6 million debit from a client-fund account to FreightLedger's operating payroll account, authorized by the controller on June 14 and still outstanding at the time of the report."
+        },
+        {
+          "id": "P2",
+          "text": "Management described the transfer as a two-day liquidity bridge and stated that it intended to restore the amount after a customer receipt; the affected client's agreement does not authorize operating use of its funds."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A1",
+        "A3"
+      ],
+      "evaluated_clause_ids": [
+        "S1"
+      ],
+      "expected_applicability": "S1 applies to cash held solely for carrier payment under the client-fund program.",
+      "expected_evidence_sufficiency": "Sufficient because the ledger, authorization, destination, outstanding status, and absence of a contractual exception are stated.",
+      "expected_contract_result": "S1 was breached immediately when the prohibited operating transfer was made.",
+      "expected_resolution": "X; the prohibited transfer is an immediate Event of Default without a remediation period, and a stated intent to replace funds is not a cure right.",
+      "expected_thesis_assessment": "A1 is contradicted and A3 is materially weakened because management used restricted client funds to cover operating liquidity.",
+      "expected_credit_implication": "Severe adverse control, liquidity, and customer-trust signal requiring immediate lender review.",
+      "rationale": "The primary passage establishes a directed and unreversed use of restricted funds. Management's explanation confirms intent and does not fit the narrow erroneous-bank-posting exception. The event supports the sector duty result without asserting any independent leverage or liquidity measurement."
+    }
+  },
+  {
+    "id": "B25",
+    "name": "ArchiveShield Records Services LLC",
+    "sector": "document destruction and records management services",
+    "description": "ArchiveShield provides scheduled document shredding, secure records storage, and certified media destruction to commercial customers under recurring service contracts. Chain-of-custody failures and destruction before an authorized retention release are its distinctive operating risks.",
+    "sponsor": "Briarstone Investment Partners",
+    "lender": "Red Maple Direct Lending LLC",
+    "subsidiaries": [
+      "ArchiveShield Storage Operations, Inc.",
+      "SecureBin Destruction LLC"
+    ],
+    "revenue_m": 98,
+    "ebitda_m": 23,
+    "adjustment_m": 0.8,
+    "ebitda_cap_pct": 5,
+    "da_m": 4,
+    "debt_m": 89,
+    "cash_m": 9,
+    "restricted_cash_m": 1,
+    "cash_netting_cap_m": 9,
+    "annual_rate_pct": 9.5,
+    "amortization_pct": 3,
+    "term_years": 5,
+    "capex_m": 3.8,
+    "working_capital_investment_m": 1.3,
+    "max_leverage": 4.4,
+    "optional_type": "capex",
+    "optional_threshold": 4.5,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 3,
+    "dividend_basket_m": 1,
+    "dividend_max_leverage": 3.8,
+    "transaction_cash_floor_m": 6,
+    "acquisition_basket_m": 4,
+    "acquisition_max_leverage": 4.05,
+    "asset_sale_basket_m": 0.7,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 15,
+    "base_revenue_growth_pct": 5,
+    "base_ebitda_growth_pct": 6,
+    "moderate_ebitda_drop_pct": 12,
+    "severe_ebitda_drop_pct": 32,
+    "receivable_days": 43,
+    "annual_revenue_recurring_pct": 72,
+    "model_note": "Historical assets are weighted toward storage-site improvements, shredding equipment, and acquired customer intangibles, with routine service billing producing moderate receivables.",
+    "credit_rationale": "Opening net debt of $80 million equals 3.36x Covenant EBITDA, and the 4.40x leverage limit supplies about 24% decline capacity. An annual $4.5 million cash capital-investment cap sits above the $3.8 million base need yet constrains equipment and storage expansion that could otherwise consume debt-service cash. The $6 million transaction floor and measured baskets preserve route operations and facility security. The key vulnerability is not simple volume softness but a chain-of-custody or premature-destruction failure that can trigger customer loss and remediation across a regulated records portfolio. The $0.8 million adjustment is a documented one-time cash charge for consolidating two storage depots and remains below the contractual cap.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Chain-of-custody exception log",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package a chain-of-custody exception log covering missed scans, broken container seals, route custody gaps, misplaced boxes, and destruction certificates issued without a matched service record. Each entry must show the customer, discovery date, responsible facility, containment, customer communication, and closure evidence. Events involving fewer than five containers may be grouped only if none involved loss of custody. Failure to deliver the complete log is remediable for 10 Business Days after lender notice before an Event of Default occurs; the clause does not establish a permissible exception count.",
+        "evidence": "Quarterly custody-exception log, barcode scan history, route manifest, customer communication, and closure record.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Authorized destruction release",
+        "clause": "The Borrower shall not destroy a stored document box or digital medium unless its inventory record contains a customer-authorized destruction release identifying the customer, covered record series or asset, authorization date, and authorized destruction window. A standing retention schedule qualifies only if the customer agreement expressly authorizes automatic destruction and no litigation hold or suspension is recorded. Actual destruction without the required authorization is a prohibited action and an immediate Event of Default, without a remediation period. Subsequent customer notice, preservation of related records, root-cause review, or corrected controls do not restore destroyed records or cure that event without an express lender waiver. A proposed destruction that has not occurred is not an executed breach.",
+        "evidence": "Inventory record, customer destruction release or standing schedule, hold registry, destruction certificate, and root-cause file.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A1",
+          "A4"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Records-custody subcontract restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may transfer physical custody of stored customer records to a third-party warehouse or destruction provider unless the customer contract permits subcontracting, the provider signs written confidentiality and chain-of-custody obligations, the Borrower retains tracking access, and the records remain insured under the Borrower's program. Ordinary use of a carrier for same-day transport between loan-party facilities is permitted if custody scans continue. A prohibited custody transfer constitutes an Event of Default immediately upon physical delivery to the third party, without a remediation period. A signed service proposal without physical transfer does not breach this covenant.",
+        "evidence": "Customer contract, executed subcontract, insurance schedule, custody-system access record, and physical transfer manifest.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A2"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Secure custody and authorized destruction controls prevent material customer-record losses.",
+        "evidence": "The approved memorandum's operations paragraph cites barcode custody logs, destruction releases, and the litigation-hold registry.",
+        "review_trigger": "Any loss of custody, destruction without authorization, or material cluster of scan exceptions.",
+        "covenant_links": [
+          "S1",
+          "S2",
+          "C08"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Recurring storage and scheduled-service relationships remain supported by controlled facilities and approved subcontracting.",
+        "evidence": "The approved memorandum's customer-retention paragraph cites site schedules, recurring contracts, and custody terms.",
+        "review_trigger": "Transfer of stored records to an unapproved third party or termination notice from a material customer.",
+        "covenant_links": [
+          "S1",
+          "S3",
+          "C08"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A3",
+        "statement": "Capital spending remains sufficient for equipment reliability without consuming excessive debt-service cash.",
+        "evidence": "The approved memorandum's capital plan paragraph cites the 2027 shredder, vehicle, and facility-improvement schedule.",
+        "review_trigger": "Annual cash capital investment approaches the cap or maintenance projects are deferred despite equipment failures.",
+        "covenant_links": [
+          "C09",
+          "C02"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Opening leverage and recurring service cash flow provide resilience against ordinary route-density pressure.",
+        "evidence": "The approved memorandum's credit case paragraph reconciles net debt, Covenant EBITDA, and planned cash uses.",
+        "review_trigger": "Leverage exceeds the opening level or custody failures cause customer attrition beyond the base case.",
+        "covenant_links": [
+          "C01",
+          "S2"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "Riverton Storage Custody Review",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "A June 15, 2027 custody review states that ArchiveShield moved 420 customer boxes on June 12 to Riverton Warehouse, a third-party site, under an executed storage subcontract; physical delivery is confirmed by the receiving manifest."
+        },
+        {
+          "id": "P2",
+          "text": "Management supplied confidentiality terms and proof of insurance but could not show that the affected customer contracts permit subcontracting or that ArchiveShield retained live tracking access at Riverton."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A2"
+      ],
+      "evaluated_clause_ids": [
+        "S3"
+      ],
+      "expected_applicability": "S3 applies because stored customer records were physically transferred to a third-party warehouse.",
+      "expected_evidence_sufficiency": "Sufficient to prove physical transfer and missing evidence for two cumulative permission conditions.",
+      "expected_contract_result": "Physical transfer is proved, but S3 compliance remains unresolved: the record does not establish whether customer permission and retained tracking actually existed at delivery.",
+      "expected_resolution": "Insufficient evidence to establish an immediate X Event of Default; request the operative customer contracts and dated tracking-access records. Do not assume consent or assume absence of permission.",
+      "expected_thesis_assessment": "A2 warrants review; the evidence does not establish that its custody-control assumption was contradicted because permission and tracking facts remain unresolved.",
+      "expected_credit_implication": "Potential operational and customer-retention exposure; confidentiality and insurance are supported, while two other protections are unverified.",
+      "rationale": "S3 requires all permission conditions, but lack of supplied evidence is not affirmative proof that a condition was false. The receiving manifest proves execution; it does not prove absent customer permission or tracking access. Preserve that uncertainty and do not infer financial deterioration."
+    }
+  },
+  {
+    "id": "B26",
+    "name": "ReturnCircuit Commerce Software, Inc.",
+    "sector": "ecommerce returns management software",
+    "description": "ReturnCircuit sells subscription and transaction-based software that authorizes ecommerce returns, selects refund methods, and connects merchants with resale and refurbishment partners. Merchant concentration and uncontrolled refund-rule changes can increase fraud losses and reduce platform trust.",
+    "sponsor": "Juniper Gate Capital",
+    "lender": "Stonebrook Credit Opportunities LLC",
+    "subsidiaries": [
+      "ReturnCircuit Platform LLC",
+      "RecommerceLink Services, Inc."
+    ],
+    "revenue_m": 52,
+    "ebitda_m": 9,
+    "adjustment_m": 0.4,
+    "ebitda_cap_pct": 10,
+    "da_m": 1.7,
+    "debt_m": 30,
+    "cash_m": 7,
+    "restricted_cash_m": 2,
+    "cash_netting_cap_m": 7,
+    "annual_rate_pct": 10.25,
+    "amortization_pct": 3,
+    "term_years": 4,
+    "capex_m": 2.1,
+    "working_capital_investment_m": 0.7,
+    "max_leverage": 3.25,
+    "optional_type": "none",
+    "optional_threshold": null,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 0.8,
+    "dividend_basket_m": 0.4,
+    "dividend_max_leverage": 2.8,
+    "transaction_cash_floor_m": 4.5,
+    "acquisition_basket_m": 1.8,
+    "acquisition_max_leverage": 3,
+    "asset_sale_basket_m": 0.2,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 20,
+    "base_revenue_growth_pct": 12,
+    "base_ebitda_growth_pct": 14,
+    "moderate_ebitda_drop_pct": 18,
+    "severe_ebitda_drop_pct": 44,
+    "receivable_days": 31,
+    "annual_revenue_recurring_pct": 69,
+    "model_note": "Historical assets are concentrated in capitalized platform development and merchant-relationship intangibles, with short-cycle subscription and transaction billing limiting receivable duration.",
+    "credit_rationale": "Opening net debt is $23 million, or 2.45x Covenant EBITDA, and the 3.25x maximum permits roughly a 25% EBITDA decline. The structure omits an optional financial covenant because the smaller borrower already has low opening leverage, 3% annual amortization, and a $4.5 million transaction cash floor. Tight distribution and acquisition permissions prioritize continued platform development. The primary vulnerability is a merchant-specific return-policy or refund-routing error that scales quickly across automated transactions, damages renewal confidence, and produces remediation costs before revenue loss appears. The $0.4 million adjustment covers documented cash severance from a completed sales reorganization and remains within the 10% cap; no projected savings are included.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Merchant refund-rule deployment control",
+        "clause": "For each merchant representing at least 10% of prior-year revenue, the Borrower shall not deploy a production change to return eligibility, refund timing, refund destination, or customer-fee logic unless the merchant's authorization, effective date, test cases, and rollback owner are recorded in the change system. A security response may be deployed before merchant authorization only to stop active fraud, provided the merchant is notified and retrospective testing is completed within two Business Days. Any other unauthorized or untested deployment is an operating failure remediable for 30 calendar days after lender notice before an Event of Default occurs.",
+        "evidence": "Merchant authorization, change-system record, test output, deployment timestamp, rollback assignment, and fraud-response notice if used.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Refund-funding exposure report",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package a refund-funding exposure report separating merchant-funded balances, processor-held balances, Borrower operating cash, refunds advanced by the Borrower, and amounts outstanding more than five Business Days. Restricted or merchant-owned balances must be identified and excluded from Eligible Cash. The report must name each merchant with advanced refunds exceeding $0.5 million at any time during the quarter and explain recovery status. Failure to deliver a complete report is remediable for 10 Business Days after lender notice before an Event of Default occurs; no advance limit is created by this clause.",
+        "evidence": "Quarterly refund-funding ledger, processor statements, bank account ownership schedule, aging report, and management recovery narrative.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A2",
+          "A3"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Returns-data commercialization restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may sell or grant an exclusive license in merchant-identifiable return, refund, fraud-score, or consumer-disposition data to a third party. Ordinary processing for a merchant, nonexclusive use by contracted fraud or resale providers, and commercialization of aggregate data are permitted only if the applicable merchant agreement permits the use, no consumer or merchant is identifiable, and the loan party retains control of source records. Any prohibited sale or exclusive license constitutes an Event of Default immediately upon execution, without a remediation period. Marketing discussions and unsigned term sheets do not constitute execution.",
+        "evidence": "Executed data agreement, merchant data terms, deidentification specification, and source-record control schedule.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A1"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Merchant-specific returns logic and data rights remain controlled as transaction volume scales.",
+        "evidence": "The approved memorandum's platform-controls paragraph cites production change records and standard merchant data terms.",
+        "review_trigger": "An unauthorized return-rule deployment or proposed commercialization of identifiable merchant data.",
+        "covenant_links": [
+          "S1",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Refund routing does not create a sustained use of Borrower cash or unexplained funding exposures.",
+        "evidence": "The approved memorandum's funds-flow paragraph cites processor statements and the December 2026 refund-funding ledger.",
+        "review_trigger": "Advanced refunds exceed the memorandum's ordinary-course expectation or remain unrecovered beyond five Business Days.",
+        "covenant_links": [
+          "S1",
+          "S2"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A3",
+        "statement": "Operating cash supports development spending and scheduled debt service without merchant-owned balances.",
+        "evidence": "The approved memorandum's cash analysis separately identifies Eligible Cash, restricted cash, and recurring cash uses.",
+        "review_trigger": "Eligible Cash falls below the transaction floor or restricted balances are included in leverage netting.",
+        "covenant_links": [
+          "C01",
+          "C04",
+          "C05",
+          "S2"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Low opening leverage provides capacity for volatile ecommerce transaction volumes.",
+        "evidence": "The approved memorandum's downside paragraph reconciles opening net debt and Covenant EBITDA without projected synergies.",
+        "review_trigger": "Net leverage rises above the opening level or transaction-fee weakness persists beyond one quarter.",
+        "covenant_links": [
+          "C01",
+          "C02"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "Second-Quarter Refund Funding Extract",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "The June 15, 2027 refund-funding extract identifies one merchant for which ReturnCircuit advanced $0.7 million during the quarter, but the export omits the advance dates, recovery status, and whether any amount remained outstanding more than five Business Days."
+        },
+        {
+          "id": "P2",
+          "text": "Management stated that all advances were short-term and reimbursed, but supplied no processor statement, bank record, aging schedule, or dated recovery support by the June 18 review."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A2",
+        "A3"
+      ],
+      "evaluated_clause_ids": [
+        "S2"
+      ],
+      "expected_applicability": "S2 is selected, but the second-quarter report is not yet due at the June 18 review; Q2 does not end until June 30.",
+      "expected_evidence_sufficiency": "Insufficient to determine advance duration, recovery status, or cash ownership because required dates and supporting records are absent.",
+      "expected_contract_result": "No current S2 delivery noncompliance is established by an incomplete interim June 15 extract. The merchant must be included in the later Q2 report if the stated quarter-to-date advance threshold remains established.",
+      "expected_resolution": "No current S2 remediation clock or Event of Default. Request supporting advance and recovery records; assess actual delivery at the contractual Q2 deadline.",
+      "expected_thesis_assessment": "A2 and A3 are unresolved rather than contradicted because management's assertion lacks evidence and the duration and source of funding remain unknown.",
+      "expected_credit_implication": "Adverse information-quality signal requiring prompt documentary follow-up; economic exposure cannot yet be quantified.",
+      "rationale": "An interim extract before quarter-end is not the due quarterly package. Missing recovery evidence limits thesis assessment but does not create an early reporting breach. C05 permission for the underlying merchant funding, including whether it is an ordinary trade receivable or a separately restricted advance, requires its own analysis; this S2 assessment does not authorize the advance."
+    }
+  },
+  {
+    "id": "B27",
+    "name": "MeterCivic Billing Systems LLC",
+    "sector": "utility customer billing software",
+    "description": "MeterCivic licenses meter-to-cash billing, rate configuration, and customer-service software to municipal and cooperative utilities. Incorrect rate-table deployment and meter-read exception accumulation can generate broad customer credits and delay utility acceptance.",
+    "sponsor": "Pine Harbor Technology Partners",
+    "lender": "Elm Ridge Senior Credit LLC",
+    "subsidiaries": [
+      "MeterCivic Hosting, Inc.",
+      "RateWorks Implementation LLC"
+    ],
+    "revenue_m": 110,
+    "ebitda_m": 26,
+    "adjustment_m": 1,
+    "ebitda_cap_pct": 5,
+    "da_m": 4,
+    "debt_m": 102,
+    "cash_m": 11,
+    "restricted_cash_m": 2,
+    "cash_netting_cap_m": 10,
+    "annual_rate_pct": 9,
+    "amortization_pct": 2,
+    "term_years": 6,
+    "capex_m": 4.1,
+    "working_capital_investment_m": 1.8,
+    "max_leverage": 4.5,
+    "optional_type": "capex",
+    "optional_threshold": 4.8,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 1.8,
+    "dividend_basket_m": 1.3,
+    "dividend_max_leverage": 3.9,
+    "transaction_cash_floor_m": 7,
+    "acquisition_basket_m": 5,
+    "acquisition_max_leverage": 4.2,
+    "asset_sale_basket_m": 0.5,
+    "report_days": 60,
+    "customer_notice_threshold_pct": 15,
+    "base_revenue_growth_pct": 7,
+    "base_ebitda_growth_pct": 8,
+    "moderate_ebitda_drop_pct": 14,
+    "severe_ebitda_drop_pct": 35,
+    "receivable_days": 59,
+    "annual_revenue_recurring_pct": 76,
+    "model_note": "Historical assets emphasize capitalized billing-platform development and acquired utility contracts, while milestone implementation billings lengthen receivable conversion.",
+    "credit_rationale": "Opening net debt is $92 million after the $10 million cash-netting cap, equal to 3.41x Covenant EBITDA. The 4.50x limit provides roughly 24% EBITDA decline capacity. A $4.8 million annual capital-investment cap preserves room above the base development plan while controlling cash consumption from simultaneous product and interface projects. Transaction tests retain $7 million for hosting, implementation payroll, and remediation needs. The central vulnerability is a rate-configuration defect that produces widespread billing corrections and damages utility references; this risk can emerge even while recurring support revenue remains stable. The $1 million adjustment is documented cash expense for consolidating customer-support sites, with no synergy or future savings included.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Utility rate-table deployment approval",
+        "clause": "Before deploying a production rate table for any utility representing at least 5% of prior-year revenue, the Borrower shall retain the utility's written rate authorization, effective date, representative bill comparisons, test approval, and rollback owner. An emergency correction may be deployed to reverse an erroneous prior release if the utility authorizes the correction in writing and completed bill comparisons follow within two Business Days. Any other deployment without the required authorization and testing is an operating failure remediable for 30 calendar days after lender notice; remediation must include corrected bills or files and a root-cause review before an Event of Default occurs.",
+        "evidence": "Utility rate authorization, configured table, representative bill-comparison output, test approval, deployment record, and rollback assignment.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Meter-read exception reporting",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package a meter-read exception report for utilities representing at least 5% of prior-year revenue. The report must show rejected, estimated, duplicated, and missing reads by customer and aging band, identify exceptions unresolved for more than one billing cycle, and state the responsible party and remediation status. Utility-approved estimation practices must remain identified rather than treated as resolved reads. Failure to deliver the complete report is remediable for 10 Business Days after lender notice before an Event of Default occurs; the report imposes no minimum acceptance percentage.",
+        "evidence": "Quarterly meter-read exception export, utility billing calendars, estimation approvals, aging schedule, and remediation narrative.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A1",
+          "A4"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Billing-engine custody restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may transfer ownership of the production billing engine, rate-calculation source code, or customer configuration repository outside the loan-party group. Nonexclusive utility licenses, customary source-code escrow arrangements, and contractor access are permitted if ownership remains with a loan party, escrow release is limited to insolvency or prolonged support failure, and contractor access is revocable. Any prohibited sale, assignment, or present escrow release constitutes an Event of Default immediately upon execution or release, without a remediation period. A utility's export of its own rates, bills, and customer data is an ordinary service and not an IP transfer.",
+        "evidence": "Executed IP transfer instrument, software license, escrow terms, contractor access record, and repository ownership schedule.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A2",
+          "A3"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Rate releases and meter-read interfaces produce accurate bills for material utility customers.",
+        "evidence": "The approved memorandum's product-control paragraph cites utility approvals, bill comparisons, and exception reports.",
+        "review_trigger": "An unauthorized rate deployment or unresolved meter-read exceptions spanning more than one billing cycle.",
+        "covenant_links": [
+          "S1",
+          "S2"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "The core billing engine remains controlled by the loan-party group and supports durable utility relationships.",
+        "evidence": "The approved memorandum's technology paragraph cites the IP schedule, escrow template, and customer license form.",
+        "review_trigger": "A proposed core-IP transfer, present escrow release, or material utility dispute over billing accuracy.",
+        "covenant_links": [
+          "C06",
+          "S1",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A3",
+        "statement": "Development investment can remain within the annual cash cap while supporting required platform updates.",
+        "evidence": "The approved memorandum's capital plan paragraph cites the 2027 development roadmap and cash-investment budget.",
+        "review_trigger": "Cash capital investment approaches the annual cap or essential rate-engine work is deferred.",
+        "covenant_links": [
+          "C09",
+          "S3"
+        ],
+        "protection": "analyst_judgment"
+      },
+      {
+        "id": "A4",
+        "statement": "Leverage headroom supports debt service through normal implementation and acceptance variability.",
+        "evidence": "The approved memorandum's capitalization paragraph reconciles opening net debt, Covenant EBITDA, and scheduled debt service.",
+        "review_trigger": "Quarterly leverage exceeds the opening level or exception aging indicates sustained implementation costs.",
+        "covenant_links": [
+          "C01",
+          "C02",
+          "S2"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "Lake County Rate Release Review",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "MeterCivic deployed Lake County Utility's new rate table on June 15, 2027 after receiving written authorization, completing representative residential and commercial bill comparisons, and recording test approval and a rollback owner."
+        },
+        {
+          "id": "P2",
+          "text": "After deployment, the utility identified a display-label typo that did not affect usage, rate selection, taxes, fees, or bill totals; management corrected the label the same day and retained before-and-after bill comparisons."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A1"
+      ],
+      "evaluated_clause_ids": [
+        "S1"
+      ],
+      "expected_applicability": "S1 applies because the customer exceeds the revenue threshold and a production rate table was deployed.",
+      "expected_evidence_sufficiency": "Sufficient to establish each required predeployment control and the limited effect of the subsequent typo.",
+      "expected_contract_result": "Compliant with S1; all required authorization and testing occurred, and the cosmetic label correction does not create a separate breach.",
+      "expected_resolution": "No remediation or default resolution is required.",
+      "expected_thesis_assessment": "A1 remains supported because calculated bills were validated and the identified issue did not affect financial outputs.",
+      "expected_credit_implication": "Benign operational evidence with no identified contractual or credit deterioration.",
+      "rationale": "The clause tests approval and representative bill comparisons rather than perfection of every display field. Both passages support compliance and show that the discovered issue was cosmetic. The event is intentionally stable and does not imply any financial covenant outcome."
+    }
+  },
+  {
+    "id": "B28",
+    "name": "MemberSpring Platform, Inc.",
+    "sector": "membership management software",
+    "description": "MemberSpring provides association management, dues billing, event registration, and member-portal software to professional and trade organizations. Concentrated association renewals and inaccurate dues-rule configuration can disrupt collections and member confidence.",
+    "sponsor": "Cobalt Orchard Partners",
+    "lender": "Harborline Capital Credit LLC",
+    "subsidiaries": [
+      "MemberSpring Payments LLC",
+      "AssociationCloud Services, Inc."
+    ],
+    "revenue_m": 67,
+    "ebitda_m": 14,
+    "adjustment_m": 0,
+    "ebitda_cap_pct": 0,
+    "da_m": 2.2,
+    "debt_m": 47,
+    "cash_m": 7,
+    "restricted_cash_m": 3,
+    "cash_netting_cap_m": 7,
+    "annual_rate_pct": 9,
+    "amortization_pct": 3,
+    "term_years": 5,
+    "capex_m": 2.5,
+    "working_capital_investment_m": 0.8,
+    "max_leverage": 3.65,
+    "optional_type": "coverage",
+    "optional_threshold": 1.25,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 1,
+    "dividend_basket_m": 0.7,
+    "dividend_max_leverage": 3.2,
+    "transaction_cash_floor_m": 4.5,
+    "acquisition_basket_m": 2.5,
+    "acquisition_max_leverage": 3.4,
+    "asset_sale_basket_m": 0.3,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 20,
+    "base_revenue_growth_pct": 8,
+    "base_ebitda_growth_pct": 10,
+    "moderate_ebitda_drop_pct": 16,
+    "severe_ebitda_drop_pct": 41,
+    "receivable_days": 27,
+    "annual_revenue_recurring_pct": 88,
+    "model_note": "Historical assets mainly comprise capitalized member-platform development and acquired association relationships, while annual dues-cycle prepayments keep operating working capital modest.",
+    "credit_rationale": "Opening net debt of $40 million equals 2.86x Covenant EBITDA, and the 3.65x maximum allows about a 22% EBITDA decline. A 1.25x cash-coverage minimum is appropriate because annual association billing seasonality can make accounting earnings look steadier than cash available after taxes, development investment, working-capital use, interest, and scheduled principal. Base cash generation leaves meaningful room over the threshold without requiring an EBITDA add-back. The $4.5 million transaction floor protects support and payment-processing needs. The key vulnerability is incorrect dues configuration or mishandling of association-controlled payment amounts, which can weaken renewal confidence and create reimbursement needs despite high recurring revenue.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Association dues-rule certification",
+        "clause": "Before activating an annual dues cycle for an association representing at least 5% of prior-year revenue, the Borrower shall retain the association's written approval of membership classes, dues amounts, discounts, proration rules, effective dates, and representative invoice tests. A mid-cycle correction may be deployed immediately if the association confirms the correction in writing and updated tests are completed within two Business Days. Any other activation without approval and testing is an operating failure remediable for 30 calendar days after lender notice; remediation must include corrected member records, customer communication, and documented prevention steps before an Event of Default occurs.",
+        "evidence": "Association approval, dues configuration, representative invoice tests, activation log, and correction record if applicable.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Association payment-fund report",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package a payment-fund report separating membership dues and event receipts held for remittance to associations from the Borrower's earned fees and operating cash. The report must reconcile processor balances, bank balances, pending refunds, chargebacks, and remittances outstanding more than five Business Days, and must exclude association-owned funds from Eligible Cash. Each unexplained reconciling item above $0.1 million must be described. Failure to deliver the complete report is remediable for 10 Business Days after lender notice before an Event of Default occurs; the report creates no independent remittance deadline.",
+        "evidence": "Quarterly processor and bank reconciliation, ownership ledger, refund and chargeback report, remittance aging, and exception narrative.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A2",
+          "A3"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Member-directory data restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may sell or grant an exclusive license in an association's identifiable member directory, credential status, event attendance, or dues history. Ordinary processing for the association and access by contracted email, event, or payment providers are permitted if the association agreement authorizes the use, the provider receives no independent ownership right, and data must be returned or deleted at termination. Aggregate analytics may be used only when no association or member is identifiable. Any prohibited sale or exclusive license constitutes an Event of Default immediately upon execution, without a remediation period; an unsigned marketing proposal is not execution.",
+        "evidence": "Executed data agreement, association authorization, provider terms, deletion requirement, and aggregation specification.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A1",
+          "A4"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Accurate dues configuration and controlled member-data use support durable association renewals.",
+        "evidence": "The approved memorandum's retention paragraph cites renewal records, dues-cycle approvals, and standard data terms.",
+        "review_trigger": "An unauthorized dues activation, material invoicing error, or proposed sale of identifiable member data.",
+        "covenant_links": [
+          "S1",
+          "S3",
+          "C08"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Association-owned receipts remain identifiable and separate from earned operating cash.",
+        "evidence": "The approved memorandum's payment-flow paragraph cites processor reconciliations and the ownership ledger.",
+        "review_trigger": "An unexplained reconciliation item, delayed remittance, or association-owned amount included in Eligible Cash.",
+        "covenant_links": [
+          "S1",
+          "S2"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A3",
+        "statement": "Cash generation after ordinary reinvestment covers cash interest and scheduled principal with appropriate headroom.",
+        "evidence": "The approved memorandum's coverage paragraph shows the defined numerator and denominator using the approved base case.",
+        "review_trigger": "TTM cash coverage approaches 1.25x or working-capital use materially exceeds plan.",
+        "covenant_links": [
+          "C09",
+          "C02",
+          "S2"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Moderate leverage and recurring subscription revenue protect repayment through normal renewal variability.",
+        "evidence": "The approved memorandum's capitalization paragraph reconciles opening net debt, EBITDA, and renewal-based revenue.",
+        "review_trigger": "Quarterly leverage exceeds the opening level or renewal evidence weakens for a material association.",
+        "covenant_links": [
+          "C01",
+          "C08",
+          "S3"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "Professional Guild Dues-Cycle Control Review",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "On June 15, 2027 MemberSpring activated the Professional Guild renewal cycle, representing 7% of 2026 revenue, before obtaining written approval of a newly configured student-member discount; representative invoice tests used the unapproved discount."
+        },
+        {
+          "id": "P2",
+          "text": "The Guild confirmed on June 16 that the discount amount was commercially acceptable and no invoices had yet been sent to members, but retrospective written approval and corrected control documentation were still pending at review."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A1"
+      ],
+      "evaluated_clause_ids": [
+        "S1"
+      ],
+      "expected_applicability": "S1 applies because the association exceeds 5% of prior-year revenue and its annual dues cycle was activated.",
+      "expected_evidence_sufficiency": "Sufficient to show activation without prior written approval; later commercial acceptance does not establish the required preactivation control.",
+      "expected_contract_result": "S1 has a remediable operating failure, although the absence of sent invoices mitigates harm and no Event of Default exists absent lender notice and uncured expiration.",
+      "expected_resolution": "A; the failure is remediable for 30 calendar days after lender notice.",
+      "expected_thesis_assessment": "A1 is weakened by the control lapse, but the unsent invoices and customer acceptance mitigate immediate customer and cash impact.",
+      "expected_credit_implication": "Mixed: adverse control evidence with limited realized harm and a clear path to documented remediation.",
+      "rationale": "The clause requires written approval before activation, so oral or contextual acceptance one day later does not retroactively satisfy it. The second passage is still relevant to severity. The event distinguishes contract breach, remediation status, and economic impact."
+    }
+  },
+  {
+    "id": "B29",
+    "name": "SignalQuarry Data Licensing, Inc.",
+    "sector": "commercial data licensing and analytics",
+    "description": "SignalQuarry licenses proprietary commercial-location and transaction-derived datasets and sells analytical subscriptions to consumer and financial-services companies. Source-license continuity, permitted-use restrictions, and dataset refresh quality drive renewal value and create distinctive rights-management risk.",
+    "sponsor": "North Coast Growth Holdings",
+    "lender": "Prairie Rock Direct Credit LLC",
+    "subsidiaries": [
+      "SignalQuarry Analytics LLC",
+      "Dataset Forge, Inc."
+    ],
+    "revenue_m": 180,
+    "ebitda_m": 50,
+    "adjustment_m": 1.5,
+    "ebitda_cap_pct": 5,
+    "da_m": 7,
+    "debt_m": 205,
+    "cash_m": 16,
+    "restricted_cash_m": 2,
+    "cash_netting_cap_m": 14,
+    "annual_rate_pct": 10,
+    "amortization_pct": 1,
+    "term_years": 6,
+    "capex_m": 8,
+    "working_capital_investment_m": 2.5,
+    "max_leverage": 4.85,
+    "optional_type": "interest",
+    "optional_threshold": 2.4,
+    "liquidity_trigger_m": null,
+    "lease_basket_m": 2.5,
+    "dividend_basket_m": 2,
+    "dividend_max_leverage": 4.2,
+    "transaction_cash_floor_m": 10,
+    "acquisition_basket_m": 8,
+    "acquisition_max_leverage": 4.5,
+    "asset_sale_basket_m": 0.8,
+    "report_days": 45,
+    "customer_notice_threshold_pct": 10,
+    "base_revenue_growth_pct": 10,
+    "base_ebitda_growth_pct": 12,
+    "moderate_ebitda_drop_pct": 17,
+    "severe_ebitda_drop_pct": 37,
+    "receivable_days": 56,
+    "annual_revenue_recurring_pct": 74,
+    "model_note": "Historical assets are dominated by acquired dataset rights, customer intangibles, and capitalized analytics development, with enterprise annual invoicing producing moderate receivables.",
+    "credit_rationale": "Opening net debt is $191 million after capped cash netting, producing 3.71x leverage on $51.5 million of Covenant EBITDA. The 4.85x limit provides about 24% decline capacity. A 2.40x interest-coverage floor sits below opening coverage of approximately 2.51x, giving limited but real warning before fixed interest absorbs the earnings cushion. The $10 million transaction floor protects continuing source-license payments and data processing. The critical vulnerability is rights continuity: loss or narrowing of a key source license can degrade dataset breadth before customer renewals reveal the full effect. The $1.5 million adjustment is a documented one-time cash expense for consolidating two data ingestion operations and remains within the cap.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Material source-rights register",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package a register of every third-party source license contributing data to a product that generated at least 10% of prior-year revenue. The register must state the licensor, covered fields, permitted products and customers, expiration date, renewal status, exclusivity, usage restrictions, and any written dispute or audit notice. Commercial pricing may be redacted if the unredacted agreement is available to the Lender on request. Failure to deliver a complete register is remediable for 10 Business Days after lender notice before an Event of Default occurs; no renewal outcome is guaranteed by this reporting duty.",
+        "evidence": "Quarterly source-rights register, executed source licenses, renewal correspondence, dispute notices, and lender-access record.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Dataset permitted-use controls",
+        "clause": "The Borrower shall maintain automated or documented controls that map each material source dataset to its permitted customer classes, products, geography, retention period, and derivative-use rights. Before launching a new analytical product using a material source, legal or rights-management personnel must approve the mapping and retain the source-license basis. If a material source is used outside documented rights, the Borrower must suspend the affected use, preserve records, notify the licensor when contractually required, and implement correction. Such unauthorized use is an operating failure remediable for 30 calendar days after lender notice before an Event of Default occurs.",
+        "evidence": "Rights matrix, product data lineage, legal approval, source license, access logs, and corrective-action record.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A1",
+          "A4"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Core dataset ownership restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may sell, assign, or grant an exclusive license in a Borrower-owned core compiled dataset or its production schema outside the loan-party group. Ordinary nonexclusive customer licenses and nonexclusive distribution arrangements are permitted if a loan party retains ownership, direct access, and the right to continue licensing the dataset. Third-party source data remains governed by its source license and is not represented as Borrower-owned. Any prohibited sale, assignment, or exclusive license constitutes an Event of Default immediately upon execution, without a remediation period. An unsigned term sheet or a nonbinding product evaluation does not constitute execution.",
+        "evidence": "Executed sale, assignment, license, or distribution agreement; dataset ownership schedule; and source-rights register.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A2",
+          "A3"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Material third-party source rights remain available and are used within their contractual scope.",
+        "evidence": "The approved memorandum's data-supply paragraph cites executed source licenses, renewal dates, and the rights matrix.",
+        "review_trigger": "A nonrenewal, material narrowing, audit dispute, or identified use outside licensed rights.",
+        "covenant_links": [
+          "S1",
+          "S2",
+          "C08"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Dataset breadth and continuity support enterprise subscription renewals.",
+        "evidence": "The approved memorandum's revenue-quality paragraph cites product-source mapping and customer renewal analyses.",
+        "review_trigger": "Loss of a material data source, decline in refresh coverage, or transfer of a core dataset.",
+        "covenant_links": [
+          "S1",
+          "S3"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A3",
+        "statement": "Recurring license receipts support fixed interest and limited amortization despite elevated opening leverage.",
+        "evidence": "The approved memorandum's debt-service paragraph reconciles contracted receipts, interest, and scheduled principal.",
+        "review_trigger": "TTM interest coverage approaches 2.40x or a major customer provides termination or nonrenewal notice.",
+        "covenant_links": [
+          "C09",
+          "C08",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Earnings can absorb ordinary source-cost and processing variability within the leverage cushion.",
+        "evidence": "The approved memorandum's downside paragraph cites opening net leverage and the constant-debt EBITDA boundary.",
+        "review_trigger": "Leverage exceeds the opening level or unauthorized use creates a material remediation burden.",
+        "covenant_links": [
+          "C01",
+          "S2"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "UrbanMesh Source-License Renewal Notice",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "UrbanMesh Data executed a renewal on June 15, 2027 extending SignalQuarry's material location-feed license for three years, but excluding historical device-level records from any new customer delivery after July 1."
+        },
+        {
+          "id": "P2",
+          "text": "Management stated that current products use aggregated visit series rather than device-level records and supplied a rights map showing no active customer product mapped to the newly excluded field as of June 15."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A1",
+        "A2"
+      ],
+      "evaluated_clause_ids": [
+        "S1",
+        "S2"
+      ],
+      "expected_applicability": "S1 requires the executed renewal and changed restriction to appear in the source-rights register; S2 governs the mapped permitted uses.",
+      "expected_evidence_sufficiency": "Sufficient to show the renewed term, narrowed right, and absence of an active mapped use of the excluded field as of the event date.",
+      "expected_contract_result": "No S2 operating breach is shown because no prohibited use is evidenced; S1 requires the changed terms in the next quarterly register but its delivery deadline has not yet failed.",
+      "expected_resolution": "No current resolution is required; S1's R mechanism would apply only if the next register omitted the change and remained uncured after notice.",
+      "expected_thesis_assessment": "A1 is modified but not contradicted because the source remains licensed and the narrowed field is unused; A2 remains supported subject to monitoring future product plans.",
+      "expected_credit_implication": "Mixed but presently limited: source continuity is secured, while the narrower license reduces future product flexibility.",
+      "rationale": "The executed renewal is economically meaningful but contract-compliant on the supplied facts. The rights map directly rebuts an inference of current unauthorized use. The evaluator should preserve the forward strategic concern without manufacturing an S2 breach or present reporting failure."
+    }
+  },
+  {
+    "id": "B30",
+    "name": "ClearVoice Contact Services LLC",
+    "sector": "technology-enabled contact-center outsourcing",
+    "description": "ClearVoice operates U.S. customer-support centers using proprietary workforce, quality-monitoring, and client-integration software under multiyear service agreements. Service-level credits, rapid staffing changes, and client-authorized access to customer systems create its distinctive margin and control risks.",
+    "sponsor": "Alder Peak Services Equity",
+    "lender": "Beacon Hollow Private Credit LLC",
+    "subsidiaries": [
+      "ClearVoice Operations East, Inc.",
+      "ClearVoice Workforce Technology LLC"
+    ],
+    "revenue_m": 160,
+    "ebitda_m": 24,
+    "adjustment_m": 1.2,
+    "ebitda_cap_pct": 5,
+    "da_m": 5,
+    "debt_m": 72,
+    "cash_m": 18,
+    "restricted_cash_m": 2,
+    "cash_netting_cap_m": 12,
+    "annual_rate_pct": 9.75,
+    "amortization_pct": 5,
+    "term_years": 4,
+    "capex_m": 5,
+    "working_capital_investment_m": 4,
+    "max_leverage": 3.05,
+    "optional_type": "liquidity",
+    "optional_threshold": 9,
+    "liquidity_trigger_m": 14,
+    "lease_basket_m": 3.5,
+    "dividend_basket_m": 0.8,
+    "dividend_max_leverage": 2.65,
+    "transaction_cash_floor_m": 11,
+    "acquisition_basket_m": 3,
+    "acquisition_max_leverage": 2.8,
+    "asset_sale_basket_m": 0.6,
+    "report_days": 30,
+    "customer_notice_threshold_pct": 10,
+    "base_revenue_growth_pct": 4,
+    "base_ebitda_growth_pct": 5,
+    "moderate_ebitda_drop_pct": 12,
+    "severe_ebitda_drop_pct": 33,
+    "receivable_days": 62,
+    "annual_revenue_recurring_pct": null,
+    "model_note": "Historical assets include contact-center equipment, leasehold improvements, and acquired customer intangibles, while payroll paid ahead of enterprise collections drives working-capital intensity.",
+    "credit_rationale": "Opening net debt for covenant purposes is $60 million, or 2.38x Covenant EBITDA, and the 3.05x limit permits about a 22% EBITDA decline. A $9 million liquidity minimum and $14 million forecast trigger are central because biweekly payroll precedes enterprise collections and the business carries a meaningful annual working-capital use. Five percent amortization and tight transaction baskets encourage rapid deleveraging, while an $11 million transaction floor protects payroll continuity. The core vulnerability is a simultaneous service-level failure and staffing mismatch at a concentrated client, which can create credits and underutilized labor before invoiced revenue adjusts. The $1.2 million adjustment is a documented one-time cash cost from closing a contact-center site.",
+    "specialized_covenants": [
+      {
+        "id": "S1",
+        "title": "Client service-level credit report",
+        "clause": "Beginning with the quarter ending March 31, 2027, the Borrower shall deliver with each quarterly package a service-level report for every client representing at least 10% of prior-year revenue. The report must show each contractual response-time, resolution, abandonment, quality, and staffing measure; actual results; credits asserted or accrued; disputed items; and corrective actions. Results may be labeled unavailable only where the client controls the source system and the Borrower identifies its retrieval efforts. Failure to deliver a complete report is remediable for 10 Business Days after lender notice before an Event of Default occurs; the clause does not create a new service-level threshold.",
+        "evidence": "Quarterly client service-level scorecards, credit ledger, dispute correspondence, source-system request, and corrective-action plan.",
+        "resolution": "R",
+        "thesis_ids": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "id": "S2",
+        "title": "Privileged client-system access control",
+        "clause": "The Borrower shall provision privileged access to a client's production system only to personnel identified by role, approved under the client's access process, trained for the engagement, and protected by multifactor authentication where the client system supports it. Access must be revoked within one Business Day after the person's assignment ends. Shared privileged credentials are prohibited unless the client expressly requires them and provides a documented compensating control. A material failure to approve, protect, or timely revoke privileged access is an operating failure remediable for 30 calendar days after lender notice before an Event of Default occurs.",
+        "evidence": "Client access approval, user-role roster, training record, authentication setting, assignment-end record, and revocation timestamp.",
+        "resolution": "A",
+        "thesis_ids": [
+          "A2",
+          "A4"
+        ]
+      },
+      {
+        "id": "S3",
+        "title": "Material client-contract transfer restriction",
+        "clause": "Neither the Borrower nor a Subsidiary may assign, novate, or transfer a service agreement with a client that generated at least 10% of prior-year revenue to any entity outside the loan-party group. Assignment to another loan party is permitted if the client consents where required and service-level obligations, billing rights, and related collateral remain enforceable without interruption. Ordinary use of disclosed staffing subcontractors does not constitute assignment if the loan party remains fully liable. Any prohibited assignment, novation, or transfer constitutes an Event of Default immediately upon execution, without a remediation period. A nonbinding proposal or client request to discuss restructuring is not execution.",
+        "evidence": "Executed assignment or novation, client consent, obligor schedule, guaranty status, and collateral record.",
+        "resolution": "X",
+        "thesis_ids": [
+          "A1",
+          "A3"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "A1",
+        "statement": "Material client relationships retain acceptable service levels and remain contracted with loan parties.",
+        "evidence": "The approved memorandum's customer paragraph cites executed service agreements, 2026 scorecards, and the obligor schedule.",
+        "review_trigger": "Material service-level credits, termination or nonrenewal notice, or transfer of a major client agreement.",
+        "covenant_links": [
+          "C08",
+          "S1",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A2",
+        "statement": "Workforce execution and client-system access controls prevent sustained service disruption.",
+        "evidence": "The approved memorandum's operations paragraph cites staffing rosters, access approvals, and quality-monitoring records.",
+        "review_trigger": "Repeated service-level misses or a material privileged-access control failure.",
+        "covenant_links": [
+          "S1",
+          "S2"
+        ],
+        "protection": "reporting"
+      },
+      {
+        "id": "A3",
+        "statement": "Eligible cash is sufficient to bridge payroll and enterprise collection timing without restricted funds.",
+        "evidence": "The approved memorandum's liquidity paragraph cites the opening cash ledger, payroll calendar, and collection schedule.",
+        "review_trigger": "Month-end Eligible Cash reaches the forecast trigger or collections extend materially beyond the approved case.",
+        "covenant_links": [
+          "C09",
+          "S3"
+        ],
+        "protection": "direct"
+      },
+      {
+        "id": "A4",
+        "statement": "Low opening leverage and scheduled amortization support repayment despite labor-cost volatility.",
+        "evidence": "The approved memorandum's capitalization paragraph reconciles net debt, Covenant EBITDA, interest, amortization, and working-capital use.",
+        "review_trigger": "Leverage exceeds the opening level, liquidity approaches the floor, or staffing costs remain unmatched to contracted volume.",
+        "covenant_links": [
+          "C01",
+          "C09",
+          "S2"
+        ],
+        "protection": "analyst_judgment"
+      }
+    ],
+    "event": {
+      "event_date": "2027-06-15",
+      "available_at": "2027-06-16",
+      "review_date": "2027-06-18",
+      "document_title": "OmniHome Privileged-Access Review",
+      "source_passages": [
+        {
+          "id": "P1",
+          "text": "A June 15, 2027 access review found that a former OmniHome team supervisor retained privileged production credentials for four Business Days after reassignment; system logs show two successful logins during that period."
+        },
+        {
+          "id": "P2",
+          "text": "Management disabled the account on June 15 and stated that both logins were used to assist the replacement supervisor, but no current client approval for that access or written assignment extension was supplied by review."
+        }
+      ],
+      "affected_assumption_ids": [
+        "A2",
+        "A4"
+      ],
+      "evaluated_clause_ids": [
+        "S2"
+      ],
+      "expected_applicability": "S2 applies because the user held privileged access and the assignment had ended.",
+      "expected_evidence_sufficiency": "Sufficient to establish late revocation and actual access; insufficient to establish client-approved continuation because no such record was supplied.",
+      "expected_contract_result": "S2 has a remediable operating failure because access remained active beyond one Business Day after reassignment.",
+      "expected_resolution": "A; revocation occurred, but the contractual Event-of-Default analysis still depends on lender notice, the 30-calendar-day period, and completion of any required control remediation.",
+      "expected_thesis_assessment": "A2 is weakened by a demonstrated access-governance lapse; A4 is not directly contradicted, though repeated control failures could create staffing and client costs.",
+      "expected_credit_implication": "Adverse operational-control signal with currently limited evidence of client or financial harm.",
+      "rationale": "The reassignment and revocation timestamps establish the objective failure. Management's purpose explanation does not substitute for a current access approval or assignment extension. The case preserves the distinction between a remediable breach, completed account disablement, and the separate notice-based default mechanism."
+    }
+  }
+]

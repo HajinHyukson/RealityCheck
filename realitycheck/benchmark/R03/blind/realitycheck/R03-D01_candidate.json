@@ -1,0 +1,131 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2018-03-13",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:17:21.509768+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01"
+  ],
+  "assessments_supplied": true,
+  "summary": "Based on evidence through March 13, 2018, the borrower’s performance, acquisition completion, and financial outlook align with existing assumptions; no new risks emerge that would justify tightening, loosening, or adding covenants. The current package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows EBITDA trending upward and acquisition performed as expected, no indication leverage ratio will breach the scheduled minimum; retain."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Evidence shows timely delivery of FY 2017 financial statements within 90‑day window and ongoing preparation of VIP pro forma statements; retain."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Evidence shows quarterly results disclosed promptly; no delay in quarterly reporting; retain."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Evidence shows monthly reporting practice unchanged; no evidence of missed monthly deadlines; retain."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Evidence shows no material adverse effect disclosed; notices provisions remain adequate; retain."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Evidence shows indebtedness consistent with permitted baskets; no new prohibited borrowing indicated; retain."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "No evidence of changed risk coverage, monitoring needs, or permitted behavior; all assumptions remain supported by the supplied evidence.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Based on evidence through March 13, 2018, the borrower’s performance, acquisition completion, and financial outlook align with existing assumptions; no new risks emerge that would justify tightening, loosening, or adding covenants. The current package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows EBITDA trending upward and acquisition performed as expected, no indication leverage ratio will breach the scheduled minimum; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows timely delivery of FY 2017 financial statements within 90‑day window and ongoing preparation of VIP pro forma statements; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows quarterly results disclosed promptly; no delay in quarterly reporting; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows monthly reporting practice unchanged; no evidence of missed monthly deadlines; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows no material adverse effect disclosed; notices provisions remain adequate; retain.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows indebtedness consistent with permitted baskets; no new prohibited borrowing indicated; retain.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "No evidence of changed risk coverage, monitoring needs, or permitted behavior; all assumptions remain supported by the supplied evidence."
+  },
+  "elapsed_seconds": 52.9
+}

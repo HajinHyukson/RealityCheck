@@ -1,0 +1,226 @@
+{
+  "borrower_id": "R01",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T00:25:55.129856+00:00",
+  "profile": {
+    "borrower_id": "R01",
+    "version": "1.0",
+    "as_of": "2023-07-25",
+    "summary": "The reconstruction assumes the borrower will maintain sufficient core assets, receive break‑fee payments, generate adequate operating cash flow, refrain from extra indebtedness, meet reporting obligations, and avoid events of default—conditions that underpin the credit agreement’s financial covenants, break‑fee sweeps, and reporting protections.",
+    "assumptions": [
+      {
+        "id": "R01-A03",
+        "title": "Adequate Operating Cash Flow",
+        "claim": "The Company will generate sufficient operating cash flow to meet working capital needs and service debt for at least 12 months.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0366",
+            "quote": "Management has considered and assessed its ability to continue as a going concern for the one year from the date that the unaudited consolidated financial statements are issued.",
+            "verified": true
+          },
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0369",
+            "quote": "While management estimates such actions will be sufficient to allow it to maintain liquidity and its operations in the ordinary course for at least 12 months from the issuance of these financial statements",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "source_hashes": {
+    "IRBT-8K-ORIGINATION": "ab78d9f1bea82558f69b2525f41fbd80f7e3b31f67cdd4e3df2fd2407a730d0c",
+    "IRBT-10Q-2023Q1": "8efd404383ebb636f3080df707be1691433d4841b3b12b69c4a563cef3308392",
+    "IRBT-CA-ORIGINAL": "5d38c2c88b38e0613f2f65481eee348139efce441bbf2c5d55b111757adfab3e"
+  },
+  "raw_response": {
+    "summary": "The reconstruction assumes the borrower will maintain sufficient core assets, receive break‑fee payments, generate adequate operating cash flow, refrain from extra indebtedness, meet reporting obligations, and avoid events of default—conditions that underpin the credit agreement’s financial covenants, break‑fee sweeps, and reporting protections.",
+    "assumptions": [
+      {
+        "id": "R01-A01",
+        "title": "Core Assets Covenant Compliance",
+        "claim": "Consolidated Core Assets will remain at or above the Minimum Core Assets Test threshold (initially $250 M) to avoid covenant breach.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01",
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 7.07",
+            "quote": "Permit the Consolidated Core Assets of the Borrower and its Subsidiaries, tested on the last day of each fiscal month ... to be less than $250,000,000"
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.02(a)",
+            "quote": "a Compliance Certificate signed by the Chief Financial Officer ... showing in reasonable detail the calculation of the Consolidated Core Assets and a certification of Borrower’s compliance or failure to comply with the Minimum Core Assets Test."
+          }
+        ]
+      },
+      {
+        "id": "R01-A02",
+        "title": "Break‑Fee Receipt Trigger",
+        "claim": "At least $24 M of the Amazon Break Fee (or termination fee) will be received, allowing a reduction of the Minimum Core Assets Test amount per Schedule 7.07.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C04",
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 2.05(b)(iv)",
+            "quote": "(A) $35,000,000 (or such lesser total amount of the Amazon Break Fee paid to, and received by, the Borrower or any of its Subsidiaries in cash as of such time) to prepay outstanding Term Loans"
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 7.07",
+            "quote": "provided, that the Minimum Core Assets Test amount shall be reduced to: ... following the receipt (or deemed receipt) of any prepayment, payment or repayment ... in an aggregate amount of at least $24,000,000"
+          }
+        ]
+      },
+      {
+        "id": "R01-A03",
+        "title": "Adequate Operating Cash Flow",
+        "claim": "The Company will generate sufficient operating cash flow to meet working capital needs and service debt for at least 12 months.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0366",
+            "quote": "Management has considered and assessed its ability to continue as a going concern for the one year from the date that the unaudited consolidated financial statements are issued."
+          },
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0369",
+            "quote": "While management estimates such actions will be sufficient to allow it to maintain liquidity and its operations in the ordinary course for at least 12 months from the issuance of these financial statements"
+          }
+        ]
+      },
+      {
+        "id": "R01-A04",
+        "title": "No Additional Indebtedness Beyond Limits",
+        "claim": "The Company will not incur additional indebtedness beyond the limits set by the negative covenants.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "customary negative covenants that limit the Company’s and its subsidiaries’ ability to, among other things, grant or incur liens, incur additional indebtedness, make certain restricted investments or payments..."
+          }
+        ]
+      },
+      {
+        "id": "R01-A05",
+        "title": "Timely Reporting and Certification",
+        "claim": "The Company will deliver required financial statements and compliance certificates on schedule as required by Sections 6.01 and 6.02(a).",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02",
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "Annual Financial Statements. On or before the date on which such financial statements are required to be filed with the SEC ... a consolidated balance sheet ... setting forth in each case, in unaudited comparative form the figures for the previous fiscal year..."
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.02(a)",
+            "quote": "a Compliance Certificate signed by the Chief Financial Officer or other Responsible Officer of the Borrower showing in reasonable detail the calculation of the Consolidated Core Assets and a certification of Borrower’s compliance or failure to comply with the Minimum Core Assets Test."
+          }
+        ]
+      },
+      {
+        "id": "R01-A06",
+        "title": "Avoidance of Events of Default",
+        "claim": "The Company will avoid events of default such as payment failure, covenant breach, bankruptcy, judgment, or change of control.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C05",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.03(a)",
+            "quote": "Promptly, after a Responsible Officer of the Borrower or any Guarantor has obtained knowledge thereof, notify the Administrative Agent: (a) of the occurrence of any Default or Event of Default"
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "The Credit Agreement also contains customary events of default (subject to certain exceptions, thresholds and grace periods), such as the failure to pay obligations when due, breach of certain covenants, including the financial covenant, cross-default or cross-acceleration of certain indebtedness, bankruptcy-related defaults, judgment defaults, and the occurrence of certain change of control events involving the Company."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R01-A03",
+        "target": "R01-A01",
+        "type": "influences",
+        "rationale": "Operating cash flow contributes to cash, receivables and inventory, which are components of Consolidated Core Assets; sufficient cash flow helps maintain the assets above the covenant threshold."
+      },
+      {
+        "source": "R01-A02",
+        "target": "R01-A01",
+        "type": "influences",
+        "rationale": "Receipt of at least $24 M of break‑fee reduces the Minimum Core Assets Test amount per Schedule 7.07, making it easier for the borrower to satisfy the core‑assets covenant."
+      },
+      {
+        "source": "R01-A04",
+        "target": "R01-A03",
+        "type": "influences",
+        "rationale": "Limiting additional indebtedness preserves cash flow and borrowing capacity, supporting the borrower’s ability to generate sufficient operating cash flow for liquidity."
+      },
+      {
+        "source": "R01-A05",
+        "target": "R01-A06",
+        "type": "influences",
+        "rationale": "Timely delivery of financial statements and compliance certificates enables early detection of covenant breaches, allowing cure before an event of default occurs."
+      },
+      {
+        "source": "R01-A06",
+        "target": "R01-A01",
+        "type": "influences",
+        "rationale": "An event of default would trigger acceleration of the Term Loan, impairing the borrower’s ability to maintain Consolidated Core Assets above the required level."
+      }
+    ]
+  },
+  "warnings": [
+    "Assumption 'R01-A01' withheld: invalid ID, clause, claim or source quote.",
+    "Assumption 'R01-A02' withheld: invalid ID, clause, claim or source quote.",
+    "Assumption 'R01-A04' withheld: invalid ID, clause, claim or source quote.",
+    "Assumption 'R01-A05' withheld: invalid ID, clause, claim or source quote.",
+    "Assumption 'R01-A06' withheld: invalid ID, clause, claim or source quote.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+    "Relationship withheld: unknown endpoints, invalid type or missing rationale."
+  ],
+  "error": null
+}

@@ -1,0 +1,155 @@
+{
+  "company": "iRobot Corporation",
+  "facility": "$200 million senior secured term loan, July 24, 2023; TCG Senior Funding L.L.C. (Carlyle) as administrative and collateral agent. Separate from any other iRobot financing.",
+  "cik": 1159167,
+  "review_period": {
+    "from": "2023-07-24",
+    "to": "2025-06-30",
+    "note": "Later filings, including the December 2025 Chapter 11 filing, are outside model inputs."
+  },
+  "documents": [
+    {
+      "id": "IRBT-10Q-2023Q1",
+      "type": "10-Q",
+      "title": "Quarterly report for the quarter ended April 1, 2023",
+      "role": "origination_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916723000036/irbt-20230401.htm"
+    },
+    {
+      "id": "IRBT-8K-ORIGINATION",
+      "type": "8-K",
+      "title": "Current report on entry into the credit agreement",
+      "role": "origination",
+      "event_date": "2023-07-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452d8k.htm"
+    },
+    {
+      "id": "IRBT-CA-ORIGINAL",
+      "type": "EX-10.1",
+      "title": "Credit Agreement dated July 24, 2023 (original executed version)",
+      "role": "original_agreement",
+      "event_date": "2023-07-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452dex101.htm"
+    },
+    {
+      "id": "IRBT-PR-2024-01-29",
+      "type": "EX-99.2",
+      "title": "Announcement on termination of the Amazon transaction and restructuring",
+      "role": "report",
+      "event_date": "2024-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312524017523/d741198dex992.htm"
+    },
+    {
+      "id": "IRBT-8K-AMENDMENT-1",
+      "type": "8-K",
+      "title": "Current report on Amendment No. 1",
+      "role": "observed_response",
+      "event_date": "2025-03-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525052480/d937654d8k.htm"
+    },
+    {
+      "id": "IRBT-CA-AMENDMENT-1",
+      "type": "EX-10.1",
+      "title": "Amendment No. 1 to Credit Agreement",
+      "role": "amendment",
+      "event_date": "2025-03-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525052480/d937654dex101.htm"
+    },
+    {
+      "id": "IRBT-8K-AMENDMENT-3",
+      "type": "8-K",
+      "title": "Current report on Amendment No. 3",
+      "role": "observed_response",
+      "event_date": "2025-06-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654d8k.htm"
+    },
+    {
+      "id": "IRBT-CA-AMENDMENT-3",
+      "type": "EX-10.1",
+      "title": "Amendment No. 3 to Credit Agreement",
+      "role": "amendment",
+      "event_date": "2025-06-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654dex101.htm"
+    },
+    {
+      "id": "IRBT-PR-2023-11-07",
+      "type": "EX-99.1",
+      "title": "Third-quarter 2023 financial results",
+      "role": "report",
+      "event_date": "2023-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916723000068/ex991q32023pressrelease.htm"
+    },
+    {
+      "id": "IRBT-PR-2024-02-26",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2023 financial results",
+      "role": "report",
+      "event_date": "2024-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000005/ex991q42023pressrelease.htm"
+    },
+    {
+      "id": "IRBT-PR-2024-05-07",
+      "type": "EX-99.1",
+      "title": "First-quarter 2024 financial results",
+      "role": "report",
+      "event_date": "2024-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000034/ex991q12024pressrelease.htm"
+    },
+    {
+      "id": "IRBT-PR-2024-08-06",
+      "type": "EX-99.1",
+      "title": "Second-quarter 2024 financial results",
+      "role": "report",
+      "event_date": "2024-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000059/ex991q22024pressrelease.htm"
+    },
+    {
+      "id": "IRBT-PR-2024-11-06",
+      "type": "EX-99.1",
+      "title": "Third-quarter 2024 financial results",
+      "role": "report",
+      "event_date": "2024-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000079/ex991q32024pressrelease.htm"
+    },
+    {
+      "id": "IRBT-PR-2025-01-13",
+      "type": "EX-99.1",
+      "title": "Preliminary fourth-quarter 2024 results",
+      "role": "report",
+      "event_date": "2025-01-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000002/ex991q424pre-announcement.htm"
+    },
+    {
+      "id": "IRBT-PR-2025-03-12",
+      "type": "EX-99.1",
+      "title": "Fourth-quarter and full-year 2024 financial results",
+      "role": "report",
+      "event_date": "2025-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000012/ex991q42024pressrelease.htm"
+    },
+    {
+      "id": "IRBT-PR-2025-05-06",
+      "type": "EX-99.1",
+      "title": "First-quarter 2025 financial results",
+      "role": "report",
+      "event_date": "2025-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/ex991q12025pressrelease.htm"
+    },
+    {
+      "id": "IRBT-8K-AMENDMENT-2",
+      "type": "8-K",
+      "title": "Current report on Amendment No. 2 and first-quarter 2025 results",
+      "role": "observed_response",
+      "event_date": "2025-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/irbt-20250430.htm"
+    },
+    {
+      "id": "IRBT-CA-AMENDMENT-2",
+      "type": "EX-10.1",
+      "title": "Amendment No. 2 to Credit Agreement",
+      "role": "amendment",
+      "event_date": "2025-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/ex101amendmentno2.htm"
+    }
+  ]
+}

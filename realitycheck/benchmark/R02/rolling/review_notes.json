@@ -1,0 +1,34 @@
+{
+  "profile": [
+    "Reviewer note: R02-A01 and R02-A02 restate the leverage and liquidity covenants rather than the business conditions behind them. They are kept as the model wrote them and should be read as 'earnings and cash will be sufficient for the limits', not as separate beliefs.",
+    "Reviewer note: R02-A07 describes the RideNow combination as something that 'will be completed'. It had already closed on August 31, 2021, before the origination evidence became public. The live part of the assumption is the expected earnings contribution.",
+    "Reviewer note: every assumption here is reconstructed from public filings. None is Oaktree's actual underwriting thesis, which is not public."
+  ],
+  "events": {
+    "R02-D01": [
+      "Reviewer scope correction: the model measures liquidity with the company's 'Total Available Liquidity', which includes availability under floorplan credit facilities. The agreement defines Liquidity as unrestricted cash and Cash Equivalents of the Borrower and Restricted Subsidiaries. A public release is not a covenant calculation, so the supported liquidity view is indicative only."
+    ],
+    "R02-D02": [
+      "Reviewer scope correction: the 'compliant' liquidity finding uses the company's 'Total Available Liquidity' ($97.4 million), which the release defines as unrestricted cash plus availability under floorplan credit facilities. The agreement defines Liquidity as unrestricted cash and Cash Equivalents only. The release gives 'Cash and Restricted Cash' of $61.8 million without separating the unrestricted portion, and no Compliance Certificate is public, so the finding is indicative rather than established.",
+      "Reviewer note on the weakened leverage assumption: it rests on the company's public Adjusted EBITDA, which is not contractual Consolidated EBITDA. It is a directional signal, not a leverage calculation. This report became public on May 10, 2023; the company disclosed June 30 leverage noncompliance and Amendment No. 5 on August 9, 2023. Nemotron may know RumbleOn's later history from pretraining, so this ordering shows the mechanism and is not proof of early warning."
+    ],
+    "R02-D03": [
+      "Reviewer scope correction: the company's Form 10-Q states it was not in compliance with certain leverage ratio covenants at June 30, 2023. Amendment No. 5, executed August 9, 2023 and made effective as of June 30, 2023, eliminated the June 30 and September 30, 2023 leverage tests, and the lenders agreed no event of default exists from them. The model assessed the original package because the amendment became public in the same filing. 'Noncompliant' describes the original terms; under the amended terms the test does not apply and no Event of Default is established.",
+      "Reviewer scope correction: 'compliant' on Section 6.01 is inferred from the public release date. The covenant requires delivery to the Administrative Agent; a public filing inside the 60-day period is supporting evidence, not proof of delivery. The liquidity finding again uses 'total available liquidity' rather than contractual Liquidity."
+    ],
+    "R02-D04": [
+      "Reviewer scope correction: the liquidity finding cites $73.6 million of company-defined 'Total Available Liquidity', which includes floorplan availability and is not contractual Liquidity. The $59.5 million the summary calls cash is 'Cash and Restricted Cash'; the unrestricted portion is not stated in this release. 'Compliant' on Section 6.01 is inferred from the public release date, not from evidence of delivery to the Administrative Agent."
+    ],
+    "R02-D05": [
+      "Reviewer correction of a model error: the model states that fourth-quarter statements were due February 29, 2024 and marks timely reporting (R02-A05) as weakened. Section 6.01(b) requires quarterly statements only for 'each of the first three (3) fiscal quarters'. The fourth quarter is covered by the annual requirement in Section 6.01(a), 120 days after year end. A March 14, 2024 release gives no basis for a late-reporting finding; the weakened status for R02-A05 is not supported. The original model wording is preserved.",
+      "Reviewer note: the weakened leverage assumption rests on public Adjusted EBITDA, not contractual Consolidated EBITDA. Under Amendment No. 5 the limit for the period ending December 31, 2023 was 5.50 to 1.00, not 4.25 to 1.00."
+    ],
+    "R02-D06": [
+      "Reviewer correction of a model error: the model marks the Compliance Certificate covenant (Section 6.02(a)) 'compliant' because results were released on May 8, 2024. Compliance Certificates are delivered privately and none is public; the supportable status is insufficient evidence. The liquidity finding uses the company's $212.7 million 'total available liquidity', which is not contractual Liquidity."
+    ],
+    "R02-D07": [
+      "Reviewer scope correction: the rationale cites a 4.25 to 1.00 limit. Under Amendment No. 5 the limits for the period ending June 30, 2024 were 4.75 to 1.00 (total net leverage) and 4.25 to 1.00 (senior secured net leverage). The company's Form 10-Q states it was not in compliance with certain leverage ratio covenants at that date. Amendment No. 8, executed August 6, 2024 and made effective as of June 30, 2024, revised the ratios and the lenders agreed no event of default arises. 'Noncompliant' describes the terms before Amendment No. 8; no Event of Default is established.",
+      "Reviewer note: four attributions and three covenant assessments were withheld because their quotations did not verify at the cited paragraph. The summary's statement that liquidity is not disclosed reflects this report's selected paragraphs only."
+    ]
+  }
+}

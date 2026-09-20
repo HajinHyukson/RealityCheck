@@ -1,0 +1,55 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2024-05-07",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Evidence shows inventory days rose to 161-163 vs ~95 prior, indicating misalignment and higher cash use.",
+      "change_type": "new_protection",
+      "change": "Add inventory alignment covenant requiring inventory days to align with business run rates to limit cash consumption.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A04"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "updated_summary": "Only a new inventory alignment covenant is justified; all existing clauses are retained as no evidence warrants changes.",
+  "updated_reasons": "Added inventory alignment covenant addresses weakened assumption R01-A04, altering risk coverage and monitoring needs.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

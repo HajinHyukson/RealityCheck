@@ -1,0 +1,122 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2025-03-12",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:28:43.326288+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06",
+    "R01-D07",
+    "R01-D08"
+  ],
+  "assessments_supplied": true,
+  "summary": "Evidence through the review date shows no new conditions that would require tightening, loosening, or adding protections; the existing covenant package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "The Minimum Core Assets Test already incorporates Amazon Break Fee mechanics; no evidence shows its thresholds or triggers need adjustment."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statement and going-concern provisions are unchanged; going‑concern doubt relates to the existing core‑assets test, not a new reporting need."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly deliverables and compliance certificates continue to be delivered as required; no evidence of failure or need for frequency change."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "The Amazon Break Fee sweep operates as written; the $75 M net proceeds received align with existing mandatory prepayment rules."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Default notice provisions remain adequate; no evidence of missed notices or emerging default triggers."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All evidence (including break‑fee receipts, financial results, and going‑concern discussion) maps to existing covenant mechanics; no new risk, reporting, or threshold changes are justified.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence through the review date shows no new conditions that would require tightening, loosening, or adding protections; the existing covenant package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The Minimum Core Assets Test already incorporates Amazon Break Fee mechanics; no evidence shows its thresholds or triggers need adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement and going-concern provisions are unchanged; going‑concern doubt relates to the existing core‑assets test, not a new reporting need.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly deliverables and compliance certificates continue to be delivered as required; no evidence of failure or need for frequency change.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "The Amazon Break Fee sweep operates as written; the $75 M net proceeds received align with existing mandatory prepayment rules.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Default notice provisions remain adequate; no evidence of missed notices or emerging default triggers.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All evidence (including break‑fee receipts, financial results, and going‑concern discussion) maps to existing covenant mechanics; no new risk, reporting, or threshold changes are justified."
+  },
+  "elapsed_seconds": 42.1
+}

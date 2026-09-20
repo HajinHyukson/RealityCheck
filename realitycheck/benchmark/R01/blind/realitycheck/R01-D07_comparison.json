@@ -1,0 +1,57 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2025-01-13",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04",
+    "R01-D05",
+    "R01-D06",
+    "R01-D07"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "material_drift",
+  "evidence_attributable_changes": [
+    {
+      "clause_id": "C01",
+      "action": "modify",
+      "rationale": "Evidence shows $8M write-off of excess component inventory in Q4 2024, indicating inventory management challenges that could overstate core assets and increase cash consumption.",
+      "change_type": "threshold",
+      "change": "Increase the Minimum Core Assets Test threshold to provide a buffer against potential inventory overstatement.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0014",
+          "quote": "Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A04"
+      ]
+    }
+  ],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C02",
+    "C03",
+    "C04",
+    "C05"
+  ],
+  "updated_summary": "At the review date, only the Minimum Core Assets Test (C01) requires tightening to buffer against inventory overstatement risk shown by an $8M write-off of excess component inventory in Q4 2024. All other clauses (C02‑C05) are retained as no new evidence justifies change. This constitutes a material drift.",
+  "updated_reasons": "The tightened threshold for C01 addresses inventory overstatement risk evidenced by a Q4 2024 $8M write-off, altering risk coverage and thus constituting material drift.",
+  "warnings": [],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

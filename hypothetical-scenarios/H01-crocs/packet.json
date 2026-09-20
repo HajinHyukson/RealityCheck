@@ -1,0 +1,9 @@
+{
+  "company": "Crocs, Inc.",
+  "facility": "None. This packet holds sourced business context only. The loan, covenants, financials and reports in this scenario are fictional.",
+  "cik": 1334036,
+  "review_period": {"note": "Business context from the FY2025 Form 10-K only. No financial statements are imported."},
+  "documents": [
+    {"id": "CROX-10K-FY2025", "type": "10-K", "title": "Crocs, Inc. annual report for fiscal 2025", "role": "business_context", "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm"}
+  ]
+}

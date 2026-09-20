@@ -1,0 +1,66 @@
+{
+  "warning": "Evaluator collection. Never supply this file to an inference run.",
+  "rules": {
+    "fixed_before_results": "2026-09-19, before any strict blind output was opened.",
+    "system_signal": {
+      "escalate": "candidate judgment is material_drift AND at least one change survives evidence validation AND that change is absent from the origination-only control",
+      "information_request": "candidate judgment is insufficient_evidence",
+      "no_action": "candidate judgment is no_material_drift, or a drift claim with no validated change (recorded as insufficient_evidence by the validator and counted as information_request)",
+      "assumption_flag": "framework workflow only: an assumption newly marked weakened or contradicted at this checkpoint. Reported beside the candidate signal, never merged into it."
+    },
+    "scoring_against_reference": {
+      "warranted": "detected if the signal is escalate or information_request; missed if no_action. Escalations and information requests are reported separately.",
+      "unwarranted": "unnecessary escalation if the signal is escalate. An information request is reported but not counted as an unnecessary escalation.",
+      "unresolved": "not scored. The signal is reported."
+    },
+    "response_matching": {
+      "window": "a candidate change corresponds to an observed response if it touches one of the response's clause families at any checkpoint whose cutoff is before the response's public date",
+      "direction": "reported separately from correspondence. Touching the same clause in the opposite direction is recorded as 'same clause, opposite direction', not as agreement.",
+      "lead_time": "days from the first corresponding checkpoint cutoff to the response's execution date and, separately, to its public date. Reported only for assessable responses; responses with no corresponding change are listed as not anticipated, never dropped.",
+      "repeat_alerts": "consecutive checkpoints signalling the same clause family count as one episode"
+    },
+    "evaluator_correction": "2026-09-19, after the first comparison: direction was being matched by substring against a free-text description, so a candidate that tightened C01 was reported as agreeing with a lender who loosened C01 but tightened C03. Direction is now compared per clause, and every corresponding clause is listed. This corrects the implementation of the rule fixed beforehand; the rule, the locked model outputs and the reference judgments are unchanged."
+  },
+  "responses": [
+    {
+      "id": "R02-AM05",
+      "clause_families": [
+        "C01",
+        "C02"
+      ],
+      "lender_direction": "loosen",
+      "lender_added": [
+        "$100 million equity raise",
+        "asset sales with proceeds to repay the loan",
+        "warrants",
+        "additional interest"
+      ],
+      "assessable": true,
+      "assessability_note": "Reports of March 16 and May 10, 2023 precede execution on August 9, 2023. The first public noncompliance statement appeared only with the response.",
+      "lender_direction_by_clause": {
+        "C01": "loosen",
+        "C02": "loosen"
+      }
+    },
+    {
+      "id": "R02-AM08",
+      "clause_families": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "lender_direction": "loosen C01 and C02; tighten C03 (minimum liquidity $25.0 million to $30.0 million)",
+      "lender_added": [
+        "compliance certificate on settlement of the convertible notes",
+        "one-time fee"
+      ],
+      "assessable": true,
+      "assessability_note": "Reports from November 2023 to May 2024 precede execution on August 6, 2024. Amendments No. 6 and 7 fall in this window and are not extracted, so correspondence here is partial.",
+      "lender_direction_by_clause": {
+        "C01": "loosen",
+        "C02": "loosen",
+        "C03": "tighten"
+      }
+    }
+  ]
+}

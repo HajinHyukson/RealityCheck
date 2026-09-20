@@ -1,0 +1,550 @@
+{
+  "control": {
+    "borrower_id": "H01",
+    "workflow": "realitycheck",
+    "blind": false,
+    "mode": "control",
+    "review_date": "2027-04-19",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T02:47:33.837474+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.3",
+    "report_ids": [],
+    "assessments_supplied": false,
+    "summary": "Review of available evidence shows no new developments that would require altering the existing covenant package; all clauses are retained as-is, indicating no material drift in lender protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C07",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C08",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      },
+      {
+        "clause_id": "C09",
+        "action": "retain",
+        "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All evidence predates or coincides with the origination of the covenant package; no new information indicates altered risk, reporting needs, or permitted behavior that would require a substantive change.",
+    "warnings": [],
+    "error": null,
+    "raw_response": {
+      "summary": "Review of available evidence shows no new developments that would require altering the existing covenant package; all clauses are retained as-is, indicating no material drift in lender protections.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C07",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C08",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C09",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package inception shows a change in risk or assumption that would justify tightening or loosening this covenant.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "no_material_drift",
+      "drift_reasons": "All evidence predates or coincides with the origination of the covenant package; no new information indicates altered risk, reporting needs, or permitted behavior that would require a substantive change."
+    }
+  },
+  "updated": {
+    "borrower_id": "H01",
+    "workflow": "realitycheck",
+    "blind": false,
+    "mode": "updated",
+    "review_date": "2027-04-19",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T02:47:51.894444+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.3",
+    "report_ids": [
+      "H01-D01",
+      "H01-D02",
+      "H01-D03",
+      "H01-D04",
+      "H01-D05"
+    ],
+    "assessments_supplied": true,
+    "summary": "Evidence shows cash breached the $35 m floor, supply‑chain routing loss increased disruption risk, cash forecasts fell below $45 m, and aged inventory rose to 14.2 %. These drive tightened cash and notice covenants and a new inventory‑aging limit, indicating material drift.",
+    "clauses": [
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence changes the net leverage assumption; freight cost impact remains insufficiently evidenced."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Monthly and quarterly reporting timeliness remains supported by assumption A6."
+      },
+      {
+        "clause_id": "C04",
+        "action": "add",
+        "rationale": "Aged inventory rose to 14.2 % of cost, exceeding the 10 % implicit limit in assumption A2 and contradicting assumption A8.",
+        "change_type": "new_protection",
+        "change": "Add a covenant limiting inventory older than 180 days to a specified percentage",
+        "evidence": [
+          {
+            "document_id": "H01-INV-2027-01",
+            "locator": "P2 — January inventory report",
+            "quote": "Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination, mostly winter product that arrived after its selling window.",
+            "verified": true
+          }
+        ],
+        "direction": "add_protection",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "H01-A02",
+          "H01-A08"
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "action": "modify",
+        "rationale": "A routing loss without alternative affected 15.2 % of purchase volume, weakening assumption A1 and showing the current 10 %/21‑day threshold may be too lax.",
+        "change_type": "threshold",
+        "change": "Lower the volume or delay threshold that triggers a supply‑disruption notice",
+        "evidence": [
+          {
+            "document_id": "H01-OPS-2027-01-15",
+            "locator": "P1 — rerouting",
+            "quote": "The remaining 40% of the affected volume, about 15.2% of purchase volume, still moves around the Cape with a 24-day delay. No further alternative capacity is available before April 2027.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "H01-A01"
+        ]
+      },
+      {
+        "clause_id": "C06",
+        "action": "modify",
+        "rationale": "Unrestricted cash fell below $45 m, triggering C06, but the cash floor assumption A5 is contradicted, indicating a higher trigger is warranted.",
+        "change_type": "threshold",
+        "change": "Raise the cash level that triggers the 13‑week forecast and remediation reporting",
+        "evidence": [
+          {
+            "document_id": "H01-FCST-2027-02-22",
+            "locator": "P3 — updated cash forecast",
+            "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "H01-A05"
+        ]
+      },
+      {
+        "clause_id": "C07",
+        "action": "retain",
+        "rationale": "Restricted payments and capex limits remain appropriate; no new evidence justifies tightening."
+      },
+      {
+        "clause_id": "C08",
+        "action": "retain",
+        "rationale": "Additional debt and lien restrictions are unchanged by the evidence."
+      },
+      {
+        "clause_id": "C09",
+        "action": "retain",
+        "rationale": "Amendment, waiver and default provisions remain adequate."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Cash floor breached, supply‑chain routing loss increased risk, cash forecasts fell below $45 m, and aged inventory exceeded historical levels, prompting tighter cash and notice covenants and a new inventory‑aging limit.",
+    "warnings": [
+      "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "Evidence shows cash breached the $35 m floor, supply‑chain routing loss increased disruption risk, cash forecasts fell below $45 m, and aged inventory rose to 14.2 %. These drive tightened cash and notice covenants and a new inventory‑aging limit, indicating material drift.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "modify",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Increase the minimum unrestricted cash threshold",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "H01-A02",
+            "H01-A05"
+          ],
+          "rationale": "Unrestricted cash fell to $33.6 m, below the $35 m floor, contradicting assumption A5 and showing the floor is too low.",
+          "evidence": [
+            {
+              "document_id": "H01-CASH-2027-03",
+              "locator": "P2 — month-end cash report",
+              "quote": "Bank balances totaled $39.8 million; $4.1 million is held in a deposit account pledged to secure customs bonds, and $2.1 million is held by Crocs Footwear Retail Asia Pte. Ltd., a fictional entity that is not a Loan Party."
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence changes the net leverage assumption; freight cost impact remains insufficiently evidenced."
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Monthly and quarterly reporting timeliness remains supported by assumption A6."
+        },
+        {
+          "clause_id": "C04",
+          "action": "add",
+          "change_type": "new_protection",
+          "direction": "add_protection",
+          "change": "Add a covenant limiting inventory older than 180 days to a specified percentage",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "H01-A02",
+            "H01-A08"
+          ],
+          "rationale": "Aged inventory rose to 14.2 % of cost, exceeding the 10 % implicit limit in assumption A2 and contradicting assumption A8.",
+          "evidence": [
+            {
+              "document_id": "H01-INV-2027-01",
+              "locator": "P2 — January inventory report",
+              "quote": "Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination, mostly winter product that arrived after its selling window."
+            }
+          ]
+        },
+        {
+          "clause_id": "C05",
+          "action": "modify",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Lower the volume or delay threshold that triggers a supply‑disruption notice",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "H01-A01"
+          ],
+          "rationale": "A routing loss without alternative affected 15.2 % of purchase volume, weakening assumption A1 and showing the current 10 %/21‑day threshold may be too lax.",
+          "evidence": [
+            {
+              "document_id": "H01-OPS-2027-01-15",
+              "locator": "P1 — rerouting",
+              "quote": "The remaining 40% of the affected volume, about 15.2% of purchase volume, still moves around the Cape with a 24-day delay. No further alternative capacity is available before April 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C06",
+          "action": "modify",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Raise the cash level that triggers the 13‑week forecast and remediation reporting",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "H01-A05"
+          ],
+          "rationale": "Unrestricted cash fell below $45 m, triggering C06, but the cash floor assumption A5 is contradicted, indicating a higher trigger is warranted.",
+          "evidence": [
+            {
+              "document_id": "H01-FCST-2027-02-22",
+              "locator": "P3 — updated cash forecast",
+              "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast."
+            }
+          ]
+        },
+        {
+          "clause_id": "C07",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Restricted payments and capex limits remain appropriate; no new evidence justifies tightening."
+        },
+        {
+          "clause_id": "C08",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Additional debt and lien restrictions are unchanged by the evidence."
+        },
+        {
+          "clause_id": "C09",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Amendment, waiver and default provisions remain adequate."
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Cash floor breached, supply‑chain routing loss increased risk, cash forecasts fell below $45 m, and aged inventory exceeded historical levels, prompting tighter cash and notice covenants and a new inventory‑aging limit."
+    }
+  },
+  "comparison": {
+    "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+    "review_date": "2027-04-19",
+    "package_version": "1.2",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "prompt_version": "0.3",
+    "report_ids": [
+      "H01-D01",
+      "H01-D02",
+      "H01-D03",
+      "H01-D04",
+      "H01-D05"
+    ],
+    "assessments_supplied": true,
+    "control_judgment": "no_material_drift",
+    "updated_judgment": "material_drift",
+    "evidence_attributable_changes": [
+      {
+        "clause_id": "C04",
+        "action": "add",
+        "rationale": "Aged inventory rose to 14.2 % of cost, exceeding the 10 % implicit limit in assumption A2 and contradicting assumption A8.",
+        "change_type": "new_protection",
+        "change": "Add a covenant limiting inventory older than 180 days to a specified percentage",
+        "evidence": [
+          {
+            "document_id": "H01-INV-2027-01",
+            "locator": "P2 — January inventory report",
+            "quote": "Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination, mostly winter product that arrived after its selling window.",
+            "verified": true
+          }
+        ],
+        "direction": "add_protection",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "H01-A02",
+          "H01-A08"
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "action": "modify",
+        "rationale": "A routing loss without alternative affected 15.2 % of purchase volume, weakening assumption A1 and showing the current 10 %/21‑day threshold may be too lax.",
+        "change_type": "threshold",
+        "change": "Lower the volume or delay threshold that triggers a supply‑disruption notice",
+        "evidence": [
+          {
+            "document_id": "H01-OPS-2027-01-15",
+            "locator": "P1 — rerouting",
+            "quote": "The remaining 40% of the affected volume, about 15.2% of purchase volume, still moves around the Cape with a 24-day delay. No further alternative capacity is available before April 2027.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "H01-A01"
+        ]
+      },
+      {
+        "clause_id": "C06",
+        "action": "modify",
+        "rationale": "Unrestricted cash fell below $45 m, triggering C06, but the cash floor assumption A5 is contradicted, indicating a higher trigger is warranted.",
+        "change_type": "threshold",
+        "change": "Raise the cash level that triggers the 13‑week forecast and remediation reporting",
+        "evidence": [
+          {
+            "document_id": "H01-FCST-2027-02-22",
+            "locator": "P3 — updated cash forecast",
+            "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "H01-A05"
+        ]
+      }
+    ],
+    "changes_also_in_control": [],
+    "control_only_changes": [],
+    "retained": [
+      "C02",
+      "C03",
+      "C07",
+      "C08",
+      "C09"
+    ],
+    "updated_summary": "Evidence shows cash breached the $35 m floor, supply‑chain routing loss increased disruption risk, cash forecasts fell below $45 m, and aged inventory rose to 14.2 %. These drive tightened cash and notice covenants and a new inventory‑aging limit, indicating material drift.",
+    "updated_reasons": "Cash floor breached, supply‑chain routing loss increased risk, cash forecasts fell below $45 m, and aged inventory exceeded historical levels, prompting tighter cash and notice covenants and a new inventory‑aging limit.",
+    "warnings": [
+      "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type."
+    ],
+    "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured.",
+    "observed_response": {
+      "version": "1.3",
+      "title": "Time-limited cash-floor relief with weekly collections reporting",
+      "publicly_available_at": null,
+      "clauses_changed_by_lender": [
+        "C01",
+        "C03"
+      ],
+      "overlap_with_attributable": [],
+      "note": "The draft proposal is an authored scenario fixture for this fictional company, shown for comparison. It was not available to either candidate run. Overlap means the same clauses were touched; it says nothing about direction or merit.",
+      "kind": "authored_draft_proposal"
+    },
+    "review_notes": [
+      "Reviewer note on C04: the 10% figure the model cites is the memo's review criterion for assumption A2, not a contractual limit, and A08 is the model's own inferred assumption. Version 1.2 already added aged-inventory reporting; the candidate goes further and adds a limit, with no level proposed. The evidence quoted is genuine and the clause is a reasonable place for the change. The original model wording is preserved.",
+      "Reviewer note on C05: weakly supported. The disruption already met the current notice threshold (38% of volume, 24 days) and the notice was given on time, so the evidence does not show the threshold is too lax. The remaining 15.2% of delayed volume is a supply concern, not a notice failure.",
+      "Reviewer note on C06: the $45.0 million trigger worked as written; the forecast it requires was delivered on February 22, 2027. A higher trigger would give earlier visibility, which fits the scenario lender policy, but no level is proposed and the quoted forecast does not by itself show the trigger was too low.",
+      "Reviewer note on C01: the model also proposed raising the cash floor, giving the $33.6 million month-end as the reason. That change was withheld because its quotation paraphrased the cash report instead of quoting it; nothing was substituted. Its direction (tighten) is the opposite of the authored v1.3 draft, which offers time-limited relief with compensating reporting. A month-end below a floor does not show the floor is too low. The same tighten-versus-relief pattern appeared in the historical benchmark.",
+      "What this run does show: with origination evidence alone the model keeps all nine clauses; with the five reports it changes three reporting and notice clauses tied to the supply, inventory and cash assumptions and retains five. None of the three validated changes overlaps the clauses in the authored draft (C01, C03). One run of each; stability is not measured."
+    ]
+  }
+}

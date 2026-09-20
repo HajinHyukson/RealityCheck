@@ -1,0 +1,596 @@
+{
+  "control": {
+    "borrower_id": "B01",
+    "workflow": "realitycheck",
+    "blind": false,
+    "mode": "control",
+    "review_date": "2027-09-10",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:27:28.785590+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.3",
+    "report_ids": [],
+    "assessments_supplied": false,
+    "summary": "Review of the current covenant package against the supplied underwriting memo and financial model shows no new evidence that would justify tightening, loosening, or adding any protections. All existing clauses are retained.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "No dated evidence since package indicates a need to adjust the leverage threshold or definition."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No new information alters the required reporting frequency or content."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Evidence does not show changed debt or lien risks that would modify the basket or limits."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "No evidence suggests distribution limits need revision."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Acquisition and investment limits remain appropriate per available data."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Business scope and asset protection clauses are unchanged by the evidence."
+      },
+      {
+        "clause_id": "C07",
+        "action": "retain",
+        "rationale": "Insurance, guarantee, and collateral requirements are still supported."
+      },
+      {
+        "clause_id": "C08",
+        "action": "retain",
+        "rationale": "Default and customer notice provisions remain adequate."
+      },
+      {
+        "clause_id": "S1",
+        "action": "retain",
+        "rationale": "Enterprise connector compatibility obligations are unchanged."
+      },
+      {
+        "clause_id": "S2",
+        "action": "retain",
+        "rationale": "Critical workflow incident reporting requirements are still appropriate."
+      },
+      {
+        "clause_id": "S3",
+        "action": "retain",
+        "rationale": "Configuration library custody provisions need no amendment."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "The supplied evidence (underwriting memo and origination financial model) predates the current package and provides no new facts that would justify tightening, loosening, or adding any covenant protections.",
+    "warnings": [],
+    "error": null,
+    "raw_response": {
+      "summary": "Review of the current covenant package against the supplied underwriting memo and financial model shows no new evidence that would justify tightening, loosening, or adding any protections. All existing clauses are retained.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No dated evidence since package indicates a need to adjust the leverage threshold or definition.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No new information alters the required reporting frequency or content.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Evidence does not show changed debt or lien risks that would modify the basket or limits.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence suggests distribution limits need revision.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Acquisition and investment limits remain appropriate per available data.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Business scope and asset protection clauses are unchanged by the evidence.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C07",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Insurance, guarantee, and collateral requirements are still supported.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C08",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Default and customer notice provisions remain adequate.",
+          "evidence": []
+        },
+        {
+          "clause_id": "S1",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Enterprise connector compatibility obligations are unchanged.",
+          "evidence": []
+        },
+        {
+          "clause_id": "S2",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Critical workflow incident reporting requirements are still appropriate.",
+          "evidence": []
+        },
+        {
+          "clause_id": "S3",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Configuration library custody provisions need no amendment.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "no_material_drift",
+      "drift_reasons": "The supplied evidence (underwriting memo and origination financial model) predates the current package and provides no new facts that would justify tightening, loosening, or adding any covenant protections."
+    }
+  },
+  "updated": {
+    "borrower_id": "B01",
+    "workflow": "realitycheck",
+    "blind": false,
+    "mode": "updated",
+    "review_date": "2027-09-10",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:27:41.676341+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.3",
+    "report_ids": [
+      "B01-D01",
+      "B01-D02",
+      "B01-D03"
+    ],
+    "assessments_supplied": true,
+    "summary": "Based on evidence of a missed connector remediation deadline and a missed incident notice, we propose tightening S1 and S2; all other covenants remain unchanged.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "No evidence indicates the leverage threshold needs adjustment."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "Financial reporting obligations remain appropriate; no new reporting deficiencies observed."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Debt and lien limits show no emerging concerns requiring change."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Distribution restrictions remain suitable; no evidence of excess leakage."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Acquisition and investment limits are unchanged by available evidence."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Business scope and asset protection provisions remain adequate."
+      },
+      {
+        "clause_id": "C07",
+        "action": "retain",
+        "rationale": "Insurance and collateral requirements show no need for revision."
+      },
+      {
+        "clause_id": "C08",
+        "action": "retain",
+        "rationale": "Customer notice threshold of 20% revenue is not challenged by observed incidents."
+      },
+      {
+        "clause_id": "S1",
+        "action": "modify",
+        "rationale": "Evidence shows a breaking connector change affecting 18% revenue missed the 30‑day fix deadline, indicating the current timeline may be too lax.",
+        "change_type": "threshold",
+        "change": "shorten the remediation deadline for breaking interface changes published before July 20, 2027 (currently 30 days) to a shorter period",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P1 — interface release and affected revenue",
+            "quote": "HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027.",
+            "verified": true
+          },
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P2 — bridge withdrawal and release status",
+            "quote": "The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "B01-A01",
+          "B01-A06"
+        ]
+      },
+      {
+        "clause_id": "S2",
+        "action": "modify",
+        "rationale": "Evidence shows an incident affecting 7% revenue where the required notice was not delivered within two business days, suggesting the notice period may be insufficient.",
+        "change_type": "trigger",
+        "change": "shorten the notice deadline for critical workflow incidents affecting at least 5% of revenue from two Business Days to a shorter period",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D02-INCIDENT",
+            "locator": "P1 — monitoring and officer knowledge",
+            "quote": "The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "B01-A01",
+          "B01-A06"
+        ]
+      },
+      {
+        "clause_id": "S3",
+        "action": "retain",
+        "rationale": "Configuration library custody provisions remain appropriate; no evidence of unauthorized transfers."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence of missed deadlines for connector remediation (S1) and incident notice (S2) justifies tightening those protections, altering risk coverage and monitoring needs.",
+    "warnings": [
+      "S2: 1 unverifiable citation(s) dropped."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "Based on evidence of a missed connector remediation deadline and a missed incident notice, we propose tightening S1 and S2; all other covenants remain unchanged.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence indicates the leverage threshold needs adjustment.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Financial reporting obligations remain appropriate; no new reporting deficiencies observed.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Debt and lien limits show no emerging concerns requiring change.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Distribution restrictions remain suitable; no evidence of excess leakage.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Acquisition and investment limits are unchanged by available evidence.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Business scope and asset protection provisions remain adequate.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C07",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Insurance and collateral requirements show no need for revision.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C08",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Customer notice threshold of 20% revenue is not challenged by observed incidents.",
+          "evidence": []
+        },
+        {
+          "clause_id": "S1",
+          "action": "modify",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "shorten the remediation deadline for breaking interface changes published before July 20, 2027 (currently 30 days) to a shorter period",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "B01-A01",
+            "B01-A06"
+          ],
+          "rationale": "Evidence shows a breaking connector change affecting 18% revenue missed the 30‑day fix deadline, indicating the current timeline may be too lax.",
+          "evidence": [
+            {
+              "document_id": "B01-DEMO-D01-OPS",
+              "locator": "P1 — interface release and affected revenue",
+              "quote": "HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027."
+            },
+            {
+              "document_id": "B01-DEMO-D01-OPS",
+              "locator": "P2 — bridge withdrawal and release status",
+              "quote": "The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available."
+            }
+          ]
+        },
+        {
+          "clause_id": "S2",
+          "action": "modify",
+          "change_type": "trigger",
+          "direction": "tighten",
+          "change": "shorten the notice deadline for critical workflow incidents affecting at least 5% of revenue from two Business Days to a shorter period",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "B01-A01",
+            "B01-A06"
+          ],
+          "rationale": "Evidence shows an incident affecting 7% revenue where the required notice was not delivered within two business days, suggesting the notice period may be insufficient.",
+          "evidence": [
+            {
+              "document_id": "B01-DEMO-D02-INCIDENT",
+              "locator": "P1 — monitoring and officer knowledge",
+              "quote": "The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once."
+            },
+            {
+              "document_id": "B01-DEMO-D03-INGEST",
+              "locator": "P1 — automatically synchronized incident ledger",
+              "quote": "Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081."
+            }
+          ]
+        },
+        {
+          "clause_id": "S3",
+          "action": "retain",
+          "change_type": null,
+          "direction": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Configuration library custody provisions remain appropriate; no evidence of unauthorized transfers.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Evidence of missed deadlines for connector remediation (S1) and incident notice (S2) justifies tightening those protections, altering risk coverage and monitoring needs."
+    }
+  },
+  "comparison": {
+    "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+    "review_date": "2027-09-10",
+    "package_version": "1.2",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "prompt_version": "0.3",
+    "report_ids": [
+      "B01-D01",
+      "B01-D02",
+      "B01-D03"
+    ],
+    "assessments_supplied": true,
+    "control_judgment": "no_material_drift",
+    "updated_judgment": "material_drift",
+    "evidence_attributable_changes": [
+      {
+        "clause_id": "S1",
+        "action": "modify",
+        "rationale": "Evidence shows a breaking connector change affecting 18% revenue missed the 30‑day fix deadline, indicating the current timeline may be too lax.",
+        "change_type": "threshold",
+        "change": "shorten the remediation deadline for breaking interface changes published before July 20, 2027 (currently 30 days) to a shorter period",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P1 — interface release and affected revenue",
+            "quote": "HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027.",
+            "verified": true
+          },
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P2 — bridge withdrawal and release status",
+            "quote": "The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "B01-A01",
+          "B01-A06"
+        ]
+      },
+      {
+        "clause_id": "S2",
+        "action": "modify",
+        "rationale": "Evidence shows an incident affecting 7% revenue where the required notice was not delivered within two business days, suggesting the notice period may be insufficient.",
+        "change_type": "trigger",
+        "change": "shorten the notice deadline for critical workflow incidents affecting at least 5% of revenue from two Business Days to a shorter period",
+        "evidence": [
+          {
+            "document_id": "B01-DEMO-D02-INCIDENT",
+            "locator": "P1 — monitoring and officer knowledge",
+            "quote": "The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once.",
+            "verified": true
+          }
+        ],
+        "direction": "tighten",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "B01-A01",
+          "B01-A06"
+        ]
+      }
+    ],
+    "changes_also_in_control": [],
+    "control_only_changes": [],
+    "retained": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "S3"
+    ],
+    "updated_summary": "Based on evidence of a missed connector remediation deadline and a missed incident notice, we propose tightening S1 and S2; all other covenants remain unchanged.",
+    "updated_reasons": "Evidence of missed deadlines for connector remediation (S1) and incident notice (S2) justifies tightening those protections, altering risk coverage and monitoring needs.",
+    "warnings": [
+      "S2: 1 unverifiable citation(s) dropped."
+    ],
+    "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured.",
+    "observed_response": {
+      "version": "1.3",
+      "title": "Consider automated lender alerts and independent reporting controls",
+      "publicly_available_at": null,
+      "clauses_changed_by_lender": [
+        "S2"
+      ],
+      "overlap_with_attributable": [
+        "S2"
+      ],
+      "note": "The draft proposal is an authored scenario fixture for this fictional company, shown for comparison. It was not available to either candidate run. Overlap means the same clauses were touched; it says nothing about direction or merit.",
+      "kind": "authored_draft_proposal"
+    },
+    "review_notes": [
+      "Reviewer note on S1: the candidate would shorten the remediation deadline for breaking changes published before July 20, 2027. That window is closed. Version 1.1 already shortened the forward-looking deadline to 15 calendar days, so this change restates a protection the current package contains and is not newly emerging drift. The original model wording is preserved.",
+      "Reviewer note on S2: the stated reason is that a two-Business-Day notice was missed, so the period should be shorter. A missed deadline does not show the deadline is too long; the September evidence points to a notice-routing failure. The one quotation that survived validation comes from the August incident, where notice was timely, and the September citation was dropped as unverifiable. The clause is reasonably identified as the place drift shows up; the proposed remedy is weakly supported.",
+      "What this run does show: with origination evidence alone the model keeps all eleven clauses; with the three detections it changes only the two operating covenants tied to the connector-reliability assumptions and retains the other nine. One run of each; stability is not measured."
+    ]
+  }
+}

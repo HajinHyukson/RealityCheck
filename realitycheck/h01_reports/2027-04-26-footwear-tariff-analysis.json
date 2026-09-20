@@ -1,0 +1,28 @@
+{
+  "borrower_id": "H01",
+  "report_type": "industry_analysis",
+  "publisher": "Northgate Research (fictional)",
+  "synthetic": true,
+  "title": "Industry analysis: proposed tariff on footwear made in Vietnam",
+  "library_summary": "An external report that never names the borrower. Tests that an industry development is tied to the scenario's real sourcing exposure without becoming a borrower fact.",
+  "event_date": "2027-04-23",
+  "available_at": "2027-04-26",
+  "review_date": "2027-04-26",
+  "sources": [
+    {
+      "document_id": "NGR-2027-FOOTWEAR-TARIFF",
+      "locator": "P1 — proposal",
+      "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Northgate Research, a fictional analyst firm, reported on April 23, 2027 that a proposed United States tariff would add 12 percentage points of duty to footwear made in Vietnam from September 1, 2027. The proposal has not been adopted and Northgate puts the chance of adoption at about even; that is an analyst estimate. The report names no importer."
+    },
+    {
+      "document_id": "NGR-2027-FOOTWEAR-TARIFF",
+      "locator": "P2 — who bears it",
+      "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Northgate notes that importers buying on FOB-origin terms are importer of record and pay the duty, and that in earlier tariff rounds importers recovered between one third and two thirds of the added duty through pricing within a year. Importers able to move production to other countries did so over 9 to 18 months."
+    },
+    {
+      "document_id": "NGR-2027-FOOTWEAR-TARIFF",
+      "locator": "P3 — limits",
+      "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. The report uses public trade data only. It contains no information about any company's sourcing mix, contracts, pricing power or lenders."
+    }
+  ]
+}

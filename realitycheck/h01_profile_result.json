@@ -1,0 +1,402 @@
+{
+  "borrower_id": "H01",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:21:14.827752+00:00",
+  "profile": {
+    "borrower_id": "H01",
+    "version": "1.0",
+    "as_of": "2026-10-01",
+    "summary": "The origination profile for Crocs Footwear Sourcing LLC captures six explicit underwriting assumptions about lead times, inventory turnover, direct‑to‑consumer offset, freight cost pass‑through, cash floor, and reporting timeliness, plus two inferred assumptions regarding Vietnamese manufacturer diversification and distribution capacity. A small causal graph links these assumptions, showing how diversification and warehouse capacity support lead‑time and turnover expectations, while DTC sales, freight recovery, cash level, and reporting interact to sustain liquidity and covenant compliance.",
+    "assumptions": [
+      {
+        "id": "H01-A01",
+        "title": "Lead time stability",
+        "claim": "Third-party manufacturers and at least two ocean routings from each major origin keep lead times from factory to distribution center within about 55 days.",
+        "basis": "explicit",
+        "source_assumption_id": "A1",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Lead time from factory to distribution center is about 55 days. Each major origin has at least two ocean routings.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A02",
+        "title": "Inventory and receivables turnover",
+        "claim": "Inventory turns in about 120 days and wholesale receivables collect in about 46 days, so seasonal purchases fund themselves within a season.",
+        "basis": "explicit",
+        "source_assumption_id": "A2",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C04"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Inventory of $164.0 million turns in about 120 days. Wholesale receivables of $72.1 million collect in about 46 days.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A03",
+        "title": "DTC offset",
+        "claim": "Direct-to-consumer sales of about 45% of revenue give margin and cash timing that partly offset swings in wholesale orders.",
+        "basis": "explicit",
+        "source_assumption_id": "A3",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Wholesale is $572.0 million of revenue and direct-to-consumer is $468.0 million, about 45%.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A04",
+        "title": "FOB terms and freight recovery",
+        "claim": "Goods are bought on FOB-origin terms, so the Borrower bears ocean freight; freight and duty are about 9% of cost of goods, and pricing can recover about half of a freight increase within two quarters.",
+        "basis": "explicit",
+        "source_assumption_id": "A4",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Goods are bought FOB origin, so the Borrower pays ocean freight. Freight and duty are about 9% of cost of goods.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A05",
+        "title": "Cash floor",
+        "claim": "Unrestricted Cash stays above $50.0 million in the base forecast, against a $35.0 million floor.",
+        "basis": "explicit",
+        "source_assumption_id": "A5",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C01",
+          "C02",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Unrestricted Cash at closing is $64.0 million. The base monthly forecast has a low point of $52.0 million in February 2027.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A06",
+        "title": "Reporting timeliness",
+        "claim": "Monthly accounts, cash reports and inventory reports delivered within 20 days give the lender timely visibility of working capital.",
+        "basis": "explicit",
+        "source_assumption_id": "A6",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C03",
+          "C04",
+          "C06",
+          "C09"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Management accounts, cash reports and inventory reports are due within 20 days after each month-end.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A07",
+        "title": "Manufacturer diversification reduces lead‑time risk",
+        "claim": "Diversification across at least two major third‑party manufacturers in Vietnam reduces the risk of a single‑source disruption affecting lead times.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "working",
+        "covenant_ids": [],
+        "evidence": [
+          {
+            "document_id": "CROX-10K-FY2025",
+            "locator": "P0380",
+            "quote": "Our largest third-party manufacturer for the Crocs Brand, with the majority of operations in Vietnam, produced approximately 45%, 50%, and 47% of our production during the years ended December 31, 2025, 2024, and 2023, respectively, and our second largest third-party manufacturer for the Crocs Brand, primarily operating in both Vietnam and China, produced approximately 28%, 25%, and 26% of our production during the years ended December 31, 2025, 2024, and 2023, respectively.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "H01-A08",
+        "title": "Distribution capacity supports inventory turnover",
+        "claim": "The combination of company‑operated and third‑party distribution facilities provides sufficient capacity to maintain inventory turnover around 120 days and limit inventory older than 180 days.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "working",
+        "covenant_ids": [
+          "C04"
+        ],
+        "evidence": [
+          {
+            "document_id": "CROX-10K-FY2025",
+            "locator": "P0384",
+            "quote": "As of December 31, 2025, we principally stored our finished goods inventory in company-operated warehouses and distribution and logistics facilities located in the U.S. and the Netherlands. We also utilized third-party operated distribution centers located in the United States, Japan, China, Australia, South Korea, Singapore, India, Brazil, Canada, the Netherlands, and the United Kingdom. As of December 31, 2025, our company-operated warehouse and distribution facilities provided us with 2.9 million square feet, and our third-party operated distribution facilities provided us with 1.0 million square feet, with additional area available based on inventory levels.",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "H01-A07",
+        "target": "H01-A01",
+        "type": "influences",
+        "rationale": "Having two major Vietnamese manufacturers lowers the chance that a single‑source disruption pushes lead times beyond 55 days."
+      },
+      {
+        "source": "H01-A08",
+        "target": "H01-A02",
+        "type": "influences",
+        "rationale": "Ample company‑operated and third‑party warehouse space supports steady inventory flow, helping keep turnover near 120 days."
+      },
+      {
+        "source": "H01-A03",
+        "target": "H01-A05",
+        "type": "influences",
+        "rationale": "Direct‑to‑consumer sales generate cash faster than wholesale, helping keep unrestricted cash above the $50 million forecast floor."
+      },
+      {
+        "source": "H01-A04",
+        "target": "H01-A05",
+        "type": "influences",
+        "rationale": "The ability to pass on freight cost increases protects margins, contributing to the cash forecast staying above $50 million."
+      },
+      {
+        "source": "H01-A05",
+        "target": "H01-A06",
+        "type": "influences",
+        "rationale": "When cash stays above $45 million, the 13‑week cash‑forecast trigger under C06 is less likely, making regular reporting more reliable."
+      },
+      {
+        "source": "H01-A06",
+        "target": "H01-A02",
+        "type": "influences",
+        "rationale": "Timely inventory reports give the borrower visibility to manage aging stock, supporting the 120‑day turnover assumption."
+      }
+    ]
+  },
+  "source_hashes": {
+    "credit-agreement.md": "5f7345ad63de60e9f590794318c9ece4df789509e74af0854ef5876c1c708aca",
+    "contract-record.json": "bbc795c785b86e80340f46394f862fe4713c9b8711e4f5472c2946f6f22c9aca",
+    "underwriting-memo.md": "55225d4071ae7370384012993d74f8e401debec90f590b365c000f6972a62a23",
+    "origination-financial-model.json": "6d1ec7906e16c52634c99907f5275c244966e4bb78dd0289b78f25af0502bd6a",
+    "CROX-10K-FY2025": "a350d73a76047d9f76ff845cd2cb3f8b48994acdfc04a02784de57a918482147"
+  },
+  "raw_response": {
+    "summary": "The origination profile for Crocs Footwear Sourcing LLC captures six explicit underwriting assumptions about lead times, inventory turnover, direct‑to‑consumer offset, freight cost pass‑through, cash floor, and reporting timeliness, plus two inferred assumptions regarding Vietnamese manufacturer diversification and distribution capacity. A small causal graph links these assumptions, showing how diversification and warehouse capacity support lead‑time and turnover expectations, while DTC sales, freight recovery, cash level, and reporting interact to sustain liquidity and covenant compliance.",
+    "assumptions": [
+      {
+        "id": "H01-A01",
+        "title": "Lead time stability",
+        "claim": "Third-party manufacturers and at least two ocean routings from each major origin keep lead times from factory to distribution center within about 55 days.",
+        "basis": "explicit",
+        "source_assumption_id": "A1",
+        "covenant_ids": [
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Lead time from factory to distribution center is about 55 days. Each major origin has at least two ocean routings."
+          }
+        ]
+      },
+      {
+        "id": "H01-A02",
+        "title": "Inventory and receivables turnover",
+        "claim": "Inventory turns in about 120 days and wholesale receivables collect in about 46 days, so seasonal purchases fund themselves within a season.",
+        "basis": "explicit",
+        "source_assumption_id": "A2",
+        "covenant_ids": [
+          "C04"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Inventory of $164.0 million turns in about 120 days. Wholesale receivables of $72.1 million collect in about 46 days."
+          }
+        ]
+      },
+      {
+        "id": "H01-A03",
+        "title": "DTC offset",
+        "claim": "Direct-to-consumer sales of about 45% of revenue give margin and cash timing that partly offset swings in wholesale orders.",
+        "basis": "explicit",
+        "source_assumption_id": "A3",
+        "covenant_ids": [
+          "C05"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Wholesale is $572.0 million of revenue and direct-to-consumer is $468.0 million, about 45%."
+          }
+        ]
+      },
+      {
+        "id": "H01-A04",
+        "title": "FOB terms and freight recovery",
+        "claim": "Goods are bought on FOB-origin terms, so the Borrower bears ocean freight; freight and duty are about 9% of cost of goods, and pricing can recover about half of a freight increase within two quarters.",
+        "basis": "explicit",
+        "source_assumption_id": "A4",
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Goods are bought FOB origin, so the Borrower pays ocean freight. Freight and duty are about 9% of cost of goods."
+          }
+        ]
+      },
+      {
+        "id": "H01-A05",
+        "title": "Cash floor",
+        "claim": "Unrestricted Cash stays above $50.0 million in the base forecast, against a $35.0 million floor.",
+        "basis": "explicit",
+        "source_assumption_id": "A5",
+        "covenant_ids": [
+          "C01",
+          "C02",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Unrestricted Cash at closing is $64.0 million. The base monthly forecast has a low point of $52.0 million in February 2027."
+          }
+        ]
+      },
+      {
+        "id": "H01-A06",
+        "title": "Reporting timeliness",
+        "claim": "Monthly accounts, cash reports and inventory reports delivered within 20 days give the lender timely visibility of working capital.",
+        "basis": "explicit",
+        "source_assumption_id": "A6",
+        "covenant_ids": [
+          "C03",
+          "C04",
+          "C06",
+          "C09"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "Management accounts, cash reports and inventory reports are due within 20 days after each month-end."
+          }
+        ]
+      },
+      {
+        "id": "H01-A07",
+        "title": "Manufacturer diversification reduces lead‑time risk",
+        "claim": "Diversification across at least two major third‑party manufacturers in Vietnam reduces the risk of a single‑source disruption affecting lead times.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [],
+        "evidence": [
+          {
+            "document_id": "CROX-10K-FY2025",
+            "locator": "P0380",
+            "quote": "Our largest third-party manufacturer for the Crocs Brand, with the majority of operations in Vietnam, produced approximately 45%, 50%, and 47% of our production during the years ended December 31, 2025, 2024, and 2023, respectively, and our second largest third-party manufacturer for the Crocs Brand, primarily operating in both Vietnam and China, produced approximately 28%, 25%, and 26% of our production during the years ended December 31, 2025, 2024, and 2023, respectively."
+          }
+        ]
+      },
+      {
+        "id": "H01-A08",
+        "title": "Distribution capacity supports inventory turnover",
+        "claim": "The combination of company‑operated and third‑party distribution facilities provides sufficient capacity to maintain inventory turnover around 120 days and limit inventory older than 180 days.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C04"
+        ],
+        "evidence": [
+          {
+            "document_id": "CROX-10K-FY2025",
+            "locator": "P0384",
+            "quote": "As of December 31, 2025, we principally stored our finished goods inventory in company-operated warehouses and distribution and logistics facilities located in the U.S. and the Netherlands. We also utilized third-party operated distribution centers located in the United States, Japan, China, Australia, South Korea, Singapore, India, Brazil, Canada, the Netherlands, and the United Kingdom. As of December 31, 2025, our company-operated warehouse and distribution facilities provided us with 2.9 million square feet, and our third-party operated distribution facilities provided us with 1.0 million square feet, with additional area available based on inventory levels."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "H01-A07",
+        "target": "H01-A01",
+        "type": "influences",
+        "rationale": "Having two major Vietnamese manufacturers lowers the chance that a single‑source disruption pushes lead times beyond 55 days."
+      },
+      {
+        "source": "H01-A08",
+        "target": "H01-A02",
+        "type": "influences",
+        "rationale": "Ample company‑operated and third‑party warehouse space supports steady inventory flow, helping keep turnover near 120 days."
+      },
+      {
+        "source": "H01-A03",
+        "target": "H01-A05",
+        "type": "influences",
+        "rationale": "Direct‑to‑consumer sales generate cash faster than wholesale, helping keep unrestricted cash above the $50 million forecast floor."
+      },
+      {
+        "source": "H01-A04",
+        "target": "H01-A05",
+        "type": "influences",
+        "rationale": "The ability to pass on freight cost increases protects margins, contributing to the cash forecast staying above $50 million."
+      },
+      {
+        "source": "H01-A05",
+        "target": "H01-A06",
+        "type": "influences",
+        "rationale": "When cash stays above $45 million, the 13‑week cash‑forecast trigger under C06 is less likely, making regular reporting more reliable."
+      },
+      {
+        "source": "H01-A06",
+        "target": "H01-A02",
+        "type": "influences",
+        "rationale": "Timely inventory reports give the borrower visibility to manage aging stock, supporting the 120‑day turnover assumption."
+      }
+    ]
+  },
+  "warnings": [],
+  "error": null
+}

@@ -1,0 +1,38 @@
+{
+  "case": "R03-petiq-ares",
+  "screen": "amend|waiv|forbear|lenders? (have |has )?agreed|covenant relief|not in compliance|noncompliance|event of default",
+  "entries": [
+    {
+      "report_id": "R03-D03",
+      "document_id": "PETQ-PR-2018-08-14",
+      "locator": "P0098",
+      "action": "kept despite screen",
+      "reason": "Concerns the amendment of the separate bank revolving credit facility, not the Ares term loan under review. It is not a response by this lender.",
+      "preview": "The Company increased liquidity on a pro forma basis to $63 million, an increase of $51 million since March 31, 2018. This was accomplished by generating operat"
+    },
+    {
+      "report_id": "R03-D03",
+      "document_id": "PETQ-PR-2018-08-14",
+      "locator": "P0099",
+      "action": "kept despite screen",
+      "reason": "Concerns the amendment of the separate bank revolving credit facility, not the Ares term loan under review. It is not a response by this lender.",
+      "preview": "As of June 30, 2018, the Company had cash and cash equivalents of $11.7 million, compared to $37.9 million at December 31, 2017. The Company’s long-term debt ba"
+    },
+    {
+      "report_id": "R03-D06",
+      "document_id": "PETQ-PR-2019-05-08",
+      "locator": "P0062",
+      "action": "removed",
+      "reason": "Announces the agreement to acquire Perrigo Animal Health and states that $145 million of new term loan financing was committed by Ares. A financing commitment is a lender decision and is withheld. It cannot be separated from the announcement sentence without editing the text, so the whole passage is withheld. The pending acquisition remains visible in this report through the chief executive's comment, the stand-alone outlook, the combined 2020 outlook and the pro forma leverage footnote.",
+      "preview": "The Company also announced today in a separate press release that it has entered into a definitive agreement to acquire Perrigo Animal Health, a division of Per"
+    },
+    {
+      "report_id": "R03-D07",
+      "document_id": "PETQ-PR-2019-08-07",
+      "locator": "P0096",
+      "action": "removed",
+      "reason": "States that the Perrigo Animal Health acquisition was financed with $145 million of new term loan financing from Ares, which is the hidden amended and restated facility. The financing cannot be separated from the acquisition-closing sentence without editing the text, so the whole passage is withheld. The pending acquisition remains visible from the May 8, 2019 report.",
+      "preview": "On July 8, 2019, the Company completed the acquisition of Perrigo Animal Health for total consideration of $185 million. The transaction was financed through a "
+    }
+  ]
+}

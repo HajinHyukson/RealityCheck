@@ -1,0 +1,22 @@
+JUDGE: PittCSC Organizer
+1|Audit|9|Instantly readable finance term matching the filings based verification shown, honest and memorable in a 60 second demo.
+2|Flag|9|One syllable, matches the verdict output exactly on screen, no overreach, easy to jot down across 40 teams.
+3|Detect|8|Clear and honest match to the drift score, though overused across hackathons and less distinctly financial than audit.
+4|Reconcile|8|Accounting term precisely describing comparing expected versus observed exposure, honest but slightly less punchy than audit or flag.
+5|Surface|7|Plain honest verb for showing a hidden drift score, clear match though less memorable than the top choices.
+6|Monitor|7|Clear and honest, but implies ongoing tracking that a single 60 second demo cannot actually show.
+7|Reveal|6|Generic but honest, matches showing the drift verdict without overclaiming, forgettable next to sharper choices.
+8|Validate|6|Reasonable framing of checking exposure, but the demo mostly shows invalidation, creating a slight verb mismatch.
+9|Diagnose|6|Medical metaphor loosely matches the verdict output, understandable but slightly indirect for a financial exposure tool.
+10|Expose|5|Sounds like scandal journalism, a dramatic overtone I will side eye given it is just a comparison chart.
+11|Uncover|5|Implies hidden secret discovery, a mild overclaim for a straightforward holdings based calculation.
+12|Reassess|4|Honest description of the action but clunky wording, forgettable in notes across 40 projects.
+13|Trace|4|Suggests following a lineage or path, mismatched since the demo compares one snapshot, not a trail.
+14|Challenge|3|Vague verb that does not describe any visible action, leaves me asking what actually happens on screen.
+15|Reclassify|3|Overclaims changing the ETF's classification, something the tool never actually does on screen.
+16|Update|3|Sounds like refreshing data rather than an analytical verdict, undersells the actual mechanism shown.
+17|Realign|3|Implies fixing the portfolio itself, an action far beyond what a static comparison demo delivers.
+18|Interrogate|3|Overly aggressive tone mismatched with a calm bar chart and drift score, feels like a stretch.
+19|Stress-test|3|Implies scenario simulation under adverse conditions, a different feature than the simple exposure comparison shown.
+20|Correct|2|Overclaims fixing the ETF's exposure, something never performed, exactly the overpromise I penalize.
+21|Prevent|1|Nothing built in 24 hours prevents anything, the textbook overclaim that instantly loses my trust.

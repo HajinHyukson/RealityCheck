@@ -1,0 +1,104 @@
+{
+  "borrower_id": "R02",
+  "borrower": "RumbleOn, Inc.",
+  "sector": "Powersports retail",
+  "lender_role": "Oaktree Fund Administration, LLC as administrative agent and collateral agent",
+  "facility": "$280,000,000 initial term loans and $120,000,000 delayed draw term loans",
+  "agreement_document": "RMBL-CA-ORIGINAL",
+  "version": "1.0",
+  "executed_at": "2021-08-31",
+  "effective_at": "2021-08-31",
+  "scope_note": "Scoped prototype: a bounded subset of the executed August 31, 2021 term loan credit agreement, copied verbatim by paragraph locator from the SEC-filed exhibit. It covers the term facility only; RumbleOn's floorplan and consumer financing are separate arrangements and are outside this packet.",
+  "clauses": [
+    {
+      "id": "C01",
+      "title": "Maximum Consolidated Total Net Leverage Ratio",
+      "section": "Section 7.10(a)",
+      "from": "P1186",
+      "to": "P1187"
+    },
+    {
+      "id": "C02",
+      "title": "Maximum Consolidated Senior Secured Net Leverage Ratio",
+      "section": "Section 7.10(b)",
+      "from": "P1188",
+      "to": "P1188"
+    },
+    {
+      "id": "C03",
+      "title": "Minimum Liquidity",
+      "section": "Section 7.10(c)",
+      "from": "P1189",
+      "to": "P1189"
+    },
+    {
+      "id": "C04",
+      "title": "Annual and quarterly financial statements",
+      "section": "Section 6.01",
+      "from": "P0955",
+      "to": "P0958"
+    },
+    {
+      "id": "C05",
+      "title": "Compliance Certificate",
+      "section": "Section 6.02(a)",
+      "from": "P0959",
+      "to": "P0960"
+    },
+    {
+      "id": "C06",
+      "title": "Notice of Default",
+      "section": "Section 6.03(a)",
+      "from": "P0969",
+      "to": "P0970"
+    }
+  ],
+  "definitions": [
+    "P0371",
+    "P0372",
+    "P0375",
+    "P0490",
+    "P0555",
+    "P0692"
+  ],
+  "resolution": [
+    {
+      "from": "P1193",
+      "to": "P1196"
+    }
+  ],
+  "origination_sources": [
+    {
+      "document_id": "RMBL-8K-ORIGINATION",
+      "locators": [
+        "P0040",
+        "P0044",
+        "P0046",
+        "P0049",
+        "P0050",
+        "P0051"
+      ]
+    },
+    {
+      "document_id": "RMBL-10Q-2021Q2",
+      "locators": [
+        "P0315",
+        "P0319",
+        "P0429",
+        "P0672"
+      ]
+    }
+  ],
+  "origination_note": "Only documents SEC-accepted on or before 2021-09-07 are origination evidence. The 10-Q predates the RideNow combination and describes the pre-combination company; it is not lender underwriting.",
+  "missing_inputs": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA is defined over roughly fifty paragraphs with lender-approved adjustments; the company's public Adjusted EBITDA is not contractual EBITDA, so leverage ratios cannot be recalculated from public releases.",
+    "Amendments No. 1 through No. 4 (before August 2023) are not in this packet. Their effect, if any, on the extracted clauses between 2021 and August 2023 is unverified.",
+    "Amendments No. 6 and No. 7 were executed October 31, 2023 and February 5, 2024 but first became public on March 28, 2024; their terms are not extracted here.",
+    "The SEC-filed exhibit for Amendment No. 8 runs deleted and inserted language together (for example '4.755.50'), so its operative text is not extracted; the company's Form 10-Q description is used instead.",
+    "No Oaktree underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ],
+  "missing_inputs_blind": [
+    "Compliance Certificates and the lender's covenant calculations are delivered privately and are not public. Contractual Consolidated EBITDA is defined over roughly fifty paragraphs with lender-approved adjustments; the company's public Adjusted EBITDA is not contractual EBITDA, so leverage ratios cannot be recalculated from public releases.",
+    "No Oaktree underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+  ]
+}

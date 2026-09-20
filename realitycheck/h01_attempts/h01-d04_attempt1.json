@@ -1,0 +1,472 @@
+{
+  "archived_because": "The validator withheld three attributions because each quotation ended with a period where the source continues with a comma. The validator now tolerates only that, and records it.",
+  "mode_of_replacement": "revalidate",
+  "event": {
+    "id": "H01-D04",
+    "title": "Wholesale customers cut spring orders; inventory ages",
+    "event_date": "2027-02-17",
+    "available_at": "2027-02-22",
+    "review_date": "2027-02-22",
+    "sources": [
+      {
+        "document_id": "H01-SALES-2027-02-19",
+        "locator": "P1 — order reductions",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Sales note dated February 19, 2027. Two wholesale customers reduced confirmed spring 2027 orders by a combined $22.0 million in the fiscal quarter ending March 31, 2027, citing slower sell-through of late-arriving winter product. The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027. Direct-to-consumer sales for January were 3% above the prior year."
+      },
+      {
+        "document_id": "H01-INV-2027-01",
+        "locator": "P2 — January inventory report",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Inventory report for January 31, 2027, delivered February 18, 2027. Inventory at the lower of cost and net realizable value was $181.5 million. Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination, mostly winter product that arrived after its selling window. No write-down was recorded in January."
+      },
+      {
+        "document_id": "H01-FCST-2027-02-22",
+        "locator": "P3 — updated cash forecast",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Updated 13-week cash forecast delivered February 22, 2027. Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast. The plan proposes deferring $4.0 million of new distribution capacity spending; it has not been approved."
+      }
+    ],
+    "source_kind": "scenario_report",
+    "presentation_summary": "Reduced orders, older inventory and a lower cash forecast arrive together.",
+    "package_version": "1.1",
+    "status": "completed",
+    "analysis": {
+      "id": "H01-D04",
+      "event": {
+        "id": "H01-D04",
+        "title": "Wholesale customers cut spring orders; inventory ages",
+        "event_date": "2027-02-17",
+        "available_at": "2027-02-22",
+        "review_date": "2027-02-22",
+        "sources": [
+          {
+            "document_id": "H01-SALES-2027-02-19",
+            "locator": "P1 — order reductions",
+            "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Sales note dated February 19, 2027. Two wholesale customers reduced confirmed spring 2027 orders by a combined $22.0 million in the fiscal quarter ending March 31, 2027, citing slower sell-through of late-arriving winter product. The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027. Direct-to-consumer sales for January were 3% above the prior year."
+          },
+          {
+            "document_id": "H01-INV-2027-01",
+            "locator": "P2 — January inventory report",
+            "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Inventory report for January 31, 2027, delivered February 18, 2027. Inventory at the lower of cost and net realizable value was $181.5 million. Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination, mostly winter product that arrived after its selling window. No write-down was recorded in January."
+          },
+          {
+            "document_id": "H01-FCST-2027-02-22",
+            "locator": "P3 — updated cash forecast",
+            "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Updated 13-week cash forecast delivered February 22, 2027. Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast. The plan proposes deferring $4.0 million of new distribution capacity spending; it has not been approved."
+          }
+        ]
+      },
+      "borrower_id": "H01",
+      "package_version": "1.1",
+      "engine": "nemotron",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "generated_at": "2026-09-20T02:29:11.206782+00:00",
+      "model_options": {
+        "enable_thinking": true,
+        "max_tokens": 16000,
+        "response_format": "json_object"
+      },
+      "summary": "The event reveals a $22 million wholesale order loss (Material Order Loss) and aged inventory rising to 14.2%, contradicting inventory turnover and distribution‑capacity assumptions. Cash‑flow pressure appears in the forecast low of $41.3 million, but it does not breach the cash‑floor review threshold. Timely notice and inventory report support reporting timeliness. Covenants C05 and C06 are satisfied; other covenants lack sufficient evidence for compliance.",
+      "attributions": [
+        {
+          "id": "att-544437e2-064f-4aaa-92b0-31c4b436722e",
+          "target_type": "assumption",
+          "target_id": "H01-A05",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": "supported",
+          "rationale": "Forecast Unrestricted Cash low point is $41.3 million, below the $50 million claim but above the $35 million floor; does not meet the review_criterion (<$40 million), so the assumption remains supported but shows cash pressure.",
+          "evidence": [
+            {
+              "document_id": "H01-FCST-2027-02-22",
+              "locator": "P3 — updated cash forecast",
+              "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast.",
+              "verified": true
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "monitor",
+          "proposed_adjustment": "",
+          "path": [],
+          "target_title": "Cash floor",
+          "verified": true,
+          "target_version": "1.0",
+          "baseline_status": "approved_synthetic"
+        },
+        {
+          "id": "att-4685fdda-d032-49e6-bb6f-08c9f551dc36",
+          "target_type": "assumption",
+          "target_id": "H01-A06",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "beneficial",
+          "proposed_status": "supported",
+          "rationale": "The Borrower delivered written notice of the order reduction on February 19, 2027 (within five Business Days after learning on February 17) and the January inventory report on February 18, 2027 (within twenty days after month‑end), demonstrating timely reporting.",
+          "evidence": [
+            {
+              "document_id": "H01-SALES-2027-02-19",
+              "locator": "P1 — order reductions",
+              "quote": "The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027.",
+              "verified": true
+            },
+            {
+              "document_id": "H01-INV-2027-01",
+              "locator": "P2 — January inventory report",
+              "quote": "Inventory report for January 31, 2027, delivered February 18, 2027.",
+              "verified": true
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [],
+          "suggested_action": "monitor",
+          "proposed_adjustment": "",
+          "path": [],
+          "target_title": "Reporting timeliness",
+          "verified": true,
+          "target_version": "1.0",
+          "baseline_status": "approved_synthetic"
+        }
+      ],
+      "coverage": [
+        {
+          "assumption_id": "H01-A01",
+          "target_title": "Lead time stability",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A02",
+          "target_title": "Inventory and receivables turnover",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A03",
+          "target_title": "DTC offset",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A04",
+          "target_title": "FOB terms and freight recovery",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A05",
+          "target_title": "Cash floor",
+          "status": "addressed"
+        },
+        {
+          "assumption_id": "H01-A06",
+          "target_title": "Reporting timeliness",
+          "status": "addressed"
+        },
+        {
+          "assumption_id": "H01-A07",
+          "target_title": "Manufacturer diversification reduces lead‑time risk",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A08",
+          "target_title": "Distribution capacity supports inventory turnover",
+          "status": "unaddressed"
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [
+        {
+          "clause_id": "C01",
+          "status": "insufficient_evidence",
+          "rationale": "Forecast shows Unrestricted Cash low of $41.3 million, above the $35 million floor, but no actual month‑end cash evidence is provided to confirm compliance.",
+          "evidence": [
+            {
+              "document_id": "H01-FCST-2027-02-22",
+              "locator": "P3 — updated cash forecast",
+              "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        },
+        {
+          "clause_id": "C03",
+          "status": "insufficient_evidence",
+          "rationale": "The January inventory report was delivered within 20 days, satisfying part of C03, but the event does not evidence the required monthly management accounts or cash report.",
+          "evidence": [
+            {
+              "document_id": "H01-INV-2027-01",
+              "locator": "P2 — January inventory report",
+              "quote": "Inventory report for January 31, 2027, delivered February 18, 2027.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        },
+        {
+          "clause_id": "C05",
+          "status": "compliant",
+          "rationale": "Notice of the $22.0 million Material Order Loss was delivered on February 19, 2027, within five Business Days after the CFO’s knowledge on February 17.",
+          "evidence": [
+            {
+              "document_id": "H01-SALES-2027-02-19",
+              "locator": "P1 — order reductions",
+              "quote": "The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        },
+        {
+          "clause_id": "C06",
+          "status": "compliant",
+          "rationale": "The updated 13‑week cash forecast was delivered on February 22, 2027, within ten Business Days after the Material Order Loss was known (deadline March 3).",
+          "evidence": [
+            {
+              "document_id": "H01-FCST-2027-02-22",
+              "locator": "P3 — updated cash forecast",
+              "quote": "Updated 13-week cash forecast delivered February 22, 2027.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        }
+      ],
+      "warnings": [
+        "An earlier attempt at a 10000-token budget returned no usable JSON (finish reason: length); this result used 16000 tokens.",
+        "Attribution 1 withheld: evidence citation did not verify at its document and locator.",
+        "Attribution 2 withheld: evidence citation did not verify at its document and locator.",
+        "Attribution 5 withheld: evidence citation did not verify at its document and locator.",
+        "Covenant assessment 'C02' withheld: invalid clause, status or citation.",
+        "Covenant assessment 'C04' withheld: invalid clause, status or citation.",
+        "Covenant assessment 'C07' withheld: invalid clause, status or citation.",
+        "Covenant assessment 'C08' withheld: invalid clause, status or citation.",
+        "Covenant assessment 'C09' withheld: invalid clause, status or citation."
+      ],
+      "error": null,
+      "decisions": {},
+      "raw_response": {
+        "summary": "The event reveals a $22 million wholesale order loss (Material Order Loss) and aged inventory rising to 14.2%, contradicting inventory turnover and distribution‑capacity assumptions. Cash‑flow pressure appears in the forecast low of $41.3 million, but it does not breach the cash‑floor review threshold. Timely notice and inventory report support reporting timeliness. Covenants C05 and C06 are satisfied; other covenants lack sufficient evidence for compliance.",
+        "attributions": [
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A02",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "contradicted",
+            "rationale": "Inventory older than 180 days was 14.2% of inventory at cost, exceeding the 10% threshold and contradicting the assumption that inventory turns in about 120 days and limits aging.",
+            "evidence": [
+              {
+                "document_id": "H01-INV-2027-01",
+                "locator": "P2 — January inventory report",
+                "quote": "Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "review_assumption",
+            "proposed_adjustment": "",
+            "path": []
+          },
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A03",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "insufficient_evidence",
+            "rationale": "Wholesale orders fell $22.0 million in the fiscal quarter ending March 31, 2027, meeting the Material Order Loss threshold, but no evidence shows a same-period direct-to-consumer cash offset to absorb the swing.",
+            "evidence": [
+              {
+                "document_id": "H01-SALES-2027-02-19",
+                "locator": "P1 — order reductions",
+                "quote": "Two wholesale customers reduced confirmed spring 2027 orders by a combined $22.0 million in the fiscal quarter ending March 31, 2027."
+              },
+              {
+                "document_id": "H01-SALES-2027-02-19",
+                "locator": "P1 — order reductions",
+                "quote": "Direct-to-consumer sales for January were 3% above the prior year."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [
+              "DTC cash offset amount or timing for Q1 FY27"
+            ],
+            "suggested_action": "request_information",
+            "proposed_adjustment": "",
+            "path": []
+          },
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A05",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "supported",
+            "rationale": "Forecast Unrestricted Cash low point is $41.3 million, below the $50 million claim but above the $35 million floor; does not meet the review_criterion (<$40 million), so the assumption remains supported but shows cash pressure.",
+            "evidence": [
+              {
+                "document_id": "H01-FCST-2027-02-22",
+                "locator": "P3 — updated cash forecast",
+                "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "monitor",
+            "proposed_adjustment": "",
+            "path": []
+          },
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A06",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "beneficial",
+            "proposed_status": "supported",
+            "rationale": "The Borrower delivered written notice of the order reduction on February 19, 2027 (within five Business Days after learning on February 17) and the January inventory report on February 18, 2027 (within twenty days after month‑end), demonstrating timely reporting.",
+            "evidence": [
+              {
+                "document_id": "H01-SALES-2027-02-19",
+                "locator": "P1 — order reductions",
+                "quote": "The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027."
+              },
+              {
+                "document_id": "H01-INV-2027-01",
+                "locator": "P2 — January inventory report",
+                "quote": "Inventory report for January 31, 2027, delivered February 18, 2027."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "monitor",
+            "proposed_adjustment": "",
+            "path": []
+          },
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A08",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "contradicted",
+            "rationale": "Inventory older than 180 days was 14.2% of inventory at cost, exceeding the assumption’s limit that distribution capacity provides sufficient capacity to limit aging.",
+            "evidence": [
+              {
+                "document_id": "H01-INV-2027-01",
+                "locator": "P2 — January inventory report",
+                "quote": "Inventory older than 180 days was 14.2% of inventory at cost, compared with 5.5% at origination."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "review_assumption",
+            "proposed_adjustment": "",
+            "path": []
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C01",
+            "status": "insufficient_evidence",
+            "rationale": "Forecast shows Unrestricted Cash low of $41.3 million, above the $35 million floor, but no actual month‑end cash evidence is provided to confirm compliance.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-FCST-2027-02-22",
+                "locator": "P3 — updated cash forecast",
+                "quote": "Forecast Unrestricted Cash reaches a low of $41.3 million at the end of April 2027, against $35.0 million required and $52.0 million in the origination base forecast."
+              }
+            ]
+          },
+          {
+            "clause_id": "C02",
+            "status": "insufficient_evidence",
+            "rationale": "No leverage data are provided in the event to assess Net Leverage against the 2.75× limit.",
+            "already_assessed_in": null,
+            "evidence": []
+          },
+          {
+            "clause_id": "C03",
+            "status": "insufficient_evidence",
+            "rationale": "The January inventory report was delivered within 20 days, satisfying part of C03, but the event does not evidence the required monthly management accounts or cash report.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-INV-2027-01",
+                "locator": "P2 — January inventory report",
+                "quote": "Inventory report for January 31, 2027, delivered February 18, 2027."
+              }
+            ]
+          },
+          {
+            "clause_id": "C04",
+            "status": "insufficient_evidence",
+            "rationale": "The January inventory report was timely and shows aging, but it lacks the post‑December 2026 required details on purchase volume and goods‑in‑transit by routing/manufacturer.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-INV-2027-01",
+                "locator": "P2 — January inventory report",
+                "quote": "Inventory report for January 31, 2027, delivered February 18, 2027. Inventory older than 180 days was 14.2% of inventory at cost."
+              }
+            ]
+          },
+          {
+            "clause_id": "C05",
+            "status": "compliant",
+            "rationale": "Notice of the $22.0 million Material Order Loss was delivered on February 19, 2027, within five Business Days after the CFO’s knowledge on February 17.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-SALES-2027-02-19",
+                "locator": "P1 — order reductions",
+                "quote": "The chief financial officer first learned of the reductions on February 17, 2027 and the Borrower delivered written notice to the Lender on February 19, 2027."
+              }
+            ]
+          },
+          {
+            "clause_id": "C06",
+            "status": "compliant",
+            "rationale": "The updated 13‑week cash forecast was delivered on February 22, 2027, within ten Business Days after the Material Order Loss was known (deadline March 3).",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-FCST-2027-02-22",
+                "locator": "P3 — updated cash forecast",
+                "quote": "Updated 13-week cash forecast delivered February 22, 2027."
+              }
+            ]
+          },
+          {
+            "clause_id": "C07",
+            "status": "insufficient_evidence",
+            "rationale": "No evidence of dividends, distributions, or expansion capital expenditures is provided to assess compliance with C07.",
+            "already_assessed_in": null,
+            "evidence": []
+          },
+          {
+            "clause_id": "C08",
+            "status": "insufficient_evidence",
+            "rationale": "No evidence of new debt or liens is provided to assess compliance with C08.",
+            "already_assessed_in": null,
+            "evidence": []
+          },
+          {
+            "clause_id": "C09",
+            "status": "insufficient_evidence",
+            "rationale": "No evidence of amendments, waivers, or defaults is provided to assess compliance with C09.",
+            "already_assessed_in": null,
+            "evidence": []
+          }
+        ]
+      }
+    },
+    "decision": {
+      "action": "adopted",
+      "version": "1.2",
+      "at": "2027-03-04",
+      "reason": "Simulated analyst decision. Inventory older than 180 days passed the memo's review level and the forecast low fell below the forecast trigger while still above the floor. The response protects liquidity through spending discipline and faster reporting, without changing the floor.",
+      "observed_historical_response": false
+    }
+  }
+}

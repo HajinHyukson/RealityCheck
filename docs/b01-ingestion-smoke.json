@@ -1,0 +1,80 @@
+{
+  "purpose": "Actual local file -> queue -> Nemotron -> persisted result, isolated from presentation database",
+  "source_kind": "database_update",
+  "deduplicated": true,
+  "status": "completed",
+  "package_version": "1.2",
+  "third_decision": "pending",
+  "analysis": {
+    "id": "B01-E-33817d3f5998",
+    "event": {
+      "id": "B01-E-33817d3f5998",
+      "title": "Company archive index enrichment",
+      "event_date": "2027-09-13",
+      "available_at": "2027-09-13",
+      "review_date": "2027-09-13",
+      "sources": [
+        {
+          "document_id": "B01-SMOKE-ARCHIVE",
+          "locator": "Archive log, paragraph 1",
+          "text": "On September 13, 2027, the FluxRail records team added search labels to existing copies of the executed origination agreement and the July 20 and August 23 amendments. No document content or signature was changed. This archive-maintenance entry supplies no incident, financial result, customer change, vendor change or new contractual term."
+        }
+      ]
+    },
+    "borrower_id": "B01",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-19T21:06:42.526303+00:00",
+    "model_options": {
+      "enable_thinking": true,
+      "max_tokens": 10000,
+      "response_format": "json_object"
+    },
+    "summary": "The event describes adding search labels to existing copies of the origination agreement and amendments on September 13, 2027, with no changes to document content, signatures, or terms. It does not involve any incident, financial result, customer or vendor change, or new contractual term, and therefore does not affect any underwriting assumptions or covenant obligations for B01.",
+    "attributions": [],
+    "coverage": [
+      {
+        "assumption_id": "B01-A01",
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A02",
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A03",
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A04",
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A05",
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A06",
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "status": "unaddressed"
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [],
+    "warnings": [],
+    "error": null,
+    "decisions": {},
+    "raw_response": {
+      "summary": "The event describes adding search labels to existing copies of the origination agreement and amendments on September 13, 2027, with no changes to document content, signatures, or terms. It does not involve any incident, financial result, customer or vendor change, or new contractual term, and therefore does not affect any underwriting assumptions or covenant obligations for B01.",
+      "attributions": [],
+      "candidates": [],
+      "covenant_assessments": []
+    }
+  }
+}

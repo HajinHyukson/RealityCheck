@@ -1,0 +1,1349 @@
+{
+  "borrower_id": "R01",
+  "borrower": "iRobot Corporation",
+  "synthetic": false,
+  "source_mode": "public_sec_filings",
+  "description": "Historical public-filing replay, July 2023 to June 2025. Reports are SEC-filed company disclosures revealed in the order and on the dates the SEC accepted them. Lender responses are the actual amendments as the company described them. Later events, including the December 2025 Chapter 11 filing, are outside this packet.",
+  "original_terms": {
+    "facility_m": 200,
+    "sofr_margin_pct": 9.0,
+    "minimum_core_assets_m": 250
+  },
+  "presentation": {
+    "as_of": "2025-06-06"
+  },
+  "events": [
+    {
+      "id": "R01-D01",
+      "title": "Third-quarter 2023 results",
+      "event_date": "2023-11-07",
+      "available_at": "2023-11-07",
+      "review_date": "2023-11-07",
+      "source_kind": "public_filing",
+      "presentation_summary": "First quarterly results after the facility closed; the Amazon acquisition is still pending.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916723000068/ex991q32023pressrelease.htm",
+          "sec_accepted_at": "2023-11-07T16:33:25.000Z",
+          "sha256": "074c45866426db45a9a7be7ef6dae77e092c359c65ba885608ae48d7c88a9f93"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0013",
+          "text": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0015",
+          "text": "•Revenue for the third quarter of 2023 was $186.2 million, compared with $278.2 million in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0016",
+          "text": "◦Geographically, third-quarter 2023 revenue declined 42% in the U.S, 35% in Japan and 1% in EMEA over the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0017",
+          "text": "◦Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the third quarter of 2023 versus 76% from the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0018",
+          "text": "◦We estimate that iRobot's third-quarter 2023 revenue from e-commerce, which spans the Company's own website and app, dedicated e-commerce websites and the online arms of traditional retailers, decreased approximately 27% from the same period last year and represented approximately 61% of third-quarter 2023 revenue. iRobot's direct-to-consumer (DTC) revenue of $37 million in the third quarter of 2023 decreased 8% from the prior-year third quarter."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0019",
+          "text": "•GAAP operating expenses for the third quarter of 2023 were $107.5 million, compared with GAAP operating expenses of $144.8 million in the same period last year. Third-quarter 2023 non-GAAP operating expenses were $90.1 million, compared with non-GAAP operating expenses of $112.8 million in the same period last year. The decrease in operating expenses is attributable to cost-reduction actions in August 2022 and February 2023, along with careful expense management and scaled back working media."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0020",
+          "text": "•GAAP operating loss for the third quarter of 2023 was ($59.5) million, compared with GAAP operating loss of ($68.4) million in the same period last year. Non-GAAP operating loss for the third quarter of 2023 was ($40.6) million, compared with non-GAAP operating loss of ($34.5) million in the same period last year. The Company's operating loss reflected the impact of decreased revenue and a lower gross margin, partially offset by the benefit of expense management. The decrease in gross margin of 2 percentage points in the third quarter of 2023, compared with the same period last year, was impacted by lower leverage on fixed costs and increased promotional activities, partially offset by improved channel mix. Sequentially compared with Q2 2023, gross margin increased 3 percentage points, reflecting improved product and channel mix and reduced rework costs despite lower leverage on fixed costs. We also benefitted from lower ocean freight costs from our new products."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0021",
+          "text": "•GAAP net loss per share for the third quarter of 2023 was ($2.86), compared with GAAP net loss per share of ($4.71) in the same period last year. Non-GAAP net loss per share was ($2.82) for the third quarter of 2023, compared with non-GAAP net loss per share of ($1.78) in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0022",
+          "text": "•During the third quarter, the Company received $188.2 million, net of debt issuance costs, from its new term loan that matures on July 24, 2026. The loan proceeds received will be used to fund the Company's on-going operations. As of September 30, 2023, the Company's cash and cash equivalents were $189.6 million, compared with $58.0 million as of July 1, 2023, and $117.9 million at the end of 2022."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "text": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022. Non-GAAP DII was 163 days, compared with 96 days at the end of 2022. iRobot plans to use its on-hand inventory to help fulfill anticipated fourth-quarter 2023 orders."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0025",
+          "text": "•During the third quarter of 2023, iRobot introduced multiple new products and digital technologies to markets worldwide."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0026",
+          "text": "◦On August 28, 2023, iRobot introduced the Roomba Combo® j5+ and Roomba Combo® i5+ robot vacuum and mops, giving customers more choice when it comes to an iRobot 2-in-1 floor cleaning solution."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0027",
+          "text": "◦On September 11, 2023, iRobot expanded its product lineup further with the introductions of the Roomba Combo® j9+ robot vacuum and mop and Roomba® j9+ robot vacuum. iRobot also introduced thoughtful iRobot OS features Dirt Detective and SmartScrub, our latest cleaning automation features."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0028",
+          "text": "•iRobot's expanded product lineup and digital features have received positive reviews and media coverage by Reviewed, Vacuum Wars, The Verge, Engadget, Gear Patrol, Digital Trends, TechRadar, Les Numériques, El Confidencial, Süddeutsche Zeitung, My Navi News and Business Insider Japan among many other media outlets worldwide."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0029",
+          "text": "•iRobot was listed as one of U.S. News and World Report's \"Best Companies to Work For.\""
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0030",
+          "text": "•iRobot products were featured in Amazon's Prime Big Deal Days event, which was held October 10-11, 2023. The Company's products received favorable Prime Big Deal Days related media coverage in outlets including TODAY, Good Morning America, CNN Underscored, Good Housekeeping, Frandroid, El Mundo, Stern and Mirror."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0031",
+          "text": "•The Company's community of engaged, connected customers who have opted-in to its digital communications grew 18% to 19.3 million, from the third quarter of 2022."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0033",
+          "text": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders."
+        }
+      ]
+    },
+    {
+      "id": "R01-D02",
+      "title": "Amazon acquisition terminated; restructuring announced",
+      "event_date": "2024-01-29",
+      "available_at": "2024-01-29",
+      "review_date": "2024-01-29",
+      "source_kind": "public_filing",
+      "presentation_summary": "The pending acquisition ends. The agreement anticipated this outcome and directs part of the termination fee to the term loan.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312524017523/d741198dex992.htm",
+          "sec_accepted_at": "2024-01-29T08:36:01.000Z",
+          "sha256": "a216380ccf08589229ce8b7346930b14b8f4b3a666caacfaa5320cd18953fbcd"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0011",
+          "text": "iRobot Announces Operational Restructuring Plan to Position Company for the Future"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0014",
+          "text": "BEDFORD, Mass., Jan. 29, 2024 – Today, iRobot Corporation (NASDAQ: IRBT), a leader in consumer robots, announced that it will implement an operational restructuring plan designed to position the Company for stabilization in the current environment, while focusing on profitability and advancing key growth initiatives to extend its market share in the mid-tier and premium segments. This plan was approved following iRobot’s and Amazon’s mutual decision to terminate their previously announced merger agreement. That announcement can be found here."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0015",
+          "text": "Concurrent with the implementation of its operational restructuring plan, the Company today also announced a leadership transition whereby Colin Angle, Chairman of the Board of Directors and CEO, has stepped down as Chairman and CEO. Glen Weinstein, iRobot’s Executive Vice President and Chief Legal Officer, has been appointed Interim CEO, and Andrew Miller, lead independent director of the Board, has been appointed Chairman of the Board."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0016",
+          "text": "iRobot’s immediate priority in undertaking the operational restructuring plan is to more closely align its cost structure with near-term revenue expectations and drive profitability, including through the following financial and strategic initiatives:"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0018",
+          "text": "Achieving margin improvements and generating approximately $80-$100 million in savings on equivalent volumes through the execution of agreements with joint design and contract manufacturing partners on more attractive terms that provide significant reductions in cost of goods sold;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0020",
+          "text": "Reducing R&D expense by approximately $20 million year-over-year through increased offshoring of non-core engineering functions to lower-cost regions;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0022",
+          "text": "Centralizing global marketing activities and consolidating agency expenditures to reduce sales and marketing expenses by approximately $30 million year-over-year while seeking efficiencies in demand generation activities to drive sales more cost effectively;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0024",
+          "text": "Rightsizing the Company’s global real estate footprint through additional subleasing at its corporate headquarters and the elimination of offices and facilities in smaller, underperforming geographies; and"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0026",
+          "text": "Focusing iRobot’s product roadmap on core value drivers and pausing all work related to non-floorcare innovations, including air purification, robotic lawn mowing and education."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0027",
+          "text": "These actions will also result in a reduction of approximately 350 employees, which represents 31 percent of the Company’s workforce as of December 30, 2023, with the majority of notifications taking place by March 30, 2024. As part of this workforce reduction, iRobot expects to record restructuring charges totaling between $12 million and $13 million, primarily for severance and related costs, over the first two quarters of 2024, with the majority of the restructuring charges anticipated in the first quarter of 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0028",
+          "text": "Jeff Engel, a highly regarded turnaround expert, has been appointed Chief Restructuring Officer to oversee these initiatives and lead the implementation of the operational restructuring plan and will report directly to the Board and Mr. Weinstein."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0029",
+          "text": "The Company will continue executing key strategic activities to support iRobot’s return to profitability, including increasing its brand recognition, driving product innovation and redesigning its go-to-market strategy. Enhancements to the Company’s go-to-market playbook will focus the business on iRobot’s most profitable customers, geographies and channels, including its growing direct-to-consumer channel, while rebalancing the Company’s spending mix between price, promotion and demand generation to optimize returns."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0030",
+          "text": "Andrew Miller, Chairman of the Board, said, “iRobot is a pioneer of the consumer robot field and beloved by its customers around the world. With a legacy of innovation and a foundation of creativity, the Board and I believe that iRobot can – and will – grow its presence and continue to build a cutting-edge suite of robotic floorcare solutions that help consumers make their homes easier to maintain and healthier places to live. To do this successfully, however, we must rapidly align our operating model and cost structure to our future as a standalone company. Though decisions that impact our people are difficult, we must move forward with a more sustainable business model, and a renewed focus on profitability. We are confident that the actions we are announcing today will enable us to chart a new strategic path for sustainable value creation.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0032",
+          "text": "Concurrent with the implementation of its operational restructuring plan, the Company today also announced the following leadership changes:"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0034",
+          "text": "Colin Angle has stepped down as Chairman of the Board and CEO. Mr. Angle will continue to serve on the iRobot Board of Directors until his current term expires in May 2024, and has agreed to remain with the Company as a senior advisor for up to 12 months, to ensure a smooth transition."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0036",
+          "text": "Glen Weinstein, iRobot’s Executive Vice President and Chief Legal Officer, has been appointed Interim CEO, and the Board has initiated a search process for a permanent CEO supported by a leading executive search firm. Mr. Weinstein originally joined iRobot in 2000 as General Counsel and was promoted to General Counsel and Senior Vice President in 2005, prior to being appointed Executive Vice President and Chief Legal Officer in 2012."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0040",
+          "text": "The Board has appointed Andrew Miller, lead independent director of the Board, as Chairman of the Board. Mr. Miller has served on the iRobot Board since 2016. From 2015 until 2019, Mr. Miller was the Executive Vice President and Chief Financial Officer of PTC, a computer software and services company focused on accelerating transformation through digital technology. From 2008 to 2015, Mr. Miller was the Executive Vice President and Chief Financial Officer of Cepheid, a global leader in molecular diagnostics. Prior to Cepheid, Mr. Miller held a variety of financial leadership roles at Autodesk, MarketFirst Software and Silicon Graphics."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0041",
+          "text": "“On behalf of the Board, I would like to extend my sincerest gratitude to Colin for more than 33 years of leadership in building a company that has changed the world,” continued Mr. Miller. “Simply put, Colin revolutionized the robotics industry and under his tenure, iRobot has pioneered the intersection of robotic technology and consumer needs. We are grateful for his visionary leadership, relentless focus on R&D and commitment to our global team. I particularly appreciate Colin’s support of this transition. We are also grateful to Glen for stepping up to guide our Company through this important period. As the search for our next CEO progresses, I know we will benefit from Glen’s deep knowledge of our business, having been an integral member of iRobot’s leadership team for over 20 years.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0042",
+          "text": "Mr. Angle said, “When I founded iRobot more than three decades ago, having more than 50 million of our products in homes worldwide was beyond my wildest imagination. I am incredibly proud of what our team has accomplished over the years. From the development of the first Roomba in 2002 to our latest generation, they have been relentless in building and delivering new and iconic ways for consumers to clean and live. At the same time, I know there is a lot of work to do to map iRobot’s next chapter. Given the nature of the challenges facing the Company, the Board and I have mutually decided that iRobot will be better served by a new leader with turnaround experience. I would like to sincerely thank our team members around the world for their commitment to our mission of helping people do more. I know iRobot has the talent and passion to succeed in continuing to build the world’s most thoughtful and intelligent home innovations for years to come.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0044",
+          "text": "The Company today also announced certain preliminary fourth quarter results. iRobot anticipates reporting full-year 2023 revenue of $891 million, a 25% reduction as compared to the same period last year, a GAAP operating loss of between $265 and $285 million, and a non-GAAP operating loss of approximately $200 million. The Company ended fiscal year 2023 with $185 million in cash and cash equivalents, funded primarily from its previously announced three-year $200 million credit agreement with The Carlyle Group, which matures on July 24, 2026."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0045",
+          "text": "Under the terms of the merger agreement, Amazon will pay iRobot a $94 million termination fee. After payment of financial advisor fees of approximately 20% of the termination fee, the Company shall apply $35 million dollars of the termination fee immediately to repay the term loan and the remainder of the termination fee will be set aside to be used for future repayments of the term loan subject to limited rights of the Company to utilize such amounts for the purchase of inventory."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0046",
+          "text": "“We are disappointed with the Company’s 2023 performance – but our focus turns now to the future,” said Mr. Miller. “Along with the restructuring actions announced today, and with a refreshed turnaround-focused leadership team, we see a clear path to reinvigorating our outstanding brand, product performance and underlying technology. In addition to rightsizing our cost structure, innovation remains our most exciting growth opportunity. We look forward to reigniting growth of the brand with future launches of both new entry and premium floorcare solutions that will provide even smarter and more powerful ways for our customers to clean.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0047",
+          "text": "The Company will provide additional information on the Company’s restructuring efforts and go-forward business plans at its fourth quarter 2023 earnings call, scheduled for February 27, 2024."
+        }
+      ]
+    },
+    {
+      "id": "R01-D03",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "event_date": "2024-02-26",
+      "available_at": "2024-02-26",
+      "review_date": "2024-02-26",
+      "source_kind": "public_filing",
+      "presentation_summary": "First full results after the acquisition ended, with the company's 2024 expectations.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000005/ex991q42023pressrelease.htm",
+          "sec_accepted_at": "2024-02-26T16:53:31.000Z",
+          "sha256": "aa7dcd170952b79ad74deed8d9176b311d86494a85046162737279e94dc1b01f"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0014",
+          "text": "BEDFORD, Mass., February 26, 2024 -- iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the fourth quarter and full year ended December 30, 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0017",
+          "text": "•GAAP net loss per share was ($2.28) compared to GAAP net loss per share of ($3.07) last year"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0018",
+          "text": "•Non-GAAP net loss per share was ($1.82) compared to non-GAAP net loss per share of ($1.54) last year"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0021",
+          "text": "•GAAP net loss per share was ($11.01) compared to GAAP net loss of ($10.52) in 2022"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0022",
+          "text": "•Non-GAAP net loss per share was ($7.73) compared to non-GAAP net loss per share of ($4.50) in 2022"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0023",
+          "text": "\"As we shared last month, we are actively implementing an operational restructuring plan designed to both stabilize the business in the current environment and advance our growth initiatives,\" said Glen Weinstein, Interim CEO of iRobot. \"The plan will simplify our cost structure, create a more sustainable business model, and enable us to focus on our core value drivers. As we move forward with urgency and focus, our management team and Board are confident in iRobot's ability to build on our innovation and to navigate this period successfully as a standalone company.\""
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0024",
+          "text": "\"We are managing through a challenging period and making critical strategic progress that we believe will help expand and better position our business for the future,\" added Weinstein. \"We are confident that the actions we are taking today will drive improved performance going forward.\""
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0025",
+          "text": "iRobot anticipates full year 2024 revenue between $825 and $865 million. iRobot expects full year 2024 GAAP net loss per share between ($3.13) and ($2.70) and non-GAAP net loss per share between ($3.73) and ($3.30)."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0026",
+          "text": "iRobot's top financial priorities are liquidity and careful cash management. With the operational restructuring plan announced last month, iRobot anticipates a significant improvement in cash outflow from operations in fiscal 2024 compared with the reported cash outflow from operations of ($114.8) million for full year 2023. Excluding the net proceeds from the $94 million break-up fee from Amazon, iRobot expects negative cash flow from operations in Q1 and Q2 and anticipates generating modest positive cash flow from operations in both Q3 and Q4 during fiscal 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0028",
+          "text": "As announced on January 29, 2024, the Company has initiated an operational restructuring plan designed to more closely align its cost structure with near-term revenue expectations and drive bottom-line improvement. These measures include:"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0029",
+          "text": "•Achieving margin improvements through a focus on design-to-value and more attractive terms with manufacturing partners with an anticipated GAAP gross margin of between 31% and 33% and non-GAAP gross margin of between 32% and 34% in 2024;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0030",
+          "text": "•Reducing research and development expense by approximately $25 million through relocating certain non-core engineering functions and pausing work unrelated to iRobot's core floorcare business to focus on innovation and development efforts on the Company's key revenue generators;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0031",
+          "text": "•Centralizing global marketing activities to be more efficient in iRobot's demand generation efforts, which we anticipate will result in a decrease in overall selling and marketing expenses by $40 million including working marketing reduction of $20 million;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0032",
+          "text": "•Streamlining the Company's legal entity and real estate footprint to fit its current business needs and near-term revenue expectations; and"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0033",
+          "text": "•Implementing workforce reductions of approximately 350 employees, which represents 31 percent of the Company's workforce as of December 30, 2023, with the majority of notifications taking place by March 30, 2024. As part of this workforce reduction, iRobot expects to record restructuring charges totaling between $12 million and $13 million, primarily for severance and related costs."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0035",
+          "text": "•Geographically, fourth quarter 2023 revenue declined 20% in the U.S., 19% in Japan and 5% in EMEA over the prior period last year. Full year 2023 revenue declined 30% in the U.S., 21% in Japan and 11% in EMEA."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0036",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 83% of total robot sales in the fourth quarter of 2023 versus 84% from the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0037",
+          "text": "•iRobot's product lineup received positive reviews across regions in media outlets including Reviewed, TechRadar, Homes & Gardens, CNN Underscored, Lifehacker, TechHive, ZDNET, Xataka, T3, Tom’s Guide and Gear Patrol."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0038",
+          "text": "•The iRobot Roomba Combo j9+ was named 'Best Robot Vacuum' by U.S. News & World Report. The Company's products received other notable accolades from media outlets including GQ, Popular Mechanics, Gear Patrol and GoodsPress."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0039",
+          "text": "•iRobot products were featured as recommended deals and gifts in Black Friday/Cyber Monday and holiday gift guide-related coverage in TODAY, Good Morning America, Esquire and many other top media outlets."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0041",
+          "text": "iRobot is providing GAAP and non-GAAP financial expectations for the fiscal year ending December 28, 2024. A detailed reconciliation between the Company's GAAP and non-GAAP expectations is included in the attached financial tables."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0045",
+          "text": "| Revenue | $825 - $865 million | | — | | $825 - $865 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0049",
+          "text": "•For the first half of 2024, revenue is expected to decline in the high teens to low 20s percentage range compared to the first half of 2023, with Q2 expected to be the weaker quarter as the Company expects a shifting of orders into Q3."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0050",
+          "text": "•For the second half of the year, the Company anticipates a mid-single-digit percentage improvement in revenue compared to the second half of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0051",
+          "text": "•iRobot anticipates that the majority of the gross margin improvement will occur in the second half of the year as the Company ramps its initiatives."
+        }
+      ]
+    },
+    {
+      "id": "R01-D04",
+      "title": "First-quarter 2024 results",
+      "event_date": "2024-05-07",
+      "available_at": "2024-05-07",
+      "review_date": "2024-05-07",
+      "source_kind": "public_filing",
+      "presentation_summary": "Restructuring progress and early-2024 operating results.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000034/ex991q12024pressrelease.htm",
+          "sec_accepted_at": "2024-05-07T16:21:36.000Z",
+          "sha256": "c39f55f7a58e5f2425808262dea31c9aa8acf01c7d3f5df82e6b40158083bd4c"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0013",
+          "text": "Gary Cohen, Former Gillette, Timex and Energizer Executive, Named as Company’s New CEO"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0015",
+          "text": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0018",
+          "text": "•GAAP net income per share was $0.30 compared with GAAP net loss per share of ($2.95) in Q1 of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0019",
+          "text": "•Non-GAAP net loss per share was ($1.53) compared with non-GAAP net loss per share of ($1.67) in Q1 of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0020",
+          "text": "•Positive cash flow from operations of $1.4 million benefited from one-time net proceeds of $75 million from transaction termination fee paid to the Company by Amazon.com."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0022",
+          "text": "•Named Gary Cohen, former Gillette, Timex and Energizer executive, as iRobot’s new CEO."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0023",
+          "text": "•Launched Roomba Combo Essential robot and Roomba Vac Essential robot as first products to benefit from iRobot’s new product development paradigm with its contract manufacturers."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0024",
+          "text": "•Substantially completed previously announced reduction-in-force initiative, decreasing Company’s total workforce by 30%."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0025",
+          "text": "“We exceeded our financial expectations for the first quarter as our team executed on our restructuring plan to significantly improve iRobot’s near-term operations,” said Glen Weinstein, who served as iRobot's interim CEO until Mr. Cohen’s appointment. “Our plan is designed to stabilize the business in the current market environment without sacrificing longer-term growth initiatives. In the first quarter, we took aggressive actions to simplify our cost structure, implement a more sustainable business model and focus on our core value drivers."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0026",
+          "text": "“With the appointment of Gary Cohen as our new CEO, the board and management team are all the more confident in iRobot’s ability to build on its legacy of innovation. The Company is fortunate to have an incredible team of builders and innovators who are passionate about the robots we create, with customers who truly value our products.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0028",
+          "text": "As announced in a separate press release today, the Company has named Gary Cohen as its new chief executive officer. Mr. Cohen previously served as the CEO of Qualitor Automotive and Timex, and held senior leadership roles at Gillette and Energizer, among other companies. In all, he has more than 25 years of executive leadership experience and a track record of managing successful corporate turnarounds. He will lead the Company’s transformational strategy, overseeing all aspects of the Company’s business, including innovation, product and commercial strategies, operational excellence and talent, and will work across the organization to build a sustainable competitive advantage and consumer-centric brand."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0030",
+          "text": "As announced on January 29, 2024, iRobot has initiated an operational restructuring plan to align its cost structure with near-term revenue expectations and drive bottom-line improvement. The plan includes implementing margin-improvement initiatives, reducing R&D expenses by relocating certain non-core engineering functions, pausing work unrelated to the Company’s core floorcare business, centralizing global marketing activities, and streamlining the Company’s legal entity and real estate footprint to fit its current business needs and near-term revenue expectations."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0031",
+          "text": "In the first quarter, the Company reduced its workforce by approximately 330 employees, representing 30 percent of the Company’s total workforce as of December 30, 2023, resulting in a significant decrease in operating expenses. The Company’s first quarter 2024 GAAP results include a $14 million charge related to the restructuring plan, primarily for severance and related costs. The Company expects an additional restructuring charge of approximately $9 million across the remainder of 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0032",
+          "text": "Also in the first quarter, iRobot launched the Roomba Combo Essential and Roomba Vac Essential robots, the first products to benefit from the new product development paradigm with the Company’s contract manufacturers, taking advantage of their mature supply chains, expertise in design-for-manufacturing, and flexibility in component selection, to reduce the cost of goods sold."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0034",
+          "text": "•Geographically in the first quarter of 2024, revenue declined 3% in EMEA, 16% in Japan and 4% in the U.S. over the prior year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 6% over the prior year period."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0035",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the first quarter of 2024 versus 88% from the same period last year, reflecting the introduction of the Roomba Combo Essential, providing the iRobot 2-in-1 cleaning experience at a lower price point."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0036",
+          "text": "•iRobot introduced the Roomba Combo Essential robot, an affordable ($275) and easy-to-use 2-in-1 robot vacuum and mop that delivers the same cleaning essentials of the best-selling Roomba 600 Series, but with better performance and a larger feature set. The Company also introduced the Roomba Vac Essential robot, which offers the same intelligence and features as the Roomba Combo Essential but in a vacuum-only package."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0037",
+          "text": "•iRobot Roomba robots held the top five spots for robotic vacuums in Consumer Reports."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0038",
+          "text": "•iRobot’s product lineup received numerous positive reviews and international media coverage, including in PCMag, Reviewed, ZDNet, Engadget, BGR, Tom’s Guide, CNN Underscored, U.S. News & World Report, TechHive, Frandroid, La Vanguardia and Europa Press."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0039",
+          "text": "•The Roomba Combo j9+ was named a Better Homes & Gardens Clean House Award winner in the category of ‘Best Wet-Dry Robot Vacuum.’"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0041",
+          "text": "iRobot is providing GAAP and non-GAAP financial expectations for the second quarter ending June 29, 2024. Given persistent weakness in the Japanese yen and the timing of new product introductions, the Company is updating the full-year outlook it provided on February 27, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0045",
+          "text": "| Revenue | $167 - $172 million | | — | | $167 - $172 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0049",
+          "text": "•Q2 revenue is expected to be the weakest quarter of 2024 when compared to the prior year as the Company expects a shifting of a large order from Q2 last year to Q3 this year."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0050",
+          "text": "•Q2 revenue is expected to be impacted by unfavorable currency due to continued weakness of the Japanese yen against the U.S. dollar."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0054",
+          "text": "| Revenue | $815 - $860 million | | — | | $815 - $860 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0058",
+          "text": "•The Company revised its full-year 2024 expectations regarding revenue and gross margin due to an unfavorable currency impact of the Japanese yen and timing of new product introductions."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0059",
+          "text": "•For the second half of the year, the Company anticipates a mid-single-digit percentage improvement in revenue compared with the second half of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0060",
+          "text": "•iRobot anticipates that the majority of the anticipated gross margin improvement will occur in the second half of the year as the Company progresses with a number of key initiatives."
+        }
+      ]
+    },
+    {
+      "id": "R01-D05",
+      "title": "Second-quarter 2024 results",
+      "event_date": "2024-08-06",
+      "available_at": "2024-08-06",
+      "review_date": "2024-08-06",
+      "source_kind": "public_filing",
+      "presentation_summary": "Mid-year results and updated full-year outlook.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000059/ex991q22024pressrelease.htm",
+          "sec_accepted_at": "2024-08-06T16:18:06.000Z",
+          "sha256": "874a8ed3fd23d9668770b8c0592c12672137245195550d90853dbf086c0bdc4e"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0013",
+          "text": "Company Executing on “iRobot Elevate” Strategy to Focus on Branding, Innovation and Operating Performance"
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0016",
+          "text": "BEDFORD, Mass., August 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the second quarter ended June 29, 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0017",
+          "text": "“We are executing iRobot Elevate, a strategy focused on five pillars of financial performance, customer-centricity, bringing innovative products to market in an entirely new and more profitable way, continuing our operational and organization improvements, and developing and retaining our best talent,” said Gary Cohen, iRobot CEO. “We are elevating everything we do at iRobot to improve our performance and generate long-term shareholder value."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0018",
+          "text": "“In the second quarter, we made significant progress, specifically in lowering the Company’s cost structure through aggressive restructuring efforts. As part of our iRobot Elevate strategy, we strengthened our balance sheet, narrowed our operating loss, decreased headcount, and substantially reduced inventory. Without a non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to our new product development paradigm with our contract manufacturers, we would have met our Q2 improvement targets for gross margin, operating loss, and net loss per share."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0019",
+          "text": "“On the top line, second-quarter revenue came in at the low end of our outlook and was affected by a more challenging consumer spending environment, heightened competition in our market segment and greater-than-expected foreign currency impact. The impact of these headwinds is reflected in our updated revenue outlook for the full year."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0020",
+          "text": "“In July, we announced our most advanced product, the Roomba Combo 10 Max robot + AutoWash Dock. It represents an important milestone in our product innovation roadmap. Our talented team is focused on bringing innovative products to market to refresh our entire product line and enable iRobot to be significantly more competitive. In 2025, we plan to launch significant technological enhancements and new products across the price points we serve."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0021",
+          "text": "“Looking ahead, I am confident we can capitalize on our iconic brand with a renewed consumer-centric emphasis and a sharply focused innovation and product roadmap to advance our growth initiatives and deliver long-term shareholder value.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0022",
+          "text": "Second Quarter 2024 Financial Results (in millions, except per share amounts and percentages)"
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0082",
+          "text": "1) In Q2'24, GAAP and Non-GAAP gross margin were negatively impacted by an $18.4 million non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to our new product development paradigm with our contract manufacturers (the “Manufacturing Transition Charge”), which reduced GAAP and non-GAAP gross margin by 11.1 percentage points."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0083",
+          "text": "2) In Q2'24, GAAP and Non-GAAP operating loss were negatively impacted by the Manufacturing Transition Charge."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0084",
+          "text": "3) In Q2'24, GAAP and Non-GAAP net loss per share were negatively impacted by the Manufacturing Transition Charge, which reduced GAAP and non-GAAP net loss per share by $0.63."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0086",
+          "text": "•As of June 29, 2024, the Company’s cash and cash equivalents totaled $108.5 million, compared with $118.4 million as of first quarter 2024. The Company also had an additional $40.5 million restricted cash set aside for future repayment of its term loan, subject to limited rights for the purchase of inventory in the third quarters of fiscal 2024 and 2025."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0087",
+          "text": "•As of June 29, 2024, the Company’s inventory totaled $101.4 million, representing a 41% reduction from the second quarter of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0088",
+          "text": "•During the second quarter, the Company sold 1.1 million shares under its at-the-market (ATM) offering program for total net proceeds of $12.3 million. At quarter end, the Company had $81.1 million remaining under its $100 million ATM offering program."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0089",
+          "text": "•As of June 29, 2024, iRobot has reduced its total headcount by 35% since year-end 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0090",
+          "text": "•In the second quarter of 2024, revenue declined 35.6% in the U.S., 34.7% in Japan and 21.6% in EMEA over the prior-year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 28% over the prior-year period."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0091",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 76% of total robot sales in the second quarter of 2024 versus 84% from the same period last year, reflecting the introduction of the Roomba Combo Essential, which provides the iRobot 2-in-1 cleaning experience at a lower price point."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0093",
+          "text": "•The recently introduced Roomba Essential successfully reached full distribution coverage, launching in 14,000 stores across all three regions. In Japan, Roomba Essential was number one in units sold in May and June in the robot vacuum cleaner market, according to GfK."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0094",
+          "text": "•iRobot introduced its most advanced robot vacuum and mop, the Roomba Combo 10 Max Robot + AutoWash Dock. The newly designed 2-in-1 Roomba Combo 10 Max brings independent cleaning to a new level with iRobot’s first multifunction AutoWash Dock and added intelligence."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0095",
+          "text": "•The Roomba Combo 10 Max received favorable launch coverage in the US and EMEA, including in The Verge, Mashable, Reviewed, PCMag, ZDNet, Frandroid, El Espanol and T3."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0096",
+          "text": "•For the 10th consecutive year, Roomba was a featured product in Amazon’s Prime Day event, which was held on July 16-17. The Company’s products received Prime Day related media coverage in outlets including CNET, CNN Underscored, Engadget, Real Simple, USA Today and Forbes Vetted."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0097",
+          "text": "•The Roomba j9 series and Roomba Essential series continued to receive favorable media coverage, reviews and awards, including in GQ, Men’s Health, Reviewed and Insider."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0099",
+          "text": "iRobot is providing GAAP and non-GAAP financial expectations for the third quarter ending September 28, 2024. Due to the aforementioned Manufacturing Transition Charge, persistent foreign currency headwinds, and consumer market softness, the Company also is updating the full-year 2024 outlook it provided on May 7, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0103",
+          "text": "| Revenue | $217 - $223 million | | — | | $217 - $223 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0110",
+          "text": "| Revenue | $765 - $800 million | | — | | $765 - $800 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0114",
+          "text": "*The Company revised these three FY2024 metrics primarily to reflect the impact of the Manufacturing Transition Charge."
+        },
+        {
+          "document_id": "IRBT-PR-2024-08-06",
+          "locator": "P0115",
+          "text": "As previously noted, the Company expects to generate modest positive cash flow from operations during the second half of the year."
+        }
+      ]
+    },
+    {
+      "id": "R01-D06",
+      "title": "Third-quarter 2024 results",
+      "event_date": "2024-11-06",
+      "available_at": "2024-11-06",
+      "review_date": "2024-11-06",
+      "source_kind": "public_filing",
+      "presentation_summary": "Mixed evidence: margins improve while results trail the company's earlier expectations.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000079/ex991q32024pressrelease.htm",
+          "sec_accepted_at": "2024-11-06T06:19:58.000Z",
+          "sha256": "e54da1493ba129aacbfc2820038f2afc01f69beac770b00376bf865d4389a07a"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0015",
+          "text": "BEDFORD, Mass., November 6, 2024 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 28, 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0016",
+          "text": "“We continue to make progress on our turnaround strategy,” said Gary Cohen, iRobot’s CEO. “In the third quarter, we expanded our non-GAAP gross margin by 590 basis points year over year and improved our use of operating cash. However, our overall results did not meet the expectations we set in August, as persistent market segment and competitive headwinds impacted our sell-through performance. Although we now expect it will take more time to stabilize our revenue trend, we are on track to exceed our operating expense targets for the year, while at the same time continuing to invest in areas that are expected to drive growth."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0017",
+          "text": "“Our ongoing restructuring has fundamentally changed the way we innovate, develop and build our robots, which is central to improving our performance and generating long-term shareholder value. With the benefit of lower operating costs, we expect to enhance margins and improve profitability in 2025."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0018",
+          "text": "“As we move forward in this new chapter in iRobot’s history, one thing is abundantly clear: we have a powerful brand that will serve as the foundation for the turnaround of this Company. That brand power is at the heart of our turnaround strategy, iRobot Elevate. In executing that strategy, we are focused on providing our iconic brand with an improved platform to drive long-term profitable growth.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0019",
+          "text": "Third Quarter 2024 Financial Results (in millions, except per share amounts and percentages)"
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0022",
+          "text": "| Revenue | $193.4 | $186.2"
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0032",
+          "text": "*Beginning in the fourth quarter of fiscal 2023, the Company updated its calculation of non-GAAP financial measures to no longer exclude \"IP litigation expense, net.\" The metrics are presented in accordance with this updated methodology. As a result, the third quarter ended September 30, 2023 differs from those previously presented by the amount of IP litigation expense, net recorded in such period."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0034",
+          "text": "•The Company increased non-GAAP gross margin in the third quarter by 590 basis points year over year as a result of its restructuring and iRobot Elevate initiatives."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0035",
+          "text": "•As of September 28, 2024, the Company’s cash and cash equivalents totaled $99.4 million, compared with $108.5 million as of the end of the second quarter of 2024. The Company also had an additional $41.1 million restricted cash set aside for future repayment of its term loan, subject to limited rights for inventory purchases, of which $40.0 million was drawn down at the close of the third quarter and received in the fourth quarter."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0036",
+          "text": "•As of September 28, 2024, the Company’s inventory totaled $149.2 million, compared with $244.5 million as of the end of the third quarter of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0037",
+          "text": "•During the third quarter, the Company sold 0.2 million shares under its at-the-market (ATM) offering program for total net proceeds of $1.4 million. At quarter end, the Company had $79.6 million remaining under its $100 million ATM offering program."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0038",
+          "text": "•As of September 28, 2024, iRobot had reduced its total headcount by 41% since year-end 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0039",
+          "text": "•In the third quarter of 2024, revenue increased 23% in the U.S., declined 20% in Japan, and declined 11% in EMEA over the prior-year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 15% over the prior-year period."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0040",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 79% of total robot sales in the third quarter of 2024, compared with 80% in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0042",
+          "text": "•iRobot introduced the 2-in-1 Roomba Combo 2 Essential robot globally and Roomba Vac 2 Essential robot in North America. These robots are the first in the Company’s affordable Essential series that automatically empty their dustbins into the AutoEmpty dock after cleaning. The robots also provide twice the cleaning power of the original Essential series, include an enhanced bumper design to more seamlessly navigate floor space, and have the ability to recharge and resume during cleaning missions."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0043",
+          "text": "•In August, iRobot launched the Roomba Combo 10 Max in Japan, earning positive coverage in media outlets including Nikkei, NHK and Gizmodo."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0045",
+          "text": "•iRobot products received favorable media coverage across the globe, including from CBS News, Engadget, The Verge, Tom’s Guide, ZDNet, The Ambient, and Europa Press."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0046",
+          "text": "•Roomba was a featured product in Amazon’s Prime Big Deal Days event in October. iRobot’s products received Prime Big Deal Day related media coverage in outlets including Good Morning America, NBC Select, The Sun, Frandroid and El Confidencial."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0048",
+          "text": "iRobot is providing GAAP and non-GAAP financial expectations for the fourth quarter ending December 28, 2024 and updating the full-year 2024 outlook it provided on August 7, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0052",
+          "text": "| Revenue | $175 – $200 million | | — | | $175 – $200 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-11-06",
+          "locator": "P0059",
+          "text": "| Revenue | $685 – $710 million | | — | | $685 – $710 million"
+        }
+      ]
+    },
+    {
+      "id": "R01-D07",
+      "title": "Preliminary fourth-quarter 2024 results",
+      "event_date": "2025-01-13",
+      "available_at": "2025-01-13",
+      "review_date": "2025-01-13",
+      "source_kind": "public_filing",
+      "presentation_summary": "Pre-announcement two months before the first amendment became public.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000002/ex991q424pre-announcement.htm",
+          "sec_accepted_at": "2025-01-13T07:08:56.000Z",
+          "sha256": "6b7c00a7eec725c87e5191471fcdd73c3616ec94d9548ce968343f531844a915"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0012",
+          "text": "BEDFORD, Mass., January 13, 2025 - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its preliminary financial results for the fourth quarter ended December 28, 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0013",
+          "text": "Based on preliminary financial results, iRobot expects to report fourth-quarter revenue of approximately $171 million, GAAP operating loss of approximately ($59) million and non-GAAP operating loss of approximately ($47) million. The Company expects to report approximately $134 million in cash and cash equivalents as of the end of fiscal 2024, exceeding its internal forecast and continuing to improve its use of operating cash. These preliminary financial results have not been audited and are subject to adjustment based on iRobot’s completion of year-end financial close processes."
+        },
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0014",
+          "text": "“Our preliminary results reflect higher-than-anticipated seasonal promotional spending to stimulate sell-through prior to our 2025 new product launches,” said Gary Cohen, iRobot CEO. “Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments as part of our transition to a new product development paradigm with our contract manufacturers. Both had an impact on our gross margin and operating loss performance in the fourth quarter.”"
+        },
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0015",
+          "text": "“We have fundamentally changed the way we innovate, develop and build our robots, which is central to our strategy for improving financial performance and generating long-term shareholder value,” Cohen said. “We exceeded our 2024 operating expense restructuring targets while we are investing in areas that are expected to drive growth. We remain on schedule with our product launches planned for 2025 that are designed to excite consumers with feature-rich robots and improve the consumer product experience.”"
+        },
+        {
+          "document_id": "IRBT-PR-2025-01-13",
+          "locator": "P0016",
+          "text": "For the full year 2025, iRobot currently expects to return to year-over-year top-line growth as it introduces new and revitalized products. The Company expects the second half of 2025 will be stronger than the first half of the year as its product lineup ramps up. The Company expects first-quarter 2025 results will continue to reflect a transitional period for its product line. With the benefit of lower product costs and reduced development timelines, iRobot expects enhanced"
+        }
+      ]
+    },
+    {
+      "id": "R01-D08",
+      "title": "Fourth-quarter and full-year 2024 results",
+      "event_date": "2025-03-12",
+      "available_at": "2025-03-12",
+      "review_date": "2025-03-12",
+      "source_kind": "public_filing",
+      "presentation_summary": "Full-year results. The SEC accepted this filing eight minutes before the filing that disclosed Amendment No. 1, so it cannot support an early-warning claim.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000012/ex991q42024pressrelease.htm",
+          "sec_accepted_at": "2025-03-12T07:16:56.000Z",
+          "sha256": "02ddc59ff96d888900353a2981aba4502a1cf4633f8f9ebc4d7790bd5b23159f"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0015",
+          "text": "BEDFORD, Mass. (March 12, 2025) -- iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the fourth quarter and full year ended December 28, 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0016",
+          "text": "“2024 was a transformational year for iRobot, marked by the continued and successful execution of our five-point iRobot Elevate turnaround strategy as we’ve meaningfully reduced operating losses, improved gross margins and optimized cash flow,” said Gary Cohen, iRobot CEO. “iRobot has defined the robotic floorcare category for more than 30 years, and we remain committed to growing and evolving our business across smart home categories amidst a dynamic operating landscape. As we move ahead, we will continue to take decisive action to reclaim our position as the industry leader and build on iRobot’s strong foundation centered around our globally recognized, iconic brand, Roomba.”"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0017",
+          "text": "Mr. Cohen continued, “Yesterday, we announced the largest product launch in iRobot’s history, better positioning iRobot as the leader in the category that we created. Importantly, this strong pipeline of breakthrough new products is expected to be margin-accretive compared to our legacy products and should begin to support year-over-year revenue growth in 2025. We plan to leverage that top-line growth with our lower cost structure to drive improved profitability, and we remain on track to achieve gross-margin expansion and improved cash flow from operations this year.”"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0018",
+          "text": "The Company has made notable progress strengthening its financial foundation over the past year. Since implementing its operational restructuring plan in January 2024, iRobot has significantly reduced its headcount by more than 50%, lowered and sharpened sales and marketing expense through centralization and consolidation, and decreased inventory and cash outflows. The Company also achieved a significant reduction in the cost of its products through strategically transforming its R&D and supply chain model and leveraging joint design and contract manufacturing partnerships while increasing innovation and improvements to product features, quality, and software. These collective actions contributed to a meaningful reduction in GAAP and non-GAAP operating expenses in 2024 compared with the prior year. As a continuation of the steps the Company has taken to date, iRobot’s Board of Directors has also initiated a formal strategic review to evaluate a broad range of alternatives, including, but not limited to, refinancing the"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0019",
+          "text": "Company’s debt and exploring a potential sale or strategic transaction. During this process, the Company remains squarely focused on executing its business strategy and meeting the evolving needs of its customers."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0021",
+          "text": "•iRobot’s 2025 lineup, available across North America and select European markets beginning on March 18, includes:"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0022",
+          "text": "◦Roomba® 105 Vac Robot series, featuring 70x more power-lifting suction (as compared to Roomba® 600 series robots)*,"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0023",
+          "text": "◦Roomba® 205 DustCompactor™ Vac Robot and Roomba® 205 DustCompactor™ Combo Robot that devours dirt while the industry-leading DustCompactor™ innovation packs away debris for months,"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0024",
+          "text": "◦Roomba® Plus 405 Combo Robot + AutoWash™ Dock that boasts intense suction, deep scrubbing and a maintenance-free dock, and"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0025",
+          "text": "◦Roomba® Plus 505 Combo Robot + AutoWash™ Dock, featuring PerfectEdge® Technology to get deep into corners, a hands-free multi-function dock that automatically empties debris, washes and heat-dries mop pads and self-cleans when finished."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0026",
+          "text": "•iRobot has continued to receive overwhelmingly positive media coverage and product reviews around the world, including in Forbes, Vanity Fair, ZDNet, PureWow, ASCII, La Vanguardia, Stuff, and Nord Domotique."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0027",
+          "text": "Fourth-Quarter 2024 Financial Results (in millions, except per share amounts and percentages)"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0030",
+          "text": "| Revenue | $172.0 | $307.5"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0051",
+          "text": "1) In Q4'24, GAAP and Non-GAAP gross margins were negatively impacted by an $8.2 million non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to the Company's new product development paradigm with its contract manufacturers (the “Q4 Manufacturing Transition Charge”), which reduced GAAP and Non-GAAP gross margins by 4.8 percentage points."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0052",
+          "text": "2) In Q4'24, GAAP and Non-GAAP operating losses were negatively impacted by the Q4 Manufacturing Transition Charge."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0053",
+          "text": "3) In Q4'24, GAAP and Non-GAAP net loss per share were negatively impacted by the Q4 Manufacturing Transition Charge, which reduced GAAP and Non-GAAP net loss per share by $0.27."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0054",
+          "text": "Full-Year 2024 Financial Results (in millions, except per share amounts and percentages)"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0057",
+          "text": "| Revenue | $681.8 | $890.6"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0078",
+          "text": "1) For full-year 2024, GAAP and Non-GAAP gross margins were negatively impacted by a $26.6 million non-recurring charge related to the write-off of excess component inventory and the losses on non-cancelable purchase commitments as part of the transition to the Company's new product development paradigm with its contract manufacturers (the “2024 Manufacturing Transition Charge”), which reduced GAAP and Non-GAAP gross margins by 3.9 percentage points."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0079",
+          "text": "2) For full-year 2024, GAAP and Non-GAAP operating loss were negatively impacted by the 2024 Manufacturing Transition Charge."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0080",
+          "text": "3) For full-year 2024, GAAP and Non-GAAP net losses per share were negatively impacted by the 2024 Manufacturing Transition Charge, which reduced GAAP and Non-GAAP net loss per share by $0.90."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0082",
+          "text": "•As of December 28, 2024, the Company’s cash and cash equivalents totaled $134.3 million, compared with $99.4 million as of the end of the third quarter of 2024. As previously announced, the Company elected to draw down $40 million of restricted cash to purchase inventory, and received those funds in the fourth quarter. This is reflected in the year-end 2024 total."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0083",
+          "text": "•As of December 28, 2024, the Company’s inventory totaled $76.0 million, compared with $152.5 million as of the end of the fourth quarter of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0084",
+          "text": "•As of December 28, 2024, iRobot had reduced its total headcount by approximately 51% to 541 since year-end 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0085",
+          "text": "•In the fourth quarter of 2024, revenue decreased 47% in the U.S., 34% in Japan, and 44% in EMEA, respectively, over the prior-year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 31% and EMEA decreased 42% over the prior-year period. Q4 2024 revenue was impacted by higher-than-anticipated promotional spending to stimulate sell-through prior to its 2025 product launch, timing of orders from its largest customer for the holiday season, which was pulled forward into the third quarter of 2024, and ongoing competitive challenges that the Company is addressing with its new product launches."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0086",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 83% of total robot sales in the fourth quarter of 2024, compared with 82% in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0088",
+          "text": "As will be noted in iRobot’s Annual Report on Form 10-K for the year ended December 28, 2024 (10-K), there can be no assurance that the new product launches will be successful due to potential factors, including, but not limited to consumer demand, competition, macroeconomic conditions, and tariff policies. Given these uncertainties and the implication they may have on the Company’s financials, there is substantial doubt about the Company’s ability to continue as a going concern for a period of at least 12 months from the date of the"
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0089",
+          "text": "issuance of its consolidated 2024 financial statements. Additional information will be included in the 10-K that is filed with the SEC."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0091",
+          "text": "As part of its continued efforts to further strengthen its liquidity and financial position, the Company has amended its existing term loan and is actively engaged in ongoing collaborative and constructive discussions with its primary lender as the Board continues its strategic review of alternatives for the business."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0092",
+          "text": "The Board has not set a timetable for the conclusion of this review, and there can be no assurance that the exploration of strategic alternatives will result in any agreements or transactions. The Company does not intend to disclose developments relating to this process until it determines that further disclosure is appropriate or necessary. The Board has engaged Canaccord Genuity and BofA Securities as its financial advisors for its strategic review."
+        },
+        {
+          "document_id": "IRBT-PR-2025-03-12",
+          "locator": "P0093",
+          "text": "In addition, the Company appointed Neal Goldman as an independent director to its Board. Mr. Goldman is a seasoned executive with extensive public company board experience and a deep background in strategic planning, financial management and corporate turnaround consulting across the technology and retail industries. The Company provided additional information in a separate press release issued today."
+        }
+      ]
+    },
+    {
+      "id": "R01-D09",
+      "title": "First-quarter 2025 results and Amendment No. 2",
+      "event_date": "2025-05-06",
+      "available_at": "2025-05-06",
+      "review_date": "2025-05-06",
+      "source_kind": "public_filing",
+      "presentation_summary": "Quarterly results disclosed in the same filing as the first waiver extension.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/ex991q12025pressrelease.htm",
+          "sec_accepted_at": "2025-05-06T16:27:44.000Z",
+          "sha256": "e513e48b7835589bfc96fac8fe60597a9cf16b15aa349f49cdc5ea35e789dd7d"
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/irbt-20250430.htm",
+          "sec_accepted_at": "2025-05-06T16:27:44.000Z",
+          "sha256": "ba7e4caae66df565df529c128c5a99bb9e5d87940a8bededa7ed7e904e038ea9"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0015",
+          "text": "BEDFORD, Mass. -- iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 29, 2025."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0016",
+          "text": "“We continued to make meaningful progress on our iRobot Elevate turnaround strategy in the first quarter and initiated the largest new product launch in iRobot’s history,” said Gary Cohen, iRobot CEO. “We are encouraged by the positive reactions from distributors, retailers and consumers, and expect to see an uptick in sales later in the year as availability of our suite of new, technologically innovative Roomba® vacuums and 2-in-1 vacuums and mops expands. As our Board of Directors continues its review of strategic alternatives for our business, we remain focused on executing our proven strategy and delivering the products our customers have come to know and love.”"
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0017",
+          "text": "The Company has achieved a significant reduction in operating expenses and production costs by transforming its R&D and supply chain model to better leverage the Company’s design capabilities and contract manufacturing partnerships. This reinvention of the way iRobot operates has allowed for a greater focus on innovation and improvements to product features, quality, and software. With respect to the current tariff conditions, the majority of the Company’s U.S. imports come from Vietnam and are currently subject to a 10% tariff rate."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0018",
+          "text": "“Our first quarter performance reflects what has been a major transitional period for iRobot as we worked to clear our sales channels of legacy product inventory. As we continue to navigate a dynamic macro environment, we expect our new products and lower overall cost structure to drive improved profitability over the long term. We expect to see solid sales traction later this year to support year-over-year revenue growth in 2025, and we remain on track to deliver gross-margin expansion and improved cash flow from operations this year,” concluded Cohen."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0020",
+          "text": "•In late March and early April 2025, iRobot announced the availability in North America and select European markets its suite of technologically innovative Roomba® vacuums and 2-in-1 vacuums and mops. Media coverage in North America and Europe was impressive with more than 200 pieces of media coverage in some of the world’s most influential tech/consumer outlets, reaching a potential audience (total UVPM/Circulation/Reach) of more than 2.5 billion."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0021",
+          "text": "•On April 16, 2025, iRobot introduced its new product lineup in Japan, engaging with more than 100 media outlets and influencers, resulting in more than 600 pieces of media coverage in one week."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0022",
+          "text": "•On April 23, 2025, iRobot announced the availability of the Roomba® Max 705 Vac Robot + AutoEmpty™ Dock in North America and select European markets."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0023",
+          "text": "•iRobot has continued to receive positive media coverage and product reviews around the world, including in Tom’s Guide US, Engadget US, Vacuum Wars US, The Independent UK, La Voz de Galicia Spain, Les Numeriques France, Fuji News Network and All the Things."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0024",
+          "text": "First Quarter 2025 Financial Results (in millions, except per share amounts and percentages)"
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0027",
+          "text": "| Revenue | $101.6 | $150.0"
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0038",
+          "text": "*Q1 2024 GAAP operating income, GAAP net income and GAAP net income per share included the one-time net termination fee of $75 million received as a result of the termination of the Amazon Merger Agreement."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0040",
+          "text": "•As of March 29, 2025, the Company’s cash and cash equivalents including restricted cash totaled $112.3 million, compared with $138.0 million at the end of the fourth quarter of 2024. During the third quarter of 2024, the Company elected to draw down $40 million from the restricted cash that is set aside for future repayment of its term loan, subject to limited ability of the Company to utilize such amount at the discretion of the lenders for the purchase of inventory. The Company repaid that amount to restricted cash during the first quarter of 2025."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0041",
+          "text": "•As of March 29, 2025, the Company reduced inventory to $69.0 million, compared with $76.0 million at the end of the fourth quarter of 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0042",
+          "text": "•In the first quarter of 2025, revenue decreased 39.9% in the U.S., 26.9% in EMEA, and 20.8% in Japan, respectively, over the prior-year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 10% and EMEA revenue decreased 24% over the prior-year period. Q1 2025 revenue was impacted by additional promotional spending to stimulate sell-through of legacy products ahead of the Company’s 2025 new product launch, along with ongoing competitive challenges that the Company is addressing with its new product launches."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0043",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 76% of total robot sales in the first quarter of 2025, compared with 81% in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0045",
+          "text": "As previously announced, the Company’s Board of Directors is conducting a review of strategic alternatives, including, but not limited to, exploring a potential sale or strategic transaction, and refinancing the Company’s debt. This review process is ongoing."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0046",
+          "text": "The Board has not set a timetable for the conclusion of this review, and there can be no assurance that the exploration of strategic alternatives will result in any transactions or outcomes. The Company does not intend to disclose developments relating to this process until it determines that further disclosure is appropriate or necessary."
+        },
+        {
+          "document_id": "IRBT-PR-2025-05-06",
+          "locator": "P0047",
+          "text": "The Company remains actively engaged in ongoing collaborative and constructive discussions with its primary lender while the Board continues its strategic review process. On April 30, 2025, the Company further amended its existing term loan to extend the covenant waiver under the term loan to June 6, 2025."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-2",
+          "locator": "P0044",
+          "text": "As previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement (“Amendment No. 2”), which extended the Initial Amendment Period to June 6, 2025."
+        }
+      ]
+    },
+    {
+      "id": "R01-D10",
+      "title": "Amendment No. 3 and updated risk disclosure",
+      "event_date": "2025-06-05",
+      "available_at": "2025-06-05",
+      "review_date": "2025-06-05",
+      "source_kind": "public_filing",
+      "presentation_summary": "Second waiver extension with a required prepayment and additional warrants.",
+      "allow_no_impact": true,
+      "provenance": [
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654d8k.htm",
+          "sec_accepted_at": "2025-06-05T21:12:09.000Z",
+          "sha256": "976577e952ec226e909e2db09348fbdaf38c67198b6b56e3277d7550868716d6"
+        }
+      ],
+      "sources": [
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0054",
+          "text": "As previously announced, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended from time to time, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Waiver Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement, which extended the Initial Waiver Period to June 6, 2025. On June 5, 2025, the Company entered into Amendment No. 3 to the Credit Agreement (“Amendment No. 3”), which further extended the Initial Waiver Period to August 14, 2025."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0055",
+          "text": "In connection with Amendment No. 3 the Company (1) is required to make a prepayment of $4 million in cash currently held in a restricted cash account in favor of the Lenders, which will be entirely applied to reduce the outstanding principal amount of the Term Loan and (2) issued to the Lenders on the date of Amendment No. 3 warrants to purchase an aggregate of 1,556,323 shares of the Company’s common stock (equal to five percent of the Company’s outstanding common stock as of June 4, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of June 5, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0066",
+          "text": "The waiver of events of default under our senior secured term loan credit facility is time-limited; if this waiver is not extended at the end of the applicable period, we will be in default. Our senior secured term loan credit facility provides our lenders with a first-priority lien against substantially all of our assets, and contains financial covenants and other restrictions on our actions that may limit our operational flexibility or otherwise adversely affect our results of operations."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0067",
+          "text": "On March 11, 2025, we entered into Amendment No. 1 to our credit agreement (the “Credit Agreement”) with TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent (the “Agent”) and the lenders party thereto (the “Lenders”). Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the “Initial Waiver Period”), our covenant obligations to (1) provide a report and opinion of our auditor with respect to our annual consolidated financial statements for fiscal year 2024 without an exception regarding our ability to continue as a going concern (the “Going Concern Covenant”) and (2) maintain a minimum level of core assets (the “Minimum Core Assets Covenant”) and, together with the Going Concern Covenant, the “Specified Covenants”). On April 30, 2025, we entered into Amendment No. 2 to the Credit Agreement, which extended the Initial Waiver Period to June 6, 2025, and on June 5, 2025 we entered into Amendment No. 3 to the Credit Agreement, which further extended the Initial Waiver Period to August 14, 2025 (the “Extended Waiver Period”). No event of default will occur under the Credit Agreement as a result of failure to comply with the Specified Covenants during the Extended Waiver Period; however, we are still obligated to comply with the Specified Covenants after the end of the Extended Waiver Period and if we do not, unless the Lenders further extend such waiver by the end of the Extended Waiver Period, an event of default will occur."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0068",
+          "text": "The auditor report on our consolidated financial statements for the fiscal year ended December 28, 2024 includes an explanatory paragraph expressing substantial doubt about our ability to continue as a going concern; therefore, we would be in breach of the Going Concern Covenant and the Agent would be able to exercise all applicable remedies under the Credit Agreement but for the waiver of breach during the Extended Waiver Period as described above. The earliest we would be able to regain compliance with the Going Concern Covenant is upon the filing of our Annual Report on Form 10-K for the year ending January 3, 2026, which we do not anticipate will be filed until March 2026. As a result, we are dependent on continued waivers from the Lenders to avoid an event of default related to the Going Concern Covenant, which waivers are in the Lenders’ sole discretion. We cannot assure you that the Lenders will provide any additional waiver of compliance with the Specified Covenants by the end of the Extended Waiver Period."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0069",
+          "text": "Any failure by us to comply with the covenants or payment requirements specified in the Credit Agreement (including the Specified Covenants after the Extended Waiver Period) would, unless the Lenders further extend such waiver by the end of the Extended Waiver Period, result in an event of default under the Credit Agreement, which may result in the termination of the Credit Agreement and acceleration of repayment obligations with respect to any outstanding loans. In addition, the Lenders would have the right to proceed against the collateral in which we granted a security interest to them, which consists of substantially all our assets. If we were not able to further extend the Extended Waiver Period and our outstanding debt were to be accelerated at any time in the near term, we would not have sufficient cash to repay our obligations under the Credit Agreement, and it is unlikely that we would be able to raise or borrow sufficient funds to refinance the debt or sell sufficient assets to repay the debt, which likely would materially and adversely affect our cash flows, business, results of operations, and financial condition. In this event, we may be forced to terminate, significantly curtail or cease our operations or to pursue other alternatives, including, but not limited to, commencing a case under the U.S. Bankruptcy Code."
+        },
+        {
+          "document_id": "IRBT-8K-AMENDMENT-3",
+          "locator": "P0070",
+          "text": "The Credit Agreement contains customary negative covenants that limit our and our subsidiaries’ ability to, among other things, grant or incur liens, incur additional indebtedness, make certain restricted investments or payments, including payment of dividends on our capital stock and payments on certain permitted indebtedness, enter into certain mergers and acquisitions or engage in certain asset sales, subject in each case to certain exceptions. The Credit Agreement also includes certain restrictions on the use of a portion of the termination payment received by us from Amazon.com, Inc. in early 2024, which the remaining amount thereof (after giving effect to certain periods for such amounts to be used for inventory in limited circumstances and upon satisfying certain conditions) will ultimately be required to be used to prepay a portion of the loan under the Credit Agreement. The terms of our outstanding debt may restrict our current and future operations and could adversely affect our ability to finance our future operations or capital needs or to execute business strategies in the manner desired. In addition, complying with the covenants may make it more difficult for us to successfully execute our business strategy, invest in our growth strategy, and compete against companies who are not subject to such restrictions."
+        }
+      ]
+    }
+  ],
+  "amendments": [
+    {
+      "id": "R01-AM01",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "trigger_event_id": "R01-D08",
+      "title": "Amendment No. 1: covenant waiver to May 6, 2025",
+      "status": "observed_historical_response",
+      "decision_at": "2025-03-12",
+      "effective_at": "2025-03-11",
+      "publicly_available_at": "2025-03-12T07:24:44.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W01",
+          "title": "Amendment No. 1: covenant waiver to May 6, 2025 (company description)",
+          "section": "Form 8-K description",
+          "clause": "On March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 (“Amendment No. 1”) to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent (the “Agent”) and the lenders party thereto (the “Lenders”). Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the “Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. In connection with Amendment No. 1, the Company returned to a controlled account for the benefit of the Agent and the Lenders the $40.0 million that the Company elected to withdraw from such controlled account during the third quarter of 2024 for the purchase of inventory, and the Agent deferred payment of the related $4.0 million use fee until the end of the Amendment Period. Amendment No. 1 also requires the Company to provide more frequent supplemental financial reporting to the Agent. For information regarding risks and uncertainties related to the Credit Agreement and the Company’s covenant compliance thereunder, please see the Company’s Annual Report on Form 10-K for the year ended December 28, 2024.\n\nFees payable by the Company to the Lenders in connection with Amendment No. 1 include (1) $3.6 million (representing 2.0% of the aggregate principal amount of Term Loans outstanding), which will be paid in kind via an increase of the outstanding principal amount of the Term Loan and (2) issuing to the Lenders on the date of Amendment No. 1 warrants to purchase an aggregate of 1,840,503 shares of the Company’s common stock (equal to six percent of the Company’s outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of March 11, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-8K-AMENDMENT-1",
+            "locators": [
+              "P0051",
+              "P0052"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525052480/d937654d8k.htm",
+            "sha256": "79645f7a54bdf88e35f7c28bce58c0c6e6414b68f62bb7538ee0512e04670607"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1159167/000119312525052480/d937654dex101.htm (SEC-filed redline; not extracted into this packet). Company description, verbatim from its Form 8-K:\n\nOn March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 (“Amendment No. 1”) to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent (the “Agent”) and the lenders party thereto (the “Lenders”). Pursuant to Amendment No. 1, the Lenders waived, until May 6, 2025 (the “Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. In connection with Amendment No. 1, the Company returned to a controlled account for the benefit of the Agent and the Lenders the $40.0 million that the Company elected to withdraw from such controlled account during the third quarter of 2024 for the purchase of inventory, and the Agent deferred payment of the related $4.0 million use fee until the end of the Amendment Period. Amendment No. 1 also requires the Company to provide more frequent supplemental financial reporting to the Agent. For information regarding risks and uncertainties related to the Credit Agreement and the Company’s covenant compliance thereunder, please see the Company’s Annual Report on Form 10-K for the year ended December 28, 2024.\n\nFees payable by the Company to the Lenders in connection with Amendment No. 1 include (1) $3.6 million (representing 2.0% of the aggregate principal amount of Term Loans outstanding), which will be paid in kind via an increase of the outstanding principal amount of the Term Loan and (2) issuing to the Lenders on the date of Amendment No. 1 warrants to purchase an aggregate of 1,840,503 shares of the Company’s common stock (equal to six percent of the Company’s outstanding common stock as of March 10, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of March 11, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 8-K: the going-concern condition for the fiscal 2024 audit report and the minimum core assets covenant, until May 6, 2025.",
+      "not_pursued": null
+    },
+    {
+      "id": "R01-AM02",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "trigger_event_id": "R01-D09",
+      "title": "Amendment No. 2: waiver extended to June 6, 2025",
+      "status": "observed_historical_response",
+      "decision_at": "2025-05-06",
+      "effective_at": "2025-04-30",
+      "publicly_available_at": "2025-05-06T16:27:44.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W02",
+          "title": "Amendment No. 2: waiver extended to June 6, 2025 (company description)",
+          "section": "Form 8-K description",
+          "clause": "As previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement (“Amendment No. 2”), which extended the Initial Amendment Period to June 6, 2025.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-8K-AMENDMENT-2",
+            "locators": [
+              "P0044"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/irbt-20250430.htm",
+            "sha256": "ba7e4caae66df565df529c128c5a99bb9e5d87940a8bededa7ed7e904e038ea9"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1159167/000115916725000050/ex101amendmentno2.htm (SEC-filed redline; not extracted into this packet). Company description, verbatim from its Form 8-K:\n\nAs previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Amendment Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement (“Amendment No. 2”), which extended the Initial Amendment Period to June 6, 2025.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 8-K: the same two covenant obligations, extended to June 6, 2025.",
+      "not_pursued": null
+    },
+    {
+      "id": "R01-AM03",
+      "version": "1.3",
+      "parent_version": "1.2",
+      "trigger_event_id": "R01-D10",
+      "title": "Amendment No. 3: waiver extended to August 14, 2025",
+      "status": "observed_historical_response",
+      "decision_at": "2025-06-05",
+      "effective_at": "2025-06-05",
+      "publicly_available_at": "2025-06-05T21:12:09.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W03",
+          "title": "Amendment No. 3: waiver extended to August 14, 2025 (company description)",
+          "section": "Form 8-K description",
+          "clause": "As previously announced, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended from time to time, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Waiver Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement, which extended the Initial Waiver Period to June 6, 2025. On June 5, 2025, the Company entered into Amendment No. 3 to the Credit Agreement (“Amendment No. 3”), which further extended the Initial Waiver Period to August 14, 2025.\n\nIn connection with Amendment No. 3 the Company (1) is required to make a prepayment of $4 million in cash currently held in a restricted cash account in favor of the Lenders, which will be entirely applied to reduce the outstanding principal amount of the Term Loan and (2) issued to the Lenders on the date of Amendment No. 3 warrants to purchase an aggregate of 1,556,323 shares of the Company’s common stock (equal to five percent of the Company’s outstanding common stock as of June 4, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of June 5, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-8K-AMENDMENT-3",
+            "locators": [
+              "P0054",
+              "P0055"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654d8k.htm",
+            "sha256": "976577e952ec226e909e2db09348fbdaf38c67198b6b56e3277d7550868716d6"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1159167/000119312525136125/d42654dex101.htm (SEC-filed redline; not extracted into this packet). Company description, verbatim from its Form 8-K:\n\nAs previously announced, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended from time to time, the “Credit Agreement”) among the Company, TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent and the lenders party thereto (the “Lenders”) pursuant to which the Lenders waived, until May 6, 2025 (the “Initial Waiver Period”), the Company’s covenant obligations to (1) provide a report and opinion of its auditor with respect to its annual financial statements for fiscal year 2024 without an exception regarding the Company’s ability to continue as a going concern and (2) maintain a minimum level of core assets. On April 30, 2025, the Company entered into Amendment No. 2 to the Credit Agreement, which extended the Initial Waiver Period to June 6, 2025. On June 5, 2025, the Company entered into Amendment No. 3 to the Credit Agreement (“Amendment No. 3”), which further extended the Initial Waiver Period to August 14, 2025.\n\nIn connection with Amendment No. 3 the Company (1) is required to make a prepayment of $4 million in cash currently held in a restricted cash account in favor of the Lenders, which will be entirely applied to reduce the outstanding principal amount of the Term Loan and (2) issued to the Lenders on the date of Amendment No. 3 warrants to purchase an aggregate of 1,556,323 shares of the Company’s common stock (equal to five percent of the Company’s outstanding common stock as of June 4, 2025), with an exercise price of $0.01 per share (the “Warrants”). The Warrants have an expiration date of June 5, 2035. The Company issued the Warrants in reliance upon an exemption from registration contained in Section 4(a)(2) under the Securities Act of 1933, as amended (the “Securities Act”). The Warrants and the shares of common stock issuable thereunder may not be offered, sold, pledged or otherwise transferred in the United States absent registration or an applicable exemption from the registration requirements under the Securities Act.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 8-K: the same two covenant obligations, extended to August 14, 2025, with a $4 million prepayment and additional warrants.",
+      "not_pursued": null
+    }
+  ]
+}

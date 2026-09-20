@@ -1,0 +1,1152 @@
+[
+  {
+    "borrower_id": "B01",
+    "review_date": "2027-06-18",
+    "event_source": "B01-fluxrail-workflow-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S1",
+      "S2"
+    ],
+    "expected_applicability": "S1 applies because an in-scope identity platform has a breaking interface change; S2 is applicable only if a qualifying production interruption occurs.",
+    "expected_evidence_sufficiency": "Sufficient to establish an executed change, preserved commercial terms, a temporary secure bridge, and no qualifying outage as of review.",
+    "expected_contract_result": "Compliant: the July 5 migration remains within S1's 30-calendar-day implementation window measured from the June 10 publication, and no S2 incident exists.",
+    "expected_resolution": "No default or remediation period is implicated; routine S1 quarterly reporting remains due.",
+    "expected_thesis_assessment": "A1 remains supported, subject to completion of the planned migration.",
+    "expected_credit_implication": "Benign and monitored; the documented bridge mitigates near-term renewal and service risk.",
+    "rationale": "The executed amendment creates a real connector obligation without inventing a financial failure. The primary document and management passage jointly show timing, mitigation, and the absence of an outage, so the correct result is compliance with ongoing monitoring rather than an alert.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.1246410109132685,
+      "maximum_x": 4.05,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B02",
+    "review_date": "2027-06-18",
+    "event_source": "B02-clinivanta-admin-systems-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2 applies to every approved subcontractor with production protected-data access and requires a complete quarter-end access package.",
+    "expected_evidence_sufficiency": "Sufficient to establish that required evidence was omitted; insufficient to conclude whether unauthorized access occurred.",
+    "expected_contract_result": "Reporting failure under S2 because the first-quarter certificate was late and lacked the required privileged-account and terminated-credential review evidence.",
+    "expected_resolution": "R: the failure becomes an Event of Default only if not remedied within 10 Business Days after Lender notice.",
+    "expected_thesis_assessment": "A2 is unverified for Vireo and requires review, but is not proven false.",
+    "expected_credit_implication": "Adverse evidence-quality signal with unresolved data-access risk; no financial covenant conclusion follows.",
+    "rationale": "The package proves a defined delivery omission while management's policy summary cannot substitute for account-level evidence. The result deliberately separates a reporting breach from unsupported claims of unauthorized access or financial test failure.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.3131375105452876,
+      "maximum_x": 4.3,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 17.571155821917806,
+        "minimum_m": 8,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 17.571m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B03",
+    "review_date": "2027-06-18",
+    "event_source": "B03-paymantle-services-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applies because the transmission missed its explicit client-agreed contractual deadline and exceeded the stated daily materiality threshold.",
+    "expected_evidence_sufficiency": "Sufficient to establish the late transmission, officer knowledge, materiality, lack of a bank-network exception, and completed corrective actions.",
+    "expected_contract_result": "Breach of the timely-remittance duty under S1; the later deposit and reimbursement do not erase the original failure.",
+    "expected_resolution": "A: completed transmission, funded late charge, timely notices and corrective control support remediation of the operating failure. Preserve the historical miss. No separate lender default notice or expiry of its 30-calendar-day period is evidenced, so an Event of Default is not established.",
+    "expected_thesis_assessment": "A1 is contradicted for this batch and A2 warrants heightened review of treasury release controls.",
+    "expected_credit_implication": "Adverse but contained operational-control event; recurrence would threaten retention and cash costs.",
+    "rationale": "The primary ticket supplies the deadline, threshold, and knowledge time, while management confirms cure steps without converting them into a waiver. The answer preserves the breach and separately assesses the remedial response.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.0158730158730154,
+      "maximum_x": 3.95,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B04",
+    "review_date": "2027-06-18",
+    "event_source": "B04-routetrellis-logistics-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2 governs an actual material production deployment, while the memorandum describes only a proposed future rollout.",
+    "expected_evidence_sufficiency": "Sufficient to establish that the proposal exists and no deployment had occurred by the review date.",
+    "expected_contract_result": "No breach: a proposal and unsigned schedule do not constitute the prohibited expanded production release.",
+    "expected_resolution": "No contractual resolution is required; approval, comparison, and rollback evidence should be reviewed before any rollout.",
+    "expected_thesis_assessment": "A1 remains supported as of review, with an execution risk to monitor.",
+    "expected_credit_implication": "Neutral currently; an unapproved future deployment would create immediate contractual and operating concern.",
+    "rationale": "The evidence is intentionally forward-looking. S2's prohibition attaches when an expanded production release begins, so the evaluator must distinguish planning from execution and avoid manufacturing a present breach.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.2098765432098766,
+      "maximum_x": 4.15,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B05",
+    "review_date": "2027-06-18",
+    "event_source": "B05-estimark-build-systems-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "C08",
+      "S2"
+    ],
+    "expected_applicability": "C08's customer-notice threshold is 15%, so the 12% customer notice is below it; the first-quarter S2 duty was satisfied and the second-quarter S2 report was not yet due.",
+    "expected_evidence_sufficiency": "Sufficient to assess the notice threshold, establish timely first-quarter S2 delivery, and confirm that the current second-quarter report was not due; insufficient to quantify completed second-quarter platform activity or any financial covenant result.",
+    "expected_contract_result": "Contract compliant on the supplied facts: no C08 notice duty is triggered and no S2 deadline is shown as missed.",
+    "expected_resolution": "No contractual remediation applies; the customer event should be tracked in underwriting review.",
+    "expected_thesis_assessment": "A2 is weakened by the nonrenewal and reported activity decline; A3 requires forecast reassessment without assuming a current test failure.",
+    "expected_credit_implication": "Harmful but contract-compliant evidence of cyclical demand pressure and future revenue risk.",
+    "rationale": "The event is economically adverse yet remains below the express customer-notice threshold. It tests whether analysis can flag thesis deterioration without converting qualitative evidence into a reporting or leverage breach.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.796571944068561,
+      "maximum_x": 3.65,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_to_fiscal_year_spending_to_date",
+        "spent_m": 0.75,
+        "annual_cap_m": 3.8,
+        "complies": true,
+        "summary": "Spend 0.750m / cap 3.800m: passes"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B06",
+    "review_date": "2027-06-18",
+    "event_source": "B06-sableharbor-cybersecurity-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A4"
+    ],
+    "evaluated_clause_ids": [
+      "S3"
+    ],
+    "expected_applicability": "S3 applies because the executed order and enabled credential delegated sole production root-key authority to a non-Loan Party.",
+    "expected_evidence_sufficiency": "Sufficient to establish execution, enablement, sole authority, absence of consent, and failure of the managed-provider exception.",
+    "expected_contract_result": "Immediate breach of S3 when the prohibited authority was executed and enabled.",
+    "expected_resolution": "X: the prohibited action has no contractual remediation period; reversal does not erase the breach and any waiver must be written.",
+    "expected_thesis_assessment": "A1 and A4 are contradicted because a core trust and collateral-control assumption no longer holds.",
+    "expected_credit_implication": "Material adverse governance and security-control development requiring immediate lender review.",
+    "rationale": "Provider reputation and improved availability do not satisfy S3's specific joint-control, recovery-right, and consent conditions. The executed delegation is the prohibited act, so management's business rationale cannot convert it into a permitted hosting arrangement.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.648636322174587,
+      "maximum_x": 4.8,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B07",
+    "review_date": "2027-06-18",
+    "event_source": "B07-registrarspring-education-systems-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S2",
+      "S3",
+      "C08"
+    ],
+    "expected_applicability": "S2 remains operative for export continuity, S3 covers the revised implementation plan in the next report, and C08 requires an actual qualifying termination or nonrenewal notice.",
+    "expected_evidence_sufficiency": "Sufficient to establish preserved term, fee, reporting module, export rights, and a documented revised launch plan.",
+    "expected_contract_result": "Compliant: the campus consolidation neither disables export rights nor creates a qualifying customer notice; the revised launch belongs in routine S3 reporting.",
+    "expected_resolution": "No default or remediation period applies.",
+    "expected_thesis_assessment": "A1 remains supported and A2 is modestly improved because implementation scope declined with a signed milestone plan.",
+    "expected_credit_implication": "Benign to mildly positive operationally; lower record volume is mitigated by the preserved minimum fee and reduced implementation burden.",
+    "rationale": "The event changes operating volume without changing the protected contract economics or required product functions. The management passage provides specific mitigation, supporting a benign result rather than treating every customer change as adverse.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.928870292887029,
+      "maximum_x": 3.75,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 11.964212328767124,
+        "minimum_m": 6,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 11.964m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B08",
+    "review_date": "2027-06-18",
+    "event_source": "B08-gridlumen-analytics-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2's quarterly certification duty applies and was due April 26 after calendar-day rollover; its pre-use approval duty does not yet apply to the proposed factor because the factor remained outside production.",
+    "expected_evidence_sufficiency": "Sufficient to establish late certificate delivery, the staged factor's pending support, continued use of the previously approved production factor, and no customer-facing use of the proposed factor.",
+    "expected_contract_result": "Reporting failure under S2 solely because the first-quarter certificate was delivered after April 26; there is no production-use approval breach and the clause does not require approval records or calculation samples to accompany the certificate.",
+    "expected_resolution": "R: the historical late-delivery failure was remediated by the complete June 15 certificate. No lender notice or prior expiry of its ten-Business-Day period is evidenced, so a reporting Event of Default is not established. Preserve the April 26 missed deadline.",
+    "expected_thesis_assessment": "A1 remains supported for customer-facing production reports, while the proposed factor requires approval and reproducibility evidence before use.",
+    "expected_credit_implication": "Limited information-timeliness concern; no current customer-output or financial impact is established.",
+    "rationale": "The certificate missed its rolled deadline, creating an R reporting failure. The passages also show that the unsupported factor remained in staging, so missing approval and reproducibility support does not create a production-use breach or show that customer analytics are inaccurate.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.2117765138842422,
+      "maximum_x": 4.2,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B09",
+    "review_date": "2027-06-18",
+    "event_source": "B09-evidentary-legal-systems-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S1",
+      "S2"
+    ],
+    "expected_applicability": "S1 applies to the collection and permits customer-directed uploads with source identity and receipt hashing; S2 would apply to privileged-room access or export events, none of which is shown.",
+    "expected_evidence_sufficiency": "Sufficient to verify the required manifest fields, matching hashes, documented transfers, and absence of a stated access event.",
+    "expected_contract_result": "Compliant with S1, with no evidence of an S2 incident.",
+    "expected_resolution": "No remediation or default consequence applies; retain the manifest for routine quarter-end certification.",
+    "expected_thesis_assessment": "A1 remains supported by transaction-level custody evidence.",
+    "expected_credit_implication": "Stable; the evidence confirms ordinary operation of a key control without signaling a broader credit change.",
+    "rationale": "This stable case supplies complete primary evidence and specific management context. It checks that routine compliance is recognized without manufacturing a breach, alert, or financial inference.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.214596003475239,
+      "maximum_x": 4.2,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B10",
+    "review_date": "2027-06-18",
+    "event_source": "B10-maintenara-industrial-software-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applies because critical-asset alerts were disabled for more than four consecutive hours and an officer's knowledge date is stated.",
+    "expected_evidence_sufficiency": "Sufficient to establish duration, cause, knowledge, lack of an exception, restoration, notices, and corrective action.",
+    "expected_contract_result": "Breach of S1's active-monitoring and timely-alert duty, notwithstanding later restoration and absence of equipment loss.",
+    "expected_resolution": "A: service restoration and the added expiry monitor support operational remediation on June 16; retain the historical outage. No separate lender remediation notice or expiry of its 30-calendar-day period is evidenced, so an Event of Default is not established.",
+    "expected_thesis_assessment": "A1 is contradicted for the affected period and A2 requires review of operating discipline.",
+    "expected_credit_implication": "Adverse but operationally contained; repeat interruptions could impair renewals and create customer liability.",
+    "rationale": "The logs and knowledge time satisfy the clause's trigger, while management supplies credible remediation and counterevidence on immediate harm. The contractual breach and the mitigated credit consequence are therefore assessed separately.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.3467458644695665,
+      "maximum_x": 4.4,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_to_fiscal_year_spending_to_date",
+        "spent_m": 1.7,
+        "annual_cap_m": 8.2,
+        "complies": true,
+        "summary": "Spend 1.700m / cap 8.200m: passes"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B11",
+    "review_date": "2027-06-18",
+    "event_source": "B11-meridian-forge-staffing-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A3",
+      "A4"
+    ],
+    "evaluated_clause_ids": [
+      "S3",
+      "C06",
+      "C03"
+    ],
+    "expected_applicability": "S3 and C06 apply from closing to the executed transfer of staffing receivables; C03 applies only if the arrangement constitutes Debt or a lien under its terms.",
+    "expected_evidence_sufficiency": "Sufficient for S3 and C06: the executed agreement, effective invoice schedule, and CFO confirmation establish an ownership transfer without lender consent. The passages do not resolve the financing classification required for C03.",
+    "expected_contract_result": "S3 and C06 are breached immediately by the executed receivables sale without prior written consent; whether C03 is also breached remains unresolved because debt or lien characterization is not established.",
+    "expected_resolution": "X — the prohibited action has no notice or cure period and requires a written lender waiver for contractual relief.",
+    "expected_thesis_assessment": "A3 and A4 are weakened and require review because the receivables sale changes collection ownership and the contemplated source of deleveraging, but the passages do not prove that Meridian Forge could not bridge payroll or that sale proceeds were used for debt reduction.",
+    "expected_credit_implication": "Adverse: the sale diverts customer cash and may indicate liquidity pressure, although its use of proceeds and any quarterly leverage effect are not established.",
+    "rationale": "The executed ownership transfer falls directly within S3 and C06 because no consent was supplied. Management's nonrecourse and sale labels do not create an exception, while the evidence does not establish the separate Debt or lien classification needed for C03 or prove the reason proceeds were raised.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.7549540840985975,
+      "maximum_x": 3.5,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B12",
+    "review_date": "2027-06-18",
+    "event_source": "B12-harborline-claims-administration-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S1",
+      "S2"
+    ],
+    "expected_applicability": "S1 applies to the claim-fund transfers; S2 applies to the next quarterly certificate but its delivery deadline has not arrived.",
+    "expected_evidence_sufficiency": "Sufficient to determine S1 because the carrier audit and matching bank records describe the transfers; insufficient to assess eventual S2 delivery.",
+    "expected_contract_result": "S1 is not breached because the transfers paid approved claimants and no commingling, pledge, sweep, or operating use occurred; S2 is not yet due and therefore is not failed.",
+    "expected_resolution": "No contractual remediation period is active; management's control repair and planned retest are contextual mitigants.",
+    "expected_thesis_assessment": "A1 is weakened but not contradicted: missing approvals expose a control gap, while fund segregation and valid claimant payments are supported.",
+    "expected_credit_implication": "Mitigated concern requiring follow-up on the retest; no financial covenant conclusion follows from the evidence.",
+    "rationale": "The event is adverse control evidence but remains within S1's permitted payment purpose. It tests whether the evaluator distinguishes a thesis concern and future reporting item from an immediate prohibited use of funds.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.2626427406199023,
+      "maximum_x": 4.2,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B13",
+    "review_date": "2027-06-18",
+    "event_source": "B13-alderpeak-accounting-services-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "S3"
+    ],
+    "expected_applicability": "S3 applies to an executed custody contract or actual receipt or transfer of client funds; it informs review of the proposal but the prohibited action has not occurred.",
+    "expected_evidence_sufficiency": "Sufficient to establish that the document is an unsigned proposal and that no client funds have been received; no executed contrary document is supplied.",
+    "expected_contract_result": "No S3 breach as of the review date because neither contract execution nor receipt or transfer of client-owned cash occurred.",
+    "expected_resolution": "No resolution process is active; executing the draft as written would create an immediate X breach.",
+    "expected_thesis_assessment": "A2 and A3 remain supported as current facts but are at risk if the proposed account-ownership term is accepted.",
+    "expected_credit_implication": "Prospective concern only; the lender should monitor final documentation, with no current covenant or financial-test failure.",
+    "rationale": "The passages distinguish a proposed transaction from an executed prohibited action. Management's statement is corroborated by the unsigned status and explicit effectiveness condition, so the evaluator should not invent a present breach.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.6208704048555074,
+      "maximum_x": 3.4,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 10.471167808219178,
+        "minimum_m": 4.0,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 10.471m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B14",
+    "review_date": "2027-06-18",
+    "event_source": "B14-northstar-managed-networks-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A4"
+    ],
+    "evaluated_clause_ids": [
+      "S2",
+      "S3"
+    ],
+    "expected_applicability": "The outage exceeds S2's thirty-minute reporting threshold and must appear in the quarter-end report; S3 applies conceptually to credential transfers, but the evidence describes none.",
+    "expected_evidence_sufficiency": "Sufficient to identify an S2-reportable incident and absence of evidence for an S3 transfer; insufficient to assess the not-yet-due quarterly report's delivery.",
+    "expected_contract_result": "No present breach: S2 requires inclusion in a future quarterly report and does not set an availability minimum; S3 is not breached on the supplied facts.",
+    "expected_resolution": "No cure period is active. A late or incomplete quarter-end S2 report would use the R resolution after lender notice.",
+    "expected_thesis_assessment": "A1 is weakened by a multi-customer outage; A4 remains uncertain until service credits and renewal consequences are known.",
+    "expected_credit_implication": "Monitor the root cause and customer response; the event is harmful but contract-compliant as of review and does not establish a financial-test failure.",
+    "rationale": "S2 is deliberately a reporting duty rather than an uptime covenant. The incident crosses the disclosure threshold, but the reporting date has not arrived and management does not claim final economic impact.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.4439285384828264,
+      "maximum_x": 4.6,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_to_fiscal_year_spending_to_date",
+        "spent_m": 1.25,
+        "annual_cap_m": 6.2,
+        "complies": true,
+        "summary": "Spend 1.250m / cap 6.200m: passes"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B15",
+    "review_date": "2027-06-18",
+    "event_source": "B15-calibrant-laboratory-support-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "S2",
+      "S3"
+    ],
+    "expected_applicability": "S3 applies to any disposal of customer-owned material, and S2 applies to the related custody record.",
+    "expected_evidence_sufficiency": "Sufficient: the contemporaneous manifest proves disposal, and management confirms the absence of customer instruction and emergency safety justification.",
+    "expected_contract_result": "S3 is breached immediately; the supplied record does not establish a separate continuing S2 recordkeeping failure because the custody and disposal entries exist.",
+    "expected_resolution": "X — later replacement or low value does not cure the prohibited disposal; contractual relief requires a written lender waiver.",
+    "expected_thesis_assessment": "A1 and the custody component of A3 are weakened and require review because authorized-disposition discipline failed; the event does not show that customer materials funded operations or became borrower assets.",
+    "expected_credit_implication": "Operationally adverse and relevant to customer trust, but the evidence does not support a leverage or payment-default conclusion.",
+    "rationale": "The clause turns on authorization, not replacement value or hazard level. The event also tests that an actual prohibited disposal does not automatically prove a separate reporting or record-retention breach.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.862692976178305,
+      "maximum_x": 3.75,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B16",
+    "review_date": "2027-06-18",
+    "event_source": "B16-everstead-facility-services-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applied to the March 31 quarter and its schedule was due with the Q1 C02 packet; the lender's June 15 notice activates the contractual remediation period.",
+    "expected_evidence_sufficiency": "Sufficient to establish the original delivery deficiency and notice date, but insufficient to assess underlying work-order performance because the required schedule is absent.",
+    "expected_contract_result": "S1 has a reporting deficiency; as of June 18, the ten-Business-Day post-notice period has not expired, so no Event of Default has yet arisen under the clause.",
+    "expected_resolution": "R — delivery by 5 p.m. New York time on June 30, 2027 would remediate the deficiency; later delivery would leave an Event of Default unless waived.",
+    "expected_thesis_assessment": "A1 and A2 cannot be fully assessed from the missing schedule; the omission is not evidence that life-safety work itself failed.",
+    "expected_credit_implication": "Elevated information risk and follow-up required, without a supported operating or financial covenant conclusion.",
+    "rationale": "The event separates a known reporting omission from unknown underlying service performance and preserves the post-notice grace period. June 30 is the tenth Business Day after excluding June 15 and the federal holiday on June 18.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.7949895701675964,
+      "maximum_x": 3.6,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B17",
+    "review_date": "2027-06-18",
+    "event_source": "B17-linguaspan-localization-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S3"
+    ],
+    "expected_applicability": "S3 applies because client source content was transmitted to an external machine-learning service.",
+    "expected_evidence_sufficiency": "Sufficient: client instructions, vendor-register status, protective terms, and gateway logs establish the express permitted-use conditions.",
+    "expected_contract_result": "S3 is satisfied; the transmission falls within the approved-service exception and there is no evidence of content beyond the authorized files.",
+    "expected_resolution": "No breach or cure process applies.",
+    "expected_thesis_assessment": "A2 remains supported because the external workflow for client source files was authorized, bounded by protective terms, and evidenced by logs; the event does not test A3's ownership and control of translation memories or workflow technology.",
+    "expected_credit_implication": "Benign under the contract and current thesis, subject to ordinary monitoring of vendor compliance and deletion evidence.",
+    "rationale": "The event tests the exception rather than treating every external model as prohibited. The contemporaneous documents satisfy each contractual condition and do not justify a financial-covenant inference.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.821985233798195,
+      "maximum_x": 3.7,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B18",
+    "review_date": "2027-06-18",
+    "event_source": "B18-supplycrest-procurement-services-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "S3"
+    ],
+    "expected_applicability": "S3 governs actual acceptance, retention, direction, or offset of supplier consideration; the offer is relevant evidence but is not itself a prohibited receipt.",
+    "expected_evidence_sufficiency": "Sufficient to establish an unsigned offer, an express rejection, and no consideration received through the review evidence.",
+    "expected_contract_result": "No S3 breach occurred because SupplyCrest neither executed the amendment nor accepted, retained, directed, or offset a rebate.",
+    "expected_resolution": "No cure or waiver is required; later acceptance on undisclosed terms would cause an immediate X breach.",
+    "expected_thesis_assessment": "A2 and A3 remain supported by management's documented rejection and transparent alternative request.",
+    "expected_credit_implication": "Benign current outcome, while the offer should remain in the supplier-conflict review trail.",
+    "rationale": "The event tests proposed versus executed conduct and uses transaction records to corroborate management. A tempting but unaccepted supplier offer does not satisfy the clause's operative verbs.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.142183817753338,
+      "maximum_x": 4.1,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 14.265446061643837,
+        "minimum_m": 5.0,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 14.265m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B19",
+    "review_date": "2027-06-18",
+    "event_source": "B19-veritylane-compliance-advisors-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "S1",
+      "S3"
+    ],
+    "expected_applicability": "S3 applies to the submission and certification in the client's name; S1 also governs adherence to the signed draft-only scope.",
+    "expected_evidence_sufficiency": "Sufficient: the portal receipt, written scope, and absence of specific written authority establish the operative facts; claimed oral direction does not satisfy the clause.",
+    "expected_contract_result": "S3 is breached immediately upon submission. S1 also reflects an operating scope failure, but its remediation mechanism does not displace the completed S3 prohibited action.",
+    "expected_resolution": "X for S3, requiring written lender waiver for relief; S1 may be remediated operationally but cannot cure the S3 breach.",
+    "expected_thesis_assessment": "A2 is contradicted and A3 is materially weakened because the advisor assumed client certification authority without required documentation.",
+    "expected_credit_implication": "Adverse professional and relationship risk; regulator acceptance and financial covenant outcomes remain unknown.",
+    "rationale": "The executed portal action and narrow signed scope make the result direct. Oral urgency is contextual but cannot satisfy the specialized covenant's specific written-authority condition.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.2763866136204074,
+      "maximum_x": 4.3,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B20",
+    "review_date": "2027-06-18",
+    "event_source": "B20-ironwood-field-inspection-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2 applies because the assignments required the named current credential on each inspection date.",
+    "expected_evidence_sufficiency": "Sufficient to establish six inspections after credential expiry, suspension from dispatch, the lender notice date, and incomplete remediation as of review.",
+    "expected_contract_result": "S2 has an operating breach, but no Event of Default has arisen by June 18 because the thirty-calendar-day period after the June 16 lender notice remains open.",
+    "expected_resolution": "A — remediation is due July 16, 2027 and requires continued removal from dispatch, qualified reinspection or written customer acceptance for all six reports, and credential renewal before reassignment; offered but incomplete reinspections do not complete cure or erase the recorded breach.",
+    "expected_thesis_assessment": "A1 and A2 are weakened because dispatch controls allowed work after credential expiry, reducing the defensibility of the six delivered inspection reports; the event does not show work outside Ironwood's observation-services scope under A3.",
+    "expected_credit_implication": "Adverse operational signal with limited known scope; monitor customer acceptance and remediation, with no supported financial-test failure.",
+    "rationale": "The evidence proves the operating failure and start of notice-based remediation, while preserving the distinction between breach, cure activity, and an Event of Default after the deadline.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.90683105297449,
+      "maximum_x": 3.8,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_to_fiscal_year_spending_to_date",
+        "spent_m": 0.95,
+        "annual_cap_m": 4.8,
+        "complies": true,
+        "summary": "Spend 0.950m / cap 4.800m: passes"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B21",
+    "review_date": "2027-06-18",
+    "event_source": "B21-permitaxis-municipal-systems-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2 is applicable because its May 31 annual performance deadline passed after closing.",
+    "expected_evidence_sufficiency": "Sufficient to establish that the required 2027 test was not performed by the deadline; the planned July test does not alter that fact.",
+    "expected_contract_result": "S2 has an actual remediable operating failure, but the passages do not show lender notice and therefore do not establish an Event of Default as of review.",
+    "expected_resolution": "A; a 30-calendar-day remediation period begins only after lender notice, and no notice is evidenced.",
+    "expected_thesis_assessment": "A2 is weakened because the current recovery capability lacks the required annual validation; continued uptime is relevant context but does not prove recoverability.",
+    "expected_credit_implication": "Adverse monitoring signal with uncertain operational severity pending completion and results of the delayed test.",
+    "rationale": "The missed performance deadline is shown by a contemporaneous internal record, while management's future plan is contextual rather than cure evidence. The case tests separation of an operating breach from an Event of Default that requires notice and an expired remediation period. It does not imply a financial covenant failure.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.3426183844011144,
+      "maximum_x": 4.35,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 9.45553082191781,
+        "minimum_m": 4,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 9.456m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B22",
+    "review_date": "2027-06-18",
+    "event_source": "B22-policyharbor-administration-software-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applies because the NorthLake conversion exceeded the 5% prior-year revenue threshold.",
+    "expected_evidence_sufficiency": "Sufficient to show both customer acceptance and the required officer certification; the approved image exception is also documented.",
+    "expected_contract_result": "Compliant with S1 because reconciliation was within the customer's written tolerance and the remaining item was expressly approved outside acceptance criteria.",
+    "expected_resolution": "No remediation or default resolution is required.",
+    "expected_thesis_assessment": "A1 is supported by a completed large-carrier conversion with documented acceptance; the limited re-indexing task does not contradict the assumption.",
+    "expected_credit_implication": "Benign to modestly favorable evidence regarding conversion execution, with routine follow-up on the approved task.",
+    "rationale": "The executed acceptance and certification satisfy the operative condition. The contextual passage prevents an evaluator from treating every post-cutover task as a failure when the customer expressly excluded and approved it. No financial conclusion is drawn from the operational evidence.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.328453655905694,
+      "maximum_x": 4.45,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B23",
+    "review_date": "2027-06-18",
+    "event_source": "B23-franchisetable-systems-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A4"
+    ],
+    "evaluated_clause_ids": [
+      "S3"
+    ],
+    "expected_applicability": "S3 governs an assignment or novation of the HearthGrill agreement because the customer exceeds the 10% threshold.",
+    "expected_evidence_sufficiency": "Sufficient to show a proposal and its terms, but insufficient to show execution of a novation or transfer.",
+    "expected_contract_result": "No breach as of review because S3 prohibits an executed transfer and the document is expressly unsigned.",
+    "expected_resolution": "X would apply immediately if the prohibited novation were executed; no resolution is currently required.",
+    "expected_thesis_assessment": "A2 and A4 require review because management is considering moving a concentrated contract outside the loan-party group, but neither is yet contradicted by an executed action.",
+    "expected_credit_implication": "Potentially adverse governance and collateral signal; current contractual impact is limited to monitoring the proposal.",
+    "rationale": "The event deliberately separates proposed from executed activity. The draft identifies all facts needed to assess the clause's scope, while the rebuttal confirms that the operative execution trigger has not occurred. No default or financial-test result should be inferred.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.7450980392156863,
+      "maximum_x": 3.55,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B24",
+    "review_date": "2027-06-18",
+    "event_source": "B24-freightledger-audit-services-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applies to cash held solely for carrier payment under the client-fund program.",
+    "expected_evidence_sufficiency": "Sufficient because the ledger, authorization, destination, outstanding status, and absence of a contractual exception are stated.",
+    "expected_contract_result": "S1 was breached immediately when the prohibited operating transfer was made.",
+    "expected_resolution": "X; the prohibited transfer is an immediate Event of Default without a remediation period, and a stated intent to replace funds is not a cure right.",
+    "expected_thesis_assessment": "A1 is contradicted and A3 is materially weakened because management used restricted client funds to cover operating liquidity.",
+    "expected_credit_implication": "Severe adverse control, liquidity, and customer-trust signal requiring immediate lender review.",
+    "rationale": "The primary passage establishes a directed and unreversed use of restricted funds. Management's explanation confirms intent and does not fit the narrow erroneous-bank-posting exception. The event supports the sector duty result without asserting any independent leverage or liquidity measurement.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.9676180501003757,
+      "maximum_x": 4,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 16.438381849315068,
+        "minimum_m": 7,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 16.438m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B25",
+    "review_date": "2027-06-18",
+    "event_source": "B25-archiveshield-records-services-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S3"
+    ],
+    "expected_applicability": "S3 applies because stored customer records were physically transferred to a third-party warehouse.",
+    "expected_evidence_sufficiency": "Sufficient to prove physical transfer and missing evidence for two cumulative permission conditions.",
+    "expected_contract_result": "Physical transfer is proved, but S3 compliance remains unresolved: the record does not establish whether customer permission and retained tracking actually existed at delivery.",
+    "expected_resolution": "Insufficient evidence to establish an immediate X Event of Default; request the operative customer contracts and dated tracking-access records. Do not assume consent or assume absence of permission.",
+    "expected_thesis_assessment": "A2 warrants review; the evidence does not establish that its custody-control assumption was contradicted because permission and tracking facts remain unresolved.",
+    "expected_credit_implication": "Potential operational and customer-retention exposure; confidentiality and insurance are supported, while two other protections are unverified.",
+    "rationale": "S3 requires all permission conditions, but lack of supplied evidence is not affirmative proof that a condition was false. The receiving manifest proves execution; it does not prove absent customer permission or tracking access. Preserve that uncertainty and do not infer financial deterioration.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.3409897682188348,
+      "maximum_x": 4.4,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_to_fiscal_year_spending_to_date",
+        "spent_m": 0.95,
+        "annual_cap_m": 4.5,
+        "complies": true,
+        "summary": "Spend 0.950m / cap 4.500m: passes"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B26",
+    "review_date": "2027-06-18",
+    "event_source": "B26-returncircuit-commerce-software-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A3"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2 is selected, but the second-quarter report is not yet due at the June 18 review; Q2 does not end until June 30.",
+    "expected_evidence_sufficiency": "Insufficient to determine advance duration, recovery status, or cash ownership because required dates and supporting records are absent.",
+    "expected_contract_result": "No current S2 delivery noncompliance is established by an incomplete interim June 15 extract. The merchant must be included in the later Q2 report if the stated quarter-to-date advance threshold remains established.",
+    "expected_resolution": "No current S2 remediation clock or Event of Default. Request supporting advance and recovery records; assess actual delivery at the contractual Q2 deadline.",
+    "expected_thesis_assessment": "A2 and A3 are unresolved rather than contradicted because management's assertion lacks evidence and the duration and source of funding remain unknown.",
+    "expected_credit_implication": "Adverse information-quality signal requiring prompt documentary follow-up; economic exposure cannot yet be quantified.",
+    "rationale": "An interim extract before quarter-end is not the due quarterly package. Missing recovery evidence limits thesis assessment but does not create an early reporting breach. C05 permission for the underlying merchant funding, including whether it is an ordinary trade receivable or a separately restricted advance, requires its own analysis; this S2 assessment does not authorize the advance.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.3920956838273524,
+      "maximum_x": 3.25,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_elected",
+        "summary": "Not elected"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B27",
+    "review_date": "2027-06-18",
+    "event_source": "B27-metercivic-billing-systems-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applies because the customer exceeds the revenue threshold and a production rate table was deployed.",
+    "expected_evidence_sufficiency": "Sufficient to establish each required predeployment control and the limited effect of the subsequent typo.",
+    "expected_contract_result": "Compliant with S1; all required authorization and testing occurred, and the cosmetic label correction does not create a separate breach.",
+    "expected_resolution": "No remediation or default resolution is required.",
+    "expected_thesis_assessment": "A1 remains supported because calculated bills were validated and the identified issue did not affect financial outputs.",
+    "expected_credit_implication": "Benign operational evidence with no identified contractual or credit deterioration.",
+    "rationale": "The clause tests approval and representative bill comparisons rather than perfection of every display field. Both passages support compliance and show that the discovered issue was cosmetic. The event is intentionally stable and does not imply any financial covenant outcome.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.3736707004033737,
+      "maximum_x": 4.5,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_to_fiscal_year_spending_to_date",
+        "spent_m": 1.025,
+        "annual_cap_m": 4.8,
+        "complies": true,
+        "summary": "Spend 1.025m / cap 4.800m: passes"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B28",
+    "review_date": "2027-06-18",
+    "event_source": "B28-memberspring-platform-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1"
+    ],
+    "evaluated_clause_ids": [
+      "S1"
+    ],
+    "expected_applicability": "S1 applies because the association exceeds 5% of prior-year revenue and its annual dues cycle was activated.",
+    "expected_evidence_sufficiency": "Sufficient to show activation without prior written approval; later commercial acceptance does not establish the required preactivation control.",
+    "expected_contract_result": "S1 has a remediable operating failure, although the absence of sent invoices mitigates harm and no Event of Default exists absent lender notice and uncured expiration.",
+    "expected_resolution": "A; the failure is remediable for 30 calendar days after lender notice.",
+    "expected_thesis_assessment": "A1 is weakened by the control lapse, but the unsent invoices and customer acceptance mitigate immediate customer and cash impact.",
+    "expected_credit_implication": "Mixed: adverse control evidence with limited realized harm and a clear path to documented remediation.",
+    "rationale": "The clause requires written approval before activation, so oral or contextual acceptance one day later does not retroactively satisfy it. The second passage is still relevant to severity. The event distinguishes contract breach, remediation status, and economic impact.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.787456445993031,
+      "maximum_x": 3.65,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B29",
+    "review_date": "2027-06-18",
+    "event_source": "B29-signalquarry-data-licensing-inc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A1",
+      "A2"
+    ],
+    "evaluated_clause_ids": [
+      "S1",
+      "S2"
+    ],
+    "expected_applicability": "S1 requires the executed renewal and changed restriction to appear in the source-rights register; S2 governs the mapped permitted uses.",
+    "expected_evidence_sufficiency": "Sufficient to show the renewed term, narrowed right, and absence of an active mapped use of the excluded field as of the event date.",
+    "expected_contract_result": "No S2 operating breach is shown because no prohibited use is evidenced; S1 requires the changed terms in the next quarterly register but its delivery deadline has not yet failed.",
+    "expected_resolution": "No current resolution is required; S1's R mechanism would apply only if the next register omitted the change and remained uncured after notice.",
+    "expected_thesis_assessment": "A1 is modified but not contradicted because the source remains licensed and the narrowed field is unused; A2 remains supported subject to monitoring future product plans.",
+    "expected_credit_implication": "Mixed but presently limited: source continuity is secured, while the narrower license reduces future product flexibility.",
+    "rationale": "The executed renewal is economically meaningful but contract-compliant on the supplied facts. The rights map directly rebuts an inference of current unauthorized use. The evaluator should preserve the forward strategic concern without manufacturing an S2 breach or present reporting failure.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 3.629453681710214,
+      "maximum_x": 4.85,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "not_yet_due",
+        "first_test": "2027-12-31",
+        "summary": "Not yet due"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  },
+  {
+    "borrower_id": "B30",
+    "review_date": "2027-06-18",
+    "event_source": "B30-clearvoice-contact-services-llc/future-evidence/2027-06-16-operating-event.md",
+    "source_spans": [
+      "P1",
+      "P2"
+    ],
+    "affected_assumption_ids": [
+      "A2",
+      "A4"
+    ],
+    "evaluated_clause_ids": [
+      "S2"
+    ],
+    "expected_applicability": "S2 applies because the user held privileged access and the assignment had ended.",
+    "expected_evidence_sufficiency": "Sufficient to establish late revocation and actual access; insufficient to establish client-approved continuation because no such record was supplied.",
+    "expected_contract_result": "S2 has a remediable operating failure because access remained active beyond one Business Day after reassignment.",
+    "expected_resolution": "A; revocation occurred, but the contractual Event-of-Default analysis still depends on lender notice, the 30-calendar-day period, and completion of any required control remediation.",
+    "expected_thesis_assessment": "A2 is weakened by a demonstrated access-governance lapse; A4 is not directly contradicted, though repeated control failures could create staffing and client costs.",
+    "expected_credit_implication": "Adverse operational-control signal with currently limited evidence of client or financial harm.",
+    "rationale": "The reassignment and revocation timestamps establish the objective failure. Management's purpose explanation does not substitute for a current access approval or assignment extension. The case preserves the distinction between a remediable breach, completed account disablement, and the separate notice-based default mechanism.",
+    "q1_financial_result": {
+      "measurement_date": "2027-03-31",
+      "known_at": "2027-06-01",
+      "leverage_x": 2.380952380952381,
+      "maximum_x": 3.05,
+      "leverage_complies": true,
+      "selected_C09": {
+        "applicability": "applicable_at_this_month_end",
+        "metric_m": 19.48928082191781,
+        "minimum_m": 9,
+        "minimum_complies": true,
+        "forecast_triggered": false,
+        "forecast_due_if_triggered": null,
+        "other_months": "Not determined from this measurement alone",
+        "summary": "Cash 19.489m: floor passes; no forecast trigger"
+      },
+      "certificate_delivery_result": "insufficient_evidence: availability to analyst is not a lender submission receipt"
+    },
+    "reviewer_status": "Authored development answer; internal review, not practitioner adjudication"
+  }
+]

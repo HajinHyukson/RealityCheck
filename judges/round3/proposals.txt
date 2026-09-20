@@ -1,0 +1,11 @@
+# Round 3A proposals
+PNC-P1|Detect when a fund's holdings drift from what its label promises.
+PNC-P2|Detect when an investment's exposure drifts from its stated identity.
+XTRACT-P1|Detect when a holding's economic identity drifts from the label investors bought.
+XTRACT-P2|Detect when portfolio exposure drifts silently from the thesis it was sold on.
+NVIDIA-P1|Detect when your fund's real exposure drifts from its stated identity.
+NVIDIA-P2|Detect when a fund's classified identity no longer matches its filings.
+VC-P1|Detect when a fund's labeled exposure drifts from what it actually holds.
+VC-P2|Detect when a holding's economic identity drifts from its label.
+ORG-P1|Detect when an ETF's label no longer matches what it actually holds.
+ORG-P2|Detect when a holding's economic identity drifts from your investment thesis.

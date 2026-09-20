@@ -1,0 +1,30 @@
+{
+  "profile": [
+    "Reviewer note: H01-A07 and H01-A08 are the model's own inferences, not claims the scenario memo approved. A07 describes two manufacturers in one country, which is a concentration as much as a diversification; read it as a dependence to watch, not as a protection."
+  ],
+  "events": {
+    "H01-D01": [
+      "Reviewer note: two covenant assessments (C02, C09) were withheld by validation because a clause, status or quotation did not check out. Nothing was substituted for them."
+    ],
+    "H01-D02": [
+      "Reviewer note: the memo's review criterion for H01-A04 asks for freight cost per pair more than 20% above origination for two consecutive months. This report gives a spot-rate rise on affected services, not two months of per-pair cost, so 'weakened' goes further than the criterion supports. 'Insufficient evidence' would be the stricter reading. The model's wording is left as it was."
+    ],
+    "H01-D03": [
+      "Reviewer note: this is a revised development case. The first version of this report did not restate the 38% exposure or evidence the January 8 forecast refresh, which were authoring gaps. The report was revised and re-run once; the first attempt is kept in h01_attempts/.",
+      "Reviewer note: C05 is shown as insufficient evidence only because this report does not restate the notice. The December 14, 2026 notice is evidenced in the earlier shipping-disruption report, where C05 was found compliant.",
+      "Reviewer note: H01-A01 moves from contradicted to weakened. That is an improvement after rerouting, so this report is shown as a marker and not as a new detection. 15.2% of purchase volume remains delayed with no alternative before April 2027.",
+      "Reviewer note: two assumption findings and the C04 assessment were withheld by validation. Nothing was substituted for them."
+    ],
+    "H01-D04": [
+      "Reviewer note: one quotation was accepted after ignoring a closing period the model added where the source continues with a comma. The saved response was re-validated with no new inference call.",
+      "Reviewer note: H01-A08 is the model's own inferred assumption. Aged inventory of 14.2% is evidence about sell-through, not directly about distribution capacity, so 'contradicted' for A08 rests on an inference. The approved finding is H01-A02.",
+      "Reviewer note: the 'compliant' findings for C05 and C06 rely on delivery dates stated in the scenario report. Five covenant assessments were withheld by validation and nothing was substituted for them."
+    ],
+    "H01-D05": [
+      "Reviewer note: the report does not state $33.6 million. The model derived it under the C01 definition: $39.8 million of bank balances, less $4.1 million pledged for customs bonds, less $2.1 million held outside the Loan Parties. The arithmetic is correct.",
+      "Reviewer note: a month-end below the floor is a failure to comply with C01. It is not yet an Event of Default: under C09 that requires written notice from the Lender and 10 Business Days without cure, and the report says no notice had been given as of April 19, 2027.",
+      "Reviewer note: $50.0 million in H01-A05 is the base forecast level, not a floor. The only floor is $35.0 million.",
+      "Reviewer note: the C06 forecast that fell due on April 14, 2027 is not evidenced in this report, so the model did not call it missed. The lender would need to ask for it. Better direct sales do not cure the missed floor."
+    ]
+  }
+}

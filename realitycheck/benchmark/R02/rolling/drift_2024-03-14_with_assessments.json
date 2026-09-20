@@ -1,0 +1,421 @@
+{
+  "control": {
+    "borrower_id": "R02",
+    "mode": "control",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:52:46.207429+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.2",
+    "report_ids": [],
+    "assessments_supplied": false,
+    "summary": "Current leverage and liquidity covenants already reflect Amendment No.5; no changes needed to existing clauses. Three new performance covenants from Amendment No.5 (equity raise, asset disposal/monetization, warrant issuance) are added as new protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "C01 already matches the post‑Amendment No.5 leverage relief for Q2‑Q3 2023 and step‑down thresholds for Q4 2023‑Q2 2024."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "C02 mirrors the amended senior secured leverage relief and thresholds, requiring no modification."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "No evidence indicates a change to the liquidity covenant; it remains appropriate."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Financial statement delivery obligations are unchanged by the available evidence."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Compliance certificate requirement is unaffected by any new information."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Default notice obligations remain as originally drafted."
+      }
+    ],
+    "drift_judgment": "insufficient_evidence",
+    "drift_reasons": "Evidence shows Amendment No.5 added new performance covenants (equity raise, asset disposal/monetization, warrant issuance) that are not in the current package, constituting new protections that alter risk coverage and permitted behavior.",
+    "warnings": [
+      "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-2' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-3' withheld: missing verified evidence, change description or valid change type.",
+      "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "Current leverage and liquidity covenants already reflect Amendment No.5; no changes needed to existing clauses. Three new performance covenants from Amendment No.5 (equity raise, asset disposal/monetization, warrant issuance) are added as new protections.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "C01 already matches the post‑Amendment No.5 leverage relief for Q2‑Q3 2023 and step‑down thresholds for Q4 2023‑Q2 2024.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "C02 mirrors the amended senior secured leverage relief and thresholds, requiring no modification.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence indicates a change to the liquidity covenant; it remains appropriate.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Financial statement delivery obligations are unchanged by the available evidence.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Compliance certificate requirement is unaffected by any new information.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Default notice obligations remain as originally drafted.",
+          "evidence": []
+        },
+        {
+          "clause_id": "NEW-1",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company to raise net cash proceeds of not less than $100,000 from equity issuance by Dec 1, 2023, with proceeds used to pay down term loans.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02"
+          ],
+          "rationale": "Amendment No.5 introduced this equity raise covenant, which directly impacts the assumption of maintaining at least $25m unrestricted cash.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "Form 10-Q description",
+              "quote": "requiring the Company raise net cash proceeds of not less than $100,000 from the issuance of common equity interests in the Company by December 1, 2023"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-2",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company and subsidiaries to use commercially reasonable best efforts to dispose of certain non-core real estate and monetize consumer loan portfolios, with proceeds used to pay down term loans.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A06"
+          ],
+          "rationale": "Amendment No.5 added asset disposal/monetization covenants, affecting the assumption that assets remain sufficient to support the first‑priority lien.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "Form 10-Q description",
+              "quote": "requiring the Company and its subsidiaries to use commercially reasonable best efforts to dispose of certain non-core real estate and monetize its consumer loan portfolios"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-3",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company to issue warrants exercisable for an anticipated aggregate of 1,212,121 shares at an anticipated price of $12 per share to the Lender.",
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Amendment No.5 introduced a warrant issuance covenant, a new protection not present in the current package.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "Form 10-Q description",
+              "quote": "requiring the Company to issue warrants, exercisable for an anticipated aggregate of 1,212,121 shares at an anticipated price of $12 per share, to the Lender"
+            }
+          ]
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Evidence shows Amendment No.5 added new performance covenants (equity raise, asset disposal/monetization, warrant issuance) that are not in the current package, constituting new protections that alter risk coverage and permitted behavior."
+    },
+    "model_judgment": "material_drift"
+  },
+  "updated": {
+    "borrower_id": "R02",
+    "mode": "updated",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:56:37.926115+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.2",
+    "report_ids": [
+      "R02-D01",
+      "R02-D02",
+      "R02-D03",
+      "R02-D04",
+      "R02-D05"
+    ],
+    "assessments_supplied": true,
+    "summary": "Based on Q4 2023 results showing a sharp drop in Adjusted EBITDA and a delayed quarterly earnings release, the leverage covenants may need tightening and reporting timelines shortened, while liquidity and other covenants remain adequate.",
+    "clauses": [
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Liquidity remains well above the $25 million minimum, with $212.6 million available as of year‑end 2023."
+      },
+      {
+        "clause_id": "C04",
+        "action": "modify",
+        "rationale": "The Q4 FY 2023 press release was issued March 14, 2024, after the 60‑day filing deadline, indicating a potential delay.",
+        "change_type": "reporting_frequency",
+        "change": "shorten the quarterly reporting deadline from 60 days to an earlier date to ensure timely delivery",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0008",
+            "quote": "IRVING, Texas – March 14, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), today announced results for its quarter and full year ended December 31, 2023.",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A05"
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "No evidence of issues with compliance certificate delivery."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "No evidence of issues with default notice procedures."
+      },
+      {
+        "clause_id": "W05",
+        "action": "retain",
+        "rationale": "Amendment No. 5 terms are already reflected in the current package; no new evidence warrants change."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence of weakened EBITDA capacity and delayed quarterly reporting justifies tightening leverage thresholds and accelerating reporting frequency.",
+    "warnings": [
+      "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed modify on 'C02' withheld: missing verified evidence, change description or valid change type."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "Based on Q4 2023 results showing a sharp drop in Adjusted EBITDA and a delayed quarterly earnings release, the leverage covenants may need tightening and reporting timelines shortened, while liquidity and other covenants remain adequate.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "modify",
+          "change_type": "threshold",
+          "change": "tighten maximum allowed Consolidated Total Net Leverage Ratio after September 30, 2024 (lower than 4.25)",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "EBITDA fell sharply, weakening ability to meet the leverage cap.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights, an inventory write-down, and other non-cash or non-recurring charges."
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "action": "modify",
+          "change_type": "threshold",
+          "change": "tighten maximum allowed Consolidated Senior Secured Net Leverage Ratio after September 30, 2024 (lower than 3.75)",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "EBITDA fell sharply, weakening ability to meet the leverage cap.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0016",
+              "quote": "Adjusted EBITDA was $3.1 million for the fourth quarter after adjusting for an impairment of goodwill and franchise rights, an inventory write-down, and other non-cash or non-recurring charges."
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Liquidity remains well above the $25 million minimum, with $212.6 million available as of year‑end 2023.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "modify",
+          "change_type": "reporting_frequency",
+          "change": "shorten the quarterly reporting deadline from 60 days to an earlier date to ensure timely delivery",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "The Q4 FY 2023 press release was issued March 14, 2024, after the 60‑day filing deadline, indicating a potential delay.",
+          "evidence": [
+            {
+              "document_id": "RMBL-PR-2024-03-14",
+              "locator": "P0008",
+              "quote": "IRVING, Texas – March 14, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), today announced results for its quarter and full year ended December 31, 2023."
+            }
+          ]
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence of issues with compliance certificate delivery.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence of issues with default notice procedures.",
+          "evidence": []
+        },
+        {
+          "clause_id": "W05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Amendment No. 5 terms are already reflected in the current package; no new evidence warrants change.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Evidence of weakened EBITDA capacity and delayed quarterly reporting justifies tightening leverage thresholds and accelerating reporting frequency."
+    }
+  },
+  "comparison": {
+    "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "prompt_version": "0.2",
+    "report_ids": [
+      "R02-D01",
+      "R02-D02",
+      "R02-D03",
+      "R02-D04",
+      "R02-D05"
+    ],
+    "assessments_supplied": true,
+    "control_judgment": "insufficient_evidence",
+    "updated_judgment": "material_drift",
+    "evidence_attributable_changes": [
+      {
+        "clause_id": "C04",
+        "action": "modify",
+        "rationale": "The Q4 FY 2023 press release was issued March 14, 2024, after the 60‑day filing deadline, indicating a potential delay.",
+        "change_type": "reporting_frequency",
+        "change": "shorten the quarterly reporting deadline from 60 days to an earlier date to ensure timely delivery",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2024-03-14",
+            "locator": "P0008",
+            "quote": "IRVING, Texas – March 14, 2024 – RumbleOn, Inc. (NASDAQ: RMBL), today announced results for its quarter and full year ended December 31, 2023.",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A05"
+        ]
+      }
+    ],
+    "changes_also_in_control": [],
+    "control_only_changes": [],
+    "retained": [
+      "C03",
+      "C05",
+      "C06",
+      "W05"
+    ],
+    "updated_summary": "Based on Q4 2023 results showing a sharp drop in Adjusted EBITDA and a delayed quarterly earnings release, the leverage covenants may need tightening and reporting timelines shortened, while liquidity and other covenants remain adequate.",
+    "updated_reasons": "Evidence of weakened EBITDA capacity and delayed quarterly reporting justifies tightening leverage thresholds and accelerating reporting frequency.",
+    "warnings": [
+      "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-2' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-3' withheld: missing verified evidence, change description or valid change type.",
+      "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence.",
+      "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed modify on 'C02' withheld: missing verified evidence, change description or valid change type."
+    ],
+    "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured.",
+    "observed_response": {
+      "version": "1.2",
+      "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+      "publicly_available_at": "2024-08-08T13:52:53.000Z",
+      "clauses_changed_by_lender": [],
+      "overlap_with_attributable": [],
+      "note": "The actual amendment is an observed response, shown for comparison only, and it was not available to either candidate run. Overlap means the same clauses were touched; it says nothing about direction. A lender may loosen a limit the candidate would tighten. Agreement with the amendment is not the success measure."
+    }
+  }
+}

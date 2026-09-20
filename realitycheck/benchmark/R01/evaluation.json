@@ -1,0 +1,602 @@
+{
+  "case": "R01",
+  "mode": "strict_blind_historical_replay",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "candidate_prompt_version": "0.3",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1",
+    "status": "Synthetic evaluation guidelines written for this demonstration. They are our modeling choice. They are not any real lender's policy, risk tolerance or practice, and must not be attributed to Carlyle, Oaktree, Ares or any other lender."
+  },
+  "locked_at": "2026-09-20T01:34:22+00:00",
+  "development_history": "Prompts and validation were adjusted after earlier rolling-replay outputs for this company were seen. This is a development history, not an unseen held-out case.",
+  "reference_disclosure": "Author-prepared by the project's AI coding assistant from the blind inputs only, for the user's review. Not an independent or expert credit review. The author had already seen rolling-mode model outputs and the actual amendment history for this company, so these judgments are not blind to either. Treat them as a disclosed, reviewable baseline, not validated ground truth.",
+  "rules": {
+    "fixed_before_results": "2026-09-19, before any strict blind output was opened.",
+    "system_signal": {
+      "escalate": "candidate judgment is material_drift AND at least one change survives evidence validation AND that change is absent from the origination-only control",
+      "information_request": "candidate judgment is insufficient_evidence",
+      "no_action": "candidate judgment is no_material_drift, or a drift claim with no validated change (recorded as insufficient_evidence by the validator and counted as information_request)",
+      "assumption_flag": "framework workflow only: an assumption newly marked weakened or contradicted at this checkpoint. Reported beside the candidate signal, never merged into it."
+    },
+    "scoring_against_reference": {
+      "warranted": "detected if the signal is escalate or information_request; missed if no_action. Escalations and information requests are reported separately.",
+      "unwarranted": "unnecessary escalation if the signal is escalate. An information request is reported but not counted as an unnecessary escalation.",
+      "unresolved": "not scored. The signal is reported."
+    },
+    "response_matching": {
+      "window": "a candidate change corresponds to an observed response if it touches one of the response's clause families at any checkpoint whose cutoff is before the response's public date",
+      "direction": "reported separately from correspondence. Touching the same clause in the opposite direction is recorded as 'same clause, opposite direction', not as agreement.",
+      "lead_time": "days from the first corresponding checkpoint cutoff to the response's execution date and, separately, to its public date. Reported only for assessable responses; responses with no corresponding change are listed as not anticipated, never dropped.",
+      "repeat_alerts": "consecutive checkpoints signalling the same clause family count as one episode"
+    },
+    "evaluator_correction": "2026-09-19, after the first comparison: direction was being matched by substring against a free-text description, so a candidate that tightened C01 was reported as agreeing with a lender who loosened C01 but tightened C03. Direction is now compared per clause, and every corresponding clause is listed. This corrects the implementation of the rule fixed beforehand; the rule, the locked model outputs and the reference judgments are unchanged."
+  },
+  "exclusions": [
+    {
+      "report_id": "R01-D01",
+      "document_id": "IRBT-PR-2023-11-07",
+      "locator": "P0033",
+      "action": "kept despite screen",
+      "reason": "Describes the origination facility and the amendment of the Amazon merger agreement. Neither is a post-origination lender response.",
+      "preview": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing"
+    },
+    {
+      "report_id": "R01-D08",
+      "document_id": "IRBT-PR-2025-03-12",
+      "locator": "P0091",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "As part of its continued efforts to further strengthen its liquidity and financial position, the Company has amended its existing term loan and is actively enga"
+    },
+    {
+      "report_id": "R01-D09",
+      "document_id": "IRBT-PR-2025-05-06",
+      "locator": "P0047",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "The Company remains actively engaged in ongoing collaborative and constructive discussions with its primary lender while the Board continues its strategic revie"
+    },
+    {
+      "report_id": "R01-D09",
+      "document_id": "IRBT-8K-AMENDMENT-2",
+      "locator": "P0044",
+      "action": "removed",
+      "reason": "Document is a filing about a lender response.",
+      "preview": "As previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agr"
+    },
+    {
+      "report_id": "R01-D10",
+      "action": "checkpoint excluded from blind replay",
+      "reason": "The only source for this checkpoint is the Form 8-K announcing Amendment No. 3. It is itself the lender response, so there is nothing eligible to replay."
+    }
+  ],
+  "workflows": {
+    "realitycheck": {
+      "stats": {
+        "checkpoints": 9,
+        "failed": 0,
+        "withheld_findings": 11,
+        "seconds": 1634,
+        "warranted": 5,
+        "warranted_detected": 2,
+        "warranted_escalated": 2,
+        "unwarranted": 2,
+        "unnecessary_escalations": 1,
+        "unresolved": 2
+      },
+      "correspondence": [
+        {
+          "response": "R01-AM01",
+          "title": "Amendment No. 1: covenant waiver to May 6, 2025",
+          "executed": "2025-03-11",
+          "public": "2025-03-12",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [
+            "more frequent supplemental reporting",
+            "return of $40.0 million to the controlled account",
+            "fee paid in kind and warrants"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports through January 13, 2025 precede execution on March 11, 2025. The March 12 report became public with the response and cannot show advance detection.",
+          "anticipated": true,
+          "first_checkpoint": "R01-D01",
+          "first_cutoff": "2023-11-07",
+          "candidate_direction": "tighten",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R01-D01",
+              "same_direction": false
+            }
+          ],
+          "direction_reading": "same clause, opposite direction",
+          "days_before_execution": 490,
+          "days_before_public": 491
+        },
+        {
+          "response": "R01-AM02",
+          "title": "Amendment No. 2: waiver extended to June 6, 2025",
+          "executed": "2025-04-30",
+          "public": "2025-05-06",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [],
+          "assessable": false,
+          "assessability_note": "A waiver extension executed April 30, 2025. No blind checkpoint falls between March 12, 2025, when Amendment No. 1 became public, and that execution date; the next report (May 6, 2025) became public together with it.",
+          "anticipated": true,
+          "first_checkpoint": "R01-D01",
+          "first_cutoff": "2023-11-07",
+          "candidate_direction": "tighten",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R01-D01",
+              "same_direction": false
+            }
+          ],
+          "direction_reading": "same clause, opposite direction",
+          "days_before_execution": 540,
+          "days_before_public": 546
+        },
+        {
+          "response": "R01-AM03",
+          "title": "Amendment No. 3: waiver extended to August 14, 2025",
+          "executed": "2025-06-05",
+          "public": "2025-06-05",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [
+            "$4 million prepayment",
+            "additional warrants"
+          ],
+          "assessable": true,
+          "assessability_note": "The May 6, 2025 report precedes execution on June 5, 2025.",
+          "anticipated": true,
+          "first_checkpoint": "R01-D01",
+          "first_cutoff": "2023-11-07",
+          "candidate_direction": "tighten",
+          "per_clause": [
+            {
+              "clause_id": "C01",
+              "candidate": "tighten",
+              "lender": "loosen",
+              "checkpoint": "R01-D01",
+              "same_direction": false
+            }
+          ],
+          "direction_reading": "same clause, opposite direction",
+          "days_before_execution": 576,
+          "days_before_public": 576
+        }
+      ]
+    },
+    "direct_review": {
+      "stats": {
+        "checkpoints": 9,
+        "failed": 0,
+        "withheld_findings": 0,
+        "seconds": 313,
+        "warranted": 5,
+        "warranted_detected": 1,
+        "warranted_escalated": 0,
+        "unwarranted": 2,
+        "unnecessary_escalations": 0,
+        "unresolved": 2
+      },
+      "correspondence": [
+        {
+          "response": "R01-AM01",
+          "title": "Amendment No. 1: covenant waiver to May 6, 2025",
+          "executed": "2025-03-11",
+          "public": "2025-03-12",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [
+            "more frequent supplemental reporting",
+            "return of $40.0 million to the controlled account",
+            "fee paid in kind and warrants"
+          ],
+          "assessable": true,
+          "assessability_note": "Reports through January 13, 2025 precede execution on March 11, 2025. The March 12 report became public with the response and cannot show advance detection.",
+          "anticipated": false
+        },
+        {
+          "response": "R01-AM02",
+          "title": "Amendment No. 2: waiver extended to June 6, 2025",
+          "executed": "2025-04-30",
+          "public": "2025-05-06",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [],
+          "assessable": false,
+          "assessability_note": "A waiver extension executed April 30, 2025. No blind checkpoint falls between March 12, 2025, when Amendment No. 1 became public, and that execution date; the next report (May 6, 2025) became public together with it.",
+          "anticipated": false
+        },
+        {
+          "response": "R01-AM03",
+          "title": "Amendment No. 3: waiver extended to August 14, 2025",
+          "executed": "2025-06-05",
+          "public": "2025-06-05",
+          "lender_clause_families": [
+            "C01",
+            "C02"
+          ],
+          "lender_direction": "loosen",
+          "lender_added": [
+            "$4 million prepayment",
+            "additional warrants"
+          ],
+          "assessable": true,
+          "assessability_note": "The May 6, 2025 report precedes execution on June 5, 2025.",
+          "anticipated": false
+        }
+      ]
+    }
+  },
+  "checkpoints": [
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D01",
+      "cutoff": "2023-11-07",
+      "title": "Third-quarter 2023 results",
+      "reference": "unwarranted",
+      "signal": "escalate",
+      "new_assumption_flags": [
+        "R01-A02 weakened",
+        "R01-A03 contradicted",
+        "R01-A04 weakened"
+      ],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Increase the Minimum Core Assets Test threshold or reduce the step‑down amounts to reflect weaker inventory and break‑fee assumptions.",
+          "evidence": [
+            {
+              "document_id": "IRBT-10Q-2023Q1",
+              "locator": "P0368",
+              "quote": "As of April 1, 2023, the inventory balance was $229.7 million, or 169 days, a reduction of $55.6 million, from the end of fiscal 2022.",
+              "verified": true
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0033",
+              "quote": "On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders.",
+              "verified": true
+            }
+          ]
+        },
+        {
+          "clause_id": "C04",
+          "change_type": "scope",
+          "direction": "tighten",
+          "change": "Restrict the company's option to use Amazon Break Fee for inventory purchases, requiring a larger portion to be applied to term loan repayment.",
+          "evidence": [
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0033",
+              "quote": "On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D02",
+      "cutoff": "2024-01-29",
+      "title": "Amazon acquisition terminated; restructuring announced",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "NEW-1",
+          "change_type": "new_protection",
+          "direction": "add_protection",
+          "change": "Add a maximum inventory covenant to limit inventory levels (e.g., inventory days or amount).",
+          "evidence": [
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0023",
+              "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D03",
+      "cutoff": "2024-02-26",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "reference": "unresolved",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "NEW-1",
+          "change_type": "new_protection",
+          "direction": "add_protection",
+          "change": "Add a covenant limiting inventory days to ensure alignment with business run rates and reduce cash consumption.",
+          "evidence": [
+            {
+              "document_id": "IRBT-10Q-2023Q1",
+              "locator": "P0368",
+              "quote": "Inventory has consumed a significant amount of cash and the Company continues to manage its inventory level carefully.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D04",
+      "cutoff": "2024-05-07",
+      "title": "First-quarter 2024 results",
+      "reference": "unresolved",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "NEW-1",
+          "change_type": "new_protection",
+          "direction": "add_protection",
+          "change": "Add inventory alignment covenant requiring inventory days to align with business run rates to limit cash consumption.",
+          "evidence": [
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0023",
+              "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D05",
+      "cutoff": "2024-08-06",
+      "title": "Second-quarter 2024 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D06",
+      "cutoff": "2024-11-06",
+      "title": "Third-quarter 2024 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D07",
+      "cutoff": "2025-01-13",
+      "title": "Preliminary fourth-quarter 2024 results",
+      "reference": "warranted",
+      "signal": "escalate",
+      "new_assumption_flags": [],
+      "attributable_changes": [
+        {
+          "clause_id": "C01",
+          "change_type": "threshold",
+          "direction": "tighten",
+          "change": "Increase the Minimum Core Assets Test threshold to provide a buffer against potential inventory overstatement.",
+          "evidence": [
+            {
+              "document_id": "IRBT-PR-2025-01-13",
+              "locator": "P0014",
+              "quote": "Additionally, we recorded an incremental non-recurring charge in the fourth quarter of $8 million related to the write-off of excess component inventory and losses on non-cancelable purchase commitments",
+              "verified": true
+            }
+          ]
+        }
+      ],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D08",
+      "cutoff": "2025-03-12",
+      "title": "Fourth-quarter and full-year 2024 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": "The lender response became public the same morning; this checkpoint cannot show advance detection of it."
+    },
+    {
+      "workflow": "realitycheck",
+      "checkpoint": "R01-D09",
+      "cutoff": "2025-05-06",
+      "title": "First-quarter 2025 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [
+        "R01-A03 weakened"
+      ],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D01",
+      "cutoff": "2023-11-07",
+      "title": "Third-quarter 2023 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D02",
+      "cutoff": "2024-01-29",
+      "title": "Amazon acquisition terminated; restructuring announced",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D03",
+      "cutoff": "2024-02-26",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D04",
+      "cutoff": "2024-05-07",
+      "title": "First-quarter 2024 results",
+      "reference": "unresolved",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D05",
+      "cutoff": "2024-08-06",
+      "title": "Second-quarter 2024 results",
+      "reference": "unwarranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D06",
+      "cutoff": "2024-11-06",
+      "title": "Third-quarter 2024 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D07",
+      "cutoff": "2025-01-13",
+      "title": "Preliminary fourth-quarter 2024 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D08",
+      "cutoff": "2025-03-12",
+      "title": "Fourth-quarter and full-year 2024 results",
+      "reference": "warranted",
+      "signal": "information_request",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": "material_drift",
+      "information_gap": "The lender response became public the same morning; this checkpoint cannot show advance detection of it."
+    },
+    {
+      "workflow": "direct_review",
+      "checkpoint": "R01-D09",
+      "cutoff": "2025-05-06",
+      "title": "First-quarter 2025 results",
+      "reference": "warranted",
+      "signal": "no_action",
+      "new_assumption_flags": [],
+      "attributable_changes": [],
+      "also_in_control": [],
+      "model_judgment_overridden": null,
+      "information_gap": null
+    }
+  ],
+  "interpretation_limits": [
+    "Two companies and 9 checkpoints for this one. Checkpoints within a company are correlated, not independent borrowers.",
+    "Reference judgments are author-prepared and were not blind to the actual history. No independent credit reviewer was available.",
+    "Both companies are development histories: prompts were changed after earlier outputs for them were seen.",
+    "One run per checkpoint. Repeat-run stability and unchanged-evidence controls are not measured.",
+    "Nemotron may know these companies' outcomes from pretraining. Instructions to ignore recalled knowledge do not remove that.",
+    "An actual amendment is an observed response, not a correct answer. Correspondence and reference agreement are separate measures."
+  ]
+}

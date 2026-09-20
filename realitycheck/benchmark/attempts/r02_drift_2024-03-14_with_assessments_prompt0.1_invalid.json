@@ -1,0 +1,520 @@
+{
+  "control": {
+    "borrower_id": "R02",
+    "mode": "control",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:47:48.945453+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "report_ids": [],
+    "assessments_supplied": false,
+    "summary": "The existing leverage, liquidity and reporting covenants (C01‑C06) already reflect the relaxed terms from Amendment No. 5, so they are retained. The description of Amendment No. 5 (W05) is also retained. New performance covenants for asset sales, equity raise and warrant issuance are added to capture the additional protections introduced by that amendment.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "Evidence shows the leverage ratio steps‑ups and suspensions match Amendment No. 5; no further change is justified."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "The senior secured leverage ratio terms in C02 align with the Amendment No. 5 relaxations; no amendment needed."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Liquidity covenant unchanged by Amendment No. 5; evidence does not warrant modification."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Financial statement delivery requirements are unaffected by the amendment; retain as is."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Compliance certificate obligation remains unchanged; no evidence supports modification."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Notice of default provision is not altered by the amendment; retain."
+      },
+      {
+        "clause_id": "W05",
+        "action": "retain",
+        "rationale": "W05 accurately describes Amendment No. 5; no further change is needed."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence shows Amendment No. 5 introduced materially less restrictive leverage covenants and added new performance covenants (asset sales, equity raise, warrants). The existing package reflects the relaxed leverage terms but lacks the new performance protections, so a lender would write materially different protections at the review date.",
+    "warnings": [
+      "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-2' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-3' withheld: missing verified evidence, change description or valid change type."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "The existing leverage, liquidity and reporting covenants (C01‑C06) already reflect the relaxed terms from Amendment No. 5, so they are retained. The description of Amendment No. 5 (W05) is also retained. New performance covenants for asset sales, equity raise and warrant issuance are added to capture the additional protections introduced by that amendment.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Evidence shows the leverage ratio steps‑ups and suspensions match Amendment No. 5; no further change is justified.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "The senior secured leverage ratio terms in C02 align with the Amendment No. 5 relaxations; no amendment needed.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Liquidity covenant unchanged by Amendment No. 5; evidence does not warrant modification.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Financial statement delivery requirements are unaffected by the amendment; retain as is.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Compliance certificate obligation remains unchanged; no evidence supports modification.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Notice of default provision is not altered by the amendment; retain.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "W05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "W05 accurately describes Amendment No. 5; no further change is needed.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-1",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring commercially reasonable best efforts to dispose of non‑core real estate and monetize consumer loan portfolios, with proceeds used to pay down term loans.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02",
+            "R02-A03"
+          ],
+          "rationale": "Amendment No. 5 added this asset‑sale covenant to strengthen liquidity and debt repayment capacity.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "additional performance covenants were added requiring the Company to dispose of non-core real estate and monetize consumer loan portfolios, using proceeds to pay down term loans"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-2",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company to raise at least $100,000 net cash from equity issuance by December 1, 2023, with proceeds used to pay down term loans.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02",
+            "R02-A03"
+          ],
+          "rationale": "Amendment No. 5 imposed an equity‑raise covenant to bolster liquidity and reduce leverage.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "an additional performance covenant was added requiring the Company to raise at least $100,000 net cash from equity issuance by Dec 1, 2023, proceeds to pay down term loans"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-3",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company to issue warrants for 1,212,121 shares at $12 per share to the Lender.",
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Amendment No. 5 added a warrant covenant as additional lender protection.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "W05",
+              "quote": "an additional performance covenant was added requiring the Company to issue warrants for 1,212,121 shares at $12 per share to the Lender"
+            }
+          ]
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Evidence shows Amendment No. 5 introduced materially less restrictive leverage covenants and added new performance covenants (asset sales, equity raise, warrants). The existing package reflects the relaxed leverage terms but lacks the new performance protections, so a lender would write materially different protections at the review date."
+    }
+  },
+  "updated": {
+    "borrower_id": "R02",
+    "mode": "updated",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:50:00.278020+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "report_ids": [
+      "R02-D01",
+      "R02-D02",
+      "R02-D03",
+      "R02-D04",
+      "R02-D05"
+    ],
+    "assessments_supplied": true,
+    "summary": "Based on evidence of Amendment No. 5, the leverage ratio covenants (C01, C02) should be modified to reflect suspended testing and higher permissible ratios through mid‑2024. Liquidity, reporting, compliance, notice, and the amendment description (C03‑C06, W05) remain appropriate as no contrary evidence exists.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "rationale": "Amendment No. 5 relaxed leverage covenants, eliminating testing for Q2/Q3 2023 and raising permissible ratios for later periods, indicating weaker EBITDA support for original 4.25x threshold.",
+        "change_type": "threshold",
+        "change": "Increase allowed Consolidated Total Net Leverage Ratio thresholds: suspend testing for quarters ending June 30, 2023 and September 30, 2023; permit >5.50 for Dec 31, 2023; >5.00 for Mar 31, 2024; >4.75 for Jun 30, 2024.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2023Q2",
+            "locator": "P0538",
+            "quote": "eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "modify",
+        "rationale": "Amendment No. 5 relaxed leverage covenants, eliminating testing for Q2/Q3 2023 and raising permissible ratios for later periods, indicating weaker EBITDA support for original 3.75x threshold.",
+        "change_type": "threshold",
+        "change": "Increase allowed Consolidated Senior Secured Net Leverage Ratio thresholds: suspend testing for quarters ending June 30, 2023 and September 30, 2023; permit >5.50 for Dec 31, 2023; >5.00 for Mar 31, 2024; >4.25 for Jun 30, 2024.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2023Q2",
+            "locator": "P0538",
+            "quote": "eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Liquidity covenant unchanged; evidence shows liquidity well above $25M threshold."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Financial statement delivery terms unchanged; no evidence of missed deadlines or need to adjust frequency."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Compliance certificate requirement unchanged; no evidence of reporting issues."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Notice of default provision unchanged; no evidence of default‑related concerns."
+      },
+      {
+        "clause_id": "W05",
+        "action": "retain",
+        "rationale": "Amendment No. 5 description reflects actual amendment terms; no newer evidence to alter it."
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Amendment No. 5 evidence shows leverage ratio covenants were suspended for Q2/Q3 2023 and made less restrictive (higher permissible ratios) for later periods, indicating weakened EBITDA support and a loosening of risk coverage.",
+    "warnings": [
+      "C01: 1 unverifiable citation(s) dropped.",
+      "C02: 1 unverifiable citation(s) dropped."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "Based on evidence of Amendment No. 5, the leverage ratio covenants (C01, C02) should be modified to reflect suspended testing and higher permissible ratios through mid‑2024. Liquidity, reporting, compliance, notice, and the amendment description (C03‑C06, W05) remain appropriate as no contrary evidence exists.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "modify",
+          "change_type": "threshold",
+          "change": "Increase allowed Consolidated Total Net Leverage Ratio thresholds: suspend testing for quarters ending June 30, 2023 and September 30, 2023; permit >5.50 for Dec 31, 2023; >5.00 for Mar 31, 2024; >4.75 for Jun 30, 2024.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "Amendment No. 5 relaxed leverage covenants, eliminating testing for Q2/Q3 2023 and raising permissible ratios for later periods, indicating weaker EBITDA support for original 4.25x threshold.",
+          "evidence": [
+            {
+              "document_id": "RMBL-10Q-2023Q2",
+              "locator": "P0538",
+              "quote": "eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023"
+            },
+            {
+              "document_id": "RMBL-10Q-2023Q2",
+              "locator": "P0538",
+              "quote": "For the Test Period ending on December 31, 2023, permit the Consolidated Total Net Leverage Ratio to be greater than 5.50 to 1.00;"
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "action": "modify",
+          "change_type": "threshold",
+          "change": "Increase allowed Consolidated Senior Secured Net Leverage Ratio thresholds: suspend testing for quarters ending June 30, 2023 and September 30, 2023; permit >5.50 for Dec 31, 2023; >5.00 for Mar 31, 2024; >4.25 for Jun 30, 2024.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "Amendment No. 5 relaxed leverage covenants, eliminating testing for Q2/Q3 2023 and raising permissible ratios for later periods, indicating weaker EBITDA support for original 3.75x threshold.",
+          "evidence": [
+            {
+              "document_id": "RMBL-10Q-2023Q2",
+              "locator": "P0538",
+              "quote": "eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023"
+            },
+            {
+              "document_id": "RMBL-10Q-2023Q2",
+              "locator": "P0538",
+              "quote": "For the Test Period ending on December 31, 2023, permit the Consolidated Total Net Leverage Ratio to be greater than 5.50 to 1.00;"
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Liquidity covenant unchanged; evidence shows liquidity well above $25M threshold.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Financial statement delivery terms unchanged; no evidence of missed deadlines or need to adjust frequency.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Compliance certificate requirement unchanged; no evidence of reporting issues.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Notice of default provision unchanged; no evidence of default‑related concerns.",
+          "evidence": []
+        },
+        {
+          "clause_id": "W05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Amendment No. 5 description reflects actual amendment terms; no newer evidence to alter it.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Amendment No. 5 evidence shows leverage ratio covenants were suspended for Q2/Q3 2023 and made less restrictive (higher permissible ratios) for later periods, indicating weakened EBITDA support and a loosening of risk coverage."
+    }
+  },
+  "comparison": {
+    "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "report_ids": [
+      "R02-D01",
+      "R02-D02",
+      "R02-D03",
+      "R02-D04",
+      "R02-D05"
+    ],
+    "assessments_supplied": true,
+    "control_judgment": "material_drift",
+    "updated_judgment": "material_drift",
+    "evidence_attributable_changes": [
+      {
+        "clause_id": "C01",
+        "action": "modify",
+        "rationale": "Amendment No. 5 relaxed leverage covenants, eliminating testing for Q2/Q3 2023 and raising permissible ratios for later periods, indicating weaker EBITDA support for original 4.25x threshold.",
+        "change_type": "threshold",
+        "change": "Increase allowed Consolidated Total Net Leverage Ratio thresholds: suspend testing for quarters ending June 30, 2023 and September 30, 2023; permit >5.50 for Dec 31, 2023; >5.00 for Mar 31, 2024; >4.75 for Jun 30, 2024.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2023Q2",
+            "locator": "P0538",
+            "quote": "eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      },
+      {
+        "clause_id": "C02",
+        "action": "modify",
+        "rationale": "Amendment No. 5 relaxed leverage covenants, eliminating testing for Q2/Q3 2023 and raising permissible ratios for later periods, indicating weaker EBITDA support for original 3.75x threshold.",
+        "change_type": "threshold",
+        "change": "Increase allowed Consolidated Senior Secured Net Leverage Ratio thresholds: suspend testing for quarters ending June 30, 2023 and September 30, 2023; permit >5.50 for Dec 31, 2023; >5.00 for Mar 31, 2024; >4.25 for Jun 30, 2024.",
+        "evidence": [
+          {
+            "document_id": "RMBL-10Q-2023Q2",
+            "locator": "P0538",
+            "quote": "eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023",
+            "verified": true
+          }
+        ],
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R02-A01"
+        ]
+      }
+    ],
+    "changes_also_in_control": [],
+    "control_only_changes": [],
+    "retained": [
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "W05"
+    ],
+    "updated_summary": "Based on evidence of Amendment No. 5, the leverage ratio covenants (C01, C02) should be modified to reflect suspended testing and higher permissible ratios through mid‑2024. Liquidity, reporting, compliance, notice, and the amendment description (C03‑C06, W05) remain appropriate as no contrary evidence exists.",
+    "updated_reasons": "Amendment No. 5 evidence shows leverage ratio covenants were suspended for Q2/Q3 2023 and made less restrictive (higher permissible ratios) for later periods, indicating weakened EBITDA support and a loosening of risk coverage.",
+    "warnings": [
+      "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-2' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-3' withheld: missing verified evidence, change description or valid change type.",
+      "C01: 1 unverifiable citation(s) dropped.",
+      "C02: 1 unverifiable citation(s) dropped."
+    ],
+    "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured.",
+    "observed_response": {
+      "version": "1.2",
+      "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+      "publicly_available_at": "2024-08-08T13:52:53.000Z",
+      "clauses_changed_by_lender": [],
+      "overlap_with_attributable": [],
+      "note": "The actual amendment is an observed response, shown for comparison only. Agreement with it is not the success measure, and it was not available to either candidate run."
+    }
+  }
+}

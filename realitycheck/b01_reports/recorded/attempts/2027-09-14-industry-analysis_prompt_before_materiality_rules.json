@@ -1,0 +1,736 @@
+{
+  "id": "B01-E-413fb6455851",
+  "title": "Industry analysis: platform vendors are shortening deprecation windows",
+  "event_date": "2027-09-13",
+  "available_at": "2027-09-14",
+  "review_date": "2027-09-14",
+  "sources": [
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P1 — vendor deprecation windows",
+      "text": "Synthetic industry report published September 13, 2027 by Northgate Research, a fictional analyst firm. It does not name or assess FluxRail. Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change. Northgate expects notice periods to keep shortening through 2028; this is an analyst forecast, not an observed result."
+    },
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P2 — buyer survey",
+      "text": "In a July 2027 survey of 140 mid-sized manufacturers that use regulated-approval workflow software, 31% said they would open a competitive review at their next renewal after two workflow outages within twelve months, and 9% said they would do so after one. These are stated intentions. Northgate did not measure actual renewal outcomes, and the survey did not identify respondents' software vendors."
+    },
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P3 — mitigating practices and limits",
+      "text": "Workflow vendors that ran automated connector regression tests against platform pre-release environments reported fewer customer-facing integration incidents than those that did not, although Northgate notes the comparison is not controlled for vendor size. The report draws on public vendor notices and the survey only. It contains no information about any individual software company's connectors, customers, contracts or lenders."
+    }
+  ],
+  "source_kind": "database_update",
+  "package_version": "1.2",
+  "status": "completed",
+  "analysis": {
+    "id": "B01-E-413fb6455851",
+    "event": {
+      "id": "B01-E-413fb6455851",
+      "title": "Industry analysis: platform vendors are shortening deprecation windows",
+      "event_date": "2027-09-13",
+      "available_at": "2027-09-14",
+      "review_date": "2027-09-14",
+      "sources": [
+        {
+          "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+          "locator": "P1 — vendor deprecation windows",
+          "text": "Synthetic industry report published September 13, 2027 by Northgate Research, a fictional analyst firm. It does not name or assess FluxRail. Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change. Northgate expects notice periods to keep shortening through 2028; this is an analyst forecast, not an observed result."
+        },
+        {
+          "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+          "locator": "P2 — buyer survey",
+          "text": "In a July 2027 survey of 140 mid-sized manufacturers that use regulated-approval workflow software, 31% said they would open a competitive review at their next renewal after two workflow outages within twelve months, and 9% said they would do so after one. These are stated intentions. Northgate did not measure actual renewal outcomes, and the survey did not identify respondents' software vendors."
+        },
+        {
+          "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+          "locator": "P3 — mitigating practices and limits",
+          "text": "Workflow vendors that ran automated connector regression tests against platform pre-release environments reported fewer customer-facing integration incidents than those that did not, although Northgate notes the comparison is not controlled for vendor size. The report draws on public vendor notices and the survey only. It contains no information about any individual software company's connectors, customers, contracts or lenders."
+        }
+      ]
+    },
+    "borrower_id": "B01",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:19:12.708007+00:00",
+    "model_options": {
+      "enable_thinking": true,
+      "max_tokens": 10000,
+      "response_format": "json_object"
+    },
+    "summary": "The event is an industry report showing platform vendors shortening deprecation windows and survey data on customer intentions after outages. It does not name FluxRail or provide borrower-specific facts. Consequently, it does not directly support, weaken, or contradict any underwriting assumption, nor does it trigger any covenant duty. The analysis highlights a conditional concern for assumptions about connector reliability and renewal dependence, but borrower-specific evidence is needed to assess material impact.",
+    "attributions": [
+      {
+        "id": "att-9ae3e208-4863-49f4-af6e-760d2fe9f14a",
+        "target_type": "assumption",
+        "target_id": "B01-A01",
+        "relation_type": "evidence_gap",
+        "risk_direction": "adverse",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event shows vendors shortening deprecation windows, which could affect connector reliability and renewal dependence, but offers no FluxRail‑specific data on workflow execution or outages.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "FluxRail's actual connector reliability metrics",
+          "Any observed workflow outages affecting revenue",
+          "Impact of shortened vendor notice periods on FluxRail's ability to maintain supported connectors"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-ed4537d0-6534-4f58-9faa-5afbe6a621b4",
+        "target_type": "assumption",
+        "target_id": "B01-A02",
+        "relation_type": "evidence_gap",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event does not address template efficiency or deployment cycles; it only highlights external vendor notice changes.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Data on FluxRail's use of reusable configuration templates",
+          "Metrics on implementation labor and customer deployment cycles"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-af15055d-7111-4491-9d7a-91ef0e0fa6f5",
+        "target_type": "assumption",
+        "target_id": "B01-A03",
+        "relation_type": "evidence_gap",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event does not speak to subscription billing or receivable collection; missing FluxRail cash conversion data.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "FluxRail's subscription billing performance",
+          "Actual receivable collection days and operating cash generation"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-c123937a-03cc-4d50-ad40-973bf5e32d89",
+        "target_type": "assumption",
+        "target_id": "B01-A04",
+        "relation_type": "evidence_gap",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event does not provide leverage or earnings headroom information; missing FluxRail leverage and cash/collateral data.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "FluxRail's current leverage ratio",
+          "Earnings headroom and transaction restriction effects on cash and collateral"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-04fca6a0-f8e1-445c-b5cc-b16f7aaf0307",
+        "target_type": "assumption",
+        "target_id": "B01-A05",
+        "relation_type": "evidence_gap",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event does not discuss receivable collection stability; missing FluxRail receivable days and working capital absorption data.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "FluxRail's actual receivable collection period",
+          "Evidence of stable 42‑day collection supporting working capital"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "working"
+      },
+      {
+        "id": "att-0e791fb1-f6b2-4f37-b218-9993862134ae",
+        "target_type": "assumption",
+        "target_id": "B01-A06",
+        "relation_type": "evidence_gap",
+        "risk_direction": "adverse",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The event highlights shorter vendor notice periods, which could affect connector support continuity, but lacks FluxRail‑specific outage or support continuity evidence.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "FluxRail's connector support continuity practices",
+          "Any workflow outages affecting ≥10% of revenue",
+          "Evidence that support continuity prevents such outages"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "working"
+      }
+    ],
+    "coverage": [
+      {
+        "assumption_id": "B01-A01",
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A02",
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A03",
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A04",
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A05",
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A06",
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "status": "addressed"
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C02",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C03",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C04",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C05",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C06",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C07",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "C08",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "S1",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "S2",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      },
+      {
+        "clause_id": "S3",
+        "status": "not_triggered",
+        "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      }
+    ],
+    "warnings": [],
+    "error": null,
+    "decisions": {},
+    "raw_response": {
+      "summary": "The event is an industry report showing platform vendors shortening deprecation windows and survey data on customer intentions after outages. It does not name FluxRail or provide borrower-specific facts. Consequently, it does not directly support, weaken, or contradict any underwriting assumption, nor does it trigger any covenant duty. The analysis highlights a conditional concern for assumptions about connector reliability and renewal dependence, but borrower-specific evidence is needed to assess material impact.",
+      "attributions": [
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A01",
+          "relation_type": "evidence_gap",
+          "risk_direction": "adverse",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "The event shows vendors shortening deprecation windows, which could affect connector reliability and renewal dependence, but offers no FluxRail‑specific data on workflow execution or outages.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "FluxRail's actual connector reliability metrics",
+            "Any observed workflow outages affecting revenue",
+            "Impact of shortened vendor notice periods on FluxRail's ability to maintain supported connectors"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A02",
+          "relation_type": "evidence_gap",
+          "risk_direction": "neutral",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "The event does not address template efficiency or deployment cycles; it only highlights external vendor notice changes.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "Data on FluxRail's use of reusable configuration templates",
+            "Metrics on implementation labor and customer deployment cycles"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A03",
+          "relation_type": "evidence_gap",
+          "risk_direction": "neutral",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "The event does not speak to subscription billing or receivable collection; missing FluxRail cash conversion data.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "FluxRail's subscription billing performance",
+            "Actual receivable collection days and operating cash generation"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A04",
+          "relation_type": "evidence_gap",
+          "risk_direction": "neutral",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "The event does not provide leverage or earnings headroom information; missing FluxRail leverage and cash/collateral data.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "FluxRail's current leverage ratio",
+            "Earnings headroom and transaction restriction effects on cash and collateral"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A05",
+          "relation_type": "evidence_gap",
+          "risk_direction": "neutral",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "The event does not discuss receivable collection stability; missing FluxRail receivable days and working capital absorption data.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "FluxRail's actual receivable collection period",
+            "Evidence of stable 42‑day collection supporting working capital"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A06",
+          "relation_type": "evidence_gap",
+          "risk_direction": "adverse",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "The event highlights shorter vendor notice periods, which could affect connector support continuity, but lacks FluxRail‑specific outage or support continuity evidence.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "FluxRail's connector support continuity practices",
+            "Any workflow outages affecting ≥10% of revenue",
+            "Evidence that support continuity prevents such outages"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": []
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [
+        {
+          "clause_id": "C01",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C02",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C03",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C04",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C05",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C06",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C07",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "C08",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "S1",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "S2",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        },
+        {
+          "clause_id": "S3",
+          "status": "not_triggered",
+          "rationale": "The event provides only industry‑level analysis and does not indicate any specific incident, notice, or breach affecting FluxRail, so no covenant duty is triggered.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "decision": {
+    "action": "pending"
+  },
+  "received_at": "2026-09-20T01:19:12+00:00",
+  "analyzed_at": "2026-09-20T01:20:17+00:00",
+  "recorded_replay": {
+    "library_file": "2027-09-14-industry-analysis.json",
+    "recorded_on_copy": true,
+    "note": "Genuine hosted Nemotron analysis recorded on a copy of the FluxRail database, with the library reports introduced in date order."
+  }
+}

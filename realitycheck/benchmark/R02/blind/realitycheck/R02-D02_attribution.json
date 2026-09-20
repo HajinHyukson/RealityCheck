@@ -1,0 +1,493 @@
+{
+  "id": "R02-D02",
+  "event": {
+    "id": "R02-D02",
+    "title": "First-quarter 2023 results",
+    "event_date": "2023-05-10",
+    "available_at": "2023-05-10",
+    "review_date": "2023-05-10",
+    "sources": [
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0009",
+        "text": "IRVING, Texas – May 10, 2023 – RumbleOn, Inc. (NASDAQ: RMBL) (the “Company” or “RumbleOn”), the nation's first technology-based powersports platform, today announced operational and financial results for the three months ended March 31, 2023. RumbleOn management is hosting an earnings call to discuss the Company’s results today, May 10, 2023, at 7:30 am CT (8:30 am ET)."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0011",
+        "text": "•Total Unit Sales of 17,336, primarily comprised of 10,436 New Units and 6,900 Used Units, resulting in New:Used ratio of 1.5x, similar to prior quarter"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0013",
+        "text": "•Total Company Gross Profit of $91.0 million; Total Company Gross Profit Margin of 26.3% increased 110 bps sequentially"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0015",
+        "text": "•Adjusted Net Income of $0.8 million with Adjusted Diluted Earnings per Share of $0.05"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0016",
+        "text": "•Adjusted EBITDA of $10.7 million, impacted by gross margin compression and a lag in the impact of SG&A reductions"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0018",
+        "text": "Marshall Chesrown, RumbleOn's Chairman and Chief Executive Officer commented, “In the first quarter, we experienced normal seasonality, delivering revenue and unit sales in line with our expectations. We achieved this in the face of unprecedented industry-wide new vehicle inventory rebalancing over the course of the Q4 and Q1 of this year, not to mention significant atypical seasonal weather disruptions. These factors have not altered our Five Pillar plan to profitably grow our Company. They have slowed us down a bit, but we proactively managed through these difficult headwinds and are back on plan in March and April.”"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0019",
+        "text": "“In 2023, we will continue to implement the Five Pillars of our strategy: self-funding, reduction and refinancing of debt, technology, continuing to improve the customer experience, and increasing market share through organic growth and M&A. We are intently focused on striking the right balance between prudent investment in our business and expense control, given the current economic environment. We will see the effects of these SG&A reductions flow through the remainder of the year and are confident in the outlook we previously provided,” concluded Chesrown."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0021",
+        "text": "Reconciliation of GAAP to non-GAAP financial measures are provided in accompanying financial schedules."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0022",
+        "text": "Unless otherwise noted, all comparisons in the narrative are on a sequential basis for the three months ended March 31, 2023, as compared to the three months ended December 31, 2022."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0029",
+        "text": "| Total Revenue | $346.3 | | $369.5 | | $445.2 | | (6.3)% | | (22)%"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0040",
+        "text": "Total Unit Sales of 17,336 units declined (5.9)%, driven by typical seasonality in the powersports business."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0041",
+        "text": "Total Revenue of $346.3 million declined (6.3)%. Powersports Segment revenue was essentially flat."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0042",
+        "text": "Total Gross Profit of $91.0 million declined (2.3)% and Gross Profit Margin was 26.3%, up from 25.2%. Sequential increase in gross profit margin was in line with our prior expectations."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0043",
+        "text": "Operating Expenses were $91.8 million, or 26.5% of revenue, compared to $98.1 million, or 26.6% of revenue. Total stock-based compensation was $2.9 million up from $2.1 million in the prior quarter."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0044",
+        "text": "Net Loss was $(16.9) million, or (4.9)% of revenue, compared to $(287.7) million, or (77.9)% of revenue. Loss per diluted share was $(1.04) compared to $(17.80)."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0045",
+        "text": "Adjusted Net Income (Loss) was $0.8 million, or 0.2% of revenue, compared to $(11.0) million or (3.0)% of revenue. Adjusted net income (loss) per diluted share was $0.05 compared to $(0.68)."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0046",
+        "text": "Adjusted EBITDA was $10.7 million, compared to $18.7 million. The sequential decrease in adjusted EBITDA of (42.5)% was driven by modest gross margin compression in the Powersports Segment, and lower gross profit contribution from the Automotive Segment."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0047",
+        "text": "Cash and Restricted Cash as of March 31, 2023 was approximately $61.8 million, and total debt was $376.8 million. Availability under our short-term revolving floorplan credit facilities totaled approximately $159.1 million."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0048",
+        "text": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0049",
+        "text": "Cash Flow provided by Operating Activities was $8.9 million for the three months ended March 31, 2023, which was positively impacted by $13.4 million of trade floorplan borrowings used for inventory purchases."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0051",
+        "text": "Weighted Average Basic and Diluted Shares of Class A and Class B common stock outstanding were 16,224,122 for the three months ended March 31, 2023. As of March 31, 2023, RumbleOn had 16,295,735 total shares of Class B common stock, and 50,000 shares of Class A common stock outstanding."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0054",
+        "text": "•Total Powersports and Transportation Revenue of $1.4 billion to $1.6 billion, compared to Powersports and Transportation Revenue of $1.46 billion in 2022."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0059",
+        "text": "Unless otherwise noted, all comparisons are on a sequential basis for the three months ended March 31, 2023, as compared to the three months ended December 31, 2022."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0070",
+        "text": "| Revenue | | | | | | | | |"
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0086",
+        "text": "1 Calculated as total powersports gross profit divided by new and used retail powersports units sold."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0087",
+        "text": "Used Powersports Units, which includes used retail and wholesale Powersports Units, declined (1.9)% sequentially. Sequential declines are primarily the result of our decision to slow down used vehicle acquisitions while new inventory normalized."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0088",
+        "text": "Used Powersports Revenue declined (1.2)% sequentially due to intentional slowing of used inventory acquisition and anticipated seasonality."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0089",
+        "text": "Used Powersports Gross Profit declined (18.3)% sequentially due primarily to modest mix shift towards wholesale in the quarter, as well as input cost inflation."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0090",
+        "text": "New Powersports Revenue increased 4.4% sequentially, despite a (1.9)% reduction in unit sales, driven by increased supply of new inventory and favorable price mix in consumer demand."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0091",
+        "text": "New Powersports Gross Profit declined (6.3)% sequentially due primarily to higher inventory acquisition costs."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0102",
+        "text": "Revenue from the Vehicle Logistics Segment increased 30.4% sequentially, driven by an increase in the number of vehicles transported and slight increase in revenue per vehicle transported to $631.0 in the first quarter."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0103",
+        "text": "Gross profit for this segment was up sequentially, driven by a 29.3% increase in the number of vehicles transported."
+      },
+      {
+        "document_id": "RMBL-PR-2023-05-10",
+        "locator": "P0112",
+        "text": "Revenue from the Automotive Segment declined (86.8)% sequentially, primarily driven by the Company's strategic decision to purchase and sell fewer automotive units, as this business continues to wind down."
+      }
+    ]
+  },
+  "borrower_id": "R02",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:07:44.512453+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  },
+  "summary": "The Q1 2023 press release shows Adjusted EBITDA of $10.7 million, total debt $376.8 million, liquidity $97.4 million and operating cash flow $8.9 million. These figures weaken the EBITDA sufficiency assumption but do not provide enough data to confirm leverage‑ratio compliance; liquidity remains above the $25 million minimum, operating cash flow is positive short‑term but insufficient to confirm twelve‑month sufficiency, and there is no evidence on additional indebtedness, delayed‑draw availability, RideNow synergies or reporting obligations. A human should review the leverage calculations and covenant compliance given the weakened EBITDA assumption.",
+  "attributions": [
+    {
+      "id": "att-cd94cd4a-fd51-4b4b-a5a8-7dd55a5730fe",
+      "target_type": "assumption",
+      "target_id": "R02-A01",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "adverse",
+      "proposed_status": "weakened",
+      "rationale": "Adjusted EBITDA fell to $10.7 million in Q1 2023 from $18.7 million in the prior quarter, indicating reduced EBITDA availability and weakening the assumption that EBITDA will support the leverage covenant.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0016",
+          "quote": "Adjusted EBITDA of $10.7 million, impacted by gross margin compression and a lag in the impact of SG&A reductions",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "review_assumption",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Sufficient EBITDA for Leverage Covenant",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-878a0885-056a-414f-9ff8-40ff8d1ae2a1",
+      "target_type": "assumption",
+      "target_id": "R02-A02",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Total Available Liquidity was approximately $97.4 million at March 31 2023, well above the $25 million minimum liquidity requirement.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0048",
+          "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Liquidity Above Minimum Threshold",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-59700d07-6ed1-4909-9e45-c94838dc44fc",
+      "target_type": "assumption",
+      "target_id": "R02-A04",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "neutral",
+      "proposed_status": "supported",
+      "rationale": "No new indebtedness or asset disposals are reported in the Q1 2023 press release, indicating continued compliance with the limitation on additional indebtedness and asset sales.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0047",
+          "quote": "Cash and Restricted Cash as of March 31, 2023 was approximately $61.8 million, and total debt was $376.8 million.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Limited Additional Indebtedness and Asset Sales",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-65d19f41-8fec-46a9-b63e-7be395536f50",
+      "target_type": "assumption",
+      "target_id": "R02-A06",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "neutral",
+      "proposed_status": "insufficient_evidence",
+      "rationale": "Operating cash flow provided by operating activities was $8.9 million for Q1 2023, but the press release offers no forward‑looking statement on cash‑flow adequacy for the next twelve months.",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0049",
+          "quote": "Cash Flow provided by Operating Activities was $8.9 million for the three months ended March 31, 2023, which was positively impacted by $13.4 million of trade floorplan borrowings used for inventory purchases.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "request_information",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Adequate Operating Cash Flow",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R02-A01",
+      "target_title": "Sufficient EBITDA for Leverage Covenant",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R02-A02",
+      "target_title": "Liquidity Above Minimum Threshold",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R02-A03",
+      "target_title": "Delayed Draw Availability When Needed",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R02-A04",
+      "target_title": "Limited Additional Indebtedness and Asset Sales",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R02-A05",
+      "target_title": "RideNow Transaction Completion and Synergies",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R02-A06",
+      "target_title": "Adequate Operating Cash Flow",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [],
+  "warnings": [
+    "Attribution 3 withheld: evidence citation did not verify at its document and locator.",
+    "Attribution 5 withheld: evidence citation did not verify at its document and locator.",
+    "Covenant assessment 'C01' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C02' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C03' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C04' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C05' withheld: invalid clause, status or citation.",
+    "Covenant assessment 'C06' withheld: invalid clause, status or citation."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The Q1 2023 press release shows Adjusted EBITDA of $10.7 million, total debt $376.8 million, liquidity $97.4 million and operating cash flow $8.9 million. These figures weaken the EBITDA sufficiency assumption but do not provide enough data to confirm leverage‑ratio compliance; liquidity remains above the $25 million minimum, operating cash flow is positive short‑term but insufficient to confirm twelve‑month sufficiency, and there is no evidence on additional indebtedness, delayed‑draw availability, RideNow synergies or reporting obligations. A human should review the leverage calculations and covenant compliance given the weakened EBITDA assumption.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": "weakened",
+        "rationale": "Adjusted EBITDA fell to $10.7 million in Q1 2023 from $18.7 million in the prior quarter, indicating reduced EBITDA availability and weakening the assumption that EBITDA will support the leverage covenant.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0016",
+            "quote": "Adjusted EBITDA of $10.7 million, impacted by gross margin compression and a lag in the impact of SG&A reductions"
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "review_assumption",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A02",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Total Available Liquidity was approximately $97.4 million at March 31 2023, well above the $25 million minimum liquidity requirement.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0048",
+            "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A03",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The press release does not provide information on the Company's ability to meet the financial tests required to draw the Delayed Draw Term Loans Facility.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A04",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "supported",
+        "rationale": "No new indebtedness or asset disposals are reported in the Q1 2023 press release, indicating continued compliance with the limitation on additional indebtedness and asset sales.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0047",
+            "quote": "Cash and Restricted Cash as of March 31, 2023 was approximately $61.8 million, and total debt was $376.8 million."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "The press release does not address the status of the RideNow transaction or the expected synergies.",
+        "evidence": [],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R02-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "neutral",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "Operating cash flow provided by operating activities was $8.9 million for Q1 2023, but the press release offers no forward‑looking statement on cash‑flow adequacy for the next twelve months.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0049",
+            "quote": "Cash Flow provided by Operating Activities was $8.9 million for the three months ended March 31, 2023, which was positively impacted by $13.4 million of trade floorplan borrowings used for inventory purchases."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C01",
+        "status": "insufficient_evidence",
+        "rationale": "The press release does not provide the contractual Consolidated EBITDA or the detailed debt components needed to calculate the Total Net Leverage Ratio.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "status": "insufficient_evidence",
+        "rationale": "Lack of public Consolidated Senior Secured Net Debt and EBITDA figures prevents assessment of the Senior Secured Leverage Ratio.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "status": "insufficient_evidence",
+        "rationale": "While liquidity appears above the $25 million threshold, the covenant calculation may include additional adjustments not disclosed in the press release.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "status": "insufficient_evidence",
+        "rationale": "No evidence of delivery of annual or quarterly financial statements or related compliance certifications is present in the press release.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "status": "insufficient_evidence",
+        "rationale": "The press release does not mention a Compliance Certificate being delivered with the financial statements.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "status": "insufficient_evidence",
+        "rationale": "No notice of default or any default‑related disclosure is included in the Q1 2023 results announcement.",
+        "evidence": []
+      }
+    ]
+  },
+  "elapsed_seconds": 54.2
+}

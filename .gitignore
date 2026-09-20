@@ -1,0 +1,30 @@
+# Secrets: the NVIDIA API key lives in .env and must never be committed.
+.env
+*.env
+.env.*
+
+# Local runtime state. The demo database is rebuilt from realitycheck/b01_seed.json on first start.
+*.sqlite
+*.sqlite-journal
+realitycheck/b01_inbox/
+realitycheck/state.json
+
+# Logs and process output
+*.log
+*.err
+# ...except run logs kept as benchmark and recording records
+!realitycheck/benchmark/**/*.log
+!realitycheck/b01_reports/recorded/attempts/*.log
+
+# Python and editor noise
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Scratch space
+tmp/
+*.bak
+
+# Uploaded workspaces are runtime state: user documents, extracted clauses and model output.
+realitycheck/uploads/

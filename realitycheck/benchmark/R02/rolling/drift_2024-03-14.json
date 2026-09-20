@@ -1,0 +1,386 @@
+{
+  "control": {
+    "borrower_id": "R02",
+    "mode": "control",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:52:46.207429+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.2",
+    "report_ids": [],
+    "assessments_supplied": false,
+    "summary": "Current leverage and liquidity covenants already reflect Amendment No.5; no changes needed to existing clauses. Three new performance covenants from Amendment No.5 (equity raise, asset disposal/monetization, warrant issuance) are added as new protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "C01 already matches the post‑Amendment No.5 leverage relief for Q2‑Q3 2023 and step‑down thresholds for Q4 2023‑Q2 2024."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "C02 mirrors the amended senior secured leverage relief and thresholds, requiring no modification."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "No evidence indicates a change to the liquidity covenant; it remains appropriate."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Financial statement delivery obligations are unchanged by the available evidence."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Compliance certificate requirement is unaffected by any new information."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Default notice obligations remain as originally drafted."
+      }
+    ],
+    "drift_judgment": "insufficient_evidence",
+    "drift_reasons": "Evidence shows Amendment No.5 added new performance covenants (equity raise, asset disposal/monetization, warrant issuance) that are not in the current package, constituting new protections that alter risk coverage and permitted behavior.",
+    "warnings": [
+      "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-2' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-3' withheld: missing verified evidence, change description or valid change type.",
+      "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+    ],
+    "error": null,
+    "raw_response": {
+      "summary": "Current leverage and liquidity covenants already reflect Amendment No.5; no changes needed to existing clauses. Three new performance covenants from Amendment No.5 (equity raise, asset disposal/monetization, warrant issuance) are added as new protections.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "C01 already matches the post‑Amendment No.5 leverage relief for Q2‑Q3 2023 and step‑down thresholds for Q4 2023‑Q2 2024.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "C02 mirrors the amended senior secured leverage relief and thresholds, requiring no modification.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "No evidence indicates a change to the liquidity covenant; it remains appropriate.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Financial statement delivery obligations are unchanged by the available evidence.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Compliance certificate requirement is unaffected by any new information.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Default notice obligations remain as originally drafted.",
+          "evidence": []
+        },
+        {
+          "clause_id": "NEW-1",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company to raise net cash proceeds of not less than $100,000 from equity issuance by Dec 1, 2023, with proceeds used to pay down term loans.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02"
+          ],
+          "rationale": "Amendment No.5 introduced this equity raise covenant, which directly impacts the assumption of maintaining at least $25m unrestricted cash.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "Form 10-Q description",
+              "quote": "requiring the Company raise net cash proceeds of not less than $100,000 from the issuance of common equity interests in the Company by December 1, 2023"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-2",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company and subsidiaries to use commercially reasonable best efforts to dispose of certain non-core real estate and monetize consumer loan portfolios, with proceeds used to pay down term loans.",
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A06"
+          ],
+          "rationale": "Amendment No.5 added asset disposal/monetization covenants, affecting the assumption that assets remain sufficient to support the first‑priority lien.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "Form 10-Q description",
+              "quote": "requiring the Company and its subsidiaries to use commercially reasonable best efforts to dispose of certain non-core real estate and monetize its consumer loan portfolios"
+            }
+          ]
+        },
+        {
+          "clause_id": "NEW-3",
+          "action": "add",
+          "change_type": "new_protection",
+          "change": "Add performance covenant requiring the Company to issue warrants exercisable for an anticipated aggregate of 1,212,121 shares at an anticipated price of $12 per share to the Lender.",
+          "proposed_level": null,
+          "affected_assumptions": [],
+          "rationale": "Amendment No.5 introduced a warrant issuance covenant, a new protection not present in the current package.",
+          "evidence": [
+            {
+              "document_id": "W05",
+              "locator": "Form 10-Q description",
+              "quote": "requiring the Company to issue warrants, exercisable for an anticipated aggregate of 1,212,121 shares at an anticipated price of $12 per share, to the Lender"
+            }
+          ]
+        }
+      ],
+      "drift_judgment": "material_drift",
+      "drift_reasons": "Evidence shows Amendment No.5 added new performance covenants (equity raise, asset disposal/monetization, warrant issuance) that are not in the current package, constituting new protections that alter risk coverage and permitted behavior."
+    },
+    "model_judgment": "material_drift"
+  },
+  "updated": {
+    "borrower_id": "R02",
+    "mode": "updated",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:53:41.657876+00:00",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "prompt_version": "0.2",
+    "report_ids": [
+      "R02-D01",
+      "R02-D02",
+      "R02-D03",
+      "R02-D04",
+      "R02-D05"
+    ],
+    "assessments_supplied": false,
+    "summary": "Based on evidence through March 14 2024, the existing covenant package remains appropriate; no new information justifies tightening, loosening, or adding protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "No evidence shows the leverage ratio covenant requires adjustment; Amendment No. 5 already reflects current relief."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "No evidence shows the leverage ratio covenant requires adjustment; Amendment No. 5 already reflects current relief."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "liquidity remains well above $25 M threshold."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "no indication of delayed or missing financial statements."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "compliance certificates continue to be delivered as required."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "no evidence of unreported defaults requiring notice changes."
+      },
+      {
+        "clause_id": "W05",
+        "action": "retain",
+        "rationale": "performance covenants for equity raise, asset sales and warrants are being met; no evidence of breach."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "No dated evidence after the review date indicates a need to alter any covenant; all assumptions remain supported or lack sufficient data to justify a change.",
+    "warnings": [],
+    "error": null,
+    "raw_response": {
+      "summary": "Based on evidence through March 14 2024, the existing covenant package remains appropriate; no new information justifies tightening, loosening, or adding protections.",
+      "clauses": [
+        {
+          "clause_id": "C01",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "No evidence shows the leverage ratio covenant requires adjustment; Amendment No. 5 already reflects current relief.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C02",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A01"
+          ],
+          "rationale": "No evidence shows the leverage ratio covenant requires adjustment; Amendment No. 5 already reflects current relief.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C03",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A02"
+          ],
+          "rationale": "liquidity remains well above $25 M threshold.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C04",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "no indication of delayed or missing financial statements.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "compliance certificates continue to be delivered as required.",
+          "evidence": []
+        },
+        {
+          "clause_id": "C06",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A05"
+          ],
+          "rationale": "no evidence of unreported defaults requiring notice changes.",
+          "evidence": []
+        },
+        {
+          "clause_id": "W05",
+          "action": "retain",
+          "change_type": null,
+          "change": null,
+          "proposed_level": null,
+          "affected_assumptions": [
+            "R02-A07",
+            "R02-A02"
+          ],
+          "rationale": "performance covenants for equity raise, asset sales and warrants are being met; no evidence of breach.",
+          "evidence": []
+        }
+      ],
+      "drift_judgment": "no_material_drift",
+      "drift_reasons": "No dated evidence after the review date indicates a need to alter any covenant; all assumptions remain supported or lack sufficient data to justify a change."
+    }
+  },
+  "comparison": {
+    "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+    "review_date": "2024-03-14",
+    "package_version": "1.1",
+    "guidelines": {
+      "id": "RC-GUIDE",
+      "version": "0.1"
+    },
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "prompt_version": "0.2",
+    "report_ids": [
+      "R02-D01",
+      "R02-D02",
+      "R02-D03",
+      "R02-D04",
+      "R02-D05"
+    ],
+    "assessments_supplied": false,
+    "control_judgment": "insufficient_evidence",
+    "updated_judgment": "no_material_drift",
+    "evidence_attributable_changes": [],
+    "changes_also_in_control": [],
+    "control_only_changes": [],
+    "retained": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "W05"
+    ],
+    "updated_summary": "Based on evidence through March 14 2024, the existing covenant package remains appropriate; no new information justifies tightening, loosening, or adding protections.",
+    "updated_reasons": "No dated evidence after the review date indicates a need to alter any covenant; all assumptions remain supported or lack sufficient data to justify a change.",
+    "warnings": [
+      "Proposed add on 'NEW-1' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-2' withheld: missing verified evidence, change description or valid change type.",
+      "Proposed add on 'NEW-3' withheld: missing verified evidence, change description or valid change type.",
+      "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+    ],
+    "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured.",
+    "observed_response": {
+      "version": "1.2",
+      "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+      "publicly_available_at": "2024-08-08T13:52:53.000Z",
+      "clauses_changed_by_lender": [],
+      "overlap_with_attributable": [],
+      "note": "The actual amendment is an observed response, shown for comparison only, and it was not available to either candidate run. Overlap means the same clauses were touched; it says nothing about direction. A lender may loosen a limit the candidate would tighten. Agreement with the amendment is not the success measure."
+    }
+  }
+}

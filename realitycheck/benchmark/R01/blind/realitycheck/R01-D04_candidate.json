@@ -1,0 +1,157 @@
+{
+  "borrower_id": "R01",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2024-05-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:21:48.965595+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01",
+    "R01-D02",
+    "R01-D03",
+    "R01-D04"
+  ],
+  "assessments_supplied": true,
+  "summary": "Only a new inventory alignment covenant is justified; all existing clauses are retained as no evidence warrants changes.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Core assets test remains appropriate; no evidence of breach or need to adjust threshold."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statement delivery timely; assumption A06 supported."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly deliverables unchanged; no evidence of delay."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Break fee sweep provisions adequate; assumption A02 and A03 supported."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice of default clause unchanged; no relevant evidence."
+    },
+    {
+      "clause_id": "NEW-1",
+      "action": "add",
+      "rationale": "Evidence shows inventory days rose to 161-163 vs ~95 prior, indicating misalignment and higher cash use.",
+      "change_type": "new_protection",
+      "change": "Add inventory alignment covenant requiring inventory days to align with business run rates to limit cash consumption.",
+      "evidence": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022.",
+          "verified": true
+        }
+      ],
+      "direction": "add_protection",
+      "proposed_level": null,
+      "affected_assumptions": [
+        "R01-A04"
+      ]
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Added inventory alignment covenant addresses weakened assumption R01-A04, altering risk coverage and monitoring needs.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Only a new inventory alignment covenant is justified; all existing clauses are retained as no evidence warrants changes.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Core assets test remains appropriate; no evidence of breach or need to adjust threshold.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery timely; assumption A06 supported.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly deliverables unchanged; no evidence of delay.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Break fee sweep provisions adequate; assumption A02 and A03 supported.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice of default clause unchanged; no relevant evidence.",
+        "evidence": []
+      },
+      {
+        "clause_id": "NEW-1",
+        "action": "add",
+        "change_type": "new_protection",
+        "direction": "add_protection",
+        "change": "Add inventory alignment covenant requiring inventory days to align with business run rates to limit cash consumption.",
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R01-A04"
+        ],
+        "rationale": "Evidence shows inventory days rose to 161-163 vs ~95 prior, indicating misalignment and higher cash use.",
+        "evidence": [
+          {
+            "document_id": "IRBT-PR-2023-11-07",
+            "locator": "P0023",
+            "quote": "GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022."
+          }
+        ]
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Added inventory alignment covenant addresses weakened assumption R01-A04, altering risk coverage and monitoring needs."
+  },
+  "elapsed_seconds": 27.2
+}

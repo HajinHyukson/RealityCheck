@@ -1,0 +1,162 @@
+{
+  "borrower_id": "R02",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2023-05-10",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:04:11.074233+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02"
+  ],
+  "assessments_supplied": false,
+  "summary": "Liquidity fell from $196.1 million at end‑2022 to $97.4 million in Q1 2023, indicating tighter cash conditions; therefore the minimum liquidity covenant should be tightened. No clear evidence justifies changes to leverage or reporting covenants.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence indicates the total net leverage threshold needs adjustment."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence indicates the senior secured net leverage threshold needs adjustment."
+    },
+    {
+      "clause_id": "C03",
+      "action": "modify",
+      "rationale": "Liquidity declined sharply from $196.1 million to $97.4 million, signaling higher cash‑flow risk.",
+      "change_type": "threshold",
+      "change": "Increase the minimum liquidity threshold",
+      "evidence": [
+        {
+          "document_id": "RMBL-PR-2023-03-16",
+          "locator": "P0064",
+          "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million.",
+          "verified": true
+        },
+        {
+          "document_id": "RMBL-PR-2023-05-10",
+          "locator": "P0048",
+          "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million.",
+          "verified": true
+        }
+      ],
+      "direction": "tighten",
+      "proposed_level": null,
+      "affected_assumptions": []
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Financial statement delivery requirements remain appropriate; no evidence of reporting deficiencies."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Compliance certificate obligation unchanged; no evidence of non‑compliance or need for alteration."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Notice of default provision adequate; no evidence of default reporting issues."
+    }
+  ],
+  "drift_judgment": "material_drift",
+  "drift_reasons": "Evidence shows a significant decline in liquidity from $196.1 million to $97.4 million, justifying a tightened minimum liquidity covenant; no evidence supports changes to leverage or reporting provisions.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Liquidity fell from $196.1 million at end‑2022 to $97.4 million in Q1 2023, indicating tighter cash conditions; therefore the minimum liquidity covenant should be tightened. No clear evidence justifies changes to leverage or reporting covenants.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates the total net leverage threshold needs adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates the senior secured net leverage threshold needs adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "modify",
+        "change_type": "threshold",
+        "direction": "tighten",
+        "change": "Increase the minimum liquidity threshold",
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Liquidity declined sharply from $196.1 million to $97.4 million, signaling higher cash‑flow risk.",
+        "evidence": [
+          {
+            "document_id": "RMBL-PR-2023-03-16",
+            "locator": "P0064",
+            "quote": "Total Available Liquidity, defined as cash and cash equivalents, including restricted cash, plus availability under our short-term revolving credit facilities totaled approximately $196.1 million."
+          },
+          {
+            "document_id": "RMBL-PR-2023-05-10",
+            "locator": "P0048",
+            "quote": "Total Available Liquidity, defined as unrestricted cash plus availability under floorplan credit facilities for inventory on hand at March 31, 2023, totaled approximately $97.4 million."
+          }
+        ]
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery requirements remain appropriate; no evidence of reporting deficiencies.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Compliance certificate obligation unchanged; no evidence of non‑compliance or need for alteration.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice of default provision adequate; no evidence of default reporting issues.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "material_drift",
+    "drift_reasons": "Evidence shows a significant decline in liquidity from $196.1 million to $97.4 million, justifying a tightened minimum liquidity covenant; no evidence supports changes to leverage or reporting provisions."
+  },
+  "elapsed_seconds": 38.4
+}

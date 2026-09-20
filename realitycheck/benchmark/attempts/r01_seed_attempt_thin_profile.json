@@ -1,0 +1,2009 @@
+{
+  "borrower": {
+    "id": "R01",
+    "name": "iRobot Corporation",
+    "sector": "Consumer robotics",
+    "source_mode": "public_sec_filings",
+    "facility": "$200,000,000 senior secured term loan",
+    "lender_role": "TCG Senior Funding L.L.C., an affiliate of The Carlyle Group, as administrative agent and collateral agent",
+    "missing_inputs": [
+      "Schedule 7.07 (Minimum Core Assets Test step-down amounts) is referenced by Section 7.07 but is not contained in the SEC-filed exhibit. Adjusted test amounts other than $250,000,000 and the $350,000,000 step-up cannot be determined from this packet.",
+      "Monthly Compliance Certificates and Consolidated Core Assets calculations are delivered privately to the agent and are not public. Compliance with the Minimum Core Assets Test cannot be calculated from public filings.",
+      "No Carlyle underwriting memo, lender forecast, internal risk policy or private reporting stream is public. Every assumption in this case is reconstructed from public filings and is not the lender's actual thesis."
+    ]
+  },
+  "profile": {
+    "borrower_id": "R01",
+    "version": "1.0",
+    "as_of": "2023-07-25",
+    "summary": "The reconstruction assumes the borrower will maintain sufficient core assets, receive break‑fee payments, generate adequate operating cash flow, refrain from extra indebtedness, meet reporting obligations, and avoid events of default—conditions that underpin the credit agreement’s financial covenants, break‑fee sweeps, and reporting protections.",
+    "assumptions": [
+      {
+        "id": "R01-A03",
+        "title": "Adequate Operating Cash Flow",
+        "claim": "The Company will generate sufficient operating cash flow to meet working capital needs and service debt for at least 12 months.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "baseline_status": "reconstructed_public",
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0366",
+            "quote": "Management has considered and assessed its ability to continue as a going concern for the one year from the date that the unaudited consolidated financial statements are issued.",
+            "verified": true
+          },
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0369",
+            "quote": "While management estimates such actions will be sufficient to allow it to maintain liquidity and its operations in the ordinary course for at least 12 months from the issuance of these financial statements",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "profile_provenance": {
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T00:25:55.129856+00:00",
+    "warnings": [
+      "Assumption 'R01-A01' withheld: invalid ID, clause, claim or source quote.",
+      "Assumption 'R01-A02' withheld: invalid ID, clause, claim or source quote.",
+      "Assumption 'R01-A04' withheld: invalid ID, clause, claim or source quote.",
+      "Assumption 'R01-A05' withheld: invalid ID, clause, claim or source quote.",
+      "Assumption 'R01-A06' withheld: invalid ID, clause, claim or source quote.",
+      "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+      "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+      "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+      "Relationship withheld: unknown endpoints, invalid type or missing rationale.",
+      "Relationship withheld: unknown endpoints, invalid type or missing rationale."
+    ],
+    "source_hashes": {
+      "IRBT-8K-ORIGINATION": "ab78d9f1bea82558f69b2525f41fbd80f7e3b31f67cdd4e3df2fd2407a730d0c",
+      "IRBT-10Q-2023Q1": "8efd404383ebb636f3080df707be1691433d4841b3b12b69c4a563cef3308392",
+      "IRBT-CA-ORIGINAL": "5d38c2c88b38e0613f2f65481eee348139efce441bbf2c5d55b111757adfab3e"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "parent_version": null,
+      "effective_at": "2023-07-24",
+      "decision_at": "2023-07-24",
+      "status": "effective",
+      "title": "Original package",
+      "terms": {
+        "facility_m": 200,
+        "sofr_margin_pct": 9.0,
+        "minimum_core_assets_m": 250
+      },
+      "clauses": [
+        {
+          "id": "C01",
+          "title": "Minimum Core Assets Test",
+          "section": "Section 7.07",
+          "clause": "Section 7.07 Minimum Core Assets Test. Permit the Consolidated Core Assets of the Borrower and its Subsidiaries, tested on the last day of each fiscal month (as reflected on the most recent Compliance Certificate of the Borrower delivered to the Administrative Agent and Lenders in accordance with Section 6.02(a)), to be less than $250,000,000 (the “Minimum Core Assets Test”); provided, that the Minimum Core Assets Test amount shall be reduced to:\n\n(i) following the receipt (or deemed receipt) of any prepayment, payment or repayment of any Obligations pursuant to (1) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (2) any clause or provision of Section 2.05(b)(iv) or Section 2.05(b)(v), in each case of clause (1) or clause (2), in an aggregate amount of at least $24,000,000 (for the avoidance of doubt, including the payment of any applicable premium or MOIC Amount that is required by Section 2.09(a) to be paid therewith) by the Lenders (or the Administrative Agent on behalf of the Lenders), the amount set forth in the “New Minimum Core Assets Test Amount” column based on the aggregate amount of at least $24,000,000 so received, prepaid, paid or repaid (and set forth in the “Amount Paid” column (rounded to the nearest $1,000,000, and, in the instance of $500,000, rounded upward to the nearest $1,000,000)), in each case, in Schedule 7.07; provided, further that, notwithstanding anything to the contrary in this Agreement or any other Loan Document and for the avoidance of doubt, in connection with any one or more additional prepayments, payments or repayments of any Obligations pursuant to (I) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (II) any clause or provision of Section 2.05(b)(iv) or Section 2.05(b)(v), in each case of clause (I) or clause (II), that causes (or results in) the aggregate amount received (or deemed received) by the Lenders (or the Administrative Agent on behalf of the Lenders) to increase (or further increase) above $24,000,000, the Minimum Core Assets Test amount shall be reduced (or further reduced) to the amount set forth in the “New Minimum Core Assets Test Amount” column based on the aggregate amount of at least $24,000,000 so received, prepaid, paid or repaid (and set forth in the “Amount Paid” column (rounded to the nearest $1,000,000, and, in the instance of $500,000, rounded upward to the nearest $1,000,000)), in each case, in Schedule 7.07; provided, further that, on and following the second anniversary of the Closing Date, notwithstanding the foregoing proviso, in the event that both:\n\n(A) both (1) less than $24,000,000 of the Amazon Break Fee has been received by the Borrower or any of its Subsidiaries and (2) no prepayments, payments or repayments of any Obligations pursuant to (y) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (z) any clause or provision of Section 2.05(b) or Section 2.05(b)(v), in each case of clause (y) or clause (z), in an aggregate amount of at least $24,000000 has been received (or deemed received) by the Lenders (or the Administrative Agent on behalf of the Lenders), in each case of clause (1) and clause (2), on or prior to the date that is three months following the termination of the Amazon Acquisition Agreement (after giving effect to any applicable extensions) in which the termination thereof has not occurred due to the consummation of the Amazon Acquisition; abd\n\n(B) the Borrower can no longer represent in good faith that Amazon intends to pay at least $24,000,000 of the Amazon Break Fee,\n\nthen the Minimum Core Assets Test shall step up to the amount set forth in the “New Minimum Core Assets Test Amount” column (after taking into account any prepayments, payments or repayments of any Obligations pursuant to (Y) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (Z) any clause or provision of Section 2.05(b)(iv) or Section 2.05(b)(v) (in each case, including the payment of any applicable premium or MOIC Amount that is required by Section 2.09(a) to be paid therewith), in each case of clause (Y) or clause (Z), in an aggregate amount that is less than $24,000,000 that have been received (or deemed received) by the Lenders (or the Administrative Agent on behalf of the Lenders)) (and set forth in the “Amount Paid” column (rounded to the nearest $1,000,000, and, in the instance of $500,000, rounded upward to the nearest $1,000,000)), in each case, in Schedule 7.07 (or if no such prepayment, payment or repayment of any amount has been so received (or deemed received), then the Minimum Core Assets Test shall step up to $350,000,000) (such applicable new Minimum Core Assets Test amount, the “Applicable Stepped-Up Minimum Core Assets Test Amount”); provided that, notwithstanding the foregoing or anything else to the contrary in this Agreement or any other Loan Document, in an instance or a situation where either (1) a settlement amount, an amount received in litigation or a proceeding or other amount in lieu of any portion of the Amazon Break Fee (and/or any portion of any Alternative Initial Break Fee Payment Amount or Supplemental Alternative Account Amount) is received by the Borrower or any of its Subsidiaries or is otherwise applicable (or with respect to any of the Alternative Account Amount) or (2) any prepayment, payment or repayment of any Obligations pursuant to (I) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (II) any clause or provision of Section 2.05(b)(iv) or Section 2.05(b)(v), in each case of clause (1) or clause (2), that causes (or results in) the aggregate amount paid (or deemed paid) to or received (or deemed received) by the Lenders (or the Administrative Agent on behalf of the Lenders) based on the applicable amount on Schedule 7.07 pursuant to the below provisions of this paragraph to result in the Minimum Core Assets Test to be lesser than the Applicable Stepped-Up Minimum Core Asset Test Amount, the Minimum Core Assets Test shall step down to the amount set forth in the “New Minimum Core Assets Test Amount” column based on the amount applied to the prepayment, payment or repayment of the Term Loans and other Obligations (and set forth in the “Amount Paid” column (rounded to the nearest $1,000,000, and, in the instance of $500,000, rounded upward to the nearest $1,000,000)), in each case, in Schedule 7.07; provided, further that,\n\nnotwithstanding anything to the contrary in this Agreement or any other Loan Document and for the avoidance of doubt, in connection with any one or more additional prepayments, payments or repayments of any Obligations pursuant to (i) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (ii) any clause or provision of Section 2.05(b)(iv) or Section 2.05(b)(v) (in each case, including the payment of any applicable premium or MOIC Amount that is required by Section 2.09(a) to be paid therewith), in each case of clause (i) or clause (ii), received (or deemed received) by the Lenders (or the Administrative Agent on behalf of the Lenders), the Minimum Core Assets Test amount shall step down (or further step down) to the amount set forth in the “New Minimum Core Assets Test Amount” column based on the aggregate amount so received, prepaid, paid or repaid (and set forth in the “Amount Paid” column (rounded to the nearest $1,000,000, and, in the instance of $500,000, rounded upward to the nearest $1,000,000)), in each case, in Schedule 7.07.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locators": [
+              "P1787",
+              "P1794"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452dex101.htm",
+            "sha256": "9a10477b95ab7987aba905ed25a01841cc412decfd3e57fc0c23037feeffb90a"
+          }
+        },
+        {
+          "id": "C02",
+          "title": "Annual, quarterly and budget financial statements; going-concern condition",
+          "section": "Section 6.01",
+          "clause": "Section 6.01 Financial Statements. Deliver to the Administrative Agent for prompt distribution by the Administrative Agent to each Lender:\n\n(a) Annual Financial Statements. On or before the date on which such financial statements are required to be filed with the SEC (after giving effect to any permitted extensions) (or, if such financial statements are not required to be filed with the SEC, within 120 days after the end of each fiscal year of the Borrower) (which period for delivery may be extended by the Administrative Agent in its sole discretion by up to 30 days), a consolidated balance sheet of the Borrower and its Subsidiaries as at the end of such fiscal year, and the related consolidated statements of income or operations, shareholders’ equity and cash flows for such fiscal year, setting forth in each case, starting with the fiscal year ending December 30, 2022, in unaudited comparative form the figures for the previous fiscal year, all in reasonable detail and prepared in accordance with GAAP, audited and accompanied by a report and opinion of any independent certified public accountant of nationally recognized standing or other independent certified public accountant reasonably acceptable to the Administrative Agent (it being agreed that any “big four” accounting firm are deemed reasonably acceptable to the Administrative Agent) which report and opinion shall be prepared in accordance with generally accepted auditing standards and shall not be subject to any “going concern” exception and without exception as to the scope of such audit (other than any such exception that is expressly solely with respect to, or expressly resulting from, (i) an upcoming maturity date under the Facilities or (ii) any actual or potential inability to satisfy a financial maintenance covenant, including the Minimum Core Assets Test) (it being understood and agreed that such report and opinion may include an explanatory note or emphasis of the matter paragraph), together with a customary management’s discussion and analysis of financial information.\n\n(b) Quarterly Financial Statements. On or before the date on which such financial statements are required to be filed with the SEC (after giving effect to any permitted extensions) (or, if such financial statements are not required to be filed with the SEC, within 60 days after the end of each of the first three fiscal quarters of each fiscal year of the Borrower) (commencing with the fiscal quarter ending September 30, 2023), a consolidated balance sheet of the Borrower and its Subsidiaries as at the end of such fiscal quarter, and the related consolidated statements of income or operations and cash flows for such fiscal quarter and for the portion of the fiscal year then ended, setting forth in each case, in comparative form the figures for the corresponding fiscal quarter of the previous fiscal year and the corresponding portion of the previous fiscal year, all in reasonable detail and certified by a Responsible Officer of the Borrower as fairly presenting in all material respects the financial condition, results of operations and cash flows of the Borrower and its Subsidiaries in accordance with GAAP (except as noted therein), subject only to normal year-end audit adjustments and the absence of footnotes, together with a customary management’s discussion and analysis of financial information.\n\n(c) Budget. Promptly after the same has been submitted to and reviewed by the Board of Directors of the Borrower in each fiscal year, a detailed consolidated budget of the Borrower and its Subsidiaries for such fiscal year (including a projected consolidated balance sheet and related projected statements of income and cash flows as of the end of and for such fiscal year and setting forth the assumptions used for purposes of preparing such budget).\n\nNotwithstanding the foregoing, (i) in the event that the Borrower delivers to the Administrative Agent an Annual Report on Form 10-K for any fiscal year (or similar filing in the applicable jurisdiction), as filed with the SEC or in such form as would have been suitable for filing with the SEC (or similar governing body in the applicable jurisdiction, in each case), within the time frames set forth in clause (a) above, such Form 10-K shall satisfy all requirements of clause (a) of this Section 6.01 with respect to such fiscal year to the extent that it contains the information and report and opinion required by such clause (a) and such report and opinion does not contain any “going concern” exception and without exception as to the scope of such audit (other than any such qualification, exception, explanatory note or explanatory paragraph expressly permitted to be contained therein under clause (a) of this Section 6.01) (but which may contain an explanatory note or emphasis of matter paragraph) and (ii) in the event that the Borrower delivers to the Administrative Agent a Quarterly Report on Form 10-Q for any fiscal quarter (or similar filing in the applicable jurisdiction), as filed with the SEC or in such form as would have been suitable for filing with the SEC (or similar governing body in the applicable jurisdiction, in each case), within the time frames set forth in clause (b) above, such Form 10-Q shall satisfy all requirements of clause (b) of this Section 6.01 with respect to such fiscal quarter to the extent that it contains the information required by such clause (b).",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locators": [
+              "P1590",
+              "P1595"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452dex101.htm",
+            "sha256": "9a10477b95ab7987aba905ed25a01841cc412decfd3e57fc0c23037feeffb90a"
+          }
+        },
+        {
+          "id": "C03",
+          "title": "Monthly financial deliverables and Compliance Certificate",
+          "section": "Section 6.02(a)",
+          "clause": "Section 6.02 Certificates; Other Information. Deliver to the Administrative Agent for prompt distribution by the Administrative Agent to each Lender:\n\n(a) Fiscal Month Financial Related Deliverables. Commencing with the fiscal month of the Borrower ending August 26, 2023, ten Business Days after the end of each fiscal month,\n\n(i) unaudited balance sheets as of the close of such fiscal month and the related statements of income for such fiscal month, which, for avoidance of doubt, shall not be required to be certified and which shall not constitute a representation or warranty with respect to the contents thereof (and, notwithstanding anything to the contrary in this Agreement or any other Loan Document, any representations, warranties or certifications that apply to any financial statements or components thereof shall be deemed to not apply to any of the balance sheets or related statements of income provided pursuant to this Section 6.02(a)(i)), together with\n\n(ii) a Compliance Certificate signed by the Chief Financial Officer or other Responsible Officer of the Borrower showing in reasonable detail the calculation of the Consolidated Core Assets and a certification of Borrower’s compliance or failure to comply with the Minimum Core Assets Test.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locators": [
+              "P1596",
+              "P1599"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452dex101.htm",
+            "sha256": "9a10477b95ab7987aba905ed25a01841cc412decfd3e57fc0c23037feeffb90a"
+          }
+        },
+        {
+          "id": "C04",
+          "title": "Mandatory prepayment: Amazon Break Fee sweep",
+          "section": "Section 2.05(b)(iv)",
+          "clause": "(iv) Amazon Break Fee. In the event that both the Amazon Acquisition is not consummated and the Amazon Acquisition Agreement is terminated in accordance with its terms (after giving effect to applicable extensions), upon payment, and receipt by the Borrower or any of its Subsidiaries, thereof in cash, the Amazon Break Fee shall be applied by the Borrower or such Subsidiary (on behalf of the Borrower) as follows (the “Break Fee Sweep”), or instead, at the option of the Lender, the Lender may irrevocably elect to decline to receive any such amounts:\n\n(A) $35,000,000 (or such lesser total amount of the Amazon Break Fee paid to, and received by, the Borrower or any of its Subsidiaries in cash as of such time) to prepay outstanding Term Loans (the “Initial Break Fee Payment”) (which prepayment, shall include (up to such total amount of the Amazon Break Fee paid to, and received by, the Borrower or any of its Subsidiaries in cash), for the avoidance of doubt, but without duplication, any additional amounts required to be paid pursuant to Section 2.09(a) and accrued, but unpaid interest thereon);\n\n(B) The remaining portion (if any) of the Amazon Break Fee paid to, and received by, the Borrower or any of its Subsidiaries in cash at such time, shall be deposited by the Borrower or such Subsidiary (on behalf of the Borrower) in the Break Fee Account (the “Applicable Remaining Amazon Break Fee Portion”), and shall only be withdrawn therefrom, at the election of the Borrower, for one or more of the following purposes (and, on the day of such election of the Borrower, subject solely to, with respect to clauses (2) and (3) below, the conditions expressly set forth therein, the Collateral Agent shall authorize and instruct the Break Fee Account Institution to permit the Borrower or such Subsidiary to withdraw such amount(s) from the Break Fee Account on the day thereof):\n\n(1) To repay the Term Loans (which prepayment, shall include, for the avoidance of doubt, any additional amounts required to be paid pursuant to Section 2.09(a)) in the amount (after taking into account any amounts in the immediately preceding parenthetical) of the Applicable Remaining Amazon Break Fee Portion (for the avoidance of doubt, that remains of the Applicable Remaining Amazon Break Fee Portion at such time on or prior to September 30, 2025 and after giving effect to any prior or concurrent repayments, payments and prepayments) on or before September 30, 2025, and, in such case, notwithstanding anything to the contrary in this Agreement or any other Loan Document, and for the avoidance of doubt, no Break Fee Premium and no Break Fee Account Holding Without Use Fee shall be applicable, owed, due, payable or paid on (or with respect to) such repayment, payment or prepayment.\n\n(2) From time to time, during the fiscal quarter of the Borrower ending in September of 2024, to purchase inventory (including related costs, expenses and taxes paid in connection therewith) of (or for) the Borrower or any of its Subsidiaries so long as (i) the Consolidated Core Assets of the Borrower Parties is equal to or greater than $275,000,000 on a Pro Forma Basis, (ii) no Default or Event of Default has occurred and is continuing or will immediately result therefrom, and (iii) the Administrative Agent shall have received a Withdrawal Notice and Certificate (signed by a Responsible Officer of the Borrower) certifying solely as to compliance with clauses (i) and (ii) immediately above; provided that, within five months following any withdrawal of any amounts from the Break Fee Account, the Borrower shall, at its sole election, either:\n\n(w) return any such withdrawn amounts to the Break Fee Account to be used solely for the purposes set forth in this clause (2) and/or clause (3) below, or\n\n(x) prepay the Term Loans (which prepayment, shall include, for the avoidance of doubt, any additional amounts required to be paid pursuant to Section 2.09(a)) in the amount (after taking into account any amounts in the immediately preceding parenthetical) of the Applicable Remaining Amazon Break Fee Portion (for the avoidance of doubt, that remains of the Applicable Remaining Amazon Break Fee Portion inclusive of any such withdrawn amounts at such time and after giving effect to any prior or concurrent repayments, payments and prepayments), and, in such case, notwithstanding anything to the contrary in this Agreement or any other Loan Document and for the avoidance of doubt, no Break Fee Account Holding Without Use Fee shall be applicable, owed, due, payable or paid on (or with respect to) such prepayment, payment or repayment;\n\nprovided, further, that if amounts are withdrawn from the Break Fee Account as provided in this clause (2) above and/or clause (3) below, without duplication, the Borrower shall pay, in each case, within three (3) Business Days of the return of such amounts to the Break Fee Account or the prepayment of the Term Loans, as applicable, to the Administrative Agent, for the ratable account of each Lender, a premium equal (the “Break Fee Premium”) to either (but not both) and without duplication:\n\n| | i. |\n\n5% of the aggregate amount (if any) withdrawn from the Break Fee Account, if such amounts are either returned to the Break Fee Account or applied to the repayment of outstanding Term Loans, as applicable, on or prior to the three month anniversary of the date such amounts were withdrawn from the Break Fee Account; or\n\n| | ii. |\n\n10% of the aggregate amount (if any) withdrawn from the Break Fee Account, if such amounts are either returned to the Break Fee Account or applied to the repayment of outstanding Term Loans, as applicable, after the three month anniversary of the date such amounts were withdrawn from the Break Fee Account.\n\nNotwithstanding anything to the contrary in this Agreement or any Loan Document, and for the avoidance of doubt, (I) any applicable Break Fee Premium shall be a lump sum payment and shall not accrue as a percentage of the Term Loans or Obligations like interest, and (II) no Break Fee Account Holding Without Use Fee shall be applicable, owed, due, payable or paid by the Borrower or any of its Subsidiaries when a Break Fee Premium is applicable, owed, due, payable or paid.\n\n(3) From time to time, during the fiscal quarter of the Borrower ending in September of 2025 (and regardless of whether such amounts were used for clause (1) or clause (2) directly above), to purchase inventory (including related costs, expenses and taxes paid in connection therewith) of (or for) the Borrower or any of its Subsidiaries so long as (i) the Consolidated Core Assets of the Borrower Parties is equal to or greater than $275,000,000 on a Pro Forma Basis, (ii) no Default or Event of Default has occurred and is continuing or will immediately result therefrom, and (iii) the Administrative Agent shall have received a Withdrawal Notice and Certificate (signed by a Responsible Officer of the Borrower) certifying solely as to compliance with clauses (i) and (ii) immediately above; provided that within five months following any withdrawal of any amounts from the Break Fee Account, the Borrower shall repay the Term Loans together with (but without duplication) the applicable Break Fee Premium (which prepayment, shall include, for the avoidance of doubt, any additional amounts required to be paid pursuant to Section 2.09(a)) in the amount (after taking into account any amounts in the immediately preceding parenthetical) of the Applicable Remaining Amazon Break Fee Portion (for the avoidance of doubt, that remains of the Applicable Remaining Amazon Break Fee Portion inclusive of any such withdrawn amounts at such time and after giving effect to any prior or concurrent repayments, payments and prepayments);\n\n(C) Without duplication and not in addition of the foregoing in this Section 2.04(b)(iv), in the event that the cash proceeds in the Break Fee Account (other than any interest accrued or earned thereon, which may, at Borrower’s option, be kept in the Break Fee Account or disbursed from the Break Fee Account in accordance with the following paragraph) are not withdrawn as permitted under clauses (2) or (3) above (without giving effect to any replenishment or return thereof) from the Break Fee Account on or before September 30, 2025, the Borrower shall prepay the Term Loans subject to all amounts required to be paid pursuant to Section 2.09(a) in an amount equal to the Applicable Remaining Amazon Break Fee Portion that remains in the Break Fee Account at such time (less any amounts previously applied pursuant to clause (B)(1) above and less any other amounts in the Break Fee Account that were used to pay, repay or prepay any of the Term Loans or other Obligations, in each case, together with any interest or other amounts related thereto that were paid, including, without limitation, pursuant to Section 2.09(a)) (and, in such instance, on September 30, 2025, the Collateral Agent shall have (i) authorized and instructed the Break Fee Account Institution to transfer such amount(s) from the Break Fee Account to the deposit account designated by the Administrative Agent for such repayment, which receipt of funds shall satisfy the prepayment, payment and repayment requirements set forth herein, or (ii) authorized and instructed the Break Fee Account Institution to permit the Borrower or such Subsidiary to release such amount(s) from the Break Fee Account for purposes of making the repayment set forth herein, and so long as the Borrower shall have made such repayment within one (1) Business Day after the written authorization of the Break Fee Account Institution and the Collateral Agent to use such amount(s) in the Break Fee Account for such purpose, such repayment shall\n\nsatisfy the prepayment, payment and repayments requirements set forth herein), plus an amount equal to 4% of the aggregate amount so paid (such 4% fee amount, the “Break Fee Account Holding Without Use Fee”) (regardless of the amount then held in the Break Fee Account); provided that, notwithstanding anything to the contrary in this Agreement or any other Loan Document, and for the avoidance of doubt, no Break Fee Premium shall be applicable, owed, due, payable or paid in connection with such prepayment, payment or repayment. The prepayments of the outstanding Term Loans made pursuant to clause (B) and this clause (C) are referred to collectively herein as the “Second Break Fee Payment”. To the extent the provisions in this Section 2.05(b)(iv) apply or the Initial Break Fee Payment or the Second Break Fee Payment has been made or has occurred, then, notwithstanding anything to the contrary in this Agreement or any other Loan Document, the provisions in Section 2.05(b)(v) below shall not apply and shall be null and void.\n\nNotwithstanding anything to the contrary in this Agreement or in any other Loan Document, (I) the Administrative Agent agrees, within one (1) Business Day of a written request from the Borrower, to instruct the Break Fee Account Institution to disburse any interest accrued or earned on the amounts deposited in the Break Fee Account to the account specified by the Borrower in such written notice, (II) any delays in the release of the amounts from the Break Fee Account shall not cause a Default or Event of Default to occur, continue or exist; and (III) no interest shall accrue in favor of any Secured Party or be owed, due, payable or paid at any time by any Borrower Party on any amounts in the Break Fee Account or that are withdrawn from the Break Fee Account, including, without limitation, any amounts withdrawn for any of purposes permitted by this Section 2.05(b)(iv).\n\nNotwithstanding anything to the contrary in this Agreement or any other Loan Document, (x) after all Amazon Break Fee payments that are required to be made under this Section 2.05(b)(iv) have been made (such date, the “Purpose End Date of the Break Fee Account”), the Collateral Agent and the Administrative Agent shall on the same date of request by the Borrower or any of its Subsidiaries, deliver written notice to the Break Fee Account Institution requesting termination of the Control Agreement over such Break Fee Account and taking any such other actions reasonably requested by the Borrower or any of its Subsidiaries to effectuate such termination and any termination of the Break Fee Account, (y) there shall be no requirement of the Borrower or any of its Subsidiaries to keep open or maintain the Break Fee Account after the Purpose End Date of the Break Fee Account, and (z) any prepayments, payments or repayments made (or deemed made) under (I) any clause or provision of Section 2.05(a) from Non-Internally Generated Cash or (II) any clause or provision of Section 2.05(b)(v) (unless such amount is specifically referenced in Section 2.05(b)(v) to be required therein without any such reduction), in each case of clause (z)(I) or clause (z)(ii), shall be a dollar-for-dollar reduction of any deposit, return or redeposit of any withdrawn amount, prepayment, payment or repayment required by this Section 2.05(b)(iv).",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locators": [
+              "P1294",
+              "P1314"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452dex101.htm",
+            "sha256": "9a10477b95ab7987aba905ed25a01841cc412decfd3e57fc0c23037feeffb90a"
+          }
+        },
+        {
+          "id": "C05",
+          "title": "Notice of Default or Event of Default",
+          "section": "Section 6.03(a)",
+          "clause": "Section 6.03 Notices. Promptly, after a Responsible Officer of the Borrower or any Guarantor has obtained knowledge thereof, notify the Administrative Agent:\n\n(a) of the occurrence of any Default or Event of Default (it being understood that, unless such notice of Default or Events of Default was intentionally withheld, any delivery of a notice of Default or Event of Default shall automatically cure any Default or Event of Default then existing with respect to any failure to deliver such notice);",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locators": [
+              "P1608",
+              "P1609"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312523192862/d502452dex101.htm",
+            "sha256": "9a10477b95ab7987aba905ed25a01841cc412decfd3e57fc0c23037feeffb90a"
+          }
+        }
+      ],
+      "definitions_and_conventions": "“Amazon Break Fee” means (a) the Parent Termination Fee (as defined in the Amazon Acquisition Agreement) to be paid under Section 8.2(c) of the Amazon Acquisition Agreement, and (b) without duplication, any other amount that is paid to the Borrower (i) in lieu (but not in addition) of such Parent Termination Fee, (ii) in consideration for the termination of the Amazon Acquisition Agreement or (iii) in connection with the settlement of any actual or potential dispute, claim, action, litigation or other proceeding related to the termination of the Amazon Acquisition Agreement (in each case, that are not owed to the Borrower’s financial advisor, which any such amount owed to the Borrower’s financial advisor shall not exceed 20% of the gross amount of any such fee or amount).\n\n“Compliance Certificate” means a certificate substantially in the form of Exhibit C or such other form as may be agreed between the Borrower and the Administrative Agent.\n\n“Consolidated Core Assets” means, with respect to the Borrower Parties on a consolidated basis and on a global and worldwide basis, cash and Cash Equivalents, accounts receivable and inventory calculated in accordance with GAAP (as reflected on the most recent monthly Compliance Certificate of the Borrower delivered to the Administrative Agent and Lenders in accordance with Section 6.02(a) or, with respect to the period before the delivery of the first monthly Compliance Certificate is required to be delivered in accordance with Section 6.02(a), as reflected in the most recent balance sheet that has been made available to the Administrative Agent or, for purposes of Section 2.05(b)(iv)(B)(2), Section 2.05(b)(iv)(B)(3), and 2.05(b)(v)(B) and 2.05(b)(v)(C), the Withdrawal Notice and Certificate delivered in connection therewith) and determined on a Pro Forma Basis.\n\n“Non-Internally Generated Cash” means any cash and/or Cash Equivalents proceeds (after deducting any out-of-pocket expenses incurred by the Borrower Parties solely from such transaction) of the Borrower or any of its Subsidiaries generated or sourced directly or indirectly from or through an issuance or offering of Equity Interests (that is not Disqualified Stock) of the Borrower, any Equity Issuance (that is not Disqualified Stock) by the Borrower, any Equity Offering by or of the Borrower or a capital contribution that is not from Disqualified Stock of the Borrower) to the Borrower.",
+      "instrument_text": "Scoped prototype: a bounded subset of the executed agreement, copied verbatim by paragraph locator from the SEC-filed exhibit. It is not the complete agreement and not a conformed copy containing later amendments. Section 2.05(b)(v) (Alternative Account, about 16,000 characters) is outside the subset; the company's own Form 8-K description of it remains in the origination evidence (IRBT-8K-ORIGINATION P0056).",
+      "changes": []
+    }
+  ],
+  "events": [
+    {
+      "id": "R01-D01",
+      "title": "Third-quarter 2023 results",
+      "event_date": "2023-11-07",
+      "available_at": "2023-11-07",
+      "review_date": "2023-11-07",
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0013",
+          "text": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0015",
+          "text": "•Revenue for the third quarter of 2023 was $186.2 million, compared with $278.2 million in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0016",
+          "text": "◦Geographically, third-quarter 2023 revenue declined 42% in the U.S, 35% in Japan and 1% in EMEA over the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0017",
+          "text": "◦Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the third quarter of 2023 versus 76% from the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0018",
+          "text": "◦We estimate that iRobot's third-quarter 2023 revenue from e-commerce, which spans the Company's own website and app, dedicated e-commerce websites and the online arms of traditional retailers, decreased approximately 27% from the same period last year and represented approximately 61% of third-quarter 2023 revenue. iRobot's direct-to-consumer (DTC) revenue of $37 million in the third quarter of 2023 decreased 8% from the prior-year third quarter."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0019",
+          "text": "•GAAP operating expenses for the third quarter of 2023 were $107.5 million, compared with GAAP operating expenses of $144.8 million in the same period last year. Third-quarter 2023 non-GAAP operating expenses were $90.1 million, compared with non-GAAP operating expenses of $112.8 million in the same period last year. The decrease in operating expenses is attributable to cost-reduction actions in August 2022 and February 2023, along with careful expense management and scaled back working media."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0020",
+          "text": "•GAAP operating loss for the third quarter of 2023 was ($59.5) million, compared with GAAP operating loss of ($68.4) million in the same period last year. Non-GAAP operating loss for the third quarter of 2023 was ($40.6) million, compared with non-GAAP operating loss of ($34.5) million in the same period last year. The Company's operating loss reflected the impact of decreased revenue and a lower gross margin, partially offset by the benefit of expense management. The decrease in gross margin of 2 percentage points in the third quarter of 2023, compared with the same period last year, was impacted by lower leverage on fixed costs and increased promotional activities, partially offset by improved channel mix. Sequentially compared with Q2 2023, gross margin increased 3 percentage points, reflecting improved product and channel mix and reduced rework costs despite lower leverage on fixed costs. We also benefitted from lower ocean freight costs from our new products."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0021",
+          "text": "•GAAP net loss per share for the third quarter of 2023 was ($2.86), compared with GAAP net loss per share of ($4.71) in the same period last year. Non-GAAP net loss per share was ($2.82) for the third quarter of 2023, compared with non-GAAP net loss per share of ($1.78) in the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0022",
+          "text": "•During the third quarter, the Company received $188.2 million, net of debt issuance costs, from its new term loan that matures on July 24, 2026. The loan proceeds received will be used to fund the Company's on-going operations. As of September 30, 2023, the Company's cash and cash equivalents were $189.6 million, compared with $58.0 million as of July 1, 2023, and $117.9 million at the end of 2022."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0023",
+          "text": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022. Non-GAAP DII was 163 days, compared with 96 days at the end of 2022. iRobot plans to use its on-hand inventory to help fulfill anticipated fourth-quarter 2023 orders."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0025",
+          "text": "•During the third quarter of 2023, iRobot introduced multiple new products and digital technologies to markets worldwide."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0026",
+          "text": "◦On August 28, 2023, iRobot introduced the Roomba Combo® j5+ and Roomba Combo® i5+ robot vacuum and mops, giving customers more choice when it comes to an iRobot 2-in-1 floor cleaning solution."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0027",
+          "text": "◦On September 11, 2023, iRobot expanded its product lineup further with the introductions of the Roomba Combo® j9+ robot vacuum and mop and Roomba® j9+ robot vacuum. iRobot also introduced thoughtful iRobot OS features Dirt Detective and SmartScrub, our latest cleaning automation features."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0028",
+          "text": "•iRobot's expanded product lineup and digital features have received positive reviews and media coverage by Reviewed, Vacuum Wars, The Verge, Engadget, Gear Patrol, Digital Trends, TechRadar, Les Numériques, El Confidencial, Süddeutsche Zeitung, My Navi News and Business Insider Japan among many other media outlets worldwide."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0029",
+          "text": "•iRobot was listed as one of U.S. News and World Report's \"Best Companies to Work For.\""
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0030",
+          "text": "•iRobot products were featured in Amazon's Prime Big Deal Days event, which was held October 10-11, 2023. The Company's products received favorable Prime Big Deal Days related media coverage in outlets including TODAY, Good Morning America, CNN Underscored, Good Housekeeping, Frandroid, El Mundo, Stern and Mirror."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0031",
+          "text": "•The Company's community of engaged, connected customers who have opted-in to its digital communications grew 18% to 19.3 million, from the third quarter of 2022."
+        },
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "locator": "P0033",
+          "text": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders."
+        }
+      ],
+      "source_kind": "public_filing",
+      "presentation_summary": "First quarterly results after the facility closed; the Amazon acquisition is still pending.",
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2023-11-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916723000068/ex991q32023pressrelease.htm",
+          "sec_accepted_at": "2023-11-07T16:33:25.000Z",
+          "sha256": "074c45866426db45a9a7be7ef6dae77e092c359c65ba885608ae48d7c88a9f93"
+        }
+      ],
+      "package_version": "1.0",
+      "status": "completed",
+      "analysis": {
+        "id": "R01-D01",
+        "event": {
+          "id": "R01-D01",
+          "title": "Third-quarter 2023 results",
+          "event_date": "2023-11-07",
+          "available_at": "2023-11-07",
+          "review_date": "2023-11-07",
+          "sources": [
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0013",
+              "text": "BEDFORD, Mass., November 7, 2023 – iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the third quarter ended September 30, 2023."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0015",
+              "text": "•Revenue for the third quarter of 2023 was $186.2 million, compared with $278.2 million in the same period last year."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0016",
+              "text": "◦Geographically, third-quarter 2023 revenue declined 42% in the U.S, 35% in Japan and 1% in EMEA over the same period last year."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0017",
+              "text": "◦Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the third quarter of 2023 versus 76% from the same period last year."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0018",
+              "text": "◦We estimate that iRobot's third-quarter 2023 revenue from e-commerce, which spans the Company's own website and app, dedicated e-commerce websites and the online arms of traditional retailers, decreased approximately 27% from the same period last year and represented approximately 61% of third-quarter 2023 revenue. iRobot's direct-to-consumer (DTC) revenue of $37 million in the third quarter of 2023 decreased 8% from the prior-year third quarter."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0019",
+              "text": "•GAAP operating expenses for the third quarter of 2023 were $107.5 million, compared with GAAP operating expenses of $144.8 million in the same period last year. Third-quarter 2023 non-GAAP operating expenses were $90.1 million, compared with non-GAAP operating expenses of $112.8 million in the same period last year. The decrease in operating expenses is attributable to cost-reduction actions in August 2022 and February 2023, along with careful expense management and scaled back working media."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0020",
+              "text": "•GAAP operating loss for the third quarter of 2023 was ($59.5) million, compared with GAAP operating loss of ($68.4) million in the same period last year. Non-GAAP operating loss for the third quarter of 2023 was ($40.6) million, compared with non-GAAP operating loss of ($34.5) million in the same period last year. The Company's operating loss reflected the impact of decreased revenue and a lower gross margin, partially offset by the benefit of expense management. The decrease in gross margin of 2 percentage points in the third quarter of 2023, compared with the same period last year, was impacted by lower leverage on fixed costs and increased promotional activities, partially offset by improved channel mix. Sequentially compared with Q2 2023, gross margin increased 3 percentage points, reflecting improved product and channel mix and reduced rework costs despite lower leverage on fixed costs. We also benefitted from lower ocean freight costs from our new products."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0021",
+              "text": "•GAAP net loss per share for the third quarter of 2023 was ($2.86), compared with GAAP net loss per share of ($4.71) in the same period last year. Non-GAAP net loss per share was ($2.82) for the third quarter of 2023, compared with non-GAAP net loss per share of ($1.78) in the same period last year."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0022",
+              "text": "•During the third quarter, the Company received $188.2 million, net of debt issuance costs, from its new term loan that matures on July 24, 2026. The loan proceeds received will be used to fund the Company's on-going operations. As of September 30, 2023, the Company's cash and cash equivalents were $189.6 million, compared with $58.0 million as of July 1, 2023, and $117.9 million at the end of 2022."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0023",
+              "text": "•The Company's inventory balance was $244.5 million as of September 30, 2023, compared with $285.3 million at the end of 2022. GAAP days in inventory (DII) was 161 days, compared with 95 days at the end of 2022. Non-GAAP DII was 163 days, compared with 96 days at the end of 2022. iRobot plans to use its on-hand inventory to help fulfill anticipated fourth-quarter 2023 orders."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0025",
+              "text": "•During the third quarter of 2023, iRobot introduced multiple new products and digital technologies to markets worldwide."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0026",
+              "text": "◦On August 28, 2023, iRobot introduced the Roomba Combo® j5+ and Roomba Combo® i5+ robot vacuum and mops, giving customers more choice when it comes to an iRobot 2-in-1 floor cleaning solution."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0027",
+              "text": "◦On September 11, 2023, iRobot expanded its product lineup further with the introductions of the Roomba Combo® j9+ robot vacuum and mop and Roomba® j9+ robot vacuum. iRobot also introduced thoughtful iRobot OS features Dirt Detective and SmartScrub, our latest cleaning automation features."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0028",
+              "text": "•iRobot's expanded product lineup and digital features have received positive reviews and media coverage by Reviewed, Vacuum Wars, The Verge, Engadget, Gear Patrol, Digital Trends, TechRadar, Les Numériques, El Confidencial, Süddeutsche Zeitung, My Navi News and Business Insider Japan among many other media outlets worldwide."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0029",
+              "text": "•iRobot was listed as one of U.S. News and World Report's \"Best Companies to Work For.\""
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0030",
+              "text": "•iRobot products were featured in Amazon's Prime Big Deal Days event, which was held October 10-11, 2023. The Company's products received favorable Prime Big Deal Days related media coverage in outlets including TODAY, Good Morning America, CNN Underscored, Good Housekeeping, Frandroid, El Mundo, Stern and Mirror."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0031",
+              "text": "•The Company's community of engaged, connected customers who have opted-in to its digital communications grew 18% to 19.3 million, from the third quarter of 2022."
+            },
+            {
+              "document_id": "IRBT-PR-2023-11-07",
+              "locator": "P0033",
+              "text": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing terms of their merger agreement to reflect a reduction in the price per share. For Amazon, the change in price per share is expected to be largely offset by the increase in iRobot's net debt under the new financing facility. On October 12, 2023, iRobot's stockholders approved and adopted the amended merger agreement at the Company's special meeting of stockholders."
+            }
+          ]
+        },
+        "borrower_id": "R01",
+        "package_version": "1.0",
+        "engine": "nemotron",
+        "model": "nvidia/nemotron-3-super-120b-a12b",
+        "generated_at": "2026-09-20T00:26:51.476267+00:00",
+        "model_options": {
+          "enable_thinking": true,
+          "max_tokens": 10000,
+          "response_format": "json_object"
+        },
+        "summary": "The Q3 2023 press release shows increased cash from a new term loan and an operating loss, but does not disclose operating cash flow or financial statement delivery. Consequently, there is insufficient evidence to evaluate the adequate operating cash flow assumption (R01-A03) or the going‑concern/financial‑statement covenant (C02).",
+        "attributions": [
+          {
+            "id": "att-bfd776d7-b7d5-4417-b5a8-2e23174aeed4",
+            "target_type": "assumption",
+            "target_id": "R01-A03",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "unclear",
+            "proposed_status": "insufficient_evidence",
+            "rationale": "The event reports cash and cash equivalents and an operating loss but provides no operating cash flow figure, so it neither confirms nor refutes the claim that the borrower will generate sufficient operating cash flow for 12 months.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2023-11-07",
+                "locator": "P0022",
+                "quote": "As of September 30, 2023, the Company's cash and cash equivalents were $189.6 million, compared with $58.0 million as of July 1, 2023, and $117.9 million at the end of 2022.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "request_information",
+            "proposed_adjustment": "",
+            "path": [],
+            "target_title": "Adequate Operating Cash Flow",
+            "verified": true,
+            "target_version": "1.0",
+            "baseline_status": "reconstructed_public"
+          }
+        ],
+        "coverage": [
+          {
+            "assumption_id": "R01-A03",
+            "target_title": "Adequate Operating Cash Flow",
+            "status": "addressed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C02",
+            "status": "insufficient_evidence",
+            "rationale": "The press release contains no information about the delivery of annual/quarterly financial statements or any going‑concern exception, so compliance with the reporting and going‑concern covenant cannot be determined.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2023-11-07",
+                "locator": "P0020",
+                "quote": "GAAP operating loss for the third quarter of 2023 was ($59.5) million, compared with GAAP operating loss of ($68.4) million in the same period last year.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          }
+        ],
+        "warnings": [],
+        "error": null,
+        "decisions": {},
+        "raw_response": {
+          "summary": "The Q3 2023 press release shows increased cash from a new term loan and an operating loss, but does not disclose operating cash flow or financial statement delivery. Consequently, there is insufficient evidence to evaluate the adequate operating cash flow assumption (R01-A03) or the going‑concern/financial‑statement covenant (C02).",
+          "attributions": [
+            {
+              "target_type": "assumption",
+              "target_id": "R01-A03",
+              "relation_type": "direct_assumption_evidence",
+              "risk_direction": "unclear",
+              "proposed_status": "insufficient_evidence",
+              "rationale": "The event reports cash and cash equivalents and an operating loss but provides no operating cash flow figure, so it neither confirms nor refutes the claim that the borrower will generate sufficient operating cash flow for 12 months.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2023-11-07",
+                  "locator": "P0022",
+                  "quote": "As of September 30, 2023, the Company's cash and cash equivalents were $189.6 million, compared with $58.0 million as of July 1, 2023, and $117.9 million at the end of 2022."
+                }
+              ],
+              "counterevidence": [],
+              "missing_information": [],
+              "suggested_action": "request_information",
+              "proposed_adjustment": null,
+              "path": []
+            }
+          ],
+          "candidates": [],
+          "covenant_assessments": [
+            {
+              "clause_id": "C02",
+              "status": "insufficient_evidence",
+              "rationale": "The press release contains no information about the delivery of annual/quarterly financial statements or any going‑concern exception, so compliance with the reporting and going‑concern covenant cannot be determined.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2023-11-07",
+                  "locator": "P0020",
+                  "quote": "GAAP operating loss for the third quarter of 2023 was ($59.5) million, compared with GAAP operating loss of ($68.4) million in the same period last year."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision": {
+        "action": "pending"
+      }
+    },
+    {
+      "id": "R01-D02",
+      "title": "Amazon acquisition terminated; restructuring announced",
+      "event_date": "2024-01-29",
+      "available_at": "2024-01-29",
+      "review_date": "2024-01-29",
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0011",
+          "text": "iRobot Announces Operational Restructuring Plan to Position Company for the Future"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0014",
+          "text": "BEDFORD, Mass., Jan. 29, 2024 – Today, iRobot Corporation (NASDAQ: IRBT), a leader in consumer robots, announced that it will implement an operational restructuring plan designed to position the Company for stabilization in the current environment, while focusing on profitability and advancing key growth initiatives to extend its market share in the mid-tier and premium segments. This plan was approved following iRobot’s and Amazon’s mutual decision to terminate their previously announced merger agreement. That announcement can be found here."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0015",
+          "text": "Concurrent with the implementation of its operational restructuring plan, the Company today also announced a leadership transition whereby Colin Angle, Chairman of the Board of Directors and CEO, has stepped down as Chairman and CEO. Glen Weinstein, iRobot’s Executive Vice President and Chief Legal Officer, has been appointed Interim CEO, and Andrew Miller, lead independent director of the Board, has been appointed Chairman of the Board."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0016",
+          "text": "iRobot’s immediate priority in undertaking the operational restructuring plan is to more closely align its cost structure with near-term revenue expectations and drive profitability, including through the following financial and strategic initiatives:"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0018",
+          "text": "Achieving margin improvements and generating approximately $80-$100 million in savings on equivalent volumes through the execution of agreements with joint design and contract manufacturing partners on more attractive terms that provide significant reductions in cost of goods sold;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0020",
+          "text": "Reducing R&D expense by approximately $20 million year-over-year through increased offshoring of non-core engineering functions to lower-cost regions;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0022",
+          "text": "Centralizing global marketing activities and consolidating agency expenditures to reduce sales and marketing expenses by approximately $30 million year-over-year while seeking efficiencies in demand generation activities to drive sales more cost effectively;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0024",
+          "text": "Rightsizing the Company’s global real estate footprint through additional subleasing at its corporate headquarters and the elimination of offices and facilities in smaller, underperforming geographies; and"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0026",
+          "text": "Focusing iRobot’s product roadmap on core value drivers and pausing all work related to non-floorcare innovations, including air purification, robotic lawn mowing and education."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0027",
+          "text": "These actions will also result in a reduction of approximately 350 employees, which represents 31 percent of the Company’s workforce as of December 30, 2023, with the majority of notifications taking place by March 30, 2024. As part of this workforce reduction, iRobot expects to record restructuring charges totaling between $12 million and $13 million, primarily for severance and related costs, over the first two quarters of 2024, with the majority of the restructuring charges anticipated in the first quarter of 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0028",
+          "text": "Jeff Engel, a highly regarded turnaround expert, has been appointed Chief Restructuring Officer to oversee these initiatives and lead the implementation of the operational restructuring plan and will report directly to the Board and Mr. Weinstein."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0029",
+          "text": "The Company will continue executing key strategic activities to support iRobot’s return to profitability, including increasing its brand recognition, driving product innovation and redesigning its go-to-market strategy. Enhancements to the Company’s go-to-market playbook will focus the business on iRobot’s most profitable customers, geographies and channels, including its growing direct-to-consumer channel, while rebalancing the Company’s spending mix between price, promotion and demand generation to optimize returns."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0030",
+          "text": "Andrew Miller, Chairman of the Board, said, “iRobot is a pioneer of the consumer robot field and beloved by its customers around the world. With a legacy of innovation and a foundation of creativity, the Board and I believe that iRobot can – and will – grow its presence and continue to build a cutting-edge suite of robotic floorcare solutions that help consumers make their homes easier to maintain and healthier places to live. To do this successfully, however, we must rapidly align our operating model and cost structure to our future as a standalone company. Though decisions that impact our people are difficult, we must move forward with a more sustainable business model, and a renewed focus on profitability. We are confident that the actions we are announcing today will enable us to chart a new strategic path for sustainable value creation.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0032",
+          "text": "Concurrent with the implementation of its operational restructuring plan, the Company today also announced the following leadership changes:"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0034",
+          "text": "Colin Angle has stepped down as Chairman of the Board and CEO. Mr. Angle will continue to serve on the iRobot Board of Directors until his current term expires in May 2024, and has agreed to remain with the Company as a senior advisor for up to 12 months, to ensure a smooth transition."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0036",
+          "text": "Glen Weinstein, iRobot’s Executive Vice President and Chief Legal Officer, has been appointed Interim CEO, and the Board has initiated a search process for a permanent CEO supported by a leading executive search firm. Mr. Weinstein originally joined iRobot in 2000 as General Counsel and was promoted to General Counsel and Senior Vice President in 2005, prior to being appointed Executive Vice President and Chief Legal Officer in 2012."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0040",
+          "text": "The Board has appointed Andrew Miller, lead independent director of the Board, as Chairman of the Board. Mr. Miller has served on the iRobot Board since 2016. From 2015 until 2019, Mr. Miller was the Executive Vice President and Chief Financial Officer of PTC, a computer software and services company focused on accelerating transformation through digital technology. From 2008 to 2015, Mr. Miller was the Executive Vice President and Chief Financial Officer of Cepheid, a global leader in molecular diagnostics. Prior to Cepheid, Mr. Miller held a variety of financial leadership roles at Autodesk, MarketFirst Software and Silicon Graphics."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0041",
+          "text": "“On behalf of the Board, I would like to extend my sincerest gratitude to Colin for more than 33 years of leadership in building a company that has changed the world,” continued Mr. Miller. “Simply put, Colin revolutionized the robotics industry and under his tenure, iRobot has pioneered the intersection of robotic technology and consumer needs. We are grateful for his visionary leadership, relentless focus on R&D and commitment to our global team. I particularly appreciate Colin’s support of this transition. We are also grateful to Glen for stepping up to guide our Company through this important period. As the search for our next CEO progresses, I know we will benefit from Glen’s deep knowledge of our business, having been an integral member of iRobot’s leadership team for over 20 years.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0042",
+          "text": "Mr. Angle said, “When I founded iRobot more than three decades ago, having more than 50 million of our products in homes worldwide was beyond my wildest imagination. I am incredibly proud of what our team has accomplished over the years. From the development of the first Roomba in 2002 to our latest generation, they have been relentless in building and delivering new and iconic ways for consumers to clean and live. At the same time, I know there is a lot of work to do to map iRobot’s next chapter. Given the nature of the challenges facing the Company, the Board and I have mutually decided that iRobot will be better served by a new leader with turnaround experience. I would like to sincerely thank our team members around the world for their commitment to our mission of helping people do more. I know iRobot has the talent and passion to succeed in continuing to build the world’s most thoughtful and intelligent home innovations for years to come.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0044",
+          "text": "The Company today also announced certain preliminary fourth quarter results. iRobot anticipates reporting full-year 2023 revenue of $891 million, a 25% reduction as compared to the same period last year, a GAAP operating loss of between $265 and $285 million, and a non-GAAP operating loss of approximately $200 million. The Company ended fiscal year 2023 with $185 million in cash and cash equivalents, funded primarily from its previously announced three-year $200 million credit agreement with The Carlyle Group, which matures on July 24, 2026."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0045",
+          "text": "Under the terms of the merger agreement, Amazon will pay iRobot a $94 million termination fee. After payment of financial advisor fees of approximately 20% of the termination fee, the Company shall apply $35 million dollars of the termination fee immediately to repay the term loan and the remainder of the termination fee will be set aside to be used for future repayments of the term loan subject to limited rights of the Company to utilize such amounts for the purchase of inventory."
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0046",
+          "text": "“We are disappointed with the Company’s 2023 performance – but our focus turns now to the future,” said Mr. Miller. “Along with the restructuring actions announced today, and with a refreshed turnaround-focused leadership team, we see a clear path to reinvigorating our outstanding brand, product performance and underlying technology. In addition to rightsizing our cost structure, innovation remains our most exciting growth opportunity. We look forward to reigniting growth of the brand with future launches of both new entry and premium floorcare solutions that will provide even smarter and more powerful ways for our customers to clean.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "locator": "P0047",
+          "text": "The Company will provide additional information on the Company’s restructuring efforts and go-forward business plans at its fourth quarter 2023 earnings call, scheduled for February 27, 2024."
+        }
+      ],
+      "source_kind": "public_filing",
+      "presentation_summary": "The pending acquisition ends. The agreement anticipated this outcome and directs part of the termination fee to the term loan.",
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000119312524017523/d741198dex992.htm",
+          "sec_accepted_at": "2024-01-29T08:36:01.000Z",
+          "sha256": "a216380ccf08589229ce8b7346930b14b8f4b3a666caacfaa5320cd18953fbcd"
+        }
+      ],
+      "package_version": "1.0",
+      "status": "completed",
+      "analysis": {
+        "id": "R01-D02",
+        "event": {
+          "id": "R01-D02",
+          "title": "Amazon acquisition terminated; restructuring announced",
+          "event_date": "2024-01-29",
+          "available_at": "2024-01-29",
+          "review_date": "2024-01-29",
+          "sources": [
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0011",
+              "text": "iRobot Announces Operational Restructuring Plan to Position Company for the Future"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0014",
+              "text": "BEDFORD, Mass., Jan. 29, 2024 – Today, iRobot Corporation (NASDAQ: IRBT), a leader in consumer robots, announced that it will implement an operational restructuring plan designed to position the Company for stabilization in the current environment, while focusing on profitability and advancing key growth initiatives to extend its market share in the mid-tier and premium segments. This plan was approved following iRobot’s and Amazon’s mutual decision to terminate their previously announced merger agreement. That announcement can be found here."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0015",
+              "text": "Concurrent with the implementation of its operational restructuring plan, the Company today also announced a leadership transition whereby Colin Angle, Chairman of the Board of Directors and CEO, has stepped down as Chairman and CEO. Glen Weinstein, iRobot’s Executive Vice President and Chief Legal Officer, has been appointed Interim CEO, and Andrew Miller, lead independent director of the Board, has been appointed Chairman of the Board."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0016",
+              "text": "iRobot’s immediate priority in undertaking the operational restructuring plan is to more closely align its cost structure with near-term revenue expectations and drive profitability, including through the following financial and strategic initiatives:"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0018",
+              "text": "Achieving margin improvements and generating approximately $80-$100 million in savings on equivalent volumes through the execution of agreements with joint design and contract manufacturing partners on more attractive terms that provide significant reductions in cost of goods sold;"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0020",
+              "text": "Reducing R&D expense by approximately $20 million year-over-year through increased offshoring of non-core engineering functions to lower-cost regions;"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0022",
+              "text": "Centralizing global marketing activities and consolidating agency expenditures to reduce sales and marketing expenses by approximately $30 million year-over-year while seeking efficiencies in demand generation activities to drive sales more cost effectively;"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0024",
+              "text": "Rightsizing the Company’s global real estate footprint through additional subleasing at its corporate headquarters and the elimination of offices and facilities in smaller, underperforming geographies; and"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0026",
+              "text": "Focusing iRobot’s product roadmap on core value drivers and pausing all work related to non-floorcare innovations, including air purification, robotic lawn mowing and education."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0027",
+              "text": "These actions will also result in a reduction of approximately 350 employees, which represents 31 percent of the Company’s workforce as of December 30, 2023, with the majority of notifications taking place by March 30, 2024. As part of this workforce reduction, iRobot expects to record restructuring charges totaling between $12 million and $13 million, primarily for severance and related costs, over the first two quarters of 2024, with the majority of the restructuring charges anticipated in the first quarter of 2024."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0028",
+              "text": "Jeff Engel, a highly regarded turnaround expert, has been appointed Chief Restructuring Officer to oversee these initiatives and lead the implementation of the operational restructuring plan and will report directly to the Board and Mr. Weinstein."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0029",
+              "text": "The Company will continue executing key strategic activities to support iRobot’s return to profitability, including increasing its brand recognition, driving product innovation and redesigning its go-to-market strategy. Enhancements to the Company’s go-to-market playbook will focus the business on iRobot’s most profitable customers, geographies and channels, including its growing direct-to-consumer channel, while rebalancing the Company’s spending mix between price, promotion and demand generation to optimize returns."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0030",
+              "text": "Andrew Miller, Chairman of the Board, said, “iRobot is a pioneer of the consumer robot field and beloved by its customers around the world. With a legacy of innovation and a foundation of creativity, the Board and I believe that iRobot can – and will – grow its presence and continue to build a cutting-edge suite of robotic floorcare solutions that help consumers make their homes easier to maintain and healthier places to live. To do this successfully, however, we must rapidly align our operating model and cost structure to our future as a standalone company. Though decisions that impact our people are difficult, we must move forward with a more sustainable business model, and a renewed focus on profitability. We are confident that the actions we are announcing today will enable us to chart a new strategic path for sustainable value creation.”"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0032",
+              "text": "Concurrent with the implementation of its operational restructuring plan, the Company today also announced the following leadership changes:"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0034",
+              "text": "Colin Angle has stepped down as Chairman of the Board and CEO. Mr. Angle will continue to serve on the iRobot Board of Directors until his current term expires in May 2024, and has agreed to remain with the Company as a senior advisor for up to 12 months, to ensure a smooth transition."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0036",
+              "text": "Glen Weinstein, iRobot’s Executive Vice President and Chief Legal Officer, has been appointed Interim CEO, and the Board has initiated a search process for a permanent CEO supported by a leading executive search firm. Mr. Weinstein originally joined iRobot in 2000 as General Counsel and was promoted to General Counsel and Senior Vice President in 2005, prior to being appointed Executive Vice President and Chief Legal Officer in 2012."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0040",
+              "text": "The Board has appointed Andrew Miller, lead independent director of the Board, as Chairman of the Board. Mr. Miller has served on the iRobot Board since 2016. From 2015 until 2019, Mr. Miller was the Executive Vice President and Chief Financial Officer of PTC, a computer software and services company focused on accelerating transformation through digital technology. From 2008 to 2015, Mr. Miller was the Executive Vice President and Chief Financial Officer of Cepheid, a global leader in molecular diagnostics. Prior to Cepheid, Mr. Miller held a variety of financial leadership roles at Autodesk, MarketFirst Software and Silicon Graphics."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0041",
+              "text": "“On behalf of the Board, I would like to extend my sincerest gratitude to Colin for more than 33 years of leadership in building a company that has changed the world,” continued Mr. Miller. “Simply put, Colin revolutionized the robotics industry and under his tenure, iRobot has pioneered the intersection of robotic technology and consumer needs. We are grateful for his visionary leadership, relentless focus on R&D and commitment to our global team. I particularly appreciate Colin’s support of this transition. We are also grateful to Glen for stepping up to guide our Company through this important period. As the search for our next CEO progresses, I know we will benefit from Glen’s deep knowledge of our business, having been an integral member of iRobot’s leadership team for over 20 years.”"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0042",
+              "text": "Mr. Angle said, “When I founded iRobot more than three decades ago, having more than 50 million of our products in homes worldwide was beyond my wildest imagination. I am incredibly proud of what our team has accomplished over the years. From the development of the first Roomba in 2002 to our latest generation, they have been relentless in building and delivering new and iconic ways for consumers to clean and live. At the same time, I know there is a lot of work to do to map iRobot’s next chapter. Given the nature of the challenges facing the Company, the Board and I have mutually decided that iRobot will be better served by a new leader with turnaround experience. I would like to sincerely thank our team members around the world for their commitment to our mission of helping people do more. I know iRobot has the talent and passion to succeed in continuing to build the world’s most thoughtful and intelligent home innovations for years to come.”"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0044",
+              "text": "The Company today also announced certain preliminary fourth quarter results. iRobot anticipates reporting full-year 2023 revenue of $891 million, a 25% reduction as compared to the same period last year, a GAAP operating loss of between $265 and $285 million, and a non-GAAP operating loss of approximately $200 million. The Company ended fiscal year 2023 with $185 million in cash and cash equivalents, funded primarily from its previously announced three-year $200 million credit agreement with The Carlyle Group, which matures on July 24, 2026."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0045",
+              "text": "Under the terms of the merger agreement, Amazon will pay iRobot a $94 million termination fee. After payment of financial advisor fees of approximately 20% of the termination fee, the Company shall apply $35 million dollars of the termination fee immediately to repay the term loan and the remainder of the termination fee will be set aside to be used for future repayments of the term loan subject to limited rights of the Company to utilize such amounts for the purchase of inventory."
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0046",
+              "text": "“We are disappointed with the Company’s 2023 performance – but our focus turns now to the future,” said Mr. Miller. “Along with the restructuring actions announced today, and with a refreshed turnaround-focused leadership team, we see a clear path to reinvigorating our outstanding brand, product performance and underlying technology. In addition to rightsizing our cost structure, innovation remains our most exciting growth opportunity. We look forward to reigniting growth of the brand with future launches of both new entry and premium floorcare solutions that will provide even smarter and more powerful ways for our customers to clean.”"
+            },
+            {
+              "document_id": "IRBT-PR-2024-01-29",
+              "locator": "P0047",
+              "text": "The Company will provide additional information on the Company’s restructuring efforts and go-forward business plans at its fourth quarter 2023 earnings call, scheduled for February 27, 2024."
+            }
+          ]
+        },
+        "borrower_id": "R01",
+        "package_version": "1.0",
+        "engine": "nemotron",
+        "model": "nvidia/nemotron-3-super-120b-a12b",
+        "generated_at": "2026-09-20T00:27:42.679016+00:00",
+        "model_options": {
+          "enable_thinking": true,
+          "max_tokens": 10000,
+          "response_format": "json_object"
+        },
+        "summary": "The Amazon acquisition termination and restructuring plan reveal a significant GAAP operating loss, weakening the assumption of adequate operating cash flow for 12 months. The termination fee triggers the Amazon Break Fee sweep, which the company intends to follow, leaving the Minimum Core Assets Test and reporting covenants unaffected based on available evidence.",
+        "attributions": [
+          {
+            "id": "att-5162b32f-b623-47d1-a292-265c1af1eb98",
+            "target_type": "assumption",
+            "target_id": "R01-A03",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "weakened",
+            "rationale": "Event shows significant GAAP operating loss, indicating potential insufficiency of operating cash flow to service debt, weakening the assumption of adequate operating cash flow for 12 months.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-01-29",
+                "locator": "P0044",
+                "quote": "iRobot anticipates reporting full-year 2023 revenue of $891 million, a 25% reduction as compared to the same period last year, a GAAP operating loss of between $265 and $285 million, and a non-GAAP operating loss of approximately $200 million.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "review_assumption",
+            "proposed_adjustment": "Reassess operating cash flow projections in light of restructuring and termination fee.",
+            "path": [],
+            "target_title": "Adequate Operating Cash Flow",
+            "verified": true,
+            "target_version": "1.0",
+            "baseline_status": "reconstructed_public"
+          }
+        ],
+        "coverage": [
+          {
+            "assumption_id": "R01-A03",
+            "target_title": "Adequate Operating Cash Flow",
+            "status": "addressed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C02",
+            "status": "not_triggered",
+            "rationale": "Event does not indicate failure to deliver financial statements or inclusion of a going‑concern exception; press release discusses restructuring but not reporting deficiencies.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-01-29",
+                "locator": "P0044",
+                "quote": "The Company ended fiscal year 2023 with $185 million in cash and cash equivalents, funded primarily from its previously announced three-year $200 million credit agreement with The Carlyle Group, which matures on July 24, 2026.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          },
+          {
+            "clause_id": "C04",
+            "status": "compliant",
+            "rationale": "Event states Amazon will pay a $94 million termination fee, with $35 million applied immediately to the term loan and the remainder set aside for future repayments, matching the Break Fee sweep requirements.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-01-29",
+                "locator": "P0045",
+                "quote": "Under the terms of the merger agreement, Amazon will pay iRobot a $94 million termination fee. After payment of financial advisor fees of approximately 20% of the termination fee, the Company shall apply $35 million dollars of the termination fee immediately to repay the term loan and the remainder of the termination fee will be set aside to be used for future repayments of the term loan subject to limited rights of the Company to utilize such amounts for the purchase of inventory.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          }
+        ],
+        "warnings": [],
+        "error": null,
+        "decisions": {},
+        "raw_response": {
+          "summary": "The Amazon acquisition termination and restructuring plan reveal a significant GAAP operating loss, weakening the assumption of adequate operating cash flow for 12 months. The termination fee triggers the Amazon Break Fee sweep, which the company intends to follow, leaving the Minimum Core Assets Test and reporting covenants unaffected based on available evidence.",
+          "attributions": [
+            {
+              "target_type": "assumption",
+              "target_id": "R01-A03",
+              "relation_type": "direct_assumption_evidence",
+              "risk_direction": "adverse",
+              "proposed_status": "weakened",
+              "rationale": "Event shows significant GAAP operating loss, indicating potential insufficiency of operating cash flow to service debt, weakening the assumption of adequate operating cash flow for 12 months.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-01-29",
+                  "locator": "P0044",
+                  "quote": "iRobot anticipates reporting full-year 2023 revenue of $891 million, a 25% reduction as compared to the same period last year, a GAAP operating loss of between $265 and $285 million, and a non-GAAP operating loss of approximately $200 million."
+                }
+              ],
+              "counterevidence": [],
+              "missing_information": [],
+              "suggested_action": "review_assumption",
+              "proposed_adjustment": "Reassess operating cash flow projections in light of restructuring and termination fee.",
+              "path": []
+            }
+          ],
+          "candidates": [],
+          "covenant_assessments": [
+            {
+              "clause_id": "C02",
+              "status": "not_triggered",
+              "rationale": "Event does not indicate failure to deliver financial statements or inclusion of a going‑concern exception; press release discusses restructuring but not reporting deficiencies.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-01-29",
+                  "locator": "P0044",
+                  "quote": "The Company ended fiscal year 2023 with $185 million in cash and cash equivalents, funded primarily from its previously announced three-year $200 million credit agreement with The Carlyle Group, which matures on July 24, 2026."
+                }
+              ]
+            },
+            {
+              "clause_id": "C04",
+              "status": "compliant",
+              "rationale": "Event states Amazon will pay a $94 million termination fee, with $35 million applied immediately to the term loan and the remainder set aside for future repayments, matching the Break Fee sweep requirements.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-01-29",
+                  "locator": "P0045",
+                  "quote": "Under the terms of the merger agreement, Amazon will pay iRobot a $94 million termination fee. After payment of financial advisor fees of approximately 20% of the termination fee, the Company shall apply $35 million dollars of the termination fee immediately to repay the term loan and the remainder of the termination fee will be set aside to be used for future repayments of the term loan subject to limited rights of the Company to utilize such amounts for the purchase of inventory."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision": {
+        "action": "pending"
+      }
+    },
+    {
+      "id": "R01-D03",
+      "title": "Fourth-quarter and full-year 2023 results",
+      "event_date": "2024-02-26",
+      "available_at": "2024-02-26",
+      "review_date": "2024-02-26",
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0014",
+          "text": "BEDFORD, Mass., February 26, 2024 -- iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the fourth quarter and full year ended December 30, 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0017",
+          "text": "•GAAP net loss per share was ($2.28) compared to GAAP net loss per share of ($3.07) last year"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0018",
+          "text": "•Non-GAAP net loss per share was ($1.82) compared to non-GAAP net loss per share of ($1.54) last year"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0021",
+          "text": "•GAAP net loss per share was ($11.01) compared to GAAP net loss of ($10.52) in 2022"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0022",
+          "text": "•Non-GAAP net loss per share was ($7.73) compared to non-GAAP net loss per share of ($4.50) in 2022"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0023",
+          "text": "\"As we shared last month, we are actively implementing an operational restructuring plan designed to both stabilize the business in the current environment and advance our growth initiatives,\" said Glen Weinstein, Interim CEO of iRobot. \"The plan will simplify our cost structure, create a more sustainable business model, and enable us to focus on our core value drivers. As we move forward with urgency and focus, our management team and Board are confident in iRobot's ability to build on our innovation and to navigate this period successfully as a standalone company.\""
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0024",
+          "text": "\"We are managing through a challenging period and making critical strategic progress that we believe will help expand and better position our business for the future,\" added Weinstein. \"We are confident that the actions we are taking today will drive improved performance going forward.\""
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0025",
+          "text": "iRobot anticipates full year 2024 revenue between $825 and $865 million. iRobot expects full year 2024 GAAP net loss per share between ($3.13) and ($2.70) and non-GAAP net loss per share between ($3.73) and ($3.30)."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0026",
+          "text": "iRobot's top financial priorities are liquidity and careful cash management. With the operational restructuring plan announced last month, iRobot anticipates a significant improvement in cash outflow from operations in fiscal 2024 compared with the reported cash outflow from operations of ($114.8) million for full year 2023. Excluding the net proceeds from the $94 million break-up fee from Amazon, iRobot expects negative cash flow from operations in Q1 and Q2 and anticipates generating modest positive cash flow from operations in both Q3 and Q4 during fiscal 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0028",
+          "text": "As announced on January 29, 2024, the Company has initiated an operational restructuring plan designed to more closely align its cost structure with near-term revenue expectations and drive bottom-line improvement. These measures include:"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0029",
+          "text": "•Achieving margin improvements through a focus on design-to-value and more attractive terms with manufacturing partners with an anticipated GAAP gross margin of between 31% and 33% and non-GAAP gross margin of between 32% and 34% in 2024;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0030",
+          "text": "•Reducing research and development expense by approximately $25 million through relocating certain non-core engineering functions and pausing work unrelated to iRobot's core floorcare business to focus on innovation and development efforts on the Company's key revenue generators;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0031",
+          "text": "•Centralizing global marketing activities to be more efficient in iRobot's demand generation efforts, which we anticipate will result in a decrease in overall selling and marketing expenses by $40 million including working marketing reduction of $20 million;"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0032",
+          "text": "•Streamlining the Company's legal entity and real estate footprint to fit its current business needs and near-term revenue expectations; and"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0033",
+          "text": "•Implementing workforce reductions of approximately 350 employees, which represents 31 percent of the Company's workforce as of December 30, 2023, with the majority of notifications taking place by March 30, 2024. As part of this workforce reduction, iRobot expects to record restructuring charges totaling between $12 million and $13 million, primarily for severance and related costs."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0035",
+          "text": "•Geographically, fourth quarter 2023 revenue declined 20% in the U.S., 19% in Japan and 5% in EMEA over the prior period last year. Full year 2023 revenue declined 30% in the U.S., 21% in Japan and 11% in EMEA."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0036",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 83% of total robot sales in the fourth quarter of 2023 versus 84% from the same period last year."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0037",
+          "text": "•iRobot's product lineup received positive reviews across regions in media outlets including Reviewed, TechRadar, Homes & Gardens, CNN Underscored, Lifehacker, TechHive, ZDNET, Xataka, T3, Tom’s Guide and Gear Patrol."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0038",
+          "text": "•The iRobot Roomba Combo j9+ was named 'Best Robot Vacuum' by U.S. News & World Report. The Company's products received other notable accolades from media outlets including GQ, Popular Mechanics, Gear Patrol and GoodsPress."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0039",
+          "text": "•iRobot products were featured as recommended deals and gifts in Black Friday/Cyber Monday and holiday gift guide-related coverage in TODAY, Good Morning America, Esquire and many other top media outlets."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0041",
+          "text": "iRobot is providing GAAP and non-GAAP financial expectations for the fiscal year ending December 28, 2024. A detailed reconciliation between the Company's GAAP and non-GAAP expectations is included in the attached financial tables."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0045",
+          "text": "| Revenue | $825 - $865 million | | — | | $825 - $865 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0049",
+          "text": "•For the first half of 2024, revenue is expected to decline in the high teens to low 20s percentage range compared to the first half of 2023, with Q2 expected to be the weaker quarter as the Company expects a shifting of orders into Q3."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0050",
+          "text": "•For the second half of the year, the Company anticipates a mid-single-digit percentage improvement in revenue compared to the second half of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "locator": "P0051",
+          "text": "•iRobot anticipates that the majority of the gross margin improvement will occur in the second half of the year as the Company ramps its initiatives."
+        }
+      ],
+      "source_kind": "public_filing",
+      "presentation_summary": "First full results after the acquisition ended, with the company's 2024 expectations.",
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-02-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000005/ex991q42023pressrelease.htm",
+          "sec_accepted_at": "2024-02-26T16:53:31.000Z",
+          "sha256": "aa7dcd170952b79ad74deed8d9176b311d86494a85046162737279e94dc1b01f"
+        }
+      ],
+      "package_version": "1.0",
+      "status": "completed",
+      "analysis": {
+        "id": "R01-D03",
+        "event": {
+          "id": "R01-D03",
+          "title": "Fourth-quarter and full-year 2023 results",
+          "event_date": "2024-02-26",
+          "available_at": "2024-02-26",
+          "review_date": "2024-02-26",
+          "sources": [
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0014",
+              "text": "BEDFORD, Mass., February 26, 2024 -- iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the fourth quarter and full year ended December 30, 2023."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0017",
+              "text": "•GAAP net loss per share was ($2.28) compared to GAAP net loss per share of ($3.07) last year"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0018",
+              "text": "•Non-GAAP net loss per share was ($1.82) compared to non-GAAP net loss per share of ($1.54) last year"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0021",
+              "text": "•GAAP net loss per share was ($11.01) compared to GAAP net loss of ($10.52) in 2022"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0022",
+              "text": "•Non-GAAP net loss per share was ($7.73) compared to non-GAAP net loss per share of ($4.50) in 2022"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0023",
+              "text": "\"As we shared last month, we are actively implementing an operational restructuring plan designed to both stabilize the business in the current environment and advance our growth initiatives,\" said Glen Weinstein, Interim CEO of iRobot. \"The plan will simplify our cost structure, create a more sustainable business model, and enable us to focus on our core value drivers. As we move forward with urgency and focus, our management team and Board are confident in iRobot's ability to build on our innovation and to navigate this period successfully as a standalone company.\""
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0024",
+              "text": "\"We are managing through a challenging period and making critical strategic progress that we believe will help expand and better position our business for the future,\" added Weinstein. \"We are confident that the actions we are taking today will drive improved performance going forward.\""
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0025",
+              "text": "iRobot anticipates full year 2024 revenue between $825 and $865 million. iRobot expects full year 2024 GAAP net loss per share between ($3.13) and ($2.70) and non-GAAP net loss per share between ($3.73) and ($3.30)."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0026",
+              "text": "iRobot's top financial priorities are liquidity and careful cash management. With the operational restructuring plan announced last month, iRobot anticipates a significant improvement in cash outflow from operations in fiscal 2024 compared with the reported cash outflow from operations of ($114.8) million for full year 2023. Excluding the net proceeds from the $94 million break-up fee from Amazon, iRobot expects negative cash flow from operations in Q1 and Q2 and anticipates generating modest positive cash flow from operations in both Q3 and Q4 during fiscal 2024."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0028",
+              "text": "As announced on January 29, 2024, the Company has initiated an operational restructuring plan designed to more closely align its cost structure with near-term revenue expectations and drive bottom-line improvement. These measures include:"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0029",
+              "text": "•Achieving margin improvements through a focus on design-to-value and more attractive terms with manufacturing partners with an anticipated GAAP gross margin of between 31% and 33% and non-GAAP gross margin of between 32% and 34% in 2024;"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0030",
+              "text": "•Reducing research and development expense by approximately $25 million through relocating certain non-core engineering functions and pausing work unrelated to iRobot's core floorcare business to focus on innovation and development efforts on the Company's key revenue generators;"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0031",
+              "text": "•Centralizing global marketing activities to be more efficient in iRobot's demand generation efforts, which we anticipate will result in a decrease in overall selling and marketing expenses by $40 million including working marketing reduction of $20 million;"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0032",
+              "text": "•Streamlining the Company's legal entity and real estate footprint to fit its current business needs and near-term revenue expectations; and"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0033",
+              "text": "•Implementing workforce reductions of approximately 350 employees, which represents 31 percent of the Company's workforce as of December 30, 2023, with the majority of notifications taking place by March 30, 2024. As part of this workforce reduction, iRobot expects to record restructuring charges totaling between $12 million and $13 million, primarily for severance and related costs."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0035",
+              "text": "•Geographically, fourth quarter 2023 revenue declined 20% in the U.S., 19% in Japan and 5% in EMEA over the prior period last year. Full year 2023 revenue declined 30% in the U.S., 21% in Japan and 11% in EMEA."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0036",
+              "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 83% of total robot sales in the fourth quarter of 2023 versus 84% from the same period last year."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0037",
+              "text": "•iRobot's product lineup received positive reviews across regions in media outlets including Reviewed, TechRadar, Homes & Gardens, CNN Underscored, Lifehacker, TechHive, ZDNET, Xataka, T3, Tom’s Guide and Gear Patrol."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0038",
+              "text": "•The iRobot Roomba Combo j9+ was named 'Best Robot Vacuum' by U.S. News & World Report. The Company's products received other notable accolades from media outlets including GQ, Popular Mechanics, Gear Patrol and GoodsPress."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0039",
+              "text": "•iRobot products were featured as recommended deals and gifts in Black Friday/Cyber Monday and holiday gift guide-related coverage in TODAY, Good Morning America, Esquire and many other top media outlets."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0041",
+              "text": "iRobot is providing GAAP and non-GAAP financial expectations for the fiscal year ending December 28, 2024. A detailed reconciliation between the Company's GAAP and non-GAAP expectations is included in the attached financial tables."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0045",
+              "text": "| Revenue | $825 - $865 million | | — | | $825 - $865 million"
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0049",
+              "text": "•For the first half of 2024, revenue is expected to decline in the high teens to low 20s percentage range compared to the first half of 2023, with Q2 expected to be the weaker quarter as the Company expects a shifting of orders into Q3."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0050",
+              "text": "•For the second half of the year, the Company anticipates a mid-single-digit percentage improvement in revenue compared to the second half of 2023."
+            },
+            {
+              "document_id": "IRBT-PR-2024-02-26",
+              "locator": "P0051",
+              "text": "•iRobot anticipates that the majority of the gross margin improvement will occur in the second half of the year as the Company ramps its initiatives."
+            }
+          ]
+        },
+        "borrower_id": "R01",
+        "package_version": "1.0",
+        "engine": "nemotron",
+        "model": "nvidia/nemotron-3-super-120b-a12b",
+        "generated_at": "2026-09-20T00:28:41.670717+00:00",
+        "model_options": {
+          "enable_thinking": true,
+          "max_tokens": 10000,
+          "response_format": "json_object"
+        },
+        "summary": "The February 26, 2024 press release shows iRobot expects negative operating cash flow in Q1‑Q2 2024 and modest positive flow in Q3‑Q4, indicating early‑year cash‑flow pressure that weakens the assumption of sufficient operating cash flow for the next 12 months. No direct evidence of covenant breaches is available; compliance with reporting, core‑assets, and break‑fee sweeps cannot be determined from the public release.",
+        "attributions": [
+          {
+            "id": "att-eea4fdd7-af7e-45b6-bf59-1b4a8d22d674",
+            "target_type": "assumption",
+            "target_id": "R01-A03",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": null,
+            "rationale": "The event states negative cash flow in Q1‑Q2 2024 and only modest positive flow later, indicating early‑year pressure that weakens the assumption of sufficient operating cash flow for the next 12 months.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-02-26",
+                "locator": "P0026",
+                "quote": "iRobot anticipates a significant improvement in cash outflow from operations in fiscal 2024 compared with the reported cash outflow from operations of ($114.8) million for full year 2023. Excluding the net proceeds from the $94 million break-up fee from Amazon, iRobot expects negative cash flow from operations in Q1 and Q2 and anticipates generating modest positive cash flow from operations in both Q3 and Q4 during fiscal 2024.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "review_assumption",
+            "proposed_adjustment": "",
+            "path": [],
+            "target_title": "Adequate Operating Cash Flow",
+            "verified": true,
+            "target_version": "1.0",
+            "baseline_status": "reconstructed_public"
+          }
+        ],
+        "coverage": [
+          {
+            "assumption_id": "R01-A03",
+            "target_title": "Adequate Operating Cash Flow",
+            "status": "addressed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [],
+        "warnings": [
+          "Covenant assessment 'C01' withheld: invalid clause, status or citation.",
+          "Covenant assessment 'C02' withheld: invalid clause, status or citation.",
+          "Covenant assessment 'C03' withheld: invalid clause, status or citation.",
+          "Covenant assessment 'C04' withheld: invalid clause, status or citation.",
+          "Covenant assessment 'C05' withheld: invalid clause, status or citation."
+        ],
+        "error": null,
+        "decisions": {},
+        "raw_response": {
+          "summary": "The February 26, 2024 press release shows iRobot expects negative operating cash flow in Q1‑Q2 2024 and modest positive flow in Q3‑Q4, indicating early‑year cash‑flow pressure that weakens the assumption of sufficient operating cash flow for the next 12 months. No direct evidence of covenant breaches is available; compliance with reporting, core‑assets, and break‑fee sweeps cannot be determined from the public release.",
+          "attributions": [
+            {
+              "target_type": "assumption",
+              "target_id": "R01-A03",
+              "relation_type": "direct_assumption_evidence",
+              "risk_direction": "adverse",
+              "proposed_status": null,
+              "rationale": "The event states negative cash flow in Q1‑Q2 2024 and only modest positive flow later, indicating early‑year pressure that weakens the assumption of sufficient operating cash flow for the next 12 months.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-02-26",
+                  "locator": "P0026",
+                  "quote": "iRobot anticipates a significant improvement in cash outflow from operations in fiscal 2024 compared with the reported cash outflow from operations of ($114.8) million for full year 2023. Excluding the net proceeds from the $94 million break-up fee from Amazon, iRobot expects negative cash flow from operations in Q1 and Q2 and anticipates generating modest positive cash flow from operations in both Q3 and Q4 during fiscal 2024."
+                }
+              ],
+              "counterevidence": [],
+              "missing_information": [],
+              "suggested_action": "review_assumption",
+              "proposed_adjustment": "",
+              "path": []
+            }
+          ],
+          "candidates": [],
+          "covenant_assessments": [
+            {
+              "clause_id": "C01",
+              "status": "insufficient_evidence",
+              "rationale": "The press release does not contain the monthly Compliance Certificate or Consolidated Core Assets calculation required by Section 6.02(a); therefore compliance with the Minimum Core Assets Test cannot be assessed from this evidence.",
+              "evidence": []
+            },
+            {
+              "clause_id": "C02",
+              "status": "insufficient_evidence",
+              "rationale": "The release provides only summary financial highlights, not the audited annual or quarterly statements with auditor’s going‑concern opinion required by Section 6.01; thus we cannot determine whether the reporting covenant is satisfied.",
+              "evidence": []
+            },
+            {
+              "clause_id": "C03",
+              "status": "insufficient_evidence",
+              "rationale": "No monthly financial deliverables or Compliance Certificate are shown in the release, so the obligation under Section 6.02(a) remains unevaluated.",
+              "evidence": []
+            },
+            {
+              "clause_id": "C04",
+              "status": "insufficient_evidence",
+              "rationale": "While the release notes the $94 million Amazon break‑up fee, it does not show how the fee was applied under the sweep provisions of Section 2.05(b)(iv); consequently the prepayment duty cannot be confirmed or denied.",
+              "evidence": []
+            },
+            {
+              "clause_id": "C05",
+              "status": "insufficient_evidence",
+              "rationale": "The release contains no notice of default or event of default, and no indication that such a notice was required or missed; thus the notice obligation under Section 6.03(a) is not assessable.",
+              "evidence": []
+            }
+          ]
+        }
+      },
+      "decision": {
+        "action": "pending"
+      }
+    },
+    {
+      "id": "R01-D04",
+      "title": "First-quarter 2024 results",
+      "event_date": "2024-05-07",
+      "available_at": "2024-05-07",
+      "review_date": "2024-05-07",
+      "sources": [
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0013",
+          "text": "Gary Cohen, Former Gillette, Timex and Energizer Executive, Named as Company’s New CEO"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0015",
+          "text": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0018",
+          "text": "•GAAP net income per share was $0.30 compared with GAAP net loss per share of ($2.95) in Q1 of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0019",
+          "text": "•Non-GAAP net loss per share was ($1.53) compared with non-GAAP net loss per share of ($1.67) in Q1 of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0020",
+          "text": "•Positive cash flow from operations of $1.4 million benefited from one-time net proceeds of $75 million from transaction termination fee paid to the Company by Amazon.com."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0022",
+          "text": "•Named Gary Cohen, former Gillette, Timex and Energizer executive, as iRobot’s new CEO."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0023",
+          "text": "•Launched Roomba Combo Essential robot and Roomba Vac Essential robot as first products to benefit from iRobot’s new product development paradigm with its contract manufacturers."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0024",
+          "text": "•Substantially completed previously announced reduction-in-force initiative, decreasing Company’s total workforce by 30%."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0025",
+          "text": "“We exceeded our financial expectations for the first quarter as our team executed on our restructuring plan to significantly improve iRobot’s near-term operations,” said Glen Weinstein, who served as iRobot's interim CEO until Mr. Cohen’s appointment. “Our plan is designed to stabilize the business in the current market environment without sacrificing longer-term growth initiatives. In the first quarter, we took aggressive actions to simplify our cost structure, implement a more sustainable business model and focus on our core value drivers."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0026",
+          "text": "“With the appointment of Gary Cohen as our new CEO, the board and management team are all the more confident in iRobot’s ability to build on its legacy of innovation. The Company is fortunate to have an incredible team of builders and innovators who are passionate about the robots we create, with customers who truly value our products.”"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0028",
+          "text": "As announced in a separate press release today, the Company has named Gary Cohen as its new chief executive officer. Mr. Cohen previously served as the CEO of Qualitor Automotive and Timex, and held senior leadership roles at Gillette and Energizer, among other companies. In all, he has more than 25 years of executive leadership experience and a track record of managing successful corporate turnarounds. He will lead the Company’s transformational strategy, overseeing all aspects of the Company’s business, including innovation, product and commercial strategies, operational excellence and talent, and will work across the organization to build a sustainable competitive advantage and consumer-centric brand."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0030",
+          "text": "As announced on January 29, 2024, iRobot has initiated an operational restructuring plan to align its cost structure with near-term revenue expectations and drive bottom-line improvement. The plan includes implementing margin-improvement initiatives, reducing R&D expenses by relocating certain non-core engineering functions, pausing work unrelated to the Company’s core floorcare business, centralizing global marketing activities, and streamlining the Company’s legal entity and real estate footprint to fit its current business needs and near-term revenue expectations."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0031",
+          "text": "In the first quarter, the Company reduced its workforce by approximately 330 employees, representing 30 percent of the Company’s total workforce as of December 30, 2023, resulting in a significant decrease in operating expenses. The Company’s first quarter 2024 GAAP results include a $14 million charge related to the restructuring plan, primarily for severance and related costs. The Company expects an additional restructuring charge of approximately $9 million across the remainder of 2024."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0032",
+          "text": "Also in the first quarter, iRobot launched the Roomba Combo Essential and Roomba Vac Essential robots, the first products to benefit from the new product development paradigm with the Company’s contract manufacturers, taking advantage of their mature supply chains, expertise in design-for-manufacturing, and flexibility in component selection, to reduce the cost of goods sold."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0034",
+          "text": "•Geographically in the first quarter of 2024, revenue declined 3% in EMEA, 16% in Japan and 4% in the U.S. over the prior year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 6% over the prior year period."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0035",
+          "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the first quarter of 2024 versus 88% from the same period last year, reflecting the introduction of the Roomba Combo Essential, providing the iRobot 2-in-1 cleaning experience at a lower price point."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0036",
+          "text": "•iRobot introduced the Roomba Combo Essential robot, an affordable ($275) and easy-to-use 2-in-1 robot vacuum and mop that delivers the same cleaning essentials of the best-selling Roomba 600 Series, but with better performance and a larger feature set. The Company also introduced the Roomba Vac Essential robot, which offers the same intelligence and features as the Roomba Combo Essential but in a vacuum-only package."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0037",
+          "text": "•iRobot Roomba robots held the top five spots for robotic vacuums in Consumer Reports."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0038",
+          "text": "•iRobot’s product lineup received numerous positive reviews and international media coverage, including in PCMag, Reviewed, ZDNet, Engadget, BGR, Tom’s Guide, CNN Underscored, U.S. News & World Report, TechHive, Frandroid, La Vanguardia and Europa Press."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0039",
+          "text": "•The Roomba Combo j9+ was named a Better Homes & Gardens Clean House Award winner in the category of ‘Best Wet-Dry Robot Vacuum.’"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0041",
+          "text": "iRobot is providing GAAP and non-GAAP financial expectations for the second quarter ending June 29, 2024. Given persistent weakness in the Japanese yen and the timing of new product introductions, the Company is updating the full-year outlook it provided on February 27, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0045",
+          "text": "| Revenue | $167 - $172 million | | — | | $167 - $172 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0049",
+          "text": "•Q2 revenue is expected to be the weakest quarter of 2024 when compared to the prior year as the Company expects a shifting of a large order from Q2 last year to Q3 this year."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0050",
+          "text": "•Q2 revenue is expected to be impacted by unfavorable currency due to continued weakness of the Japanese yen against the U.S. dollar."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0054",
+          "text": "| Revenue | $815 - $860 million | | — | | $815 - $860 million"
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0058",
+          "text": "•The Company revised its full-year 2024 expectations regarding revenue and gross margin due to an unfavorable currency impact of the Japanese yen and timing of new product introductions."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0059",
+          "text": "•For the second half of the year, the Company anticipates a mid-single-digit percentage improvement in revenue compared with the second half of 2023."
+        },
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "locator": "P0060",
+          "text": "•iRobot anticipates that the majority of the anticipated gross margin improvement will occur in the second half of the year as the Company progresses with a number of key initiatives."
+        }
+      ],
+      "source_kind": "public_filing",
+      "presentation_summary": "Restructuring progress and early-2024 operating results.",
+      "provenance": [
+        {
+          "document_id": "IRBT-PR-2024-05-07",
+          "url": "https://www.sec.gov/Archives/edgar/data/1159167/000115916724000034/ex991q12024pressrelease.htm",
+          "sec_accepted_at": "2024-05-07T16:21:36.000Z",
+          "sha256": "c39f55f7a58e5f2425808262dea31c9aa8acf01c7d3f5df82e6b40158083bd4c"
+        }
+      ],
+      "package_version": "1.0",
+      "status": "completed",
+      "analysis": {
+        "id": "R01-D04",
+        "event": {
+          "id": "R01-D04",
+          "title": "First-quarter 2024 results",
+          "event_date": "2024-05-07",
+          "available_at": "2024-05-07",
+          "review_date": "2024-05-07",
+          "sources": [
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0013",
+              "text": "Gary Cohen, Former Gillette, Timex and Energizer Executive, Named as Company’s New CEO"
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0015",
+              "text": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0018",
+              "text": "•GAAP net income per share was $0.30 compared with GAAP net loss per share of ($2.95) in Q1 of 2023."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0019",
+              "text": "•Non-GAAP net loss per share was ($1.53) compared with non-GAAP net loss per share of ($1.67) in Q1 of 2023."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0020",
+              "text": "•Positive cash flow from operations of $1.4 million benefited from one-time net proceeds of $75 million from transaction termination fee paid to the Company by Amazon.com."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0022",
+              "text": "•Named Gary Cohen, former Gillette, Timex and Energizer executive, as iRobot’s new CEO."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0023",
+              "text": "•Launched Roomba Combo Essential robot and Roomba Vac Essential robot as first products to benefit from iRobot’s new product development paradigm with its contract manufacturers."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0024",
+              "text": "•Substantially completed previously announced reduction-in-force initiative, decreasing Company’s total workforce by 30%."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0025",
+              "text": "“We exceeded our financial expectations for the first quarter as our team executed on our restructuring plan to significantly improve iRobot’s near-term operations,” said Glen Weinstein, who served as iRobot's interim CEO until Mr. Cohen’s appointment. “Our plan is designed to stabilize the business in the current market environment without sacrificing longer-term growth initiatives. In the first quarter, we took aggressive actions to simplify our cost structure, implement a more sustainable business model and focus on our core value drivers."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0026",
+              "text": "“With the appointment of Gary Cohen as our new CEO, the board and management team are all the more confident in iRobot’s ability to build on its legacy of innovation. The Company is fortunate to have an incredible team of builders and innovators who are passionate about the robots we create, with customers who truly value our products.”"
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0028",
+              "text": "As announced in a separate press release today, the Company has named Gary Cohen as its new chief executive officer. Mr. Cohen previously served as the CEO of Qualitor Automotive and Timex, and held senior leadership roles at Gillette and Energizer, among other companies. In all, he has more than 25 years of executive leadership experience and a track record of managing successful corporate turnarounds. He will lead the Company’s transformational strategy, overseeing all aspects of the Company’s business, including innovation, product and commercial strategies, operational excellence and talent, and will work across the organization to build a sustainable competitive advantage and consumer-centric brand."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0030",
+              "text": "As announced on January 29, 2024, iRobot has initiated an operational restructuring plan to align its cost structure with near-term revenue expectations and drive bottom-line improvement. The plan includes implementing margin-improvement initiatives, reducing R&D expenses by relocating certain non-core engineering functions, pausing work unrelated to the Company’s core floorcare business, centralizing global marketing activities, and streamlining the Company’s legal entity and real estate footprint to fit its current business needs and near-term revenue expectations."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0031",
+              "text": "In the first quarter, the Company reduced its workforce by approximately 330 employees, representing 30 percent of the Company’s total workforce as of December 30, 2023, resulting in a significant decrease in operating expenses. The Company’s first quarter 2024 GAAP results include a $14 million charge related to the restructuring plan, primarily for severance and related costs. The Company expects an additional restructuring charge of approximately $9 million across the remainder of 2024."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0032",
+              "text": "Also in the first quarter, iRobot launched the Roomba Combo Essential and Roomba Vac Essential robots, the first products to benefit from the new product development paradigm with the Company’s contract manufacturers, taking advantage of their mature supply chains, expertise in design-for-manufacturing, and flexibility in component selection, to reduce the cost of goods sold."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0034",
+              "text": "•Geographically in the first quarter of 2024, revenue declined 3% in EMEA, 16% in Japan and 4% in the U.S. over the prior year period. Excluding the unfavorable foreign currency impact, Japan revenue decreased 6% over the prior year period."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0035",
+              "text": "•Revenue from mid-tier robots (with an MSRP between $300 and $499) and premium robots (with an MSRP of $500 or more) represented 81% of total robot sales in the first quarter of 2024 versus 88% from the same period last year, reflecting the introduction of the Roomba Combo Essential, providing the iRobot 2-in-1 cleaning experience at a lower price point."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0036",
+              "text": "•iRobot introduced the Roomba Combo Essential robot, an affordable ($275) and easy-to-use 2-in-1 robot vacuum and mop that delivers the same cleaning essentials of the best-selling Roomba 600 Series, but with better performance and a larger feature set. The Company also introduced the Roomba Vac Essential robot, which offers the same intelligence and features as the Roomba Combo Essential but in a vacuum-only package."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0037",
+              "text": "•iRobot Roomba robots held the top five spots for robotic vacuums in Consumer Reports."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0038",
+              "text": "•iRobot’s product lineup received numerous positive reviews and international media coverage, including in PCMag, Reviewed, ZDNet, Engadget, BGR, Tom’s Guide, CNN Underscored, U.S. News & World Report, TechHive, Frandroid, La Vanguardia and Europa Press."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0039",
+              "text": "•The Roomba Combo j9+ was named a Better Homes & Gardens Clean House Award winner in the category of ‘Best Wet-Dry Robot Vacuum.’"
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0041",
+              "text": "iRobot is providing GAAP and non-GAAP financial expectations for the second quarter ending June 29, 2024. Given persistent weakness in the Japanese yen and the timing of new product introductions, the Company is updating the full-year outlook it provided on February 27, 2024. A detailed reconciliation between the Company’s GAAP and non-GAAP expectations is included in the financial tables that appear at the end of this press release."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0045",
+              "text": "| Revenue | $167 - $172 million | | — | | $167 - $172 million"
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0049",
+              "text": "•Q2 revenue is expected to be the weakest quarter of 2024 when compared to the prior year as the Company expects a shifting of a large order from Q2 last year to Q3 this year."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0050",
+              "text": "•Q2 revenue is expected to be impacted by unfavorable currency due to continued weakness of the Japanese yen against the U.S. dollar."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0054",
+              "text": "| Revenue | $815 - $860 million | | — | | $815 - $860 million"
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0058",
+              "text": "•The Company revised its full-year 2024 expectations regarding revenue and gross margin due to an unfavorable currency impact of the Japanese yen and timing of new product introductions."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0059",
+              "text": "•For the second half of the year, the Company anticipates a mid-single-digit percentage improvement in revenue compared with the second half of 2023."
+            },
+            {
+              "document_id": "IRBT-PR-2024-05-07",
+              "locator": "P0060",
+              "text": "•iRobot anticipates that the majority of the anticipated gross margin improvement will occur in the second half of the year as the Company progresses with a number of key initiatives."
+            }
+          ]
+        },
+        "borrower_id": "R01",
+        "package_version": "1.0",
+        "engine": "nemotron",
+        "model": "nvidia/nemotron-3-super-120b-a12b",
+        "generated_at": "2026-09-20T00:29:34.088369+00:00",
+        "model_options": {
+          "enable_thinking": true,
+          "max_tokens": 10000,
+          "response_format": "json_object"
+        },
+        "summary": "The Q1 2024 press release shows $1.4 million operating cash flow, driven by a $75 million Amazon termination fee, indicating underlying cash generation may be insufficient to support the 12‑month operating cash flow assumption. No direct evidence of covenant compliance is available, so financial reporting, core assets, monthly certificates, break‑fee sweep and default notice obligations remain unassessed.",
+        "attributions": [
+          {
+            "id": "att-0eb21270-4857-467a-b454-320549a9200a",
+            "target_type": "assumption",
+            "target_id": "R01-A03",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "weakened",
+            "rationale": "The press release reports positive operating cash flow of $1.4 million, but notes it benefited from a one‑time $75 million Amazon termination fee, implying core operating cash flow may be inadequate to meet working‑capital and debt service needs for the next 12 months.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-05-07",
+                "locator": "P0020",
+                "quote": "•Positive cash flow from operations of $1.4 million benefited from one-time net proceeds of $75 million from transaction termination fee paid to the Company by Amazon.com.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "review_assumption",
+            "proposed_adjustment": "",
+            "path": [],
+            "target_title": "Adequate Operating Cash Flow",
+            "verified": true,
+            "target_version": "1.0",
+            "baseline_status": "reconstructed_public"
+          }
+        ],
+        "coverage": [
+          {
+            "assumption_id": "R01-A03",
+            "target_title": "Adequate Operating Cash Flow",
+            "status": "addressed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C01",
+            "status": "insufficient_evidence",
+            "rationale": "The event does not provide the required core assets calculation or compliance certificate needed to assess the Minimum Core Assets Test.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-05-07",
+                "locator": "P0015",
+                "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          },
+          {
+            "clause_id": "C02",
+            "status": "insufficient_evidence",
+            "rationale": "The event does not include the annual or quarterly financial statements or auditor’s report needed to evaluate the going‑concern condition and financial‑statement delivery requirements.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-05-07",
+                "locator": "P0015",
+                "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          },
+          {
+            "clause_id": "C03",
+            "status": "insufficient_evidence",
+            "rationale": "The event does not contain a monthly Compliance Certificate or Consolidated Core Assets calculation required under Section 6.02(a).",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-05-07",
+                "locator": "P0015",
+                "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          },
+          {
+            "clause_id": "C04",
+            "status": "insufficient_evidence",
+            "rationale": "The event mentions the Amazon termination fee but does not show how the Break Fee was applied (e.g., prepayment of Term Loans) as required by the Amazon Break Fee sweep.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-05-07",
+                "locator": "P0015",
+                "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          },
+          {
+            "clause_id": "C05",
+            "status": "insufficient_evidence",
+            "rationale": "The event does not contain any notice of Default or Event of Default, so compliance with the notice obligation cannot be assessed.",
+            "evidence": [
+              {
+                "document_id": "IRBT-PR-2024-05-07",
+                "locator": "P0015",
+                "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          }
+        ],
+        "warnings": [],
+        "error": null,
+        "decisions": {},
+        "raw_response": {
+          "summary": "The Q1 2024 press release shows $1.4 million operating cash flow, driven by a $75 million Amazon termination fee, indicating underlying cash generation may be insufficient to support the 12‑month operating cash flow assumption. No direct evidence of covenant compliance is available, so financial reporting, core assets, monthly certificates, break‑fee sweep and default notice obligations remain unassessed.",
+          "attributions": [
+            {
+              "target_type": "assumption",
+              "target_id": "R01-A03",
+              "relation_type": "direct_assumption_evidence",
+              "risk_direction": "adverse",
+              "proposed_status": "weakened",
+              "rationale": "The press release reports positive operating cash flow of $1.4 million, but notes it benefited from a one‑time $75 million Amazon termination fee, implying core operating cash flow may be inadequate to meet working‑capital and debt service needs for the next 12 months.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-05-07",
+                  "locator": "P0020",
+                  "quote": "•Positive cash flow from operations of $1.4 million benefited from one-time net proceeds of $75 million from transaction termination fee paid to the Company by Amazon.com."
+                }
+              ],
+              "counterevidence": [],
+              "missing_information": [],
+              "suggested_action": "review_assumption",
+              "proposed_adjustment": "",
+              "path": []
+            }
+          ],
+          "candidates": [],
+          "covenant_assessments": [
+            {
+              "clause_id": "C01",
+              "status": "insufficient_evidence",
+              "rationale": "The event does not provide the required core assets calculation or compliance certificate needed to assess the Minimum Core Assets Test.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-05-07",
+                  "locator": "P0015",
+                  "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+                }
+              ]
+            },
+            {
+              "clause_id": "C02",
+              "status": "insufficient_evidence",
+              "rationale": "The event does not include the annual or quarterly financial statements or auditor’s report needed to evaluate the going‑concern condition and financial‑statement delivery requirements.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-05-07",
+                  "locator": "P0015",
+                  "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+                }
+              ]
+            },
+            {
+              "clause_id": "C03",
+              "status": "insufficient_evidence",
+              "rationale": "The event does not contain a monthly Compliance Certificate or Consolidated Core Assets calculation required under Section 6.02(a).",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-05-07",
+                  "locator": "P0015",
+                  "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+                }
+              ]
+            },
+            {
+              "clause_id": "C04",
+              "status": "insufficient_evidence",
+              "rationale": "The event mentions the Amazon termination fee but does not show how the Break Fee was applied (e.g., prepayment of Term Loans) as required by the Amazon Break Fee sweep.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-05-07",
+                  "locator": "P0015",
+                  "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+                }
+              ]
+            },
+            {
+              "clause_id": "C05",
+              "status": "insufficient_evidence",
+              "rationale": "The event does not contain any notice of Default or Event of Default, so compliance with the notice obligation cannot be assessed.",
+              "evidence": [
+                {
+                  "document_id": "IRBT-PR-2024-05-07",
+                  "locator": "P0015",
+                  "quote": "BEDFORD, Mass. - iRobot Corp. (NASDAQ: IRBT), a leader in consumer robots, today announced its financial results for the first quarter ended March 30, 2024."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision": {
+        "action": "pending"
+      }
+    }
+  ],
+  "pending_proposal": null,
+  "presentation": {
+    "as_of": "2025-06-06"
+  },
+  "raw_profile_response": {
+    "summary": "The reconstruction assumes the borrower will maintain sufficient core assets, receive break‑fee payments, generate adequate operating cash flow, refrain from extra indebtedness, meet reporting obligations, and avoid events of default—conditions that underpin the credit agreement’s financial covenants, break‑fee sweeps, and reporting protections.",
+    "assumptions": [
+      {
+        "id": "R01-A01",
+        "title": "Core Assets Covenant Compliance",
+        "claim": "Consolidated Core Assets will remain at or above the Minimum Core Assets Test threshold (initially $250 M) to avoid covenant breach.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C01",
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 7.07",
+            "quote": "Permit the Consolidated Core Assets of the Borrower and its Subsidiaries, tested on the last day of each fiscal month ... to be less than $250,000,000"
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.02(a)",
+            "quote": "a Compliance Certificate signed by the Chief Financial Officer ... showing in reasonable detail the calculation of the Consolidated Core Assets and a certification of Borrower’s compliance or failure to comply with the Minimum Core Assets Test."
+          }
+        ]
+      },
+      {
+        "id": "R01-A02",
+        "title": "Break‑Fee Receipt Trigger",
+        "claim": "At least $24 M of the Amazon Break Fee (or termination fee) will be received, allowing a reduction of the Minimum Core Assets Test amount per Schedule 7.07.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C04",
+          "C01"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 2.05(b)(iv)",
+            "quote": "(A) $35,000,000 (or such lesser total amount of the Amazon Break Fee paid to, and received by, the Borrower or any of its Subsidiaries in cash as of such time) to prepay outstanding Term Loans"
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 7.07",
+            "quote": "provided, that the Minimum Core Assets Test amount shall be reduced to: ... following the receipt (or deemed receipt) of any prepayment, payment or repayment ... in an aggregate amount of at least $24,000,000"
+          }
+        ]
+      },
+      {
+        "id": "R01-A03",
+        "title": "Adequate Operating Cash Flow",
+        "claim": "The Company will generate sufficient operating cash flow to meet working capital needs and service debt for at least 12 months.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0366",
+            "quote": "Management has considered and assessed its ability to continue as a going concern for the one year from the date that the unaudited consolidated financial statements are issued."
+          },
+          {
+            "document_id": "IRBT-10Q-2023Q1",
+            "locator": "P0369",
+            "quote": "While management estimates such actions will be sufficient to allow it to maintain liquidity and its operations in the ordinary course for at least 12 months from the issuance of these financial statements"
+          }
+        ]
+      },
+      {
+        "id": "R01-A04",
+        "title": "No Additional Indebtedness Beyond Limits",
+        "claim": "The Company will not incur additional indebtedness beyond the limits set by the negative covenants.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "customary negative covenants that limit the Company’s and its subsidiaries’ ability to, among other things, grant or incur liens, incur additional indebtedness, make certain restricted investments or payments..."
+          }
+        ]
+      },
+      {
+        "id": "R01-A05",
+        "title": "Timely Reporting and Certification",
+        "claim": "The Company will deliver required financial statements and compliance certificates on schedule as required by Sections 6.01 and 6.02(a).",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C02",
+          "C03"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "Annual Financial Statements. On or before the date on which such financial statements are required to be filed with the SEC ... a consolidated balance sheet ... setting forth in each case, in unaudited comparative form the figures for the previous fiscal year..."
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.02(a)",
+            "quote": "a Compliance Certificate signed by the Chief Financial Officer or other Responsible Officer of the Borrower showing in reasonable detail the calculation of the Consolidated Core Assets and a certification of Borrower’s compliance or failure to comply with the Minimum Core Assets Test."
+          }
+        ]
+      },
+      {
+        "id": "R01-A06",
+        "title": "Avoidance of Events of Default",
+        "claim": "The Company will avoid events of default such as payment failure, covenant breach, bankruptcy, judgment, or change of control.",
+        "basis": "inferred",
+        "source_assumption_id": null,
+        "covenant_ids": [
+          "C05",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.03(a)",
+            "quote": "Promptly, after a Responsible Officer of the Borrower or any Guarantor has obtained knowledge thereof, notify the Administrative Agent: (a) of the occurrence of any Default or Event of Default"
+          },
+          {
+            "document_id": "IRBT-CA-ORIGINAL",
+            "locator": "Section 6.01",
+            "quote": "The Credit Agreement also contains customary events of default (subject to certain exceptions, thresholds and grace periods), such as the failure to pay obligations when due, breach of certain covenants, including the financial covenant, cross-default or cross-acceleration of certain indebtedness, bankruptcy-related defaults, judgment defaults, and the occurrence of certain change of control events involving the Company."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "R01-A03",
+        "target": "R01-A01",
+        "type": "influences",
+        "rationale": "Operating cash flow contributes to cash, receivables and inventory, which are components of Consolidated Core Assets; sufficient cash flow helps maintain the assets above the covenant threshold."
+      },
+      {
+        "source": "R01-A02",
+        "target": "R01-A01",
+        "type": "influences",
+        "rationale": "Receipt of at least $24 M of break‑fee reduces the Minimum Core Assets Test amount per Schedule 7.07, making it easier for the borrower to satisfy the core‑assets covenant."
+      },
+      {
+        "source": "R01-A04",
+        "target": "R01-A03",
+        "type": "influences",
+        "rationale": "Limiting additional indebtedness preserves cash flow and borrowing capacity, supporting the borrower’s ability to generate sufficient operating cash flow for liquidity."
+      },
+      {
+        "source": "R01-A05",
+        "target": "R01-A06",
+        "type": "influences",
+        "rationale": "Timely delivery of financial statements and compliance certificates enables early detection of covenant breaches, allowing cure before an event of default occurs."
+      },
+      {
+        "source": "R01-A06",
+        "target": "R01-A01",
+        "type": "influences",
+        "rationale": "An event of default would trigger acceleration of the Term Loan, impairing the borrower’s ability to maintain Consolidated Core Assets above the required level."
+      }
+    ]
+  },
+  "synthetic": false,
+  "complete": false,
+  "failed_attempts": [],
+  "analysis_model": "nvidia/nemotron-3-super-120b-a12b",
+  "analysis_model_options": {
+    "enable_thinking": true,
+    "max_tokens": 10000,
+    "response_format": "json_object"
+  }
+}

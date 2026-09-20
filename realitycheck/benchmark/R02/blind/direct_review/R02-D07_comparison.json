@@ -1,0 +1,40 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2024-08-08",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R02-D01",
+    "R02-D02",
+    "R02-D03",
+    "R02-D04",
+    "R02-D05",
+    "R02-D06",
+    "R02-D07"
+  ],
+  "assessments_supplied": false,
+  "control_judgment": "no_material_drift",
+  "updated_judgment": "insufficient_evidence",
+  "evidence_attributable_changes": [],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "Based on evidence through August 2024, the borrower’s liquidity remains well above the current $25 million minimum, with the lowest observed liquidity of $73.6 million. No evidence suggests changes to leverage or reporting covenants. Therefore, the liquidity covenant (C03) is proposed to be loosened, while all other covenants are retained.",
+  "updated_reasons": "The proposed loosening of the liquidity covenant threshold constitutes a material change in risk coverage, as it adjusts a covenant threshold based on evidence of consistently strong liquidity.",
+  "warnings": [
+    "Proposed modify on 'C03' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

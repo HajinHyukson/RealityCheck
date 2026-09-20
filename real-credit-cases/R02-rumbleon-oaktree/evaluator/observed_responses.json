@@ -1,0 +1,108 @@
+{
+  "warning": "Evaluator collection. Never supply this file, or anything derived from it, to an inference run.",
+  "borrower_id": "R02",
+  "observed_responses": [
+    {
+      "id": "R02-AM05",
+      "version": "1.1",
+      "parent_version": "1.0",
+      "trigger_event_id": "R02-D03",
+      "title": "Amendment No. 5: leverage tests suspended and relaxed; equity raise and asset sales required",
+      "status": "observed_historical_response",
+      "decision_at": "2023-08-09",
+      "effective_at": "2023-08-09",
+      "publicly_available_at": "2023-08-09T21:22:28.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [
+        {
+          "clause_id": "C01",
+          "before": "Section 7.10 Financial Covenants.\n\n(a) Permit the Consolidated Total Net Leverage Ratio for any Test Period to be greater than 4.25 to 1.00 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date.",
+          "after": "Section 7.10 Financial Covenants.\n\n(a)\n\n(i) Permit the Consolidated Total Net Leverage Ratio for any Test Period ending either (x) on or before March 31, 2023 or (y) on or after September 30, 2024 to be\n\ngreater than 4.25 to 1.00 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date;\n\n(ii) For the Test Period ending on December 31, 2023, permit the Consolidated Total Net Leverage Ratio to be greater than 5.50 to 1.00;\n\n(iii) For the Test Period ending on March 31, 2024, permit the Consolidated Total Net Leverage Ratio to be greater than 5.00 to 1.00;\n\n(iv) For the Test Period ending on June 30, 2024, permit the Consolidated Total Net Leverage Ratio to be greater than 4.75 to 1.00;\n\nNotwithstanding anything to the contrary set forth in this Section 7.10(a), and for the avoidance of doubt, for the Test Periods ending June 30, 2023 and September 30, 2023, the financial covenant set forth in this Section 7.10(a) shall not be tested and shall not be applicable for such Test Periods; and, for the avoidance of doubt, no Default or Event of Default exists or shall exist as a result of any non-compliance with this Section 7.10(a) for the Test Period ending June 30, 2023.",
+          "source": {
+            "document_id": "RMBL-CA-AMENDMENT-5",
+            "locators": [
+              "P2862",
+              "P2870"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000018/rmblexhibit108good.htm"
+          }
+        },
+        {
+          "clause_id": "C02",
+          "before": "(b) Permit the Consolidated Senior Secured Net Leverage Ratio for any Test Period to be greater than 3.75 to 1.00 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date.",
+          "after": "(b)\n\n(i) Permit the Consolidated Senior Secured Net Leverage Ratio for any Test Period ending either (x) on or before March 31, 2023 or (y) on or after September 30, 2024 to be greater than 3.75 to 1.00 commencing with the Test Period ending on the last day of the first full fiscal quarter following the Closing Date;\n\n(ii) For the Test Period ending on December 31, 2023, permit the Consolidated Senior Secured Net Leverage Ratio to be greater than 5.50 to 1.00;\n\n(iii) For the Test Period ending on March 31, 2024, permit the Consolidated Senior Secured Net Leverage Ratio to be greater than 5.00 to 1.00;\n\n(iv) For the Test Period ending on June 30, 2024, permit the Consolidated Senior Secured Net Leverage Ratio to be greater than 4.25 to 1.00;\n\nNotwithstanding anything to the contrary set forth in this Section 7.10(b), and for the avoidance of doubt, for the Test Periods ending June 30, 2023 and September 30, 2023, the financial covenant set forth in this Section 7.10(b) shall not be tested and shall not be applicable for such Test Periods; and, for the avoidance of doubt, no Default or Event of Default exists or shall exist as a result of any non-compliance with this Section 7.10(b) for the Test Period ending June 30, 2023.",
+          "source": {
+            "document_id": "RMBL-CA-AMENDMENT-5",
+            "locators": [
+              "P2871",
+              "P2876"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000018/rmblexhibit108good.htm"
+          }
+        }
+      ],
+      "add_clauses": [
+        {
+          "id": "W05",
+          "title": "Amendment No. 5: leverage tests suspended and relaxed; equity raise and asset sales required (company description)",
+          "section": "Form 10-Q description",
+          "clause": "At June 30, 2023, the Company was not in compliance with certain leverage ratio financial covenants under the Oaktree Credit Agreement. On August 9, 2023 (the \"Amendment No. 5 Effective Date\"), the Company, the Subsidiary Guarantors party thereto, the Administrative Agent, and the Lenders party thereto executed Amendment No. 5 to Term Loan Credit Agreement (the “Amendment No. 5”), pursuant to which, among other things: (i) all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024; (ii) additional performance covenants were added requiring the Company and its subsidiaries to use commercially reasonable best efforts to dispose of certain non-core real estate and monetize its consumer loan portfolios (with corresponding requirements to use such proceeds of such sales to pay down the term loans under the Oaktree Credit Agreement); (iii) an additional performance covenant was added requiring the Company raise net cash proceeds of not less than $100,000 from the issuance of common equity interests in the Company by December 1, 2023 (with a corresponding requirement to use certain of such equity proceeds to pay down the term loans under the Oaktree Credit Agreement), and (iv) an additional performance covenant was added requiring the Company to issue warrants, exercisable for an anticipated aggregate of 1,212,121 shares at an anticipated price of $12 per share, in a form to be agreed upon, to the Lender. In connection with Amendment No. 5, the Company agreed to pay a nominal fee which may be paid in cash or paid-in-kind.\n\nThe elimination of the June 30, 2023 leverage ratio financial covenants was made effective as of June 30, 2023, and the Lenders agreed in Amendment No. 5 that no event of default exists or arises from such leverage ratio financial covenants as of such date.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "RMBL-10Q-2023Q2",
+            "locators": [
+              "P0538",
+              "P0539"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696123000018/rmbl-20230630.htm",
+            "sha256": "63307a93cc93d384952a42e951e511b65f29b4d24278979b95dbf6afea7afdc3"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1596961/000159696123000018/rmblexhibit108good.htm (SEC-filed exhibit; see the missing inputs for why its full text is not extracted). Company description, verbatim from its Form 10-Q:\n\nAt June 30, 2023, the Company was not in compliance with certain leverage ratio financial covenants under the Oaktree Credit Agreement. On August 9, 2023 (the \"Amendment No. 5 Effective Date\"), the Company, the Subsidiary Guarantors party thereto, the Administrative Agent, and the Lenders party thereto executed Amendment No. 5 to Term Loan Credit Agreement (the “Amendment No. 5”), pursuant to which, among other things: (i) all leverage ratio financial covenants under the Oaktree Credit Agreement were (a) eliminated and not tested for the for the quarters ending June 30, 2023 and September 30, 2023 and (b) made less restrictive for the quarters ending December 31, 2023, March 31, 2024, and June 30, 2024; (ii) additional performance covenants were added requiring the Company and its subsidiaries to use commercially reasonable best efforts to dispose of certain non-core real estate and monetize its consumer loan portfolios (with corresponding requirements to use such proceeds of such sales to pay down the term loans under the Oaktree Credit Agreement); (iii) an additional performance covenant was added requiring the Company raise net cash proceeds of not less than $100,000 from the issuance of common equity interests in the Company by December 1, 2023 (with a corresponding requirement to use certain of such equity proceeds to pay down the term loans under the Oaktree Credit Agreement), and (iv) an additional performance covenant was added requiring the Company to issue warrants, exercisable for an anticipated aggregate of 1,212,121 shares at an anticipated price of $12 per share, in a form to be agreed upon, to the Lender. In connection with Amendment No. 5, the Company agreed to pay a nominal fee which may be paid in cash or paid-in-kind.\n\nThe elimination of the June 30, 2023 leverage ratio financial covenants was made effective as of June 30, 2023, and the Lenders agreed in Amendment No. 5 that no event of default exists or arises from such leverage ratio financial covenants as of such date.",
+      "conditions": [],
+      "waiver_scope": "Per Amendment No. 5: leverage covenants not tested for the periods ending June 30 and September 30, 2023, with no default arising from June 30, 2023 noncompliance.",
+      "not_pursued": null
+    },
+    {
+      "id": "R02-AM08",
+      "version": "1.2",
+      "parent_version": "1.1",
+      "trigger_event_id": "R02-D07",
+      "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised",
+      "status": "observed_historical_response",
+      "decision_at": "2024-08-08",
+      "effective_at": "2024-08-06",
+      "publicly_available_at": "2024-08-08T13:52:53.000Z",
+      "rationale": "Observed historical lender response, recorded from the company's SEC filing. It is not an analyst decision, a recommendation of this tool or proof that the response was the right remedy. The lender's reasons are not public.",
+      "changes": [],
+      "add_clauses": [
+        {
+          "id": "W08",
+          "title": "Amendment No. 8: leverage limits revised again; minimum liquidity raised (company description)",
+          "section": "Form 10-Q description",
+          "clause": "At June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date. On August 6, 2024, the Company, the Subsidiary Guarantors party thereto, Oaktree and the lenders party thereto executed Amendment No. 8 to the Credit Agreement (“Amendment No. 8”), pursuant to which, among other things: (i) the leverage ratios were revised and made less restrictive through December 31, 2024, (ii) the level of liquidity required by the minimum liquidity covenant was increased from $25.0 million to $30.0 million starting June 30, 2024 and continuing through the maturity of the term loan, and (iii) a compliance certificate is required to be submitted affirming compliance with the then effective leverage and liquidity tests upon any full or partial cash settlement of the convertible senior 6.75% promissory notes due January 1, 2025.\n\nAmendment No. 8 was made effective as of June 30, 2024, and the lenders agreed in Amendment No. 8 that no event of default exists or arises from such financial covenants as of such date. The Company agreed to pay a one-time fee of 0.5% of the loan amount in cash, and the additional 0.5% of interest was extended through March 31, 2025.",
+          "thesis_ids": [],
+          "source": {
+            "document_id": "RMBL-10Q-2024Q2",
+            "locators": [
+              "P0392",
+              "P0393"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/1596961/000159696124000081/rmbl-20240630.htm",
+            "sha256": "426975f90c90b3b7d74897160aa1b19df01ea97d8167ecfc0df6561bb6478360"
+          }
+        }
+      ],
+      "instrument_text": "Operative amendment text: https://www.sec.gov/Archives/edgar/data/1596961/000159696124000081/oaktree-rumbleonxamendme.htm (SEC-filed exhibit; see the missing inputs for why its full text is not extracted). Company description, verbatim from its Form 10-Q:\n\nAt June 30, 2024, the Company was not in compliance with certain leverage ratio financial covenants under the Credit Agreement as of such date. On August 6, 2024, the Company, the Subsidiary Guarantors party thereto, Oaktree and the lenders party thereto executed Amendment No. 8 to the Credit Agreement (“Amendment No. 8”), pursuant to which, among other things: (i) the leverage ratios were revised and made less restrictive through December 31, 2024, (ii) the level of liquidity required by the minimum liquidity covenant was increased from $25.0 million to $30.0 million starting June 30, 2024 and continuing through the maturity of the term loan, and (iii) a compliance certificate is required to be submitted affirming compliance with the then effective leverage and liquidity tests upon any full or partial cash settlement of the convertible senior 6.75% promissory notes due January 1, 2025.\n\nAmendment No. 8 was made effective as of June 30, 2024, and the lenders agreed in Amendment No. 8 that no event of default exists or arises from such financial covenants as of such date. The Company agreed to pay a one-time fee of 0.5% of the loan amount in cash, and the additional 0.5% of interest was extended through March 31, 2025.",
+      "conditions": [],
+      "waiver_scope": "Per the company's Form 10-Q: made effective as of June 30, 2024, with lenders agreeing no event of default arises from the financial covenants as of that date.",
+      "not_pursued": null
+    }
+  ],
+  "dependence_notes": {
+    "R02-D04": "The sale-leaseback debt repayment reported here was among the asset monetization steps the hidden Amendment No. 5 required. The fact is kept unedited; it reflects an amendment the model cannot see.",
+    "R02-D05": "The $100 million rights offering and debt paydown reported here were required by the hidden Amendment No. 5. Reported leverage, liquidity and debt after August 2023 reflect that amendment and are not outcomes of any RealityCheck proposal.",
+    "R02-D06": "Proceeds from the consumer loan portfolio sale reflect a step the hidden Amendment No. 5 required."
+  }
+}

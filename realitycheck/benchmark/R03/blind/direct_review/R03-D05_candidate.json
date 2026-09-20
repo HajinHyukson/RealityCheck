@@ -1,0 +1,135 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2019-03-11",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:16:57.579337+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05"
+  ],
+  "assessments_supplied": false,
+  "summary": "Evidence through March 2019 shows improved EBITDA, cash liquidity, and stable debt levels within existing baskets, with no signs of covenant breach or deteriorating metrics that would justify tightening or loosening any existing protections.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "While EBITDA and cash rose, insufficient public data to calculate First Lien Net Leverage Ratio; no clear evidence of ratio approaching or breaching the floor."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Annual reporting deadline of 90 days remains appropriate; no evidence of delays or need for change."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly reporting within 45 days continues to be met; no evidence justifying alteration."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Monthly reporting within 45 days for first two months of each quarter shows no issues; retain as is."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice periods of three business days for defaults and material adverse effect remain adequate; no evidence of missed notices."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Indebtedness baskets have not been exceeded; debt levels and facility amendments stay within permitted limits."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Available evidence shows improved financial performance and liquidity, with no indication of covenant breach or need to adjust thresholds, scopes, or protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Evidence through March 2019 shows improved EBITDA, cash liquidity, and stable debt levels within existing baskets, with no signs of covenant breach or deteriorating metrics that would justify tightening or loosening any existing protections.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "rationale": "While EBITDA and cash rose, insufficient public data to calculate First Lien Net Leverage Ratio; no clear evidence of ratio approaching or breaching the floor.",
+        "affected_assumptions": [],
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "rationale": "Annual reporting deadline of 90 days remains appropriate; no evidence of delays or need for change.",
+        "affected_assumptions": [],
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "rationale": "Quarterly reporting within 45 days continues to be met; no evidence justifying alteration.",
+        "affected_assumptions": [],
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "rationale": "Monthly reporting within 45 days for first two months of each quarter shows no issues; retain as is.",
+        "affected_assumptions": [],
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "rationale": "Notice periods of three business days for defaults and material adverse effect remain adequate; no evidence of missed notices.",
+        "affected_assumptions": [],
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "rationale": "Indebtedness baskets have not been exceeded; debt levels and facility amendments stay within permitted limits.",
+        "affected_assumptions": [],
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Available evidence shows improved financial performance and liquidity, with no indication of covenant breach or need to adjust thresholds, scopes, or protections."
+  },
+  "elapsed_seconds": 31.8
+}

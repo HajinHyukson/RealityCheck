@@ -1,0 +1,632 @@
+{
+  "id": "R03-D07",
+  "event": {
+    "id": "R03-D07",
+    "title": "Second-quarter 2019 results",
+    "event_date": "2019-08-07",
+    "available_at": "2019-08-07",
+    "review_date": "2019-08-07",
+    "sources": [
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0005",
+        "text": "Raises Full Year 2019 Outlook for Standalone PetIQ and Provides 2019 Expectations for Perrigo Animal Health Acquisition"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0006",
+        "text": "EAGLE, Idaho – August 7, 2019 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three and six months ended June 30, 2019."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0037",
+        "text": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0050",
+        "text": "Cord Christensen, PetIQ’s Chairman and Chief Executive Officer commented, “We had an exceptional second quarter. Our record net sales reflects broad-based growth across sales channels in both our pet products and veterinarian services segments. PetIQ remains uniquely positioned for continued growth as pet parents increasingly seek our direct access to our complementary veterinarian product and service offerings. We believe our recent acquisition of Perrigo Animal Health further solidifies our leadership position in the industry as we deliver on our mission to make pets’ lives better through improved access to affordable pet health care. Going forward, our combined teams will continue to execute on our Follow the Pets long-term growth strategy. Based on the strength of our year-to-date results and our outlook for the remainder of the year we are very pleased to raise our 2019 annual guidance.”"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0052",
+        "text": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year. Product segment net sales were $194.6 million and Services segment revenues were $26.0 million in the second quarter of 2019. The increase in consolidated net sales reflects growth in existing retail partners, driven by the increase in the number of pet parents moving their pet health care needs to PetIQ’s products and services, the expansion of item counts and programs at existing customers, as well as growth within the Services segment."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0053",
+        "text": "Gross profit was $34.9 million, an increase of 33%, compared to $26.3 million in the same period last year. Gross margin for the quarter was 15.8%. Adjusted gross profit was $36.2 million and adjusted gross margin was 16.5% for the second quarter 2019. The GAAP gross margin to adjusted gross margin difference of 70 basis points is a result of the exclusion of non-same-store Services segment revenue contribution and related costs of sales."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0054",
+        "text": "Net income was $5.9 million and adjusted net income was $15.8 million for the second quarter of 2019. Adjusted net income primarily excludes stock-based compensation expense, tax expense, fair value adjustment to contingent note, integration costs, and operating losses associated with the 32 non-"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0055",
+        "text": "comparable newly opened veterinary wellness centers, one new host partner, and seven regional offices that have been open less than six trailing quarters."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0056",
+        "text": "Second quarter adjusted EBITDA increased 30% to $20.8 million, representing an adjusted EBITDA margin of 9.5%, compared to $16.1 million, representing a 9.4% margin, for the same period in the prior year. The increase in adjusted EBITDA was a result of higher net sales resulting in increased adjusted gross profit and increased leverage of general and administrative expenses."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0057",
+        "text": "Adjusted gross profit, adjusted net income, and adjusted EBITDA are non-GAAP financial measures. The Company believes these non-GAAP financial measures provide investors with additional insight into and measurement of its entry into the veterinary services business following the acquisition of VIP in January 2018. In the Services segment, the Company is providing a “same-store sales” adjustment to reflect revenue and costs for veterinary clinics and regions open for at least six trailing quarters. The Company believes this will provide useful information to investors as these veterinary clinics and wellness centers mature and move into the comparable store base. See “Non-GAAP Measures” for a definition of these measures and the financial tables that accompany this release for a reconciliation to the most comparable GAAP measure."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0083",
+        "text": "Net sales increased 29% to $369.1 million for the first six months of 2019, compared to $286.2 million for the same period in the prior year. Product segment sales were $320.7 million and the Services segment net revenues were $48.4 million for the first six months of 2019."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0084",
+        "text": "Gross profit was $59.6 million, an increase of 41%, as compared to $42.2 million in the same period last year. Gross margin for the first six months of 2019 was 16.2%. Adjusted gross profit was $62.3 million and adjusted gross margin was 16.9% for the six months ended June 30, 2019. The GAAP gross margin to adjusted gross margin difference of 70 basis points was the result of a result of the exclusion of non-same-store Services segment revenue contribution and related costs of sales."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0085",
+        "text": "Net income was $8.2 million and adjusted net income was $21.8 million for the first six months of 2019. Adjusted net income excludes acquisition costs, stock-based compensation expense, tax expense, fair value adjustment to contingent note, integration costs, and operating losses associated with the 32 non-comparable newly opened veterinary wellness centers, one new host partner, and seven regional offices that have been open less than six trailing quarters."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0086",
+        "text": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0087",
+        "text": "Adjusted gross profit, adjusted net income, and adjusted EBITDA are Non-GAAP financial measures. See “Non-GAAP Measures” for a definition of these measures and the financial tables that accompany this release for a reconciliation to the most comparable GAAP measure."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0089",
+        "text": "Products: For the second quarter of 2019, the Product segment net sales increased 31% to $194.6 million and operating income increased 25.2% to $20.2 million. This compares to Product segment sales and"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0090",
+        "text": "operating income of $148.7 million and $16.2 million, respectively, for the second quarter of 2018. Product segment net sales were driven by ongoing strength of the Company’s prescription drug programs within retail partner pharmacies both in-store and online, as well as greater SKU penetration within existing accounts."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0091",
+        "text": "Services: For the second quarter of 2019, the Services segment net revenues and operating income were $26.0 million and $4.4 million, respectively. This compares to Service segment net revenues and operating income of $22.4 million and $2.0 million, respectively, for the second quarter of 2018. Services segment growth was achieved from increases in all substantive metrics including pets per clinic, revenue per pet and revenue per clinic, as well as contribution from new wellness centers."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0092",
+        "text": "In-line with PetIQ’s new veterinarian wellness centers opening plan for 2019, the Company opened 7 locations during the second quarter of 2019 and remains on track to open 80 new wellness centers in 2019. There were a total of 41 veterinarian wellness centers as of June 30, 2019. In preparation for its veterinarian wellness center expansion, the Company opened two new regional offices during the six months ended June 30, 2019 for a total of 36 regional offices at June 30, 2019."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0094",
+        "text": "As of June 30, 2019, the Company had cash and cash equivalents of $36.6 million, plus availability on its revolving credit facility of $69.9 million, equating to $106.4 million, which the Company defines as total liquidity. The Company’s long-term debt balance, which is largely comprised of its revolving credit facility and term loan, was $99.7 million as of June 30, 2019. After giving effect to the Perrigo Animal Health acquisition, the Company would have had estimated net debt of $262 million, as of June 30, 2019. From a working capital perspective, accounts receivable increased $40.1 million compared to December 31, 2018, in line with the Company’s strong sales growth. Inventory increased $6.3 million compared to the prior year end as a result of inventory needed to support the growth in the Company’s business."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0098",
+        "text": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance."
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0099",
+        "text": "On a standalone basis, excluding contribution from its Perrigo Animal Health acquisition, the Company expects the following:"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0105",
+        "text": "Consolidated net sales of at least $650 million, an increase greater than 23% from growth of 98% in 2018"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0111",
+        "text": "Adjusted EBITDA* of at least $56 million, an increase greater than 35% from growth of 86% in 2018"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0112",
+        "text": "The Company expects its Perrigo Animal Health acquisition to contribute the following for the balance of 2019:"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0125",
+        "text": "For full year 2019 based on the combination of PetIQ and Perrigo Animal Health the Company is introducing the following outlook:"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0138",
+        "text": "The Company intends to update its initial full year 2020 outlook, which was provided in connection with the announcement of the Perrigo Animal Health acquisition, at the end of 2019. The Company remains confident in its long-term 2023 growth objectives on a stand-alone basis, including:"
+      },
+      {
+        "document_id": "PETQ-PR-2019-08-07",
+        "locator": "P0157",
+        "text": "*The Company does not provide guidance for the most directly comparable GAAP measure, net income, and similarly cannot provide a reconciliation between its forecasted adjusted EBITDA and net income metrics without unreasonable effort due to the unavailability of reliable estimates for certain items. These items are not within the Company’s control and may vary greatly between periods and could significantly impact future financial results."
+      }
+    ]
+  },
+  "borrower_id": "R03",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:27:55.579203+00:00",
+  "model_options": {
+    "enable_thinking": true,
+    "max_tokens": 16000,
+    "response_format": "json_object"
+  },
+  "summary": "The Q2 2019 results show strong sales growth, increased liquidity and raised outlook, supporting the assumption of no material adverse effect. They do not provide evidence on timely FY2018 financial reporting, VIP acquisition performance, or full‑year 2019 EBITDA needed for the contingent‑note threshold, leaving those assumptions insufficiently evidenced. Consequently, the annual reporting covenant (C02) and leverage covenant (C01) lack sufficient evidence of compliance, while the material‑adverse‑effect notice duty (C05) remains untriggered.",
+  "attributions": [
+    {
+      "id": "att-d93b2db7-adcf-4a5d-9976-36a6526772bf",
+      "target_type": "assumption",
+      "target_id": "R03-A05",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "beneficial",
+      "proposed_status": "supported",
+      "rationale": "Event shows 29% net sales growth, $36.6m cash, $106.4m liquidity and raised 2019 outlook, indicating stable operations and no material adverse effect.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0052",
+          "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year.",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0037",
+          "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0098",
+          "quote": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "No material adverse effect disrupting operations",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-d5b7fabb-d431-4ab6-be3d-c30ef4986c6d",
+      "target_type": "assumption",
+      "target_id": "R03-A07",
+      "relation_type": "direct_assumption_evidence",
+      "risk_direction": "unclear",
+      "proposed_status": "insufficient_evidence",
+      "rationale": "Event provides Q2 and six‑month adjusted EBITDA but does not show full‑year 2019 EBITDA needed to confirm the $50 m threshold for contingent notes.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0056",
+          "quote": "Second quarter adjusted EBITDA increased 30% to $20.8 million, representing an adjusted EBITDA margin of 9.5%, compared to $16.1 million, representing a 9.4% margin, for the same period in the prior year.",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0086",
+          "quote": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [
+        "Full‑year 2019 adjusted EBITDA or consolidated EBITDA"
+      ],
+      "suggested_action": "request_information",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "EBITDA thresholds for contingent notes will be met or manageable",
+      "verified": true,
+      "target_version": "1.0",
+      "baseline_status": "reconstructed_public"
+    },
+    {
+      "id": "att-61bb173e-b567-4234-88cc-85398a4d52d5",
+      "target_type": "covenant",
+      "target_id": "C02",
+      "relation_type": "evidence_gap",
+      "risk_direction": "unclear",
+      "proposed_status": null,
+      "rationale": "Event does not evidence delivery of FY2018 audited financial statements and compliance certificate within 90 days of year‑end (by March 31 2019).",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0052",
+          "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [
+        "FY2018 audited financial statements and compliance certificate"
+      ],
+      "suggested_action": "request_information",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Annual financial statements and Compliance Certificate",
+      "verified": true,
+      "target_version": "1.0",
+      "applicability": "selected"
+    },
+    {
+      "id": "att-7fe5271e-3d19-4335-8801-d817e4e4e299",
+      "target_type": "covenant",
+      "target_id": "C05",
+      "relation_type": "evidence_gap",
+      "risk_direction": "unclear",
+      "proposed_status": null,
+      "rationale": "Event shows strong sales growth, liquidity and raised outlook with no indication of any material adverse effect, so the notice duty under Section 6.05(b) is not activated.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0052",
+          "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year.",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0037",
+          "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0098",
+          "quote": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [],
+      "suggested_action": "monitor",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Notices of default and material adverse effect",
+      "verified": true,
+      "target_version": "1.0",
+      "applicability": "selected"
+    },
+    {
+      "id": "att-b91f615c-fb4b-4256-af06-d9ed46668ed5",
+      "target_type": "covenant",
+      "target_id": "C01",
+      "relation_type": "evidence_gap",
+      "risk_direction": "unclear",
+      "proposed_status": null,
+      "rationale": "Event lacks the inputs needed to compute the First Lien Net Leverage Ratio (total first‑lien indebtedness, unrestricted cash and trailing twelve‑month Consolidated EBITDA).",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0037",
+          "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0086",
+          "quote": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "counterevidence": [],
+      "missing_information": [
+        "Total first‑lien indebtedness, unrestricted cash (capped at $5 m) and Consolidated EBITDA for the twelve‑month period ending June 30 2019"
+      ],
+      "suggested_action": "request_information",
+      "proposed_adjustment": "",
+      "path": [],
+      "target_title": "Financial Covenant: First Lien Net Leverage Ratio by fiscal quarter",
+      "verified": true,
+      "target_version": "1.0",
+      "applicability": "selected"
+    }
+  ],
+  "coverage": [
+    {
+      "assumption_id": "R03-A04",
+      "target_title": "Timely financial reporting and compliance certificates",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R03-A05",
+      "target_title": "No material adverse effect disrupting operations",
+      "status": "addressed"
+    },
+    {
+      "assumption_id": "R03-A06",
+      "target_title": "Successful closing and performance of the VIP acquisition",
+      "status": "unaddressed"
+    },
+    {
+      "assumption_id": "R03-A07",
+      "target_title": "EBITDA thresholds for contingent notes will be met or manageable",
+      "status": "addressed"
+    }
+  ],
+  "candidates": [],
+  "covenant_assessments": [
+    {
+      "clause_id": "C02",
+      "status": "insufficient_evidence",
+      "rationale": "Event does not evidence delivery of FY2018 audited financial statements and compliance certificate within 90 days of year‑end (by March 31 2019).",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0052",
+          "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C05",
+      "status": "not_triggered",
+      "rationale": "Event shows strong sales growth, liquidity and raised outlook with no indication of any material adverse effect, so the notice duty under Section 6.05(b) is not activated.",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0052",
+          "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year.",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0037",
+          "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0098",
+          "quote": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    },
+    {
+      "clause_id": "C01",
+      "status": "insufficient_evidence",
+      "rationale": "Event lacks the inputs needed to compute the First Lien Net Leverage Ratio (total first‑lien indebtedness, unrestricted cash and trailing twelve‑month Consolidated EBITDA).",
+      "evidence": [
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0037",
+          "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million",
+          "verified": true
+        },
+        {
+          "document_id": "PETQ-PR-2019-08-07",
+          "locator": "P0086",
+          "quote": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year.",
+          "verified": true
+        }
+      ],
+      "interpretation": "model",
+      "package_version": "1.0",
+      "already_assessed_in": null
+    }
+  ],
+  "warnings": [
+    "An earlier attempt at a 10000-token budget returned no usable JSON (finish reason: length); this result used 16000 tokens."
+  ],
+  "error": null,
+  "decisions": {},
+  "raw_response": {
+    "summary": "The Q2 2019 results show strong sales growth, increased liquidity and raised outlook, supporting the assumption of no material adverse effect. They do not provide evidence on timely FY2018 financial reporting, VIP acquisition performance, or full‑year 2019 EBITDA needed for the contingent‑note threshold, leaving those assumptions insufficiently evidenced. Consequently, the annual reporting covenant (C02) and leverage covenant (C01) lack sufficient evidence of compliance, while the material‑adverse‑effect notice duty (C05) remains untriggered.",
+    "attributions": [
+      {
+        "target_type": "assumption",
+        "target_id": "R03-A05",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "beneficial",
+        "proposed_status": "supported",
+        "rationale": "Event shows 29% net sales growth, $36.6m cash, $106.4m liquidity and raised 2019 outlook, indicating stable operations and no material adverse effect.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0052",
+            "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year."
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0037",
+            "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million"
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0098",
+            "quote": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "assumption",
+        "target_id": "R03-A07",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "unclear",
+        "proposed_status": "insufficient_evidence",
+        "rationale": "Event provides Q2 and six‑month adjusted EBITDA but does not show full‑year 2019 EBITDA needed to confirm the $50 m threshold for contingent notes.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0056",
+            "quote": "Second quarter adjusted EBITDA increased 30% to $20.8 million, representing an adjusted EBITDA margin of 9.5%, compared to $16.1 million, representing a 9.4% margin, for the same period in the prior year."
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0086",
+            "quote": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Full‑year 2019 adjusted EBITDA or consolidated EBITDA"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C02",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "Event does not evidence delivery of FY2018 audited financial statements and compliance certificate within 90 days of year‑end (by March 31 2019).",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0052",
+            "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "FY2018 audited financial statements and compliance certificate"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C05",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "Event shows strong sales growth, liquidity and raised outlook with no indication of any material adverse effect, so the notice duty under Section 6.05(b) is not activated.",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0052",
+            "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year."
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0037",
+            "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million"
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0098",
+            "quote": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [],
+        "suggested_action": "monitor",
+        "proposed_adjustment": null,
+        "path": []
+      },
+      {
+        "target_type": "covenant",
+        "target_id": "C01",
+        "relation_type": "evidence_gap",
+        "risk_direction": "unclear",
+        "proposed_status": null,
+        "rationale": "Event lacks the inputs needed to compute the First Lien Net Leverage Ratio (total first‑lien indebtedness, unrestricted cash and trailing twelve‑month Consolidated EBITDA).",
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0037",
+            "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million"
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0086",
+            "quote": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year."
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Total first‑lien indebtedness, unrestricted cash (capped at $5 m) and Consolidated EBITDA for the twelve‑month period ending June 30 2019"
+        ],
+        "suggested_action": "request_information",
+        "proposed_adjustment": null,
+        "path": []
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "C02",
+        "status": "insufficient_evidence",
+        "rationale": "Event does not evidence delivery of FY2018 audited financial statements and compliance certificate within 90 days of year‑end (by March 31 2019).",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0052",
+            "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year."
+          }
+        ]
+      },
+      {
+        "clause_id": "C05",
+        "status": "not_triggered",
+        "rationale": "Event shows strong sales growth, liquidity and raised outlook with no indication of any material adverse effect, so the notice duty under Section 6.05(b) is not activated.",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0052",
+            "quote": "Net sales increased 29% to $220.6 million for the second quarter of 2019, compared to $171.1 million for the same period in the prior year."
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0037",
+            "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million"
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0098",
+            "quote": "For the full year 2019, the Company is raising its net sales and adjusted EBITDA outlook compared to previously issued guidance."
+          }
+        ]
+      },
+      {
+        "clause_id": "C01",
+        "status": "insufficient_evidence",
+        "rationale": "Event lacks the inputs needed to compute the First Lien Net Leverage Ratio (total first‑lien indebtedness, unrestricted cash and trailing twelve‑month Consolidated EBITDA).",
+        "already_assessed_in": null,
+        "evidence": [
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0037",
+            "quote": "Cash and cash equivalents of $36.6 million with total liquidity of $106.4 million"
+          },
+          {
+            "document_id": "PETQ-PR-2019-08-07",
+            "locator": "P0086",
+            "quote": "For the first six months of 2019 adjusted EBITDA was $31.7 million, compared to $21.7 million for the same period in the prior year."
+          }
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 187.5
+}

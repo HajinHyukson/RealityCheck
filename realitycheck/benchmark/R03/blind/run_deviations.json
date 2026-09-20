@@ -1,0 +1,4 @@
+{
+  "retried_after_later_checkpoints": [],
+  "effect": "None: no file failed on the first pass, so no checkpoint was retried."
+}

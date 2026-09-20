@@ -1,0 +1,115 @@
+{
+  "borrower_id": "R01",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2023-11-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T01:03:49.521173+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R01-D01"
+  ],
+  "assessments_supplied": false,
+  "summary": "Review of evidence through the November 7, 2023 press release shows no new developments affecting the Amazon Break Fee, prepayment triggers, or core asset levels that would require tightening, loosening, or adding covenants. The existing package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows increased cash but no change in Amazon Break Fee or prepayment activity that would alter the Minimum Core Assets Test thresholds."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Financial statement delivery requirements are being met; no evidence of reporting deficiencies or need to adjust frequency or scope."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Monthly compliance certificates continue to be delivered; no evidence of missed deliveries or need to change timing or content."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence of Amazon Break Fee receipt or termination of the Amazon Acquisition Agreement; the sweep provisions remain unchanged."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No default or event of default indicated in the evidence; notice provisions remain adequate."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Available evidence through the review date shows no new triggers, threshold breaches, or changes in borrower circumstances that would justify tightening, loosening, or adding any covenant protections.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of evidence through the November 7, 2023 press release shows no new developments affecting the Amazon Break Fee, prepayment triggers, or core asset levels that would require tightening, loosening, or adding covenants. The existing package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Evidence shows increased cash but no change in Amazon Break Fee or prepayment activity that would alter the Minimum Core Assets Test thresholds.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Financial statement delivery requirements are being met; no evidence of reporting deficiencies or need to adjust frequency or scope.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly compliance certificates continue to be delivered; no evidence of missed deliveries or need to change timing or content.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence of Amazon Break Fee receipt or termination of the Amazon Acquisition Agreement; the sweep provisions remain unchanged.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No default or event of default indicated in the evidence; notice provisions remain adequate.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Available evidence through the review date shows no new triggers, threshold breaches, or changes in borrower circumstances that would justify tightening, loosening, or adding any covenant protections."
+  },
+  "elapsed_seconds": 27.9
+}

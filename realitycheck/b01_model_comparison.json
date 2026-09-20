@@ -1,0 +1,48 @@
+{
+  "scope": "Observed outputs for the three authored B01 demonstration events; this is not a general model benchmark.",
+  "selected_analysis_model": "nvidia/nemotron-3-super-120b-a12b",
+  "selected_options": {"enable_thinking": true, "max_tokens": 10000, "response_format": "json_object"},
+  "profile_model": "nvidia/nemotron-3-super-120b-a12b",
+  "attempts": [
+    {
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "thinking": false,
+      "observed": "Generated the approved claims, but event outputs omitted required fields, misrouted duties to C08, asserted unsupported financial compliance, and returned malformed JSON for the third event.",
+      "artifact": "b01_nano_seed_attempt.json",
+      "selected": false
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "thinking": false,
+      "observed": "Generated six source-anchored assumptions and identified relevant S1/S2 duties. Underclassified missed deadlines as triggered; one covenant assessment lacked citations.",
+      "artifact": "b01_super_seed_attempt.json",
+      "selected": false
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "thinking": true,
+      "observed": "Identified the first S1 noncompliance and C08 trigger, but shortened source locators and omitted the deadline roll to Monday. Strict validation withheld these findings at the time; no further Ultra events were run.",
+      "artifact": "b01_ultra_seed_attempt.json",
+      "selected": false
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "thinking": true,
+      "observed": "Identified S1 noncompliance, then a timely-notified S2 incident, then S2 reporting noncompliance under the amended thresholds. Exact evidence quotes verified. Calendar and scope qualifications remain disclosed separately from the raw model responses.",
+      "artifact": "b01_seed.json",
+      "selected": true
+    }
+  ],
+  "protocol_validation": [
+    "Missing optional candidate arrays become empty arrays; string null status is normalized to JSON null.",
+    "Optional null proposed adjustments become empty strings without inventing a proposal.",
+    "A short P-number locator may resolve only to its unique explicit prefix in the same document, followed by exact quote verification.",
+    "The second final event reused its recorded genuine NVIDIA response after optional-field normalization; original inference time and raw output remain saved, with replay metadata."
+  ],
+  "disclosed_qualifications": [
+    "The first event model rationale gives July 10 without rolling the Saturday deadline to Monday July 12. Noncompliance remains established by later evidence.",
+    "Blanket statements about other covenants do not establish financial compliance; current financial inputs are absent.",
+    "The third event model uses greater than 5% while the operative boundary is at least 5%; the observed 7% qualifies under either wording.",
+    "The two inferred profile claims are working model hypotheses, not approved borrower assumptions or new contractual duties."
+  ]
+}

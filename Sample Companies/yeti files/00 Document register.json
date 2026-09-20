@@ -1,0 +1,167 @@
+[
+  {
+    "number": "01",
+    "document_id": "YETI-01",
+    "title": "YETI Company Background",
+    "filename": "01 memo - YETI Company Background.pdf",
+    "source_mode": "real_background_digest",
+    "available_at": "2026-02-27",
+    "pages": 1,
+    "sha256": "7f224370f305fb2ed1e4246b2f99de86ed1962d4934d4a3f74b0f7f85a06bb13",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1670592/000167059226000013/yeti-20260103.htm"
+  },
+  {
+    "number": "01",
+    "document_id": "YETI-SEC-FY2025",
+    "title": "YETI FY2025 Annual Report",
+    "filename": "sources/01 YETI FY2025 Annual Report.pdf",
+    "source_mode": "real_public_filing",
+    "available_at": "2026-02-27",
+    "pages": 120,
+    "sha256": "068e7e814e7319ea4d28567e1fdde5c3aff505aa7fdbc629cc2ee5a91da1afeb",
+    "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001670592/314070a9-7ae1-401e-b9eb-7c6d25714d2d.pdf"
+  },
+  {
+    "number": "02",
+    "document_id": "YETI-02",
+    "title": "Original Credit Agreement",
+    "filename": "02 Credit Agreement - Original Credit Agreement.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 3,
+    "sha256": "b4d8624cf853d293de2c6c320c2cd3cdb432e9f8a2afc54ffc4163187ff20a7c",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "03",
+    "document_id": "YETI-03",
+    "title": "Underwriting Memo",
+    "filename": "03 memo - Underwriting Memo.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 1,
+    "sha256": "fb1cea80fd2c22c0479522ef3e761f670458f6e7dc799973e230f6442978ed9f",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "04",
+    "document_id": "YETI-04",
+    "title": "Opening Financial and Operating Model",
+    "filename": "04 memo - Opening Financial and Operating Model.xlsx",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": "",
+    "sha256": "1e067bb02940400f0e3f283e78af90e76bf32f2ec1eb20eb5b508d3b608f7564",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "04",
+    "document_id": "YETI-04",
+    "title": "Opening Financial and Operating Schedules",
+    "filename": "04 memo - Opening Financial and Operating Schedules.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 2,
+    "sha256": "3f2ae8089e2cf3d7893c8fc86ea266a5d27d9b1814bff2c6f90f2675b64adc6a",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "05",
+    "document_id": "YETI-05",
+    "title": "Lender Review Guidelines",
+    "filename": "05 memo - Lender Review Guidelines.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 1,
+    "sha256": "335f2f0dad3cf1c560a26ba8efba05683e13e3bef38c4d79992fe8904f0505f3",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "06",
+    "document_id": "YETI-06",
+    "title": "October Routine Management Report",
+    "filename": "06 Reports - October Routine Management Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-11-18",
+    "pages": 1,
+    "sha256": "6335e602a37adb8b88389b66d682b6320f78e1bdb5465f4c65f592488d745dd3",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "07",
+    "document_id": "LOGISTICS-2026-12-07",
+    "title": "External Freight and Inventory Report",
+    "filename": "07 Reports - External Freight and Inventory Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-12-07",
+    "pages": 1,
+    "sha256": "185a5fa06a8b77359dd4610c67cd0c14d59f089879d9bc6505ab579c10e95c72",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "08",
+    "document_id": "YETI-08",
+    "title": "December Company Impact and Cash Report",
+    "filename": "08 Reports - December Company Impact and Cash Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-01-19",
+    "pages": 2,
+    "sha256": "aa39bbc9269f01b02ed29f5ff85ae31c7dfff9a7a65c1269086f048ec9014439",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "09",
+    "document_id": "YETI-09",
+    "title": "January Mitigation and Updated Forecast",
+    "filename": "09 Reports - January Mitigation and Updated Forecast.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-12",
+    "pages": 2,
+    "sha256": "1cf20a87840f0a28b349f95a37a24db469a20368cb5ec1654710938ea9281bba",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "10",
+    "document_id": "YETI-10",
+    "title": "Supplier Payment Schedule Update",
+    "filename": "10 Reports - Supplier Payment Schedule Update.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-19",
+    "pages": 1,
+    "sha256": "11f89083ef6a3596e54a5cadc1e97f1b8ce09ae62d6c2ba5acda69a56fe16052",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "11",
+    "document_id": "YETI-11",
+    "title": "Procurement Cash Forecast and Working Capital",
+    "filename": "11 Reports - Procurement Cash Forecast and Working Capital.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-26",
+    "pages": 2,
+    "sha256": "e9de0796b6aafb987d6de3208c2e3e5d322dfd63c480c407e85f5d269583f630",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "12",
+    "document_id": "YETI-12",
+    "title": "March Cash Results and Supplier Follow-up",
+    "filename": "12 Reports - March Cash Results and Supplier Follow-up.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-04-01",
+    "pages": 1,
+    "sha256": "826f92235a16be309504a92672cf793a5ac90902de1ee8c9c69a99aba586643f",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "13",
+    "document_id": "YETI-13",
+    "title": "Product Recall and Missed Interest Payment",
+    "filename": "13 Reports - Product Recall and Missed Interest Payment.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-05-11",
+    "pages": 5,
+    "sha256": "fee080272d844006c757b61cdbecbe7183901f890fd6074ace0e184bd152ec5a",
+    "source_url": "Authored synthetic scenario"
+  }
+]

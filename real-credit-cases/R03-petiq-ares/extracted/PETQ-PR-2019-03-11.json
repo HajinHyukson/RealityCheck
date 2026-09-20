@@ -1,0 +1,9890 @@
+[
+ {
+  "locator": "P0001",
+  "text": "EX-99.1 2 ex-99d1.htm EX-99.1"
+ },
+ {
+  "locator": "P0002",
+  "text": "PetIQ Q4 2018 Earnings Release"
+ },
+ {
+  "locator": "P0003",
+  "text": "PetIQ, Inc. Reports Record Fourth Quarter and Full Year 2018 Financial Results"
+ },
+ {
+  "locator": "P0004",
+  "text": "Fourth Quarter 2018 Net Sales Increased 114% Year-Over-Year to $111.0 Million"
+ },
+ {
+  "locator": "P0005",
+  "text": "Full Year 2018 Net Sales of $528.6 Million"
+ },
+ {
+  "locator": "P0006",
+  "text": "Provides Full Year 2019 Outlook"
+ },
+ {
+  "locator": "P0007",
+  "text": "EAGLE, Idaho – March 11, 2019 – PetIQ, Inc. (“PetIQ” or the “Company”) (Nasdaq: PETQ), a leading pet medication and wellness company, today reported financial results for the three months and full year ended December 31, 2018."
+ },
+ {
+  "locator": "P0008",
+  "text": "Fourth Quarter 2018 Highlights Compared to Prior Year Period"
+ },
+ {
+  "locator": "P0009",
+  "text": "|"
+ },
+ {
+  "locator": "P0010",
+  "text": "|"
+ },
+ {
+  "locator": "P0011",
+  "text": "·"
+ },
+ {
+  "locator": "P0012",
+  "text": "|"
+ },
+ {
+  "locator": "P0013",
+  "text": "|"
+ },
+ {
+  "locator": "P0014",
+  "text": "Record fourth quarter net sales of $111.0 million, an increase of 114%; representing organic net sales growth of 70%"
+ },
+ {
+  "locator": "P0015",
+  "text": "|"
+ },
+ {
+  "locator": "P0016",
+  "text": "|"
+ },
+ {
+  "locator": "P0017",
+  "text": "·"
+ },
+ {
+  "locator": "P0018",
+  "text": "|"
+ },
+ {
+  "locator": "P0019",
+  "text": "|"
+ },
+ {
+  "locator": "P0020",
+  "text": "Net loss of $5.3 million compared to a loss of $3.4 million"
+ },
+ {
+  "locator": "P0021",
+  "text": "|"
+ },
+ {
+  "locator": "P0022",
+  "text": "|"
+ },
+ {
+  "locator": "P0023",
+  "text": "·"
+ },
+ {
+  "locator": "P0024",
+  "text": "|"
+ },
+ {
+  "locator": "P0025",
+  "text": "|"
+ },
+ {
+  "locator": "P0026",
+  "text": "Adjusted net income $1.2 million compared to $2.6 million"
+ },
+ {
+  "locator": "P0027",
+  "text": "|"
+ },
+ {
+  "locator": "P0028",
+  "text": "|"
+ },
+ {
+  "locator": "P0029",
+  "text": "·"
+ },
+ {
+  "locator": "P0030",
+  "text": "|"
+ },
+ {
+  "locator": "P0031",
+  "text": "|"
+ },
+ {
+  "locator": "P0032",
+  "text": "Adjusted EBITDA of $6.5 million compared to $3.6 million, an increase of 82%"
+ },
+ {
+  "locator": "P0033",
+  "text": "Full Year 2018 Highlights Compared to Prior Year Period"
+ },
+ {
+  "locator": "P0034",
+  "text": "|"
+ },
+ {
+  "locator": "P0035",
+  "text": "|"
+ },
+ {
+  "locator": "P0036",
+  "text": "·"
+ },
+ {
+  "locator": "P0037",
+  "text": "|"
+ },
+ {
+  "locator": "P0038",
+  "text": "|"
+ },
+ {
+  "locator": "P0039",
+  "text": "Record 2018 net sales of $528.6 million, an increase of 98%; representing organic net sales growth of 45%"
+ },
+ {
+  "locator": "P0040",
+  "text": "|"
+ },
+ {
+  "locator": "P0041",
+  "text": "|"
+ },
+ {
+  "locator": "P0042",
+  "text": "·"
+ },
+ {
+  "locator": "P0043",
+  "text": "|"
+ },
+ {
+  "locator": "P0044",
+  "text": "|"
+ },
+ {
+  "locator": "P0045",
+  "text": "Net income of $0.1 million compared to $7.8 million"
+ },
+ {
+  "locator": "P0046",
+  "text": "|"
+ },
+ {
+  "locator": "P0047",
+  "text": "|"
+ },
+ {
+  "locator": "P0048",
+  "text": "·"
+ },
+ {
+  "locator": "P0049",
+  "text": "|"
+ },
+ {
+  "locator": "P0050",
+  "text": "|"
+ },
+ {
+  "locator": "P0051",
+  "text": "Adjusted net income of $21.6 million compared to $16.9 million, an increase of 28%"
+ },
+ {
+  "locator": "P0052",
+  "text": "|"
+ },
+ {
+  "locator": "P0053",
+  "text": "|"
+ },
+ {
+  "locator": "P0054",
+  "text": "·"
+ },
+ {
+  "locator": "P0055",
+  "text": "|"
+ },
+ {
+  "locator": "P0056",
+  "text": "|"
+ },
+ {
+  "locator": "P0057",
+  "text": "Adjusted EBITDA of $41.5 million compared to $22.3 million, an increase of 86%"
+ },
+ {
+  "locator": "P0058",
+  "text": "|"
+ },
+ {
+  "locator": "P0059",
+  "text": "|"
+ },
+ {
+  "locator": "P0060",
+  "text": "·"
+ },
+ {
+  "locator": "P0061",
+  "text": "|"
+ },
+ {
+  "locator": "P0062",
+  "text": "|"
+ },
+ {
+  "locator": "P0063",
+  "text": "Opened 25 wellness centers, for a total of 34 wellness centers and 34 regional offices in operation"
+ },
+ {
+  "locator": "P0064",
+  "text": "|"
+ },
+ {
+  "locator": "P0065",
+  "text": "|"
+ },
+ {
+  "locator": "P0066",
+  "text": "·"
+ },
+ {
+  "locator": "P0067",
+  "text": "|"
+ },
+ {
+  "locator": "P0068",
+  "text": "|"
+ },
+ {
+  "locator": "P0069",
+  "text": "Completed two strategic acquisitions of Community Veterinary Clinics, LLC d/b/a VIP Petcare (“VIP”) in January and HBH Enterprises LLC, in October"
+ },
+ {
+  "locator": "P0070",
+  "text": "|"
+ },
+ {
+  "locator": "P0071",
+  "text": "|"
+ },
+ {
+  "locator": "P0072",
+  "text": "·"
+ },
+ {
+  "locator": "P0073",
+  "text": "|"
+ },
+ {
+  "locator": "P0074",
+  "text": "|"
+ },
+ {
+  "locator": "P0075",
+  "text": "Cash and cash equivalents of $66.4 million with total liquidity of $128.0 million"
+ },
+ {
+  "locator": "P0076",
+  "text": "Cord Christensen, PetIQ’s Chairman and Chief Executive Officer commented, “2018 was a transformational year for PetIQ with the completion of two strategic acquisitions to help us build a larger and more diversified animal health organization. We have worked diligently to execute on our Follow the Pets strategy by further enhancing our core pet health and wellness capabilities, strengthening new and existing partnerships across all sales channels through complementary veterinarian product and service offerings, and integrating VIP, which together, resulted in the significant growth of our business. We believe these efforts better position us to continue to grow the animal health and wellness category, fulfilling our mission to make pets’ lives better through improved access to affordable pet health care.”"
+ },
+ {
+  "locator": "P0077",
+  "text": "Fourth Quarter 2018 Financial Results"
+ },
+ {
+  "locator": "P0078",
+  "text": "Net sales increased 114% to $111.0 million for the fourth quarter of 2018, compared to $52.0 million for the same period in the prior year. Product segment net sales were $95.1 million and Services segment revenues were $15.9 million in the fourth quarter of 2018. The increase in consolidated net sales reflects growth in existing and new retail partners, primarily within the Company’s distributed products, the addition of the Services segment, and the expansion of the Company’s overall product and services offerings."
+ },
+ {
+  "locator": "P0079",
+  "text": "Gross profit was $16.9 million, an increase of 61%, compared to $10.5 million in the same period last year. Gross margin for the quarter was 15.3%. Adjusted gross profit was $19.7 million and adjusted gross margin was 17.8% for the fourth quarter 2018. The GAAP gross margin to adjusted gross margin difference of 250 basis points is a result of the exclusion of certain purchase accounting adjustments, non-same-store Services segment revenue contribution and related costs of sales, as well as clinic launch expenses, which were minimal during the quarter. The Company continued to capitalize on opportunities to grow with the Company’s existing animal health partners, driving incremental sales of distributed products and resulting in an ongoing mix shift of Product segment sales toward distributed products with no effect on gross profit."
+ },
+ {
+  "locator": "P0080",
+  "text": "Net loss was $5.3 million and adjusted net income was $1.2 million for the fourth quarter of 2018. Adjusted net income primarily excludes stock-based compensation expense, tax expense, integration costs, fair value adjustment to contingent note, acquisition expenses and clinic launch expenses, and operating losses associated with the 26 non-comparable newly opened veterinary wellness centers, one new host partner, and five regional offices that have been open less than six trailing quarters."
+ },
+ {
+  "locator": "P0081",
+  "text": "Fourth quarter adjusted EBITDA increased 82% to $6.5 million, representing an adjusted EBITDA margin of 5.8%, compared to $3.6 million, representing 6.8%, for the same period in the prior year. The increase in adjusted EBITDA was a result of increased adjusted gross profit and increased leverage of G&A."
+ },
+ {
+  "locator": "P0082",
+  "text": "Adjusted gross profit, adjusted net income, and adjusted EBITDA are non-GAAP financial measures. The Company believes these non-GAAP financial measures provide investors with additional insight into and measurement of its entry into the veterinary services business following the acquisition of VIP in January 2018. In the Services segment, the Company is providing a “same-store sales” adjustment to reflect revenue for veterinary clinics open for at least six trailing quarters. The Company believes this will provide useful information to investors as these veterinary clinics and wellness centers mature and move into the comparable store base. See “Non-GAAP Measures” for a definition of these measures and the financial tables that accompany this release for a reconciliation to the most comparable GAAP measure."
+ },
+ {
+  "locator": "P0083",
+  "text": "Full Year 2018 Financial Results"
+ },
+ {
+  "locator": "P0084",
+  "text": "Net sales increased 98% to $528.6 million for the year ended December 31, 2018, compared to $266.7 million for the prior year. Product segment sales were $450.2 million and Services segment net revenues were $78.4 million for 2018."
+ },
+ {
+  "locator": "P0085",
+  "text": "Gross profit was $83.3 million, an increase of 63%, compared to $51.2 million for the year ended December 31, 2017. Gross margin for 2018 was 15.8%. Adjusted gross profit was $92.3 million and adjusted gross margin was 17.5% for the full year ended December 31, 2018. The GAAP gross margin to adjusted gross margin difference of 170 basis points was the result of a purchase accounting adjustment to fair value inventory, the exclusion of a non-same-store Service segment revenue contribution and related costs of services and clinic launch expenses."
+ },
+ {
+  "locator": "P0086",
+  "text": "Net income was $0.1 million and adjusted net income was $21.6 million for the full year ended December 31, 2018. Adjusted net income excludes the aforementioned items mentioned for the fourth quarter and the financial tables that accompany this release provide a reconciliation to the most comparable GAAP measure of net income."
+ },
+ {
+  "locator": "P0087",
+  "text": "Adjusted EBITDA, a non-GAAP financial measure, increased 86% to $41.5 million for 2018, representing an adjusted EBITDA margin of 7.9%, compared to $22.3 million, representing an adjusted EBITDA margin of 8.4% for the prior year. The increase in adjusted EBITDA was a result of increased adjusted gross profit and increased leverage of G&A."
+ },
+ {
+  "locator": "P0088",
+  "text": "Segment Results"
+ },
+ {
+  "locator": "P0089",
+  "text": "Products: For the fourth quarter of 2018, Product segment net sales increased 83.2% to $95.1 million and operating income increased 75% to $9.6 million. This compares to Product segment sales and operating income of $51.9 million and $5.5 million, respectively, for the fourth quarter of 2017."
+ },
+ {
+  "locator": "P0090",
+  "text": "For the full year ended December 31, 2018, Product segment net sales increased 68.8% to $450.2 million and operating income increased 70% to $48.7 million. This compares to Product segment sales and operating income of $266.7 million and $28.7 million, respectively, for the full year ended December 31, 2017."
+ },
+ {
+  "locator": "P0091",
+  "text": "Services: For the fourth quarter of 2018, Services segment net revenues and operating income of $15.9 million and a loss of $1.2 million, respectively. On a pro forma basis, as if VIP had been owned in the comparable period, Services segment revenue increased 5% from the fourth quarter of 2017, or approximately flat on a same store basis. As a part of the Company’s integration of VIP in the first quarter of 2018, PetIQ discontinued clinics in certain unprofitable hosts. After taking this into consideration, Services segment fourth quarter net revenues increased 8%. The Company opened three veterinarian wellness centers during the fourth quarter of 2018; there were a total of 34 veterinarian wellness centers as of December 31, 2018."
+ },
+ {
+  "locator": "P0092",
+  "text": "For the full year ended December 31, 2018, the Services segment net revenues and operating income were $78.4 million and $2.7 million, respectively. This represents Services segment net revenue growth of approximately 9% on a pro forma basis over the same period ended December 31, 2017, or approximately 4% on a same store basis."
+ },
+ {
+  "locator": "P0093",
+  "text": "Cash and Debt"
+ },
+ {
+  "locator": "P0094",
+  "text": "During the fourth quarter, the Company completed an underwritten offering of 2.0 million shares of primary Class A common stock for total net proceeds of approximately $73.9 million. As of December 31, 2018, the Company had cash and cash equivalents of $66.4 million, plus availability on its revolving credit facility of $61.6 million, equating to $128.0 million, which we define as total liquidity. This represents a 165% increase in total liquidity from $48.4 million for the year ended December 31, 2017. The Company’s long-term debt balance, which is largely comprised of its revolving credit facility and term loan, was $108.2 million as of December 31, 2018, which is relatively consistent with prior quarter except for the addition of contingent note balance of $7.5 million. From a working capital perspective, accounts receivable increased $23.2 million compared to December 31, 2017, in line with the Company’s strong sales growth. Inventory increased $48.1 million compared to the prior year as a result of inventory needed to support the growth in the Company’s business and December inventory purchases tied to a shift in timing of customer shipments to the first quarter of 2019 from the second quarter of 2018."
+ },
+ {
+  "locator": "P0095",
+  "text": "Strategic Manufacturing Acquisition"
+ },
+ {
+  "locator": "P0096",
+  "text": "As previously announced, the Company completed the strategic acquisition of HBH, an innovative developer and manufacturer of specialty pet supplements and treats on October 17, 2018, with HBH becoming a wholly-owned subsidiary of PetIQ. The consideration for the acquisition consisted of $1.7 million in cash, net of cash acquired, which includes a $2.2 million repayment of debt and the issuance of 400,000 shares of PetIQ Class B common stock."
+ },
+ {
+  "locator": "P0097",
+  "text": "2019 Outlook"
+ },
+ {
+  "locator": "P0098",
+  "text": "For the full year ending December 31, 2019, the Company expects the following outlook:"
+ },
+ {
+  "locator": "P0099",
+  "text": "|"
+ },
+ {
+  "locator": "P0100",
+  "text": "|"
+ },
+ {
+  "locator": "P0101",
+  "text": "·"
+ },
+ {
+  "locator": "P0102",
+  "text": "|"
+ },
+ {
+  "locator": "P0103",
+  "text": "|"
+ },
+ {
+  "locator": "P0104",
+  "text": "Consolidated net sales of at least $600 million, an increase greater than 14% from growth of 98% in 2018"
+ },
+ {
+  "locator": "P0105",
+  "text": "|"
+ },
+ {
+  "locator": "P0106",
+  "text": "|"
+ },
+ {
+  "locator": "P0107",
+  "text": "·"
+ },
+ {
+  "locator": "P0108",
+  "text": "|"
+ },
+ {
+  "locator": "P0109",
+  "text": "|"
+ },
+ {
+  "locator": "P0110",
+  "text": "Adjusted EBITDA* of at least $51 million, an increase greater than 23% from growth of 86% in 2018"
+ },
+ {
+  "locator": "P0111",
+  "text": "|"
+ },
+ {
+  "locator": "P0112",
+  "text": "|"
+ },
+ {
+  "locator": "P0113",
+  "text": "·"
+ },
+ {
+  "locator": "P0114",
+  "text": "|"
+ },
+ {
+  "locator": "P0115",
+  "text": "|"
+ },
+ {
+  "locator": "P0116",
+  "text": "The opening of at least 80 veterinarian wellness clinics"
+ },
+ {
+  "locator": "P0117",
+  "text": "In addition, the Company is reiterating its long-term 2023 growth objectives including:"
+ },
+ {
+  "locator": "P0118",
+  "text": "|"
+ },
+ {
+  "locator": "P0119",
+  "text": "|"
+ },
+ {
+  "locator": "P0120",
+  "text": "·"
+ },
+ {
+  "locator": "P0121",
+  "text": "|"
+ },
+ {
+  "locator": "P0122",
+  "text": "|"
+ },
+ {
+  "locator": "P0123",
+  "text": "Net sales of approximately $1.0 billion"
+ },
+ {
+  "locator": "P0124",
+  "text": "|"
+ },
+ {
+  "locator": "P0125",
+  "text": "|"
+ },
+ {
+  "locator": "P0126",
+  "text": "·"
+ },
+ {
+  "locator": "P0127",
+  "text": "|"
+ },
+ {
+  "locator": "P0128",
+  "text": "|"
+ },
+ {
+  "locator": "P0129",
+  "text": "Adjusted EBITDA margin of greater than 15% *"
+ },
+ {
+  "locator": "P0130",
+  "text": "|"
+ },
+ {
+  "locator": "P0131",
+  "text": "|"
+ },
+ {
+  "locator": "P0132",
+  "text": "·"
+ },
+ {
+  "locator": "P0133",
+  "text": "|"
+ },
+ {
+  "locator": "P0134",
+  "text": "|"
+ },
+ {
+  "locator": "P0135",
+  "text": "Wellness center locations of 1,000"
+ },
+ {
+  "locator": "P0136",
+  "text": "*The Company does not provide guidance for the most directly comparable GAAP measure, net income, and similarly cannot provide a reconciliation between its forecasted adjusted EBITDA and net income metrics without unreasonable effort due to the unavailability of reliable estimates for certain items. These items are not within the Company’s control and may vary greatly between periods and could significantly impact future financial results."
+ },
+ {
+  "locator": "P0137",
+  "text": "Conference Call and Webcast"
+ },
+ {
+  "locator": "P0138",
+  "text": "The Company will host a conference call and webcast where members of the executive management team will discuss these results with additional comments and details today, March 11, 2019, at 4:30 p.m. ET. The conference call will be available live over the Internet through the “Investors” section of the Company’s website at www.PetIQ.com. To participate on the live call listeners in North America may dial 877-451-6152 and international listeners may dial 201-389-0879."
+ },
+ {
+  "locator": "P0139",
+  "text": "A replay of the conference call will be archived on the Company’s website and telephonic playback will be available through April 1, 2019. North American listeners may dial 844-512-2921 and international listeners may dial 412-317-6671 the passcode is 13687561."
+ },
+ {
+  "locator": "P0140",
+  "text": "About PetIQ"
+ },
+ {
+  "locator": "P0141",
+  "text": "PetIQ is a leading, rapidly growing pet health and wellness company. Through over 60,000 points of distribution across retail and e-commerce channels, PetIQ and VIP Petcare, a wholly-owned subsidiary, have a mission to make pet lives better by educating pet parents on the importance of offering regular, convenient access and affordable choices for pet preventive and wellness veterinary products and services. PetIQ believes that pets are an important part of the family and deserve the best products and care we can give them. For more information, visit www.PetIQ.com."
+ },
+ {
+  "locator": "P0142",
+  "text": "Forward Looking Statements"
+ },
+ {
+  "locator": "P0143",
+  "text": "This press release contains forward-looking statements that involve risks and uncertainties, such as statements about our plans, objectives, expectations, assumptions or future events. In some cases, you can identify forward-looking statements by terminology such as \"anticipate,\" \"estimate,\" \"plan,\" \"project,\" \"continuing,\" \"ongoing,\" \"expect,\" \"believe,\" \"intend,\" \"may,\" \"will,\" \"should,\" \"could\" and similar expressions. Forward-looking statements involve estimates, assumptions, known and unknown risks, uncertainties and other factors that could cause actual results to differ materially from any future results, performances, or achievements expressed or implied by the forward-looking statements. Forward-looking statements should not be read as a guarantee of future performance or results, and will not necessarily be accurate indications of the times at, or by, which such performance or results will be achieved. Forward-looking statements are based on information available at the time those statements are made or management's good faith belief as of that time with respect to future events, and are subject"
+ },
+ {
+  "locator": "P0144",
+  "text": "to risks and uncertainties that could cause actual performance or results to differ materially from those expressed in or suggested by the forward-looking statements. Important factors that could cause such differences include, but are not limited to, our ability to successfully grow our business through acquisitions; our dependency on a limited number of customers; our ability to implement our growth strategy effectively; disruptions in our manufacturing and distribution chains; competition from veterinarians and others in our industry; reputational damage to our brands; economic trends and spending on pets; the effectiveness of our marketing and trade promotion programs; recalls or withdrawals of our products or product liability claims; our ability to manage our manufacturing and supply chain effectively; disruptions in our manufacturing and distribution chains; our ability to introduce new products and improve existing products; our failure to protect our intellectual property; costs associated with governmental regulation; our ability to keep and retain key employees; our ability to sustain profitability; and the risks set forth under the “Risk Factors” of our Annual Report on Form 10-K for the year ended December 31, 2017 and quarterly report on Form 10-Q for the period ended March 31, 2018."
+ },
+ {
+  "locator": "P0145",
+  "text": "Additional risks and uncertainties not currently known to us or that we currently deem to be immaterial also may materially adversely affect our business, financial condition or operating results. The forward-looking statements speak only as of the date on which they are made, and, except as required by law, we undertake no obligation to update any forward-looking statement to reflect events or circumstances after the date on which the statement is made or to reflect the occurrence of unanticipated events. In addition, we cannot assess the impact of each factor on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements. Consequently, you should not place undue reliance on forward-looking statements."
+ },
+ {
+  "locator": "P0146",
+  "text": "Non-GAAP Financial Measures"
+ },
+ {
+  "locator": "P0147",
+  "text": "In addition to financial results reported in accordance with U.S. GAAP, PetIQ uses the following non-GAAP financial measures: Adjusted net income (loss), Adjusted gross profit, Adjusted EBITDA, and Adjusted EBITDA Margin."
+ },
+ {
+  "locator": "P0148",
+  "text": "Adjusted net income consists of GAAP Net income (loss) adjusted for tax expense, costs of becoming a public company, acquisition expenses, purchase accounting adjustments, integration costs and costs of discontinued clinics, new clinic launch expense, and stock based compensation expense. Adjusted Net Income is utilized by management: (i) to compare operations of the Company prior to our initial public offering and (ii) to evaluate the effectiveness of our business strategies."
+ },
+ {
+  "locator": "P0149",
+  "text": "Adjusted gross profit consists of GAAP gross profit adjusted for purchase accounting adjustments, gross profit (loss) on veterinarian clinics and wellness centers that are not part of same store sales, and new clinic launch expense. Adjusted gross profit is utilized by management to evaluate the effectiveness of our business strategies."
+ },
+ {
+  "locator": "P0150",
+  "text": "EBITDA represents net income (loss) before interest, income taxes, and depreciation and amortization. Adjusted EBITDA represents EBITDA plus management fees, stock based compensation expense, acquisition expenses, purchase accounting adjustments, fair value adjustments to contingent notes, integration costs and costs of discontinued clinics, loss on veterinarian clinics and wellness centers that are not part of the same store sales, and new clinic launch expense. Adjusted EBITDA adjusts for transactions that management does not believe are representative of our core ongoing business. Adjusted EBITDA Margin is Adjusted EBITDA stated as a percentage of Net sales. Adjusted EBITDA is utilized by management: (i) as a factor in evaluating management's performance when determining incentive compensation and (ii) to evaluate the effectiveness of our business strategies. The Company presents EBITDA because it is a necessary component for computing Adjusted EBITDA."
+ },
+ {
+  "locator": "P0151",
+  "text": "We believe that the use of Adjusted Net income, Adjusted gross profit, Adjusted EBITDA, and Adjusted EBITDA margin provide additional tools for investors to use in evaluating ongoing operating results and trends. In addition, you should be aware when evaluating Adjusted Net Income, adjusted gross profit, Adjusted EBITDA and Adjusted EBITDA margin, that in the future we may incur expenses similar to those excluded when calculating these measures. Our presentation of these measures should not be construed as an inference that our future results will be unaffected by these or other unusual or non-recurring items. Our computation of Adjusted Net Income, adjusted gross profit, Adjusted EBITDA and Adjusted EBITDA margin may not be comparable to other similarly titled measures computed by other companies, because all companies do not calculate Adjusted Net Income, adjusted gross profit, Adjusted EBITDA and Adjusted EBITDA margin in the same manner. Our management does not, and you should not, consider Adjusted Net Income, adjusted gross profit or Adjusted EBITDA in isolation or as an alternative to financial measures determined in accordance with GAAP. The principal limitation of Adjusted Net Income, adjusted gross profit and Adjusted EBITDA is that they exclude significant expenses and income that are required by GAAP to be recorded in our financial statements. See a reconciliation of Non-GAAP measures to the most comparable GAAP measure, in the financial tables that accompany this release."
+ },
+ {
+  "locator": "P0152",
+  "text": "The Company considers its same-store portfolio to consist of only those retail service regional offices, mobile community clinics provided within host partners, and wellness centers that have been operating for at least six trailing quarters."
+ },
+ {
+  "locator": "P0153",
+  "text": "Definitions"
+ },
+ {
+  "locator": "P0154",
+  "text": "|"
+ },
+ {
+  "locator": "P0155",
+  "text": "|"
+ },
+ {
+  "locator": "P0156",
+  "text": "1)"
+ },
+ {
+  "locator": "P0157",
+  "text": "|"
+ },
+ {
+  "locator": "P0158",
+  "text": "|"
+ },
+ {
+  "locator": "P0159",
+  "text": "Mobile community clinic"
+ },
+ {
+  "locator": "P0160",
+  "text": "|"
+ },
+ {
+  "locator": "P0161",
+  "text": "|"
+ },
+ {
+  "locator": "P0162",
+  "text": "·"
+ },
+ {
+  "locator": "P0163",
+  "text": "|"
+ },
+ {
+  "locator": "P0164",
+  "text": "|"
+ },
+ {
+  "locator": "P0165",
+  "text": "A mobile community clinic is defined as an event, or a visit to a retail host partner location, by the Company’s veterinary staff utilizing the Company’s mobile service vehicles. Clinic locations and schedules vary by location and seasonally. Due to the non-standardization of the Company’s mobile community clinics, these clinics are grouped as part of geographic regions. New regions and host partners are excluded from the same store sale calculation until they have six full consecutive quarters of operations."
+ },
+ {
+  "locator": "P0166",
+  "text": "|"
+ },
+ {
+  "locator": "P0167",
+  "text": "|"
+ },
+ {
+  "locator": "P0168",
+  "text": "2)"
+ },
+ {
+  "locator": "P0169",
+  "text": "|"
+ },
+ {
+  "locator": "P0170",
+  "text": "|"
+ },
+ {
+  "locator": "P0171",
+  "text": "Veterinarian Wellness center"
+ },
+ {
+  "locator": "P0172",
+  "text": "|"
+ },
+ {
+  "locator": "P0173",
+  "text": "|"
+ },
+ {
+  "locator": "P0174",
+  "text": "·"
+ },
+ {
+  "locator": "P0175",
+  "text": "|"
+ },
+ {
+  "locator": "P0176",
+  "text": "|"
+ },
+ {
+  "locator": "P0177",
+  "text": "A veterinarian wellness center is a physical fixed service location within the existing footprint of one of our retail partners. These veterinarian wellness centers operate under a variety of brands based on the needs of our partner locations, including the recently launched VetIQ clinics at Walmart."
+ },
+ {
+  "locator": "P0178",
+  "text": "|"
+ },
+ {
+  "locator": "P0179",
+  "text": "|"
+ },
+ {
+  "locator": "P0180",
+  "text": "3)"
+ },
+ {
+  "locator": "P0181",
+  "text": "|"
+ },
+ {
+  "locator": "P0182",
+  "text": "|"
+ },
+ {
+  "locator": "P0183",
+  "text": "Regional offices"
+ },
+ {
+  "locator": "P0184",
+  "text": "|"
+ },
+ {
+  "locator": "P0185",
+  "text": "|"
+ },
+ {
+  "locator": "P0186",
+  "text": "·"
+ },
+ {
+  "locator": "P0187",
+  "text": "|"
+ },
+ {
+  "locator": "P0188",
+  "text": "|"
+ },
+ {
+  "locator": "P0189",
+  "text": "Regional offices support the operations of the Company’s services segment which include its mobile veterinarian community clinics and wellness centers. These offices are staffed with field management and other operational staff."
+ },
+ {
+  "locator": "P0190",
+  "text": "CONTACT:"
+ },
+ {
+  "locator": "P0191",
+  "text": "|"
+ },
+ {
+  "locator": "P0192",
+  "text": "|"
+ },
+ {
+  "locator": "P0193",
+  "text": "|"
+ },
+ {
+  "locator": "P0194",
+  "text": "Investor Relations Contact:"
+ },
+ {
+  "locator": "P0195",
+  "text": "|"
+ },
+ {
+  "locator": "P0196",
+  "text": "Media Relations Contact:"
+ },
+ {
+  "locator": "P0197",
+  "text": "|"
+ },
+ {
+  "locator": "P0198",
+  "text": "ICR"
+ },
+ {
+  "locator": "P0199",
+  "text": "Katie Turner"
+ },
+ {
+  "locator": "P0200",
+  "text": "katie.turner@icrinc.com"
+ },
+ {
+  "locator": "P0201",
+  "text": "Jeff Sonnek"
+ },
+ {
+  "locator": "P0202",
+  "text": "646-277-1263"
+ },
+ {
+  "locator": "P0203",
+  "text": "jeff.sonnek@icrinc.com"
+ },
+ {
+  "locator": "P0204",
+  "text": "|"
+ },
+ {
+  "locator": "P0205",
+  "text": "ICR"
+ },
+ {
+  "locator": "P0206",
+  "text": "Cory Ziskind"
+ },
+ {
+  "locator": "P0207",
+  "text": "cory.ziskind@icrinc.com"
+ },
+ {
+  "locator": "P0208",
+  "text": "646-277-1232"
+ },
+ {
+  "locator": "P0209",
+  "text": "PetIQ, Inc."
+ },
+ {
+  "locator": "P0210",
+  "text": "Condensed Consolidated Balance Sheets"
+ },
+ {
+  "locator": "P0211",
+  "text": "(Unaudited, $’s in 000’s except for share and per share amounts)"
+ },
+ {
+  "locator": "P0212",
+  "text": "|"
+ },
+ {
+  "locator": "P0213",
+  "text": "|"
+ },
+ {
+  "locator": "P0214",
+  "text": "|"
+ },
+ {
+  "locator": "P0215",
+  "text": "|"
+ },
+ {
+  "locator": "P0216",
+  "text": "|"
+ },
+ {
+  "locator": "P0217",
+  "text": "|"
+ },
+ {
+  "locator": "P0218",
+  "text": "|"
+ },
+ {
+  "locator": "P0219",
+  "text": "|"
+ },
+ {
+  "locator": "P0220",
+  "text": "|"
+ },
+ {
+  "locator": "P0221",
+  "text": "|"
+ },
+ {
+  "locator": "P0222",
+  "text": "|"
+ },
+ {
+  "locator": "P0223",
+  "text": "|"
+ },
+ {
+  "locator": "P0224",
+  "text": "|"
+ },
+ {
+  "locator": "P0225",
+  "text": "|"
+ },
+ {
+  "locator": "P0226",
+  "text": "|"
+ },
+ {
+  "locator": "P0227",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P0228",
+  "text": "|"
+ },
+ {
+  "locator": "P0229",
+  "text": "|"
+ },
+ {
+  "locator": "P0230",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P0231",
+  "text": "|"
+ },
+ {
+  "locator": "P0232",
+  "text": "|"
+ },
+ {
+  "locator": "P0233",
+  "text": "Current assets"
+ },
+ {
+  "locator": "P0234",
+  "text": "|"
+ },
+ {
+  "locator": "P0235",
+  "text": "|"
+ },
+ {
+  "locator": "P0236",
+  "text": "|"
+ },
+ {
+  "locator": "P0237",
+  "text": "|"
+ },
+ {
+  "locator": "P0238",
+  "text": "|"
+ },
+ {
+  "locator": "P0239",
+  "text": "|"
+ },
+ {
+  "locator": "P0240",
+  "text": "|"
+ },
+ {
+  "locator": "P0241",
+  "text": "|"
+ },
+ {
+  "locator": "P0242",
+  "text": "Cash and cash equivalents"
+ },
+ {
+  "locator": "P0243",
+  "text": "|"
+ },
+ {
+  "locator": "P0244",
+  "text": "|"
+ },
+ {
+  "locator": "P0245",
+  "text": "$"
+ },
+ {
+  "locator": "P0246",
+  "text": "|"
+ },
+ {
+  "locator": "P0247",
+  "text": "66,360"
+ },
+ {
+  "locator": "P0248",
+  "text": "|"
+ },
+ {
+  "locator": "P0249",
+  "text": "|"
+ },
+ {
+  "locator": "P0250",
+  "text": "$"
+ },
+ {
+  "locator": "P0251",
+  "text": "|"
+ },
+ {
+  "locator": "P0252",
+  "text": "37,896"
+ },
+ {
+  "locator": "P0253",
+  "text": "|"
+ },
+ {
+  "locator": "P0254",
+  "text": "|"
+ },
+ {
+  "locator": "P0255",
+  "text": "Accounts receivable, net"
+ },
+ {
+  "locator": "P0256",
+  "text": "|"
+ },
+ {
+  "locator": "P0257",
+  "text": "|"
+ },
+ {
+  "locator": "P0258",
+  "text": "|"
+ },
+ {
+  "locator": "P0259",
+  "text": "45,007"
+ },
+ {
+  "locator": "P0260",
+  "text": "|"
+ },
+ {
+  "locator": "P0261",
+  "text": "|"
+ },
+ {
+  "locator": "P0262",
+  "text": "|"
+ },
+ {
+  "locator": "P0263",
+  "text": "21,759"
+ },
+ {
+  "locator": "P0264",
+  "text": "|"
+ },
+ {
+  "locator": "P0265",
+  "text": "|"
+ },
+ {
+  "locator": "P0266",
+  "text": "Inventories"
+ },
+ {
+  "locator": "P0267",
+  "text": "|"
+ },
+ {
+  "locator": "P0268",
+  "text": "|"
+ },
+ {
+  "locator": "P0269",
+  "text": "|"
+ },
+ {
+  "locator": "P0270",
+  "text": "92,142"
+ },
+ {
+  "locator": "P0271",
+  "text": "|"
+ },
+ {
+  "locator": "P0272",
+  "text": "|"
+ },
+ {
+  "locator": "P0273",
+  "text": "|"
+ },
+ {
+  "locator": "P0274",
+  "text": "44,056"
+ },
+ {
+  "locator": "P0275",
+  "text": "|"
+ },
+ {
+  "locator": "P0276",
+  "text": "|"
+ },
+ {
+  "locator": "P0277",
+  "text": "Other current assets"
+ },
+ {
+  "locator": "P0278",
+  "text": "|"
+ },
+ {
+  "locator": "P0279",
+  "text": "|"
+ },
+ {
+  "locator": "P0280",
+  "text": "|"
+ },
+ {
+  "locator": "P0281",
+  "text": "4,212"
+ },
+ {
+  "locator": "P0282",
+  "text": "|"
+ },
+ {
+  "locator": "P0283",
+  "text": "|"
+ },
+ {
+  "locator": "P0284",
+  "text": "|"
+ },
+ {
+  "locator": "P0285",
+  "text": "5,164"
+ },
+ {
+  "locator": "P0286",
+  "text": "|"
+ },
+ {
+  "locator": "P0287",
+  "text": "|"
+ },
+ {
+  "locator": "P0288",
+  "text": "Total current assets"
+ },
+ {
+  "locator": "P0289",
+  "text": "|"
+ },
+ {
+  "locator": "P0290",
+  "text": "|"
+ },
+ {
+  "locator": "P0291",
+  "text": "|"
+ },
+ {
+  "locator": "P0292",
+  "text": "207,721"
+ },
+ {
+  "locator": "P0293",
+  "text": "|"
+ },
+ {
+  "locator": "P0294",
+  "text": "|"
+ },
+ {
+  "locator": "P0295",
+  "text": "|"
+ },
+ {
+  "locator": "P0296",
+  "text": "108,875"
+ },
+ {
+  "locator": "P0297",
+  "text": "|"
+ },
+ {
+  "locator": "P0298",
+  "text": "|"
+ },
+ {
+  "locator": "P0299",
+  "text": "Property, plant and equipment, net"
+ },
+ {
+  "locator": "P0300",
+  "text": "|"
+ },
+ {
+  "locator": "P0301",
+  "text": "|"
+ },
+ {
+  "locator": "P0302",
+  "text": "|"
+ },
+ {
+  "locator": "P0303",
+  "text": "27,335"
+ },
+ {
+  "locator": "P0304",
+  "text": "|"
+ },
+ {
+  "locator": "P0305",
+  "text": "|"
+ },
+ {
+  "locator": "P0306",
+  "text": "|"
+ },
+ {
+  "locator": "P0307",
+  "text": "15,000"
+ },
+ {
+  "locator": "P0308",
+  "text": "|"
+ },
+ {
+  "locator": "P0309",
+  "text": "|"
+ },
+ {
+  "locator": "P0310",
+  "text": "Deferred tax assets"
+ },
+ {
+  "locator": "P0311",
+  "text": "|"
+ },
+ {
+  "locator": "P0312",
+  "text": "|"
+ },
+ {
+  "locator": "P0313",
+  "text": "|"
+ },
+ {
+  "locator": "P0314",
+  "text": "43,946"
+ },
+ {
+  "locator": "P0315",
+  "text": "|"
+ },
+ {
+  "locator": "P0316",
+  "text": "|"
+ },
+ {
+  "locator": "P0317",
+  "text": "|"
+ },
+ {
+  "locator": "P0318",
+  "text": "5,994"
+ },
+ {
+  "locator": "P0319",
+  "text": "|"
+ },
+ {
+  "locator": "P0320",
+  "text": "|"
+ },
+ {
+  "locator": "P0321",
+  "text": "Other non-current assets"
+ },
+ {
+  "locator": "P0322",
+  "text": "|"
+ },
+ {
+  "locator": "P0323",
+  "text": "|"
+ },
+ {
+  "locator": "P0324",
+  "text": "|"
+ },
+ {
+  "locator": "P0325",
+  "text": "2,857"
+ },
+ {
+  "locator": "P0326",
+  "text": "|"
+ },
+ {
+  "locator": "P0327",
+  "text": "|"
+ },
+ {
+  "locator": "P0328",
+  "text": "|"
+ },
+ {
+  "locator": "P0329",
+  "text": "2,646"
+ },
+ {
+  "locator": "P0330",
+  "text": "|"
+ },
+ {
+  "locator": "P0331",
+  "text": "|"
+ },
+ {
+  "locator": "P0332",
+  "text": "Intangible assets, net"
+ },
+ {
+  "locator": "P0333",
+  "text": "|"
+ },
+ {
+  "locator": "P0334",
+  "text": "|"
+ },
+ {
+  "locator": "P0335",
+  "text": "|"
+ },
+ {
+  "locator": "P0336",
+  "text": "88,546"
+ },
+ {
+  "locator": "P0337",
+  "text": "|"
+ },
+ {
+  "locator": "P0338",
+  "text": "|"
+ },
+ {
+  "locator": "P0339",
+  "text": "|"
+ },
+ {
+  "locator": "P0340",
+  "text": "3,266"
+ },
+ {
+  "locator": "P0341",
+  "text": "|"
+ },
+ {
+  "locator": "P0342",
+  "text": "|"
+ },
+ {
+  "locator": "P0343",
+  "text": "Goodwill"
+ },
+ {
+  "locator": "P0344",
+  "text": "|"
+ },
+ {
+  "locator": "P0345",
+  "text": "|"
+ },
+ {
+  "locator": "P0346",
+  "text": "|"
+ },
+ {
+  "locator": "P0347",
+  "text": "125,029"
+ },
+ {
+  "locator": "P0348",
+  "text": "|"
+ },
+ {
+  "locator": "P0349",
+  "text": "|"
+ },
+ {
+  "locator": "P0350",
+  "text": "|"
+ },
+ {
+  "locator": "P0351",
+  "text": "5,064"
+ },
+ {
+  "locator": "P0352",
+  "text": "|"
+ },
+ {
+  "locator": "P0353",
+  "text": "|"
+ },
+ {
+  "locator": "P0354",
+  "text": "Total assets"
+ },
+ {
+  "locator": "P0355",
+  "text": "|"
+ },
+ {
+  "locator": "P0356",
+  "text": "|"
+ },
+ {
+  "locator": "P0357",
+  "text": "$"
+ },
+ {
+  "locator": "P0358",
+  "text": "|"
+ },
+ {
+  "locator": "P0359",
+  "text": "495,434"
+ },
+ {
+  "locator": "P0360",
+  "text": "|"
+ },
+ {
+  "locator": "P0361",
+  "text": "|"
+ },
+ {
+  "locator": "P0362",
+  "text": "$"
+ },
+ {
+  "locator": "P0363",
+  "text": "|"
+ },
+ {
+  "locator": "P0364",
+  "text": "140,845"
+ },
+ {
+  "locator": "P0365",
+  "text": "|"
+ },
+ {
+  "locator": "P0366",
+  "text": "|"
+ },
+ {
+  "locator": "P0367",
+  "text": "Liabilities and equity"
+ },
+ {
+  "locator": "P0368",
+  "text": "|"
+ },
+ {
+  "locator": "P0369",
+  "text": "|"
+ },
+ {
+  "locator": "P0370",
+  "text": "|"
+ },
+ {
+  "locator": "P0371",
+  "text": "|"
+ },
+ {
+  "locator": "P0372",
+  "text": "|"
+ },
+ {
+  "locator": "P0373",
+  "text": "|"
+ },
+ {
+  "locator": "P0374",
+  "text": "|"
+ },
+ {
+  "locator": "P0375",
+  "text": "|"
+ },
+ {
+  "locator": "P0376",
+  "text": "Current liabilities"
+ },
+ {
+  "locator": "P0377",
+  "text": "|"
+ },
+ {
+  "locator": "P0378",
+  "text": "|"
+ },
+ {
+  "locator": "P0379",
+  "text": "|"
+ },
+ {
+  "locator": "P0380",
+  "text": "|"
+ },
+ {
+  "locator": "P0381",
+  "text": "|"
+ },
+ {
+  "locator": "P0382",
+  "text": "|"
+ },
+ {
+  "locator": "P0383",
+  "text": "|"
+ },
+ {
+  "locator": "P0384",
+  "text": "|"
+ },
+ {
+  "locator": "P0385",
+  "text": "Accounts payable"
+ },
+ {
+  "locator": "P0386",
+  "text": "|"
+ },
+ {
+  "locator": "P0387",
+  "text": "|"
+ },
+ {
+  "locator": "P0388",
+  "text": "$"
+ },
+ {
+  "locator": "P0389",
+  "text": "|"
+ },
+ {
+  "locator": "P0390",
+  "text": "54,768"
+ },
+ {
+  "locator": "P0391",
+  "text": "|"
+ },
+ {
+  "locator": "P0392",
+  "text": "|"
+ },
+ {
+  "locator": "P0393",
+  "text": "$"
+ },
+ {
+  "locator": "P0394",
+  "text": "|"
+ },
+ {
+  "locator": "P0395",
+  "text": "14,234"
+ },
+ {
+  "locator": "P0396",
+  "text": "|"
+ },
+ {
+  "locator": "P0397",
+  "text": "|"
+ },
+ {
+  "locator": "P0398",
+  "text": "Accrued wages payable"
+ },
+ {
+  "locator": "P0399",
+  "text": "|"
+ },
+ {
+  "locator": "P0400",
+  "text": "|"
+ },
+ {
+  "locator": "P0401",
+  "text": "|"
+ },
+ {
+  "locator": "P0402",
+  "text": "5,295"
+ },
+ {
+  "locator": "P0403",
+  "text": "|"
+ },
+ {
+  "locator": "P0404",
+  "text": "|"
+ },
+ {
+  "locator": "P0405",
+  "text": "|"
+ },
+ {
+  "locator": "P0406",
+  "text": "1,811"
+ },
+ {
+  "locator": "P0407",
+  "text": "|"
+ },
+ {
+  "locator": "P0408",
+  "text": "|"
+ },
+ {
+  "locator": "P0409",
+  "text": "Accrued interest payable"
+ },
+ {
+  "locator": "P0410",
+  "text": "|"
+ },
+ {
+  "locator": "P0411",
+  "text": "|"
+ },
+ {
+  "locator": "P0412",
+  "text": "|"
+ },
+ {
+  "locator": "P0413",
+  "text": "728"
+ },
+ {
+  "locator": "P0414",
+  "text": "|"
+ },
+ {
+  "locator": "P0415",
+  "text": "|"
+ },
+ {
+  "locator": "P0416",
+  "text": "|"
+ },
+ {
+  "locator": "P0417",
+  "text": "115"
+ },
+ {
+  "locator": "P0418",
+  "text": "|"
+ },
+ {
+  "locator": "P0419",
+  "text": "|"
+ },
+ {
+  "locator": "P0420",
+  "text": "Other accrued expenses"
+ },
+ {
+  "locator": "P0421",
+  "text": "|"
+ },
+ {
+  "locator": "P0422",
+  "text": "|"
+ },
+ {
+  "locator": "P0423",
+  "text": "|"
+ },
+ {
+  "locator": "P0424",
+  "text": "1,154"
+ },
+ {
+  "locator": "P0425",
+  "text": "|"
+ },
+ {
+  "locator": "P0426",
+  "text": "|"
+ },
+ {
+  "locator": "P0427",
+  "text": "|"
+ },
+ {
+  "locator": "P0428",
+  "text": "1,880"
+ },
+ {
+  "locator": "P0429",
+  "text": "|"
+ },
+ {
+  "locator": "P0430",
+  "text": "|"
+ },
+ {
+  "locator": "P0431",
+  "text": "Current portion of long-term debt and capital leases"
+ },
+ {
+  "locator": "P0432",
+  "text": "|"
+ },
+ {
+  "locator": "P0433",
+  "text": "|"
+ },
+ {
+  "locator": "P0434",
+  "text": "|"
+ },
+ {
+  "locator": "P0435",
+  "text": "2,251"
+ },
+ {
+  "locator": "P0436",
+  "text": "|"
+ },
+ {
+  "locator": "P0437",
+  "text": "|"
+ },
+ {
+  "locator": "P0438",
+  "text": "|"
+ },
+ {
+  "locator": "P0439",
+  "text": "151"
+ },
+ {
+  "locator": "P0440",
+  "text": "|"
+ },
+ {
+  "locator": "P0441",
+  "text": "|"
+ },
+ {
+  "locator": "P0442",
+  "text": "Total current liabilities"
+ },
+ {
+  "locator": "P0443",
+  "text": "|"
+ },
+ {
+  "locator": "P0444",
+  "text": "|"
+ },
+ {
+  "locator": "P0445",
+  "text": "|"
+ },
+ {
+  "locator": "P0446",
+  "text": "64,196"
+ },
+ {
+  "locator": "P0447",
+  "text": "|"
+ },
+ {
+  "locator": "P0448",
+  "text": "|"
+ },
+ {
+  "locator": "P0449",
+  "text": "|"
+ },
+ {
+  "locator": "P0450",
+  "text": "18,191"
+ },
+ {
+  "locator": "P0451",
+  "text": "|"
+ },
+ {
+  "locator": "P0452",
+  "text": "|"
+ },
+ {
+  "locator": "P0453",
+  "text": "Long-term debt"
+ },
+ {
+  "locator": "P0454",
+  "text": "|"
+ },
+ {
+  "locator": "P0455",
+  "text": "|"
+ },
+ {
+  "locator": "P0456",
+  "text": "|"
+ },
+ {
+  "locator": "P0457",
+  "text": "107,418"
+ },
+ {
+  "locator": "P0458",
+  "text": "|"
+ },
+ {
+  "locator": "P0459",
+  "text": "|"
+ },
+ {
+  "locator": "P0460",
+  "text": "|"
+ },
+ {
+  "locator": "P0461",
+  "text": "17,183"
+ },
+ {
+  "locator": "P0462",
+  "text": "|"
+ },
+ {
+  "locator": "P0463",
+  "text": "|"
+ },
+ {
+  "locator": "P0464",
+  "text": "Capital leases, less current installments"
+ },
+ {
+  "locator": "P0465",
+  "text": "|"
+ },
+ {
+  "locator": "P0466",
+  "text": "|"
+ },
+ {
+  "locator": "P0467",
+  "text": "|"
+ },
+ {
+  "locator": "P0468",
+  "text": "2,319"
+ },
+ {
+  "locator": "P0469",
+  "text": "|"
+ },
+ {
+  "locator": "P0470",
+  "text": "|"
+ },
+ {
+  "locator": "P0471",
+  "text": "|"
+ },
+ {
+  "locator": "P0472",
+  "text": "389"
+ },
+ {
+  "locator": "P0473",
+  "text": "|"
+ },
+ {
+  "locator": "P0474",
+  "text": "|"
+ },
+ {
+  "locator": "P0475",
+  "text": "Other non-current liabilities"
+ },
+ {
+  "locator": "P0476",
+  "text": "|"
+ },
+ {
+  "locator": "P0477",
+  "text": "|"
+ },
+ {
+  "locator": "P0478",
+  "text": "|"
+ },
+ {
+  "locator": "P0479",
+  "text": "524"
+ },
+ {
+  "locator": "P0480",
+  "text": "|"
+ },
+ {
+  "locator": "P0481",
+  "text": "|"
+ },
+ {
+  "locator": "P0482",
+  "text": "|"
+ },
+ {
+  "locator": "P0483",
+  "text": "238"
+ },
+ {
+  "locator": "P0484",
+  "text": "|"
+ },
+ {
+  "locator": "P0485",
+  "text": "|"
+ },
+ {
+  "locator": "P0486",
+  "text": "Total non-current liabilities"
+ },
+ {
+  "locator": "P0487",
+  "text": "|"
+ },
+ {
+  "locator": "P0488",
+  "text": "|"
+ },
+ {
+  "locator": "P0489",
+  "text": "|"
+ },
+ {
+  "locator": "P0490",
+  "text": "110,261"
+ },
+ {
+  "locator": "P0491",
+  "text": "|"
+ },
+ {
+  "locator": "P0492",
+  "text": "|"
+ },
+ {
+  "locator": "P0493",
+  "text": "|"
+ },
+ {
+  "locator": "P0494",
+  "text": "17,810"
+ },
+ {
+  "locator": "P0495",
+  "text": "|"
+ },
+ {
+  "locator": "P0496",
+  "text": "|"
+ },
+ {
+  "locator": "P0497",
+  "text": "Commitments and contingencies"
+ },
+ {
+  "locator": "P0498",
+  "text": "|"
+ },
+ {
+  "locator": "P0499",
+  "text": "|"
+ },
+ {
+  "locator": "P0500",
+  "text": "|"
+ },
+ {
+  "locator": "P0501",
+  "text": "|"
+ },
+ {
+  "locator": "P0502",
+  "text": "|"
+ },
+ {
+  "locator": "P0503",
+  "text": "|"
+ },
+ {
+  "locator": "P0504",
+  "text": "|"
+ },
+ {
+  "locator": "P0505",
+  "text": "|"
+ },
+ {
+  "locator": "P0506",
+  "text": "Equity"
+ },
+ {
+  "locator": "P0507",
+  "text": "|"
+ },
+ {
+  "locator": "P0508",
+  "text": "|"
+ },
+ {
+  "locator": "P0509",
+  "text": "|"
+ },
+ {
+  "locator": "P0510",
+  "text": "|"
+ },
+ {
+  "locator": "P0511",
+  "text": "|"
+ },
+ {
+  "locator": "P0512",
+  "text": "|"
+ },
+ {
+  "locator": "P0513",
+  "text": "|"
+ },
+ {
+  "locator": "P0514",
+  "text": "|"
+ },
+ {
+  "locator": "P0515",
+  "text": "Additional paid-in capital"
+ },
+ {
+  "locator": "P0516",
+  "text": "|"
+ },
+ {
+  "locator": "P0517",
+  "text": "|"
+ },
+ {
+  "locator": "P0518",
+  "text": "|"
+ },
+ {
+  "locator": "P0519",
+  "text": "262,219"
+ },
+ {
+  "locator": "P0520",
+  "text": "|"
+ },
+ {
+  "locator": "P0521",
+  "text": "|"
+ },
+ {
+  "locator": "P0522",
+  "text": "|"
+ },
+ {
+  "locator": "P0523",
+  "text": "70,873"
+ },
+ {
+  "locator": "P0524",
+  "text": "|"
+ },
+ {
+  "locator": "P0525",
+  "text": "|"
+ },
+ {
+  "locator": "P0526",
+  "text": "Class A common stock, par value $0.001 per share, 125,000,000 shares authorized, 21,619,875 and 13,222,583 shares issued and outstanding at December 31, 2018 and December 31, 2017, respectively"
+ },
+ {
+  "locator": "P0527",
+  "text": "|"
+ },
+ {
+  "locator": "P0528",
+  "text": "|"
+ },
+ {
+  "locator": "P0529",
+  "text": "|"
+ },
+ {
+  "locator": "P0530",
+  "text": "22"
+ },
+ {
+  "locator": "P0531",
+  "text": "|"
+ },
+ {
+  "locator": "P0532",
+  "text": "|"
+ },
+ {
+  "locator": "P0533",
+  "text": "|"
+ },
+ {
+  "locator": "P0534",
+  "text": "13"
+ },
+ {
+  "locator": "P0535",
+  "text": "|"
+ },
+ {
+  "locator": "P0536",
+  "text": "|"
+ },
+ {
+  "locator": "P0537",
+  "text": "Class B common stock, par value $0.001 per share, 100,000,000 and 100,000,000 shares authorized, 6,546,791 and 8,268,188 shares issued and outstanding at December 31, 2018 and December 31, 2017, respectively"
+ },
+ {
+  "locator": "P0538",
+  "text": "|"
+ },
+ {
+  "locator": "P0539",
+  "text": "|"
+ },
+ {
+  "locator": "P0540",
+  "text": "|"
+ },
+ {
+  "locator": "P0541",
+  "text": "7"
+ },
+ {
+  "locator": "P0542",
+  "text": "|"
+ },
+ {
+  "locator": "P0543",
+  "text": "|"
+ },
+ {
+  "locator": "P0544",
+  "text": "|"
+ },
+ {
+  "locator": "P0545",
+  "text": "8"
+ },
+ {
+  "locator": "P0546",
+  "text": "|"
+ },
+ {
+  "locator": "P0547",
+  "text": "|"
+ },
+ {
+  "locator": "P0548",
+  "text": "Accumulated deficit"
+ },
+ {
+  "locator": "P0549",
+  "text": "|"
+ },
+ {
+  "locator": "P0550",
+  "text": "|"
+ },
+ {
+  "locator": "P0551",
+  "text": "|"
+ },
+ {
+  "locator": "P0552",
+  "text": "(4,450)"
+ },
+ {
+  "locator": "P0553",
+  "text": "|"
+ },
+ {
+  "locator": "P0554",
+  "text": "|"
+ },
+ {
+  "locator": "P0555",
+  "text": "|"
+ },
+ {
+  "locator": "P0556",
+  "text": "(3,493)"
+ },
+ {
+  "locator": "P0557",
+  "text": "|"
+ },
+ {
+  "locator": "P0558",
+  "text": "|"
+ },
+ {
+  "locator": "P0559",
+  "text": "Accumulated other comprehensive loss"
+ },
+ {
+  "locator": "P0560",
+  "text": "|"
+ },
+ {
+  "locator": "P0561",
+  "text": "|"
+ },
+ {
+  "locator": "P0562",
+  "text": "|"
+ },
+ {
+  "locator": "P0563",
+  "text": "(1,316)"
+ },
+ {
+  "locator": "P0564",
+  "text": "|"
+ },
+ {
+  "locator": "P0565",
+  "text": "|"
+ },
+ {
+  "locator": "P0566",
+  "text": "|"
+ },
+ {
+  "locator": "P0567",
+  "text": "(687)"
+ },
+ {
+  "locator": "P0568",
+  "text": "|"
+ },
+ {
+  "locator": "P0569",
+  "text": "|"
+ },
+ {
+  "locator": "P0570",
+  "text": "Total stockholders' equity"
+ },
+ {
+  "locator": "P0571",
+  "text": "|"
+ },
+ {
+  "locator": "P0572",
+  "text": "|"
+ },
+ {
+  "locator": "P0573",
+  "text": "|"
+ },
+ {
+  "locator": "P0574",
+  "text": "256,481"
+ },
+ {
+  "locator": "P0575",
+  "text": "|"
+ },
+ {
+  "locator": "P0576",
+  "text": "|"
+ },
+ {
+  "locator": "P0577",
+  "text": "|"
+ },
+ {
+  "locator": "P0578",
+  "text": "66,714"
+ },
+ {
+  "locator": "P0579",
+  "text": "|"
+ },
+ {
+  "locator": "P0580",
+  "text": "|"
+ },
+ {
+  "locator": "P0581",
+  "text": "Non-controlling interest"
+ },
+ {
+  "locator": "P0582",
+  "text": "|"
+ },
+ {
+  "locator": "P0583",
+  "text": "|"
+ },
+ {
+  "locator": "P0584",
+  "text": "|"
+ },
+ {
+  "locator": "P0585",
+  "text": "64,496"
+ },
+ {
+  "locator": "P0586",
+  "text": "|"
+ },
+ {
+  "locator": "P0587",
+  "text": "|"
+ },
+ {
+  "locator": "P0588",
+  "text": "|"
+ },
+ {
+  "locator": "P0589",
+  "text": "38,130"
+ },
+ {
+  "locator": "P0590",
+  "text": "|"
+ },
+ {
+  "locator": "P0591",
+  "text": "|"
+ },
+ {
+  "locator": "P0592",
+  "text": "Total equity"
+ },
+ {
+  "locator": "P0593",
+  "text": "|"
+ },
+ {
+  "locator": "P0594",
+  "text": "|"
+ },
+ {
+  "locator": "P0595",
+  "text": "|"
+ },
+ {
+  "locator": "P0596",
+  "text": "320,977"
+ },
+ {
+  "locator": "P0597",
+  "text": "|"
+ },
+ {
+  "locator": "P0598",
+  "text": "|"
+ },
+ {
+  "locator": "P0599",
+  "text": "|"
+ },
+ {
+  "locator": "P0600",
+  "text": "104,844"
+ },
+ {
+  "locator": "P0601",
+  "text": "|"
+ },
+ {
+  "locator": "P0602",
+  "text": "|"
+ },
+ {
+  "locator": "P0603",
+  "text": "Total liabilities and equity"
+ },
+ {
+  "locator": "P0604",
+  "text": "|"
+ },
+ {
+  "locator": "P0605",
+  "text": "|"
+ },
+ {
+  "locator": "P0606",
+  "text": "$"
+ },
+ {
+  "locator": "P0607",
+  "text": "|"
+ },
+ {
+  "locator": "P0608",
+  "text": "495,434"
+ },
+ {
+  "locator": "P0609",
+  "text": "|"
+ },
+ {
+  "locator": "P0610",
+  "text": "|"
+ },
+ {
+  "locator": "P0611",
+  "text": "$"
+ },
+ {
+  "locator": "P0612",
+  "text": "|"
+ },
+ {
+  "locator": "P0613",
+  "text": "140,845"
+ },
+ {
+  "locator": "P0614",
+  "text": "|"
+ },
+ {
+  "locator": "P0615",
+  "text": "PetIQ, Inc."
+ },
+ {
+  "locator": "P0616",
+  "text": "Condensed Consolidated Statements of Income"
+ },
+ {
+  "locator": "P0617",
+  "text": "(Unaudited, $’s in 000’s, except for per share amounts)"
+ },
+ {
+  "locator": "P0618",
+  "text": "|"
+ },
+ {
+  "locator": "P0619",
+  "text": "|"
+ },
+ {
+  "locator": "P0620",
+  "text": "|"
+ },
+ {
+  "locator": "P0621",
+  "text": "|"
+ },
+ {
+  "locator": "P0622",
+  "text": "|"
+ },
+ {
+  "locator": "P0623",
+  "text": "|"
+ },
+ {
+  "locator": "P0624",
+  "text": "|"
+ },
+ {
+  "locator": "P0625",
+  "text": "|"
+ },
+ {
+  "locator": "P0626",
+  "text": "|"
+ },
+ {
+  "locator": "P0627",
+  "text": "|"
+ },
+ {
+  "locator": "P0628",
+  "text": "|"
+ },
+ {
+  "locator": "P0629",
+  "text": "|"
+ },
+ {
+  "locator": "P0630",
+  "text": "|"
+ },
+ {
+  "locator": "P0631",
+  "text": "|"
+ },
+ {
+  "locator": "P0632",
+  "text": "|"
+ },
+ {
+  "locator": "P0633",
+  "text": "|"
+ },
+ {
+  "locator": "P0634",
+  "text": "Three months ended"
+ },
+ {
+  "locator": "P0635",
+  "text": "|"
+ },
+ {
+  "locator": "P0636",
+  "text": "|"
+ },
+ {
+  "locator": "P0637",
+  "text": "Year ended"
+ },
+ {
+  "locator": "P0638",
+  "text": "|"
+ },
+ {
+  "locator": "P0639",
+  "text": "|"
+ },
+ {
+  "locator": "P0640",
+  "text": "|"
+ },
+ {
+  "locator": "P0641",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P0642",
+  "text": "|"
+ },
+ {
+  "locator": "P0643",
+  "text": "|"
+ },
+ {
+  "locator": "P0644",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P0645",
+  "text": "|"
+ },
+ {
+  "locator": "P0646",
+  "text": "|"
+ },
+ {
+  "locator": "P0647",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P0648",
+  "text": "|"
+ },
+ {
+  "locator": "P0649",
+  "text": "|"
+ },
+ {
+  "locator": "P0650",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P0651",
+  "text": "|"
+ },
+ {
+  "locator": "P0652",
+  "text": "|"
+ },
+ {
+  "locator": "P0653",
+  "text": "|"
+ },
+ {
+  "locator": "P0654",
+  "text": "|"
+ },
+ {
+  "locator": "P0655",
+  "text": "|"
+ },
+ {
+  "locator": "P0656",
+  "text": "|"
+ },
+ {
+  "locator": "P0657",
+  "text": "|"
+ },
+ {
+  "locator": "P0658",
+  "text": "|"
+ },
+ {
+  "locator": "P0659",
+  "text": "|"
+ },
+ {
+  "locator": "P0660",
+  "text": "|"
+ },
+ {
+  "locator": "P0661",
+  "text": "|"
+ },
+ {
+  "locator": "P0662",
+  "text": "|"
+ },
+ {
+  "locator": "P0663",
+  "text": "|"
+ },
+ {
+  "locator": "P0664",
+  "text": "|"
+ },
+ {
+  "locator": "P0665",
+  "text": "Product sales"
+ },
+ {
+  "locator": "P0666",
+  "text": "|"
+ },
+ {
+  "locator": "P0667",
+  "text": "|"
+ },
+ {
+  "locator": "P0668",
+  "text": "$"
+ },
+ {
+  "locator": "P0669",
+  "text": "|"
+ },
+ {
+  "locator": "P0670",
+  "text": "95,141"
+ },
+ {
+  "locator": "P0671",
+  "text": "|"
+ },
+ {
+  "locator": "P0672",
+  "text": "|"
+ },
+ {
+  "locator": "P0673",
+  "text": "$"
+ },
+ {
+  "locator": "P0674",
+  "text": "|"
+ },
+ {
+  "locator": "P0675",
+  "text": "51,926"
+ },
+ {
+  "locator": "P0676",
+  "text": "|"
+ },
+ {
+  "locator": "P0677",
+  "text": "|"
+ },
+ {
+  "locator": "P0678",
+  "text": "$"
+ },
+ {
+  "locator": "P0679",
+  "text": "|"
+ },
+ {
+  "locator": "P0680",
+  "text": "450,229"
+ },
+ {
+  "locator": "P0681",
+  "text": "|"
+ },
+ {
+  "locator": "P0682",
+  "text": "|"
+ },
+ {
+  "locator": "P0683",
+  "text": "$"
+ },
+ {
+  "locator": "P0684",
+  "text": "|"
+ },
+ {
+  "locator": "P0685",
+  "text": "266,687"
+ },
+ {
+  "locator": "P0686",
+  "text": "|"
+ },
+ {
+  "locator": "P0687",
+  "text": "Services revenue"
+ },
+ {
+  "locator": "P0688",
+  "text": "|"
+ },
+ {
+  "locator": "P0689",
+  "text": "|"
+ },
+ {
+  "locator": "P0690",
+  "text": "|"
+ },
+ {
+  "locator": "P0691",
+  "text": "15,883"
+ },
+ {
+  "locator": "P0692",
+  "text": "|"
+ },
+ {
+  "locator": "P0693",
+  "text": "|"
+ },
+ {
+  "locator": "P0694",
+  "text": "|"
+ },
+ {
+  "locator": "P0695",
+  "text": "—"
+ },
+ {
+  "locator": "P0696",
+  "text": "|"
+ },
+ {
+  "locator": "P0697",
+  "text": "|"
+ },
+ {
+  "locator": "P0698",
+  "text": "|"
+ },
+ {
+  "locator": "P0699",
+  "text": "78,385"
+ },
+ {
+  "locator": "P0700",
+  "text": "|"
+ },
+ {
+  "locator": "P0701",
+  "text": "|"
+ },
+ {
+  "locator": "P0702",
+  "text": "|"
+ },
+ {
+  "locator": "P0703",
+  "text": "—"
+ },
+ {
+  "locator": "P0704",
+  "text": "|"
+ },
+ {
+  "locator": "P0705",
+  "text": "Total net sales"
+ },
+ {
+  "locator": "P0706",
+  "text": "|"
+ },
+ {
+  "locator": "P0707",
+  "text": "|"
+ },
+ {
+  "locator": "P0708",
+  "text": "|"
+ },
+ {
+  "locator": "P0709",
+  "text": "111,024"
+ },
+ {
+  "locator": "P0710",
+  "text": "|"
+ },
+ {
+  "locator": "P0711",
+  "text": "|"
+ },
+ {
+  "locator": "P0712",
+  "text": "|"
+ },
+ {
+  "locator": "P0713",
+  "text": "51,926"
+ },
+ {
+  "locator": "P0714",
+  "text": "|"
+ },
+ {
+  "locator": "P0715",
+  "text": "|"
+ },
+ {
+  "locator": "P0716",
+  "text": "|"
+ },
+ {
+  "locator": "P0717",
+  "text": "528,614"
+ },
+ {
+  "locator": "P0718",
+  "text": "|"
+ },
+ {
+  "locator": "P0719",
+  "text": "|"
+ },
+ {
+  "locator": "P0720",
+  "text": "|"
+ },
+ {
+  "locator": "P0721",
+  "text": "266,687"
+ },
+ {
+  "locator": "P0722",
+  "text": "|"
+ },
+ {
+  "locator": "P0723",
+  "text": "Cost of products sold"
+ },
+ {
+  "locator": "P0724",
+  "text": "|"
+ },
+ {
+  "locator": "P0725",
+  "text": "|"
+ },
+ {
+  "locator": "P0726",
+  "text": "|"
+ },
+ {
+  "locator": "P0727",
+  "text": "81,177"
+ },
+ {
+  "locator": "P0728",
+  "text": "|"
+ },
+ {
+  "locator": "P0729",
+  "text": "|"
+ },
+ {
+  "locator": "P0730",
+  "text": "|"
+ },
+ {
+  "locator": "P0731",
+  "text": "41,400"
+ },
+ {
+  "locator": "P0732",
+  "text": "|"
+ },
+ {
+  "locator": "P0733",
+  "text": "|"
+ },
+ {
+  "locator": "P0734",
+  "text": "|"
+ },
+ {
+  "locator": "P0735",
+  "text": "383,501"
+ },
+ {
+  "locator": "P0736",
+  "text": "|"
+ },
+ {
+  "locator": "P0737",
+  "text": "|"
+ },
+ {
+  "locator": "P0738",
+  "text": "|"
+ },
+ {
+  "locator": "P0739",
+  "text": "215,493"
+ },
+ {
+  "locator": "P0740",
+  "text": "|"
+ },
+ {
+  "locator": "P0741",
+  "text": "Cost of services"
+ },
+ {
+  "locator": "P0742",
+  "text": "|"
+ },
+ {
+  "locator": "P0743",
+  "text": "|"
+ },
+ {
+  "locator": "P0744",
+  "text": "|"
+ },
+ {
+  "locator": "P0745",
+  "text": "12,942"
+ },
+ {
+  "locator": "P0746",
+  "text": "|"
+ },
+ {
+  "locator": "P0747",
+  "text": "|"
+ },
+ {
+  "locator": "P0748",
+  "text": "|"
+ },
+ {
+  "locator": "P0749",
+  "text": "—"
+ },
+ {
+  "locator": "P0750",
+  "text": "|"
+ },
+ {
+  "locator": "P0751",
+  "text": "|"
+ },
+ {
+  "locator": "P0752",
+  "text": "|"
+ },
+ {
+  "locator": "P0753",
+  "text": "61,825"
+ },
+ {
+  "locator": "P0754",
+  "text": "|"
+ },
+ {
+  "locator": "P0755",
+  "text": "|"
+ },
+ {
+  "locator": "P0756",
+  "text": "|"
+ },
+ {
+  "locator": "P0757",
+  "text": "—"
+ },
+ {
+  "locator": "P0758",
+  "text": "|"
+ },
+ {
+  "locator": "P0759",
+  "text": "Total cost of sales"
+ },
+ {
+  "locator": "P0760",
+  "text": "|"
+ },
+ {
+  "locator": "P0761",
+  "text": "|"
+ },
+ {
+  "locator": "P0762",
+  "text": "|"
+ },
+ {
+  "locator": "P0763",
+  "text": "94,119"
+ },
+ {
+  "locator": "P0764",
+  "text": "|"
+ },
+ {
+  "locator": "P0765",
+  "text": "|"
+ },
+ {
+  "locator": "P0766",
+  "text": "|"
+ },
+ {
+  "locator": "P0767",
+  "text": "41,400"
+ },
+ {
+  "locator": "P0768",
+  "text": "|"
+ },
+ {
+  "locator": "P0769",
+  "text": "|"
+ },
+ {
+  "locator": "P0770",
+  "text": "|"
+ },
+ {
+  "locator": "P0771",
+  "text": "445,326"
+ },
+ {
+  "locator": "P0772",
+  "text": "|"
+ },
+ {
+  "locator": "P0773",
+  "text": "|"
+ },
+ {
+  "locator": "P0774",
+  "text": "|"
+ },
+ {
+  "locator": "P0775",
+  "text": "215,493"
+ },
+ {
+  "locator": "P0776",
+  "text": "|"
+ },
+ {
+  "locator": "P0777",
+  "text": "Gross profit"
+ },
+ {
+  "locator": "P0778",
+  "text": "|"
+ },
+ {
+  "locator": "P0779",
+  "text": "|"
+ },
+ {
+  "locator": "P0780",
+  "text": "|"
+ },
+ {
+  "locator": "P0781",
+  "text": "16,905"
+ },
+ {
+  "locator": "P0782",
+  "text": "|"
+ },
+ {
+  "locator": "P0783",
+  "text": "|"
+ },
+ {
+  "locator": "P0784",
+  "text": "|"
+ },
+ {
+  "locator": "P0785",
+  "text": "10,526"
+ },
+ {
+  "locator": "P0786",
+  "text": "|"
+ },
+ {
+  "locator": "P0787",
+  "text": "|"
+ },
+ {
+  "locator": "P0788",
+  "text": "|"
+ },
+ {
+  "locator": "P0789",
+  "text": "83,288"
+ },
+ {
+  "locator": "P0790",
+  "text": "|"
+ },
+ {
+  "locator": "P0791",
+  "text": "|"
+ },
+ {
+  "locator": "P0792",
+  "text": "|"
+ },
+ {
+  "locator": "P0793",
+  "text": "51,194"
+ },
+ {
+  "locator": "P0794",
+  "text": "|"
+ },
+ {
+  "locator": "P0795",
+  "text": "Operating expenses"
+ },
+ {
+  "locator": "P0796",
+  "text": "|"
+ },
+ {
+  "locator": "P0797",
+  "text": "|"
+ },
+ {
+  "locator": "P0798",
+  "text": "|"
+ },
+ {
+  "locator": "P0799",
+  "text": "|"
+ },
+ {
+  "locator": "P0800",
+  "text": "|"
+ },
+ {
+  "locator": "P0801",
+  "text": "|"
+ },
+ {
+  "locator": "P0802",
+  "text": "|"
+ },
+ {
+  "locator": "P0803",
+  "text": "|"
+ },
+ {
+  "locator": "P0804",
+  "text": "|"
+ },
+ {
+  "locator": "P0805",
+  "text": "|"
+ },
+ {
+  "locator": "P0806",
+  "text": "|"
+ },
+ {
+  "locator": "P0807",
+  "text": "|"
+ },
+ {
+  "locator": "P0808",
+  "text": "|"
+ },
+ {
+  "locator": "P0809",
+  "text": "General and administrative expenses"
+ },
+ {
+  "locator": "P0810",
+  "text": "|"
+ },
+ {
+  "locator": "P0811",
+  "text": "|"
+ },
+ {
+  "locator": "P0812",
+  "text": "|"
+ },
+ {
+  "locator": "P0813",
+  "text": "18,728"
+ },
+ {
+  "locator": "P0814",
+  "text": "|"
+ },
+ {
+  "locator": "P0815",
+  "text": "|"
+ },
+ {
+  "locator": "P0816",
+  "text": "|"
+ },
+ {
+  "locator": "P0817",
+  "text": "10,484"
+ },
+ {
+  "locator": "P0818",
+  "text": "|"
+ },
+ {
+  "locator": "P0819",
+  "text": "|"
+ },
+ {
+  "locator": "P0820",
+  "text": "|"
+ },
+ {
+  "locator": "P0821",
+  "text": "72,260"
+ },
+ {
+  "locator": "P0822",
+  "text": "|"
+ },
+ {
+  "locator": "P0823",
+  "text": "|"
+ },
+ {
+  "locator": "P0824",
+  "text": "|"
+ },
+ {
+  "locator": "P0825",
+  "text": "37,905"
+ },
+ {
+  "locator": "P0826",
+  "text": "|"
+ },
+ {
+  "locator": "P0827",
+  "text": "Contingent note revaluation"
+ },
+ {
+  "locator": "P0828",
+  "text": "|"
+ },
+ {
+  "locator": "P0829",
+  "text": "|"
+ },
+ {
+  "locator": "P0830",
+  "text": "|"
+ },
+ {
+  "locator": "P0831",
+  "text": "3,030"
+ },
+ {
+  "locator": "P0832",
+  "text": "|"
+ },
+ {
+  "locator": "P0833",
+  "text": "|"
+ },
+ {
+  "locator": "P0834",
+  "text": "|"
+ },
+ {
+  "locator": "P0835",
+  "text": "—"
+ },
+ {
+  "locator": "P0836",
+  "text": "|"
+ },
+ {
+  "locator": "P0837",
+  "text": "|"
+ },
+ {
+  "locator": "P0838",
+  "text": "|"
+ },
+ {
+  "locator": "P0839",
+  "text": "3,280"
+ },
+ {
+  "locator": "P0840",
+  "text": "|"
+ },
+ {
+  "locator": "P0841",
+  "text": "|"
+ },
+ {
+  "locator": "P0842",
+  "text": "|"
+ },
+ {
+  "locator": "P0843",
+  "text": "—"
+ },
+ {
+  "locator": "P0844",
+  "text": "|"
+ },
+ {
+  "locator": "P0845",
+  "text": "Operating (loss) income"
+ },
+ {
+  "locator": "P0846",
+  "text": "|"
+ },
+ {
+  "locator": "P0847",
+  "text": "|"
+ },
+ {
+  "locator": "P0848",
+  "text": "|"
+ },
+ {
+  "locator": "P0849",
+  "text": "(4,853)"
+ },
+ {
+  "locator": "P0850",
+  "text": "|"
+ },
+ {
+  "locator": "P0851",
+  "text": "|"
+ },
+ {
+  "locator": "P0852",
+  "text": "|"
+ },
+ {
+  "locator": "P0853",
+  "text": "42"
+ },
+ {
+  "locator": "P0854",
+  "text": "|"
+ },
+ {
+  "locator": "P0855",
+  "text": "|"
+ },
+ {
+  "locator": "P0856",
+  "text": "|"
+ },
+ {
+  "locator": "P0857",
+  "text": "7,748"
+ },
+ {
+  "locator": "P0858",
+  "text": "|"
+ },
+ {
+  "locator": "P0859",
+  "text": "|"
+ },
+ {
+  "locator": "P0860",
+  "text": "|"
+ },
+ {
+  "locator": "P0861",
+  "text": "13,289"
+ },
+ {
+  "locator": "P0862",
+  "text": "|"
+ },
+ {
+  "locator": "P0863",
+  "text": "Interest expense, net"
+ },
+ {
+  "locator": "P0864",
+  "text": "|"
+ },
+ {
+  "locator": "P0865",
+  "text": "|"
+ },
+ {
+  "locator": "P0866",
+  "text": "|"
+ },
+ {
+  "locator": "P0867",
+  "text": "(1,882)"
+ },
+ {
+  "locator": "P0868",
+  "text": "|"
+ },
+ {
+  "locator": "P0869",
+  "text": "|"
+ },
+ {
+  "locator": "P0870",
+  "text": "|"
+ },
+ {
+  "locator": "P0871",
+  "text": "(212)"
+ },
+ {
+  "locator": "P0872",
+  "text": "|"
+ },
+ {
+  "locator": "P0873",
+  "text": "|"
+ },
+ {
+  "locator": "P0874",
+  "text": "|"
+ },
+ {
+  "locator": "P0875",
+  "text": "(8,022)"
+ },
+ {
+  "locator": "P0876",
+  "text": "|"
+ },
+ {
+  "locator": "P0877",
+  "text": "|"
+ },
+ {
+  "locator": "P0878",
+  "text": "|"
+ },
+ {
+  "locator": "P0879",
+  "text": "(1,563)"
+ },
+ {
+  "locator": "P0880",
+  "text": "|"
+ },
+ {
+  "locator": "P0881",
+  "text": "Foreign currency (loss) gain , net"
+ },
+ {
+  "locator": "P0882",
+  "text": "|"
+ },
+ {
+  "locator": "P0883",
+  "text": "|"
+ },
+ {
+  "locator": "P0884",
+  "text": "|"
+ },
+ {
+  "locator": "P0885",
+  "text": "37"
+ },
+ {
+  "locator": "P0886",
+  "text": "|"
+ },
+ {
+  "locator": "P0887",
+  "text": "|"
+ },
+ {
+  "locator": "P0888",
+  "text": "|"
+ },
+ {
+  "locator": "P0889",
+  "text": "12"
+ },
+ {
+  "locator": "P0890",
+  "text": "|"
+ },
+ {
+  "locator": "P0891",
+  "text": "|"
+ },
+ {
+  "locator": "P0892",
+  "text": "|"
+ },
+ {
+  "locator": "P0893",
+  "text": "45"
+ },
+ {
+  "locator": "P0894",
+  "text": "|"
+ },
+ {
+  "locator": "P0895",
+  "text": "|"
+ },
+ {
+  "locator": "P0896",
+  "text": "|"
+ },
+ {
+  "locator": "P0897",
+  "text": "(140)"
+ },
+ {
+  "locator": "P0898",
+  "text": "|"
+ },
+ {
+  "locator": "P0899",
+  "text": "Other income (expense), net"
+ },
+ {
+  "locator": "P0900",
+  "text": "|"
+ },
+ {
+  "locator": "P0901",
+  "text": "|"
+ },
+ {
+  "locator": "P0902",
+  "text": "|"
+ },
+ {
+  "locator": "P0903",
+  "text": "27"
+ },
+ {
+  "locator": "P0904",
+  "text": "|"
+ },
+ {
+  "locator": "P0905",
+  "text": "|"
+ },
+ {
+  "locator": "P0906",
+  "text": "|"
+ },
+ {
+  "locator": "P0907",
+  "text": "187"
+ },
+ {
+  "locator": "P0908",
+  "text": "|"
+ },
+ {
+  "locator": "P0909",
+  "text": "|"
+ },
+ {
+  "locator": "P0910",
+  "text": "|"
+ },
+ {
+  "locator": "P0911",
+  "text": "(345)"
+ },
+ {
+  "locator": "P0912",
+  "text": "|"
+ },
+ {
+  "locator": "P0913",
+  "text": "|"
+ },
+ {
+  "locator": "P0914",
+  "text": "|"
+ },
+ {
+  "locator": "P0915",
+  "text": "201"
+ },
+ {
+  "locator": "P0916",
+  "text": "|"
+ },
+ {
+  "locator": "P0917",
+  "text": "Total other expense, net"
+ },
+ {
+  "locator": "P0918",
+  "text": "|"
+ },
+ {
+  "locator": "P0919",
+  "text": "|"
+ },
+ {
+  "locator": "P0920",
+  "text": "|"
+ },
+ {
+  "locator": "P0921",
+  "text": "(1,818)"
+ },
+ {
+  "locator": "P0922",
+  "text": "|"
+ },
+ {
+  "locator": "P0923",
+  "text": "|"
+ },
+ {
+  "locator": "P0924",
+  "text": "|"
+ },
+ {
+  "locator": "P0925",
+  "text": "(13)"
+ },
+ {
+  "locator": "P0926",
+  "text": "|"
+ },
+ {
+  "locator": "P0927",
+  "text": "|"
+ },
+ {
+  "locator": "P0928",
+  "text": "|"
+ },
+ {
+  "locator": "P0929",
+  "text": "(8,322)"
+ },
+ {
+  "locator": "P0930",
+  "text": "|"
+ },
+ {
+  "locator": "P0931",
+  "text": "|"
+ },
+ {
+  "locator": "P0932",
+  "text": "|"
+ },
+ {
+  "locator": "P0933",
+  "text": "(1,502)"
+ },
+ {
+  "locator": "P0934",
+  "text": "|"
+ },
+ {
+  "locator": "P0935",
+  "text": "Pretax net income (loss)"
+ },
+ {
+  "locator": "P0936",
+  "text": "|"
+ },
+ {
+  "locator": "P0937",
+  "text": "|"
+ },
+ {
+  "locator": "P0938",
+  "text": "|"
+ },
+ {
+  "locator": "P0939",
+  "text": "(6,671)"
+ },
+ {
+  "locator": "P0940",
+  "text": "|"
+ },
+ {
+  "locator": "P0941",
+  "text": "|"
+ },
+ {
+  "locator": "P0942",
+  "text": "|"
+ },
+ {
+  "locator": "P0943",
+  "text": "29"
+ },
+ {
+  "locator": "P0944",
+  "text": "|"
+ },
+ {
+  "locator": "P0945",
+  "text": "|"
+ },
+ {
+  "locator": "P0946",
+  "text": "|"
+ },
+ {
+  "locator": "P0947",
+  "text": "(574)"
+ },
+ {
+  "locator": "P0948",
+  "text": "|"
+ },
+ {
+  "locator": "P0949",
+  "text": "|"
+ },
+ {
+  "locator": "P0950",
+  "text": "|"
+ },
+ {
+  "locator": "P0951",
+  "text": "11,787"
+ },
+ {
+  "locator": "P0952",
+  "text": "|"
+ },
+ {
+  "locator": "P0953",
+  "text": "Income tax benefit (expense)"
+ },
+ {
+  "locator": "P0954",
+  "text": "|"
+ },
+ {
+  "locator": "P0955",
+  "text": "|"
+ },
+ {
+  "locator": "P0956",
+  "text": "|"
+ },
+ {
+  "locator": "P0957",
+  "text": "1,415"
+ },
+ {
+  "locator": "P0958",
+  "text": "|"
+ },
+ {
+  "locator": "P0959",
+  "text": "|"
+ },
+ {
+  "locator": "P0960",
+  "text": "|"
+ },
+ {
+  "locator": "P0961",
+  "text": "(3,420)"
+ },
+ {
+  "locator": "P0962",
+  "text": "|"
+ },
+ {
+  "locator": "P0963",
+  "text": "|"
+ },
+ {
+  "locator": "P0964",
+  "text": "|"
+ },
+ {
+  "locator": "P0965",
+  "text": "661"
+ },
+ {
+  "locator": "P0966",
+  "text": "|"
+ },
+ {
+  "locator": "P0967",
+  "text": "|"
+ },
+ {
+  "locator": "P0968",
+  "text": "|"
+ },
+ {
+  "locator": "P0969",
+  "text": "(3,970)"
+ },
+ {
+  "locator": "P0970",
+  "text": "|"
+ },
+ {
+  "locator": "P0971",
+  "text": "Net income (loss)"
+ },
+ {
+  "locator": "P0972",
+  "text": "|"
+ },
+ {
+  "locator": "P0973",
+  "text": "|"
+ },
+ {
+  "locator": "P0974",
+  "text": "|"
+ },
+ {
+  "locator": "P0975",
+  "text": "(5,256)"
+ },
+ {
+  "locator": "P0976",
+  "text": "|"
+ },
+ {
+  "locator": "P0977",
+  "text": "|"
+ },
+ {
+  "locator": "P0978",
+  "text": "|"
+ },
+ {
+  "locator": "P0979",
+  "text": "(3,391)"
+ },
+ {
+  "locator": "P0980",
+  "text": "|"
+ },
+ {
+  "locator": "P0981",
+  "text": "|"
+ },
+ {
+  "locator": "P0982",
+  "text": "|"
+ },
+ {
+  "locator": "P0983",
+  "text": "87"
+ },
+ {
+  "locator": "P0984",
+  "text": "|"
+ },
+ {
+  "locator": "P0985",
+  "text": "|"
+ },
+ {
+  "locator": "P0986",
+  "text": "|"
+ },
+ {
+  "locator": "P0987",
+  "text": "7,817"
+ },
+ {
+  "locator": "P0988",
+  "text": "|"
+ },
+ {
+  "locator": "P0989",
+  "text": "Net income (loss) attributable to non-controlling interest"
+ },
+ {
+  "locator": "P0990",
+  "text": "|"
+ },
+ {
+  "locator": "P0991",
+  "text": "|"
+ },
+ {
+  "locator": "P0992",
+  "text": "|"
+ },
+ {
+  "locator": "P0993",
+  "text": "(1,782)"
+ },
+ {
+  "locator": "P0994",
+  "text": "|"
+ },
+ {
+  "locator": "P0995",
+  "text": "|"
+ },
+ {
+  "locator": "P0996",
+  "text": "|"
+ },
+ {
+  "locator": "P0997",
+  "text": "(124)"
+ },
+ {
+  "locator": "P0998",
+  "text": "|"
+ },
+ {
+  "locator": "P0999",
+  "text": "|"
+ },
+ {
+  "locator": "P1000",
+  "text": "|"
+ },
+ {
+  "locator": "P1001",
+  "text": "869"
+ },
+ {
+  "locator": "P1002",
+  "text": "|"
+ },
+ {
+  "locator": "P1003",
+  "text": "|"
+ },
+ {
+  "locator": "P1004",
+  "text": "|"
+ },
+ {
+  "locator": "P1005",
+  "text": "11,310"
+ },
+ {
+  "locator": "P1006",
+  "text": "|"
+ },
+ {
+  "locator": "P1007",
+  "text": "Net loss attributable to PetIQ, Inc."
+ },
+ {
+  "locator": "P1008",
+  "text": "|"
+ },
+ {
+  "locator": "P1009",
+  "text": "|"
+ },
+ {
+  "locator": "P1010",
+  "text": "$"
+ },
+ {
+  "locator": "P1011",
+  "text": "|"
+ },
+ {
+  "locator": "P1012",
+  "text": "(3,474)"
+ },
+ {
+  "locator": "P1013",
+  "text": "|"
+ },
+ {
+  "locator": "P1014",
+  "text": "|"
+ },
+ {
+  "locator": "P1015",
+  "text": "$"
+ },
+ {
+  "locator": "P1016",
+  "text": "|"
+ },
+ {
+  "locator": "P1017",
+  "text": "(3,267)"
+ },
+ {
+  "locator": "P1018",
+  "text": "|"
+ },
+ {
+  "locator": "P1019",
+  "text": "|"
+ },
+ {
+  "locator": "P1020",
+  "text": "$"
+ },
+ {
+  "locator": "P1021",
+  "text": "|"
+ },
+ {
+  "locator": "P1022",
+  "text": "(782)"
+ },
+ {
+  "locator": "P1023",
+  "text": "|"
+ },
+ {
+  "locator": "P1024",
+  "text": "|"
+ },
+ {
+  "locator": "P1025",
+  "text": "$"
+ },
+ {
+  "locator": "P1026",
+  "text": "|"
+ },
+ {
+  "locator": "P1027",
+  "text": "(3,493)"
+ },
+ {
+  "locator": "P1028",
+  "text": "|"
+ },
+ {
+  "locator": "P1029",
+  "text": "Net loss per share attributable to PetIQ, Inc. Class A common stock(1)"
+ },
+ {
+  "locator": "P1030",
+  "text": "|"
+ },
+ {
+  "locator": "P1031",
+  "text": "|"
+ },
+ {
+  "locator": "P1032",
+  "text": "|"
+ },
+ {
+  "locator": "P1033",
+  "text": "|"
+ },
+ {
+  "locator": "P1034",
+  "text": "|"
+ },
+ {
+  "locator": "P1035",
+  "text": "|"
+ },
+ {
+  "locator": "P1036",
+  "text": "|"
+ },
+ {
+  "locator": "P1037",
+  "text": "|"
+ },
+ {
+  "locator": "P1038",
+  "text": "|"
+ },
+ {
+  "locator": "P1039",
+  "text": "|"
+ },
+ {
+  "locator": "P1040",
+  "text": "|"
+ },
+ {
+  "locator": "P1041",
+  "text": "|"
+ },
+ {
+  "locator": "P1042",
+  "text": "|"
+ },
+ {
+  "locator": "P1043",
+  "text": "-Basic"
+ },
+ {
+  "locator": "P1044",
+  "text": "|"
+ },
+ {
+  "locator": "P1045",
+  "text": "|"
+ },
+ {
+  "locator": "P1046",
+  "text": "$"
+ },
+ {
+  "locator": "P1047",
+  "text": "|"
+ },
+ {
+  "locator": "P1048",
+  "text": "(0.16)"
+ },
+ {
+  "locator": "P1049",
+  "text": "|"
+ },
+ {
+  "locator": "P1050",
+  "text": "|"
+ },
+ {
+  "locator": "P1051",
+  "text": "|"
+ },
+ {
+  "locator": "P1052",
+  "text": "(0.25)"
+ },
+ {
+  "locator": "P1053",
+  "text": "|"
+ },
+ {
+  "locator": "P1054",
+  "text": "|"
+ },
+ {
+  "locator": "P1055",
+  "text": "$"
+ },
+ {
+  "locator": "P1056",
+  "text": "|"
+ },
+ {
+  "locator": "P1057",
+  "text": "(0.05)"
+ },
+ {
+  "locator": "P1058",
+  "text": "|"
+ },
+ {
+  "locator": "P1059",
+  "text": "|"
+ },
+ {
+  "locator": "P1060",
+  "text": "|"
+ },
+ {
+  "locator": "P1061",
+  "text": "(0.26)"
+ },
+ {
+  "locator": "P1062",
+  "text": "|"
+ },
+ {
+  "locator": "P1063",
+  "text": "-Diluted"
+ },
+ {
+  "locator": "P1064",
+  "text": "|"
+ },
+ {
+  "locator": "P1065",
+  "text": "|"
+ },
+ {
+  "locator": "P1066",
+  "text": "$"
+ },
+ {
+  "locator": "P1067",
+  "text": "|"
+ },
+ {
+  "locator": "P1068",
+  "text": "(0.16)"
+ },
+ {
+  "locator": "P1069",
+  "text": "|"
+ },
+ {
+  "locator": "P1070",
+  "text": "|"
+ },
+ {
+  "locator": "P1071",
+  "text": "|"
+ },
+ {
+  "locator": "P1072",
+  "text": "(0.25)"
+ },
+ {
+  "locator": "P1073",
+  "text": "|"
+ },
+ {
+  "locator": "P1074",
+  "text": "|"
+ },
+ {
+  "locator": "P1075",
+  "text": "$"
+ },
+ {
+  "locator": "P1076",
+  "text": "|"
+ },
+ {
+  "locator": "P1077",
+  "text": "(0.05)"
+ },
+ {
+  "locator": "P1078",
+  "text": "|"
+ },
+ {
+  "locator": "P1079",
+  "text": "|"
+ },
+ {
+  "locator": "P1080",
+  "text": "|"
+ },
+ {
+  "locator": "P1081",
+  "text": "(0.26)"
+ },
+ {
+  "locator": "P1082",
+  "text": "|"
+ },
+ {
+  "locator": "P1083",
+  "text": "Weighted Average shares of Class A common stock outstanding"
+ },
+ {
+  "locator": "P1084",
+  "text": "|"
+ },
+ {
+  "locator": "P1085",
+  "text": "|"
+ },
+ {
+  "locator": "P1086",
+  "text": "|"
+ },
+ {
+  "locator": "P1087",
+  "text": "|"
+ },
+ {
+  "locator": "P1088",
+  "text": "|"
+ },
+ {
+  "locator": "P1089",
+  "text": "|"
+ },
+ {
+  "locator": "P1090",
+  "text": "|"
+ },
+ {
+  "locator": "P1091",
+  "text": "|"
+ },
+ {
+  "locator": "P1092",
+  "text": "|"
+ },
+ {
+  "locator": "P1093",
+  "text": "|"
+ },
+ {
+  "locator": "P1094",
+  "text": "|"
+ },
+ {
+  "locator": "P1095",
+  "text": "|"
+ },
+ {
+  "locator": "P1096",
+  "text": "|"
+ },
+ {
+  "locator": "P1097",
+  "text": "-Basic"
+ },
+ {
+  "locator": "P1098",
+  "text": "|"
+ },
+ {
+  "locator": "P1099",
+  "text": "|"
+ },
+ {
+  "locator": "P1100",
+  "text": "|"
+ },
+ {
+  "locator": "P1101",
+  "text": "21,282,724"
+ },
+ {
+  "locator": "P1102",
+  "text": "|"
+ },
+ {
+  "locator": "P1103",
+  "text": "|"
+ },
+ {
+  "locator": "P1104",
+  "text": "|"
+ },
+ {
+  "locator": "P1105",
+  "text": "13,222,583"
+ },
+ {
+  "locator": "P1106",
+  "text": "|"
+ },
+ {
+  "locator": "P1107",
+  "text": "|"
+ },
+ {
+  "locator": "P1108",
+  "text": "|"
+ },
+ {
+  "locator": "P1109",
+  "text": "17,215,978"
+ },
+ {
+  "locator": "P1110",
+  "text": "|"
+ },
+ {
+  "locator": "P1111",
+  "text": "|"
+ },
+ {
+  "locator": "P1112",
+  "text": "|"
+ },
+ {
+  "locator": "P1113",
+  "text": "13,222,583"
+ },
+ {
+  "locator": "P1114",
+  "text": "|"
+ },
+ {
+  "locator": "P1115",
+  "text": "-Diluted"
+ },
+ {
+  "locator": "P1116",
+  "text": "|"
+ },
+ {
+  "locator": "P1117",
+  "text": "|"
+ },
+ {
+  "locator": "P1118",
+  "text": "|"
+ },
+ {
+  "locator": "P1119",
+  "text": "21,282,724"
+ },
+ {
+  "locator": "P1120",
+  "text": "|"
+ },
+ {
+  "locator": "P1121",
+  "text": "|"
+ },
+ {
+  "locator": "P1122",
+  "text": "|"
+ },
+ {
+  "locator": "P1123",
+  "text": "13,222,583"
+ },
+ {
+  "locator": "P1124",
+  "text": "|"
+ },
+ {
+  "locator": "P1125",
+  "text": "|"
+ },
+ {
+  "locator": "P1126",
+  "text": "|"
+ },
+ {
+  "locator": "P1127",
+  "text": "17,215,978"
+ },
+ {
+  "locator": "P1128",
+  "text": "|"
+ },
+ {
+  "locator": "P1129",
+  "text": "|"
+ },
+ {
+  "locator": "P1130",
+  "text": "|"
+ },
+ {
+  "locator": "P1131",
+  "text": "13,222,583"
+ },
+ {
+  "locator": "P1132",
+  "text": "PetIQ, Inc."
+ },
+ {
+  "locator": "P1133",
+  "text": "Condensed Consolidated Statements of Cash Flows"
+ },
+ {
+  "locator": "P1134",
+  "text": "(Unaudited, $’s in 000’s)"
+ },
+ {
+  "locator": "P1135",
+  "text": "|"
+ },
+ {
+  "locator": "P1136",
+  "text": "|"
+ },
+ {
+  "locator": "P1137",
+  "text": "|"
+ },
+ {
+  "locator": "P1138",
+  "text": "|"
+ },
+ {
+  "locator": "P1139",
+  "text": "|"
+ },
+ {
+  "locator": "P1140",
+  "text": "|"
+ },
+ {
+  "locator": "P1141",
+  "text": "|"
+ },
+ {
+  "locator": "P1142",
+  "text": "|"
+ },
+ {
+  "locator": "P1143",
+  "text": "|"
+ },
+ {
+  "locator": "P1144",
+  "text": "|"
+ },
+ {
+  "locator": "P1145",
+  "text": "|"
+ },
+ {
+  "locator": "P1146",
+  "text": "For the Year Ended December 31,"
+ },
+ {
+  "locator": "P1147",
+  "text": "|"
+ },
+ {
+  "locator": "P1148",
+  "text": "|"
+ },
+ {
+  "locator": "P1149",
+  "text": "|"
+ },
+ {
+  "locator": "P1150",
+  "text": "2018"
+ },
+ {
+  "locator": "P1151",
+  "text": "|"
+ },
+ {
+  "locator": "P1152",
+  "text": "|"
+ },
+ {
+  "locator": "P1153",
+  "text": "2017"
+ },
+ {
+  "locator": "P1154",
+  "text": "|"
+ },
+ {
+  "locator": "P1155",
+  "text": "|"
+ },
+ {
+  "locator": "P1156",
+  "text": "Cash flows from operating activities"
+ },
+ {
+  "locator": "P1157",
+  "text": "|"
+ },
+ {
+  "locator": "P1158",
+  "text": "|"
+ },
+ {
+  "locator": "P1159",
+  "text": "|"
+ },
+ {
+  "locator": "P1160",
+  "text": "|"
+ },
+ {
+  "locator": "P1161",
+  "text": "|"
+ },
+ {
+  "locator": "P1162",
+  "text": "|"
+ },
+ {
+  "locator": "P1163",
+  "text": "|"
+ },
+ {
+  "locator": "P1164",
+  "text": "|"
+ },
+ {
+  "locator": "P1165",
+  "text": "Net income (loss)"
+ },
+ {
+  "locator": "P1166",
+  "text": "|"
+ },
+ {
+  "locator": "P1167",
+  "text": "|"
+ },
+ {
+  "locator": "P1168",
+  "text": "$"
+ },
+ {
+  "locator": "P1169",
+  "text": "|"
+ },
+ {
+  "locator": "P1170",
+  "text": "87"
+ },
+ {
+  "locator": "P1171",
+  "text": "|"
+ },
+ {
+  "locator": "P1172",
+  "text": "|"
+ },
+ {
+  "locator": "P1173",
+  "text": "$"
+ },
+ {
+  "locator": "P1174",
+  "text": "|"
+ },
+ {
+  "locator": "P1175",
+  "text": "7,817"
+ },
+ {
+  "locator": "P1176",
+  "text": "|"
+ },
+ {
+  "locator": "P1177",
+  "text": "|"
+ },
+ {
+  "locator": "P1178",
+  "text": "Adjustments to reconcile net income (loss) to net cash (used in) provided by operating activities"
+ },
+ {
+  "locator": "P1179",
+  "text": "|"
+ },
+ {
+  "locator": "P1180",
+  "text": "|"
+ },
+ {
+  "locator": "P1181",
+  "text": "|"
+ },
+ {
+  "locator": "P1182",
+  "text": "|"
+ },
+ {
+  "locator": "P1183",
+  "text": "|"
+ },
+ {
+  "locator": "P1184",
+  "text": "|"
+ },
+ {
+  "locator": "P1185",
+  "text": "|"
+ },
+ {
+  "locator": "P1186",
+  "text": "|"
+ },
+ {
+  "locator": "P1187",
+  "text": "Depreciation and amortization of intangible assets and loan fees"
+ },
+ {
+  "locator": "P1188",
+  "text": "|"
+ },
+ {
+  "locator": "P1189",
+  "text": "|"
+ },
+ {
+  "locator": "P1190",
+  "text": "|"
+ },
+ {
+  "locator": "P1191",
+  "text": "12,467"
+ },
+ {
+  "locator": "P1192",
+  "text": "|"
+ },
+ {
+  "locator": "P1193",
+  "text": "|"
+ },
+ {
+  "locator": "P1194",
+  "text": "|"
+ },
+ {
+  "locator": "P1195",
+  "text": "3,614"
+ },
+ {
+  "locator": "P1196",
+  "text": "|"
+ },
+ {
+  "locator": "P1197",
+  "text": "|"
+ },
+ {
+  "locator": "P1198",
+  "text": "Foreign exchange (gain) loss on liabilities"
+ },
+ {
+  "locator": "P1199",
+  "text": "|"
+ },
+ {
+  "locator": "P1200",
+  "text": "|"
+ },
+ {
+  "locator": "P1201",
+  "text": "|"
+ },
+ {
+  "locator": "P1202",
+  "text": "16"
+ },
+ {
+  "locator": "P1203",
+  "text": "|"
+ },
+ {
+  "locator": "P1204",
+  "text": "|"
+ },
+ {
+  "locator": "P1205",
+  "text": "|"
+ },
+ {
+  "locator": "P1206",
+  "text": "228"
+ },
+ {
+  "locator": "P1207",
+  "text": "|"
+ },
+ {
+  "locator": "P1208",
+  "text": "|"
+ },
+ {
+  "locator": "P1209",
+  "text": "(Gain) Loss on disposition of property, plant, and equipment"
+ },
+ {
+  "locator": "P1210",
+  "text": "|"
+ },
+ {
+  "locator": "P1211",
+  "text": "|"
+ },
+ {
+  "locator": "P1212",
+  "text": "|"
+ },
+ {
+  "locator": "P1213",
+  "text": "(90)"
+ },
+ {
+  "locator": "P1214",
+  "text": "|"
+ },
+ {
+  "locator": "P1215",
+  "text": "|"
+ },
+ {
+  "locator": "P1216",
+  "text": "|"
+ },
+ {
+  "locator": "P1217",
+  "text": "20"
+ },
+ {
+  "locator": "P1218",
+  "text": "|"
+ },
+ {
+  "locator": "P1219",
+  "text": "|"
+ },
+ {
+  "locator": "P1220",
+  "text": "Stock based compensation expense"
+ },
+ {
+  "locator": "P1221",
+  "text": "|"
+ },
+ {
+  "locator": "P1222",
+  "text": "|"
+ },
+ {
+  "locator": "P1223",
+  "text": "|"
+ },
+ {
+  "locator": "P1224",
+  "text": "3,812"
+ },
+ {
+  "locator": "P1225",
+  "text": "|"
+ },
+ {
+  "locator": "P1226",
+  "text": "|"
+ },
+ {
+  "locator": "P1227",
+  "text": "|"
+ },
+ {
+  "locator": "P1228",
+  "text": "447"
+ },
+ {
+  "locator": "P1229",
+  "text": "|"
+ },
+ {
+  "locator": "P1230",
+  "text": "|"
+ },
+ {
+  "locator": "P1231",
+  "text": "Deferred tax adjustment"
+ },
+ {
+  "locator": "P1232",
+  "text": "|"
+ },
+ {
+  "locator": "P1233",
+  "text": "|"
+ },
+ {
+  "locator": "P1234",
+  "text": "|"
+ },
+ {
+  "locator": "P1235",
+  "text": "(843)"
+ },
+ {
+  "locator": "P1236",
+  "text": "|"
+ },
+ {
+  "locator": "P1237",
+  "text": "|"
+ },
+ {
+  "locator": "P1238",
+  "text": "|"
+ },
+ {
+  "locator": "P1239",
+  "text": "3,690"
+ },
+ {
+  "locator": "P1240",
+  "text": "|"
+ },
+ {
+  "locator": "P1241",
+  "text": "|"
+ },
+ {
+  "locator": "P1242",
+  "text": "Contingent note revaluations"
+ },
+ {
+  "locator": "P1243",
+  "text": "|"
+ },
+ {
+  "locator": "P1244",
+  "text": "|"
+ },
+ {
+  "locator": "P1245",
+  "text": "|"
+ },
+ {
+  "locator": "P1246",
+  "text": "3,280"
+ },
+ {
+  "locator": "P1247",
+  "text": "|"
+ },
+ {
+  "locator": "P1248",
+  "text": "|"
+ },
+ {
+  "locator": "P1249",
+  "text": "|"
+ },
+ {
+  "locator": "P1250",
+  "text": "—"
+ },
+ {
+  "locator": "P1251",
+  "text": "|"
+ },
+ {
+  "locator": "P1252",
+  "text": "|"
+ },
+ {
+  "locator": "P1253",
+  "text": "Other non-cash activity"
+ },
+ {
+  "locator": "P1254",
+  "text": "|"
+ },
+ {
+  "locator": "P1255",
+  "text": "|"
+ },
+ {
+  "locator": "P1256",
+  "text": "|"
+ },
+ {
+  "locator": "P1257",
+  "text": "(334)"
+ },
+ {
+  "locator": "P1258",
+  "text": "|"
+ },
+ {
+  "locator": "P1259",
+  "text": "|"
+ },
+ {
+  "locator": "P1260",
+  "text": "|"
+ },
+ {
+  "locator": "P1261",
+  "text": "—"
+ },
+ {
+  "locator": "P1262",
+  "text": "|"
+ },
+ {
+  "locator": "P1263",
+  "text": "|"
+ },
+ {
+  "locator": "P1264",
+  "text": "Changes in assets and liabilities"
+ },
+ {
+  "locator": "P1265",
+  "text": "|"
+ },
+ {
+  "locator": "P1266",
+  "text": "|"
+ },
+ {
+  "locator": "P1267",
+  "text": "|"
+ },
+ {
+  "locator": "P1268",
+  "text": "|"
+ },
+ {
+  "locator": "P1269",
+  "text": "|"
+ },
+ {
+  "locator": "P1270",
+  "text": "|"
+ },
+ {
+  "locator": "P1271",
+  "text": "|"
+ },
+ {
+  "locator": "P1272",
+  "text": "|"
+ },
+ {
+  "locator": "P1273",
+  "text": "Accounts receivable"
+ },
+ {
+  "locator": "P1274",
+  "text": "|"
+ },
+ {
+  "locator": "P1275",
+  "text": "|"
+ },
+ {
+  "locator": "P1276",
+  "text": "|"
+ },
+ {
+  "locator": "P1277",
+  "text": "(14,209)"
+ },
+ {
+  "locator": "P1278",
+  "text": "|"
+ },
+ {
+  "locator": "P1279",
+  "text": "|"
+ },
+ {
+  "locator": "P1280",
+  "text": "|"
+ },
+ {
+  "locator": "P1281",
+  "text": "(4,313)"
+ },
+ {
+  "locator": "P1282",
+  "text": "|"
+ },
+ {
+  "locator": "P1283",
+  "text": "|"
+ },
+ {
+  "locator": "P1284",
+  "text": "Inventories"
+ },
+ {
+  "locator": "P1285",
+  "text": "|"
+ },
+ {
+  "locator": "P1286",
+  "text": "|"
+ },
+ {
+  "locator": "P1287",
+  "text": "|"
+ },
+ {
+  "locator": "P1288",
+  "text": "(36,610)"
+ },
+ {
+  "locator": "P1289",
+  "text": "|"
+ },
+ {
+  "locator": "P1290",
+  "text": "|"
+ },
+ {
+  "locator": "P1291",
+  "text": "|"
+ },
+ {
+  "locator": "P1292",
+  "text": "(9,718)"
+ },
+ {
+  "locator": "P1293",
+  "text": "|"
+ },
+ {
+  "locator": "P1294",
+  "text": "|"
+ },
+ {
+  "locator": "P1295",
+  "text": "Prepaid expenses and other assets"
+ },
+ {
+  "locator": "P1296",
+  "text": "|"
+ },
+ {
+  "locator": "P1297",
+  "text": "|"
+ },
+ {
+  "locator": "P1298",
+  "text": "|"
+ },
+ {
+  "locator": "P1299",
+  "text": "1,423"
+ },
+ {
+  "locator": "P1300",
+  "text": "|"
+ },
+ {
+  "locator": "P1301",
+  "text": "|"
+ },
+ {
+  "locator": "P1302",
+  "text": "|"
+ },
+ {
+  "locator": "P1303",
+  "text": "(721)"
+ },
+ {
+  "locator": "P1304",
+  "text": "|"
+ },
+ {
+  "locator": "P1305",
+  "text": "|"
+ },
+ {
+  "locator": "P1306",
+  "text": "Accounts payable"
+ },
+ {
+  "locator": "P1307",
+  "text": "|"
+ },
+ {
+  "locator": "P1308",
+  "text": "|"
+ },
+ {
+  "locator": "P1309",
+  "text": "|"
+ },
+ {
+  "locator": "P1310",
+  "text": "15,701"
+ },
+ {
+  "locator": "P1311",
+  "text": "|"
+ },
+ {
+  "locator": "P1312",
+  "text": "|"
+ },
+ {
+  "locator": "P1313",
+  "text": "|"
+ },
+ {
+  "locator": "P1314",
+  "text": "4,152"
+ },
+ {
+  "locator": "P1315",
+  "text": "|"
+ },
+ {
+  "locator": "P1316",
+  "text": "|"
+ },
+ {
+  "locator": "P1317",
+  "text": "Accrued wages payable"
+ },
+ {
+  "locator": "P1318",
+  "text": "|"
+ },
+ {
+  "locator": "P1319",
+  "text": "|"
+ },
+ {
+  "locator": "P1320",
+  "text": "|"
+ },
+ {
+  "locator": "P1321",
+  "text": "1,979"
+ },
+ {
+  "locator": "P1322",
+  "text": "|"
+ },
+ {
+  "locator": "P1323",
+  "text": "|"
+ },
+ {
+  "locator": "P1324",
+  "text": "|"
+ },
+ {
+  "locator": "P1325",
+  "text": "694"
+ },
+ {
+  "locator": "P1326",
+  "text": "|"
+ },
+ {
+  "locator": "P1327",
+  "text": "|"
+ },
+ {
+  "locator": "P1328",
+  "text": "Other accrued expenses"
+ },
+ {
+  "locator": "P1329",
+  "text": "|"
+ },
+ {
+  "locator": "P1330",
+  "text": "|"
+ },
+ {
+  "locator": "P1331",
+  "text": "|"
+ },
+ {
+  "locator": "P1332",
+  "text": "908"
+ },
+ {
+  "locator": "P1333",
+  "text": "|"
+ },
+ {
+  "locator": "P1334",
+  "text": "|"
+ },
+ {
+  "locator": "P1335",
+  "text": "|"
+ },
+ {
+  "locator": "P1336",
+  "text": "(28)"
+ },
+ {
+  "locator": "P1337",
+  "text": "|"
+ },
+ {
+  "locator": "P1338",
+  "text": "|"
+ },
+ {
+  "locator": "P1339",
+  "text": "Net cash (used in) provided by operating activities"
+ },
+ {
+  "locator": "P1340",
+  "text": "|"
+ },
+ {
+  "locator": "P1341",
+  "text": "|"
+ },
+ {
+  "locator": "P1342",
+  "text": "|"
+ },
+ {
+  "locator": "P1343",
+  "text": "(12,413)"
+ },
+ {
+  "locator": "P1344",
+  "text": "|"
+ },
+ {
+  "locator": "P1345",
+  "text": "|"
+ },
+ {
+  "locator": "P1346",
+  "text": "|"
+ },
+ {
+  "locator": "P1347",
+  "text": "5,882"
+ },
+ {
+  "locator": "P1348",
+  "text": "|"
+ },
+ {
+  "locator": "P1349",
+  "text": "|"
+ },
+ {
+  "locator": "P1350",
+  "text": "Cash flows from investing activities"
+ },
+ {
+  "locator": "P1351",
+  "text": "|"
+ },
+ {
+  "locator": "P1352",
+  "text": "|"
+ },
+ {
+  "locator": "P1353",
+  "text": "|"
+ },
+ {
+  "locator": "P1354",
+  "text": "|"
+ },
+ {
+  "locator": "P1355",
+  "text": "|"
+ },
+ {
+  "locator": "P1356",
+  "text": "|"
+ },
+ {
+  "locator": "P1357",
+  "text": "|"
+ },
+ {
+  "locator": "P1358",
+  "text": "|"
+ },
+ {
+  "locator": "P1359",
+  "text": "Proceeds from disposition of property, plant, and equipment"
+ },
+ {
+  "locator": "P1360",
+  "text": "|"
+ },
+ {
+  "locator": "P1361",
+  "text": "|"
+ },
+ {
+  "locator": "P1362",
+  "text": "|"
+ },
+ {
+  "locator": "P1363",
+  "text": "229"
+ },
+ {
+  "locator": "P1364",
+  "text": "|"
+ },
+ {
+  "locator": "P1365",
+  "text": "|"
+ },
+ {
+  "locator": "P1366",
+  "text": "|"
+ },
+ {
+  "locator": "P1367",
+  "text": "—"
+ },
+ {
+  "locator": "P1368",
+  "text": "|"
+ },
+ {
+  "locator": "P1369",
+  "text": "|"
+ },
+ {
+  "locator": "P1370",
+  "text": "Purchase of property, plant, and equipment"
+ },
+ {
+  "locator": "P1371",
+  "text": "|"
+ },
+ {
+  "locator": "P1372",
+  "text": "|"
+ },
+ {
+  "locator": "P1373",
+  "text": "|"
+ },
+ {
+  "locator": "P1374",
+  "text": "(7,178)"
+ },
+ {
+  "locator": "P1375",
+  "text": "|"
+ },
+ {
+  "locator": "P1376",
+  "text": "|"
+ },
+ {
+  "locator": "P1377",
+  "text": "|"
+ },
+ {
+  "locator": "P1378",
+  "text": "(4,131)"
+ },
+ {
+  "locator": "P1379",
+  "text": "|"
+ },
+ {
+  "locator": "P1380",
+  "text": "|"
+ },
+ {
+  "locator": "P1381",
+  "text": "Business acquisitions (net of cash acquired)"
+ },
+ {
+  "locator": "P1382",
+  "text": "|"
+ },
+ {
+  "locator": "P1383",
+  "text": "|"
+ },
+ {
+  "locator": "P1384",
+  "text": "|"
+ },
+ {
+  "locator": "P1385",
+  "text": "(93,052)"
+ },
+ {
+  "locator": "P1386",
+  "text": "|"
+ },
+ {
+  "locator": "P1387",
+  "text": "|"
+ },
+ {
+  "locator": "P1388",
+  "text": "|"
+ },
+ {
+  "locator": "P1389",
+  "text": "—"
+ },
+ {
+  "locator": "P1390",
+  "text": "|"
+ },
+ {
+  "locator": "P1391",
+  "text": "|"
+ },
+ {
+  "locator": "P1392",
+  "text": "Net cash used in investing activities"
+ },
+ {
+  "locator": "P1393",
+  "text": "|"
+ },
+ {
+  "locator": "P1394",
+  "text": "|"
+ },
+ {
+  "locator": "P1395",
+  "text": "|"
+ },
+ {
+  "locator": "P1396",
+  "text": "(100,001)"
+ },
+ {
+  "locator": "P1397",
+  "text": "|"
+ },
+ {
+  "locator": "P1398",
+  "text": "|"
+ },
+ {
+  "locator": "P1399",
+  "text": "|"
+ },
+ {
+  "locator": "P1400",
+  "text": "(4,131)"
+ },
+ {
+  "locator": "P1401",
+  "text": "|"
+ },
+ {
+  "locator": "P1402",
+  "text": "|"
+ },
+ {
+  "locator": "P1403",
+  "text": "Cash flows from financing activities"
+ },
+ {
+  "locator": "P1404",
+  "text": "|"
+ },
+ {
+  "locator": "P1405",
+  "text": "|"
+ },
+ {
+  "locator": "P1406",
+  "text": "|"
+ },
+ {
+  "locator": "P1407",
+  "text": "|"
+ },
+ {
+  "locator": "P1408",
+  "text": "|"
+ },
+ {
+  "locator": "P1409",
+  "text": "|"
+ },
+ {
+  "locator": "P1410",
+  "text": "|"
+ },
+ {
+  "locator": "P1411",
+  "text": "|"
+ },
+ {
+  "locator": "P1412",
+  "text": "Proceeds from issuance of long-term debt"
+ },
+ {
+  "locator": "P1413",
+  "text": "|"
+ },
+ {
+  "locator": "P1414",
+  "text": "|"
+ },
+ {
+  "locator": "P1415",
+  "text": "|"
+ },
+ {
+  "locator": "P1416",
+  "text": "538,028"
+ },
+ {
+  "locator": "P1417",
+  "text": "|"
+ },
+ {
+  "locator": "P1418",
+  "text": "|"
+ },
+ {
+  "locator": "P1419",
+  "text": "|"
+ },
+ {
+  "locator": "P1420",
+  "text": "260,020"
+ },
+ {
+  "locator": "P1421",
+  "text": "|"
+ },
+ {
+  "locator": "P1422",
+  "text": "|"
+ },
+ {
+  "locator": "P1423",
+  "text": "Principal payments on long-term debt"
+ },
+ {
+  "locator": "P1424",
+  "text": "|"
+ },
+ {
+  "locator": "P1425",
+  "text": "|"
+ },
+ {
+  "locator": "P1426",
+  "text": "|"
+ },
+ {
+  "locator": "P1427",
+  "text": "(466,912)"
+ },
+ {
+  "locator": "P1428",
+  "text": "|"
+ },
+ {
+  "locator": "P1429",
+  "text": "|"
+ },
+ {
+  "locator": "P1430",
+  "text": "|"
+ },
+ {
+  "locator": "P1431",
+  "text": "(270,458)"
+ },
+ {
+  "locator": "P1432",
+  "text": "|"
+ },
+ {
+  "locator": "P1433",
+  "text": "|"
+ },
+ {
+  "locator": "P1434",
+  "text": "Proceeds from Public Offering of Class A Shares, net of underwriting discounts and offering costs"
+ },
+ {
+  "locator": "P1435",
+  "text": "|"
+ },
+ {
+  "locator": "P1436",
+  "text": "|"
+ },
+ {
+  "locator": "P1437",
+  "text": "|"
+ },
+ {
+  "locator": "P1438",
+  "text": "73,914"
+ },
+ {
+  "locator": "P1439",
+  "text": "|"
+ },
+ {
+  "locator": "P1440",
+  "text": "|"
+ },
+ {
+  "locator": "P1441",
+  "text": "|"
+ },
+ {
+  "locator": "P1442",
+  "text": "104,010"
+ },
+ {
+  "locator": "P1443",
+  "text": "|"
+ },
+ {
+  "locator": "P1444",
+  "text": "|"
+ },
+ {
+  "locator": "P1445",
+  "text": "Repayment of preference notes"
+ },
+ {
+  "locator": "P1446",
+  "text": "|"
+ },
+ {
+  "locator": "P1447",
+  "text": "|"
+ },
+ {
+  "locator": "P1448",
+  "text": "|"
+ },
+ {
+  "locator": "P1449",
+  "text": "—"
+ },
+ {
+  "locator": "P1450",
+  "text": "|"
+ },
+ {
+  "locator": "P1451",
+  "text": "|"
+ },
+ {
+  "locator": "P1452",
+  "text": "|"
+ },
+ {
+  "locator": "P1453",
+  "text": "(55,960)"
+ },
+ {
+  "locator": "P1454",
+  "text": "|"
+ },
+ {
+  "locator": "P1455",
+  "text": "|"
+ },
+ {
+  "locator": "P1456",
+  "text": "Change in restricted deposits"
+ },
+ {
+  "locator": "P1457",
+  "text": "|"
+ },
+ {
+  "locator": "P1458",
+  "text": "|"
+ },
+ {
+  "locator": "P1459",
+  "text": "|"
+ },
+ {
+  "locator": "P1460",
+  "text": "—"
+ },
+ {
+  "locator": "P1461",
+  "text": "|"
+ },
+ {
+  "locator": "P1462",
+  "text": "|"
+ },
+ {
+  "locator": "P1463",
+  "text": "|"
+ },
+ {
+  "locator": "P1464",
+  "text": "50"
+ },
+ {
+  "locator": "P1465",
+  "text": "|"
+ },
+ {
+  "locator": "P1466",
+  "text": "|"
+ },
+ {
+  "locator": "P1467",
+  "text": "Tax Distributions to Continuing LLC Owners"
+ },
+ {
+  "locator": "P1468",
+  "text": "|"
+ },
+ {
+  "locator": "P1469",
+  "text": "|"
+ },
+ {
+  "locator": "P1470",
+  "text": "|"
+ },
+ {
+  "locator": "P1471",
+  "text": "(1,485)"
+ },
+ {
+  "locator": "P1472",
+  "text": "|"
+ },
+ {
+  "locator": "P1473",
+  "text": "|"
+ },
+ {
+  "locator": "P1474",
+  "text": "|"
+ },
+ {
+  "locator": "P1475",
+  "text": "—"
+ },
+ {
+  "locator": "P1476",
+  "text": "|"
+ },
+ {
+  "locator": "P1477",
+  "text": "|"
+ },
+ {
+  "locator": "P1478",
+  "text": "Purchase of LLC units from Continuing LLC Owners"
+ },
+ {
+  "locator": "P1479",
+  "text": "|"
+ },
+ {
+  "locator": "P1480",
+  "text": "|"
+ },
+ {
+  "locator": "P1481",
+  "text": "|"
+ },
+ {
+  "locator": "P1482",
+  "text": "—"
+ },
+ {
+  "locator": "P1483",
+  "text": "|"
+ },
+ {
+  "locator": "P1484",
+  "text": "|"
+ },
+ {
+  "locator": "P1485",
+  "text": "|"
+ },
+ {
+  "locator": "P1486",
+  "text": "(2,133)"
+ },
+ {
+  "locator": "P1487",
+  "text": "|"
+ },
+ {
+  "locator": "P1488",
+  "text": "|"
+ },
+ {
+  "locator": "P1489",
+  "text": "Principal payments on capital lease obligations"
+ },
+ {
+  "locator": "P1490",
+  "text": "|"
+ },
+ {
+  "locator": "P1491",
+  "text": "|"
+ },
+ {
+  "locator": "P1492",
+  "text": "|"
+ },
+ {
+  "locator": "P1493",
+  "text": "(1,254)"
+ },
+ {
+  "locator": "P1494",
+  "text": "|"
+ },
+ {
+  "locator": "P1495",
+  "text": "|"
+ },
+ {
+  "locator": "P1496",
+  "text": "|"
+ },
+ {
+  "locator": "P1497",
+  "text": "(116)"
+ },
+ {
+  "locator": "P1498",
+  "text": "|"
+ },
+ {
+  "locator": "P1499",
+  "text": "|"
+ },
+ {
+  "locator": "P1500",
+  "text": "Payment of deferred financing fees and debt discount"
+ },
+ {
+  "locator": "P1501",
+  "text": "|"
+ },
+ {
+  "locator": "P1502",
+  "text": "|"
+ },
+ {
+  "locator": "P1503",
+  "text": "|"
+ },
+ {
+  "locator": "P1504",
+  "text": "(2,750)"
+ },
+ {
+  "locator": "P1505",
+  "text": "|"
+ },
+ {
+  "locator": "P1506",
+  "text": "|"
+ },
+ {
+  "locator": "P1507",
+  "text": "|"
+ },
+ {
+  "locator": "P1508",
+  "text": "(42)"
+ },
+ {
+  "locator": "P1509",
+  "text": "|"
+ },
+ {
+  "locator": "P1510",
+  "text": "|"
+ },
+ {
+  "locator": "P1511",
+  "text": "Exercise of options to purchase common stock"
+ },
+ {
+  "locator": "P1512",
+  "text": "|"
+ },
+ {
+  "locator": "P1513",
+  "text": "|"
+ },
+ {
+  "locator": "P1514",
+  "text": "|"
+ },
+ {
+  "locator": "P1515",
+  "text": "1,429"
+ },
+ {
+  "locator": "P1516",
+  "text": "|"
+ },
+ {
+  "locator": "P1517",
+  "text": "|"
+ },
+ {
+  "locator": "P1518",
+  "text": "|"
+ },
+ {
+  "locator": "P1519",
+  "text": "—"
+ },
+ {
+  "locator": "P1520",
+  "text": "|"
+ },
+ {
+  "locator": "P1521",
+  "text": "|"
+ },
+ {
+  "locator": "P1522",
+  "text": "Net cash provided by financing activities"
+ },
+ {
+  "locator": "P1523",
+  "text": "|"
+ },
+ {
+  "locator": "P1524",
+  "text": "|"
+ },
+ {
+  "locator": "P1525",
+  "text": "|"
+ },
+ {
+  "locator": "P1526",
+  "text": "140,970"
+ },
+ {
+  "locator": "P1527",
+  "text": "|"
+ },
+ {
+  "locator": "P1528",
+  "text": "|"
+ },
+ {
+  "locator": "P1529",
+  "text": "|"
+ },
+ {
+  "locator": "P1530",
+  "text": "35,371"
+ },
+ {
+  "locator": "P1531",
+  "text": "|"
+ },
+ {
+  "locator": "P1532",
+  "text": "|"
+ },
+ {
+  "locator": "P1533",
+  "text": "Net change in cash and cash equivalents"
+ },
+ {
+  "locator": "P1534",
+  "text": "|"
+ },
+ {
+  "locator": "P1535",
+  "text": "|"
+ },
+ {
+  "locator": "P1536",
+  "text": "|"
+ },
+ {
+  "locator": "P1537",
+  "text": "28,556"
+ },
+ {
+  "locator": "P1538",
+  "text": "|"
+ },
+ {
+  "locator": "P1539",
+  "text": "|"
+ },
+ {
+  "locator": "P1540",
+  "text": "|"
+ },
+ {
+  "locator": "P1541",
+  "text": "37,122"
+ },
+ {
+  "locator": "P1542",
+  "text": "|"
+ },
+ {
+  "locator": "P1543",
+  "text": "|"
+ },
+ {
+  "locator": "P1544",
+  "text": "Effect of exchange rate changes on cash and cash equivalents"
+ },
+ {
+  "locator": "P1545",
+  "text": "|"
+ },
+ {
+  "locator": "P1546",
+  "text": "|"
+ },
+ {
+  "locator": "P1547",
+  "text": "|"
+ },
+ {
+  "locator": "P1548",
+  "text": "(92)"
+ },
+ {
+  "locator": "P1549",
+  "text": "|"
+ },
+ {
+  "locator": "P1550",
+  "text": "|"
+ },
+ {
+  "locator": "P1551",
+  "text": "|"
+ },
+ {
+  "locator": "P1552",
+  "text": "7"
+ },
+ {
+  "locator": "P1553",
+  "text": "|"
+ },
+ {
+  "locator": "P1554",
+  "text": "|"
+ },
+ {
+  "locator": "P1555",
+  "text": "Cash and cash equivalents, beginning of period"
+ },
+ {
+  "locator": "P1556",
+  "text": "|"
+ },
+ {
+  "locator": "P1557",
+  "text": "|"
+ },
+ {
+  "locator": "P1558",
+  "text": "|"
+ },
+ {
+  "locator": "P1559",
+  "text": "37,896"
+ },
+ {
+  "locator": "P1560",
+  "text": "|"
+ },
+ {
+  "locator": "P1561",
+  "text": "|"
+ },
+ {
+  "locator": "P1562",
+  "text": "|"
+ },
+ {
+  "locator": "P1563",
+  "text": "767"
+ },
+ {
+  "locator": "P1564",
+  "text": "|"
+ },
+ {
+  "locator": "P1565",
+  "text": "|"
+ },
+ {
+  "locator": "P1566",
+  "text": "Cash and cash equivalents, end of period"
+ },
+ {
+  "locator": "P1567",
+  "text": "|"
+ },
+ {
+  "locator": "P1568",
+  "text": "|"
+ },
+ {
+  "locator": "P1569",
+  "text": "$"
+ },
+ {
+  "locator": "P1570",
+  "text": "|"
+ },
+ {
+  "locator": "P1571",
+  "text": "66,360"
+ },
+ {
+  "locator": "P1572",
+  "text": "|"
+ },
+ {
+  "locator": "P1573",
+  "text": "|"
+ },
+ {
+  "locator": "P1574",
+  "text": "$"
+ },
+ {
+  "locator": "P1575",
+  "text": "|"
+ },
+ {
+  "locator": "P1576",
+  "text": "37,896"
+ },
+ {
+  "locator": "P1577",
+  "text": "|"
+ },
+ {
+  "locator": "P1578",
+  "text": "|"
+ },
+ {
+  "locator": "P1579",
+  "text": "|"
+ },
+ {
+  "locator": "P1580",
+  "text": "|"
+ },
+ {
+  "locator": "P1581",
+  "text": "|"
+ },
+ {
+  "locator": "P1582",
+  "text": "|"
+ },
+ {
+  "locator": "P1583",
+  "text": "|"
+ },
+ {
+  "locator": "P1584",
+  "text": "|"
+ },
+ {
+  "locator": "P1585",
+  "text": "|"
+ },
+ {
+  "locator": "P1586",
+  "text": "PetIQ, Inc."
+ },
+ {
+  "locator": "P1587",
+  "text": "Reconciliation between gross profit and adjusted gross profit"
+ },
+ {
+  "locator": "P1588",
+  "text": "(Unaudited, $’s in 000’s)"
+ },
+ {
+  "locator": "P1589",
+  "text": "|"
+ },
+ {
+  "locator": "P1590",
+  "text": "|"
+ },
+ {
+  "locator": "P1591",
+  "text": "|"
+ },
+ {
+  "locator": "P1592",
+  "text": "|"
+ },
+ {
+  "locator": "P1593",
+  "text": "|"
+ },
+ {
+  "locator": "P1594",
+  "text": "|"
+ },
+ {
+  "locator": "P1595",
+  "text": "|"
+ },
+ {
+  "locator": "P1596",
+  "text": "|"
+ },
+ {
+  "locator": "P1597",
+  "text": "|"
+ },
+ {
+  "locator": "P1598",
+  "text": "|"
+ },
+ {
+  "locator": "P1599",
+  "text": "|"
+ },
+ {
+  "locator": "P1600",
+  "text": "|"
+ },
+ {
+  "locator": "P1601",
+  "text": "|"
+ },
+ {
+  "locator": "P1602",
+  "text": "|"
+ },
+ {
+  "locator": "P1603",
+  "text": "|"
+ },
+ {
+  "locator": "P1604",
+  "text": "|"
+ },
+ {
+  "locator": "P1605",
+  "text": "For the three months ended"
+ },
+ {
+  "locator": "P1606",
+  "text": "|"
+ },
+ {
+  "locator": "P1607",
+  "text": "|"
+ },
+ {
+  "locator": "P1608",
+  "text": "For the years ended"
+ },
+ {
+  "locator": "P1609",
+  "text": "|"
+ },
+ {
+  "locator": "P1610",
+  "text": "|"
+ },
+ {
+  "locator": "P1611",
+  "text": "|"
+ },
+ {
+  "locator": "P1612",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P1613",
+  "text": "|"
+ },
+ {
+  "locator": "P1614",
+  "text": "|"
+ },
+ {
+  "locator": "P1615",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P1616",
+  "text": "|"
+ },
+ {
+  "locator": "P1617",
+  "text": "|"
+ },
+ {
+  "locator": "P1618",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P1619",
+  "text": "|"
+ },
+ {
+  "locator": "P1620",
+  "text": "|"
+ },
+ {
+  "locator": "P1621",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P1622",
+  "text": "|"
+ },
+ {
+  "locator": "P1623",
+  "text": "Gross profit"
+ },
+ {
+  "locator": "P1624",
+  "text": "|"
+ },
+ {
+  "locator": "P1625",
+  "text": "|"
+ },
+ {
+  "locator": "P1626",
+  "text": "$"
+ },
+ {
+  "locator": "P1627",
+  "text": "|"
+ },
+ {
+  "locator": "P1628",
+  "text": "16,905"
+ },
+ {
+  "locator": "P1629",
+  "text": "|"
+ },
+ {
+  "locator": "P1630",
+  "text": "|"
+ },
+ {
+  "locator": "P1631",
+  "text": "$"
+ },
+ {
+  "locator": "P1632",
+  "text": "|"
+ },
+ {
+  "locator": "P1633",
+  "text": "10,526"
+ },
+ {
+  "locator": "P1634",
+  "text": "|"
+ },
+ {
+  "locator": "P1635",
+  "text": "|"
+ },
+ {
+  "locator": "P1636",
+  "text": "$"
+ },
+ {
+  "locator": "P1637",
+  "text": "|"
+ },
+ {
+  "locator": "P1638",
+  "text": "83,288"
+ },
+ {
+  "locator": "P1639",
+  "text": "|"
+ },
+ {
+  "locator": "P1640",
+  "text": "|"
+ },
+ {
+  "locator": "P1641",
+  "text": "$"
+ },
+ {
+  "locator": "P1642",
+  "text": "|"
+ },
+ {
+  "locator": "P1643",
+  "text": "51,194"
+ },
+ {
+  "locator": "P1644",
+  "text": "|"
+ },
+ {
+  "locator": "P1645",
+  "text": "Plus:"
+ },
+ {
+  "locator": "P1646",
+  "text": "|"
+ },
+ {
+  "locator": "P1647",
+  "text": "|"
+ },
+ {
+  "locator": "P1648",
+  "text": "|"
+ },
+ {
+  "locator": "P1649",
+  "text": "|"
+ },
+ {
+  "locator": "P1650",
+  "text": "|"
+ },
+ {
+  "locator": "P1651",
+  "text": "|"
+ },
+ {
+  "locator": "P1652",
+  "text": "|"
+ },
+ {
+  "locator": "P1653",
+  "text": "|"
+ },
+ {
+  "locator": "P1654",
+  "text": "|"
+ },
+ {
+  "locator": "P1655",
+  "text": "|"
+ },
+ {
+  "locator": "P1656",
+  "text": "|"
+ },
+ {
+  "locator": "P1657",
+  "text": "|"
+ },
+ {
+  "locator": "P1658",
+  "text": "|"
+ },
+ {
+  "locator": "P1659",
+  "text": "Purchase accounting adjustment to inventory"
+ },
+ {
+  "locator": "P1660",
+  "text": "|"
+ },
+ {
+  "locator": "P1661",
+  "text": "|"
+ },
+ {
+  "locator": "P1662",
+  "text": "|"
+ },
+ {
+  "locator": "P1663",
+  "text": "647"
+ },
+ {
+  "locator": "P1664",
+  "text": "|"
+ },
+ {
+  "locator": "P1665",
+  "text": "|"
+ },
+ {
+  "locator": "P1666",
+  "text": "|"
+ },
+ {
+  "locator": "P1667",
+  "text": "—"
+ },
+ {
+  "locator": "P1668",
+  "text": "|"
+ },
+ {
+  "locator": "P1669",
+  "text": "|"
+ },
+ {
+  "locator": "P1670",
+  "text": "|"
+ },
+ {
+  "locator": "P1671",
+  "text": "2,149"
+ },
+ {
+  "locator": "P1672",
+  "text": "|"
+ },
+ {
+  "locator": "P1673",
+  "text": "|"
+ },
+ {
+  "locator": "P1674",
+  "text": "|"
+ },
+ {
+  "locator": "P1675",
+  "text": "—"
+ },
+ {
+  "locator": "P1676",
+  "text": "|"
+ },
+ {
+  "locator": "P1677",
+  "text": "Non same-store gross loss"
+ },
+ {
+  "locator": "P1678",
+  "text": "|"
+ },
+ {
+  "locator": "P1679",
+  "text": "|"
+ },
+ {
+  "locator": "P1680",
+  "text": "|"
+ },
+ {
+  "locator": "P1681",
+  "text": "2,011"
+ },
+ {
+  "locator": "P1682",
+  "text": "|"
+ },
+ {
+  "locator": "P1683",
+  "text": "|"
+ },
+ {
+  "locator": "P1684",
+  "text": "|"
+ },
+ {
+  "locator": "P1685",
+  "text": "—"
+ },
+ {
+  "locator": "P1686",
+  "text": "|"
+ },
+ {
+  "locator": "P1687",
+  "text": "|"
+ },
+ {
+  "locator": "P1688",
+  "text": "|"
+ },
+ {
+  "locator": "P1689",
+  "text": "5,556"
+ },
+ {
+  "locator": "P1690",
+  "text": "|"
+ },
+ {
+  "locator": "P1691",
+  "text": "|"
+ },
+ {
+  "locator": "P1692",
+  "text": "|"
+ },
+ {
+  "locator": "P1693",
+  "text": "—"
+ },
+ {
+  "locator": "P1694",
+  "text": "|"
+ },
+ {
+  "locator": "P1695",
+  "text": "Clinic launch expense"
+ },
+ {
+  "locator": "P1696",
+  "text": "|"
+ },
+ {
+  "locator": "P1697",
+  "text": "|"
+ },
+ {
+  "locator": "P1698",
+  "text": "|"
+ },
+ {
+  "locator": "P1699",
+  "text": "119"
+ },
+ {
+  "locator": "P1700",
+  "text": "|"
+ },
+ {
+  "locator": "P1701",
+  "text": "|"
+ },
+ {
+  "locator": "P1702",
+  "text": "|"
+ },
+ {
+  "locator": "P1703",
+  "text": "—"
+ },
+ {
+  "locator": "P1704",
+  "text": "|"
+ },
+ {
+  "locator": "P1705",
+  "text": "|"
+ },
+ {
+  "locator": "P1706",
+  "text": "|"
+ },
+ {
+  "locator": "P1707",
+  "text": "1,261"
+ },
+ {
+  "locator": "P1708",
+  "text": "|"
+ },
+ {
+  "locator": "P1709",
+  "text": "|"
+ },
+ {
+  "locator": "P1710",
+  "text": "|"
+ },
+ {
+  "locator": "P1711",
+  "text": "—"
+ },
+ {
+  "locator": "P1712",
+  "text": "|"
+ },
+ {
+  "locator": "P1713",
+  "text": "Adjusted gross profit"
+ },
+ {
+  "locator": "P1714",
+  "text": "|"
+ },
+ {
+  "locator": "P1715",
+  "text": "|"
+ },
+ {
+  "locator": "P1716",
+  "text": "$"
+ },
+ {
+  "locator": "P1717",
+  "text": "|"
+ },
+ {
+  "locator": "P1718",
+  "text": "19,682"
+ },
+ {
+  "locator": "P1719",
+  "text": "|"
+ },
+ {
+  "locator": "P1720",
+  "text": "|"
+ },
+ {
+  "locator": "P1721",
+  "text": "$"
+ },
+ {
+  "locator": "P1722",
+  "text": "|"
+ },
+ {
+  "locator": "P1723",
+  "text": "10,526"
+ },
+ {
+  "locator": "P1724",
+  "text": "|"
+ },
+ {
+  "locator": "P1725",
+  "text": "|"
+ },
+ {
+  "locator": "P1726",
+  "text": "$"
+ },
+ {
+  "locator": "P1727",
+  "text": "|"
+ },
+ {
+  "locator": "P1728",
+  "text": "92,254"
+ },
+ {
+  "locator": "P1729",
+  "text": "|"
+ },
+ {
+  "locator": "P1730",
+  "text": "|"
+ },
+ {
+  "locator": "P1731",
+  "text": "$"
+ },
+ {
+  "locator": "P1732",
+  "text": "|"
+ },
+ {
+  "locator": "P1733",
+  "text": "51,194"
+ },
+ {
+  "locator": "P1734",
+  "text": "PetIQ, Inc."
+ },
+ {
+  "locator": "P1735",
+  "text": "Reconciliation between Net Income (loss) and Adjusted EBITDA"
+ },
+ {
+  "locator": "P1736",
+  "text": "(Unaudited, $’s in 000’s)"
+ },
+ {
+  "locator": "P1737",
+  "text": "|"
+ },
+ {
+  "locator": "P1738",
+  "text": "|"
+ },
+ {
+  "locator": "P1739",
+  "text": "|"
+ },
+ {
+  "locator": "P1740",
+  "text": "|"
+ },
+ {
+  "locator": "P1741",
+  "text": "|"
+ },
+ {
+  "locator": "P1742",
+  "text": "|"
+ },
+ {
+  "locator": "P1743",
+  "text": "|"
+ },
+ {
+  "locator": "P1744",
+  "text": "|"
+ },
+ {
+  "locator": "P1745",
+  "text": "|"
+ },
+ {
+  "locator": "P1746",
+  "text": "|"
+ },
+ {
+  "locator": "P1747",
+  "text": "|"
+ },
+ {
+  "locator": "P1748",
+  "text": "|"
+ },
+ {
+  "locator": "P1749",
+  "text": "|"
+ },
+ {
+  "locator": "P1750",
+  "text": "|"
+ },
+ {
+  "locator": "P1751",
+  "text": "|"
+ },
+ {
+  "locator": "P1752",
+  "text": "|"
+ },
+ {
+  "locator": "P1753",
+  "text": "For the three months ended"
+ },
+ {
+  "locator": "P1754",
+  "text": "|"
+ },
+ {
+  "locator": "P1755",
+  "text": "|"
+ },
+ {
+  "locator": "P1756",
+  "text": "For the years ended"
+ },
+ {
+  "locator": "P1757",
+  "text": "|"
+ },
+ {
+  "locator": "P1758",
+  "text": "|"
+ },
+ {
+  "locator": "P1759",
+  "text": "|"
+ },
+ {
+  "locator": "P1760",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P1761",
+  "text": "|"
+ },
+ {
+  "locator": "P1762",
+  "text": "|"
+ },
+ {
+  "locator": "P1763",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P1764",
+  "text": "|"
+ },
+ {
+  "locator": "P1765",
+  "text": "|"
+ },
+ {
+  "locator": "P1766",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P1767",
+  "text": "|"
+ },
+ {
+  "locator": "P1768",
+  "text": "|"
+ },
+ {
+  "locator": "P1769",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P1770",
+  "text": "|"
+ },
+ {
+  "locator": "P1771",
+  "text": "Net income (loss)"
+ },
+ {
+  "locator": "P1772",
+  "text": "|"
+ },
+ {
+  "locator": "P1773",
+  "text": "|"
+ },
+ {
+  "locator": "P1774",
+  "text": "$"
+ },
+ {
+  "locator": "P1775",
+  "text": "|"
+ },
+ {
+  "locator": "P1776",
+  "text": "(5,256)"
+ },
+ {
+  "locator": "P1777",
+  "text": "|"
+ },
+ {
+  "locator": "P1778",
+  "text": "|"
+ },
+ {
+  "locator": "P1779",
+  "text": "$"
+ },
+ {
+  "locator": "P1780",
+  "text": "|"
+ },
+ {
+  "locator": "P1781",
+  "text": "(3,391)"
+ },
+ {
+  "locator": "P1782",
+  "text": "|"
+ },
+ {
+  "locator": "P1783",
+  "text": "|"
+ },
+ {
+  "locator": "P1784",
+  "text": "$"
+ },
+ {
+  "locator": "P1785",
+  "text": "|"
+ },
+ {
+  "locator": "P1786",
+  "text": "87"
+ },
+ {
+  "locator": "P1787",
+  "text": "|"
+ },
+ {
+  "locator": "P1788",
+  "text": "|"
+ },
+ {
+  "locator": "P1789",
+  "text": "$"
+ },
+ {
+  "locator": "P1790",
+  "text": "|"
+ },
+ {
+  "locator": "P1791",
+  "text": "7,817"
+ },
+ {
+  "locator": "P1792",
+  "text": "|"
+ },
+ {
+  "locator": "P1793",
+  "text": "Plus:"
+ },
+ {
+  "locator": "P1794",
+  "text": "|"
+ },
+ {
+  "locator": "P1795",
+  "text": "|"
+ },
+ {
+  "locator": "P1796",
+  "text": "|"
+ },
+ {
+  "locator": "P1797",
+  "text": "|"
+ },
+ {
+  "locator": "P1798",
+  "text": "|"
+ },
+ {
+  "locator": "P1799",
+  "text": "|"
+ },
+ {
+  "locator": "P1800",
+  "text": "|"
+ },
+ {
+  "locator": "P1801",
+  "text": "|"
+ },
+ {
+  "locator": "P1802",
+  "text": "|"
+ },
+ {
+  "locator": "P1803",
+  "text": "|"
+ },
+ {
+  "locator": "P1804",
+  "text": "|"
+ },
+ {
+  "locator": "P1805",
+  "text": "|"
+ },
+ {
+  "locator": "P1806",
+  "text": "|"
+ },
+ {
+  "locator": "P1807",
+  "text": "Tax expense (benefit)"
+ },
+ {
+  "locator": "P1808",
+  "text": "|"
+ },
+ {
+  "locator": "P1809",
+  "text": "|"
+ },
+ {
+  "locator": "P1810",
+  "text": "|"
+ },
+ {
+  "locator": "P1811",
+  "text": "(1,415)"
+ },
+ {
+  "locator": "P1812",
+  "text": "|"
+ },
+ {
+  "locator": "P1813",
+  "text": "|"
+ },
+ {
+  "locator": "P1814",
+  "text": "|"
+ },
+ {
+  "locator": "P1815",
+  "text": "3,420"
+ },
+ {
+  "locator": "P1816",
+  "text": "|"
+ },
+ {
+  "locator": "P1817",
+  "text": "|"
+ },
+ {
+  "locator": "P1818",
+  "text": "|"
+ },
+ {
+  "locator": "P1819",
+  "text": "(661)"
+ },
+ {
+  "locator": "P1820",
+  "text": "|"
+ },
+ {
+  "locator": "P1821",
+  "text": "|"
+ },
+ {
+  "locator": "P1822",
+  "text": "|"
+ },
+ {
+  "locator": "P1823",
+  "text": "3,970"
+ },
+ {
+  "locator": "P1824",
+  "text": "|"
+ },
+ {
+  "locator": "P1825",
+  "text": "Depreciation"
+ },
+ {
+  "locator": "P1826",
+  "text": "|"
+ },
+ {
+  "locator": "P1827",
+  "text": "|"
+ },
+ {
+  "locator": "P1828",
+  "text": "|"
+ },
+ {
+  "locator": "P1829",
+  "text": "1,841"
+ },
+ {
+  "locator": "P1830",
+  "text": "|"
+ },
+ {
+  "locator": "P1831",
+  "text": "|"
+ },
+ {
+  "locator": "P1832",
+  "text": "|"
+ },
+ {
+  "locator": "P1833",
+  "text": "553"
+ },
+ {
+  "locator": "P1834",
+  "text": "|"
+ },
+ {
+  "locator": "P1835",
+  "text": "|"
+ },
+ {
+  "locator": "P1836",
+  "text": "|"
+ },
+ {
+  "locator": "P1837",
+  "text": "6,657"
+ },
+ {
+  "locator": "P1838",
+  "text": "|"
+ },
+ {
+  "locator": "P1839",
+  "text": "|"
+ },
+ {
+  "locator": "P1840",
+  "text": "|"
+ },
+ {
+  "locator": "P1841",
+  "text": "2,348"
+ },
+ {
+  "locator": "P1842",
+  "text": "|"
+ },
+ {
+  "locator": "P1843",
+  "text": "Amortization"
+ },
+ {
+  "locator": "P1844",
+  "text": "|"
+ },
+ {
+  "locator": "P1845",
+  "text": "|"
+ },
+ {
+  "locator": "P1846",
+  "text": "|"
+ },
+ {
+  "locator": "P1847",
+  "text": "1,519"
+ },
+ {
+  "locator": "P1848",
+  "text": "|"
+ },
+ {
+  "locator": "P1849",
+  "text": "|"
+ },
+ {
+  "locator": "P1850",
+  "text": "|"
+ },
+ {
+  "locator": "P1851",
+  "text": "270"
+ },
+ {
+  "locator": "P1852",
+  "text": "|"
+ },
+ {
+  "locator": "P1853",
+  "text": "|"
+ },
+ {
+  "locator": "P1854",
+  "text": "|"
+ },
+ {
+  "locator": "P1855",
+  "text": "5,210"
+ },
+ {
+  "locator": "P1856",
+  "text": "|"
+ },
+ {
+  "locator": "P1857",
+  "text": "|"
+ },
+ {
+  "locator": "P1858",
+  "text": "|"
+ },
+ {
+  "locator": "P1859",
+  "text": "1,052"
+ },
+ {
+  "locator": "P1860",
+  "text": "|"
+ },
+ {
+  "locator": "P1861",
+  "text": "Interest"
+ },
+ {
+  "locator": "P1862",
+  "text": "|"
+ },
+ {
+  "locator": "P1863",
+  "text": "|"
+ },
+ {
+  "locator": "P1864",
+  "text": "|"
+ },
+ {
+  "locator": "P1865",
+  "text": "1,882"
+ },
+ {
+  "locator": "P1866",
+  "text": "|"
+ },
+ {
+  "locator": "P1867",
+  "text": "|"
+ },
+ {
+  "locator": "P1868",
+  "text": "|"
+ },
+ {
+  "locator": "P1869",
+  "text": "212"
+ },
+ {
+  "locator": "P1870",
+  "text": "|"
+ },
+ {
+  "locator": "P1871",
+  "text": "|"
+ },
+ {
+  "locator": "P1872",
+  "text": "|"
+ },
+ {
+  "locator": "P1873",
+  "text": "8,022"
+ },
+ {
+  "locator": "P1874",
+  "text": "|"
+ },
+ {
+  "locator": "P1875",
+  "text": "|"
+ },
+ {
+  "locator": "P1876",
+  "text": "|"
+ },
+ {
+  "locator": "P1877",
+  "text": "1,563"
+ },
+ {
+  "locator": "P1878",
+  "text": "|"
+ },
+ {
+  "locator": "P1879",
+  "text": "EBITDA"
+ },
+ {
+  "locator": "P1880",
+  "text": "|"
+ },
+ {
+  "locator": "P1881",
+  "text": "|"
+ },
+ {
+  "locator": "P1882",
+  "text": "$"
+ },
+ {
+  "locator": "P1883",
+  "text": "|"
+ },
+ {
+  "locator": "P1884",
+  "text": "(1,429)"
+ },
+ {
+  "locator": "P1885",
+  "text": "|"
+ },
+ {
+  "locator": "P1886",
+  "text": "|"
+ },
+ {
+  "locator": "P1887",
+  "text": "$"
+ },
+ {
+  "locator": "P1888",
+  "text": "|"
+ },
+ {
+  "locator": "P1889",
+  "text": "1,064"
+ },
+ {
+  "locator": "P1890",
+  "text": "|"
+ },
+ {
+  "locator": "P1891",
+  "text": "|"
+ },
+ {
+  "locator": "P1892",
+  "text": "$"
+ },
+ {
+  "locator": "P1893",
+  "text": "|"
+ },
+ {
+  "locator": "P1894",
+  "text": "19,315"
+ },
+ {
+  "locator": "P1895",
+  "text": "|"
+ },
+ {
+  "locator": "P1896",
+  "text": "|"
+ },
+ {
+  "locator": "P1897",
+  "text": "$"
+ },
+ {
+  "locator": "P1898",
+  "text": "|"
+ },
+ {
+  "locator": "P1899",
+  "text": "16,750"
+ },
+ {
+  "locator": "P1900",
+  "text": "|"
+ },
+ {
+  "locator": "P1901",
+  "text": "Acquisition costs(1)"
+ },
+ {
+  "locator": "P1902",
+  "text": "|"
+ },
+ {
+  "locator": "P1903",
+  "text": "|"
+ },
+ {
+  "locator": "P1904",
+  "text": "|"
+ },
+ {
+  "locator": "P1905",
+  "text": "308"
+ },
+ {
+  "locator": "P1906",
+  "text": "|"
+ },
+ {
+  "locator": "P1907",
+  "text": "|"
+ },
+ {
+  "locator": "P1908",
+  "text": "|"
+ },
+ {
+  "locator": "P1909",
+  "text": "1,965"
+ },
+ {
+  "locator": "P1910",
+  "text": "|"
+ },
+ {
+  "locator": "P1911",
+  "text": "|"
+ },
+ {
+  "locator": "P1912",
+  "text": "|"
+ },
+ {
+  "locator": "P1913",
+  "text": "3,787"
+ },
+ {
+  "locator": "P1914",
+  "text": "|"
+ },
+ {
+  "locator": "P1915",
+  "text": "|"
+ },
+ {
+  "locator": "P1916",
+  "text": "|"
+ },
+ {
+  "locator": "P1917",
+  "text": "1,965"
+ },
+ {
+  "locator": "P1918",
+  "text": "|"
+ },
+ {
+  "locator": "P1919",
+  "text": "Management fees(2)"
+ },
+ {
+  "locator": "P1920",
+  "text": "|"
+ },
+ {
+  "locator": "P1921",
+  "text": "|"
+ },
+ {
+  "locator": "P1922",
+  "text": "|"
+ },
+ {
+  "locator": "P1923",
+  "text": "—"
+ },
+ {
+  "locator": "P1924",
+  "text": "|"
+ },
+ {
+  "locator": "P1925",
+  "text": "|"
+ },
+ {
+  "locator": "P1926",
+  "text": "|"
+ },
+ {
+  "locator": "P1927",
+  "text": "66"
+ },
+ {
+  "locator": "P1928",
+  "text": "|"
+ },
+ {
+  "locator": "P1929",
+  "text": "|"
+ },
+ {
+  "locator": "P1930",
+  "text": "|"
+ },
+ {
+  "locator": "P1931",
+  "text": "—"
+ },
+ {
+  "locator": "P1932",
+  "text": "|"
+ },
+ {
+  "locator": "P1933",
+  "text": "|"
+ },
+ {
+  "locator": "P1934",
+  "text": "|"
+ },
+ {
+  "locator": "P1935",
+  "text": "610"
+ },
+ {
+  "locator": "P1936",
+  "text": "|"
+ },
+ {
+  "locator": "P1937",
+  "text": "Costs associated with becoming a public company"
+ },
+ {
+  "locator": "P1938",
+  "text": "|"
+ },
+ {
+  "locator": "P1939",
+  "text": "|"
+ },
+ {
+  "locator": "P1940",
+  "text": "|"
+ },
+ {
+  "locator": "P1941",
+  "text": "—"
+ },
+ {
+  "locator": "P1942",
+  "text": "|"
+ },
+ {
+  "locator": "P1943",
+  "text": "|"
+ },
+ {
+  "locator": "P1944",
+  "text": "|"
+ },
+ {
+  "locator": "P1945",
+  "text": "435"
+ },
+ {
+  "locator": "P1946",
+  "text": "|"
+ },
+ {
+  "locator": "P1947",
+  "text": "|"
+ },
+ {
+  "locator": "P1948",
+  "text": "|"
+ },
+ {
+  "locator": "P1949",
+  "text": "—"
+ },
+ {
+  "locator": "P1950",
+  "text": "|"
+ },
+ {
+  "locator": "P1951",
+  "text": "|"
+ },
+ {
+  "locator": "P1952",
+  "text": "|"
+ },
+ {
+  "locator": "P1953",
+  "text": "2,710"
+ },
+ {
+  "locator": "P1954",
+  "text": "|"
+ },
+ {
+  "locator": "P1955",
+  "text": "Supplier Receivable recovery(6)"
+ },
+ {
+  "locator": "P1956",
+  "text": "|"
+ },
+ {
+  "locator": "P1957",
+  "text": "|"
+ },
+ {
+  "locator": "P1958",
+  "text": "|"
+ },
+ {
+  "locator": "P1959",
+  "text": "—"
+ },
+ {
+  "locator": "P1960",
+  "text": "|"
+ },
+ {
+  "locator": "P1961",
+  "text": "|"
+ },
+ {
+  "locator": "P1962",
+  "text": "|"
+ },
+ {
+  "locator": "P1963",
+  "text": "(175)"
+ },
+ {
+  "locator": "P1964",
+  "text": "|"
+ },
+ {
+  "locator": "P1965",
+  "text": "|"
+ },
+ {
+  "locator": "P1966",
+  "text": "|"
+ },
+ {
+  "locator": "P1967",
+  "text": "—"
+ },
+ {
+  "locator": "P1968",
+  "text": "|"
+ },
+ {
+  "locator": "P1969",
+  "text": "|"
+ },
+ {
+  "locator": "P1970",
+  "text": "|"
+ },
+ {
+  "locator": "P1971",
+  "text": "(175)"
+ },
+ {
+  "locator": "P1972",
+  "text": "|"
+ },
+ {
+  "locator": "P1973",
+  "text": "Stock based compensation expense"
+ },
+ {
+  "locator": "P1974",
+  "text": "|"
+ },
+ {
+  "locator": "P1975",
+  "text": "|"
+ },
+ {
+  "locator": "P1976",
+  "text": "|"
+ },
+ {
+  "locator": "P1977",
+  "text": "1,134"
+ },
+ {
+  "locator": "P1978",
+  "text": "|"
+ },
+ {
+  "locator": "P1979",
+  "text": "|"
+ },
+ {
+  "locator": "P1980",
+  "text": "|"
+ },
+ {
+  "locator": "P1981",
+  "text": "201"
+ },
+ {
+  "locator": "P1982",
+  "text": "|"
+ },
+ {
+  "locator": "P1983",
+  "text": "|"
+ },
+ {
+  "locator": "P1984",
+  "text": "|"
+ },
+ {
+  "locator": "P1985",
+  "text": "3,812"
+ },
+ {
+  "locator": "P1986",
+  "text": "|"
+ },
+ {
+  "locator": "P1987",
+  "text": "|"
+ },
+ {
+  "locator": "P1988",
+  "text": "|"
+ },
+ {
+  "locator": "P1989",
+  "text": "447"
+ },
+ {
+  "locator": "P1990",
+  "text": "|"
+ },
+ {
+  "locator": "P1991",
+  "text": "Purchase accounting adjustment to inventory"
+ },
+ {
+  "locator": "P1992",
+  "text": "|"
+ },
+ {
+  "locator": "P1993",
+  "text": "|"
+ },
+ {
+  "locator": "P1994",
+  "text": "|"
+ },
+ {
+  "locator": "P1995",
+  "text": "647"
+ },
+ {
+  "locator": "P1996",
+  "text": "|"
+ },
+ {
+  "locator": "P1997",
+  "text": "|"
+ },
+ {
+  "locator": "P1998",
+  "text": "|"
+ },
+ {
+  "locator": "P1999",
+  "text": "—"
+ },
+ {
+  "locator": "P2000",
+  "text": "|"
+ },
+ {
+  "locator": "P2001",
+  "text": "|"
+ },
+ {
+  "locator": "P2002",
+  "text": "|"
+ },
+ {
+  "locator": "P2003",
+  "text": "2,149"
+ },
+ {
+  "locator": "P2004",
+  "text": "|"
+ },
+ {
+  "locator": "P2005",
+  "text": "|"
+ },
+ {
+  "locator": "P2006",
+  "text": "|"
+ },
+ {
+  "locator": "P2007",
+  "text": "—"
+ },
+ {
+  "locator": "P2008",
+  "text": "|"
+ },
+ {
+  "locator": "P2009",
+  "text": "Non same-store revenue(3)"
+ },
+ {
+  "locator": "P2010",
+  "text": "|"
+ },
+ {
+  "locator": "P2011",
+  "text": "|"
+ },
+ {
+  "locator": "P2012",
+  "text": "|"
+ },
+ {
+  "locator": "P2013",
+  "text": "(1,192)"
+ },
+ {
+  "locator": "P2014",
+  "text": "|"
+ },
+ {
+  "locator": "P2015",
+  "text": "|"
+ },
+ {
+  "locator": "P2016",
+  "text": "|"
+ },
+ {
+  "locator": "P2017",
+  "text": "—"
+ },
+ {
+  "locator": "P2018",
+  "text": "|"
+ },
+ {
+  "locator": "P2019",
+  "text": "|"
+ },
+ {
+  "locator": "P2020",
+  "text": "|"
+ },
+ {
+  "locator": "P2021",
+  "text": "(3,967)"
+ },
+ {
+  "locator": "P2022",
+  "text": "|"
+ },
+ {
+  "locator": "P2023",
+  "text": "|"
+ },
+ {
+  "locator": "P2024",
+  "text": "|"
+ },
+ {
+  "locator": "P2025",
+  "text": "—"
+ },
+ {
+  "locator": "P2026",
+  "text": "|"
+ },
+ {
+  "locator": "P2027",
+  "text": "Non same-store costs(3)"
+ },
+ {
+  "locator": "P2028",
+  "text": "|"
+ },
+ {
+  "locator": "P2029",
+  "text": "|"
+ },
+ {
+  "locator": "P2030",
+  "text": "|"
+ },
+ {
+  "locator": "P2031",
+  "text": "3,678"
+ },
+ {
+  "locator": "P2032",
+  "text": "|"
+ },
+ {
+  "locator": "P2033",
+  "text": "|"
+ },
+ {
+  "locator": "P2034",
+  "text": "|"
+ },
+ {
+  "locator": "P2035",
+  "text": "—"
+ },
+ {
+  "locator": "P2036",
+  "text": "|"
+ },
+ {
+  "locator": "P2037",
+  "text": "|"
+ },
+ {
+  "locator": "P2038",
+  "text": "|"
+ },
+ {
+  "locator": "P2039",
+  "text": "10,345"
+ },
+ {
+  "locator": "P2040",
+  "text": "|"
+ },
+ {
+  "locator": "P2041",
+  "text": "|"
+ },
+ {
+  "locator": "P2042",
+  "text": "|"
+ },
+ {
+  "locator": "P2043",
+  "text": "—"
+ },
+ {
+  "locator": "P2044",
+  "text": "|"
+ },
+ {
+  "locator": "P2045",
+  "text": "Fair value adjustment of contingent note"
+ },
+ {
+  "locator": "P2046",
+  "text": "|"
+ },
+ {
+  "locator": "P2047",
+  "text": "|"
+ },
+ {
+  "locator": "P2048",
+  "text": "|"
+ },
+ {
+  "locator": "P2049",
+  "text": "3,030"
+ },
+ {
+  "locator": "P2050",
+  "text": "|"
+ },
+ {
+  "locator": "P2051",
+  "text": "|"
+ },
+ {
+  "locator": "P2052",
+  "text": "|"
+ },
+ {
+  "locator": "P2053",
+  "text": "—"
+ },
+ {
+  "locator": "P2054",
+  "text": "|"
+ },
+ {
+  "locator": "P2055",
+  "text": "|"
+ },
+ {
+  "locator": "P2056",
+  "text": "|"
+ },
+ {
+  "locator": "P2057",
+  "text": "3,280"
+ },
+ {
+  "locator": "P2058",
+  "text": "|"
+ },
+ {
+  "locator": "P2059",
+  "text": "|"
+ },
+ {
+  "locator": "P2060",
+  "text": "|"
+ },
+ {
+  "locator": "P2061",
+  "text": "—"
+ },
+ {
+  "locator": "P2062",
+  "text": "|"
+ },
+ {
+  "locator": "P2063",
+  "text": "Integration costs and costs of discontinued clinics"
+ },
+ {
+  "locator": "P2064",
+  "text": "|"
+ },
+ {
+  "locator": "P2065",
+  "text": "|"
+ },
+ {
+  "locator": "P2066",
+  "text": "|"
+ },
+ {
+  "locator": "P2067",
+  "text": "185"
+ },
+ {
+  "locator": "P2068",
+  "text": "|"
+ },
+ {
+  "locator": "P2069",
+  "text": "|"
+ },
+ {
+  "locator": "P2070",
+  "text": "|"
+ },
+ {
+  "locator": "P2071",
+  "text": "—"
+ },
+ {
+  "locator": "P2072",
+  "text": "|"
+ },
+ {
+  "locator": "P2073",
+  "text": "|"
+ },
+ {
+  "locator": "P2074",
+  "text": "|"
+ },
+ {
+  "locator": "P2075",
+  "text": "998"
+ },
+ {
+  "locator": "P2076",
+  "text": "|"
+ },
+ {
+  "locator": "P2077",
+  "text": "|"
+ },
+ {
+  "locator": "P2078",
+  "text": "|"
+ },
+ {
+  "locator": "P2079",
+  "text": "—"
+ },
+ {
+  "locator": "P2080",
+  "text": "|"
+ },
+ {
+  "locator": "P2081",
+  "text": "Clinic launch expenses(4)"
+ },
+ {
+  "locator": "P2082",
+  "text": "|"
+ },
+ {
+  "locator": "P2083",
+  "text": "|"
+ },
+ {
+  "locator": "P2084",
+  "text": "|"
+ },
+ {
+  "locator": "P2085",
+  "text": "119"
+ },
+ {
+  "locator": "P2086",
+  "text": "|"
+ },
+ {
+  "locator": "P2087",
+  "text": "|"
+ },
+ {
+  "locator": "P2088",
+  "text": "|"
+ },
+ {
+  "locator": "P2089",
+  "text": "—"
+ },
+ {
+  "locator": "P2090",
+  "text": "|"
+ },
+ {
+  "locator": "P2091",
+  "text": "|"
+ },
+ {
+  "locator": "P2092",
+  "text": "|"
+ },
+ {
+  "locator": "P2093",
+  "text": "1,380"
+ },
+ {
+  "locator": "P2094",
+  "text": "|"
+ },
+ {
+  "locator": "P2095",
+  "text": "|"
+ },
+ {
+  "locator": "P2096",
+  "text": "|"
+ },
+ {
+  "locator": "P2097",
+  "text": "—"
+ },
+ {
+  "locator": "P2098",
+  "text": "|"
+ },
+ {
+  "locator": "P2099",
+  "text": "Non-recurring royalty settlement(5)"
+ },
+ {
+  "locator": "P2100",
+  "text": "|"
+ },
+ {
+  "locator": "P2101",
+  "text": "|"
+ },
+ {
+  "locator": "P2102",
+  "text": "|"
+ },
+ {
+  "locator": "P2103",
+  "text": "—"
+ },
+ {
+  "locator": "P2104",
+  "text": "|"
+ },
+ {
+  "locator": "P2105",
+  "text": "|"
+ },
+ {
+  "locator": "P2106",
+  "text": "|"
+ },
+ {
+  "locator": "P2107",
+  "text": "—"
+ },
+ {
+  "locator": "P2108",
+  "text": "|"
+ },
+ {
+  "locator": "P2109",
+  "text": "|"
+ },
+ {
+  "locator": "P2110",
+  "text": "|"
+ },
+ {
+  "locator": "P2111",
+  "text": "440"
+ },
+ {
+  "locator": "P2112",
+  "text": "|"
+ },
+ {
+  "locator": "P2113",
+  "text": "|"
+ },
+ {
+  "locator": "P2114",
+  "text": "|"
+ },
+ {
+  "locator": "P2115",
+  "text": "—"
+ },
+ {
+  "locator": "P2116",
+  "text": "|"
+ },
+ {
+  "locator": "P2117",
+  "text": "Adjusted EBITDA"
+ },
+ {
+  "locator": "P2118",
+  "text": "|"
+ },
+ {
+  "locator": "P2119",
+  "text": "|"
+ },
+ {
+  "locator": "P2120",
+  "text": "$"
+ },
+ {
+  "locator": "P2121",
+  "text": "|"
+ },
+ {
+  "locator": "P2122",
+  "text": "6,480"
+ },
+ {
+  "locator": "P2123",
+  "text": "|"
+ },
+ {
+  "locator": "P2124",
+  "text": "|"
+ },
+ {
+  "locator": "P2125",
+  "text": "$"
+ },
+ {
+  "locator": "P2126",
+  "text": "|"
+ },
+ {
+  "locator": "P2127",
+  "text": "3,556"
+ },
+ {
+  "locator": "P2128",
+  "text": "|"
+ },
+ {
+  "locator": "P2129",
+  "text": "|"
+ },
+ {
+  "locator": "P2130",
+  "text": "$"
+ },
+ {
+  "locator": "P2131",
+  "text": "|"
+ },
+ {
+  "locator": "P2132",
+  "text": "41,539"
+ },
+ {
+  "locator": "P2133",
+  "text": "|"
+ },
+ {
+  "locator": "P2134",
+  "text": "|"
+ },
+ {
+  "locator": "P2135",
+  "text": "$"
+ },
+ {
+  "locator": "P2136",
+  "text": "|"
+ },
+ {
+  "locator": "P2137",
+  "text": "22,307"
+ },
+ {
+  "locator": "P2138",
+  "text": "|"
+ },
+ {
+  "locator": "P2139",
+  "text": "|"
+ },
+ {
+  "locator": "P2140",
+  "text": "|"
+ },
+ {
+  "locator": "P2141",
+  "text": "|"
+ },
+ {
+  "locator": "P2142",
+  "text": "5.8%"
+ },
+ {
+  "locator": "P2143",
+  "text": "|"
+ },
+ {
+  "locator": "P2144",
+  "text": "|"
+ },
+ {
+  "locator": "P2145",
+  "text": "|"
+ },
+ {
+  "locator": "P2146",
+  "text": "6.8%"
+ },
+ {
+  "locator": "P2147",
+  "text": "|"
+ },
+ {
+  "locator": "P2148",
+  "text": "|"
+ },
+ {
+  "locator": "P2149",
+  "text": "|"
+ },
+ {
+  "locator": "P2150",
+  "text": "7.9%"
+ },
+ {
+  "locator": "P2151",
+  "text": "|"
+ },
+ {
+  "locator": "P2152",
+  "text": "|"
+ },
+ {
+  "locator": "P2153",
+  "text": "|"
+ },
+ {
+  "locator": "P2154",
+  "text": "8.4%"
+ },
+ {
+  "locator": "P2155",
+  "text": "(1) Acquisition costs relating to the VIP acquisition and the HBH Acquisition, which was completed in October 2018."
+ },
+ {
+  "locator": "P2156",
+  "text": "(2)Represents annual fees paid pursuant to our management agreements with Eos, Highland and Labore. The management agreements terminated in connection with our IPO in July 2017."
+ },
+ {
+  "locator": "P2157",
+  "text": "(3)Non same-store revenue and costs are from wellness centers, host partners, and regions with less than six full trailing quarters of operating results. There were 26 wellness centers, 5 regions, and one new host partner that had less than six trailing quarters of operating results for the three months and year ended December 31, 2018 and none for the prior comparable periods."
+ },
+ {
+  "locator": "P2158",
+  "text": "(4)Clinic launch expenses represent the nonrecurring costs to open new veterinary wellness centers, primarily employee costs, training, marketing, and rent prior to opening for business."
+ },
+ {
+  "locator": "P2159",
+  "text": "(5)Represents a settlement paid to a supplier related to a royalty agreement in place since 2013."
+ },
+ {
+  "locator": "P2160",
+  "text": "(6)During 2015 the Company terminated its relationship with a supplier in accordance with a supply agreement. The Company collected a settlement on the matter in 2017."
+ },
+ {
+  "locator": "P2161",
+  "text": "PetIQ, Inc."
+ },
+ {
+  "locator": "P2162",
+  "text": "Reconciliation between Net Income (loss) and Adjusted Net Income"
+ },
+ {
+  "locator": "P2163",
+  "text": "(Unaudited, $’s in 000’s)"
+ },
+ {
+  "locator": "P2164",
+  "text": "|"
+ },
+ {
+  "locator": "P2165",
+  "text": "|"
+ },
+ {
+  "locator": "P2166",
+  "text": "|"
+ },
+ {
+  "locator": "P2167",
+  "text": "|"
+ },
+ {
+  "locator": "P2168",
+  "text": "|"
+ },
+ {
+  "locator": "P2169",
+  "text": "|"
+ },
+ {
+  "locator": "P2170",
+  "text": "|"
+ },
+ {
+  "locator": "P2171",
+  "text": "|"
+ },
+ {
+  "locator": "P2172",
+  "text": "|"
+ },
+ {
+  "locator": "P2173",
+  "text": "|"
+ },
+ {
+  "locator": "P2174",
+  "text": "|"
+ },
+ {
+  "locator": "P2175",
+  "text": "|"
+ },
+ {
+  "locator": "P2176",
+  "text": "|"
+ },
+ {
+  "locator": "P2177",
+  "text": "|"
+ },
+ {
+  "locator": "P2178",
+  "text": "|"
+ },
+ {
+  "locator": "P2179",
+  "text": "|"
+ },
+ {
+  "locator": "P2180",
+  "text": "|"
+ },
+ {
+  "locator": "P2181",
+  "text": "Three months ended"
+ },
+ {
+  "locator": "P2182",
+  "text": "|"
+ },
+ {
+  "locator": "P2183",
+  "text": "|"
+ },
+ {
+  "locator": "P2184",
+  "text": "Year ended"
+ },
+ {
+  "locator": "P2185",
+  "text": "|"
+ },
+ {
+  "locator": "P2186",
+  "text": "|"
+ },
+ {
+  "locator": "P2187",
+  "text": "|"
+ },
+ {
+  "locator": "P2188",
+  "text": "|"
+ },
+ {
+  "locator": "P2189",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P2190",
+  "text": "|"
+ },
+ {
+  "locator": "P2191",
+  "text": "|"
+ },
+ {
+  "locator": "P2192",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P2193",
+  "text": "|"
+ },
+ {
+  "locator": "P2194",
+  "text": "|"
+ },
+ {
+  "locator": "P2195",
+  "text": "December 31, 2018"
+ },
+ {
+  "locator": "P2196",
+  "text": "|"
+ },
+ {
+  "locator": "P2197",
+  "text": "|"
+ },
+ {
+  "locator": "P2198",
+  "text": "December 31, 2017"
+ },
+ {
+  "locator": "P2199",
+  "text": "|"
+ },
+ {
+  "locator": "P2200",
+  "text": "|"
+ },
+ {
+  "locator": "P2201",
+  "text": "Net income (loss)"
+ },
+ {
+  "locator": "P2202",
+  "text": "|"
+ },
+ {
+  "locator": "P2203",
+  "text": "|"
+ },
+ {
+  "locator": "P2204",
+  "text": "$"
+ },
+ {
+  "locator": "P2205",
+  "text": "|"
+ },
+ {
+  "locator": "P2206",
+  "text": "(5,256)"
+ },
+ {
+  "locator": "P2207",
+  "text": "|"
+ },
+ {
+  "locator": "P2208",
+  "text": "|"
+ },
+ {
+  "locator": "P2209",
+  "text": "$"
+ },
+ {
+  "locator": "P2210",
+  "text": "|"
+ },
+ {
+  "locator": "P2211",
+  "text": "(3,391)"
+ },
+ {
+  "locator": "P2212",
+  "text": "|"
+ },
+ {
+  "locator": "P2213",
+  "text": "|"
+ },
+ {
+  "locator": "P2214",
+  "text": "$"
+ },
+ {
+  "locator": "P2215",
+  "text": "|"
+ },
+ {
+  "locator": "P2216",
+  "text": "87"
+ },
+ {
+  "locator": "P2217",
+  "text": "|"
+ },
+ {
+  "locator": "P2218",
+  "text": "|"
+ },
+ {
+  "locator": "P2219",
+  "text": "$"
+ },
+ {
+  "locator": "P2220",
+  "text": "|"
+ },
+ {
+  "locator": "P2221",
+  "text": "7,817"
+ },
+ {
+  "locator": "P2222",
+  "text": "|"
+ },
+ {
+  "locator": "P2223",
+  "text": "|"
+ },
+ {
+  "locator": "P2224",
+  "text": "Plus:"
+ },
+ {
+  "locator": "P2225",
+  "text": "|"
+ },
+ {
+  "locator": "P2226",
+  "text": "|"
+ },
+ {
+  "locator": "P2227",
+  "text": "|"
+ },
+ {
+  "locator": "P2228",
+  "text": "|"
+ },
+ {
+  "locator": "P2229",
+  "text": "|"
+ },
+ {
+  "locator": "P2230",
+  "text": "|"
+ },
+ {
+  "locator": "P2231",
+  "text": "|"
+ },
+ {
+  "locator": "P2232",
+  "text": "|"
+ },
+ {
+  "locator": "P2233",
+  "text": "|"
+ },
+ {
+  "locator": "P2234",
+  "text": "|"
+ },
+ {
+  "locator": "P2235",
+  "text": "|"
+ },
+ {
+  "locator": "P2236",
+  "text": "|"
+ },
+ {
+  "locator": "P2237",
+  "text": "|"
+ },
+ {
+  "locator": "P2238",
+  "text": "|"
+ },
+ {
+  "locator": "P2239",
+  "text": "Acquisition costs(1)"
+ },
+ {
+  "locator": "P2240",
+  "text": "|"
+ },
+ {
+  "locator": "P2241",
+  "text": "|"
+ },
+ {
+  "locator": "P2242",
+  "text": "|"
+ },
+ {
+  "locator": "P2243",
+  "text": "308"
+ },
+ {
+  "locator": "P2244",
+  "text": "|"
+ },
+ {
+  "locator": "P2245",
+  "text": "|"
+ },
+ {
+  "locator": "P2246",
+  "text": "|"
+ },
+ {
+  "locator": "P2247",
+  "text": "1,965"
+ },
+ {
+  "locator": "P2248",
+  "text": "|"
+ },
+ {
+  "locator": "P2249",
+  "text": "|"
+ },
+ {
+  "locator": "P2250",
+  "text": "|"
+ },
+ {
+  "locator": "P2251",
+  "text": "3,787"
+ },
+ {
+  "locator": "P2252",
+  "text": "|"
+ },
+ {
+  "locator": "P2253",
+  "text": "|"
+ },
+ {
+  "locator": "P2254",
+  "text": "|"
+ },
+ {
+  "locator": "P2255",
+  "text": "1,965"
+ },
+ {
+  "locator": "P2256",
+  "text": "|"
+ },
+ {
+  "locator": "P2257",
+  "text": "|"
+ },
+ {
+  "locator": "P2258",
+  "text": "Tax expense (benefit)"
+ },
+ {
+  "locator": "P2259",
+  "text": "|"
+ },
+ {
+  "locator": "P2260",
+  "text": "|"
+ },
+ {
+  "locator": "P2261",
+  "text": "|"
+ },
+ {
+  "locator": "P2262",
+  "text": "(1,415)"
+ },
+ {
+  "locator": "P2263",
+  "text": "|"
+ },
+ {
+  "locator": "P2264",
+  "text": "|"
+ },
+ {
+  "locator": "P2265",
+  "text": "|"
+ },
+ {
+  "locator": "P2266",
+  "text": "3,420"
+ },
+ {
+  "locator": "P2267",
+  "text": "|"
+ },
+ {
+  "locator": "P2268",
+  "text": "|"
+ },
+ {
+  "locator": "P2269",
+  "text": "|"
+ },
+ {
+  "locator": "P2270",
+  "text": "(661)"
+ },
+ {
+  "locator": "P2271",
+  "text": "|"
+ },
+ {
+  "locator": "P2272",
+  "text": "|"
+ },
+ {
+  "locator": "P2273",
+  "text": "|"
+ },
+ {
+  "locator": "P2274",
+  "text": "3,970"
+ },
+ {
+  "locator": "P2275",
+  "text": "|"
+ },
+ {
+  "locator": "P2276",
+  "text": "|"
+ },
+ {
+  "locator": "P2277",
+  "text": "Stock based compensation expense"
+ },
+ {
+  "locator": "P2278",
+  "text": "|"
+ },
+ {
+  "locator": "P2279",
+  "text": "|"
+ },
+ {
+  "locator": "P2280",
+  "text": "|"
+ },
+ {
+  "locator": "P2281",
+  "text": "1,134"
+ },
+ {
+  "locator": "P2282",
+  "text": "|"
+ },
+ {
+  "locator": "P2283",
+  "text": "|"
+ },
+ {
+  "locator": "P2284",
+  "text": "|"
+ },
+ {
+  "locator": "P2285",
+  "text": "201"
+ },
+ {
+  "locator": "P2286",
+  "text": "|"
+ },
+ {
+  "locator": "P2287",
+  "text": "|"
+ },
+ {
+  "locator": "P2288",
+  "text": "|"
+ },
+ {
+  "locator": "P2289",
+  "text": "3,812"
+ },
+ {
+  "locator": "P2290",
+  "text": "|"
+ },
+ {
+  "locator": "P2291",
+  "text": "|"
+ },
+ {
+  "locator": "P2292",
+  "text": "|"
+ },
+ {
+  "locator": "P2293",
+  "text": "447"
+ },
+ {
+  "locator": "P2294",
+  "text": "|"
+ },
+ {
+  "locator": "P2295",
+  "text": "|"
+ },
+ {
+  "locator": "P2296",
+  "text": "Purchase accounting adjustment to inventory"
+ },
+ {
+  "locator": "P2297",
+  "text": "|"
+ },
+ {
+  "locator": "P2298",
+  "text": "|"
+ },
+ {
+  "locator": "P2299",
+  "text": "|"
+ },
+ {
+  "locator": "P2300",
+  "text": "647"
+ },
+ {
+  "locator": "P2301",
+  "text": "|"
+ },
+ {
+  "locator": "P2302",
+  "text": "|"
+ },
+ {
+  "locator": "P2303",
+  "text": "|"
+ },
+ {
+  "locator": "P2304",
+  "text": "—"
+ },
+ {
+  "locator": "P2305",
+  "text": "|"
+ },
+ {
+  "locator": "P2306",
+  "text": "|"
+ },
+ {
+  "locator": "P2307",
+  "text": "|"
+ },
+ {
+  "locator": "P2308",
+  "text": "2,149"
+ },
+ {
+  "locator": "P2309",
+  "text": "|"
+ },
+ {
+  "locator": "P2310",
+  "text": "|"
+ },
+ {
+  "locator": "P2311",
+  "text": "|"
+ },
+ {
+  "locator": "P2312",
+  "text": "—"
+ },
+ {
+  "locator": "P2313",
+  "text": "|"
+ },
+ {
+  "locator": "P2314",
+  "text": "|"
+ },
+ {
+  "locator": "P2315",
+  "text": "Non same-store revenue(2)"
+ },
+ {
+  "locator": "P2316",
+  "text": "|"
+ },
+ {
+  "locator": "P2317",
+  "text": "|"
+ },
+ {
+  "locator": "P2318",
+  "text": "|"
+ },
+ {
+  "locator": "P2319",
+  "text": "(1,192)"
+ },
+ {
+  "locator": "P2320",
+  "text": "|"
+ },
+ {
+  "locator": "P2321",
+  "text": "|"
+ },
+ {
+  "locator": "P2322",
+  "text": "|"
+ },
+ {
+  "locator": "P2323",
+  "text": "—"
+ },
+ {
+  "locator": "P2324",
+  "text": "|"
+ },
+ {
+  "locator": "P2325",
+  "text": "|"
+ },
+ {
+  "locator": "P2326",
+  "text": "|"
+ },
+ {
+  "locator": "P2327",
+  "text": "(3,967)"
+ },
+ {
+  "locator": "P2328",
+  "text": "|"
+ },
+ {
+  "locator": "P2329",
+  "text": "|"
+ },
+ {
+  "locator": "P2330",
+  "text": "|"
+ },
+ {
+  "locator": "P2331",
+  "text": "—"
+ },
+ {
+  "locator": "P2332",
+  "text": "|"
+ },
+ {
+  "locator": "P2333",
+  "text": "|"
+ },
+ {
+  "locator": "P2334",
+  "text": "Non same-store costs(2)"
+ },
+ {
+  "locator": "P2335",
+  "text": "|"
+ },
+ {
+  "locator": "P2336",
+  "text": "|"
+ },
+ {
+  "locator": "P2337",
+  "text": "|"
+ },
+ {
+  "locator": "P2338",
+  "text": "3,678"
+ },
+ {
+  "locator": "P2339",
+  "text": "|"
+ },
+ {
+  "locator": "P2340",
+  "text": "|"
+ },
+ {
+  "locator": "P2341",
+  "text": "|"
+ },
+ {
+  "locator": "P2342",
+  "text": "—"
+ },
+ {
+  "locator": "P2343",
+  "text": "|"
+ },
+ {
+  "locator": "P2344",
+  "text": "|"
+ },
+ {
+  "locator": "P2345",
+  "text": "|"
+ },
+ {
+  "locator": "P2346",
+  "text": "10,345"
+ },
+ {
+  "locator": "P2347",
+  "text": "|"
+ },
+ {
+  "locator": "P2348",
+  "text": "|"
+ },
+ {
+  "locator": "P2349",
+  "text": "|"
+ },
+ {
+  "locator": "P2350",
+  "text": "—"
+ },
+ {
+  "locator": "P2351",
+  "text": "|"
+ },
+ {
+  "locator": "P2352",
+  "text": "|"
+ },
+ {
+  "locator": "P2353",
+  "text": "Fair value adjustment of contingent note"
+ },
+ {
+  "locator": "P2354",
+  "text": "|"
+ },
+ {
+  "locator": "P2355",
+  "text": "|"
+ },
+ {
+  "locator": "P2356",
+  "text": "|"
+ },
+ {
+  "locator": "P2357",
+  "text": "3,030"
+ },
+ {
+  "locator": "P2358",
+  "text": "|"
+ },
+ {
+  "locator": "P2359",
+  "text": "|"
+ },
+ {
+  "locator": "P2360",
+  "text": "|"
+ },
+ {
+  "locator": "P2361",
+  "text": "—"
+ },
+ {
+  "locator": "P2362",
+  "text": "|"
+ },
+ {
+  "locator": "P2363",
+  "text": "|"
+ },
+ {
+  "locator": "P2364",
+  "text": "|"
+ },
+ {
+  "locator": "P2365",
+  "text": "3,280"
+ },
+ {
+  "locator": "P2366",
+  "text": "|"
+ },
+ {
+  "locator": "P2367",
+  "text": "|"
+ },
+ {
+  "locator": "P2368",
+  "text": "|"
+ },
+ {
+  "locator": "P2369",
+  "text": "—"
+ },
+ {
+  "locator": "P2370",
+  "text": "|"
+ },
+ {
+  "locator": "P2371",
+  "text": "|"
+ },
+ {
+  "locator": "P2372",
+  "text": "Integration costs and costs of discontinued clinics"
+ },
+ {
+  "locator": "P2373",
+  "text": "|"
+ },
+ {
+  "locator": "P2374",
+  "text": "|"
+ },
+ {
+  "locator": "P2375",
+  "text": "|"
+ },
+ {
+  "locator": "P2376",
+  "text": "185"
+ },
+ {
+  "locator": "P2377",
+  "text": "|"
+ },
+ {
+  "locator": "P2378",
+  "text": "|"
+ },
+ {
+  "locator": "P2379",
+  "text": "|"
+ },
+ {
+  "locator": "P2380",
+  "text": "—"
+ },
+ {
+  "locator": "P2381",
+  "text": "|"
+ },
+ {
+  "locator": "P2382",
+  "text": "|"
+ },
+ {
+  "locator": "P2383",
+  "text": "|"
+ },
+ {
+  "locator": "P2384",
+  "text": "998"
+ },
+ {
+  "locator": "P2385",
+  "text": "|"
+ },
+ {
+  "locator": "P2386",
+  "text": "|"
+ },
+ {
+  "locator": "P2387",
+  "text": "|"
+ },
+ {
+  "locator": "P2388",
+  "text": "—"
+ },
+ {
+  "locator": "P2389",
+  "text": "|"
+ },
+ {
+  "locator": "P2390",
+  "text": "|"
+ },
+ {
+  "locator": "P2391",
+  "text": "New clinic launch expenses(3)"
+ },
+ {
+  "locator": "P2392",
+  "text": "|"
+ },
+ {
+  "locator": "P2393",
+  "text": "|"
+ },
+ {
+  "locator": "P2394",
+  "text": "|"
+ },
+ {
+  "locator": "P2395",
+  "text": "119"
+ },
+ {
+  "locator": "P2396",
+  "text": "|"
+ },
+ {
+  "locator": "P2397",
+  "text": "|"
+ },
+ {
+  "locator": "P2398",
+  "text": "|"
+ },
+ {
+  "locator": "P2399",
+  "text": "—"
+ },
+ {
+  "locator": "P2400",
+  "text": "|"
+ },
+ {
+  "locator": "P2401",
+  "text": "|"
+ },
+ {
+  "locator": "P2402",
+  "text": "|"
+ },
+ {
+  "locator": "P2403",
+  "text": "1,380"
+ },
+ {
+  "locator": "P2404",
+  "text": "|"
+ },
+ {
+  "locator": "P2405",
+  "text": "|"
+ },
+ {
+  "locator": "P2406",
+  "text": "|"
+ },
+ {
+  "locator": "P2407",
+  "text": "—"
+ },
+ {
+  "locator": "P2408",
+  "text": "|"
+ },
+ {
+  "locator": "P2409",
+  "text": "|"
+ },
+ {
+  "locator": "P2410",
+  "text": "Non-recurring royalty settlement"
+ },
+ {
+  "locator": "P2411",
+  "text": "|"
+ },
+ {
+  "locator": "P2412",
+  "text": "|"
+ },
+ {
+  "locator": "P2413",
+  "text": "|"
+ },
+ {
+  "locator": "P2414",
+  "text": "—"
+ },
+ {
+  "locator": "P2415",
+  "text": "|"
+ },
+ {
+  "locator": "P2416",
+  "text": "|"
+ },
+ {
+  "locator": "P2417",
+  "text": "|"
+ },
+ {
+  "locator": "P2418",
+  "text": "—"
+ },
+ {
+  "locator": "P2419",
+  "text": "|"
+ },
+ {
+  "locator": "P2420",
+  "text": "|"
+ },
+ {
+  "locator": "P2421",
+  "text": "|"
+ },
+ {
+  "locator": "P2422",
+  "text": "440"
+ },
+ {
+  "locator": "P2423",
+  "text": "|"
+ },
+ {
+  "locator": "P2424",
+  "text": "|"
+ },
+ {
+  "locator": "P2425",
+  "text": "|"
+ },
+ {
+  "locator": "P2426",
+  "text": "—"
+ },
+ {
+  "locator": "P2427",
+  "text": "|"
+ },
+ {
+  "locator": "P2428",
+  "text": "|"
+ },
+ {
+  "locator": "P2429",
+  "text": "Costs associated with becoming a public company"
+ },
+ {
+  "locator": "P2430",
+  "text": "|"
+ },
+ {
+  "locator": "P2431",
+  "text": "|"
+ },
+ {
+  "locator": "P2432",
+  "text": "|"
+ },
+ {
+  "locator": "P2433",
+  "text": "—"
+ },
+ {
+  "locator": "P2434",
+  "text": "|"
+ },
+ {
+  "locator": "P2435",
+  "text": "|"
+ },
+ {
+  "locator": "P2436",
+  "text": "|"
+ },
+ {
+  "locator": "P2437",
+  "text": "435"
+ },
+ {
+  "locator": "P2438",
+  "text": "|"
+ },
+ {
+  "locator": "P2439",
+  "text": "|"
+ },
+ {
+  "locator": "P2440",
+  "text": "|"
+ },
+ {
+  "locator": "P2441",
+  "text": "—"
+ },
+ {
+  "locator": "P2442",
+  "text": "|"
+ },
+ {
+  "locator": "P2443",
+  "text": "|"
+ },
+ {
+  "locator": "P2444",
+  "text": "|"
+ },
+ {
+  "locator": "P2445",
+  "text": "2,710"
+ },
+ {
+  "locator": "P2446",
+  "text": "|"
+ },
+ {
+  "locator": "P2447",
+  "text": "|"
+ },
+ {
+  "locator": "P2448",
+  "text": "Adjusted Net income"
+ },
+ {
+  "locator": "P2449",
+  "text": "|"
+ },
+ {
+  "locator": "P2450",
+  "text": "|"
+ },
+ {
+  "locator": "P2451",
+  "text": "$"
+ },
+ {
+  "locator": "P2452",
+  "text": "|"
+ },
+ {
+  "locator": "P2453",
+  "text": "1,238"
+ },
+ {
+  "locator": "P2454",
+  "text": "|"
+ },
+ {
+  "locator": "P2455",
+  "text": "|"
+ },
+ {
+  "locator": "P2456",
+  "text": "$"
+ },
+ {
+  "locator": "P2457",
+  "text": "|"
+ },
+ {
+  "locator": "P2458",
+  "text": "2,630"
+ },
+ {
+  "locator": "P2459",
+  "text": "|"
+ },
+ {
+  "locator": "P2460",
+  "text": "|"
+ },
+ {
+  "locator": "P2461",
+  "text": "$"
+ },
+ {
+  "locator": "P2462",
+  "text": "|"
+ },
+ {
+  "locator": "P2463",
+  "text": "21,650"
+ },
+ {
+  "locator": "P2464",
+  "text": "|"
+ },
+ {
+  "locator": "P2465",
+  "text": "|"
+ },
+ {
+  "locator": "P2466",
+  "text": "$"
+ },
+ {
+  "locator": "P2467",
+  "text": "|"
+ },
+ {
+  "locator": "P2468",
+  "text": "16,909"
+ },
+ {
+  "locator": "P2469",
+  "text": "|"
+ },
+ {
+  "locator": "P2470",
+  "text": "(1) Acquisition costs relating to the VIP acquisition and the HBH Acquisition, which was completed in October 2018."
+ },
+ {
+  "locator": "P2471",
+  "text": "(2)Non same-store revenue and costs are from wellness centers, host partners, and regions with less than six full trailing quarters of operating results. There were 26 wellness centers, 5 regions, and one new host partner that had less than six trailing quarters of operating results for the three months and year ended December 31, 2018 and none for the prior comparable periods."
+ },
+ {
+  "locator": "P2472",
+  "text": "(3)Clinic launch expenses represent the nonrecurring costs to open new veterinary wellness centers, primarily employee costs, training, marketing, and rent prior to opening for business."
+ }
+]

@@ -1,0 +1,1674 @@
+[
+ {
+  "locator": "P0001",
+  "text": "EX-10.1 2 tm2019702d1_ex10-1.htm EXHIBIT 10.1"
+ },
+ {
+  "locator": "P0002",
+  "text": "Exhibit 10.1"
+ },
+ {
+  "locator": "P0003",
+  "text": "SECOND AMENDMENT TO TERM LOAN CREDIT AGREEMENT"
+ },
+ {
+  "locator": "P0004",
+  "text": "This SECOND AMENDMENT TO TERM LOAN CREDIT AGREEMENT (this “Amendment”) is dated as of May 14, 2020 and is entered into by and among PETIQ, LLC, an Idaho limited liability company (the “Borrower”), the Guarantors party hereto, ARES CAPITAL CORPORATION and each other Lender party hereto (consisting of the Required Lenders) and ARES CAPITAL CORPORATION, as the administrative agent (in such capacity, the “Administrative Agent”). Capitalized terms used herein without definition shall have the same meanings herein as set forth in the Existing Credit Agreement (as defined below) after giving effect to this Amendment."
+ },
+ {
+  "locator": "P0005",
+  "text": "RECITALS"
+ },
+ {
+  "locator": "P0006",
+  "text": "WHEREAS, the Borrower, Ares Capital Corporation and the Lenders party thereto and the Administrative Agent have entered into that certain Amended and Restated Term Loan Credit Agreement, dated as of July 8, 2019 (as amended, restated, amended and restated, supplemented, or otherwise modified prior to the date hereof, the “Existing Credit Agreement”);"
+ },
+ {
+  "locator": "P0007",
+  "text": "WHEREAS, the Borrower has requested that the Lenders amend the Existing Credit Agreement on the terms set forth herein (such Existing Credit Agreement, as hereby amended on the Amended Effective Date (as defined below), the “Amended Credit Agreement”); and"
+ },
+ {
+  "locator": "P0008",
+  "text": "WHEREAS, on the Amendment Effective Date, the Lenders party hereto (consisting of the Required Lenders) are willing to agree to the amendments requested by the Borrower, on the terms and conditions set forth in this Amendment."
+ },
+ {
+  "locator": "P0009",
+  "text": "NOW, THEREFORE, in consideration of the premises and the mutual agreements set forth herein, the Borrower, the Guarantors party hereto, the Lenders party hereto (consisting of the Required Lenders) and the Administrative Agent hereby agree as follows:"
+ },
+ {
+  "locator": "P0010",
+  "text": "Section 1. Amendments"
+ },
+ {
+  "locator": "P0011",
+  "text": "Subject to the satisfaction of the conditions set forth in Section 3 of this Amendment, on the Amendment Effective Date, the Existing Credit Agreement is hereby amended as follows:"
+ },
+ {
+  "locator": "P0012",
+  "text": "(a) The following new definitions are hereby added to Section 1.01 of the Existing Credit Agreement in the appropriate alphabetical order:"
+ },
+ {
+  "locator": "P0013",
+  "text": "“2020 Convertible Senior Notes” means the senior unsecured convertible notes issued on or around June 1, 2020 by PetIQ, Inc. due June 1, 2026 in an aggregate principal amount of up to $125,000,000, subject to increase on such issue date by an additional aggregate principal amount of up to $18,750,000."
+ },
+ {
+  "locator": "P0014",
+  "text": "“2020 Intercompany Note” means that certain Intercompany Note, issued substantially concurrently with the 2020 Convertible Senior Notes, by Parent to PetIQ, Inc."
+ },
+ {
+  "locator": "P0015",
+  "text": "“Second Amendment” means that certain Second Amendment to the Amended and Restated Credit Agreement, dated as of the Second Amendment Effective Date, by and among the Borrower, the Guarantors party thereto, the Lenders party thereto and the Administrative Agent."
+ },
+ {
+  "locator": "P0016",
+  "text": "“Second Amendment Effective Date” means the date on which the Second Amendment became effective in accordance with its terms and conditions, such date being May 14, 2020."
+ },
+ {
+  "locator": "P0017",
+  "text": "(b) The following definitions in Section 1.01 of the Existing Credit Agreement are hereby amended and restated in their entirety as set forth below:"
+ },
+ {
+  "locator": "P0018",
+  "text": "“Applicable Margin” means:"
+ },
+ {
+  "locator": "P0019",
+  "text": "(a) with respect to Initial Term Loans that are Base Rate Loans, 4.00%,"
+ },
+ {
+  "locator": "P0020",
+  "text": "(b) with respect to Initial Term Loans that are Eurodollar Rate Loans, 5.00% and"
+ },
+ {
+  "locator": "P0021",
+  "text": "(c) with respect to any Incremental Term Loans or any Refinancing Term Loans, as set forth in the applicable Incremental Amendment or Refinancing Amendment."
+ },
+ {
+  "locator": "P0022",
+  "text": "“Available Amount” means, as of any date of determination, an amount, not less than zero in the aggregate, determined on a cumulative basis equal to, without duplication:"
+ },
+ {
+  "locator": "P0023",
+  "text": "(a) an amount equal to $5,000,000; plus"
+ },
+ {
+  "locator": "P0024",
+  "text": "(b) the Cumulative Retained Excess Cash Flow Amount; plus"
+ },
+ {
+  "locator": "P0025",
+  "text": "(c) the cumulative amount of Net Issuance Proceeds Not Otherwise Applied from issuances of Qualified Capital Stock received by the Borrower after the Closing Date and prior to such date (other than any Net Issuance Proceeds in respect of Qualified Capital Stock issued in respect of the 2020 Convertible Senior Notes or the 2020 Intercompany Note); plus"
+ },
+ {
+  "locator": "P0026",
+  "text": "(d) (i) the aggregate amount of proceeds received by the Borrower in cash or Cash Equivalents after the Closing Date from the sale or other disposition of any Investment to the extent not required to be (A) used to prepay the Obligations or (B) reinvested, plus"
+ },
+ {
+  "locator": "P0027",
+  "text": "(ii) returns, profits, distributions and similar amounts received in cash or Cash Equivalents after the Closing Date to the extent not included or includable in Consolidated EBITDA or the Cumulative Retained Excess Cash Flow Amount,"
+ },
+ {
+  "locator": "P0028",
+  "text": "in each instance in clauses (i) and (ii), on or in respect of Investments to the extent such Investment was originally funded with and in reliance on the Available Amount (but, in the aggregate for clauses (i) and (ii), not in excess of the original amount of the Available Amount used to fund such Investment); minus"
+ },
+ {
+  "locator": "P0029",
+  "text": "(e) any amount of the Available Amount used to make Investments pursuant to Section 7.01(j) after the Closing Date and prior to such time; minus"
+ },
+ {
+  "locator": "P0030",
+  "text": "(f) any amount of the Available Amount used to make Restricted Payments pursuant to Section 7.04(a)(viii) after the Closing Date and prior to such time; minus"
+ },
+ {
+  "locator": "P0031",
+  "text": "(g) any amount of the Available Amount used to prepay Junior Indebtedness pursuant to Section 7.04(b)(v) after the Closing Date and prior to such time."
+ },
+ {
+  "locator": "P0032",
+  "text": "“Benchmark Replacement” means the sum of: (a) the alternate benchmark rate (which may include Term SOFR) that has been selected by the Administrative Agent and the Borrower giving due consideration to (i) any selection or recommendation of a replacement rate or the mechanism for determining such a rate by the Relevant Governmental Body or (ii) any evolving or then-prevailing market convention for determining a rate of interest as a replacement to the Eurodollar Rate for U.S. dollar denominated syndicated credit facilities and (b) the Benchmark Replacement Adjustment; provided that, if the Benchmark Replacement as so determined would be less than 1.00%, the Benchmark Replacement will be deemed to be 1.00% for the purposes of this Agreement."
+ },
+ {
+  "locator": "P0033",
+  "text": "2"
+ },
+ {
+  "locator": "P0034",
+  "text": "“Eurodollar Rate” means for any Interest Period with respect to any Eurodollar Rate Loan, the higher of (a) the rate per annum determined by the Administrative Agent to be the rate for deposits in Dollars for a period approximately equal to such Interest Period and in an amount approximately equal to the principal amount of such Eurodollar Rate Loan which appears on the Reuters Screen LIBOR01 Page as of 11:00 a.m. (London time) on the second Business Day prior to the first day of such Interest Period (adjusted for any and all assessments, surcharges and reserve requirements) and (b) 1.00%. If such interest rate shall cease to be available from the above-described Reuters report, the Eurodollar Rate shall be determined from such financial reporting service as the Administrative Agent shall reasonably determine and use with respect to its other loan facilities for which interest is determined based on the London interbank offered rate."
+ },
+ {
+  "locator": "P0035",
+  "text": "“Loan Documents” means this Agreement, the First Amendment, the Second Amendment, each Note, each Security Document, the Fee Letter, each Subordination Agreement, each Compliance Certificate, the ABL Intercreditor Agreement, any Junior Lien Intercreditor Agreement, any Pari Passu Intercreditor Agreement, any agreement creating or perfecting rights in cash collateral pursuant to the provisions of Section 2.14 (but specifically excluding any Secured Cash Management Agreement and Secured Hedge Agreement), and each other agreement, document or instrument delivered by any Credit Party in connection with any Loan Document, whether or not specifically mentioned herein or therein."
+ },
+ {
+  "locator": "P0036",
+  "text": "(c) Section 7.02 of the Existing Credit Agreement is hereby amended by adding clause (q) at the end thereof as set forth below:"
+ },
+ {
+  "locator": "P0037",
+  "text": "(q) unsecured Indebtedness of Parent pursuant to the 2020 Intercompany Note (or any Permitted Refinancing thereof) not to exceed the aggregate principal amount of the 2020 Convertible Senior Notes; provided that the terms and conditions of such Indebtedness shall be substantially similar to such terms and conditions of the 2020 Convertible Senior Notes reviewed by the Administrative Agent on the Second Amendment Effective Date and shall not be amended in a manner materially adverse to the Lenders without the consent of the Administrative Agent."
+ },
+ {
+  "locator": "P0038",
+  "text": "(d) The Administrative Agent and the Lenders hereby acknowledge and confirm that, except when an Event of Default shall have occurred and be continuing, nothing contained in Section 7.04 of the Amended Credit Agreement, in any other provision of the Amended Credit Agreement, or in any provision of any other Loan Document shall prohibit, restrict or otherwise impair any Credit Party’s payment of regularly scheduled interest payments when due in respect of the 2020 Intercompany Note, as of the date hereof, so long as the proceeds thereof will be used by PetIQ, Inc. to pay regularly scheduled interest payments when due in respect of the 2020 Convertible Senior Notes."
+ },
+ {
+  "locator": "P0039",
+  "text": "3"
+ },
+ {
+  "locator": "P0040",
+  "text": "Section 2. Conditions to Effectiveness"
+ },
+ {
+  "locator": "P0041",
+  "text": "This Amendment shall become effective as of the date hereof only upon the satisfaction or waiver of all of the conditions precedent (the date of satisfaction or waiver of such conditions being referred to herein as the “Amendment Effective Date”) set forth below have been satisfied:"
+ },
+ {
+  "locator": "P0042",
+  "text": "(a) Amendment. The Administrative Agent shall have received counterparts of this Amendment executed and delivered by each of the (i) Borrower and each other Guarantor party hereto and (ii) the Lenders party hereto (consisting of the Required Lenders);"
+ },
+ {
+  "locator": "P0043",
+  "text": "(b) Amendment to ABL Credit Agreement. The Administrative Agent shall have received a copy of a fully executed amendment to the ABL Credit Agreement, in form and substance reasonably satisfactory to the Required Lenders;"
+ },
+ {
+  "locator": "P0044",
+  "text": "(c) Default. No Default or Event of Default shall have occurred and be continuing at the time of incurrence of this Amendment or the transactions contemplated hereby or could result therefrom;"
+ },
+ {
+  "locator": "P0045",
+  "text": "(d) Closing Certificate. The Administrative Agent shall have received a customary certificate, dated as of the Amendment Effective Date, signed by a chief executive officer, chief financial officer or another senior officer of the Borrower, confirming compliance with the conditions precedent set forth in clauses (c) and (e) of this Section 3 has been satisfied;"
+ },
+ {
+  "locator": "P0046",
+  "text": "(e) Representations and Warranties. Each of the representations and warranties made by any Credit Party in or pursuant to the Loan Documents shall be true and correct in all material respects on and as of the date hereof as if made on and as of such date except, (i) to the extent that such representations and warranties expressly relate to an earlier date, in which case they shall be true and correct in all material respects as of such date and (ii) that any representation and warranty that is qualified as to “materiality” or “Material Adverse Effect” shall be true and correct in all respects; and"
+ },
+ {
+  "locator": "P0047",
+  "text": "(f) Fees and Expenses. The Borrower shall have paid all reasonable documented out-of-pocket expenses incurred by the Administrative Agent (including the reasonable and documented fees, charges and disbursements of counsel) in connection with this Amendment, to the extent invoiced three (3) Business Days prior to the Amendment Effective Date (except as otherwise reasonably agreed by the Borrower)."
+ },
+ {
+  "locator": "P0048",
+  "text": "Section 3. Reaffirmation, Acknowledgment and Consent"
+ },
+ {
+  "locator": "P0049",
+  "text": "The Borrower hereby confirms its pledges, grants of security interests and other obligations, as applicable, under and subject to the terms of each of the Loan Documents to which it is party, and agrees that, notwithstanding the effectiveness of this Amendment or any of the transactions contemplated hereby, such pledges, grants of security interests and other obligations, and the terms of each of the Loan Documents to which it is a party, as supplemented in connection with this Amendment and the transactions contemplated hereby, are not impaired or affected in any manner whatsoever and shall continue to be in full force and effect and shall continue to secure all the Obligations."
+ },
+ {
+  "locator": "P0050",
+  "text": "Each Guarantor hereby acknowledges that it has reviewed the terms and provisions of the Existing Credit Agreement and this Amendment and consents to the amendments to the Existing Credit Agreement effected pursuant to this Amendment. Each Guarantor hereby confirms its guarantees, pledges, grants of security interests and other obligations under and subject to the terms of each of the Loan Documents to which it is party, and agrees that, notwithstanding the effectiveness of this Amendment or any of the transactions contemplated hereby, such guarantees, pledges, grants of security interests and other obligations, and the terms of each of the Loan Documents to which it is a party, as modified or supplemented in connection with this Amendment and the transactions contemplated hereby, are not impaired or affected in any manner whatsoever and shall continue to be in full force and effect and shall continue to secure all the Obligations."
+ },
+ {
+  "locator": "P0051",
+  "text": "Each Guarantor acknowledges and agrees that each Loan Document to which it is a party or otherwise bound shall continue in full force and effect and that all of its obligations thereunder shall be valid and enforceable and shall not be impaired or limited by the execution or effectiveness of this Amendment."
+ },
+ {
+  "locator": "P0052",
+  "text": "4"
+ },
+ {
+  "locator": "P0053",
+  "text": "Section 4. Miscellaneous"
+ },
+ {
+  "locator": "P0054",
+  "text": "(a) Reference to and Effect on the Credit Agreement and the other Loan Documents."
+ },
+ {
+  "locator": "P0055",
+  "text": "(i) On and after the Amendment Effective Date, each reference in the Existing Credit Agreement to “this Agreement,” “hereunder,” “hereof,” “herein” or words of like import referring to the Existing Credit Agreement, and each reference in the other Loan Documents to the “Credit Agreement,” “thereunder,” “thereof” or words of like import referring to the Existing Credit Agreement, shall mean and be a reference to the Amended Credit Agreement."
+ },
+ {
+  "locator": "P0056",
+  "text": "(ii) Except as specifically amended by this Amendment, the Existing Credit Agreement and the other Loan Documents shall remain in full force and effect and are hereby ratified and confirmed."
+ },
+ {
+  "locator": "P0057",
+  "text": "(b) Loan Document. This Amendment shall constitute a Loan Document under the terms of the Amended Credit Agreement."
+ },
+ {
+  "locator": "P0058",
+  "text": "(c) Non-Reliance on Administrative Agent. Each Lender acknowledges that it has independently and without reliance upon the Administrative Agent or any other Lender and based on such documents and information as it has deemed appropriate, made its own credit analysis and decision to enter into this Amendment. Each Lender also acknowledges that it will, without reliance upon the Administrative Agent or any other Lender and based on such documents and information as it shall from time to time deem appropriate, continue to make its own credit decisions in taking or not taking action under or based upon this Amendment, the Amended Credit Agreement, any other Loan Document, any related agreement or any document furnished hereunder or thereunder."
+ },
+ {
+  "locator": "P0059",
+  "text": "(d) No Novation. By its execution of this Amendment, each of the parties hereto acknowledges and agrees that the terms of this Amendment do not constitute a novation, but, rather, an amendment of the terms of a pre-existing Indebtedness and related agreement, as evidenced by the Amended Credit Agreement."
+ },
+ {
+  "locator": "P0060",
+  "text": "(e) Headings. Section and Subsection headings in this Amendment are included for convenience of reference only and shall not affect the interpretation of this Amendment."
+ },
+ {
+  "locator": "P0061",
+  "text": "(f) Governing Law. THIS AMENDMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAW OF THE STATE OF NEW YORK WITHOUT REGARD OF CONFLICTS OF LAW RULES THAT WOULD RESULT IN THE APPLICATION OF A DIFFERENT GOVERNING LAW. The provisions of Sections 10.04 and 10.14(b), (c), (d) and (e) of the Amended Credit Agreement are incorporated by reference herein and made a part hereof."
+ },
+ {
+  "locator": "P0062",
+  "text": "(g) Counterparts. This Amendment may be executed in counterparts (and by different parties hereto in different counterparts), each of which shall constitute an original, but all of which when taken together shall constitute a single contract. Delivery of an executed counterpart of a signature page of this Amendment by telecopy or other electronic imaging means shall be effective as delivery of a manually executed counterpart of this Amendment. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to this Amendment or any document to be signed in connection with this Amendment and the transactions contemplated hereby shall be deemed to include electronic signatures, deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be, to the extent and as provided for in any applicable law, including the federal Electronic Signatures in Global and National Commerce Act, the New York State Electronic Signatures and Records Act, or any other state laws based on the Uniform Electronic Transactions Act, and the parties hereto consent to conduct the transactions contemplated hereunder by electronic means."
+ },
+ {
+  "locator": "P0063",
+  "text": "(h) Severability. If any provision of this Amendment is held to be illegal, invalid or unenforceable, (i) the legality, validity and enforceability of the remaining provisions of this Amendment shall not be affected or impacted thereby and (ii) the parties shall endeavor in good faith negotiations to replace the illegal, invalid or unenforceable provisions with valid provisions the economic effect of which comes as close as possible to that of the illegal, invalid or unenforceable provisions. The invalidity of a provision in a particular jurisdiction shall not invalidate or render unenforceable such provisions in any other jurisdiction."
+ },
+ {
+  "locator": "P0064",
+  "text": "[Signature pages follow]"
+ },
+ {
+  "locator": "P0065",
+  "text": "5"
+ },
+ {
+  "locator": "P0066",
+  "text": "IN WITNESS WHEREOF, the parties hereto have caused this Amendment to be duly executed and delivered by their respective officers thereunto duly authorized as of the date first written above."
+ },
+ {
+  "locator": "P0067",
+  "text": "| | Borrower:"
+ },
+ {
+  "locator": "P0068",
+  "text": "| |"
+ },
+ {
+  "locator": "P0069",
+  "text": "| |"
+ },
+ {
+  "locator": "P0070",
+  "text": "| | PETIQ, LLC, an Idaho limited liability company"
+ },
+ {
+  "locator": "P0071",
+  "text": "| |"
+ },
+ {
+  "locator": "P0072",
+  "text": "| |"
+ },
+ {
+  "locator": "P0073",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0074",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0075",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0076",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0077",
+  "text": "| | Guarantors:"
+ },
+ {
+  "locator": "P0078",
+  "text": "| |"
+ },
+ {
+  "locator": "P0079",
+  "text": "| |"
+ },
+ {
+  "locator": "P0080",
+  "text": "| | PETIQ HOLDINGS, LLC, a Delaware limited liability"
+ },
+ {
+  "locator": "P0081",
+  "text": "| | company"
+ },
+ {
+  "locator": "P0082",
+  "text": "| |"
+ },
+ {
+  "locator": "P0083",
+  "text": "| |"
+ },
+ {
+  "locator": "P0084",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0085",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0086",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0087",
+  "text": "| |"
+ },
+ {
+  "locator": "P0088",
+  "text": "| |"
+ },
+ {
+  "locator": "P0089",
+  "text": "| | TRUE SCIENCE HOLDINGS, LLC, a Florida limited"
+ },
+ {
+  "locator": "P0090",
+  "text": "| | liability company"
+ },
+ {
+  "locator": "P0091",
+  "text": "| |"
+ },
+ {
+  "locator": "P0092",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0093",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0094",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0095",
+  "text": "| |"
+ },
+ {
+  "locator": "P0096",
+  "text": "| |"
+ },
+ {
+  "locator": "P0097",
+  "text": "| | TRURX LLC, an Idaho limited liability company"
+ },
+ {
+  "locator": "P0098",
+  "text": "| |"
+ },
+ {
+  "locator": "P0099",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0100",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0101",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0102",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0103",
+  "text": "| | TRU PRODIGY, LLC, a Texas limited liability"
+ },
+ {
+  "locator": "P0104",
+  "text": "| | company"
+ },
+ {
+  "locator": "P0105",
+  "text": "| |"
+ },
+ {
+  "locator": "P0106",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0107",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0108",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0109",
+  "text": "| |"
+ },
+ {
+  "locator": "P0110",
+  "text": "| |"
+ },
+ {
+  "locator": "P0111",
+  "text": "| | COMMUNITY VETERINARY CLINICS, LLC, a"
+ },
+ {
+  "locator": "P0112",
+  "text": "| | Delaware limited liability company"
+ },
+ {
+  "locator": "P0113",
+  "text": "| |"
+ },
+ {
+  "locator": "P0114",
+  "text": "| |"
+ },
+ {
+  "locator": "P0115",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0116",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0117",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0118",
+  "text": "| |"
+ },
+ {
+  "locator": "P0119",
+  "text": "| |"
+ },
+ {
+  "locator": "P0120",
+  "text": "| | PET SERVICES OPERATING, LLC, a Delaware"
+ },
+ {
+  "locator": "P0121",
+  "text": "| | limited liability company"
+ },
+ {
+  "locator": "P0122",
+  "text": "| |"
+ },
+ {
+  "locator": "P0123",
+  "text": "| |"
+ },
+ {
+  "locator": "P0124",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0125",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0126",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0127",
+  "text": "| |"
+ },
+ {
+  "locator": "P0128",
+  "text": "| |"
+ },
+ {
+  "locator": "P0129",
+  "text": "| | VIP PETCARE, LLC, a California limited liability"
+ },
+ {
+  "locator": "P0130",
+  "text": "| | company"
+ },
+ {
+  "locator": "P0131",
+  "text": "| |"
+ },
+ {
+  "locator": "P0132",
+  "text": "| |"
+ },
+ {
+  "locator": "P0133",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0134",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0135",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0136",
+  "text": "| |"
+ },
+ {
+  "locator": "P0137",
+  "text": "| |"
+ },
+ {
+  "locator": "P0138",
+  "text": "| | PAWSPLUS MANAGEMENT, LLC, a Delaware"
+ },
+ {
+  "locator": "P0139",
+  "text": "| | limited liability company"
+ },
+ {
+  "locator": "P0140",
+  "text": "| |"
+ },
+ {
+  "locator": "P0141",
+  "text": "| |"
+ },
+ {
+  "locator": "P0142",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0143",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0144",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0145",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0146",
+  "text": "| | COMMUNITY CLINICS, INC., a California"
+ },
+ {
+  "locator": "P0147",
+  "text": "| | corporation"
+ },
+ {
+  "locator": "P0148",
+  "text": "| |"
+ },
+ {
+  "locator": "P0149",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0150",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0151",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0152",
+  "text": "| |"
+ },
+ {
+  "locator": "P0153",
+  "text": "| |"
+ },
+ {
+  "locator": "P0154",
+  "text": "| | HBH ENTERPRISES LLC,"
+ },
+ {
+  "locator": "P0155",
+  "text": "| | a Utah limited liability company"
+ },
+ {
+  "locator": "P0156",
+  "text": "| |"
+ },
+ {
+  "locator": "P0157",
+  "text": "| |"
+ },
+ {
+  "locator": "P0158",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0159",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0160",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0161",
+  "text": "| |"
+ },
+ {
+  "locator": "P0162",
+  "text": "| |"
+ },
+ {
+  "locator": "P0163",
+  "text": "| | SERGEANT’S PET CARE PRODUCTS, INC.,"
+ },
+ {
+  "locator": "P0164",
+  "text": "| | a Michigan corporation"
+ },
+ {
+  "locator": "P0165",
+  "text": "| |"
+ },
+ {
+  "locator": "P0166",
+  "text": "| |"
+ },
+ {
+  "locator": "P0167",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0168",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0169",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0170",
+  "text": "| |"
+ },
+ {
+  "locator": "P0171",
+  "text": "| |"
+ },
+ {
+  "locator": "P0172",
+  "text": "| | SPC TRADEMARKS, LLC,"
+ },
+ {
+  "locator": "P0173",
+  "text": "| | a Texas limited liability company"
+ },
+ {
+  "locator": "P0174",
+  "text": "| |"
+ },
+ {
+  "locator": "P0175",
+  "text": "| |"
+ },
+ {
+  "locator": "P0176",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0177",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0178",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0179",
+  "text": "| |"
+ },
+ {
+  "locator": "P0180",
+  "text": "| |"
+ },
+ {
+  "locator": "P0181",
+  "text": "| | VELCERA, INC.,"
+ },
+ {
+  "locator": "P0182",
+  "text": "| | a Delaware corporation"
+ },
+ {
+  "locator": "P0183",
+  "text": "| |"
+ },
+ {
+  "locator": "P0184",
+  "text": "| |"
+ },
+ {
+  "locator": "P0185",
+  "text": "| | By: | /s/ McCord Christensen"
+ },
+ {
+  "locator": "P0186",
+  "text": "| | | Name: McCord Christensen"
+ },
+ {
+  "locator": "P0187",
+  "text": "| | | Title: Chief Executive Officer"
+ },
+ {
+  "locator": "P0188",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0189",
+  "text": "| |"
+ },
+ {
+  "locator": "P0190",
+  "text": "| | ARES CAPITAL CORPORATION, as Administrative"
+ },
+ {
+  "locator": "P0191",
+  "text": "| | Agent and a Lender"
+ },
+ {
+  "locator": "P0192",
+  "text": "| |"
+ },
+ {
+  "locator": "P0193",
+  "text": "| |"
+ },
+ {
+  "locator": "P0194",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0195",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0196",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0197",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0198",
+  "text": "| | Lenders:"
+ },
+ {
+  "locator": "P0199",
+  "text": "| |"
+ },
+ {
+  "locator": "P0200",
+  "text": "| |"
+ },
+ {
+  "locator": "P0201",
+  "text": "| | ARES CAPITAL CORPORATION"
+ },
+ {
+  "locator": "P0202",
+  "text": "| |"
+ },
+ {
+  "locator": "P0203",
+  "text": "| |"
+ },
+ {
+  "locator": "P0204",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0205",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0206",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0207",
+  "text": "| |"
+ },
+ {
+  "locator": "P0208",
+  "text": "| |"
+ },
+ {
+  "locator": "P0209",
+  "text": "| | CADEX CREDT FINANCING, LLC"
+ },
+ {
+  "locator": "P0210",
+  "text": "| |"
+ },
+ {
+  "locator": "P0211",
+  "text": "| |"
+ },
+ {
+  "locator": "P0212",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0213",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0214",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0215",
+  "text": "| |"
+ },
+ {
+  "locator": "P0216",
+  "text": "| |"
+ },
+ {
+  "locator": "P0217",
+  "text": "| | ARES JASPER FUND HOLDINGS, LLC"
+ },
+ {
+  "locator": "P0218",
+  "text": "| | By: Ares Capital Management LLC, as servicer"
+ },
+ {
+  "locator": "P0219",
+  "text": "| |"
+ },
+ {
+  "locator": "P0220",
+  "text": "| |"
+ },
+ {
+  "locator": "P0221",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0222",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0223",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0224",
+  "text": "| |"
+ },
+ {
+  "locator": "P0225",
+  "text": "| |"
+ },
+ {
+  "locator": "P0226",
+  "text": "| | ARES ND CSF HOLDINGS LLC"
+ },
+ {
+  "locator": "P0227",
+  "text": "| | By: Ares Capital Management LLC, as servicer"
+ },
+ {
+  "locator": "P0228",
+  "text": "| |"
+ },
+ {
+  "locator": "P0229",
+  "text": "| |"
+ },
+ {
+  "locator": "P0230",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0231",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0232",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0233",
+  "text": "| |"
+ },
+ {
+  "locator": "P0234",
+  "text": "| |"
+ },
+ {
+  "locator": "P0235",
+  "text": "| | AREAS CREDIT STRATEGIES INSURANCE"
+ },
+ {
+  "locator": "P0236",
+  "text": "| | DEDICATED FUND SERIES INTERESTS OF THE"
+ },
+ {
+  "locator": "P0237",
+  "text": "| | SALI MULTI-SERIES FUND, L.P."
+ },
+ {
+  "locator": "P0238",
+  "text": "| | By: Ares Management LLC, its investment subadvisor"
+ },
+ {
+  "locator": "P0239",
+  "text": "| | By: Ares Capital Management LLC, as subadvisor"
+ },
+ {
+  "locator": "P0240",
+  "text": "| |"
+ },
+ {
+  "locator": "P0241",
+  "text": "| |"
+ },
+ {
+  "locator": "P0242",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0243",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0244",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0245",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0246",
+  "text": "| | ARES CSIDF HOLDINGS, LLC"
+ },
+ {
+  "locator": "P0247",
+  "text": "| | By: Ares Capital Management LLC, as servicer"
+ },
+ {
+  "locator": "P0248",
+  "text": "| |"
+ },
+ {
+  "locator": "P0249",
+  "text": "| |"
+ },
+ {
+  "locator": "P0250",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0251",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0252",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0253",
+  "text": "| |"
+ },
+ {
+  "locator": "P0254",
+  "text": "| |"
+ },
+ {
+  "locator": "P0255",
+  "text": "| | AC AMERICAN FIXED INCOME IV, L.P."
+ },
+ {
+  "locator": "P0256",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0257",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0258",
+  "text": "| |"
+ },
+ {
+  "locator": "P0259",
+  "text": "| |"
+ },
+ {
+  "locator": "P0260",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0261",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0262",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0263",
+  "text": "| |"
+ },
+ {
+  "locator": "P0264",
+  "text": "| |"
+ },
+ {
+  "locator": "P0265",
+  "text": "| | FEDERAL INSURANCE COMPANY"
+ },
+ {
+  "locator": "P0266",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0267",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0268",
+  "text": "| |"
+ },
+ {
+  "locator": "P0269",
+  "text": "| |"
+ },
+ {
+  "locator": "P0270",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0271",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0272",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0273",
+  "text": "| |"
+ },
+ {
+  "locator": "P0274",
+  "text": "| |"
+ },
+ {
+  "locator": "P0275",
+  "text": "| | NATIONWIDE LIFE INSURANCE COMPANY"
+ },
+ {
+  "locator": "P0276",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0277",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0278",
+  "text": "| |"
+ },
+ {
+  "locator": "P0279",
+  "text": "| |"
+ },
+ {
+  "locator": "P0280",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0281",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0282",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0283",
+  "text": "| |"
+ },
+ {
+  "locator": "P0284",
+  "text": "| |"
+ },
+ {
+  "locator": "P0285",
+  "text": "| | NATIONWIDE MUTUAL INSURANCE"
+ },
+ {
+  "locator": "P0286",
+  "text": "| | COMPANY"
+ },
+ {
+  "locator": "P0287",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0288",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0289",
+  "text": "| |"
+ },
+ {
+  "locator": "P0290",
+  "text": "| |"
+ },
+ {
+  "locator": "P0291",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0292",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0293",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0294",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0295",
+  "text": "| | GREAT AMERICAN LIFE INSURANCE"
+ },
+ {
+  "locator": "P0296",
+  "text": "| | COMPANY"
+ },
+ {
+  "locator": "P0297",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0298",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0299",
+  "text": "| |"
+ },
+ {
+  "locator": "P0300",
+  "text": "| |"
+ },
+ {
+  "locator": "P0301",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0302",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0303",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0304",
+  "text": "| |"
+ },
+ {
+  "locator": "P0305",
+  "text": "| |"
+ },
+ {
+  "locator": "P0306",
+  "text": "| | GREAT AMERICAN INSURANCE COMPANY"
+ },
+ {
+  "locator": "P0307",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0308",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0309",
+  "text": "| |"
+ },
+ {
+  "locator": "P0310",
+  "text": "| |"
+ },
+ {
+  "locator": "P0311",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0312",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0313",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0314",
+  "text": "| |"
+ },
+ {
+  "locator": "P0315",
+  "text": "| |"
+ },
+ {
+  "locator": "P0316",
+  "text": "| | BOWHEAD IMC LP"
+ },
+ {
+  "locator": "P0317",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0318",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0319",
+  "text": "| |"
+ },
+ {
+  "locator": "P0320",
+  "text": "| |"
+ },
+ {
+  "locator": "P0321",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0322",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0323",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0324",
+  "text": "| |"
+ },
+ {
+  "locator": "P0325",
+  "text": "| |"
+ },
+ {
+  "locator": "P0326",
+  "text": "| | AN CREDIT STRATEGIES FUND, L.P."
+ },
+ {
+  "locator": "P0327",
+  "text": "| | By: Ares Capital Management LLC, its investment"
+ },
+ {
+  "locator": "P0328",
+  "text": "| | manager"
+ },
+ {
+  "locator": "P0329",
+  "text": "| |"
+ },
+ {
+  "locator": "P0330",
+  "text": "| |"
+ },
+ {
+  "locator": "P0331",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0332",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0333",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0334",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0335",
+  "text": "| | DIVERSIFIED LOAN FUND – PRIVATE DEBT A"
+ },
+ {
+  "locator": "P0336",
+  "text": "| | S.A R.L,"
+ },
+ {
+  "locator": "P0337",
+  "text": "| | By: Ares Management LLC, its portfolio manager"
+ },
+ {
+  "locator": "P0338",
+  "text": "| | By: Ares Capital Management LLC, its subadvisor"
+ },
+ {
+  "locator": "P0339",
+  "text": "| |"
+ },
+ {
+  "locator": "P0340",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0341",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0342",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0343",
+  "text": "| |"
+ },
+ {
+  "locator": "P0344",
+  "text": "| |"
+ },
+ {
+  "locator": "P0345",
+  "text": "| | SA REAL ASSETS 20 LIMITED"
+ },
+ {
+  "locator": "P0346",
+  "text": "| | By: Ares Management LLC, its investment manager"
+ },
+ {
+  "locator": "P0347",
+  "text": "| | By: Areas Capital Management LLC, its subadvisor"
+ },
+ {
+  "locator": "P0348",
+  "text": "| |"
+ },
+ {
+  "locator": "P0349",
+  "text": "| |"
+ },
+ {
+  "locator": "P0350",
+  "text": "| | By: | /s/ Joshua Bloomstein"
+ },
+ {
+  "locator": "P0351",
+  "text": "| | | Name: Joshua Bloomstein"
+ },
+ {
+  "locator": "P0352",
+  "text": "| | | Title: Authorized Signatory"
+ },
+ {
+  "locator": "P0353",
+  "text": "| |"
+ },
+ {
+  "locator": "P0354",
+  "text": "| |"
+ },
+ {
+  "locator": "P0355",
+  "text": "| | AO MIDDLE MARKET CREDIT L.P."
+ },
+ {
+  "locator": "P0356",
+  "text": "| | By: OCM Middle Market Credit G.P. Inc., its general"
+ },
+ {
+  "locator": "P0357",
+  "text": "| | partner"
+ },
+ {
+  "locator": "P0358",
+  "text": "| |"
+ },
+ {
+  "locator": "P0359",
+  "text": "| |"
+ },
+ {
+  "locator": "P0360",
+  "text": "| | By: | /s/ K. Patel"
+ },
+ {
+  "locator": "P0361",
+  "text": "| | | Name: K. Patel"
+ },
+ {
+  "locator": "P0362",
+  "text": "| | | Title: Director"
+ },
+ {
+  "locator": "P0363",
+  "text": "| |"
+ },
+ {
+  "locator": "P0364",
+  "text": "| |"
+ },
+ {
+  "locator": "P0365",
+  "text": "| | By: | /s/ Jeremy Ehrlich"
+ },
+ {
+  "locator": "P0366",
+  "text": "| | | Name: Jeremy Ehrlich"
+ },
+ {
+  "locator": "P0367",
+  "text": "| | | Title: Director"
+ },
+ {
+  "locator": "P0368",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0369",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND IV, LTD"
+ },
+ {
+  "locator": "P0370",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Portfolio Manager, as a Lender"
+ },
+ {
+  "locator": "P0371",
+  "text": "| |"
+ },
+ {
+  "locator": "P0372",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0373",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0374",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0375",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND V, LTD"
+ },
+ {
+  "locator": "P0376",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Portfolio Manager, as a Lender"
+ },
+ {
+  "locator": "P0377",
+  "text": "| |"
+ },
+ {
+  "locator": "P0378",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0379",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0380",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0381",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND VIII, LTD"
+ },
+ {
+  "locator": "P0382",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Collateral Manager, as a Lender"
+ },
+ {
+  "locator": "P0383",
+  "text": "| |"
+ },
+ {
+  "locator": "P0384",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0385",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0386",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0387",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND XII, LTD"
+ },
+ {
+  "locator": "P0388",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Asset Manager, as a Lender"
+ },
+ {
+  "locator": "P0389",
+  "text": "| |"
+ },
+ {
+  "locator": "P0390",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0391",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0392",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0393",
+  "text": "[Signature Page to Second Amendment]"
+ },
+ {
+  "locator": "P0394",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND XIV, LTD"
+ },
+ {
+  "locator": "P0395",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Asset Manager, as a Lender"
+ },
+ {
+  "locator": "P0396",
+  "text": "| |"
+ },
+ {
+  "locator": "P0397",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0398",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0399",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0400",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND XV, LTD"
+ },
+ {
+  "locator": "P0401",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Asset Manager, as a Lender"
+ },
+ {
+  "locator": "P0402",
+  "text": "| |"
+ },
+ {
+  "locator": "P0403",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0404",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0405",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0406",
+  "text": "| | IVY HILL MIDDLE MARKET CREDIT FUND XVI, LTD"
+ },
+ {
+  "locator": "P0407",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as Asset Manager, as a Lender"
+ },
+ {
+  "locator": "P0408",
+  "text": "| |"
+ },
+ {
+  "locator": "P0409",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0410",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0411",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0412",
+  "text": "| | FEDERAL INSURANCE COMPANY"
+ },
+ {
+  "locator": "P0413",
+  "text": "| | By: Ivy Hill Asset Management, L.P., as investment manager, as a Lender"
+ },
+ {
+  "locator": "P0414",
+  "text": "| |"
+ },
+ {
+  "locator": "P0415",
+  "text": "| | By: | /s/ Sheryl Cleary"
+ },
+ {
+  "locator": "P0416",
+  "text": "| | | Name: Sheryl Cleary"
+ },
+ {
+  "locator": "P0417",
+  "text": "| | | Title: MD"
+ },
+ {
+  "locator": "P0418",
+  "text": "[Signature Page to Second Amendment]"
+ }
+]

@@ -1,0 +1,306 @@
+{
+  "id": "B01-E-efdf8bee93a8",
+  "title": "Industry analysis: platform vendors are shortening deprecation windows",
+  "event_date": "2027-09-13",
+  "available_at": "2027-09-14",
+  "review_date": "2027-09-14",
+  "sources": [
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P1 — vendor deprecation windows",
+      "text": "Synthetic industry report published September 13, 2027 by Northgate Research, a fictional analyst firm. It does not name or assess FluxRail. Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change. Northgate expects notice periods to keep shortening through 2028; this is an analyst forecast, not an observed result."
+    },
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P2 — buyer survey",
+      "text": "In a July 2027 survey of 140 mid-sized manufacturers that use regulated-approval workflow software, 31% said they would open a competitive review at their next renewal after two workflow outages within twelve months, and 9% said they would do so after one. These are stated intentions. Northgate did not measure actual renewal outcomes, and the survey did not identify respondents' software vendors."
+    },
+    {
+      "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+      "locator": "P3 — mitigating practices and limits",
+      "text": "Workflow vendors that ran automated connector regression tests against platform pre-release environments reported fewer customer-facing integration incidents than those that did not, although Northgate notes the comparison is not controlled for vendor size. The report draws on public vendor notices and the survey only. It contains no information about any individual software company's connectors, customers, contracts or lenders."
+    }
+  ],
+  "source_kind": "database_update",
+  "package_version": "1.2",
+  "status": "completed",
+  "analysis": {
+    "id": "B01-E-efdf8bee93a8",
+    "event": {
+      "id": "B01-E-efdf8bee93a8",
+      "title": "Industry analysis: platform vendors are shortening deprecation windows",
+      "event_date": "2027-09-13",
+      "available_at": "2027-09-14",
+      "review_date": "2027-09-14",
+      "sources": [
+        {
+          "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+          "locator": "P1 — vendor deprecation windows",
+          "text": "Synthetic industry report published September 13, 2027 by Northgate Research, a fictional analyst firm. It does not name or assess FluxRail. Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change. Northgate expects notice periods to keep shortening through 2028; this is an analyst forecast, not an observed result."
+        },
+        {
+          "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+          "locator": "P2 — buyer survey",
+          "text": "In a July 2027 survey of 140 mid-sized manufacturers that use regulated-approval workflow software, 31% said they would open a competitive review at their next renewal after two workflow outages within twelve months, and 9% said they would do so after one. These are stated intentions. Northgate did not measure actual renewal outcomes, and the survey did not identify respondents' software vendors."
+        },
+        {
+          "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+          "locator": "P3 — mitigating practices and limits",
+          "text": "Workflow vendors that ran automated connector regression tests against platform pre-release environments reported fewer customer-facing integration incidents than those that did not, although Northgate notes the comparison is not controlled for vendor size. The report draws on public vendor notices and the survey only. It contains no information about any individual software company's connectors, customers, contracts or lenders."
+        }
+      ]
+    },
+    "borrower_id": "B01",
+    "package_version": "1.2",
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "generated_at": "2026-09-20T01:24:28.965444+00:00",
+    "model_options": {
+      "enable_thinking": true,
+      "max_tokens": 10000,
+      "response_format": "json_object"
+    },
+    "summary": "Industry analysis shows platform vendors shortening deprecation windows, reducing notice periods for breaking interface changes. This heightens risk to FluxRail's assumptions that renewals depend on reliable connector execution and that connector support continuity prevents ≥10% revenue outages, and may affect the adequacy of the 15‑day connector‑compatibility deadline under S1. No specific connector loss, outage, or customer notice has been observed.",
+    "attributions": [
+      {
+        "id": "att-deb96e6b-8d95-48d5-b606-ccc1e6f60acb",
+        "target_type": "assumption",
+        "target_id": "B01-A01",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": null,
+        "rationale": "The event shows vendor notice periods shortening but does not show a material connector losing support or a qualifying regulated-workflow outage for FluxRail, so the assumption remains unproven weakened.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Whether any of FluxRail's supported identity or ERP connectors are affected by such shortened notice periods",
+          "Whether a regulated-workflow outage affecting FluxRail's revenue has occurred"
+        ],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "approved_synthetic"
+      },
+      {
+        "id": "att-d327b106-5be2-4961-8120-5d134c89725b",
+        "target_type": "assumption",
+        "target_id": "B01-A06",
+        "relation_type": "direct_assumption_evidence",
+        "risk_direction": "adverse",
+        "proposed_status": null,
+        "rationale": "The event indicates shortening vendor notice periods but does not provide evidence of a workflow outage affecting ≥10% of FluxRail's revenue, so the assumption lacks sufficient evidence to be weakened or contradicted.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Whether any FluxRail connector loss of support or outage has occurred",
+          "Whether such an outage would affect ≥10% of revenue"
+        ],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "verified": true,
+        "target_version": "1.0",
+        "baseline_status": "working"
+      },
+      {
+        "id": "att-5808d1ee-cb73-4de0-b054-c3423401f24f",
+        "target_type": "covenant",
+        "target_id": "S1",
+        "relation_type": "evidence_gap",
+        "risk_direction": "adverse",
+        "proposed_status": null,
+        "rationale": "The event shows vendor notice periods shortening, which could reduce the time available to deploy compatible connectors or workarounds within the 15‑day window for changes published on/after July 20, 2027, potentially making the deadline unworkable if notice periods fall below that threshold.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change.",
+            "verified": true
+          }
+        ],
+        "counterevidence": [],
+        "missing_information": [
+          "Actual published breaking interface changes with short notice affecting FluxRail's connectors",
+          "Borrower's response timeline to such changes"
+        ],
+        "suggested_action": "monitor",
+        "proposed_adjustment": "",
+        "path": [],
+        "target_title": "Enterprise connector compatibility",
+        "verified": true,
+        "target_version": "1.2",
+        "applicability": "selected"
+      }
+    ],
+    "coverage": [
+      {
+        "assumption_id": "B01-A01",
+        "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "status": "addressed"
+      },
+      {
+        "assumption_id": "B01-A02",
+        "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A03",
+        "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A04",
+        "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A05",
+        "target_title": "Stable 42-day receivable collection supports consistent working capital absorption.",
+        "status": "unaddressed"
+      },
+      {
+        "assumption_id": "B01-A06",
+        "target_title": "Connector support continuity prevents workflow outages affecting ≥10% of revenue.",
+        "status": "addressed"
+      }
+    ],
+    "candidates": [],
+    "covenant_assessments": [
+      {
+        "clause_id": "S1",
+        "status": "insufficient_evidence",
+        "rationale": "The event provides only an industry forecast of shortening notice periods; it does not show that a breaking interface change has occurred or that FluxRail missed a deadline, so sufficient evidence to determine compliance is lacking.",
+        "evidence": [
+          {
+            "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+            "locator": "P1 — vendor deprecation windows",
+            "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change.",
+            "verified": true
+          }
+        ],
+        "interpretation": "model",
+        "package_version": "1.2"
+      }
+    ],
+    "warnings": [],
+    "error": null,
+    "decisions": {},
+    "raw_response": {
+      "summary": "Industry analysis shows platform vendors shortening deprecation windows, reducing notice periods for breaking interface changes. This heightens risk to FluxRail's assumptions that renewals depend on reliable connector execution and that connector support continuity prevents ≥10% revenue outages, and may affect the adequacy of the 15‑day connector‑compatibility deadline under S1. No specific connector loss, outage, or customer notice has been observed.",
+      "attributions": [
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A01",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": null,
+          "rationale": "The event shows vendor notice periods shortening but does not show a material connector losing support or a qualifying regulated-workflow outage for FluxRail, so the assumption remains unproven weakened.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "Whether any of FluxRail's supported identity or ERP connectors are affected by such shortened notice periods",
+            "Whether a regulated-workflow outage affecting FluxRail's revenue has occurred"
+          ],
+          "suggested_action": "monitor",
+          "proposed_adjustment": null,
+          "path": []
+        },
+        {
+          "target_type": "assumption",
+          "target_id": "B01-A06",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": null,
+          "rationale": "The event indicates shortening vendor notice periods but does not provide evidence of a workflow outage affecting ≥10% of FluxRail's revenue, so the assumption lacks sufficient evidence to be weakened or contradicted.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "Whether any FluxRail connector loss of support or outage has occurred",
+            "Whether such an outage would affect ≥10% of revenue"
+          ],
+          "suggested_action": "monitor",
+          "proposed_adjustment": null,
+          "path": []
+        },
+        {
+          "target_type": "covenant",
+          "target_id": "S1",
+          "relation_type": "evidence_gap",
+          "risk_direction": "adverse",
+          "proposed_status": null,
+          "rationale": "The event shows vendor notice periods shortening, which could reduce the time available to deploy compatible connectors or workarounds within the 15‑day window for changes published on/after July 20, 2027, potentially making the deadline unworkable if notice periods fall below that threshold.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change."
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "Actual published breaking interface changes with short notice affecting FluxRail's connectors",
+            "Borrower's response timeline to such changes"
+          ],
+          "suggested_action": "monitor",
+          "proposed_adjustment": null,
+          "path": []
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [
+        {
+          "clause_id": "S1",
+          "status": "insufficient_evidence",
+          "rationale": "The event provides only an industry forecast of shortening notice periods; it does not show that a breaking interface change has occurred or that FluxRail missed a deadline, so sufficient evidence to determine compliance is lacking.",
+          "evidence": [
+            {
+              "document_id": "NGR-2027-WORKFLOW-OUTLOOK",
+              "locator": "P1 — vendor deprecation windows",
+              "quote": "Across 22 identity-management and enterprise-resource-planning platform vendors surveyed, the median notice given before a breaking authentication or interface change fell from 180 days in 2025 to 60 days in the first half of 2027. Five vendors gave 30 days or less on at least one change."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "decision": {
+    "action": "pending"
+  },
+  "received_at": "2026-09-20T01:24:28+00:00",
+  "analyzed_at": "2026-09-20T01:25:15+00:00",
+  "recorded_replay": {
+    "library_file": "2027-09-14-industry-analysis.json",
+    "recorded_on_copy": true,
+    "note": "Genuine hosted Nemotron analysis recorded on a copy of the FluxRail database, with the library reports introduced in date order."
+  }
+}

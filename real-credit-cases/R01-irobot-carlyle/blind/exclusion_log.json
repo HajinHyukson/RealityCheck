@@ -1,0 +1,43 @@
+{
+  "case": "R01-irobot-carlyle",
+  "screen": "amend|waiv|forbear|lenders? (have |has )?agreed|covenant relief|not in compliance|noncompliance|event of default",
+  "entries": [
+    {
+      "report_id": "R01-D01",
+      "document_id": "IRBT-PR-2023-11-07",
+      "locator": "P0033",
+      "action": "kept despite screen",
+      "reason": "Describes the origination facility and the amendment of the Amazon merger agreement. Neither is a post-origination lender response.",
+      "preview": "On July 24, 2023, iRobot entered into a $200 million financing facility to fund its ongoing operations. At the same time, iRobot and Amazon amended the existing"
+    },
+    {
+      "report_id": "R01-D08",
+      "document_id": "IRBT-PR-2025-03-12",
+      "locator": "P0091",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "As part of its continued efforts to further strengthen its liquidity and financial position, the Company has amended its existing term loan and is actively enga"
+    },
+    {
+      "report_id": "R01-D09",
+      "document_id": "IRBT-PR-2025-05-06",
+      "locator": "P0047",
+      "action": "removed",
+      "reason": "Reveals a lender response (amendment, waiver or its terms), which the strict blind replay withholds even once public.",
+      "preview": "The Company remains actively engaged in ongoing collaborative and constructive discussions with its primary lender while the Board continues its strategic revie"
+    },
+    {
+      "report_id": "R01-D09",
+      "document_id": "IRBT-8K-AMENDMENT-2",
+      "locator": "P0044",
+      "action": "removed",
+      "reason": "Document is a filing about a lender response.",
+      "preview": "As previously announced, on March 11, 2025, iRobot Corporation (the “Company”) entered into Amendment No. 1 to the Credit Agreement (as amended, the “Credit Agr"
+    },
+    {
+      "report_id": "R01-D10",
+      "action": "checkpoint excluded from blind replay",
+      "reason": "The only source for this checkpoint is the Form 8-K announcing Amendment No. 3. It is itself the lender response, so there is nothing eligible to replay."
+    }
+  ]
+}

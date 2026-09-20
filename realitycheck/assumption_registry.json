@@ -1,0 +1,732 @@
+{
+  "version": "1.0",
+  "synthetic": true,
+  "source": "RealityCheck-Assumptions-and-Relationships.md, sections 2 and 4",
+  "assumptions": [
+    {
+      "id": "T01",
+      "title": "Customer commitments",
+      "claim": "Atlas supplies 35% of revenue under a firm two-year commitment without termination for convenience.",
+      "covenant_ids": [
+        "PC08",
+        "PC01",
+        "PC27",
+        "PC28",
+        "PC30"
+      ],
+      "baseline_status": "approved_synthetic",
+      "criticality": "not_assigned",
+      "source": "Synthetic-Private-Credit-Covenants-30.md, shared thesis A1"
+    },
+    {
+      "id": "T02",
+      "title": "Retention and replacement",
+      "claim": "Retention, renewals and replacement demand support the approved revenue forecast.",
+      "covenant_ids": [
+        "PC05",
+        "PC25",
+        "PC01",
+        "PC27",
+        "PC28",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T03",
+      "title": "Customer concentration",
+      "claim": "Customer dependence remains within the concentration risk accepted at underwriting; no new concentration limit is assumed.",
+      "covenant_ids": [
+        "PC08"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T04",
+      "title": "Pricing and revenue mix",
+      "claim": "Pricing, revenue mix and contract economics support the forecast.",
+      "covenant_ids": [
+        "PC16",
+        "PC01",
+        "PC27",
+        "PC28",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T05",
+      "title": "Repeatable earnings",
+      "claim": "Reported operating earnings represent real, repeatable activity.",
+      "covenant_ids": [
+        "PC02",
+        "PC03",
+        "PC04",
+        "PC06",
+        "PC26",
+        "PC01",
+        "PC27",
+        "PC28",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T06",
+      "title": "Sustainable margins",
+      "claim": "Operating margins and the cost base remain sustainable.",
+      "covenant_ids": [
+        "PC05",
+        "PC25",
+        "PC01",
+        "PC27",
+        "PC28",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T07",
+      "title": "EBITDA adjustments",
+      "claim": "Underwriting reliance on EBITDA adjustments is justified by the underlying economics; contractual eligibility is assessed separately.",
+      "covenant_ids": [
+        "PC04",
+        "PC01",
+        "PC09",
+        "PC11",
+        "PC12",
+        "PC27",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T08",
+      "title": "Accounting comparability",
+      "claim": "Accounting and software capitalization allow meaningful period comparisons and do not hide deterioration.",
+      "covenant_ids": [
+        "PC02",
+        "PC04",
+        "PC01",
+        "PC27",
+        "PC28",
+        "PC29",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T09",
+      "title": "Collections and working capital",
+      "claim": "Customers pay and working-capital needs remain compatible with the cash forecast.",
+      "covenant_ids": [
+        "PC26",
+        "PC28",
+        "PC24",
+        "PC25",
+        "PC01",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T10",
+      "title": "Necessary investment",
+      "claim": "Necessary capital investment can be funded while maintaining product and service capacity.",
+      "covenant_ids": [
+        "PC29",
+        "PC28",
+        "PC05",
+        "PC14"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T11",
+      "title": "Available liquidity",
+      "claim": "Sufficient cash is actually eligible and available for debt service.",
+      "covenant_ids": [
+        "PC01",
+        "PC09",
+        "PC11",
+        "PC12",
+        "PC24",
+        "PC25",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T12",
+      "title": "Taxes and cash demands",
+      "claim": "Taxes and other cash demands remain fundable without impairing operations or repayment.",
+      "covenant_ids": [
+        "PC18",
+        "PC10",
+        "PC28"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T13",
+      "title": "Debt exposure",
+      "claim": "Debt and guarantee exposure remain understood, controlled and within the underwritten capital structure.",
+      "covenant_ids": [
+        "PC09",
+        "PC23",
+        "PC01",
+        "PC11",
+        "PC12",
+        "PC30"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T14",
+      "title": "Interest burden",
+      "claim": "The cash interest burden remains serviceable under the agreed financing terms.",
+      "covenant_ids": [
+        "PC27",
+        "PC28",
+        "PC23"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T15",
+      "title": "Principal and maturity funding",
+      "claim": "Scheduled principal and final maturity have credible funding sources; periodic coverage does not prove balloon repayment.",
+      "covenant_ids": [
+        "PC28",
+        "PC05"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T16",
+      "title": "Leverage headroom",
+      "claim": "Leverage headroom is adequate for borrower volatility and planned actions; no internal threshold is automatically a covenant.",
+      "covenant_ids": [
+        "PC01",
+        "PC30",
+        "PC09",
+        "PC11",
+        "PC12"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T17",
+      "title": "Acquisitions and investments",
+      "claim": "Acquisitions and investments remain fundable and consistent with the accepted risk profile.",
+      "covenant_ids": [
+        "PC09",
+        "PC12",
+        "PC13",
+        "PC16",
+        "PC20",
+        "PC21",
+        "PC22"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T18",
+      "title": "Payouts and related parties",
+      "claim": "Distributions, affiliate dealings and junior-debt payments leave adequate resources and lender protection.",
+      "covenant_ids": [
+        "PC11",
+        "PC13",
+        "PC22",
+        "PC23"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T19",
+      "title": "Service capacity",
+      "claim": "People, systems, suppliers and assets can continue delivering contracted services.",
+      "covenant_ids": [
+        "PC14",
+        "PC15",
+        "PC19",
+        "PC20"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T20",
+      "title": "Business model",
+      "claim": "The business remains within the operating model and risk profile underwritten.",
+      "covenant_ids": [
+        "PC16",
+        "PC12"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T21",
+      "title": "IP and asset protection",
+      "claim": "Core IP and assets remain available to the business and support expected lender recovery.",
+      "covenant_ids": [
+        "PC10",
+        "PC14",
+        "PC15",
+        "PC20"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T22",
+      "title": "Structure and recourse",
+      "claim": "Entity structure, guarantees and collateral coverage preserve expected recourse.",
+      "covenant_ids": [
+        "PC17",
+        "PC20",
+        "PC21",
+        "PC13",
+        "PC15"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T23",
+      "title": "Insurance protection",
+      "claim": "Insurance and risk-transfer arrangements provide expected protection against operational loss.",
+      "covenant_ids": [
+        "PC19"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    },
+    {
+      "id": "T24",
+      "title": "Information and governance",
+      "claim": "Management provides timely, reliable information and makes material facts available for review.",
+      "covenant_ids": [
+        "PC02",
+        "PC03",
+        "PC04",
+        "PC05",
+        "PC06",
+        "PC07",
+        "PC08",
+        "PC25",
+        "PC26"
+      ],
+      "baseline_status": "working",
+      "criticality": "not_assigned",
+      "source": "RealityCheck-Assumptions-and-Relationships.md, proposed expanded register"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "T01",
+      "target": "T02",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T03",
+      "target": "T01",
+      "type": "materiality_modifier"
+    },
+    {
+      "source": "T03",
+      "target": "T02",
+      "type": "materiality_modifier"
+    },
+    {
+      "source": "T19",
+      "target": "T02",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T19",
+      "target": "T04",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T19",
+      "target": "T06",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T20",
+      "target": "T04",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T20",
+      "target": "T06",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T20",
+      "target": "T10",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T02",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T04",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T06",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T07",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T07",
+      "target": "T16",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T08",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T08",
+      "target": "T07",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T08",
+      "target": "T10",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T05",
+      "target": "T09",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T05",
+      "target": "T16",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T09",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T10",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T10",
+      "target": "T19",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T12",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T12",
+      "target": "T21",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T13",
+      "target": "T14",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T13",
+      "target": "T15",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T13",
+      "target": "T16",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T14",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T15",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T11",
+      "target": "T16",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T13",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T20",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T22",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T09",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T17",
+      "target": "T10",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T18",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T18",
+      "target": "T13",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T18",
+      "target": "T21",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T22",
+      "target": "T05",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T22",
+      "target": "T13",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T22",
+      "target": "T21",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T21",
+      "target": "T19",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T21",
+      "target": "T15",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T23",
+      "target": "T11",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T23",
+      "target": "T19",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T23",
+      "target": "T21",
+      "type": "economic_dependency"
+    },
+    {
+      "source": "T16",
+      "target": "T17",
+      "type": "permission_dependency"
+    },
+    {
+      "source": "T16",
+      "target": "T18",
+      "type": "permission_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T01",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T02",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T03",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T04",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T05",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T06",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T07",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T08",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T09",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T10",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T11",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T12",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T13",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T14",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T15",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T16",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T17",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T18",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T19",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T20",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T21",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T22",
+      "type": "evidence_dependency"
+    },
+    {
+      "source": "T24",
+      "target": "T23",
+      "type": "evidence_dependency"
+    }
+  ]
+}

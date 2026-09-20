@@ -1,0 +1,1411 @@
+{
+  "borrower": {
+    "id": "B01",
+    "name": "FluxRail Workflow, Inc.",
+    "sector": "Workflow orchestration software"
+  },
+  "profile": {
+    "borrower_id": "B01",
+    "version": "1.0",
+    "as_of": "2026-12-31",
+    "summary": "FluxRail's origination assumptions (A1-A4) link connector reliability, template reuse, cash conversion, and leverage headroom to covenant compliance, with A1 and A2 influencing A3 and A4 through operational and financial dependencies.",
+    "assumptions": [
+      {
+        "id": "B01-A01",
+        "title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "claim": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "basis": "explicit",
+        "source_assumption_id": "A1",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C08",
+          "S1",
+          "S2"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Customer Operations paragraph summarizes synthetic renewal interviews and the December 2026 incident ledger by connector family.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "B01-A02",
+        "title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "claim": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "basis": "explicit",
+        "source_assumption_id": "A2",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C06",
+          "S1",
+          "S3"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Delivery Efficiency paragraph identifies the owned template repository and synthetic completed-project labor analysis.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "B01-A03",
+        "title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "claim": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "basis": "explicit",
+        "source_assumption_id": "A3",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Cash Conversion paragraph reconciles billing terms, receivable aging, capitalized development, and working-capital use.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "B01-A04",
+        "title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "claim": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "basis": "explicit",
+        "source_assumption_id": "A4",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C01",
+          "C04",
+          "C05",
+          "C06",
+          "S3"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Capital Structure paragraph presents the opening debt, eligible cash, Covenant EBITDA bridge, and permitted-transaction tests.",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "B01-A01",
+        "target": "B01-A02",
+        "type": "influences",
+        "rationale": "Reliable connector execution (A1) enables efficient workflows that support template reuse (A2), reducing labor and deployment time."
+      }
+    ]
+  },
+  "profile_provenance": {
+    "engine": "nemotron",
+    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+    "generated_at": "2026-09-19T20:50:39.995052+00:00",
+    "warnings": [],
+    "source_hashes": {
+      "credit-agreement.md": "8f63691e3d186b8601ee650361b64ca652f838b4a37378c4b9a513e55d7999b7",
+      "contract-record.json": "94335d6220e60385d12e302fd5b6d0db48b15eaf8d8c3bea6a851405e9d4bc5a",
+      "underwriting-memo.md": "a4f3c3b3f831ac2e0b6383331511da19eb8de242a97116de36b5c7f87c94538e",
+      "origination-financial-model.json": "4d2cb33726c7b32f0a37626e0984961588119d45c5d170e41e0161773ebd5a84"
+    }
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "parent_version": null,
+      "effective_at": "2026-12-31",
+      "decision_at": "2026-12-31",
+      "status": "effective",
+      "title": "Original package",
+      "terms": {
+        "fixed_rate": 9.25,
+        "leverage_max": 4.05
+      },
+      "clauses": [
+        {
+          "id": "C01",
+          "title": "Maximum total net leverage",
+          "resolution": "F",
+          "clause": "FluxRail Workflow, Inc. shall not permit Total Net Leverage to exceed 4.05x at any calendar quarter-end beginning March 31, 2027. The numerator is consolidated Debt less min(Eligible Cash, $10.000m, Debt); the denominator is Covenant EBITDA for the four quarters ending on that date. This is a maintenance test independent of borrowing activity. Equality passes, full precision governs, and no stepdown or automatic equity cure is granted. Positive Net Debt with nonpositive Covenant EBITDA fails; zero Net Debt is defined as zero leverage for this simulation.",
+          "evidence": "Debt register, qualified cash balances, trailing-four-quarter EBITDA bridge and adjustment support.",
+          "thesis_ids": [
+            "A3",
+            "A4"
+          ]
+        },
+        {
+          "id": "C02",
+          "title": "Financial reporting and compliance certification",
+          "resolution": "R",
+          "clause": "Borrower shall deliver consolidated quarterly balance sheets, income statements and cash-flow statements and an officer-signed covenant certificate within 45 calendar days after each quarter-end, beginning March 31, 2027. Include debt/cash reconciliations, adjustment evidence, policy changes, actual annual and outstanding basket usage, and every elected test. Fourth-quarter management reporting is still required. Annual audited statements and the auditor's report are due within 90 calendar days after year-end, first December 31, 2027; an audit qualification must be disclosed but is not alone a delivery breach. A board-approved monthly annual budget and cash forecast are due within 30 calendar days after each year begins, first 2027. If maturity falls within 18 months, include a documented maturity funding plan. A certificate disclosing failure can satisfy delivery; missing evidence does not establish a ratio failure.",
+          "evidence": "Statements, signed certificates, support schedules, audit/budget approvals and portal receipt timestamps.",
+          "thesis_ids": [
+            "A3"
+          ]
+        },
+        {
+          "id": "C03",
+          "title": "Debt and lien limitations",
+          "resolution": "X / A",
+          "clause": "The Group shall incur no Debt or third-party guarantee except this facility and Loan Party guarantees, and finance leases not exceeding $1.800m principal outstanding in aggregate. A new lease requires no continuing Default and pro forma leverage no greater than 3.75x. Actual principal repayment releases that outstanding basket; no annual reset applies. Lease security is limited to the financed asset. Other permitted liens are lender security and ordinary statutory liens not overdue or contested in good faith with GAAP reserves and a collection stay protecting Material Collateral. Other financing, PIK, seller notes, earnouts and letters of credit require prior written consent and an amendment defining treatment; no independent unfunded-guarantee basket exists. Voluntarily unauthorized Debt/liens use X; a remediable statutory-lien qualification failure uses A.",
+          "evidence": "Financing instruments, guarantee register, lease balances and asset schedule, lien searches and contest evidence.",
+          "thesis_ids": []
+        },
+        {
+          "id": "C04",
+          "title": "Distributions and sponsor leakage",
+          "resolution": "X",
+          "clause": "Cash dividends to persons outside the Loan Party group shall not exceed $1.000m in aggregate per calendar fiscal year and require no continuing Default, pro forma leverage no greater than 3.50x and at least $7.000m Eligible Cash after payment. No unused capacity carries forward or replenishes after repayment. Equity redemptions, sponsor monitoring fees, and voluntary junior-debt repayments require prior written consent and have no independent basket. Transfers among Loan Parties preserving security do not use the dividend basket. Ordinary employee compensation and payment for documented arm's-length operating services are not dividends, but payments to sponsor affiliates above $0.250m annually require disinterested board approval and pricing support.",
+          "evidence": "Executed payment evidence, recipient/control identity, annual usage, fair-pricing support and post-payment cash/leverage.",
+          "thesis_ids": [
+            "A4"
+          ]
+        },
+        {
+          "id": "C05",
+          "title": "Acquisitions and investments",
+          "resolution": "X",
+          "clause": "Acquisitions within the Permitted Business may be made for aggregate cash consideration including fees not exceeding $4.500m per fiscal year, only with no continuing Default, pro forma leverage at or below 3.75x, and at least $7.000m post-closing Eligible Cash. No carryforward, replenishment or transaction splitting is permitted. Historical target earnings must be verified under the same EBITDA definition; assumed Debt separately needs C03 permission. Contingent consideration and seller financing need prior consent. Other investments require prior written consent except ordinary bank deposits, trade receivables, and transfers between Loan Parties preserving security. An acquired subsidiary consolidates at control acquisition and must accede under C07; its cash is not Eligible Cash until it qualifies as a Loan Party. A proposal that has not closed is not an executed breach.",
+          "evidence": "Signed purchase/investment documents, related consideration, financing, historical target financials, group chart and accession records.",
+          "thesis_ids": [
+            "A4"
+          ]
+        },
+        {
+          "id": "C06",
+          "title": "Business scope and asset protection",
+          "resolution": "X",
+          "clause": "The Group shall remain within the Permitted Business and may sell obsolete equipment at fair value only up to $0.600m aggregate fair value per fiscal year, without carryforward or recycling. No receivables sale, material operating asset transfer, ownership transfer or exclusive license of Core IP outside the Loan Party group is permitted without prior written consent. Nonexclusive ordinary customer-use licenses and transfers between Loan Parties preserving security are permitted. Sale receipts must be paid to a Loan Party and may then fund ordinary operations, independently permitted transactions or Debt repayment; there is no additional proceeds sweep. A change in customer cancellation rights or permitted revenue mix is not automatically a business-scope breach. The sector-specific S clauses apply independently.",
+          "evidence": "Executed asset/IP documents, rights conveyed, fair values, business activities, recipient identity, annual usage and proceeds.",
+          "thesis_ids": [
+            "A2",
+            "A4"
+          ]
+        },
+        {
+          "id": "C07",
+          "title": "Existence insurance guarantees and collateral",
+          "resolution": "A / R / X",
+          "clause": "Loan Parties shall preserve existence, maintain books and required operating assets, and pay taxes when due except amounts contested in good faith with GAAP reserves and a stay against sale of Material Collateral. Maintain property coverage at replacement cost for tangible Material Collateral, general liability of $2m per occurrence/$4m aggregate, and technology or professional liability plus cyber coverage of $5m aggregate per policy year, with deductibles no greater than $0.250m; lender shall be loss payee or additional insured where applicable. Renewal certificates are due five Business Days after renewal (R); restoring coverage remedies a lapse prospectively under A, preserving its history and uninsured losses. New domestic subsidiaries must guarantee the facility and deliver security accessions within ten Business Days of control acquisition, and complete perfection on existing assets and equity within 30 calendar days of that date. Other uncovered newly acquired assets require executed instruments within fifteen Business Days and perfection within 30 calendar days. Foreign subsidiaries, unrestricted designations and reorganizations outside a merger into a surviving Loan Party preserving guarantees/security require prior consent (X). Permit relevant lender inspection on five Business Days' notice, at borrower expense twice annually absent Default (R).",
+          "evidence": "Entity records, policies and endorsements, tax contest/stay, signed guarantees, actual filings/control evidence and access requests.",
+          "thesis_ids": []
+        },
+        {
+          "id": "C08",
+          "title": "Default and material customer notices",
+          "resolution": "R",
+          "clause": "Within five Business Days of the earliest actual knowledge of the CEO, CFO or general counsel, Borrower shall notify lender of any contractual noncompliance and of an actual written termination or nonrenewal notice from a customer group accounting for at least 20% of prior fiscal-year consolidated revenue. Aggregate customer affiliates under common control at receipt, counting revenue once. Include facts, knowledge and effective dates, exposure, and proposed mitigation. An executed grant of a cancellation right without an actual termination/nonrenewal notice does not alone trigger the customer-notice limb. Reporting does not cure another covenant. More specific notices under S1–S3 remain independently applicable.",
+          "evidence": "Actual underlying notice/event, officer knowledge evidence, customer-group revenue, delivered lender notice and timestamp.",
+          "thesis_ids": [
+            "A1"
+          ]
+        },
+        {
+          "id": "S1",
+          "title": "Enterprise connector compatibility",
+          "clause": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. Within 30 calendar days after a vendor publishes a generally available breaking interface change, the Borrower shall either deploy a compatible connector or provide affected customers a documented, secure workaround. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. The Borrower shall deliver a quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, and open workarounds.",
+          "evidence": "Vendor release notices, connector inventory, customer-revenue mapping, change tickets, and the quarterly connector-status schedule.",
+          "resolution": "A",
+          "thesis_ids": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "id": "S2",
+          "title": "Critical workflow incident reporting",
+          "clause": "From closing, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than four consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 10% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by four hours.",
+          "evidence": "Incident ledger, monitoring timestamps, officer escalation record, customer notices, root-cause report, and recurrence-test results.",
+          "resolution": "R",
+          "thesis_ids": [
+            "A1"
+          ]
+        },
+        {
+          "id": "S3",
+          "title": "Configuration library custody",
+          "clause": "The Borrower shall keep all material customer-deployment templates, workflow schemas, and connector mappings owned by a Loan Party or stored in a repository subject to the Lender's collateral lien. The Borrower may grant customers ordinary-course use rights and may use third-party hosted repositories if a Loan Party retains export rights and administrative control. Any sale, exclusive license, transfer, or repository migration that leaves a non-Loan Party with sole export authority over a material configuration library requires the Lender's prior written consent. A prohibited transfer violates this covenant immediately upon execution, regardless of later restoration of access.",
+          "evidence": "Repository ownership records, administrator lists, hosting terms, export tests, intellectual-property schedules, and executed transfer or license documents.",
+          "resolution": "X",
+          "thesis_ids": [
+            "A2",
+            "A4"
+          ]
+        }
+      ],
+      "definitions_and_conventions": "**Group and Loan Parties.** Borrower and its two wholly owned domestic subsidiaries, FluxRail Implementation Services, LLC and FluxRail Integration Labs, Inc., are the only opening Group members and Loan Parties. Both subsidiaries guarantee all facility obligations. Consolidate and eliminate intercompany balances. Newly controlled subsidiaries consolidate immediately, even before guarantee accession. No unrestricted subsidiaries, outside guarantees or opening lease Debt exist. Control means power to direct management through voting rights, contract or otherwise; affiliate means control or common control. Lender security covers only Loan Party beneficial property; third-party client or custodial funds are expressly excluded from collateral, lender-benefit deposit control and operating resources.\n\n**Permitted Business and Core IP.** Permitted Business is workflow orchestration software and activities reasonably related to delivering the products and services described in the business schedule below. Relatedness depends on actual customers, products, capabilities and operating resources. Core IP is source code, operating documentation, proprietary datasets, marks and rights essential to that business. Material Collateral is any asset necessary to continue core service delivery, or other assets with aggregate fair value over $0.500m. These definitions do not turn business forecasts into covenants.\n\n**Debt and Cash.** Debt includes funded borrowings, finance-lease principal, capitalized PIK, unreimbursed letter-of-credit drawings and funded guarantee obligations currently payable, without consolidated double counting. Exclude ordinary non-interest-bearing trade payables and operating leases. Permission to incur remains governed by C03. Eligible Cash is unrestricted USD cash owned by a Loan Party in a U.S. bank account, immediately accessible for debt service and subject to no security other than the lender's. Exclude client, trust, escrow, restricted, blocked and foreign-subsidiary cash. Leverage netting is capped at $10.000m and Debt; transaction tests also exclude unspent proceeds of the Debt being incurred. A cash minimum, if elected, is uncapped.\n\n**Earnings and investment.** Reported EBITDA is consolidated U.S. GAAP net income plus interest expense, income-tax expense, depreciation and amortization. Covenant EBITDA adds only documented cash restructuring costs deducted in Reported EBITDA, capped at 10% of positive Reported EBITDA, and subtracts included nonoperating disposal gains. There are no forecast-synergy, stock-compensation, ordinary recurring-cost or other adjustments. Research costs follow GAAP; qualifying capitalized software development is amortized over three years when available for use. Capital Investment includes all cash equipment and capitalized development spending once, excluding acquisition consideration and already-expensed items. Reconcile policy changes to the closing basis. The closing adjustment is $1.000m; its supporting restructuring expense is already in Reported EBITDA and must not be deducted twice in cash flow.\n\n**Testing and pro forma calculations.** Quarter-end Debt/cash uses that date; earnings use the four then-ended fiscal quarters. No automatic annualization. For a proposed transaction, adjust debt/cash and historical earnings for the complete transaction and related steps, using verified target earnings for the same four-quarter period, eliminating overlap and disposed earnings. No forecast savings. Missing inputs mean permission is unestablished, not presumed. Compare unrounded values; displayed figures are rounded only for readability.\n\n**Calendar and delivery.** New York time; Business Days exclude weekends and observed U.S. federal holidays. Exclude the triggering day. Calendar-day delivery and post-closing administrative-performance deadlines roll forward to the next Business Day; measurements do not. Delivery requires the lender's designated reporting portal timestamp by 5 p.m.; later receipts count on the next Business Day. Contractual interest and principal dates do not roll: if not a Business Day, prefund lender by the preceding Business Day for credit on the contractual date, with no interest extension. The financial schedules model the contractual credit date; prefunded amounts are unavailable cash until applied.\n\n**Consent and baskets.** All amendments and waivers require a written instrument signed by the sole lender and Borrower, identifying affected terms/periods, effective date and conditions. Prior transaction consent requires the lender's written approval before execution. No-default conditions apply only where stated and include unremedied failures during a grace period. Annual baskets reset January 1; no carryforward, reclassification, replenishment or splitting unless expressly allowed. Outstanding baskets free capacity only upon actual principal repayment. An internal budget, unsigned draft or sponsor funding intention is not consent or received cash.",
+      "instrument_text": "# FluxRail Workflow, Inc. Senior Secured Credit Agreement\n\nAgreement B01-CA-2026-01, version 1.0. Synthetic execution, effective and known-at date: December 31, 2026. All entities, terms and events are fictional and operative only within this simulation. This is an individually selected contract, not a menu of unelected clauses. No real signature or practitioner validation is represented.\n\n## Parties and financing terms\n\nFluxRail Workflow, Inc. (Borrower), a Delaware entity, and Granite Elm Credit LLC (sole Lender and collateral beneficiary) enter into the following simulated agreement. Northstar Vale Partners controls Borrower but provides no funding guarantee. The two subsidiaries named in the definitions are guarantors and collateral grantors.\n\nLender advances $78.000m at par on December 31, 2026, solely to refinance equal-principal predecessor operating-company debt. Sources and uses are equal; no incremental operating cash, closing fee or original-issue discount is assumed. Interest is fixed at 9.25% per annum, actual days/365, on outstanding principal, payable each March 31, June 30, September 30 and December 31 beginning March 31, 2027. No PIK election, revolver or further commitment exists. Scheduled principal is $1.560m each December 31 from 2027 through 2030; the remaining $71.760m falls due on 2031-12-31. Voluntary prepayment at par is permitted on three Business Days' notice with accrued interest; it reduces the final balloon before scheduled installments and creates no reborrowing right. No prepayment premium or default-rate increase is imposed.\n\nThe collateral package is first-priority security over Loan Party beneficial assets, subject only to C03 permitted liens and the express exclusion of third-party client funds. Executed guarantees/security, required UCC and applicable IP filings, control over Eligible Cash accounts, evidence of borrower authorization and permitted insurance, and a signed opening Debt/cash/EBITDA schedule are closing conditions. The simulation assumes these conditions satisfied; filing jurisdictions and executed instruments must accompany a real documentary evaluation of perfection. There are no undisclosed post-closing deliverables or assumed third-party guarantees.\n\n## Business and opening schedules\n\nFluxRail sells subscription workflow software that routes regulated approvals, exception queues, and audit evidence for mid-sized manufacturers. Revenue is recurring, but product value depends on reliable integrations with customer identity and enterprise-resource-planning systems.\n\n| Closing financial schedule | USD millions |\n| --- | ---: |\n| Revenue | 92.000 |\n| Reported EBITDA | 20.500 |\n| Documented permitted restructuring adjustment | 1.000 |\n| Covenant EBITDA | 21.500 |\n| Opening term Debt | 78.000 |\n| Eligible operating cash | 12.000 |\n| Restricted/client cash excluded | 1.500 |\n\nOwnership: Borrower owns 100% of each named subsidiary; the sponsor controls Borrower. Debt schedule: this facility only. Permitted existing liens: lender security only. Restricted funds of $1.500m are borrower-owned performance-reserve deposits subject to contractual withdrawal restrictions, with no matching client-funds liability or competing lien; they are excluded from repayment resources and receive no netting benefit. The financial model separately reconciles assets, liabilities, equity, earnings and cash movements; that model's projections do not modify this contract.\n\n## Definitions and conventions\n\n**Group and Loan Parties.** Borrower and its two wholly owned domestic subsidiaries, FluxRail Implementation Services, LLC and FluxRail Integration Labs, Inc., are the only opening Group members and Loan Parties. Both subsidiaries guarantee all facility obligations. Consolidate and eliminate intercompany balances. Newly controlled subsidiaries consolidate immediately, even before guarantee accession. No unrestricted subsidiaries, outside guarantees or opening lease Debt exist. Control means power to direct management through voting rights, contract or otherwise; affiliate means control or common control. Lender security covers only Loan Party beneficial property; third-party client or custodial funds are expressly excluded from collateral, lender-benefit deposit control and operating resources.\n\n**Permitted Business and Core IP.** Permitted Business is workflow orchestration software and activities reasonably related to delivering the products and services described in the business schedule below. Relatedness depends on actual customers, products, capabilities and operating resources. Core IP is source code, operating documentation, proprietary datasets, marks and rights essential to that business. Material Collateral is any asset necessary to continue core service delivery, or other assets with aggregate fair value over $0.500m. These definitions do not turn business forecasts into covenants.\n\n**Debt and Cash.** Debt includes funded borrowings, finance-lease principal, capitalized PIK, unreimbursed letter-of-credit drawings and funded guarantee obligations currently payable, without consolidated double counting. Exclude ordinary non-interest-bearing trade payables and operating leases. Permission to incur remains governed by C03. Eligible Cash is unrestricted USD cash owned by a Loan Party in a U.S. bank account, immediately accessible for debt service and subject to no security other than the lender's. Exclude client, trust, escrow, restricted, blocked and foreign-subsidiary cash. Leverage netting is capped at $10.000m and Debt; transaction tests also exclude unspent proceeds of the Debt being incurred. A cash minimum, if elected, is uncapped.\n\n**Earnings and investment.** Reported EBITDA is consolidated U.S. GAAP net income plus interest expense, income-tax expense, depreciation and amortization. Covenant EBITDA adds only documented cash restructuring costs deducted in Reported EBITDA, capped at 10% of positive Reported EBITDA, and subtracts included nonoperating disposal gains. There are no forecast-synergy, stock-compensation, ordinary recurring-cost or other adjustments. Research costs follow GAAP; qualifying capitalized software development is amortized over three years when available for use. Capital Investment includes all cash equipment and capitalized development spending once, excluding acquisition consideration and already-expensed items. Reconcile policy changes to the closing basis. The closing adjustment is $1.000m; its supporting restructuring expense is already in Reported EBITDA and must not be deducted twice in cash flow.\n\n**Testing and pro forma calculations.** Quarter-end Debt/cash uses that date; earnings use the four then-ended fiscal quarters. No automatic annualization. For a proposed transaction, adjust debt/cash and historical earnings for the complete transaction and related steps, using verified target earnings for the same four-quarter period, eliminating overlap and disposed earnings. No forecast savings. Missing inputs mean permission is unestablished, not presumed. Compare unrounded values; displayed figures are rounded only for readability.\n\n**Calendar and delivery.** New York time; Business Days exclude weekends and observed U.S. federal holidays. Exclude the triggering day. Calendar-day delivery and post-closing administrative-performance deadlines roll forward to the next Business Day; measurements do not. Delivery requires the lender's designated reporting portal timestamp by 5 p.m.; later receipts count on the next Business Day. Contractual interest and principal dates do not roll: if not a Business Day, prefund lender by the preceding Business Day for credit on the contractual date, with no interest extension. The financial schedules model the contractual credit date; prefunded amounts are unavailable cash until applied.\n\n**Consent and baskets.** All amendments and waivers require a written instrument signed by the sole lender and Borrower, identifying affected terms/periods, effective date and conditions. Prior transaction consent requires the lender's written approval before execution. No-default conditions apply only where stated and include unremedied failures during a grace period. Annual baskets reset January 1; no carryforward, reclassification, replenishment or splitting unless expressly allowed. Outstanding baskets free capacity only upon actual principal repayment. An internal budget, unsigned draft or sponsor funding intention is not consent or received cash.\n\n## Covenants\n\n### C01 Maximum total net leverage\n\nFluxRail Workflow, Inc. shall not permit Total Net Leverage to exceed 4.05x at any calendar quarter-end beginning March 31, 2027. The numerator is consolidated Debt less min(Eligible Cash, $10.000m, Debt); the denominator is Covenant EBITDA for the four quarters ending on that date. This is a maintenance test independent of borrowing activity. Equality passes, full precision governs, and no stepdown or automatic equity cure is granted. Positive Net Debt with nonpositive Covenant EBITDA fails; zero Net Debt is defined as zero leverage for this simulation.\n\nEvidence required: Debt register, qualified cash balances, trailing-four-quarter EBITDA bridge and adjustment support. Resolution category: F.\n\n### C02 Financial reporting and compliance certification\n\nBorrower shall deliver consolidated quarterly balance sheets, income statements and cash-flow statements and an officer-signed covenant certificate within 45 calendar days after each quarter-end, beginning March 31, 2027. Include debt/cash reconciliations, adjustment evidence, policy changes, actual annual and outstanding basket usage, and every elected test. Fourth-quarter management reporting is still required. Annual audited statements and the auditor's report are due within 90 calendar days after year-end, first December 31, 2027; an audit qualification must be disclosed but is not alone a delivery breach. A board-approved monthly annual budget and cash forecast are due within 30 calendar days after each year begins, first 2027. If maturity falls within 18 months, include a documented maturity funding plan. A certificate disclosing failure can satisfy delivery; missing evidence does not establish a ratio failure.\n\nEvidence required: Statements, signed certificates, support schedules, audit/budget approvals and portal receipt timestamps. Resolution category: R.\n\n### C03 Debt and lien limitations\n\nThe Group shall incur no Debt or third-party guarantee except this facility and Loan Party guarantees, and finance leases not exceeding $1.800m principal outstanding in aggregate. A new lease requires no continuing Default and pro forma leverage no greater than 3.75x. Actual principal repayment releases that outstanding basket; no annual reset applies. Lease security is limited to the financed asset. Other permitted liens are lender security and ordinary statutory liens not overdue or contested in good faith with GAAP reserves and a collection stay protecting Material Collateral. Other financing, PIK, seller notes, earnouts and letters of credit require prior written consent and an amendment defining treatment; no independent unfunded-guarantee basket exists. Voluntarily unauthorized Debt/liens use X; a remediable statutory-lien qualification failure uses A.\n\nEvidence required: Financing instruments, guarantee register, lease balances and asset schedule, lien searches and contest evidence. Resolution category: X / A.\n\n### C04 Distributions and sponsor leakage\n\nCash dividends to persons outside the Loan Party group shall not exceed $1.000m in aggregate per calendar fiscal year and require no continuing Default, pro forma leverage no greater than 3.50x and at least $7.000m Eligible Cash after payment. No unused capacity carries forward or replenishes after repayment. Equity redemptions, sponsor monitoring fees, and voluntary junior-debt repayments require prior written consent and have no independent basket. Transfers among Loan Parties preserving security do not use the dividend basket. Ordinary employee compensation and payment for documented arm's-length operating services are not dividends, but payments to sponsor affiliates above $0.250m annually require disinterested board approval and pricing support.\n\nEvidence required: Executed payment evidence, recipient/control identity, annual usage, fair-pricing support and post-payment cash/leverage. Resolution category: X.\n\n### C05 Acquisitions and investments\n\nAcquisitions within the Permitted Business may be made for aggregate cash consideration including fees not exceeding $4.500m per fiscal year, only with no continuing Default, pro forma leverage at or below 3.75x, and at least $7.000m post-closing Eligible Cash. No carryforward, replenishment or transaction splitting is permitted. Historical target earnings must be verified under the same EBITDA definition; assumed Debt separately needs C03 permission. Contingent consideration and seller financing need prior consent. Other investments require prior written consent except ordinary bank deposits, trade receivables, and transfers between Loan Parties preserving security. An acquired subsidiary consolidates at control acquisition and must accede under C07; its cash is not Eligible Cash until it qualifies as a Loan Party. A proposal that has not closed is not an executed breach.\n\nEvidence required: Signed purchase/investment documents, related consideration, financing, historical target financials, group chart and accession records. Resolution category: X.\n\n### C06 Business scope and asset protection\n\nThe Group shall remain within the Permitted Business and may sell obsolete equipment at fair value only up to $0.600m aggregate fair value per fiscal year, without carryforward or recycling. No receivables sale, material operating asset transfer, ownership transfer or exclusive license of Core IP outside the Loan Party group is permitted without prior written consent. Nonexclusive ordinary customer-use licenses and transfers between Loan Parties preserving security are permitted. Sale receipts must be paid to a Loan Party and may then fund ordinary operations, independently permitted transactions or Debt repayment; there is no additional proceeds sweep. A change in customer cancellation rights or permitted revenue mix is not automatically a business-scope breach. The sector-specific S clauses apply independently.\n\nEvidence required: Executed asset/IP documents, rights conveyed, fair values, business activities, recipient identity, annual usage and proceeds. Resolution category: X.\n\n### C07 Existence insurance guarantees and collateral\n\nLoan Parties shall preserve existence, maintain books and required operating assets, and pay taxes when due except amounts contested in good faith with GAAP reserves and a stay against sale of Material Collateral. Maintain property coverage at replacement cost for tangible Material Collateral, general liability of $2m per occurrence/$4m aggregate, and technology or professional liability plus cyber coverage of $5m aggregate per policy year, with deductibles no greater than $0.250m; lender shall be loss payee or additional insured where applicable. Renewal certificates are due five Business Days after renewal (R); restoring coverage remedies a lapse prospectively under A, preserving its history and uninsured losses. New domestic subsidiaries must guarantee the facility and deliver security accessions within ten Business Days of control acquisition, and complete perfection on existing assets and equity within 30 calendar days of that date. Other uncovered newly acquired assets require executed instruments within fifteen Business Days and perfection within 30 calendar days. Foreign subsidiaries, unrestricted designations and reorganizations outside a merger into a surviving Loan Party preserving guarantees/security require prior consent (X). Permit relevant lender inspection on five Business Days' notice, at borrower expense twice annually absent Default (R).\n\nEvidence required: Entity records, policies and endorsements, tax contest/stay, signed guarantees, actual filings/control evidence and access requests. Resolution category: A / R / X.\n\n### C08 Default and material customer notices\n\nWithin five Business Days of the earliest actual knowledge of the CEO, CFO or general counsel, Borrower shall notify lender of any contractual noncompliance and of an actual written termination or nonrenewal notice from a customer group accounting for at least 20% of prior fiscal-year consolidated revenue. Aggregate customer affiliates under common control at receipt, counting revenue once. Include facts, knowledge and effective dates, exposure, and proposed mitigation. An executed grant of a cancellation right without an actual termination/nonrenewal notice does not alone trigger the customer-notice limb. Reporting does not cure another covenant. More specific notices under S1–S3 remain independently applicable.\n\nEvidence required: Actual underlying notice/event, officer knowledge evidence, customer-group revenue, delivered lender notice and timestamp. Resolution category: R.\n\n### S1 Enterprise connector compatibility\n\nBeginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. Within 30 calendar days after a vendor publishes a generally available breaking interface change, the Borrower shall either deploy a compatible connector or provide affected customers a documented, secure workaround. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. The Borrower shall deliver a quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, and open workarounds.\n\nEvidence required: Vendor release notices, connector inventory, customer-revenue mapping, change tickets, and the quarterly connector-status schedule. Resolution category: A.\n\n### S2 Critical workflow incident reporting\n\nFrom closing, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than four consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 10% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by four hours.\n\nEvidence required: Incident ledger, monitoring timestamps, officer escalation record, customer notices, root-cause report, and recurrence-test results. Resolution category: R.\n\n### S3 Configuration library custody\n\nThe Borrower shall keep all material customer-deployment templates, workflow schemas, and connector mappings owned by a Loan Party or stored in a repository subject to the Lender's collateral lien. The Borrower may grant customers ordinary-course use rights and may use third-party hosted repositories if a Loan Party retains export rights and administrative control. Any sale, exclusive license, transfer, or repository migration that leaves a non-Loan Party with sole export authority over a material configuration library requires the Lender's prior written consent. A prohibited transfer violates this covenant immediately upon execution, regardless of later restoration of access.\n\nEvidence required: Repository ownership records, administrator lists, hosting terms, export tests, intellectual-property schedules, and executed transfer or license documents. Resolution category: X.\n\n## Defaults waivers and remedies\n\n`F`: failure of a financial maximum/minimum at its measurement time is an Event of Default, without automatic numerical grace or equity cure. `R`: a missed reporting/access requirement is noncompliance when due, becoming an Event of Default only if still unremedied at the close of ten Business Days after written lender notice. `A`: a remediable affirmative failure becomes an Event of Default if still unremedied at the close of 30 calendar days after written lender notice; an expressly irremediable failure is immediate. Restoration of insurance remedies ongoing coverage, preserving the historical gap. `X`: an executed prohibited transaction without required permission is an immediate Event of Default; a proposal is not execution. Clauses with two categories apply each to the specified duty. Nonpayment of principal when due is an Event of Default; unpaid interest has three Business Days after its contractual due date. A materially false signed compliance statement is an Event of Default if knowingly false when signed; incompleteness alone is treated under the reporting duty.\n\nWhile an Event of Default continues, Lender may accelerate outstanding principal and accrued interest by written declaration delivered to Borrower. A waived or timely remedied failure does not support new acceleration. Enforcement of collateral requires separate action under the governing security documents and applicable law; neither a failed ratio nor a software output itself carries out enforcement. No unrelated-agreement cross-default or subjective material-adverse-change default is added by this synthetic agreement. Apply a signed waiver only to its specified obligation, period and conditions; retain the original test and missed dates. No covenant can be inferred from an underwriting belief.\n\nNew York law governs the simulated contractual relationship, subject to applicable mandatory law and the law governing asset perfection. Notices go to the parties' designated reporting portal; administrative notices require receipt evidence. This writing and identified signed amendments are the complete operative synthetic terms. No implied basket, cure, consent, sponsor commitment or lender commitment exists outside them.\n\n## Authoring provenance and limitations\n\nEvery number and sentence above is authored synthetic content. Structural references: framework M1 (Artivion/Ares, January 18, 2024, §6.7) for leverage and negotiated restriction structure; M3 (Evolent/Ares, December 30, 2019, §§8.01 and 9.12) for reporting and business scope; M4 (NN/Oaktree, March 28, 2025 amendment §2(c), restating §7.14(b)) only where a cash-forecast trigger is elected. S1–S3 are entirely synthetic borrower-specific provisions. See the portfolio source register for direct links and limitations. No agreement supplies market-median values for this borrower. Source-informed drafting, financial arithmetic checks and internal AI review do not establish legal enforceability or practitioner comparability.\n",
+      "changes": []
+    },
+    {
+      "version": "1.1",
+      "parent_version": "1.0",
+      "effective_at": "2027-07-20",
+      "decision_at": "2027-07-19",
+      "status": "effective",
+      "title": "Earlier connector remediation and verified workarounds",
+      "terms": {
+        "fixed_rate": 9.25,
+        "leverage_max": 4.05
+      },
+      "clauses": [
+        {
+          "id": "C01",
+          "title": "Maximum total net leverage",
+          "resolution": "F",
+          "clause": "FluxRail Workflow, Inc. shall not permit Total Net Leverage to exceed 4.05x at any calendar quarter-end beginning March 31, 2027. The numerator is consolidated Debt less min(Eligible Cash, $10.000m, Debt); the denominator is Covenant EBITDA for the four quarters ending on that date. This is a maintenance test independent of borrowing activity. Equality passes, full precision governs, and no stepdown or automatic equity cure is granted. Positive Net Debt with nonpositive Covenant EBITDA fails; zero Net Debt is defined as zero leverage for this simulation.",
+          "evidence": "Debt register, qualified cash balances, trailing-four-quarter EBITDA bridge and adjustment support.",
+          "thesis_ids": [
+            "A3",
+            "A4"
+          ]
+        },
+        {
+          "id": "C02",
+          "title": "Financial reporting and compliance certification",
+          "resolution": "R",
+          "clause": "Borrower shall deliver consolidated quarterly balance sheets, income statements and cash-flow statements and an officer-signed covenant certificate within 45 calendar days after each quarter-end, beginning March 31, 2027. Include debt/cash reconciliations, adjustment evidence, policy changes, actual annual and outstanding basket usage, and every elected test. Fourth-quarter management reporting is still required. Annual audited statements and the auditor's report are due within 90 calendar days after year-end, first December 31, 2027; an audit qualification must be disclosed but is not alone a delivery breach. A board-approved monthly annual budget and cash forecast are due within 30 calendar days after each year begins, first 2027. If maturity falls within 18 months, include a documented maturity funding plan. A certificate disclosing failure can satisfy delivery; missing evidence does not establish a ratio failure.",
+          "evidence": "Statements, signed certificates, support schedules, audit/budget approvals and portal receipt timestamps.",
+          "thesis_ids": [
+            "A3"
+          ]
+        },
+        {
+          "id": "C03",
+          "title": "Debt and lien limitations",
+          "resolution": "X / A",
+          "clause": "The Group shall incur no Debt or third-party guarantee except this facility and Loan Party guarantees, and finance leases not exceeding $1.800m principal outstanding in aggregate. A new lease requires no continuing Default and pro forma leverage no greater than 3.75x. Actual principal repayment releases that outstanding basket; no annual reset applies. Lease security is limited to the financed asset. Other permitted liens are lender security and ordinary statutory liens not overdue or contested in good faith with GAAP reserves and a collection stay protecting Material Collateral. Other financing, PIK, seller notes, earnouts and letters of credit require prior written consent and an amendment defining treatment; no independent unfunded-guarantee basket exists. Voluntarily unauthorized Debt/liens use X; a remediable statutory-lien qualification failure uses A.",
+          "evidence": "Financing instruments, guarantee register, lease balances and asset schedule, lien searches and contest evidence.",
+          "thesis_ids": []
+        },
+        {
+          "id": "C04",
+          "title": "Distributions and sponsor leakage",
+          "resolution": "X",
+          "clause": "Cash dividends to persons outside the Loan Party group shall not exceed $1.000m in aggregate per calendar fiscal year and require no continuing Default, pro forma leverage no greater than 3.50x and at least $7.000m Eligible Cash after payment. No unused capacity carries forward or replenishes after repayment. Equity redemptions, sponsor monitoring fees, and voluntary junior-debt repayments require prior written consent and have no independent basket. Transfers among Loan Parties preserving security do not use the dividend basket. Ordinary employee compensation and payment for documented arm's-length operating services are not dividends, but payments to sponsor affiliates above $0.250m annually require disinterested board approval and pricing support.",
+          "evidence": "Executed payment evidence, recipient/control identity, annual usage, fair-pricing support and post-payment cash/leverage.",
+          "thesis_ids": [
+            "A4"
+          ]
+        },
+        {
+          "id": "C05",
+          "title": "Acquisitions and investments",
+          "resolution": "X",
+          "clause": "Acquisitions within the Permitted Business may be made for aggregate cash consideration including fees not exceeding $4.500m per fiscal year, only with no continuing Default, pro forma leverage at or below 3.75x, and at least $7.000m post-closing Eligible Cash. No carryforward, replenishment or transaction splitting is permitted. Historical target earnings must be verified under the same EBITDA definition; assumed Debt separately needs C03 permission. Contingent consideration and seller financing need prior consent. Other investments require prior written consent except ordinary bank deposits, trade receivables, and transfers between Loan Parties preserving security. An acquired subsidiary consolidates at control acquisition and must accede under C07; its cash is not Eligible Cash until it qualifies as a Loan Party. A proposal that has not closed is not an executed breach.",
+          "evidence": "Signed purchase/investment documents, related consideration, financing, historical target financials, group chart and accession records.",
+          "thesis_ids": [
+            "A4"
+          ]
+        },
+        {
+          "id": "C06",
+          "title": "Business scope and asset protection",
+          "resolution": "X",
+          "clause": "The Group shall remain within the Permitted Business and may sell obsolete equipment at fair value only up to $0.600m aggregate fair value per fiscal year, without carryforward or recycling. No receivables sale, material operating asset transfer, ownership transfer or exclusive license of Core IP outside the Loan Party group is permitted without prior written consent. Nonexclusive ordinary customer-use licenses and transfers between Loan Parties preserving security are permitted. Sale receipts must be paid to a Loan Party and may then fund ordinary operations, independently permitted transactions or Debt repayment; there is no additional proceeds sweep. A change in customer cancellation rights or permitted revenue mix is not automatically a business-scope breach. The sector-specific S clauses apply independently.",
+          "evidence": "Executed asset/IP documents, rights conveyed, fair values, business activities, recipient identity, annual usage and proceeds.",
+          "thesis_ids": [
+            "A2",
+            "A4"
+          ]
+        },
+        {
+          "id": "C07",
+          "title": "Existence insurance guarantees and collateral",
+          "resolution": "A / R / X",
+          "clause": "Loan Parties shall preserve existence, maintain books and required operating assets, and pay taxes when due except amounts contested in good faith with GAAP reserves and a stay against sale of Material Collateral. Maintain property coverage at replacement cost for tangible Material Collateral, general liability of $2m per occurrence/$4m aggregate, and technology or professional liability plus cyber coverage of $5m aggregate per policy year, with deductibles no greater than $0.250m; lender shall be loss payee or additional insured where applicable. Renewal certificates are due five Business Days after renewal (R); restoring coverage remedies a lapse prospectively under A, preserving its history and uninsured losses. New domestic subsidiaries must guarantee the facility and deliver security accessions within ten Business Days of control acquisition, and complete perfection on existing assets and equity within 30 calendar days of that date. Other uncovered newly acquired assets require executed instruments within fifteen Business Days and perfection within 30 calendar days. Foreign subsidiaries, unrestricted designations and reorganizations outside a merger into a surviving Loan Party preserving guarantees/security require prior consent (X). Permit relevant lender inspection on five Business Days' notice, at borrower expense twice annually absent Default (R).",
+          "evidence": "Entity records, policies and endorsements, tax contest/stay, signed guarantees, actual filings/control evidence and access requests.",
+          "thesis_ids": []
+        },
+        {
+          "id": "C08",
+          "title": "Default and material customer notices",
+          "resolution": "R",
+          "clause": "Within five Business Days of the earliest actual knowledge of the CEO, CFO or general counsel, Borrower shall notify lender of any contractual noncompliance and of an actual written termination or nonrenewal notice from a customer group accounting for at least 20% of prior fiscal-year consolidated revenue. Aggregate customer affiliates under common control at receipt, counting revenue once. Include facts, knowledge and effective dates, exposure, and proposed mitigation. An executed grant of a cancellation right without an actual termination/nonrenewal notice does not alone trigger the customer-notice limb. Reporting does not cure another covenant. More specific notices under S1–S3 remain independently applicable.",
+          "evidence": "Actual underlying notice/event, officer knowledge evidence, customer-group revenue, delivered lender notice and timestamp.",
+          "thesis_ids": [
+            "A1"
+          ]
+        },
+        {
+          "id": "S1",
+          "title": "Enterprise connector compatibility",
+          "clause": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. For a generally available breaking interface change published by a vendor on or after July 20, 2027, the Borrower shall, within 15 calendar days after publication, either deploy a compatible connector or provide affected customers a documented, secure workaround. Changes published before July 20, 2027 remain subject to the original 30-calendar-day deadline; this amendment does not reset an elapsed deadline. A workaround counts only after production-equivalent compatibility and security tests are documented and approved by an employee independent of its implementation; staging compatibility alone is insufficient. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. Within two Business Days after a responsible technology officer learns that a qualifying connector or workaround is unsupported or fails those tests, the Borrower shall notify the Lender with affected revenue, the known defect and a remediation plan. The Borrower shall continue to deliver the quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, open workarounds and the required validation records. Failure of the connector and remediation duties retains resolution category A; a missed notice or schedule uses resolution category R.",
+          "evidence": "Vendor release notices, connector inventory, customer-revenue mapping, change tickets, and the quarterly connector-status schedule.",
+          "resolution": "A",
+          "thesis_ids": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "id": "S2",
+          "title": "Critical workflow incident reporting",
+          "clause": "From closing, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than four consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 10% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by four hours.",
+          "evidence": "Incident ledger, monitoring timestamps, officer escalation record, customer notices, root-cause report, and recurrence-test results.",
+          "resolution": "R",
+          "thesis_ids": [
+            "A1"
+          ]
+        },
+        {
+          "id": "S3",
+          "title": "Configuration library custody",
+          "clause": "The Borrower shall keep all material customer-deployment templates, workflow schemas, and connector mappings owned by a Loan Party or stored in a repository subject to the Lender's collateral lien. The Borrower may grant customers ordinary-course use rights and may use third-party hosted repositories if a Loan Party retains export rights and administrative control. Any sale, exclusive license, transfer, or repository migration that leaves a non-Loan Party with sole export authority over a material configuration library requires the Lender's prior written consent. A prohibited transfer violates this covenant immediately upon execution, regardless of later restoration of access.",
+          "evidence": "Repository ownership records, administrator lists, hosting terms, export tests, intellectual-property schedules, and executed transfer or license documents.",
+          "resolution": "X",
+          "thesis_ids": [
+            "A2",
+            "A4"
+          ]
+        }
+      ],
+      "definitions_and_conventions": "**Group and Loan Parties.** Borrower and its two wholly owned domestic subsidiaries, FluxRail Implementation Services, LLC and FluxRail Integration Labs, Inc., are the only opening Group members and Loan Parties. Both subsidiaries guarantee all facility obligations. Consolidate and eliminate intercompany balances. Newly controlled subsidiaries consolidate immediately, even before guarantee accession. No unrestricted subsidiaries, outside guarantees or opening lease Debt exist. Control means power to direct management through voting rights, contract or otherwise; affiliate means control or common control. Lender security covers only Loan Party beneficial property; third-party client or custodial funds are expressly excluded from collateral, lender-benefit deposit control and operating resources.\n\n**Permitted Business and Core IP.** Permitted Business is workflow orchestration software and activities reasonably related to delivering the products and services described in the business schedule below. Relatedness depends on actual customers, products, capabilities and operating resources. Core IP is source code, operating documentation, proprietary datasets, marks and rights essential to that business. Material Collateral is any asset necessary to continue core service delivery, or other assets with aggregate fair value over $0.500m. These definitions do not turn business forecasts into covenants.\n\n**Debt and Cash.** Debt includes funded borrowings, finance-lease principal, capitalized PIK, unreimbursed letter-of-credit drawings and funded guarantee obligations currently payable, without consolidated double counting. Exclude ordinary non-interest-bearing trade payables and operating leases. Permission to incur remains governed by C03. Eligible Cash is unrestricted USD cash owned by a Loan Party in a U.S. bank account, immediately accessible for debt service and subject to no security other than the lender's. Exclude client, trust, escrow, restricted, blocked and foreign-subsidiary cash. Leverage netting is capped at $10.000m and Debt; transaction tests also exclude unspent proceeds of the Debt being incurred. A cash minimum, if elected, is uncapped.\n\n**Earnings and investment.** Reported EBITDA is consolidated U.S. GAAP net income plus interest expense, income-tax expense, depreciation and amortization. Covenant EBITDA adds only documented cash restructuring costs deducted in Reported EBITDA, capped at 10% of positive Reported EBITDA, and subtracts included nonoperating disposal gains. There are no forecast-synergy, stock-compensation, ordinary recurring-cost or other adjustments. Research costs follow GAAP; qualifying capitalized software development is amortized over three years when available for use. Capital Investment includes all cash equipment and capitalized development spending once, excluding acquisition consideration and already-expensed items. Reconcile policy changes to the closing basis. The closing adjustment is $1.000m; its supporting restructuring expense is already in Reported EBITDA and must not be deducted twice in cash flow.\n\n**Testing and pro forma calculations.** Quarter-end Debt/cash uses that date; earnings use the four then-ended fiscal quarters. No automatic annualization. For a proposed transaction, adjust debt/cash and historical earnings for the complete transaction and related steps, using verified target earnings for the same four-quarter period, eliminating overlap and disposed earnings. No forecast savings. Missing inputs mean permission is unestablished, not presumed. Compare unrounded values; displayed figures are rounded only for readability.\n\n**Calendar and delivery.** New York time; Business Days exclude weekends and observed U.S. federal holidays. Exclude the triggering day. Calendar-day delivery and post-closing administrative-performance deadlines roll forward to the next Business Day; measurements do not. Delivery requires the lender's designated reporting portal timestamp by 5 p.m.; later receipts count on the next Business Day. Contractual interest and principal dates do not roll: if not a Business Day, prefund lender by the preceding Business Day for credit on the contractual date, with no interest extension. The financial schedules model the contractual credit date; prefunded amounts are unavailable cash until applied.\n\n**Consent and baskets.** All amendments and waivers require a written instrument signed by the sole lender and Borrower, identifying affected terms/periods, effective date and conditions. Prior transaction consent requires the lender's written approval before execution. No-default conditions apply only where stated and include unremedied failures during a grace period. Annual baskets reset January 1; no carryforward, reclassification, replenishment or splitting unless expressly allowed. Outstanding baskets free capacity only upon actual principal repayment. An internal budget, unsigned draft or sponsor funding intention is not consent or received cash.",
+      "instrument_text": "Fictional signed instrument B01-AM01. For this simulation, FluxRail Workflow, Inc. and Granite Elm Credit LLC are represented as having executed this written amendment on July 19, 2027, effective July 20, 2027. No real signature is represented. The parties replace S1 with the complete replacement text recorded in this instrument and change no other operative term. The July 19 release record establishes deployment at 2:00 p.m. New York time of a compatible connector, supported by completed production-equivalent compatibility and security tests. The lender portal records receipt of the CFO's July 14 noncompliance notice at 11:00 a.m. The parties confirm the conditions listed here were satisfied on July 19. Only the S1 failure arising from the June 10 interface change and continuing after the rolled July 12 deadline until the documented July 19 restoration is waived. The original deadline, historical noncompliance, underlying evidence and any losses remain recorded; the waiver does not state that performance was timely. The amendment is prospective, grants no future deadline waiver, and does not waive another clause or an unknown failure. The fixed interest rate remains 9.25%, C01 remains 4.05x, the elected optional financial family remains none, and all other agreement provisions remain in effect.",
+      "changes": [
+        {
+          "clause_id": "S1",
+          "before": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. Within 30 calendar days after a vendor publishes a generally available breaking interface change, the Borrower shall either deploy a compatible connector or provide affected customers a documented, secure workaround. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. The Borrower shall deliver a quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, and open workarounds.",
+          "after": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. For a generally available breaking interface change published by a vendor on or after July 20, 2027, the Borrower shall, within 15 calendar days after publication, either deploy a compatible connector or provide affected customers a documented, secure workaround. Changes published before July 20, 2027 remain subject to the original 30-calendar-day deadline; this amendment does not reset an elapsed deadline. A workaround counts only after production-equivalent compatibility and security tests are documented and approved by an employee independent of its implementation; staging compatibility alone is insufficient. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. Within two Business Days after a responsible technology officer learns that a qualifying connector or workaround is unsupported or fails those tests, the Borrower shall notify the Lender with affected revenue, the known defect and a remediation plan. The Borrower shall continue to deliver the quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, open workarounds and the required validation records. Failure of the connector and remediation duties retains resolution category A; a missed notice or schedule uses resolution category R.",
+          "summary": "Future vendor changes: 30 to 15 calendar days; independently approved security tests; two-Business-Day exception notice."
+        }
+      ],
+      "id": "B01-AM01",
+      "trigger_event_id": "B01-D01",
+      "rationale": "The parties retain the facility economics and strengthen the operational protection for reliable integrations after the July compatibility failure. Earlier delivery and production security validation reduce reliance on an unproven staging bridge.",
+      "conditions": [
+        "Compatible connector deployed July 19, 2027 at 2:00 p.m. New York time, with completed production-equivalent compatibility and security tests.",
+        "Lender receipt of the CFO's historical-failure notice and the validation records confirmed in the simulated July 19 instrument.",
+        "Fictional written execution by Borrower and sole Lender on July 19; prospective effect July 20."
+      ],
+      "waiver_scope": "S1 only: failure to deploy a compatible connector or provide a documented secure workaround for the June 10, 2027 vendor change after the July 12 deadline through the July 19 restoration. Historical noncompliance remains visible; no category-A Event of Default is asserted without the contractual lender notice and cure analysis.",
+      "not_pursued": {
+        "title": "Retain the original connector protection",
+        "description": "Considered alternative only: retain the original 30-day S1 deadline without the added independent validation and exception-reporting duties. This alternative was not adopted and is shown as a dimmed branch."
+      }
+    },
+    {
+      "version": "1.2",
+      "parent_version": "1.1",
+      "effective_at": "2027-08-23",
+      "decision_at": "2027-08-20",
+      "status": "effective",
+      "title": "Broader incident visibility and recurrence follow-up",
+      "terms": {
+        "fixed_rate": 9.25,
+        "leverage_max": 4.05
+      },
+      "clauses": [
+        {
+          "id": "C01",
+          "title": "Maximum total net leverage",
+          "resolution": "F",
+          "clause": "FluxRail Workflow, Inc. shall not permit Total Net Leverage to exceed 4.05x at any calendar quarter-end beginning March 31, 2027. The numerator is consolidated Debt less min(Eligible Cash, $10.000m, Debt); the denominator is Covenant EBITDA for the four quarters ending on that date. This is a maintenance test independent of borrowing activity. Equality passes, full precision governs, and no stepdown or automatic equity cure is granted. Positive Net Debt with nonpositive Covenant EBITDA fails; zero Net Debt is defined as zero leverage for this simulation.",
+          "evidence": "Debt register, qualified cash balances, trailing-four-quarter EBITDA bridge and adjustment support.",
+          "thesis_ids": [
+            "A3",
+            "A4"
+          ]
+        },
+        {
+          "id": "C02",
+          "title": "Financial reporting and compliance certification",
+          "resolution": "R",
+          "clause": "Borrower shall deliver consolidated quarterly balance sheets, income statements and cash-flow statements and an officer-signed covenant certificate within 45 calendar days after each quarter-end, beginning March 31, 2027. Include debt/cash reconciliations, adjustment evidence, policy changes, actual annual and outstanding basket usage, and every elected test. Fourth-quarter management reporting is still required. Annual audited statements and the auditor's report are due within 90 calendar days after year-end, first December 31, 2027; an audit qualification must be disclosed but is not alone a delivery breach. A board-approved monthly annual budget and cash forecast are due within 30 calendar days after each year begins, first 2027. If maturity falls within 18 months, include a documented maturity funding plan. A certificate disclosing failure can satisfy delivery; missing evidence does not establish a ratio failure.",
+          "evidence": "Statements, signed certificates, support schedules, audit/budget approvals and portal receipt timestamps.",
+          "thesis_ids": [
+            "A3"
+          ]
+        },
+        {
+          "id": "C03",
+          "title": "Debt and lien limitations",
+          "resolution": "X / A",
+          "clause": "The Group shall incur no Debt or third-party guarantee except this facility and Loan Party guarantees, and finance leases not exceeding $1.800m principal outstanding in aggregate. A new lease requires no continuing Default and pro forma leverage no greater than 3.75x. Actual principal repayment releases that outstanding basket; no annual reset applies. Lease security is limited to the financed asset. Other permitted liens are lender security and ordinary statutory liens not overdue or contested in good faith with GAAP reserves and a collection stay protecting Material Collateral. Other financing, PIK, seller notes, earnouts and letters of credit require prior written consent and an amendment defining treatment; no independent unfunded-guarantee basket exists. Voluntarily unauthorized Debt/liens use X; a remediable statutory-lien qualification failure uses A.",
+          "evidence": "Financing instruments, guarantee register, lease balances and asset schedule, lien searches and contest evidence.",
+          "thesis_ids": []
+        },
+        {
+          "id": "C04",
+          "title": "Distributions and sponsor leakage",
+          "resolution": "X",
+          "clause": "Cash dividends to persons outside the Loan Party group shall not exceed $1.000m in aggregate per calendar fiscal year and require no continuing Default, pro forma leverage no greater than 3.50x and at least $7.000m Eligible Cash after payment. No unused capacity carries forward or replenishes after repayment. Equity redemptions, sponsor monitoring fees, and voluntary junior-debt repayments require prior written consent and have no independent basket. Transfers among Loan Parties preserving security do not use the dividend basket. Ordinary employee compensation and payment for documented arm's-length operating services are not dividends, but payments to sponsor affiliates above $0.250m annually require disinterested board approval and pricing support.",
+          "evidence": "Executed payment evidence, recipient/control identity, annual usage, fair-pricing support and post-payment cash/leverage.",
+          "thesis_ids": [
+            "A4"
+          ]
+        },
+        {
+          "id": "C05",
+          "title": "Acquisitions and investments",
+          "resolution": "X",
+          "clause": "Acquisitions within the Permitted Business may be made for aggregate cash consideration including fees not exceeding $4.500m per fiscal year, only with no continuing Default, pro forma leverage at or below 3.75x, and at least $7.000m post-closing Eligible Cash. No carryforward, replenishment or transaction splitting is permitted. Historical target earnings must be verified under the same EBITDA definition; assumed Debt separately needs C03 permission. Contingent consideration and seller financing need prior consent. Other investments require prior written consent except ordinary bank deposits, trade receivables, and transfers between Loan Parties preserving security. An acquired subsidiary consolidates at control acquisition and must accede under C07; its cash is not Eligible Cash until it qualifies as a Loan Party. A proposal that has not closed is not an executed breach.",
+          "evidence": "Signed purchase/investment documents, related consideration, financing, historical target financials, group chart and accession records.",
+          "thesis_ids": [
+            "A4"
+          ]
+        },
+        {
+          "id": "C06",
+          "title": "Business scope and asset protection",
+          "resolution": "X",
+          "clause": "The Group shall remain within the Permitted Business and may sell obsolete equipment at fair value only up to $0.600m aggregate fair value per fiscal year, without carryforward or recycling. No receivables sale, material operating asset transfer, ownership transfer or exclusive license of Core IP outside the Loan Party group is permitted without prior written consent. Nonexclusive ordinary customer-use licenses and transfers between Loan Parties preserving security are permitted. Sale receipts must be paid to a Loan Party and may then fund ordinary operations, independently permitted transactions or Debt repayment; there is no additional proceeds sweep. A change in customer cancellation rights or permitted revenue mix is not automatically a business-scope breach. The sector-specific S clauses apply independently.",
+          "evidence": "Executed asset/IP documents, rights conveyed, fair values, business activities, recipient identity, annual usage and proceeds.",
+          "thesis_ids": [
+            "A2",
+            "A4"
+          ]
+        },
+        {
+          "id": "C07",
+          "title": "Existence insurance guarantees and collateral",
+          "resolution": "A / R / X",
+          "clause": "Loan Parties shall preserve existence, maintain books and required operating assets, and pay taxes when due except amounts contested in good faith with GAAP reserves and a stay against sale of Material Collateral. Maintain property coverage at replacement cost for tangible Material Collateral, general liability of $2m per occurrence/$4m aggregate, and technology or professional liability plus cyber coverage of $5m aggregate per policy year, with deductibles no greater than $0.250m; lender shall be loss payee or additional insured where applicable. Renewal certificates are due five Business Days after renewal (R); restoring coverage remedies a lapse prospectively under A, preserving its history and uninsured losses. New domestic subsidiaries must guarantee the facility and deliver security accessions within ten Business Days of control acquisition, and complete perfection on existing assets and equity within 30 calendar days of that date. Other uncovered newly acquired assets require executed instruments within fifteen Business Days and perfection within 30 calendar days. Foreign subsidiaries, unrestricted designations and reorganizations outside a merger into a surviving Loan Party preserving guarantees/security require prior consent (X). Permit relevant lender inspection on five Business Days' notice, at borrower expense twice annually absent Default (R).",
+          "evidence": "Entity records, policies and endorsements, tax contest/stay, signed guarantees, actual filings/control evidence and access requests.",
+          "thesis_ids": []
+        },
+        {
+          "id": "C08",
+          "title": "Default and material customer notices",
+          "resolution": "R",
+          "clause": "Within five Business Days of the earliest actual knowledge of the CEO, CFO or general counsel, Borrower shall notify lender of any contractual noncompliance and of an actual written termination or nonrenewal notice from a customer group accounting for at least 20% of prior fiscal-year consolidated revenue. Aggregate customer affiliates under common control at receipt, counting revenue once. Include facts, knowledge and effective dates, exposure, and proposed mitigation. An executed grant of a cancellation right without an actual termination/nonrenewal notice does not alone trigger the customer-notice limb. Reporting does not cure another covenant. More specific notices under S1–S3 remain independently applicable.",
+          "evidence": "Actual underlying notice/event, officer knowledge evidence, customer-group revenue, delivered lender notice and timestamp.",
+          "thesis_ids": [
+            "A1"
+          ]
+        },
+        {
+          "id": "S1",
+          "title": "Enterprise connector compatibility",
+          "clause": "Beginning at closing, the Borrower shall maintain supported production connectors for each identity-management or enterprise-resource-planning platform used by customers representing at least 15% of prior-fiscal-year revenue in aggregate. For a generally available breaking interface change published by a vendor on or after July 20, 2027, the Borrower shall, within 15 calendar days after publication, either deploy a compatible connector or provide affected customers a documented, secure workaround. Changes published before July 20, 2027 remain subject to the original 30-calendar-day deadline; this amendment does not reset an elapsed deadline. A workaround counts only after production-equivalent compatibility and security tests are documented and approved by an employee independent of its implementation; staging compatibility alone is insufficient. A vendor's withdrawal of access despite the Borrower's timely compliance is excepted. Within two Business Days after a responsible technology officer learns that a qualifying connector or workaround is unsupported or fails those tests, the Borrower shall notify the Lender with affected revenue, the known defect and a remediation plan. The Borrower shall continue to deliver the quarterly connector-status schedule, first covering March 31, 2027, identifying affected revenue, published changes, remediation dates, open workarounds and the required validation records. Failure of the connector and remediation duties retains resolution category A; a missed notice or schedule uses resolution category R.",
+          "evidence": "Vendor release notices, connector inventory, customer-revenue mapping, change tickets, and the quarterly connector-status schedule.",
+          "resolution": "A",
+          "thesis_ids": [
+            "A1",
+            "A2"
+          ]
+        },
+        {
+          "id": "S2",
+          "title": "Critical workflow incident reporting",
+          "clause": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default.",
+          "evidence": "Incident ledger, monitoring timestamps, officer escalation record, customer notices, root-cause report, and recurrence-test results.",
+          "resolution": "R",
+          "thesis_ids": [
+            "A1"
+          ]
+        },
+        {
+          "id": "S3",
+          "title": "Configuration library custody",
+          "clause": "The Borrower shall keep all material customer-deployment templates, workflow schemas, and connector mappings owned by a Loan Party or stored in a repository subject to the Lender's collateral lien. The Borrower may grant customers ordinary-course use rights and may use third-party hosted repositories if a Loan Party retains export rights and administrative control. Any sale, exclusive license, transfer, or repository migration that leaves a non-Loan Party with sole export authority over a material configuration library requires the Lender's prior written consent. A prohibited transfer violates this covenant immediately upon execution, regardless of later restoration of access.",
+          "evidence": "Repository ownership records, administrator lists, hosting terms, export tests, intellectual-property schedules, and executed transfer or license documents.",
+          "resolution": "X",
+          "thesis_ids": [
+            "A2",
+            "A4"
+          ]
+        }
+      ],
+      "definitions_and_conventions": "**Group and Loan Parties.** Borrower and its two wholly owned domestic subsidiaries, FluxRail Implementation Services, LLC and FluxRail Integration Labs, Inc., are the only opening Group members and Loan Parties. Both subsidiaries guarantee all facility obligations. Consolidate and eliminate intercompany balances. Newly controlled subsidiaries consolidate immediately, even before guarantee accession. No unrestricted subsidiaries, outside guarantees or opening lease Debt exist. Control means power to direct management through voting rights, contract or otherwise; affiliate means control or common control. Lender security covers only Loan Party beneficial property; third-party client or custodial funds are expressly excluded from collateral, lender-benefit deposit control and operating resources.\n\n**Permitted Business and Core IP.** Permitted Business is workflow orchestration software and activities reasonably related to delivering the products and services described in the business schedule below. Relatedness depends on actual customers, products, capabilities and operating resources. Core IP is source code, operating documentation, proprietary datasets, marks and rights essential to that business. Material Collateral is any asset necessary to continue core service delivery, or other assets with aggregate fair value over $0.500m. These definitions do not turn business forecasts into covenants.\n\n**Debt and Cash.** Debt includes funded borrowings, finance-lease principal, capitalized PIK, unreimbursed letter-of-credit drawings and funded guarantee obligations currently payable, without consolidated double counting. Exclude ordinary non-interest-bearing trade payables and operating leases. Permission to incur remains governed by C03. Eligible Cash is unrestricted USD cash owned by a Loan Party in a U.S. bank account, immediately accessible for debt service and subject to no security other than the lender's. Exclude client, trust, escrow, restricted, blocked and foreign-subsidiary cash. Leverage netting is capped at $10.000m and Debt; transaction tests also exclude unspent proceeds of the Debt being incurred. A cash minimum, if elected, is uncapped.\n\n**Earnings and investment.** Reported EBITDA is consolidated U.S. GAAP net income plus interest expense, income-tax expense, depreciation and amortization. Covenant EBITDA adds only documented cash restructuring costs deducted in Reported EBITDA, capped at 10% of positive Reported EBITDA, and subtracts included nonoperating disposal gains. There are no forecast-synergy, stock-compensation, ordinary recurring-cost or other adjustments. Research costs follow GAAP; qualifying capitalized software development is amortized over three years when available for use. Capital Investment includes all cash equipment and capitalized development spending once, excluding acquisition consideration and already-expensed items. Reconcile policy changes to the closing basis. The closing adjustment is $1.000m; its supporting restructuring expense is already in Reported EBITDA and must not be deducted twice in cash flow.\n\n**Testing and pro forma calculations.** Quarter-end Debt/cash uses that date; earnings use the four then-ended fiscal quarters. No automatic annualization. For a proposed transaction, adjust debt/cash and historical earnings for the complete transaction and related steps, using verified target earnings for the same four-quarter period, eliminating overlap and disposed earnings. No forecast savings. Missing inputs mean permission is unestablished, not presumed. Compare unrounded values; displayed figures are rounded only for readability.\n\n**Calendar and delivery.** New York time; Business Days exclude weekends and observed U.S. federal holidays. Exclude the triggering day. Calendar-day delivery and post-closing administrative-performance deadlines roll forward to the next Business Day; measurements do not. Delivery requires the lender's designated reporting portal timestamp by 5 p.m.; later receipts count on the next Business Day. Contractual interest and principal dates do not roll: if not a Business Day, prefund lender by the preceding Business Day for credit on the contractual date, with no interest extension. The financial schedules model the contractual credit date; prefunded amounts are unavailable cash until applied.\n\n**Consent and baskets.** All amendments and waivers require a written instrument signed by the sole lender and Borrower, identifying affected terms/periods, effective date and conditions. Prior transaction consent requires the lender's written approval before execution. No-default conditions apply only where stated and include unremedied failures during a grace period. Annual baskets reset January 1; no carryforward, reclassification, replenishment or splitting unless expressly allowed. Outstanding baskets free capacity only upon actual principal repayment. An internal budget, unsigned draft or sponsor funding intention is not consent or received cash.",
+      "instrument_text": "Fictional signed instrument B01-AM02. For this simulation, FluxRail Workflow, Inc. and Granite Elm Credit LLC are represented as having executed this written amendment on August 20, 2027, effective August 23, 2027. No real signature is represented. The parties replace S2 with the complete replacement text recorded in this instrument. S1 as amended by B01-AM01 remains operative. The lender portal records receipt on August 12 at 3:00 p.m. New York time of the August 9 incident's root-cause report, including duration, affected workflows, data-integrity reconciliation, corrective action and recurrence testing. The August 10 initial notice and August 12 report remain assessed against the S2 version then applicable. No historical failure is waived or asserted by this amendment. The newly broadened thresholds apply only to incidents beginning on or after August 23. The fixed interest rate remains 9.25%, C01 remains 4.05x, the elected optional financial family remains none, and all other agreement provisions remain in effect.",
+      "changes": [
+        {
+          "clause_id": "S2",
+          "before": "From closing, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than four consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 10% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by four hours.",
+          "after": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default.",
+          "summary": "New incidents: more than 4 to more than 2 hours; affected revenue 10% to 5%; recurrence-risk notice and weekly follow-up."
+        }
+      ],
+      "id": "B01-AM02",
+      "trigger_event_id": "B01-D02",
+      "rationale": "The August six-hour outage exposes customer-reliability risk even though the lender received timely notice. The parties broaden visibility to smaller interruptions and require follow-up while material recurrence risks remain unresolved.",
+      "conditions": [
+        "Lender receipt on August 12, 2027 at 3:00 p.m. of the August 9 root-cause report and supporting recurrence-test records.",
+        "Fictional written execution by Borrower and sole Lender on August 20; prospective effect August 23."
+      ],
+      "waiver_scope": "None. The August 9 incident and its notices remain assessed under the previous S2. The new thresholds do not create a retrospective failure.",
+      "not_pursued": {
+        "title": "Retain the original incident thresholds",
+        "description": "Considered alternative only: retain the greater-than-four-hour duration and 10% affected-revenue threshold. This alternative was not adopted and is shown as a dimmed branch."
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "B01-D01",
+      "title": "Compatibility bridge withdrawn; migration deadline passes",
+      "event_date": "2027-07-12",
+      "available_at": "2027-07-13",
+      "review_date": "2027-07-13",
+      "sources": [
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P1 — interface release and affected revenue",
+          "text": "Synthetic operating evidence, compiled July 13, 2027. HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups. The vendor continued to make its published endpoint and migration documentation available to FluxRail. The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+        },
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P2 — bridge withdrawal and release status",
+          "text": "The compatibility bridge described in the June 16 management note passed staging tests. A July 5 production security test subsequently showed that it bypassed a required token-expiry control; FluxRail quarantined the bridge that day and did not offer it as a secure workaround thereafter. The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available. The same status remained open at 9:00 a.m. on July 13. The lender's complete consent and waiver register through July 13 contains no extension or waiver of the interface-remediation deadline."
+        },
+        {
+          "document_id": "B01-DEMO-D01-OPS",
+          "locator": "P3 — continuing service and evidence limits",
+          "text": "The old authentication endpoint continued operating during the vendor's transition window. FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours. Customers have not delivered written termination or nonrenewal notices. Subscription fees and terms remain unchanged, and FluxRail retains administrative and export control over the configuration library. No later connector deployment, lender decision, current-quarter debt register, bank balance, or trailing-four-quarter EBITDA bridge is contained in this evidence package."
+        }
+      ],
+      "package_version": "1.0",
+      "status": "completed",
+      "analysis": {
+        "id": "B01-D01",
+        "event": {
+          "id": "B01-D01",
+          "title": "Compatibility bridge withdrawn; migration deadline passes",
+          "event_date": "2027-07-12",
+          "available_at": "2027-07-13",
+          "review_date": "2027-07-13",
+          "sources": [
+            {
+              "document_id": "B01-DEMO-D01-OPS",
+              "locator": "P1 — interface release and affected revenue",
+              "text": "Synthetic operating evidence, compiled July 13, 2027. HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups. The vendor continued to make its published endpoint and migration documentation available to FluxRail. The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+            },
+            {
+              "document_id": "B01-DEMO-D01-OPS",
+              "locator": "P2 — bridge withdrawal and release status",
+              "text": "The compatibility bridge described in the June 16 management note passed staging tests. A July 5 production security test subsequently showed that it bypassed a required token-expiry control; FluxRail quarantined the bridge that day and did not offer it as a secure workaround thereafter. The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available. The same status remained open at 9:00 a.m. on July 13. The lender's complete consent and waiver register through July 13 contains no extension or waiver of the interface-remediation deadline."
+            },
+            {
+              "document_id": "B01-DEMO-D01-OPS",
+              "locator": "P3 — continuing service and evidence limits",
+              "text": "The old authentication endpoint continued operating during the vendor's transition window. FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours. Customers have not delivered written termination or nonrenewal notices. Subscription fees and terms remain unchanged, and FluxRail retains administrative and export control over the configuration library. No later connector deployment, lender decision, current-quarter debt register, bank balance, or trailing-four-quarter EBITDA bridge is contained in this evidence package."
+            }
+          ]
+        },
+        "borrower_id": "B01",
+        "package_version": "1.0",
+        "engine": "nemotron",
+        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "generated_at": "2026-09-19T20:53:54.802134+00:00",
+        "summary": "The July 12 interface-remediation deadline expired without a compatible connector or documented workaround, weakening A1's reliability assumption and exposing C08's customer-notice duty to potential noncompliance due to unresolved workflow disruption.",
+        "attributions": [
+          {
+            "id": "att-46a65572-50af-4eca-9493-d1ad2bea60f0",
+            "target_type": "assumption",
+            "target_id": "B01-A01",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "weakened",
+            "rationale": "The event shows no compatible connector deployed and no documented workaround, directly contradicting A1's reliance on reliable workflow execution.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D01-OPS",
+                "locator": "P2 — bridge withdrawal and release status",
+                "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "monitor",
+            "proposed_adjustment": "recalculate_covenant",
+            "path": [],
+            "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+            "verified": true,
+            "target_version": "1.0",
+            "baseline_status": "approved_synthetic"
+          }
+        ],
+        "coverage": [
+          {
+            "assumption_id": "B01-A01",
+            "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+            "status": "addressed"
+          },
+          {
+            "assumption_id": "B01-A02",
+            "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+            "status": "unaddressed"
+          },
+          {
+            "assumption_id": "B01-A03",
+            "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+            "status": "unaddressed"
+          },
+          {
+            "assumption_id": "B01-A04",
+            "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+            "status": "unaddressed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C08",
+            "status": "insufficient_evidence",
+            "rationale": "While no customer termination notice occurred, the unresolved connector issue may trigger C08's reporting duty if workflow disruption constitutes contractual noncompliance.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D01-OPS",
+                "locator": "P2 — bridge withdrawal and release status",
+                "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.0"
+          }
+        ],
+        "warnings": [
+          "Attribution 2 withheld: covenants cannot receive an assumption status."
+        ],
+        "error": null,
+        "decisions": {},
+        "raw_response": {
+          "summary": "The July 12 interface-remediation deadline expired without a compatible connector or documented workaround, weakening A1's reliability assumption and exposing C08's customer-notice duty to potential noncompliance due to unresolved workflow disruption.",
+          "attributions": [
+            {
+              "target_type": "assumption",
+              "target_id": "B01-A01",
+              "relation_type": "direct_assumption_evidence",
+              "risk_direction": "adverse",
+              "proposed_status": "weakened",
+              "rationale": "The event shows no compatible connector deployed and no documented workaround, directly contradicting A1's reliance on reliable workflow execution.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D01-OPS",
+                  "locator": "P2 — bridge withdrawal and release status",
+                  "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available."
+                }
+              ],
+              "counterevidence": [],
+              "missing_information": [],
+              "suggested_action": "monitor",
+              "proposed_adjustment": "recalculate_covenant",
+              "path": []
+            },
+            {
+              "target_type": "covenant",
+              "target_id": "C08",
+              "relation_type": "covenant_trigger",
+              "risk_direction": "adverse",
+              "proposed_status": "insufficient_evidence",
+              "rationale": "The event confirms no customer termination notice was issued, but the unresolved connector issue may constitute contractual noncompliance under C08's requirement to report material customer notices.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D01-OPS",
+                  "locator": "P1 — interface release and affected revenue",
+                  "quote": "Customers have not delivered written termination or nonrenewal notices."
+                }
+              ],
+              "counterevidence": [],
+              "missing_information": [],
+              "suggested_action": "review_assumption",
+              "proposed_adjustment": "review_permission",
+              "path": []
+            }
+          ],
+          "candidates": [],
+          "covenant_assessments": [
+            {
+              "clause_id": "C08",
+              "status": "insufficient_evidence",
+              "rationale": "While no customer termination notice occurred, the unresolved connector issue may trigger C08's reporting duty if workflow disruption constitutes contractual noncompliance.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D01-OPS",
+                  "locator": "P2 — bridge withdrawal and release status",
+                  "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision": {
+        "action": "adopted",
+        "version": "1.1",
+        "at": "2027-07-19",
+        "reason": "The parties retain the facility economics and strengthen the operational protection for reliable integrations after the July compatibility failure. Earlier delivery and production security validation reduce reliance on an unproven staging bridge."
+      }
+    },
+    {
+      "id": "B01-D02",
+      "title": "Six-hour regulated-workflow outage despite compatible connectors",
+      "event_date": "2027-08-09",
+      "available_at": "2027-08-10",
+      "review_date": "2027-08-10",
+      "sources": [
+        {
+          "document_id": "B01-DEMO-D02-INCIDENT",
+          "locator": "P1 — monitoring and officer knowledge",
+          "text": "Synthetic incident record FR-2027-081, available August 10, 2027. Production monitoring shows that a queue-lock defect prevented customers from completing regulated approval workflows continuously from 8:30 a.m. until 2:30 p.m. New York time on August 9. The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once. The six-hour interruption was unplanned, and no advance maintenance notice had been issued."
+        },
+        {
+          "document_id": "B01-DEMO-D02-INCIDENT",
+          "locator": "P2 — lender delivery and follow-up",
+          "text": "The designated lender reporting portal records receipt of the initial incident notice at 11:00 a.m. New York time on August 10. The notice includes the incident duration, affected workflows, known exposure, officer knowledge time, and mitigation. A root-cause report has been commissioned but has not yet been delivered as of the August 10 review. Preliminary triage identifies a runtime queue-lock defect, rather than an incompatible vendor endpoint; the production connectors and validated migration bridge remain supported."
+        },
+        {
+          "document_id": "B01-DEMO-D02-INCIDENT",
+          "locator": "P3 — restoration and counterevidence",
+          "text": "The service team restored processing at 2:30 p.m. on August 9 and cleared the affected approval queue. Audit reconciliation found no lost, altered, or incorrectly approved records. No written customer termination or nonrenewal notice has been received. These observations do not establish whether renewal behavior or implementation support costs will change. The incident evidence contains no new quarter-end debt, eligible cash, or trailing-four-quarter EBITDA data."
+        }
+      ],
+      "package_version": "1.1",
+      "status": "completed",
+      "analysis": {
+        "id": "B01-D02",
+        "event": {
+          "id": "B01-D02",
+          "title": "Six-hour regulated-workflow outage despite compatible connectors",
+          "event_date": "2027-08-09",
+          "available_at": "2027-08-10",
+          "review_date": "2027-08-10",
+          "sources": [
+            {
+              "document_id": "B01-DEMO-D02-INCIDENT",
+              "locator": "P1 — monitoring and officer knowledge",
+              "text": "Synthetic incident record FR-2027-081, available August 10, 2027. Production monitoring shows that a queue-lock defect prevented customers from completing regulated approval workflows continuously from 8:30 a.m. until 2:30 p.m. New York time on August 9. The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once. The six-hour interruption was unplanned, and no advance maintenance notice had been issued."
+            },
+            {
+              "document_id": "B01-DEMO-D02-INCIDENT",
+              "locator": "P2 — lender delivery and follow-up",
+              "text": "The designated lender reporting portal records receipt of the initial incident notice at 11:00 a.m. New York time on August 10. The notice includes the incident duration, affected workflows, known exposure, officer knowledge time, and mitigation. A root-cause report has been commissioned but has not yet been delivered as of the August 10 review. Preliminary triage identifies a runtime queue-lock defect, rather than an incompatible vendor endpoint; the production connectors and validated migration bridge remain supported."
+            },
+            {
+              "document_id": "B01-DEMO-D02-INCIDENT",
+              "locator": "P3 — restoration and counterevidence",
+              "text": "The service team restored processing at 2:30 p.m. on August 9 and cleared the affected approval queue. Audit reconciliation found no lost, altered, or incorrectly approved records. No written customer termination or nonrenewal notice has been received. These observations do not establish whether renewal behavior or implementation support costs will change. The incident evidence contains no new quarter-end debt, eligible cash, or trailing-four-quarter EBITDA data."
+            }
+          ]
+        },
+        "borrower_id": "B01",
+        "package_version": "1.1",
+        "engine": "nemotron",
+        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "generated_at": "2026-09-19T20:54:13.328324+00:00",
+        "summary": "The August 9 six-hour workflow outage triggered S2 reporting duties and exposed A1's renewal dependence on reliable connector execution, weakening A1's support status while leaving C01 and C02 compliant.",
+        "attributions": [
+          {
+            "id": "att-1e796ec6-7c90-4342-a756-b97cf894de86",
+            "target_type": "covenant",
+            "target_id": "C01",
+            "relation_type": "covenant_trigger",
+            "risk_direction": "adverse",
+            "proposed_status": null,
+            "rationale": "The outage does not constitute a missed notice deadline under C08, so C01 remains compliant; the event triggers S2 reporting but not covenant breach.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D02-INCIDENT",
+                "locator": "P1 — monitoring and officer knowledge",
+                "quote": "The six-hour interruption was unplanned, and no advance maintenance notice had been issued.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "monitor",
+            "proposed_adjustment": "recalculate_covenant",
+            "path": [],
+            "target_title": "Maximum total net leverage",
+            "verified": true,
+            "target_version": "1.1",
+            "applicability": "selected"
+          },
+          {
+            "id": "att-71f155fa-f22e-4e7f-a577-2053face2e55",
+            "target_type": "covenant",
+            "target_id": "C08",
+            "relation_type": "covenant_trigger",
+            "risk_direction": "adverse",
+            "proposed_status": null,
+            "rationale": "The outage triggered S2 reporting requirements under C08 but did not produce a missed notice deadline, so C08 remains compliant.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D02-INCIDENT",
+                "locator": "P1 — monitoring and officer knowledge",
+                "quote": "The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once.",
+                "verified": true
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [],
+            "suggested_action": "monitor",
+            "proposed_adjustment": "review_permission",
+            "path": [],
+            "target_title": "Default and material customer notices",
+            "verified": true,
+            "target_version": "1.1",
+            "applicability": "selected"
+          }
+        ],
+        "coverage": [
+          {
+            "assumption_id": "B01-A01",
+            "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+            "status": "unaddressed"
+          },
+          {
+            "assumption_id": "B01-A02",
+            "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+            "status": "unaddressed"
+          },
+          {
+            "assumption_id": "B01-A03",
+            "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+            "status": "unaddressed"
+          },
+          {
+            "assumption_id": "B01-A04",
+            "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+            "status": "unaddressed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C01",
+            "status": "compliant",
+            "rationale": "The six-hour outage does not violate C01's leverage test as it is a maintenance covenant unrelated to operational incidents and no financial metrics were breached.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D02-INCIDENT",
+                "locator": "P3 — restoration and counterevidence",
+                "quote": "Audit reconciliation found no lost, altered, or incorrectly approved records.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.1"
+          },
+          {
+            "clause_id": "C08",
+            "status": "triggered",
+            "rationale": "The outage triggered C08's requirement to notify the lender of contractual noncompliance affecting 12% of revenue within five business days, which occurred via the August 10 portal notice.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D02-INCIDENT",
+                "locator": "P2 — lender delivery and follow-up",
+                "quote": "The designated lender reporting portal records receipt of the initial incident notice at 11:00 a.m. New York time on August 10.",
+                "verified": true
+              }
+            ],
+            "interpretation": "model",
+            "package_version": "1.1"
+          }
+        ],
+        "warnings": [
+          "Attribution 1 withheld: downstream exposure must have null proposed_status.",
+          "Attribution 2 withheld: downstream exposure must have null proposed_status."
+        ],
+        "error": null,
+        "decisions": {},
+        "raw_response": {
+          "summary": "The August 9 six-hour workflow outage triggered S2 reporting duties and exposed A1's renewal dependence on reliable connector execution, weakening A1's support status while leaving C01 and C02 compliant.",
+          "attributions": [
+            {
+              "target_type": "assumption",
+              "target_id": "B01-A01",
+              "relation_type": "downstream_exposure",
+              "risk_direction": "adverse",
+              "proposed_status": "weakened",
+              "rationale": "A1's renewal dependence on reliable connector execution is weakened by the six-hour outage affecting 12% of revenue, though the dependence itself remains uncontradicted.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D02-INCIDENT",
+                  "locator": "P1 — monitoring and officer knowledge",
+                  "quote": "Production monitoring shows that a queue-lock defect prevented customers from completing regulated approval workflows continuously from 8:30 a.m. until 2:30 p.m. New York time on August 9."
+                }
+              ],
+              "suggested_action": "monitor",
+              "proposed_adjustment": "recalculate covenant",
+              "path": []
+            },
+            {
+              "target_type": "assumption",
+              "target_id": "B01-A01",
+              "relation_type": "downstream_exposure",
+              "risk_direction": "adverse",
+              "proposed_status": "weakened",
+              "rationale": "The outage demonstrates unreliable workflow execution despite compatible connectors, weakening A1's claim of reliable execution across connectors.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D02-INCIDENT",
+                  "locator": "P2 — lender delivery and follow-up",
+                  "quote": "The production connectors and validated migration bridge remain supported."
+                }
+              ],
+              "suggested_action": "monitor",
+              "proposed_adjustment": "review_assumption",
+              "path": []
+            },
+            {
+              "target_type": "covenant",
+              "target_id": "C01",
+              "relation_type": "covenant_trigger",
+              "risk_direction": "adverse",
+              "proposed_status": "null",
+              "rationale": "The outage does not constitute a missed notice deadline under C08, so C01 remains compliant; the event triggers S2 reporting but not covenant breach.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D02-INCIDENT",
+                  "locator": "P1 — monitoring and officer knowledge",
+                  "quote": "The six-hour interruption was unplanned, and no advance maintenance notice had been issued."
+                }
+              ],
+              "suggested_action": "monitor",
+              "proposed_adjustment": "recalculate_covenant",
+              "path": []
+            },
+            {
+              "target_type": "covenant",
+              "target_id": "C08",
+              "relation_type": "covenant_trigger",
+              "risk_direction": "adverse",
+              "proposed_status": "null",
+              "rationale": "The outage triggered S2 reporting requirements under C08 but did not produce a missed notice deadline, so C08 remains compliant.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D02-INCIDENT",
+                  "locator": "P1 — monitoring and officer knowledge",
+                  "quote": "The responsible chief technology officer learned at 9:15 a.m. that affected customers represented 12% of FluxRail's fiscal 2026 consolidated revenue, counted once."
+                }
+              ],
+              "suggested_action": "monitor",
+              "proposed_adjustment": "review_permission",
+              "path": []
+            }
+          ],
+          "candidates": [],
+          "covenant_assessments": [
+            {
+              "clause_id": "C01",
+              "status": "compliant",
+              "rationale": "The six-hour outage does not violate C01's leverage test as it is a maintenance covenant unrelated to operational incidents and no financial metrics were breached.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D02-INCIDENT",
+                  "locator": "P3 — restoration and counterevidence",
+                  "quote": "Audit reconciliation found no lost, altered, or incorrectly approved records."
+                }
+              ]
+            },
+            {
+              "clause_id": "C08",
+              "status": "triggered",
+              "rationale": "The outage triggered C08's requirement to notify the lender of contractual noncompliance affecting 12% of revenue within five business days, which occurred via the August 10 portal notice.",
+              "evidence": [
+                {
+                  "document_id": "B01-DEMO-D02-INCIDENT",
+                  "locator": "P2 — lender delivery and follow-up",
+                  "quote": "The designated lender reporting portal records receipt of the initial incident notice at 11:00 a.m. New York time on August 10."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decision": {
+        "action": "adopted",
+        "version": "1.2",
+        "at": "2027-08-20",
+        "reason": "The August six-hour outage exposes customer-reliability risk even though the lender received timely notice. The parties broaden visibility to smaller interruptions and require follow-up while material recurrence risks remain unresolved."
+      }
+    },
+    {
+      "id": "B01-D03",
+      "title": "Smaller repeat outage escapes the amended notice process",
+      "event_date": "2027-09-07",
+      "available_at": "2027-09-10",
+      "review_date": "2027-09-10",
+      "sources": [
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P1 — automatically synchronized incident ledger",
+          "text": "Synthetic company-database update synchronized for analyst review at 10:00 a.m. New York time on September 10, 2027. Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure. The outage was unplanned and did not fall within an announced maintenance window."
+        },
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P2 — complete portal and dispatch reconciliation",
+          "text": "The reporting administrator reconciled the full designated lender-portal receipt log and FluxRail's notice-dispatch register through 10:00 a.m. September 10. Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081. The incident-routing configuration still used a greater-than-four-hour duration and 10% affected-revenue threshold on September 7. No written lender default or reporting-cure notice has been delivered for FR-2027-094 as of this review, and no waiver of its notice obligation appears in the signed-instrument register."
+        },
+        {
+          "document_id": "B01-DEMO-D03-INGEST",
+          "locator": "P3 — restored service and unresolved cause",
+          "text": "Processing resumed at noon September 7 with no lost, corrupted, or improperly approved records identified by reconciliation. No customer has delivered a written termination or nonrenewal notice. The engineering team is investigating a possible recurrence of the August queue-lock defect; causal identity is not yet established. The September root-cause report and recurrence tests are still in preparation. FluxRail retains configuration-library ownership, administrative control, and export rights. This update does not contain a new financial covenant calculation or evidence of changed debt, cash, or trailing-four-quarter earnings."
+        }
+      ],
+      "package_version": "1.2",
+      "status": "failed",
+      "analysis": {
+        "id": "B01-D03",
+        "event": {
+          "id": "B01-D03",
+          "title": "Smaller repeat outage escapes the amended notice process",
+          "event_date": "2027-09-07",
+          "available_at": "2027-09-10",
+          "review_date": "2027-09-10",
+          "sources": [
+            {
+              "document_id": "B01-DEMO-D03-INGEST",
+              "locator": "P1 — automatically synchronized incident ledger",
+              "text": "Synthetic company-database update synchronized for analyst review at 10:00 a.m. New York time on September 10, 2027. Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure. The outage was unplanned and did not fall within an announced maintenance window."
+            },
+            {
+              "document_id": "B01-DEMO-D03-INGEST",
+              "locator": "P2 — complete portal and dispatch reconciliation",
+              "text": "The reporting administrator reconciled the full designated lender-portal receipt log and FluxRail's notice-dispatch register through 10:00 a.m. September 10. Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081. The incident-routing configuration still used a greater-than-four-hour duration and 10% affected-revenue threshold on September 7. No written lender default or reporting-cure notice has been delivered for FR-2027-094 as of this review, and no waiver of its notice obligation appears in the signed-instrument register."
+            },
+            {
+              "document_id": "B01-DEMO-D03-INGEST",
+              "locator": "P3 — restored service and unresolved cause",
+              "text": "Processing resumed at noon September 7 with no lost, corrupted, or improperly approved records identified by reconciliation. No customer has delivered a written termination or nonrenewal notice. The engineering team is investigating a possible recurrence of the August queue-lock defect; causal identity is not yet established. The September root-cause report and recurrence tests are still in preparation. FluxRail retains configuration-library ownership, administrative control, and export rights. This update does not contain a new financial covenant calculation or evidence of changed debt, cash, or trailing-four-quarter earnings."
+            }
+          ]
+        },
+        "borrower_id": "B01",
+        "package_version": "1.2",
+        "engine": "unavailable",
+        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "generated_at": "2026-09-19T20:54:23.032713+00:00",
+        "summary": "",
+        "attributions": [],
+        "coverage": [
+          {
+            "assumption_id": "B01-A01",
+            "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+            "status": "unassessed"
+          },
+          {
+            "assumption_id": "B01-A02",
+            "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+            "status": "unassessed"
+          },
+          {
+            "assumption_id": "B01-A03",
+            "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+            "status": "unassessed"
+          },
+          {
+            "assumption_id": "B01-A04",
+            "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+            "status": "unassessed"
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [],
+        "warnings": [],
+        "error": "JSONDecodeError: Expecting ',' delimiter: line 50 column 723 (char 2798)",
+        "decisions": {},
+        "raw_response": null
+      },
+      "decision": {
+        "action": "pending"
+      }
+    }
+  ],
+  "pending_proposal": {
+    "id": "B01-AM03-DRAFT",
+    "version": "1.3",
+    "parent_version": "1.2",
+    "trigger_event_id": "B01-D03",
+    "title": "Consider automated lender alerts and independent reporting controls",
+    "clause_id": "S2",
+    "description": "Draft discussion only: require an incident-to-lender alert control, a verified reporting-threshold register tied to the effective agreement version, and an independently tested escalation process. The user may request information, retain the existing terms, or negotiate a further amendment. No revision, waiver, consent, or new interest rate has been adopted.",
+    "draft_at": "2027-09-10",
+    "decision_at": null,
+    "effective_at": null,
+    "status": "proposed",
+    "rationale": "The smaller September incident was not routed for notice because the internal configuration retained superseded thresholds. The proposed control links reporting rules to the effective agreement and verifies actual lender delivery, while preserving the existing duration and revenue thresholds.",
+    "changes": [
+      {
+        "clause_id": "S2",
+        "before": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default.",
+        "after": "For incidents beginning on or after August 23, 2027, the Borrower shall record every production incident that prevents a customer from completing a regulated approval workflow for more than two consecutive hours. It shall notify the Lender within two Business Days after a responsible technology officer learns that such an incident affects customers comprising at least 5% of prior-fiscal-year revenue, and shall deliver a root-cause report within 15 calendar days after service restoration. The report must state duration, affected workflows, data-integrity impact, corrective action, and recurrence testing. Planned maintenance disclosed to affected customers at least five Business Days beforehand is excluded unless it exceeds the announced window by two hours. For each incident meeting the notice threshold, the Borrower shall also notify the Lender within two Business Days after a responsible technology officer identifies a material unresolved risk of recurrence, stating the basis for that conclusion and interim safeguards. Beginning on the first Friday that falls at least two Business Days after that risk is identified, and on each Friday thereafter, the Borrower shall deliver a status update by 5 p.m. until recurrence testing establishes closure; the agreement's Business Day rolling convention applies. An investigation or possible recurrence alone does not establish that a material unresolved recurrence risk has been identified. Incidents beginning before August 23, 2027 remain governed by S2 as previously effective. Failure of a recording, notice, report or update obligation uses resolution category R. An incident's occurrence does not by itself constitute failure of a reporting duty or an Event of Default. Beginning on the effective date expressly identified in an executed instrument adopting this additional paragraph, the Borrower shall maintain a reporting-threshold register identifying the effective agreement version, incident-duration threshold, affected-revenue threshold, responsible officer and designated lender portal. Within five Business Days after that effective date, the Borrower shall reconcile its incident-routing configuration to the register, independently test the complete notice-delivery process, and deliver the results to the Lender. Thereafter, the Borrower shall reconcile the register promptly upon each effective amendment and test the process monthly. Upon learning that an incident meets the operative notice threshold, the responsible technology officer shall cause the incident system to generate a notice draft and alert a designated primary reporting officer and backup. A human reporting officer shall verify affected revenue and submit the notice to the designated lender portal within the existing two-Business-Day deadline. The Borrower shall retain and reconcile the actual portal receipt; a generated alert, draft, internal database update or unsuccessful transmission is not lender delivery. If automated routing fails, the responsible officer shall use a manual notice process without extending the deadline. Failure of these additional administrative duties uses resolution category R. This additional paragraph does not extend or reset an existing incident deadline, waive historical noncompliance, change an Event of Default grace period, or authorize an automatic amendment.",
+        "summary": "Proposed controls: agreement-version threshold register, tested incident routing, named reporting owner and backup, and verified lender receipt. Existing 2-hour/5% thresholds remain."
+      }
+    ],
+    "instrument_text": "Unsigned synthetic discussion draft B01-AM03-DRAFT, prepared September 10, 2027. This is not an executed amendment, consent or waiver and has no effective date. If the user chooses to negotiate and adopt this proposal, a written instrument must identify the execution and effective dates and be signed by the simulated Borrower and sole Lender. The proposed S2 replacement adds tested reporting controls without resetting the September 9 notice deadline or suppressing its history. Whether to request further information, retain version 1.2, or adopt revised terms remains an open user decision. Until execution and satisfaction of stated conditions, version 1.2 remains operative. No change to interest, leverage, elected financial tests, remedies or other provisions is proposed.",
+    "conditions": [
+      "Open decision: user reviews the evidence, model attribution and proposed terms.",
+      "A final written instrument must identify the effective date and be executed by the simulated Borrower and sole Lender before any package change is applied.",
+      "The initial control reconciliation and independent delivery test would be due five Business Days after the adopted effective date; no date or completion is assumed now."
+    ],
+    "waiver_scope": "None. No waiver is proposed for the missed September incident notice; its history and current resolution must be assessed separately.",
+    "not_pursued": {
+      "title": "Retain version 1.2 and address the reporting failure operationally",
+      "description": "Open alternative, not yet rejected: request the missing notice and root-cause evidence, correct the routing configuration, and retain the current covenant terms. Neither path has been selected."
+    }
+  },
+  "presentation": {
+    "as_of": "2027-09-10"
+  },
+  "raw_profile_response": {
+    "summary": "FluxRail's origination assumptions (A1-A4) link connector reliability, template reuse, cash conversion, and leverage headroom to covenant compliance, with A1 and A2 influencing A3 and A4 through operational and financial dependencies.",
+    "assumptions": [
+      {
+        "id": "B01-A01",
+        "title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "claim": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "basis": "explicit",
+        "source_assumption_id": "A1",
+        "covenant_ids": [
+          "C08",
+          "S1",
+          "S2"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Customer Operations paragraph summarizes synthetic renewal interviews and the December 2026 incident ledger by connector family."
+          }
+        ]
+      },
+      {
+        "id": "B01-A02",
+        "title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "claim": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "basis": "explicit",
+        "source_assumption_id": "A2",
+        "covenant_ids": [
+          "C06",
+          "S1",
+          "S3"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Delivery Efficiency paragraph identifies the owned template repository and synthetic completed-project labor analysis."
+          }
+        ]
+      },
+      {
+        "id": "B01-A03",
+        "title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "claim": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "basis": "explicit",
+        "source_assumption_id": "A3",
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Cash Conversion paragraph reconciles billing terms, receivable aging, capitalized development, and working-capital use."
+          }
+        ]
+      },
+      {
+        "id": "B01-A04",
+        "title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "claim": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "basis": "explicit",
+        "source_assumption_id": "A4",
+        "covenant_ids": [
+          "C01",
+          "C04",
+          "C05",
+          "C06",
+          "S3"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Capital Structure paragraph presents the opening debt, eligible cash, Covenant EBITDA bridge, and permitted-transaction tests."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "B01-A01",
+        "target": "B01-A02",
+        "type": "influences",
+        "rationale": "Reliable connector execution (A1) enables efficient workflows that support template reuse (A2), reducing labor and deployment time."
+      }
+    ]
+  },
+  "synthetic": true,
+  "complete": false,
+  "failed_attempts": [
+    {
+      "id": "B01-D01",
+      "event": {
+        "id": "B01-D01",
+        "title": "Compatibility bridge withdrawn; migration deadline passes",
+        "event_date": "2027-07-12",
+        "available_at": "2027-07-13",
+        "review_date": "2027-07-13",
+        "sources": [
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P1 — interface release and affected revenue",
+            "text": "Synthetic operating evidence, compiled July 13, 2027. HelioForge's identity-platform vendor published its generally available breaking authentication endpoint on June 10, 2027. The supported identity platform is used by customers representing 18% of FluxRail's consolidated fiscal 2026 revenue, counted once across customer groups. The vendor continued to make its published endpoint and migration documentation available to FluxRail. The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+          },
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P2 — bridge withdrawal and release status",
+            "text": "The compatibility bridge described in the June 16 management note passed staging tests. A July 5 production security test subsequently showed that it bypassed a required token-expiry control; FluxRail quarantined the bridge that day and did not offer it as a secure workaround thereafter. The July 12 release register, closed at 5:30 p.m. New York time, records: No compatible production connector has been deployed and no documented secure customer workaround is available. The same status remained open at 9:00 a.m. on July 13. The lender's complete consent and waiver register through July 13 contains no extension or waiver of the interface-remediation deadline."
+          },
+          {
+            "document_id": "B01-DEMO-D01-OPS",
+            "locator": "P3 — continuing service and evidence limits",
+            "text": "The old authentication endpoint continued operating during the vendor's transition window. FluxRail's incident ledger through July 13 records no production incident preventing a regulated approval workflow for more than four consecutive hours. Customers have not delivered written termination or nonrenewal notices. Subscription fees and terms remain unchanged, and FluxRail retains administrative and export control over the configuration library. No later connector deployment, lender decision, current-quarter debt register, bank balance, or trailing-four-quarter EBITDA bridge is contained in this evidence package."
+          }
+        ]
+      },
+      "borrower_id": "B01",
+      "package_version": "1.0",
+      "engine": "unavailable",
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "generated_at": "2026-09-19T20:52:22.209665+00:00",
+      "summary": "",
+      "attributions": [],
+      "coverage": [
+        {
+          "assumption_id": "B01-A01",
+          "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+          "status": "unassessed"
+        },
+        {
+          "assumption_id": "B01-A02",
+          "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+          "status": "unassessed"
+        },
+        {
+          "assumption_id": "B01-A03",
+          "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+          "status": "unassessed"
+        },
+        {
+          "assumption_id": "B01-A04",
+          "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+          "status": "unassessed"
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [],
+      "warnings": [],
+      "error": "ValueError: model response must contain attributions and candidates arrays",
+      "decisions": {},
+      "raw_response": {
+        "summary": "The July 12 interface-remediation deadline expired without compatible connector deployment or documented workaround, violating S1 and triggering C08 notice requirements. A1's reliability assumption is contradicted by the failed bridge, creating downstream exposure to C01 leverage and C02 reporting covenants.",
+        "attributions": [
+          {
+            "target_type": "assumption",
+            "target_id": "B01-A01",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "contradicted",
+            "rationale": "The July 12 release register confirms no compatible connector was deployed and no documented workaround existed, directly contradicting A1's claim of reliable workflow execution across connectors.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D01-OPS",
+                "locator": "P2 — bridge withdrawal and release status",
+                "quote": "No compatible production connector has been deployed and no documented secure customer workaround is available."
+              }
+            ],
+            "suggested_action": "review_assumption",
+            "proposed_adjustment": "recalculate_covenant",
+            "path": []
+          },
+          {
+            "target_type": "covenant",
+            "target_id": "C08",
+            "relation_type": "covenant_trigger",
+            "risk_direction": "adverse",
+            "proposed_status": "null",
+            "rationale": "The July 13 CFO report confirms actual knowledge of a customer group representing 18% of revenue, triggering C08's five-business-day notice requirement for contractual noncompliance.",
+            "evidence": [
+              {
+                "document_id": "B01-DEMO-D01-OPS",
+                "locator": "P1 — interface release and affected revenue",
+                "quote": "The CFO first received the consolidated failure report at 10:00 a.m. New York time on July 13."
+              }
+            ],
+            "suggested_action": "monitor",
+            "proposed_adjustment": "request_information",
+            "path": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "B01-D03",
+      "event": {
+        "id": "B01-D03",
+        "title": "Smaller repeat outage escapes the amended notice process",
+        "event_date": "2027-09-07",
+        "available_at": "2027-09-10",
+        "review_date": "2027-09-10",
+        "sources": [
+          {
+            "document_id": "B01-DEMO-D03-INGEST",
+            "locator": "P1 — automatically synchronized incident ledger",
+            "text": "Synthetic company-database update synchronized for analyst review at 10:00 a.m. New York time on September 10, 2027. Incident FR-2027-094 prevented completion of regulated approval workflows continuously from 9:00 a.m. to noon on September 7. The affected customer groups represented 7% of FluxRail's fiscal 2026 consolidated revenue, counted once. The responsible chief technology officer's acknowledged escalation at 9:20 a.m. on September 7 states the affected workflows and the 7% revenue exposure. The outage was unplanned and did not fall within an announced maintenance window."
+          },
+          {
+            "document_id": "B01-DEMO-D03-INGEST",
+            "locator": "P2 — complete portal and dispatch reconciliation",
+            "text": "The reporting administrator reconciled the full designated lender-portal receipt log and FluxRail's notice-dispatch register through 10:00 a.m. September 10. Neither contains an initial notice for incident FR-2027-094; the last incident notice in both registers concerns FR-2027-081. The incident-routing configuration still used a greater-than-four-hour duration and 10% affected-revenue threshold on September 7. No written lender default or reporting-cure notice has been delivered for FR-2027-094 as of this review, and no waiver of its notice obligation appears in the signed-instrument register."
+          },
+          {
+            "document_id": "B01-DEMO-D03-INGEST",
+            "locator": "P3 — restored service and unresolved cause",
+            "text": "Processing resumed at noon September 7 with no lost, corrupted, or improperly approved records identified by reconciliation. No customer has delivered a written termination or nonrenewal notice. The engineering team is investigating a possible recurrence of the August queue-lock defect; causal identity is not yet established. The September root-cause report and recurrence tests are still in preparation. FluxRail retains configuration-library ownership, administrative control, and export rights. This update does not contain a new financial covenant calculation or evidence of changed debt, cash, or trailing-four-quarter earnings."
+          }
+        ]
+      },
+      "borrower_id": "B01",
+      "package_version": "1.2",
+      "engine": "unavailable",
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "generated_at": "2026-09-19T20:54:23.032713+00:00",
+      "summary": "",
+      "attributions": [],
+      "coverage": [
+        {
+          "assumption_id": "B01-A01",
+          "target_title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+          "status": "unassessed"
+        },
+        {
+          "assumption_id": "B01-A02",
+          "target_title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+          "status": "unassessed"
+        },
+        {
+          "assumption_id": "B01-A03",
+          "target_title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+          "status": "unassessed"
+        },
+        {
+          "assumption_id": "B01-A04",
+          "target_title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+          "status": "unassessed"
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [],
+      "warnings": [],
+      "error": "JSONDecodeError: Expecting ',' delimiter: line 50 column 723 (char 2798)",
+      "decisions": {},
+      "raw_response": null
+    }
+  ]
+}

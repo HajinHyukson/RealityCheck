@@ -1,0 +1,126 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2018-05-15",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:19:46.011254+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02"
+  ],
+  "assessments_supplied": true,
+  "summary": "No evidence at the May 15, 2018 review date indicates a need to tighten, loosen, or add any covenant protections; the existing package remains appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Leverage remains well below covenant thresholds; no evidence of deterioration."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "No evidence that annual statements or compliance certificates will be untimely; assumption remains sufficient."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Q1 results announced May 15 meet the 45‑day quarterly reporting deadline; no evidence of delay."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence indicating monthly reporting will be missed; retain as is."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "No defaults or material adverse effects reported; notice provisions remain appropriate."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Indebtedness incurred stays within permitted baskets; no evidence of over‑limit."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All covenants remain appropriate given current evidence; no tightened or new protections are warranted.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "No evidence at the May 15, 2018 review date indicates a need to tighten, loosen, or add any covenant protections; the existing package remains appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Leverage remains well below covenant thresholds; no evidence of deterioration."
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence that annual statements or compliance certificates will be untimely; assumption remains sufficient."
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Q1 results announced May 15 meet the 45‑day quarterly reporting deadline; no evidence of delay."
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicating monthly reporting will be missed; retain as is."
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No defaults or material adverse effects reported; notice provisions remain appropriate."
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Indebtedness incurred stays within permitted baskets; no evidence of over‑limit."
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All covenants remain appropriate given current evidence; no tightened or new protections are warranted."
+  },
+  "elapsed_seconds": 26.5
+}

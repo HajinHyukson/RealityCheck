@@ -1,0 +1,292 @@
+{
+  "archived_because": "Revised development case: the report now restates that the affected routings carry 38% of purchase volume (so 15.2% remains delayed) and evidences the December 9 knowledge date and the January 8 forecast refresh required by version 1.1.",
+  "mode_of_replacement": "rerun",
+  "event": {
+    "id": "H01-D03",
+    "title": "Rerouting and freight surcharge update",
+    "event_date": "2027-01-15",
+    "available_at": "2027-01-19",
+    "review_date": "2027-01-19",
+    "sources": [
+      {
+        "document_id": "H01-OPS-2027-01-15",
+        "locator": "P1 — rerouting",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Operations update dated January 15, 2027. 60% of the affected volume has been rebooked through United States West Coast ports with rail to the distribution center, which cuts the delay on that portion from 24 days to 9 days. The remaining 40% of the affected volume still moves around the Cape with a 24-day delay. No further alternative capacity is available before April 2027."
+      },
+      {
+        "document_id": "H01-OPS-2027-01-15",
+        "locator": "P2 — cost recovery",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Incremental freight cost for the first quarter of 2027 is estimated at $6.8 million. Wholesale customers representing most of the affected volume accepted a freight surcharge from February 1, 2027 that recovers 45% of the incremental cost, leaving about $3.7 million unrecovered. The surcharge does not apply to direct-to-consumer sales."
+      },
+      {
+        "document_id": "H01-OPS-2027-01-15",
+        "locator": "P3 — forecast delivered",
+        "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. The 13-week cash forecast required after the disruption was delivered on December 22, 2026. Its low point was $48.9 million in February 2027."
+      }
+    ],
+    "source_kind": "scenario_report",
+    "presentation_summary": "Mitigation evidence. Tests which earlier concerns are reduced and which remain.",
+    "package_version": "1.1",
+    "status": "completed",
+    "analysis": {
+      "id": "H01-D03",
+      "event": {
+        "id": "H01-D03",
+        "title": "Rerouting and freight surcharge update",
+        "event_date": "2027-01-15",
+        "available_at": "2027-01-19",
+        "review_date": "2027-01-19",
+        "sources": [
+          {
+            "document_id": "H01-OPS-2027-01-15",
+            "locator": "P1 — rerouting",
+            "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Operations update dated January 15, 2027. 60% of the affected volume has been rebooked through United States West Coast ports with rail to the distribution center, which cuts the delay on that portion from 24 days to 9 days. The remaining 40% of the affected volume still moves around the Cape with a 24-day delay. No further alternative capacity is available before April 2027."
+          },
+          {
+            "document_id": "H01-OPS-2027-01-15",
+            "locator": "P2 — cost recovery",
+            "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. Incremental freight cost for the first quarter of 2027 is estimated at $6.8 million. Wholesale customers representing most of the affected volume accepted a freight surcharge from February 1, 2027 that recovers 45% of the incremental cost, leaving about $3.7 million unrecovered. The surcharge does not apply to direct-to-consumer sales."
+          },
+          {
+            "document_id": "H01-OPS-2027-01-15",
+            "locator": "P3 — forecast delivered",
+            "text": "Synthetic scenario document for the Crocs hypothetical private-credit scenario. The 13-week cash forecast required after the disruption was delivered on December 22, 2026. Its low point was $48.9 million in February 2027."
+          }
+        ]
+      },
+      "borrower_id": "H01",
+      "package_version": "1.1",
+      "engine": "nemotron",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "generated_at": "2026-09-20T02:27:38.620370+00:00",
+      "model_options": {
+        "enable_thinking": true,
+        "max_tokens": 10000,
+        "response_format": "json_object"
+      },
+      "summary": "The Jan 15 2027 rerouting shows 40 % of the affected volume still faces a 24‑day delay, which could push lead times above 70 days for ≥10 % of volume, weakening the lead‑time stability assumption. Freight cost data reveal only 45 % recovery of a $6.8 M incremental cost, short of the assumed ~50 % recovery, challenging the freight‑recovery assumption. The 13‑week cash forecast was delivered before the disruption, missing the C06 deadline, while notice and cash‑report duties lack sufficient evidence to judge compliance.",
+      "attributions": [
+        {
+          "id": "att-e81268a3-e043-411f-b93c-b3258c78c822",
+          "target_type": "assumption",
+          "target_id": "H01-A01",
+          "relation_type": "direct_assumption_evidence",
+          "risk_direction": "adverse",
+          "proposed_status": "insufficient_evidence",
+          "rationale": "Event shows 40 % of the affected volume experiences a 24‑day delay; if that volume is ≥10 % of total purchase volume, lead time would exceed 70 days for that portion, meeting the review criterion for lead‑time instability.",
+          "evidence": [
+            {
+              "document_id": "H01-OPS-2027-01-15",
+              "locator": "P1 — rerouting",
+              "quote": "The remaining 40% of the affected volume still moves around the Cape with a 24-day delay.",
+              "verified": true
+            }
+          ],
+          "counterevidence": [],
+          "missing_information": [
+            "Proportion of the affected volume relative to the borrower’s total purchase volume"
+          ],
+          "suggested_action": "request_information",
+          "proposed_adjustment": "",
+          "path": [],
+          "target_title": "Lead time stability",
+          "verified": true,
+          "target_version": "1.0",
+          "baseline_status": "approved_synthetic"
+        }
+      ],
+      "coverage": [
+        {
+          "assumption_id": "H01-A01",
+          "target_title": "Lead time stability",
+          "status": "addressed"
+        },
+        {
+          "assumption_id": "H01-A02",
+          "target_title": "Inventory and receivables turnover",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A03",
+          "target_title": "DTC offset",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A04",
+          "target_title": "FOB terms and freight recovery",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A05",
+          "target_title": "Cash floor",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A06",
+          "target_title": "Reporting timeliness",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A07",
+          "target_title": "Manufacturer diversification reduces lead‑time risk",
+          "status": "unaddressed"
+        },
+        {
+          "assumption_id": "H01-A08",
+          "target_title": "Distribution capacity supports inventory turnover",
+          "status": "unaddressed"
+        }
+      ],
+      "candidates": [],
+      "covenant_assessments": [
+        {
+          "clause_id": "C06",
+          "status": "noncompliant",
+          "rationale": "Knowledge of a supply disruption on 2027-01-15 triggered a duty to deliver a 13‑week cash forecast within 10 Business Days (by 2027-02-09). The forecast was delivered on 2026-12-22, before the knowledge date, so the duty was missed.",
+          "evidence": [
+            {
+              "document_id": "H01-OPS-2027-01-15",
+              "locator": "P3 — forecast delivered",
+              "quote": "The 13-week cash forecast required after the disruption was delivered on December 22, 2026. Its low point was $48.9 million in February 2027.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        },
+        {
+          "clause_id": "C05",
+          "status": "insufficient_evidence",
+          "rationale": "The event describes a supply disruption causing a 24‑day delay for 40 % of the affected volume, but does not state what share of total purchase volume the affected volume represents, so we cannot determine whether the ≥10 % threshold for notice is met.",
+          "evidence": [
+            {
+              "document_id": "H01-OPS-2027-01-15",
+              "locator": "P1 — rerouting",
+              "quote": "The remaining 40% of the affected volume still moves around the Cape with a 24-day delay.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        },
+        {
+          "clause_id": "C01",
+          "status": "insufficient_evidence",
+          "rationale": "The forecast low point of $48.9 M shows cash likely above the $35 M minimum, but no month‑end unrestricted cash report for any month after the disruption is provided to confirm compliance.",
+          "evidence": [
+            {
+              "document_id": "H01-OPS-2027-01-15",
+              "locator": "P3 — forecast delivered",
+              "quote": "The 13-week cash forecast required after the disruption was delivered on December 22, 2026. Its low point was $48.9 million in February 2027.",
+              "verified": true
+            }
+          ],
+          "interpretation": "model",
+          "package_version": "1.1",
+          "already_assessed_in": null
+        }
+      ],
+      "warnings": [
+        "Attribution 2 withheld: evidence citation did not verify at its document and locator."
+      ],
+      "error": null,
+      "decisions": {},
+      "raw_response": {
+        "summary": "The Jan 15 2027 rerouting shows 40 % of the affected volume still faces a 24‑day delay, which could push lead times above 70 days for ≥10 % of volume, weakening the lead‑time stability assumption. Freight cost data reveal only 45 % recovery of a $6.8 M incremental cost, short of the assumed ~50 % recovery, challenging the freight‑recovery assumption. The 13‑week cash forecast was delivered before the disruption, missing the C06 deadline, while notice and cash‑report duties lack sufficient evidence to judge compliance.",
+        "attributions": [
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A01",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "insufficient_evidence",
+            "rationale": "Event shows 40 % of the affected volume experiences a 24‑day delay; if that volume is ≥10 % of total purchase volume, lead time would exceed 70 days for that portion, meeting the review criterion for lead‑time instability.",
+            "evidence": [
+              {
+                "document_id": "H01-OPS-2027-01-15",
+                "locator": "P1 — rerouting",
+                "quote": "The remaining 40% of the affected volume still moves around the Cape with a 24-day delay."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [
+              "Proportion of the affected volume relative to the borrower’s total purchase volume"
+            ],
+            "suggested_action": "request_information",
+            "proposed_adjustment": null,
+            "path": []
+          },
+          {
+            "target_type": "assumption",
+            "target_id": "H01-A04",
+            "relation_type": "direct_assumption_evidence",
+            "risk_direction": "adverse",
+            "proposed_status": "insufficient_evidence",
+            "rationale": "Incremental freight cost of $6.8 M in Q1 2027 saw only 45 % recovered via surcharge, falling short of the assumed ~50 % recovery; without per‑pair cost data we cannot judge whether freight cost per pair rose >20 % for two consecutive months.",
+            "evidence": [
+              {
+                "document_id": "H01-OPS-2027-01-15",
+                "locator": "P2 — cost recovery",
+                "quote": "Incremental freight cost for the first quarter of 2027 is estimated at $6.8 million. Wholesale customers representing most of the accepted a freight surcharge from February 1, 2027 that recovers 45% of the incremental cost, leaving about $3.7 million unrecovered."
+              }
+            ],
+            "counterevidence": [],
+            "missing_information": [
+              "Freight cost per pair increase over baseline for two consecutive months"
+            ],
+            "suggested_action": "request_information",
+            "proposed_adjustment": null,
+            "path": []
+          }
+        ],
+        "candidates": [],
+        "covenant_assessments": [
+          {
+            "clause_id": "C06",
+            "status": "noncompliant",
+            "rationale": "Knowledge of a supply disruption on 2027-01-15 triggered a duty to deliver a 13‑week cash forecast within 10 Business Days (by 2027-02-09). The forecast was delivered on 2026-12-22, before the knowledge date, so the duty was missed.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-OPS-2027-01-15",
+                "locator": "P3 — forecast delivered",
+                "quote": "The 13-week cash forecast required after the disruption was delivered on December 22, 2026. Its low point was $48.9 million in February 2027."
+              }
+            ]
+          },
+          {
+            "clause_id": "C05",
+            "status": "insufficient_evidence",
+            "rationale": "The event describes a supply disruption causing a 24‑day delay for 40 % of the affected volume, but does not state what share of total purchase volume the affected volume represents, so we cannot determine whether the ≥10 % threshold for notice is met.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-OPS-2027-01-15",
+                "locator": "P1 — rerouting",
+                "quote": "The remaining 40% of the affected volume still moves around the Cape with a 24-day delay."
+              }
+            ]
+          },
+          {
+            "clause_id": "C01",
+            "status": "insufficient_evidence",
+            "rationale": "The forecast low point of $48.9 M shows cash likely above the $35 M minimum, but no month‑end unrestricted cash report for any month after the disruption is provided to confirm compliance.",
+            "already_assessed_in": null,
+            "evidence": [
+              {
+                "document_id": "H01-OPS-2027-01-15",
+                "locator": "P3 — forecast delivered",
+                "quote": "The 13-week cash forecast required after the disruption was delivered on December 22, 2026. Its low point was $48.9 million in February 2027."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "decision": {
+      "action": "pending"
+    }
+  }
+}

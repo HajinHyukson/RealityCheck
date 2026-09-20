@@ -1,0 +1,40 @@
+{
+  "case": "H01-crocs",
+  "company": "Crocs, Inc.",
+  "facility": "None. This packet holds sourced business context only. The loan, covenants, financials and reports in this scenario are fictional.",
+  "cik": 1334036,
+  "review_period": {
+    "note": "Business context from the FY2025 Form 10-K only. No financial statements are imported."
+  },
+  "user_agent_policy": "descriptive User-Agent with contact; sequential cached requests",
+  "manifest_written_at": "2026-09-20T02:15:40+00:00",
+  "documents": [
+    {
+      "id": "CROX-10K-FY2025",
+      "type": "10-K",
+      "title": "Crocs, Inc. annual report for fiscal 2025",
+      "role": "business_context",
+      "url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+      "company": "Crocs, Inc.",
+      "facility": "None. This packet holds sourced business context only. The loan, covenants, financials and reports in this scenario are fictional.",
+      "publisher": "U.S. SEC EDGAR",
+      "sec_accession": "0001334036-26-000006",
+      "cached_file": "sources/CROX-10K-FY2025__crox-20251231.htm",
+      "sha256": "4664fd9d3e1126886cdd7578355afb74da1182eabba28ebd0f8b03aa357f3e5c",
+      "bytes": 2240031,
+      "retrieved_at": "2026-09-20T02:15:40+00:00",
+      "form": "10-K",
+      "filing_date": "2026-02-12",
+      "report_date": "2025-12-31",
+      "items": "",
+      "sec_accepted_at": "2026-02-12T20:03:37.000Z",
+      "content_status": "actual_public_disclosure",
+      "reuse_policy_url": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+      "track_eligibility": {
+        "xtract": "public source permitted",
+        "compound": "not eligible: real financial records"
+      }
+    }
+  ],
+  "problems": []
+}

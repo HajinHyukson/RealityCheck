@@ -1,0 +1,140 @@
+{
+  "borrower_id": "R03",
+  "workflow": "direct_review",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2020-05-07",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:20:27.266708+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05",
+    "R03-D06",
+    "R03-D07",
+    "R03-D08",
+    "R03-D09",
+    "R03-D10"
+  ],
+  "assessments_supplied": false,
+  "summary": "Review of evidence through May 7, 2020 shows no new conditions that would require tightening, loosening, or adding any covenants in the existing package; all current provisions remain appropriate.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "No evidence indicates the leverage ratio schedule should be altered; debt and EBITDA trends remain within the existing stepwise covenant."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "Annual reporting timing remains suitable; no evidence of delays or need for change in the 90‑day requirement."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly reporting at 45 days continues to be supported by the evidence; no material change warranted."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "Monthly reporting for the first two months of each quarter remains appropriate; no evidence justifies adjustment."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Notice periods for defaults and material adverse effects remain adequate; no evidence suggests a change."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "Indebtedness baskets, including the $75 million ABL limit, align with observed amendments and debt levels; no revision needed."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "All available evidence through the review date shows no new or tightened protections, no changed reporting duties or triggers, and no threshold moves that would materially alter risk coverage.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "Review of evidence through May 7, 2020 shows no new conditions that would require tightening, loosening, or adding any covenants in the existing package; all current provisions remain appropriate.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "No evidence indicates the leverage ratio schedule should be altered; debt and EBITDA trends remain within the existing stepwise covenant.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Annual reporting timing remains suitable; no evidence of delays or need for change in the 90‑day requirement.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Quarterly reporting at 45 days continues to be supported by the evidence; no material change warranted.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Monthly reporting for the first two months of each quarter remains appropriate; no evidence justifies adjustment.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Notice periods for defaults and material adverse effects remain adequate; no evidence suggests a change.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [],
+        "rationale": "Indebtedness baskets, including the $75 million ABL limit, align with observed amendments and debt levels; no revision needed.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "All available evidence through the review date shows no new or tightened protections, no changed reporting duties or triggers, and no threshold moves that would materially alter risk coverage."
+  },
+  "elapsed_seconds": 28.6
+}

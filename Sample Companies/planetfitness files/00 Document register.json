@@ -1,0 +1,167 @@
+[
+  {
+    "number": "01",
+    "document_id": "PLNT-01",
+    "title": "Planet Fitness Company Background",
+    "filename": "01 memo - Planet Fitness Company Background.pdf",
+    "source_mode": "real_background_digest",
+    "available_at": "2026-02-25",
+    "pages": 1,
+    "sha256": "7588516b9db8f110567ca0ba6c0898e212f123318ca425eeed7178606c3e1036",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1637207/000163720726000011/plnt-20251231.htm"
+  },
+  {
+    "number": "01",
+    "document_id": "PLNT-SEC-FY2025",
+    "title": "Planet Fitness FY2025 Annual Report",
+    "filename": "sources/01 Planet Fitness FY2025 Annual Report.pdf",
+    "source_mode": "real_public_filing",
+    "available_at": "2026-02-25",
+    "pages": 120,
+    "sha256": "44648f1ec1fa04a44c6f333f4b4dd4c71302c3bafa6b47de86f9e18d879ed529",
+    "source_url": "https://s2.q4cdn.com/945805771/files/doc_financials/2026/453972_P40887_PF_2025-AR_PROOF_rev1_MS.pdf"
+  },
+  {
+    "number": "02",
+    "document_id": "PLNT-02",
+    "title": "Original Credit Agreement",
+    "filename": "02 Credit Agreement - Original Credit Agreement.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 3,
+    "sha256": "350501d4b15576e3b3ecda4e366636e81783c1306026898de3f80d62261712c2",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "03",
+    "document_id": "PLNT-03",
+    "title": "Underwriting Memo",
+    "filename": "03 memo - Underwriting Memo.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 1,
+    "sha256": "5d754e609ad6233ab1900e814b2924822ac3b81fc92704ad19a2864fd475f194",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "04",
+    "document_id": "PLNT-04",
+    "title": "Opening Financial and Operating Model",
+    "filename": "04 memo - Opening Financial and Operating Model.xlsx",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": "",
+    "sha256": "998b12d2e98a6df5d4de8a276e74f5ce615096ed419f60bcd0e7ea6ebab7193e",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "04",
+    "document_id": "PLNT-04",
+    "title": "Opening Financial and Operating Schedules",
+    "filename": "04 memo - Opening Financial and Operating Schedules.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 2,
+    "sha256": "8f27b1faf72192dbc9c116f5380e1e783284e884b2933399e61e57ae67dd4ea9",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "05",
+    "document_id": "PLNT-05",
+    "title": "Lender Review Guidelines",
+    "filename": "05 memo - Lender Review Guidelines.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-10-01",
+    "pages": 1,
+    "sha256": "ec601342daaab2a641543aa3a51857f6b5be0b959e14a62b7db875272fba7f24",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "06",
+    "document_id": "PLNT-06",
+    "title": "October Routine Management Report",
+    "filename": "06 Reports - October Routine Management Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-11-18",
+    "pages": 1,
+    "sha256": "692495651a0e1e5fbb369a23789684d9fb1beebe708ecb415be2681aa415bf9e",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "07",
+    "document_id": "FITNESS-2026-12-07",
+    "title": "External Gym Membership and Collections Report",
+    "filename": "07 Reports - External Gym Membership and Collections Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2026-12-07",
+    "pages": 1,
+    "sha256": "80835580b4cd2cebe833ebca9b29f436d6ad0fd6d45bc2525693974e657c4ef8",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "08",
+    "document_id": "PLNT-08",
+    "title": "December Company Impact and Cash Report",
+    "filename": "08 Reports - December Company Impact and Cash Report.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-01-19",
+    "pages": 2,
+    "sha256": "24742db94e854316ab4d7d01eb6a5c146cd5337026e2a3b24b6a88bb06db1e90",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "09",
+    "document_id": "PLNT-09",
+    "title": "January Mitigation and Updated Forecast",
+    "filename": "09 Reports - January Mitigation and Updated Forecast.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-12",
+    "pages": 2,
+    "sha256": "8b2f3dc41daafef0acb3a17586055ec38a6dd8a9be343e88a076ddccc6e27dd1",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "10",
+    "document_id": "PLNT-10",
+    "title": "Club Repair Commitments and Payment Schedule",
+    "filename": "10 Reports - Club Repair Commitments and Payment Schedule.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-19",
+    "pages": 1,
+    "sha256": "8e876719d7bb5cb1721ce1a33fcbbcff7983e6c67b1653d19db1f65de4735217",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "11",
+    "document_id": "PLNT-11",
+    "title": "Club Cash Forecast and Upcoming Equipment Payment",
+    "filename": "11 Reports - Club Cash Forecast and Upcoming Equipment Payment.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-02-26",
+    "pages": 2,
+    "sha256": "b990008d4e1a2188e31ad9e8edc39415b5f443d5f52f6ab084f8c06bb5a10bb6",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "12",
+    "document_id": "PLNT-12",
+    "title": "May Cash Results and Landlord Reimbursement Follow-up",
+    "filename": "12 Reports - May Cash Results and Landlord Reimbursement Follow-up.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-06-01",
+    "pages": 1,
+    "sha256": "9f071e6f6393aa573ab3086258e5e3b9ec32f20de26dd0a2e601b35b18bbc828",
+    "source_url": "Authored synthetic scenario"
+  },
+  {
+    "number": "13",
+    "document_id": "PLNT-13",
+    "title": "Emergency Club Closures and Payroll Funding Shortfall",
+    "filename": "13 Reports - Emergency Club Closures and Payroll Funding Shortfall.pdf",
+    "source_mode": "synthetic",
+    "available_at": "2027-06-14",
+    "pages": 5,
+    "sha256": "575b67ff26d17cb8fe76e2a056c0d3a1645e8aab613f57ea1d4c972f6040c387",
+    "source_url": "Authored synthetic scenario"
+  }
+]

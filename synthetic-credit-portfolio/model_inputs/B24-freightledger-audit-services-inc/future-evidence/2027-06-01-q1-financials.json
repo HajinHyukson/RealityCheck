@@ -1,0 +1,64 @@
+{
+  "income_statement": {
+    "revenue_m": 39.5125,
+    "cash_operating_expenses_m": 32.02,
+    "reported_ebitda_m": 7.492500000000001,
+    "depreciation_and_amortization_m": 1.125,
+    "cash_interest_paid_m": 2.0496575342465753,
+    "pretax_income_m": 4.317842465753426,
+    "income_tax_expense_and_cash_paid_m": 1.0794606164383564,
+    "net_income_m": 3.2383818493150693
+  },
+  "closing_balance_sheet": {
+    "cash_or_unfunded_deficit_m": 16.438381849315068,
+    "restricted_cash_m": 8,
+    "trade_receivables_m": 18.68513698630137,
+    "other_operating_current_assets_m": 20.01020801623541,
+    "fixed_and_capitalized_software_assets_net_m": 35.625,
+    "historical_goodwill_m": 109.24999999999999,
+    "total_assets_m": 208.00872685185183,
+    "trade_payables_m": 8.7,
+    "operating_accruals_m": 5.8,
+    "restricted_funds_obligation_m": 8,
+    "funded_term_debt_m": 95,
+    "total_liabilities_m": 117.5,
+    "equity_m": 90.50872685185186,
+    "balance_check_m": -2.842170943040401e-14
+  },
+  "cash_flow": {
+    "opening_cash_m": 14.0,
+    "operating_cash_after_interest_tax_and_working_capital_m": 3.4883818493150685,
+    "capital_investment_m": 1.05,
+    "working_capital_investment_m": 0.875,
+    "scheduled_principal_paid_m": 0,
+    "shareholder_contribution_m": 0.0,
+    "shareholder_distribution_m": 0.0,
+    "net_cash_change_m": 2.4383818493150686,
+    "closing_cash_or_unfunded_deficit_m": 16.438381849315068
+  },
+  "ebitda_reconciliation": {
+    "reported_ebitda_m": 7.492500000000001,
+    "documented_restructuring_m": 0,
+    "cap_m": 0.7492500000000001,
+    "permitted_adjustment_m": 0.0,
+    "covenant_ebitda_m": 7.492500000000001
+  },
+  "metrics": {
+    "eligible_cash_m": 16.438381849315068,
+    "net_debt_m": 85,
+    "leverage_x": 2.9676180501003757,
+    "interest_coverage_x": null,
+    "cash_coverage_x": null,
+    "unfunded_cash_need_m": 0,
+    "coverage_applicability": "Not yet due: optional coverage tests first apply December 31, 2027. No annualized quarter proxy is substituted."
+  },
+  "ttm_ebitda_reconciliation": {
+    "reported_ebitda_m": 27.7425,
+    "documented_restructuring_m": 0.8999999999999999,
+    "permitted_adjustment_m": 0.8999999999999986,
+    "covenant_ebitda_m": 28.6425
+  },
+  "period": "2027-01-01 through 2027-03-31; balance sheet at March 31",
+  "available_at": "2027-06-01",
+  "receipt_status": "Underlying statements available June 1; submission compliance is not assumed"
+}

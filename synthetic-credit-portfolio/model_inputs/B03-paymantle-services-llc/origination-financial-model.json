@@ -1,0 +1,539 @@
+{
+  "currency": "USD",
+  "scale": "millions",
+  "agreement_id": "B03-CA-2026-01",
+  "history": {
+    "2025_comparative": {
+      "income_statement": {
+        "revenue_m": 101.85185185185185,
+        "cash_operating_expenses_m": 79.62962962962962,
+        "reported_ebitda_m": 22.22222222222222,
+        "depreciation_and_amortization_m": 2.857142857142857,
+        "cash_interest_paid_m": 8.8,
+        "pretax_income_m": 10.565079365079363,
+        "income_tax_expense_and_cash_paid_m": 2.6412698412698408,
+        "net_income_m": 7.923809523809522
+      },
+      "closing_balance_sheet": {
+        "cash_or_unfunded_deficit_m": 10.5,
+        "restricted_cash_m": 7,
+        "trade_receivables_m": 7.813292744799594,
+        "other_operating_current_assets_m": 13.2,
+        "fixed_and_capitalized_software_assets_net_m": 24.0,
+        "historical_goodwill_m": 101.19999999999999,
+        "total_assets_m": 163.7132927447996,
+        "trade_payables_m": 6.6,
+        "operating_accruals_m": 4.4,
+        "restricted_funds_obligation_m": 7,
+        "funded_term_debt_m": 88,
+        "total_liabilities_m": 106.0,
+        "equity_m": 57.71329274479959,
+        "balance_check_m": 0.0
+      }
+    },
+    "2026": {
+      "income_statement": {
+        "revenue_m": 110,
+        "cash_operating_expenses_m": 86,
+        "reported_ebitda_m": 24,
+        "depreciation_and_amortization_m": 3.0,
+        "cash_interest_paid_m": 8.8,
+        "pretax_income_m": 12.2,
+        "income_tax_expense_and_cash_paid_m": 3.05,
+        "net_income_m": 9.149999999999999
+      },
+      "closing_balance_sheet": {
+        "cash_or_unfunded_deficit_m": 14.0,
+        "restricted_cash_m": 7,
+        "trade_receivables_m": 8.438356164383562,
+        "other_operating_current_assets_m": 14.274936580416032,
+        "fixed_and_capitalized_software_assets_net_m": 24.3,
+        "historical_goodwill_m": 101.19999999999999,
+        "total_assets_m": 169.2132927447996,
+        "trade_payables_m": 6.6,
+        "operating_accruals_m": 4.4,
+        "restricted_funds_obligation_m": 7,
+        "funded_term_debt_m": 88,
+        "total_liabilities_m": 106.0,
+        "equity_m": 63.213292744799595,
+        "balance_check_m": -7.105427357601002e-15
+      },
+      "cash_flow": {
+        "opening_cash_m": 10.5,
+        "operating_cash_after_interest_tax_and_working_capital_m": 10.45,
+        "capital_investment_m": 3.3,
+        "working_capital_investment_m": 1.7,
+        "scheduled_principal_paid_m": 0,
+        "shareholder_contribution_m": 0,
+        "shareholder_distribution_m": 3.6499999999999995,
+        "net_cash_change_m": 3.5,
+        "closing_cash_or_unfunded_deficit_m": 14.0
+      },
+      "ebitda_reconciliation": {
+        "reported_ebitda_m": 24,
+        "documented_restructuring_m": 0.8,
+        "cap_m": 1.2,
+        "permitted_adjustment_m": 0.8000000000000007,
+        "covenant_ebitda_m": 24.8
+      },
+      "metrics": {
+        "eligible_cash_m": 14.0,
+        "net_debt_m": 76,
+        "leverage_x": 3.064516129032258,
+        "interest_coverage_x": 2.818181818181818,
+        "cash_coverage_x": 1.8124999999999998,
+        "unfunded_cash_need_m": 0
+      }
+    }
+  },
+  "2027_scenarios": {
+    "base": {
+      "income_statement": {
+        "revenue_m": 118.80000000000001,
+        "cash_operating_expenses_m": 92.4,
+        "reported_ebitda_m": 26.400000000000002,
+        "depreciation_and_amortization_m": 3.0,
+        "cash_interest_paid_m": 8.8,
+        "pretax_income_m": 14.600000000000001,
+        "income_tax_expense_and_cash_paid_m": 3.6500000000000004,
+        "net_income_m": 10.950000000000001
+      },
+      "closing_balance_sheet": {
+        "cash_or_unfunded_deficit_m": 21.189999999999998,
+        "restricted_cash_m": 7,
+        "trade_receivables_m": 9.113424657534248,
+        "other_operating_current_assets_m": 15.299868087265345,
+        "fixed_and_capitalized_software_assets_net_m": 24.6,
+        "historical_goodwill_m": 101.19999999999999,
+        "total_assets_m": 178.4032927447996,
+        "trade_payables_m": 6.6,
+        "operating_accruals_m": 4.4,
+        "restricted_funds_obligation_m": 7,
+        "funded_term_debt_m": 86.24,
+        "total_liabilities_m": 104.24,
+        "equity_m": 74.16329274479959,
+        "balance_check_m": 0.0
+      },
+      "cash_flow": {
+        "opening_cash_m": 14.0,
+        "operating_cash_after_interest_tax_and_working_capital_m": 12.25,
+        "capital_investment_m": 3.3,
+        "working_capital_investment_m": 1.7,
+        "scheduled_principal_paid_m": 1.76,
+        "shareholder_contribution_m": 0.0,
+        "shareholder_distribution_m": 0.0,
+        "net_cash_change_m": 7.1899999999999995,
+        "closing_cash_or_unfunded_deficit_m": 21.189999999999998
+      },
+      "ebitda_reconciliation": {
+        "reported_ebitda_m": 26.400000000000002,
+        "documented_restructuring_m": 0,
+        "cap_m": 1.32,
+        "permitted_adjustment_m": 0.0,
+        "covenant_ebitda_m": 26.400000000000002
+      },
+      "metrics": {
+        "eligible_cash_m": 21.189999999999998,
+        "net_debt_m": 74.24,
+        "leverage_x": 2.8121212121212116,
+        "interest_coverage_x": 3.0,
+        "cash_coverage_x": 1.680871212121212,
+        "unfunded_cash_need_m": 0
+      },
+      "assumptions": {
+        "revenue_relative_to_base": 1,
+        "ebitda_relative_to_base": 1,
+        "working_capital_use_multiple": 1,
+        "receivable_days": 28,
+        "capital_investment_held_constant": true,
+        "restructuring_addback_forecast": 0
+      }
+    },
+    "moderate": {
+      "income_statement": {
+        "revenue_m": 111.67200000000001,
+        "cash_operating_expenses_m": 88.96800000000002,
+        "reported_ebitda_m": 22.704,
+        "depreciation_and_amortization_m": 3.0,
+        "cash_interest_paid_m": 8.8,
+        "pretax_income_m": 10.904,
+        "income_tax_expense_and_cash_paid_m": 2.726,
+        "net_income_m": 8.178
+      },
+      "closing_balance_sheet": {
+        "cash_or_unfunded_deficit_m": 17.568,
+        "restricted_cash_m": 7,
+        "trade_receivables_m": 10.708273972602742,
+        "other_operating_current_assets_m": 14.555018772196853,
+        "fixed_and_capitalized_software_assets_net_m": 24.6,
+        "historical_goodwill_m": 101.19999999999999,
+        "total_assets_m": 175.6312927447996,
+        "trade_payables_m": 6.6,
+        "operating_accruals_m": 4.4,
+        "restricted_funds_obligation_m": 7,
+        "funded_term_debt_m": 86.24,
+        "total_liabilities_m": 104.24,
+        "equity_m": 71.3912927447996,
+        "balance_check_m": 0.0
+      },
+      "cash_flow": {
+        "opening_cash_m": 14.0,
+        "operating_cash_after_interest_tax_and_working_capital_m": 8.628,
+        "capital_investment_m": 3.3,
+        "working_capital_investment_m": 2.55,
+        "scheduled_principal_paid_m": 1.76,
+        "shareholder_contribution_m": 0.0,
+        "shareholder_distribution_m": 0.0,
+        "net_cash_change_m": 3.5680000000000005,
+        "closing_cash_or_unfunded_deficit_m": 17.568
+      },
+      "ebitda_reconciliation": {
+        "reported_ebitda_m": 22.704,
+        "documented_restructuring_m": 0,
+        "cap_m": 1.1352000000000002,
+        "permitted_adjustment_m": 0.0,
+        "covenant_ebitda_m": 22.704
+      },
+      "metrics": {
+        "eligible_cash_m": 17.568,
+        "net_debt_m": 74.24,
+        "leverage_x": 3.269908386187456,
+        "interest_coverage_x": 2.58,
+        "cash_coverage_x": 1.337878787878788,
+        "unfunded_cash_need_m": 0
+      },
+      "assumptions": {
+        "revenue_relative_to_base": 0.94,
+        "ebitda_relative_to_base": 0.86,
+        "working_capital_use_multiple": 1.5,
+        "receivable_days": 35,
+        "capital_investment_held_constant": true,
+        "restructuring_addback_forecast": 0
+      }
+    },
+    "severe": {
+      "income_statement": {
+        "revenue_m": 99.792,
+        "cash_operating_expenses_m": 82.632,
+        "reported_ebitda_m": 17.160000000000004,
+        "depreciation_and_amortization_m": 3.0,
+        "cash_interest_paid_m": 8.8,
+        "pretax_income_m": 5.360000000000003,
+        "income_tax_expense_and_cash_paid_m": 1.3400000000000007,
+        "net_income_m": 4.020000000000002
+      },
+      "closing_balance_sheet": {
+        "cash_or_unfunded_deficit_m": 12.560000000000004,
+        "restricted_cash_m": 7,
+        "trade_receivables_m": 12.576526027397259,
+        "other_operating_current_assets_m": 13.536766717402333,
+        "fixed_and_capitalized_software_assets_net_m": 24.6,
+        "historical_goodwill_m": 101.19999999999999,
+        "total_assets_m": 171.47329274479958,
+        "trade_payables_m": 6.6,
+        "operating_accruals_m": 4.4,
+        "restricted_funds_obligation_m": 7,
+        "funded_term_debt_m": 86.24,
+        "total_liabilities_m": 104.24,
+        "equity_m": 67.2332927447996,
+        "balance_check_m": -1.4210854715202004e-14
+      },
+      "cash_flow": {
+        "opening_cash_m": 14.0,
+        "operating_cash_after_interest_tax_and_working_capital_m": 3.620000000000003,
+        "capital_investment_m": 3.3,
+        "working_capital_investment_m": 3.4,
+        "scheduled_principal_paid_m": 1.76,
+        "shareholder_contribution_m": 0.0,
+        "shareholder_distribution_m": 0.0,
+        "net_cash_change_m": -1.4399999999999966,
+        "closing_cash_or_unfunded_deficit_m": 12.560000000000004
+      },
+      "ebitda_reconciliation": {
+        "reported_ebitda_m": 17.160000000000004,
+        "documented_restructuring_m": 0,
+        "cap_m": 0.8580000000000001,
+        "permitted_adjustment_m": 0.0,
+        "covenant_ebitda_m": 17.160000000000004
+      },
+      "metrics": {
+        "eligible_cash_m": 12.560000000000004,
+        "net_debt_m": 74.24,
+        "leverage_x": 4.3263403263403255,
+        "interest_coverage_x": 1.9500000000000002,
+        "cash_coverage_x": 0.8636363636363639,
+        "unfunded_cash_need_m": 0
+      },
+      "assumptions": {
+        "revenue_relative_to_base": 0.84,
+        "ebitda_relative_to_base": 0.65,
+        "working_capital_use_multiple": 2,
+        "receivable_days": 46,
+        "capital_investment_held_constant": true,
+        "restructuring_addback_forecast": 0
+      }
+    }
+  },
+  "base_projection_to_prematurity": [
+    {
+      "year": 2027,
+      "projection": {
+        "income_statement": {
+          "revenue_m": 118.80000000000001,
+          "cash_operating_expenses_m": 92.4,
+          "reported_ebitda_m": 26.400000000000002,
+          "depreciation_and_amortization_m": 3.0,
+          "cash_interest_paid_m": 8.8,
+          "pretax_income_m": 14.600000000000001,
+          "income_tax_expense_and_cash_paid_m": 3.6500000000000004,
+          "net_income_m": 10.950000000000001
+        },
+        "closing_balance_sheet": {
+          "cash_or_unfunded_deficit_m": 21.189999999999998,
+          "restricted_cash_m": 7,
+          "trade_receivables_m": 9.113424657534248,
+          "other_operating_current_assets_m": 15.299868087265345,
+          "fixed_and_capitalized_software_assets_net_m": 24.6,
+          "historical_goodwill_m": 101.19999999999999,
+          "total_assets_m": 178.4032927447996,
+          "trade_payables_m": 6.6,
+          "operating_accruals_m": 4.4,
+          "restricted_funds_obligation_m": 7,
+          "funded_term_debt_m": 86.24,
+          "total_liabilities_m": 104.24,
+          "equity_m": 74.16329274479959,
+          "balance_check_m": 0.0
+        },
+        "cash_flow": {
+          "opening_cash_m": 14.0,
+          "operating_cash_after_interest_tax_and_working_capital_m": 12.25,
+          "capital_investment_m": 3.3,
+          "working_capital_investment_m": 1.7,
+          "scheduled_principal_paid_m": 1.76,
+          "shareholder_contribution_m": 0.0,
+          "shareholder_distribution_m": 0.0,
+          "net_cash_change_m": 7.1899999999999995,
+          "closing_cash_or_unfunded_deficit_m": 21.189999999999998
+        },
+        "ebitda_reconciliation": {
+          "reported_ebitda_m": 26.400000000000002,
+          "documented_restructuring_m": 0,
+          "cap_m": 1.32,
+          "permitted_adjustment_m": 0.0,
+          "covenant_ebitda_m": 26.400000000000002
+        },
+        "metrics": {
+          "eligible_cash_m": 21.189999999999998,
+          "net_debt_m": 74.24,
+          "leverage_x": 2.8121212121212116,
+          "interest_coverage_x": 3.0,
+          "cash_coverage_x": 1.680871212121212,
+          "unfunded_cash_need_m": 0
+        },
+        "assumptions": {
+          "revenue_relative_to_base": 1,
+          "ebitda_relative_to_base": 1,
+          "working_capital_use_multiple": 1,
+          "receivable_days": 28,
+          "capital_investment_held_constant": true,
+          "restructuring_addback_forecast": 0
+        }
+      }
+    },
+    {
+      "year": 2028,
+      "projection": {
+        "income_statement": {
+          "revenue_m": 128.304,
+          "cash_operating_expenses_m": 99.264,
+          "reported_ebitda_m": 29.040000000000006,
+          "depreciation_and_amortization_m": 3.0,
+          "cash_interest_paid_m": 8.647627397260274,
+          "pretax_income_m": 17.392372602739734,
+          "income_tax_expense_and_cash_paid_m": 4.348093150684933,
+          "net_income_m": 13.0442794520548
+        },
+        "closing_balance_sheet": {
+          "cash_or_unfunded_deficit_m": 30.4742794520548,
+          "restricted_cash_m": 7,
+          "trade_receivables_m": 9.842498630136987,
+          "other_operating_current_assets_m": 16.270794114662607,
+          "fixed_and_capitalized_software_assets_net_m": 24.900000000000002,
+          "historical_goodwill_m": 101.19999999999999,
+          "total_assets_m": 189.68757219685438,
+          "trade_payables_m": 6.6,
+          "operating_accruals_m": 4.4,
+          "restricted_funds_obligation_m": 7,
+          "funded_term_debt_m": 84.47999999999999,
+          "total_liabilities_m": 102.47999999999999,
+          "equity_m": 87.20757219685439,
+          "balance_check_m": 0.0
+        },
+        "cash_flow": {
+          "opening_cash_m": 21.189999999999998,
+          "operating_cash_after_interest_tax_and_working_capital_m": 14.344279452054803,
+          "capital_investment_m": 3.3,
+          "working_capital_investment_m": 1.7,
+          "scheduled_principal_paid_m": 1.76,
+          "shareholder_contribution_m": 0.0,
+          "shareholder_distribution_m": 0.0,
+          "net_cash_change_m": 9.284279452054802,
+          "closing_cash_or_unfunded_deficit_m": 30.4742794520548
+        },
+        "ebitda_reconciliation": {
+          "reported_ebitda_m": 29.040000000000006,
+          "documented_restructuring_m": 0,
+          "cap_m": 1.4520000000000004,
+          "permitted_adjustment_m": 0.0,
+          "covenant_ebitda_m": 29.040000000000006
+        },
+        "metrics": {
+          "eligible_cash_m": 30.4742794520548,
+          "net_debt_m": 72.47999999999999,
+          "leverage_x": 2.4958677685950406,
+          "interest_coverage_x": 3.3581465373034467,
+          "cash_coverage_x": 1.8920649344632392,
+          "unfunded_cash_need_m": 0
+        }
+      }
+    },
+    {
+      "year": 2029,
+      "projection": {
+        "income_statement": {
+          "revenue_m": 138.56832000000003,
+          "cash_operating_expenses_m": 106.62432000000001,
+          "reported_ebitda_m": 31.94400000000001,
+          "depreciation_and_amortization_m": 3.0,
+          "cash_interest_paid_m": 8.447999999999999,
+          "pretax_income_m": 20.49600000000001,
+          "income_tax_expense_and_cash_paid_m": 5.124000000000002,
+          "net_income_m": 15.372000000000007
+        },
+        "closing_balance_sheet": {
+          "cash_or_unfunded_deficit_m": 42.08627945205481,
+          "restricted_cash_m": 7,
+          "trade_receivables_m": 10.629898520547947,
+          "other_operating_current_assets_m": 17.183394224251646,
+          "fixed_and_capitalized_software_assets_net_m": 25.200000000000003,
+          "historical_goodwill_m": 101.19999999999999,
+          "total_assets_m": 203.2995721968544,
+          "trade_payables_m": 6.6,
+          "operating_accruals_m": 4.4,
+          "restricted_funds_obligation_m": 7,
+          "funded_term_debt_m": 82.71999999999998,
+          "total_liabilities_m": 100.71999999999998,
+          "equity_m": 102.5795721968544,
+          "balance_check_m": 1.4210854715202004e-14
+        },
+        "cash_flow": {
+          "opening_cash_m": 30.4742794520548,
+          "operating_cash_after_interest_tax_and_working_capital_m": 16.672000000000008,
+          "capital_investment_m": 3.3,
+          "working_capital_investment_m": 1.7,
+          "scheduled_principal_paid_m": 1.76,
+          "shareholder_contribution_m": 0.0,
+          "shareholder_distribution_m": 0.0,
+          "net_cash_change_m": 11.612000000000007,
+          "closing_cash_or_unfunded_deficit_m": 42.08627945205481
+        },
+        "ebitda_reconciliation": {
+          "reported_ebitda_m": 31.94400000000001,
+          "documented_restructuring_m": 0,
+          "cap_m": 1.5972000000000006,
+          "permitted_adjustment_m": 0.0,
+          "covenant_ebitda_m": 31.94400000000001
+        },
+        "metrics": {
+          "eligible_cash_m": 42.08627945205481,
+          "net_debt_m": 70.71999999999998,
+          "leverage_x": 2.213874279989981,
+          "interest_coverage_x": 3.7812500000000018,
+          "cash_coverage_x": 2.137539184952979,
+          "unfunded_cash_need_m": 0
+        }
+      }
+    },
+    {
+      "year": 2030,
+      "projection": {
+        "income_statement": {
+          "revenue_m": 149.65378560000002,
+          "cash_operating_expenses_m": 114.5153856,
+          "reported_ebitda_m": 35.13840000000001,
+          "depreciation_and_amortization_m": 3.0,
+          "cash_interest_paid_m": 8.271999999999998,
+          "pretax_income_m": 23.866400000000013,
+          "income_tax_expense_and_cash_paid_m": 5.966600000000003,
+          "net_income_m": 17.89980000000001
+        },
+        "closing_balance_sheet": {
+          "cash_or_unfunded_deficit_m": 56.22607945205482,
+          "restricted_cash_m": 7,
+          "trade_receivables_m": 11.480290402191782,
+          "other_operating_current_assets_m": 18.03300234260781,
+          "fixed_and_capitalized_software_assets_net_m": 25.500000000000004,
+          "historical_goodwill_m": 101.19999999999999,
+          "total_assets_m": 219.4393721968544,
+          "trade_payables_m": 6.6,
+          "operating_accruals_m": 4.4,
+          "restricted_funds_obligation_m": 7,
+          "funded_term_debt_m": 80.95999999999998,
+          "total_liabilities_m": 98.95999999999998,
+          "equity_m": 120.47937219685441,
+          "balance_check_m": 1.4210854715202004e-14
+        },
+        "cash_flow": {
+          "opening_cash_m": 42.08627945205481,
+          "operating_cash_after_interest_tax_and_working_capital_m": 19.19980000000001,
+          "capital_investment_m": 3.3,
+          "working_capital_investment_m": 1.7,
+          "scheduled_principal_paid_m": 1.76,
+          "shareholder_contribution_m": 0.0,
+          "shareholder_distribution_m": 0.0,
+          "net_cash_change_m": 14.13980000000001,
+          "closing_cash_or_unfunded_deficit_m": 56.22607945205482
+        },
+        "ebitda_reconciliation": {
+          "reported_ebitda_m": 35.13840000000001,
+          "documented_restructuring_m": 0,
+          "cap_m": 1.7569200000000007,
+          "permitted_adjustment_m": 0.0,
+          "covenant_ebitda_m": 35.13840000000001
+        },
+        "metrics": {
+          "eligible_cash_m": 56.22607945205482,
+          "net_debt_m": 68.95999999999998,
+          "leverage_x": 1.9625253284156352,
+          "interest_coverage_x": 4.247872340425534,
+          "cash_coverage_x": 2.409469696969698,
+          "unfunded_cash_need_m": 0
+        }
+      }
+    }
+  ],
+  "maturity_funding": {
+    "date": "2031-12-31",
+    "balloon_m": 80.95999999999998,
+    "base_cash_before_balloon_m": 74.89325945205482,
+    "operating_reserve_m": 8,
+    "projected_cash_available_for_balloon_m": 66.89325945205482,
+    "refinancing_or_equity_needed_m": 14.066740547945159,
+    "committed_refinancing_m": 0,
+    "assumption": "Base operating growth continues, no distributions or acquisitions; no refinancing commitment is assumed."
+  },
+  "model_conventions": [
+    "2025 is comparative income and balance-sheet data; a 2025 cash-flow statement is not fabricated.",
+    "2026 historical restructuring expense is spread evenly across the four quarters; it is not forecast to recur in 2027.",
+    "Predecessor debt has the same principal and fixed interest rate, with no 2026 amortization; refinancing at par adds no cash or fees.",
+    "2026 shareholder distributions or contributions reconcile the historical cash target and precede the new agreement.",
+    "Payables and operating accruals (including accrued expenses and deferred customer billings) are held constant; receivables and other operating current assets absorb the stated working-capital change. Deferred customer billings are not forecast separately.",
+    "Other operating current assets comprise prepaid expenses and unbilled contract assets; model movements are explicit, not new EBITDA addbacks.",
+    "Historical goodwill represents earlier acquisitions and stays constant; fixed/software assets roll by capex less depreciation/amortization.",
+    "Restricted cash is custodial client money with an equal segregated-funds liability, excluded from lender collateral, leverage netting and available operating cash.",
+    "Forecast negative cash is an unfunded deficit, not an actual bank balance or assumed new loan; such a scenario is infeasible without corrective financing or spending changes.",
+    "Cash tax is 25% of positive pretax income, with no loss benefit or deferred-tax complexity.",
+    "Q1 realizations are synthetic, with no assumed submission timestamp; every actual delivery obligation must be tested separately.",
+    "Annual interest uses ACT/365F; principal installments are effective December 31, so within-year principal is constant."
+  ]
+}

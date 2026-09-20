@@ -1,0 +1,21 @@
+JUDGE: PittCSC Organizer
+1|S17|9|Names both exposure and drift directly, echoes the project name, concise and instantly readable in one second.
+2|S5|9|Exposure versus intent is exactly the two bars on screen, honest and literal with zero jargon.
+3|S13|8|Economic exposure and shifts map straight onto the demo's bars and drift score, clean and memorable.
+4|S10|8|Plainest possible English, what you own changing is exactly what the observed exposure bar shows.
+5|S1|7|Vivid ground shifting metaphor, concrete finance word investments, easy to jot in notes across 40 teams.
+6|S15|7|Clever fit since an ETF's ticker is a label, catches attention without overclaiming what the demo does.
+7|S4|6|Investment thesis is real finance vocabulary, but breaks slightly overclaims what a drift score actually proves.
+8|S20|5|Simple and clear but fits is vague about what mechanism the demo is actually measuring.
+9|S7|5|Honest and plain, but something different is generic and undersells the specific exposure mechanism shown.
+10|S18|5|Story is an evocative word but soft and literary for a quantitative bar chart demo.
+11|S3|4|Drift keyword lands but financial identities is abstract jargon that slows one second comprehension.
+12|S9|4|Invalidates the original thesis overclaims certainty and reads clunky when scanned quickly at a booth.
+13|S19|4|Stale implies a timing problem, not a composition mismatch, so it misdescribes what the demo measures.
+14|S6|3|Models becomes ambiguous between financial model and ML model, muddying instant comprehension.
+15|S8|3|Assumptions lose relevance is abstract startup speak that could describe almost any analytics tool.
+16|S2|3|Assumptions stop matching reality is generic SaaS phrasing I have read on dozens of decks.
+17|S14|2|Yesterday's assumptions stop working is a tired cliche that does not describe this specific demo.
+18|S11|2|Financial reality outgrows its model is dense jargon that requires a second read to parse.
+19|S12|2|Investment meaning changes over time is vague, meaning is not a word the demo ever measures.
+20|S16|1|Business reality breaks the model is the most abstract and overclaiming line, unclear which model it means.

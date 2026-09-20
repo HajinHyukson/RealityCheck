@@ -1,0 +1,39 @@
+{
+  "question": "Knowing what is known at the review date, would we write materially different protections for this borrower?",
+  "review_date": "2019-03-11",
+  "package_version": "1.0",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05"
+  ],
+  "assessments_supplied": true,
+  "control_judgment": "insufficient_evidence",
+  "updated_judgment": "no_material_drift",
+  "evidence_attributable_changes": [],
+  "changes_also_in_control": [],
+  "control_only_changes": [],
+  "retained": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "updated_summary": "All existing covenants remain appropriate given the evidence of timely reporting, no material adverse effect, successful VIP acquisition, and EBITDA performance meeting contingent‑note thresholds; no new protections are warranted.",
+  "updated_reasons": "Available evidence does not show any deterioration in financial reporting, adverse events, acquisition performance, or EBITDA‑linked contingent‑note triggers that would justify tightening, loosening, or adding covenants.",
+  "warnings": [
+    "Proposed modify on 'C01' withheld: missing verified evidence, change description or valid change type.",
+    "Model asserted material drift, but no proposed change survived evidence validation; judgment recorded as insufficient_evidence."
+  ],
+  "reading": "Changes listed as evidence-attributable appear only when the new reports are supplied. Changes also present in the control reflect pre-existing gaps or model drafting preference, not newly emerging drift. One run of each; repeat-run stability is not yet measured."
+}

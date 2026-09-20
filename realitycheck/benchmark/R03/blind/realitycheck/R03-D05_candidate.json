@@ -1,0 +1,148 @@
+{
+  "borrower_id": "R03",
+  "workflow": "realitycheck",
+  "blind": true,
+  "mode": "updated",
+  "review_date": "2019-03-11",
+  "package_version": "1.0",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "generated_at": "2026-09-20T02:24:44.457289+00:00",
+  "guidelines": {
+    "id": "RC-GUIDE",
+    "version": "0.1"
+  },
+  "prompt_version": "0.3",
+  "report_ids": [
+    "R03-D01",
+    "R03-D02",
+    "R03-D03",
+    "R03-D04",
+    "R03-D05"
+  ],
+  "assessments_supplied": true,
+  "summary": "All existing covenants remain appropriate given the evidence of timely reporting, no material adverse effect, successful VIP acquisition, and EBITDA performance meeting contingent‑note thresholds; no new protections are warranted.",
+  "clauses": [
+    {
+      "clause_id": "C01",
+      "action": "retain",
+      "rationale": "Evidence shows 2018 adjusted EBITDA of $41.5 m, exceeding the $40 m threshold, indicating the leverage covenant is not stressed."
+    },
+    {
+      "clause_id": "C02",
+      "action": "retain",
+      "rationale": "FY 2018 results were released on 2019‑03‑11, within the 90‑day annual reporting window."
+    },
+    {
+      "clause_id": "C03",
+      "action": "retain",
+      "rationale": "Quarterly releases for Q1‑Q3 2018 appeared within 45 days of quarter‑end, satisfying the quarterly reporting requirement."
+    },
+    {
+      "clause_id": "C04",
+      "action": "retain",
+      "rationale": "No evidence of missed monthly statement deadlines; the current monthly reporting frequency remains adequate."
+    },
+    {
+      "clause_id": "C05",
+      "action": "retain",
+      "rationale": "Press releases show strong growth and no reported defaults or material adverse effects, supporting the existing notice period."
+    },
+    {
+      "clause_id": "C06",
+      "action": "retain",
+      "rationale": "The company’s use of the $75 m revolving facility and contingent notes aligns with the permitted indebtedness baskets; no overruns observed."
+    }
+  ],
+  "drift_judgment": "no_material_drift",
+  "drift_reasons": "Available evidence does not show any deterioration in financial reporting, adverse events, acquisition performance, or EBITDA‑linked contingent‑note triggers that would justify tightening, loosening, or adding covenants.",
+  "warnings": [],
+  "error": null,
+  "raw_response": {
+    "summary": "All existing covenants remain appropriate given the evidence of timely reporting, no material adverse effect, successful VIP acquisition, and EBITDA performance meeting contingent‑note thresholds; no new protections are warranted.",
+    "clauses": [
+      {
+        "clause_id": "C01",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A07"
+        ],
+        "rationale": "Evidence shows 2018 adjusted EBITDA of $41.5 m, exceeding the $40 m threshold, indicating the leverage covenant is not stressed.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C02",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A04"
+        ],
+        "rationale": "FY 2018 results were released on 2019‑03‑11, within the 90‑day annual reporting window.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C03",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A04"
+        ],
+        "rationale": "Quarterly releases for Q1‑Q3 2018 appeared within 45 days of quarter‑end, satisfying the quarterly reporting requirement.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C04",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A04"
+        ],
+        "rationale": "No evidence of missed monthly statement deadlines; the current monthly reporting frequency remains adequate.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C05",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A05"
+        ],
+        "rationale": "Press releases show strong growth and no reported defaults or material adverse effects, supporting the existing notice period.",
+        "evidence": []
+      },
+      {
+        "clause_id": "C06",
+        "action": "retain",
+        "change_type": null,
+        "direction": null,
+        "change": null,
+        "proposed_level": null,
+        "affected_assumptions": [
+          "R03-A06",
+          "R03-A07"
+        ],
+        "rationale": "The company’s use of the $75 m revolving facility and contingent notes aligns with the permitted indebtedness baskets; no overruns observed.",
+        "evidence": []
+      }
+    ],
+    "drift_judgment": "no_material_drift",
+    "drift_reasons": "Available evidence does not show any deterioration in financial reporting, adverse events, acquisition performance, or EBITDA‑linked contingent‑note triggers that would justify tightening, loosening, or adding covenants."
+  },
+  "elapsed_seconds": 55.1
+}

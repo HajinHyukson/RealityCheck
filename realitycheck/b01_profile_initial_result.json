@@ -1,0 +1,233 @@
+{
+  "borrower_id": "B01",
+  "engine": "nemotron",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "generated_at": "2026-09-19T20:49:06.770019+00:00",
+  "profile": {
+    "borrower_id": "B01",
+    "version": "1.0",
+    "as_of": "2026-12-31",
+    "summary": "FluxRail's origination assumptions link reliable workflow execution (A1) to covenant compliance (C08), reusable templates (A2) to delivery efficiency (S1), subscription cash flow (A3) to leverage metrics (C01), and opening leverage (A4) to earnings headroom (C01, C04, C05, C06, S3).",
+    "assumptions": [
+      {
+        "id": "B01-A01",
+        "title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "claim": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "basis": "explicit",
+        "source_assumption_id": "A1",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C08"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Customer Operations paragraph summarizes synthetic renewal interviews and the December 2026 incident ledger by connector family.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "B01-A02",
+        "title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "claim": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "basis": "explicit",
+        "source_assumption_id": "A2",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C06"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Delivery Efficiency paragraph identifies the owned template repository and synthetic completed-project labor analysis.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "B01-A03",
+        "title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "claim": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "basis": "explicit",
+        "source_assumption_id": "A3",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Cash Conversion paragraph reconciles billing terms, receivable aging, capitalized development, and working-capital use.",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "B01-A04",
+        "title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "claim": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "basis": "explicit",
+        "source_assumption_id": "A4",
+        "baseline_status": "approved_synthetic",
+        "covenant_ids": [
+          "C01",
+          "C04",
+          "C05",
+          "C06",
+          "S3"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Capital Structure paragraph presents the opening debt, eligible cash, Covenant EBITDA bridge, and permitted-transaction tests.",
+            "verified": true
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "B01-A01",
+        "target": "B01-A02",
+        "type": "influences",
+        "rationale": "Reliable workflow execution (A1) enables efficient customer deployment (A2), reducing labor costs and supporting revenue retention."
+      },
+      {
+        "source": "B01-A02",
+        "target": "B01-A03",
+        "type": "influences",
+        "rationale": "Contained implementation labor (A2) lowers operating expenses, improving cash conversion (A3) and supporting covenant compliance (C01)."
+      },
+      {
+        "source": "B01-A03",
+        "target": "B01-A04",
+        "type": "influences",
+        "rationale": "Positive cash flow from subscription billing (A3) provides earnings headroom (A4) to absorb leverage increases and transaction risks."
+      },
+      {
+        "source": "B01-A04",
+        "target": "B01-A01",
+        "type": "influences",
+        "rationale": "Adequate earnings headroom (A4) ensures sustained workflow execution (A1), protecting connector reliability and renewal capacity."
+      }
+    ]
+  },
+  "source_hashes": {
+    "credit-agreement.md": "8f63691e3d186b8601ee650361b64ca652f838b4a37378c4b9a513e55d7999b7",
+    "contract-record.json": "94335d6220e60385d12e302fd5b6d0db48b15eaf8d8c3bea6a851405e9d4bc5a",
+    "underwriting-memo.md": "a4f3c3b3f831ac2e0b6383331511da19eb8de242a97116de36b5c7f87c94538e",
+    "origination-financial-model.json": "4d2cb33726c7b32f0a37626e0984961588119d45c5d170e41e0161773ebd5a84"
+  },
+  "raw_response": {
+    "summary": "FluxRail's origination assumptions link reliable workflow execution (A1) to covenant compliance (C08), reusable templates (A2) to delivery efficiency (S1), subscription cash flow (A3) to leverage metrics (C01), and opening leverage (A4) to earnings headroom (C01, C04, C05, C06, S3).",
+    "assumptions": [
+      {
+        "id": "B01-A01",
+        "title": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "claim": "Renewals depend on reliable workflow execution across the largest supported identity and ERP connectors.",
+        "basis": "explicit",
+        "source_assumption_id": "A1",
+        "covenant_ids": [
+          "C08"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Customer Operations paragraph summarizes synthetic renewal interviews and the December 2026 incident ledger by connector family."
+          }
+        ]
+      },
+      {
+        "id": "B01-A02",
+        "title": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "claim": "Reusable configuration templates keep implementation labor contained and shorten customer deployment cycles.",
+        "basis": "explicit",
+        "source_assumption_id": "A2",
+        "covenant_ids": [
+          "C06"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Delivery Efficiency paragraph identifies the owned template repository and synthetic completed-project labor analysis."
+          }
+        ]
+      },
+      {
+        "id": "B01-A03",
+        "title": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "claim": "Subscription billing and 42-day receivable collection support positive annual operating cash generation after required investment.",
+        "basis": "explicit",
+        "source_assumption_id": "A3",
+        "covenant_ids": [
+          "C01",
+          "C02"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Cash Conversion paragraph reconciles billing terms, receivable aging, capitalized development, and working-capital use."
+          }
+        ]
+      },
+      {
+        "id": "B01-A04",
+        "title": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "claim": "Opening leverage leaves adequate earnings headroom while transaction restrictions preserve cash and collateral value.",
+        "basis": "explicit",
+        "source_assumption_id": "A4",
+        "covenant_ids": [
+          "C01",
+          "C04",
+          "C05",
+          "C06",
+          "S3"
+        ],
+        "evidence": [
+          {
+            "document_id": "underwriting-memo.md",
+            "locator": "Full document",
+            "quote": "The approved underwriting memo's Capital Structure paragraph presents the opening debt, eligible cash, Covenant EBITDA bridge, and permitted-transaction tests."
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "source": "B01-A01",
+        "target": "B01-A02",
+        "type": "influences",
+        "rationale": "Reliable workflow execution (A1) enables efficient customer deployment (A2), reducing labor costs and supporting revenue retention."
+      },
+      {
+        "source": "B01-A02",
+        "target": "B01-A03",
+        "type": "influences",
+        "rationale": "Contained implementation labor (A2) lowers operating expenses, improving cash conversion (A3) and supporting covenant compliance (C01)."
+      },
+      {
+        "source": "B01-A03",
+        "target": "B01-A04",
+        "type": "influences",
+        "rationale": "Positive cash flow from subscription billing (A3) provides earnings headroom (A4) to absorb leverage increases and transaction risks."
+      },
+      {
+        "source": "B01-A04",
+        "target": "B01-A01",
+        "type": "influences",
+        "rationale": "Adequate earnings headroom (A4) ensures sustained workflow execution (A1), protecting connector reliability and renewal capacity."
+      }
+    ]
+  },
+  "warnings": [],
+  "error": null
+}
