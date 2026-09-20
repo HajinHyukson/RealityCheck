@@ -20,47 +20,65 @@ RealityCheck:
 
 ## Run it
 
-Python 3 (developed on 3.14). The application, the FluxRail demo, the benchmark and the tests use the standard library only. Two optional packages are imported lazily and only by the first prototype's document upload: `pymupdf` for PDF pages and `Pillow` for image downscaling.
+Python 3 (developed on 3.14). The application, the benchmark and the tests use the standard library only. Uploading PDFs needs `pymupdf` to read page text; `Pillow` is optional and only downscales page images before OCR.
 
 ```powershell
+pip install pymupdf
 cd realitycheck
 python app.py 8013
 ```
 
-Open **http://127.0.0.1:8013/b01**. On first start the demo database is rebuilt from `realitycheck/b01_seed.json`, so a fresh clone shows the same recorded history described below.
-
-Recorded analyses work with no API key. For live analysis put `NVIDIA_API_KEY=...` in a `.env` file at the repository root. `.env` is git-ignored; never commit a key.
+Open **http://127.0.0.1:8013/**. Put `NVIDIA_API_KEY=...` in a `.env` file at the repository root: onboarding an agreement and analysing a report are live Nemotron calls, so the demo needs a key. `.env` is git-ignored; never commit a key. The benchmark page shows saved results and needs no key.
 
 | Page | What it shows |
 |---|---|
-| `/h01` | The presentation scenario: Crocs with a fictional loan (see below) |
-| `/b01` | FluxRail Workflow, Inc., an entirely fictional borrower |
-| `/companies` | Company overview |
+| `/` or `/companies` | Credit agreements: the upload form and one card per company workspace |
+| `/u…` | A company workspace (the id is assigned when the agreement is uploaded) |
 | `/benchmark` | Strict blind historical replay on real companies |
-| `/` | The first prototype (CedarBridge packet assessment) |
+| `/legacy` | The first prototype (CedarBridge packet assessment) |
 
-Tests: `cd realitycheck` then `python -m unittest test_attribution test_b01 test_b01_model test_event_api test_drift test_benchmark_blind`. They use temporary databases and a stubbed model, and never touch the demo database or the network.
+Tests: `cd realitycheck` then `python -m unittest test_attribution test_b01 test_b01_model test_event_api test_drift test_benchmark_blind test_uploads`. They use temporary databases and a stubbed model, and never call the network. One `test_b01` check lists the companies on disk, so it passes on a fresh clone and fails once uploaded workspaces exist locally.
 
-## The demo: FluxRail
+## The demo: upload a credit agreement
 
-FluxRail is fictional. Its agreement, memo, financial model, reports and amendments are synthetic, authored for this project. Dates in 2027 are scenario dates; analysis timestamps are real.
+There is no pre-seeded company. A fresh clone opens on an empty **Credit agreements** page, and every workspace in the demo is created by uploading documents through the same form a user would use. `realitycheck/uploads/` holds that runtime state and is git-ignored, so nothing the model produced ships with the repository.
 
-What you can do on `/b01`:
+**1. Onboard the agreement.** On `/`, enter a company name and an agreement date, add up to 10 files (PDF, image, TXT or Markdown; 12 MB each, 20 MB total) and label each one *Credit agreement*, *Memo* or *10-K*. At least one must be the agreement; memos and 10-Ks are optional origination evidence. Then, in the background:
 
-- **Replay the history.** *Start at origination*, then *Reveal next report*: the package moves from v1.0 to v1.2 across two adopted amendments, and a third detection is left pending on purpose.
-- **Open a detection** to see the quoted evidence, the assumptions exposed, each covenant duty assessed, a suggested response, and a reviewer note wherever the model's reasoning was wrong.
-- **Introduce a new report** from the report library: an industry analysis that never names FluxRail, routine monthly accounts, and a remediation report. Each can run as live Nemotron analysis or as a recorded replay, which is labeled as not fresh inference.
-- **Read the candidate-package comparison** beside the authored draft amendment.
+- Text is read from each PDF's embedded text layer. Scanned pages and images go to NVIDIA Nemotron Parse 2.0 for OCR.
+- Nemotron extracts up to 24 material clauses from the agreement. It does not return clause text. It points at each clause with a source locator and two short verbatim anchors, and the host copies the text between them from the source, so every stored clause is verbatim by construction. A clause whose anchors cannot be found in the source fails verification and the company is not activated.
+- Nemotron then builds the assumption register from all the origination documents, with the same quotation checks as everywhere else. The uploaded agreement becomes package v1.0 and the workspace opens.
 
-## The presentation scenario: Crocs, with a fictional loan
+**2. Add reports one at a time.** In the workspace, upload a later report with the date it became available. Nemotron attributes it to the assumptions and to each covenant duty under the package version in force on that date. A report that arrives before an amendment is judged under the terms that applied then.
 
-`/h01` is titled **"Crocs — hypothetical private-credit scenario."** Company background is sourced. Financial figures, loan terms, reports and scenario events are fictional.
+**3. Review.** Open a detection to see the quoted evidence, the assumptions exposed and each covenant duty assessed. Run the **"would we write this package today?"** comparison on the reports received so far. Dismiss a detection, or write an amendment by editing clause text in place: the edit is checked against the current wording, cannot be backdated before its evidence, and creates the next package version (v1.1, v1.2, ...) while the earlier versions and the original detection stay in the history.
 
-A recognizable business makes the mechanism easier to follow: footwear made by third-party manufacturers overseas, shipped by ocean, sold through wholesale and direct channels. Only that background is real, taken as four verbatim passages from Crocs, Inc.'s FY2025 Form 10-K and cited where used. The borrowing entity, the lender, the $150 million facility, all nine covenants, every number, every report and every amendment were invented by `hypothetical-scenarios/build_h01.py`, which computes and checks the arithmetic. No such facility exists, nothing here describes Crocs' actual financing, and no figure from its financial statements is used. Nemotron is told to use only the scenario's defined figures and never anything it may recall about the real company.
+### The documents behind the demo
 
-The scenario runs from a routine month through a shipping disruption, a mitigation update and a wholesale slowdown to a recovery in direct sales that arrives with a month-end cash report below the covenant floor. It is a presentation scenario, not evidence: it is excluded from the benchmark below.
+`Sample Companies/` holds three authored document sets, **Duolingo**, **Planet Fitness** and **YETI**, numbered in upload order. Each folder's `00 Start Here.md` is the presenter guide and is not evidence to upload.
 
-What the genuine Nemotron run did on it, reviewed and unedited: the routine month and the mitigation update stay report markers; the disruption and the wholesale slowdown each contradict one approved assumption; and in the last report the model worked out the $33.6 million covenant cash figure itself from three stated amounts, found the floor missed, and did not let better direct sales offset it. Its mistakes are shown too, as reviewer notes beside its wording (for example, a freight-cost finding that goes further than the memo's criterion supports), along with findings the validator withheld and one report that was revised and re-run after an authoring gap. The two adopted amendments are scripted scenario decisions; the third draft is left for the viewer. The candidate-package comparison found no drift from origination evidence alone and material drift with the reports, and its withheld cash-floor change pointed the opposite way (tighten) from the authored relief draft, the same pattern the benchmark shows.
+| Documents | Role | Used for |
+|---|---|---|
+| 01 | Company background digest, plus the company's public FY2025 annual report (beside it for Duolingo, in `sources/` for the other two) | Onboarding, as *Memo* and *10-K* |
+| 02 | Original credit agreement | Onboarding, as *Credit agreement* |
+| 03 to 05 | Underwriting memo, opening financial and operating schedules, lender review guidelines | Onboarding, as *Memo* |
+| 06 to 12 | Dated reports: a routine month, an industry report that never names the borrower, a company impact and cash report, a mitigation update, then a counterparty notice, a revised cash forecast and actual cash results | Uploaded one at a time |
+| 13 | A severe event: a shutdown, recall or closure with a missed or upcoming payment | Uploaded last |
+
+Only the company name and its public business background are real. The borrowing entity, the lender, the credit agreement, every financial figure and every later report are invented, and each set states that no relationship with the real company is asserted. The reports name no covenant, request no amendment and prescribe no model answer.
+
+### What is loaded for the presentation
+
+The presentation machine holds four workspaces, all made this way from the Duolingo set and all analysed live by `nvidia/nemotron-3-super-120b-a12b`. Documents 01 to 05, including the full FY2025 Form 10-K, were onboarded once: 11 clauses extracted and verified, 7 assumptions in the register. That prepared workspace was then duplicated with **Copy credit agreement**, which exists so one onboarding run can be rehearsed more than once, and each copy was taken to a different point:
+
+| Workspace | State | Shows |
+|---|---|---|
+| Duolingo Demo 1 | v1.0, no reports yet | The origination view, and a first report upload live |
+| Duolingo Demo 2 | v1.0, report 06 analysed, package comparison run | A routine month that stays a report marker, not a detection; the comparison found no material drift |
+| Duolingo Demo 3 | v1.0, reports 06 and 13 analysed and awaiting review | A severe detection before any analyst decision. The package comparison run here still returned no material drift, which is shown as it came back |
+| Duolingo Demo 4 | v1.2, five reports analysed, two analyst-written amendments adopted | The full history: detections, amendments and version changes. A sixth report whose analysis failed is kept and shown as failed |
+
+The onboarding run took a little over two minutes of hosted model calls, which is why prepared copies stand behind the live upload on stage. No Planet Fitness or YETI workspace is loaded at present; those sets go through the same form.
 
 ## The benchmark: does it work on real loans?
 
@@ -72,32 +90,34 @@ Two real private-credit facilities, iRobot / Carlyle and RumbleOn / Oaktree, are
 
 ## Where Nemotron sits, and the evidence
 
-`nvidia/nemotron-3-super-120b-a12b` with reasoning enabled, through NVIDIA NIM. It is not a chat interface. It builds the assumption register, attributes evidence to assumptions and covenant duties, drafts candidate packages, and returns structured JSON that code validates before anything is shown.
+`nvidia/nemotron-3-super-120b-a12b` through NVIDIA NIM, with reasoning enabled for analysis and turned off for clause pointing, which needs none. Nemotron Parse 2.0 reads scanned pages. It is not a chat interface. It extracts the agreement's clauses, builds the assumption register, attributes evidence to assumptions and covenant duties, drafts candidate packages, and returns structured JSON that code validates before anything is shown.
 
 Evidence it works, and where it does not:
 
 - **Citation checks.** Every quotation is verified against its cited source paragraph. Unverifiable findings are withheld and counted, never repaired.
-- **Failures found and fixed, with the failed outputs kept.** A one-day change in receivable collection (43 days against 42) was marked as a weakened assumption until each assumption's own review criterion from the memo was supplied to the model. An industry report was first attributed to every assumption and clause. A remediation report was first read as a new detection until earlier covenant findings were supplied so a finding could be marked as not new. Empty responses were traced to the reasoning budget (finish reason `length`) and are now retried with the budget recorded.
-- **Failures shown, not hidden.** Reviewer notes sit beside the original model wording wherever it misread a deadline, a threshold or a scope. The benchmark reports a result that does not favor the project.
+- **Failures found and fixed during development, with the failed outputs kept.** A one-day change in receivable collection (43 days against 42) was marked as a weakened assumption until each assumption's own review criterion from the memo was supplied to the model. An industry report was first attributed to every assumption and clause. A remediation report was first read as a new detection until earlier covenant findings were supplied so a finding could be marked as not new. Empty responses were traced to the reasoning budget (finish reason `length`) and are now retried with the budget recorded.
+- **Upload failures found on the Duolingo agreement and fixed in code, not in the prompt.** The model mistyped the 32-character document id in 10 of 11 clauses, so a clause is now located by its verbatim start anchor, which must occur exactly once. It stopped a sentence or two early in 7 of 11 clauses, so a clause runs to the end of its paragraph. One clause was given another's ending and swallowed two neighbours, so a clause stops where the next verified clause begins. Pointing with reasoning off took 13 seconds against 55 to 257 with it on.
+- **Failures shown, not hidden.** A report whose analysis fails stays in the history marked as failed. A package comparison that returned no material drift after a severe event is shown as it came back. The benchmark reports a result that does not favor the project.
 
 ## Data and track notes
 
-- **FluxRail and the 30-company portfolio are synthetic.** No real account numbers, credentials or financial records.
-- **The Crocs scenario uses a real company name and sourced business background with entirely synthetic financial inputs, terms and events.** The Compound rule excludes real financial records; none is used. Using a real company name is a presentation choice and is not a claim of track eligibility.
+- **The 30-company portfolio is synthetic.** No real account numbers, credentials or financial records.
+- **The demo document sets use real company names (Duolingo, Planet Fitness, YETI) and public business background, including each company's public FY2025 annual report, with entirely synthetic loan terms, financial inputs, reports and events.** The annual report is a real public filing and contains the company's real financial statements; it is uploaded as company background only, and the sets' own rule is that real company financials are never substituted into the fictional loan. Using a real company name is a presentation choice and is not a claim of track eligibility.
 - **The benchmark uses real public SEC filings**, fetched from sec.gov with content hashes and SEC acceptance timestamps in each case's `manifest.json`. The SEC permits reuse of public filings. Reconstructed assumptions and candidate packages are hypothetical. Actual amendments are historical evidence of what a lender did, not recommendations. No endorsement by any company, lender or the SEC is implied.
-- The Compound track requires synthetic or sandbox data. The FluxRail demo meets that; the real-company benchmark does not and is presented as a separate evaluation, in line with the Xtract track's public-source allowance.
+- The Compound track requires synthetic or sandbox data. The demo's loans, figures and reports are synthetic, and a run that leaves out the annual report uses authored documents only; the real-company benchmark is not synthetic and is presented as a separate evaluation, in line with the Xtract track's public-source allowance.
 
 ## Limits
 
-This is a local, single-user hackathon build, not a production monitoring service. Evidence for the demo is synthetic and limited. There is no demonstrated real-world accuracy, analyst time saving or loss reduction. Amendment instruments in the demo were authored, not generated. Nemotron may know the real companies' outcomes from pretraining; hiding later filings does not remove that.
+This is a local, single-user hackathon build, not a production monitoring service. Evidence for the demo is synthetic and limited. There is no demonstrated real-world accuracy, analyst time saving or loss reduction. Amendments in the demo are written by the analyst in the workspace, not generated. The sample reports were authored for the demo, and the prepared workspaces hold one model run per report. Nemotron may know the real companies' outcomes from pretraining; hiding later filings does not remove that.
 
 ## Repository map
 
 | Path | Contents |
 |---|---|
-| `realitycheck/` | The application, model code, tests, FluxRail seed and report library, benchmark runner and results. See `realitycheck/README.md` for routes and data flow |
+| `realitycheck/` | The application, model code, upload pipeline, tests, benchmark runner and results. `realitycheck/README.md` has routes and data flow, and still describes two earlier curated scenarios that the app no longer serves |
+| `Sample Companies/` | The Duolingo, Planet Fitness and YETI document sets uploaded in the demo, each with a presenter guide, editable Markdown sources and public source links |
 | `real-credit-cases/` | Real-company source packets: fetch, extract and build scripts, manifests, blind inputs, exclusion logs, and the evaluator collection that is never given to the model |
-| `hypothetical-scenarios/` | The Crocs scenario: sourced 10-K context, the generator that authors and checks the fictional packet, and the packet itself |
+| `hypothetical-scenarios/` | Generator and packet for an earlier curated scenario, kept for the record and not served by the app |
 | `synthetic-credit-portfolio/` | Thirty authored synthetic borrower packages |
 | `RealityCheck-Current-Status.md` | Progress and handoff record, including what is not done |
 | `RealityCheck-Benchmark-Testing-Plan.md` | Benchmark design, execution record and first results |
