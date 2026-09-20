@@ -61,6 +61,26 @@ class DriftTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.candidate(self.response([]), review_date='2023-05-09')
 
+    def test_reports_are_not_buried_under_a_filing_or_mistaken_for_later_events(self):
+        from unittest.mock import patch
+        origin = copy.deepcopy(b01_model.load_origination('R02'))
+        origin['sources'] += [{'document_id': 'FILING', 'locator': 'p1', 'text': 'Annual report risk factors. ' * 400, 'role': '10k'},
+                              {'document_id': 'MEMO', 'locator': 'p1', 'text': 'Underwriting memo.', 'role': 'memo'}]
+        sent = {}
+        def completion(system, user):
+            sent.update(system=system, payload=__import__('json').loads(user))
+            return self.response([], judgment='no_material_drift')
+        report = {**self.report, 'title': 'Q1 results', 'available_at': '2023-05-10'}
+        with patch.object(b01_model, 'load_origination', return_value=origin):
+            drift.generate_candidate('R02', self.profile, self.version, [report], mode='updated', review_date='2023-05-10',
+                                     api_key='', model='test', completion=completion)
+        ids = [e['document_id'] for e in sent['payload']['evidence']]
+        self.assertNotIn('FILING', ids)   # a whole annual filing is background, 15 times the size of every report together
+        self.assertIn('MEMO', ids)
+        supplied = next(e for e in sent['payload']['evidence'] if e['document_id'] == 'TEST-PR')
+        self.assertEqual((supplied['report'], supplied['available_to_lender']), ('Q1 results', '2023-05-10'))
+        self.assertIn('available to the lender by the review date', sent['system'])
+
     def test_invalid_judgment_is_an_error(self):
         result = self.candidate(self.response([], judgment='severe'))
         self.assertEqual(result['engine'], 'unavailable')

@@ -20,7 +20,9 @@ ACTIONS = {'retain', 'modify', 'add'}
 JUDGMENTS = {'material_drift', 'no_material_drift', 'insufficient_evidence'}
 # 0.1: first runs. 0.2: current package stated to be in force; drift judgment must be backed by a validated change.
 # 0.3: each change states its direction; clause text is supplied once as the package, not again as evidence.
-PROMPT_VERSION = '0.3'
+# 0.4: an annual filing is left out of the evidence and each report states when the lender had it (measured 2026-09-20 on an uploaded Duolingo workspace:
+# a 472,000-character 10-K ahead of 31,000 characters of reports, whose text was dated after the review date, gave no_material_drift through a shutdown and a cash-floor breach).
+PROMPT_VERSION = '0.4'
 DIRECTIONS = {'tighten', 'loosen', 'add_protection', 'other'}
 
 
@@ -32,6 +34,8 @@ def _system(guidelines):
         'The current package is already in force, including any amendment or waiver it describes. Never propose a change the current package already contains, '
         'and do not treat a report that merely describes an amendment already reflected in the current package as evidence for a new change. '
         'Only conditions that have emerged since, and that the current package does not already address, can justify a change. '
+        'Every supplied evidence entry was available to the lender by the review date, whatever periods or dates its text mentions; an entry carrying report and available_to_lender is a borrower or market report received after origination. '
+        'Weigh every such report, the most recent most heavily. '
         'For every supplied clause return one entry with action retain or modify. You may also return add entries for a new protection. '
         'A modify or add entry needs: change_type from the allowed list, direction (tighten, loosen, add_protection or other), a short description of the substantive change, the affected assumption IDs, a rationale, '
         'and one or two evidence quotes. A quote is a single contiguous verbatim span of at most 30 words from exactly one supplied evidence entry, cited with its exact document_id and locator, with no ellipsis. '
@@ -56,12 +60,15 @@ def generate_candidate(borrower_id, profile, package_version, reports, *, mode, 
     evidence = [s for s in origin['sources'] if (s['document_id'], s['locator']) not in clause_sources]
     # Synthetic packages keep the whole agreement in two origination files. The operative clauses already arrive as current_package.
     evidence = [s for s in evidence if s['document_id'] not in ('credit-agreement.md', 'contract-record.json')]
+    # An uploaded annual filing is company background for the profile. Here it would be 15 times the size of every report together and bury them.
+    evidence = [s for s in evidence if s.get('role') != '10k']
     if mode == 'updated':
         for report in reports:
             # Only reports public by the review date may inform the candidate.
             if report['available_at'] > review_date:
                 raise ValueError(report['id'] + ' was not available by the review date')
-            evidence += [{'document_id': s['document_id'], 'locator': s['locator'], 'text': s['text']} for s in report['sources']]
+            evidence += [{'document_id': s['document_id'], 'locator': s['locator'], 'report': report.get('title', report['id']),
+                          'available_to_lender': report['available_at'], 'text': s['text']} for s in report['sources']]
     source_map = {(s['document_id'], s['locator']): s['text'] for s in evidence}
     clauses = [{'clause_id': c['id'], 'title': c['title'], 'section': c.get('section'), 'text': c['clause']} for c in package_version['clauses']]
     clause_ids = {c['clause_id'] for c in clauses}

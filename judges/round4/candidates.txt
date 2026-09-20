@@ -1,7 +1,0 @@
-D1|Detect when labels drift from actual holdings.
-D2|Detect when exposure drifts from stated identity.
-D3|Detect when a fund's exposure drifts from its label.
-D4|Detect when holdings drift from their labeled identity.
-D5|Detect when labeled exposure drifts from actual holdings.
-D6|Detect when a fund's identity drifts from its label.
-D7|Detect when a holding's identity drifts from its label.
